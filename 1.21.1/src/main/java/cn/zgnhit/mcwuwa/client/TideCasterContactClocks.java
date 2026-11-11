@@ -1,0 +1,50 @@
+package cn.zgnhit.mcwuwa.client;
+import java.util.Map;
+/** Retained combat catalogue; persistent flight and jellyfish excluded. */
+final class TideCasterContactClocks {
+    record Clock(int duration,int... hits){}
+    static final Map<String,Clock> ALL=Map.ofEntries(
+        Map.entry("phoebe/heavy",new Clock(26,7,12,17,22)),
+        Map.entry("phoebe/air",new Clock(24,6,20)),
+        Map.entry("phoebe/dodge_counter",new Clock(20,4,6,7,9,11,13,14,16)),
+        Map.entry("phoebe/ring_counter",new Clock(24,6,9,12,14,17,20)),
+        Map.entry("phoebe/skill",new Clock(26,6,22)),
+        Map.entry("phoebe/skill_teleport",new Clock(26,6,22)),
+        Map.entry("phoebe/refraction",new Clock(24,6,20)),
+        Map.entry("phoebe/ring_basic_01",new Clock(12,3)),
+        Map.entry("phoebe/ring_basic_02",new Clock(16,4,12)),
+        Map.entry("phoebe/ring_basic_03",new Clock(24,6,9,12,14,17,20)),
+        Map.entry("phoebe/intro",new Clock(24,5)),
+        Map.entry("phoebe/absolution",new Clock(24,6)),
+        Map.entry("phoebe/confession",new Clock(24,6)),
+        Map.entry("phoebe/heavy_starlight",new Clock(26,7,14,22)),
+        Map.entry("cantarella/heavy",new Clock(26,7,22)),
+        Map.entry("cantarella/heavy_mirage",new Clock(30,7,22)),
+        Map.entry("cantarella/air",new Clock(24,6,20)),
+        Map.entry("cantarella/dodge_counter",new Clock(20,4,8,12,16)),
+        Map.entry("cantarella/skill",new Clock(26,6,22)),
+        Map.entry("cantarella/skill_dream",new Clock(26,6)),
+        Map.entry("cantarella/awaken",new Clock(24,6)),
+        Map.entry("cantarella/intro",new Clock(24,5,10,15,20)),
+        Map.entry("cantarella/mirage_intro",new Clock(24,6,11,15,20)),
+        Map.entry("cantarella/mirage_basic_01",new Clock(14,3,6,10)),
+        Map.entry("cantarella/mirage_basic_02",new Clock(18,4,14)),
+        Map.entry("cantarella/mirage_basic_03",new Clock(24,6,11,15,20)),
+        Map.entry("cantarella/mirage_air",new Clock(24,6,20)),
+        Map.entry("cantarella/skill_drain",new Clock(26,6,22)),
+        Map.entry("cantarella/mirage_counter",new Clock(24,6,13,20)),
+        Map.entry("suisui/air",new Clock(24,6)),
+        Map.entry("suisui/dodge_counter",new Clock(20,4,10,16)),
+        Map.entry("suisui/skill",new Clock(26,6,9,12,16,19,22)),
+        Map.entry("suisui/skill_awaken",new Clock(26,6)),
+        Map.entry("suisui/rain_skill",new Clock(24,6,8,11,13,15,18,20)),
+        Map.entry("suisui/intro",new Clock(24,5)),
+        Map.entry("suisui/rain_basic_01",new Clock(14,3,5,8,10)),
+        Map.entry("suisui/rain_basic_02",new Clock(18,4,6,7,9,11,12,14)),
+        Map.entry("suisui/rain_basic_03",new Clock(24,6,7,9,10,11,12,14,15,16,17,19,20)),
+        Map.entry("suisui/rain_basic_04",new Clock(28,7)),
+        Map.entry("suisui/rain_heavy",new Clock(26,7,8,10,12,13,14,16,18,19,20,22)),
+        Map.entry("suisui/rain_descent_hold",new Clock(24,6)),
+        Map.entry("suisui/rain_descent",new Clock(24,6)));
+    private TideCasterContactClocks(){}
+}

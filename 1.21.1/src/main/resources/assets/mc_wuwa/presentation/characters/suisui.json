@@ -1,0 +1,1581 @@
+{
+  "schemaVersion": 1,
+  "characterId": "suisui",
+  "weaponId": "mc_wuwa:firstlights_herald",
+  "palette": [
+    152,
+    222,
+    193
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1110",
+    "data-source/nanoka/3.7/zh/character/1110.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:suisui/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:suisui/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:suisui/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCasterBasics": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Continuous connected-joint MC adaptation of observed staff/umbrella/fan sweeps; original promotional cuts do not establish frame-exact input boundaries. Combat timing and approved held geometry retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:suisui/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:suisui/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCasterBasics": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Continuous connected-joint MC adaptation of observed staff/umbrella/fan sweeps; original promotional cuts do not establish frame-exact input boundaries. Combat timing and approved held geometry retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:suisui/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:suisui/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCasterBasics": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Continuous connected-joint MC adaptation of observed staff/umbrella/fan sweeps; original promotional cuts do not establish frame-exact input boundaries. Combat timing and approved held geometry retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:suisui/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:suisui/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCasterBasics": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Continuous connected-joint MC adaptation of observed staff/umbrella/fan sweeps; original promotional cuts do not establish frame-exact input boundaries. Combat timing and approved held geometry retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:suisui/heavy/tp",
+      "firstPersonClip": "mc_wuwa:suisui/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:suisui/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:suisui/air/tp",
+      "firstPersonClip": "mc_wuwa:suisui/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:suisui/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:suisui/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:suisui/skill/tp",
+      "firstPersonClip": "mc_wuwa:suisui/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:suisui/liberation/tp",
+      "firstPersonClip": "mc_wuwa:suisui/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7755,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 115,
+        "hitTimesTicks": [],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.22
+          ],
+          [
+            0.25,
+            0.45
+          ],
+          [
+            0.52,
+            0.65
+          ],
+          [
+            0.82,
+            0.9
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/tide-roles/suisui-3.gif",
+        "observedActiveSeconds": [
+          0,
+          5.75
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/tide-roles/suisui-3.gif",
+        "scope": "Complete original GIF, every quarter-second timeline page reviewed; independent FP and connected body fit; no forced camera",
+        "acceptance": "native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:suisui/intro/tp",
+      "firstPersonClip": "mc_wuwa:suisui/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:suisui/outro/tp",
+      "firstPersonClip": "mc_wuwa:suisui/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:suisui/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:suisui/echo/tp",
+      "firstPersonClip": "mc_wuwa:suisui/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:suisui/skill_awaken",
+      "stateVariant": "skill_awaken",
+      "thirdPersonClip": "mc_wuwa:suisui/skill_awaken/tp",
+      "firstPersonClip": "mc_wuwa:suisui/skill_awaken/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_skill",
+      "stateVariant": "rain_skill",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_skill/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_basic_01",
+      "stateVariant": "rain_basic_01",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_basic_02",
+      "stateVariant": "rain_basic_02",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_basic_03",
+      "stateVariant": "rain_basic_03",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_basic_04",
+      "stateVariant": "rain_basic_04",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_heavy",
+      "stateVariant": "rain_heavy",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_heavy/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_descent_hold",
+      "stateVariant": "rain_descent_hold",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_descent_hold/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_descent_hold/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/rain_descent",
+      "stateVariant": "rain_descent",
+      "thirdPersonClip": "mc_wuwa:suisui/rain_descent/tp",
+      "firstPersonClip": "mc_wuwa:suisui/rain_descent/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousCasterSkills": {
+        "source": "docs/reference/tide-combat-motion/suisui-full-timeline.json",
+        "scope": "Retained source-observed staff, umbrella and fan gestures with continuous joint curves. Promotional montage and contact sheets do not establish frame-exact input boundaries. Gameplay clocks, held models and liberation clips unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:suisui/cloud_dodge",
+      "stateVariant": "cloud_dodge",
+      "thirdPersonClip": "mc_wuwa:suisui/cloud_dodge/tp",
+      "firstPersonClip": "mc_wuwa:suisui/cloud_dodge/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1110",
+        "data-source/nanoka/3.7/zh/character/1110.json",
+        "plan.md#24"
+      ]
+    }
+  ]
+}

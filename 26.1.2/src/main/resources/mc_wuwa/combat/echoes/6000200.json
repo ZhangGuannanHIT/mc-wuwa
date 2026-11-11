@@ -1,0 +1,150 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28004001",
+      "kind": "echo",
+      "multiplier": 2.736,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 380,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "related_property": "攻击",
+        "tough_lv": 15200,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.557630826182063,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤【骗术师】，对敌人造成273.60%的热熔伤害。\n在此后15秒内，若自身施放延奏技能，使下一个变奏技能登场的角色热熔伤害加成提升12.00%，持续15秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "共鸣回响·达妮娅",
+  "parameters": [
+    "273.60%",
+    "15",
+    "12.00%",
+    "15",
+    "20"
+  ],
+  "raw": {
+    "code": "Z05-",
+    "group": {
+      "28": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA2.T_IconElementAttriFireA2",
+        "id": 28,
+        "name": "斑驳粉饰之沫",
+        "set": {
+          "2": {
+            "desc": "热熔伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【聚爆效应】时，自身获得下述效果：热熔伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色热熔伤害提升{2}，持续{3}秒。",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34028_1_UI.T_IconMonsterHead_34028_1_UI",
+    "id": 6000200,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000281,
+    "name": "共鸣回响·达妮娅",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28004001": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 380,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            15200,
+            18240,
+            21280,
+            24320,
+            27360
+          ],
+          "related_property": "攻击",
+          "tough_lv": 15200,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤【骗术师】，对敌人造成{0}的热熔伤害。\n在此后{1}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色热熔伤害加成提升{2}，持续{3}秒。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34028_UI.T_MstSkil_34028_UI",
+      "param": [
+        [
+          "152.00%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "182.40%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "212.80%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "243.20%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "273.60%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤【骗术师】，对敌人造成热熔伤害，并使下一个变奏技能登场的角色热熔伤害提升。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000200
+}

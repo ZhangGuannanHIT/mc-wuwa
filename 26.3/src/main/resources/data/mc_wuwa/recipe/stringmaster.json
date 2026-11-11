@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " R ",
+    "ICI",
+    " R "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "I": "minecraft:iron_ingot",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:stringmaster",
+    "count": 1
+  }
+}

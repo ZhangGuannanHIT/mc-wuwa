@@ -1,0 +1,1540 @@
+{
+  "schemaVersion": 1,
+  "characterId": "zani",
+  "weaponId": "mc_wuwa:blazing_justice",
+  "palette": [
+    245,
+    174,
+    86
+  ],
+  "sourceEvidence": [
+    "docs/reference/new-five-20261023/zani-full-text.md"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:zani/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:zani/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:zani/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:zani/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:zani/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:zani/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:zani/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:zani/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:zani/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/breakthrough",
+      "stateVariant": "breakthrough",
+      "thirdPersonClip": "mc_wuwa:zani/breakthrough/tp",
+      "firstPersonClip": "mc_wuwa:zani/breakthrough/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:zani/heavy/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:zani/air/tp",
+      "firstPersonClip": "mc_wuwa:zani/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:zani/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:zani/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:zani/skill/tp",
+      "firstPersonClip": "mc_wuwa:zani/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/precise_counter",
+      "stateVariant": "precise_counter",
+      "thirdPersonClip": "mc_wuwa:zani/precise_counter/tp",
+      "firstPersonClip": "mc_wuwa:zani/precise_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/suppression",
+      "stateVariant": "suppression",
+      "thirdPersonClip": "mc_wuwa:zani/suppression/tp",
+      "firstPersonClip": "mc_wuwa:zani/suppression/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/breach_counter",
+      "stateVariant": "breach_counter",
+      "thirdPersonClip": "mc_wuwa:zani/breach_counter/tp",
+      "firstPersonClip": "mc_wuwa:zani/breach_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:zani/liberation/tp",
+      "firstPersonClip": "mc_wuwa:zani/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/finale",
+      "stateVariant": "finale",
+      "thirdPersonClip": "mc_wuwa:zani/finale/tp",
+      "firstPersonClip": "mc_wuwa:zani/finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:zani/intro/tp",
+      "firstPersonClip": "mc_wuwa:zani/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy_dawn",
+      "stateVariant": "heavy_dawn",
+      "thirdPersonClip": "mc_wuwa:zani/heavy_dawn/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy_dawn/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy_day",
+      "stateVariant": "heavy_day",
+      "thirdPersonClip": "mc_wuwa:zani/heavy_day/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy_day/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy_night",
+      "stateVariant": "heavy_night",
+      "thirdPersonClip": "mc_wuwa:zani/heavy_night/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy_night/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy_flash",
+      "stateVariant": "heavy_flash",
+      "thirdPersonClip": "mc_wuwa:zani/heavy_flash/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy_flash/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zani/heavy_night_last",
+      "stateVariant": "heavy_night_last",
+      "thirdPersonClip": "mc_wuwa:zani/heavy_night_last/tp",
+      "firstPersonClip": "mc_wuwa:zani/heavy_night_last/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/zani-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "guardBladeObservation": {
+        "source": "docs/reference/tide-combat-motion/zani-full-timeline.json",
+        "scope": "Full official film and 176 quarter-second combat frames inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousGuardBladeSkills": {
+        "source": "docs/reference/tide-combat-motion/zani-combat-detail-timeline.json",
+        "scope": "All fifteen 35-78.75s sampled pages inspected; continuous guard, thrust, sweep and downstroke adaptation on retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

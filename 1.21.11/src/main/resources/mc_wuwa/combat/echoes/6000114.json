@@ -1,0 +1,198 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28002801",
+      "kind": "echo",
+      "multiplier": 0.8208,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 114,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          4560,
+          5472,
+          6384,
+          7296,
+          8208
+        ],
+        "related_property": "攻击",
+        "tough_lv": 4560,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.7672892478546188,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28002802",
+      "kind": "echo",
+      "multiplier": 1.9152,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 266,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          10640,
+          12768,
+          14896,
+          17024,
+          19152
+        ],
+        "related_property": "攻击",
+        "tough_lv": 10640,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.7903415783274441,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤【荣光之戟】，对周围敌人造成82.08%的热熔伤害，一定时间后再造成191.52%的热熔伤害。\n在首位装配该声骸技能时，自身热熔伤害加成提升12.00%，共鸣解放伤害加成提升12.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "荣耀狮像",
+  "parameters": [
+    "82.08%",
+    "191.52%",
+    "12.00%",
+    "12.00%",
+    "20"
+  ],
+  "raw": {
+    "code": "W85-",
+    "group": {
+      "18": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireUltimateSkill.T_IconElementAttriFireUltimateSkill",
+        "id": 18,
+        "name": "奔狼燎原之焰",
+        "set": {
+          "2": {
+            "desc": "热熔伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "施放共鸣解放时，队伍中角色热熔伤害提升{0}，自身共鸣解放伤害提升{1}，持续{2}秒。",
+            "param": [
+              "15%",
+              "20%",
+              "35"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33022_UI.T_IconMonsterHead_33022_UI",
+    "id": 6000114,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 340000140,
+    "name": "荣耀狮像",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28002801": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 114,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            4560,
+            5472,
+            6384,
+            7296,
+            8208
+          ],
+          "related_property": "攻击",
+          "tough_lv": 4560,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28002802": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 266,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            10640,
+            12768,
+            14896,
+            17024,
+            19152
+          ],
+          "related_property": "攻击",
+          "tough_lv": 10640,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤【荣光之戟】，对周围敌人造成{0}的热熔伤害，一定时间后再造成{1}的热熔伤害。\n在首位装配该声骸技能时，自身热熔伤害加成提升{2}，共鸣解放伤害加成提升{3}。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_33022_UI.T_MstSkil_33022_UI",
+      "param": [
+        [
+          "45.60%",
+          "106.40%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "54.72%",
+          "127.68%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "63.84%",
+          "148.96%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "72.96%",
+          "170.24%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "82.08%",
+          "191.52%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ]
+      ],
+      "simple_desc": "使用声骸技能，召唤【荣光之戟】，对周围敌人造成热熔伤害。\n在首位装配时，提高自身热熔和共鸣解放伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000114
+}

@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/frame_signature_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/frame_signature_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/frame_signature_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/frame_signature_display"
+    }
+  }
+}

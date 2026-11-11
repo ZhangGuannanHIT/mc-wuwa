@@ -1,0 +1,925 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "jinhsi/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "66.47%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6647,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304002001"
+        },
+        {
+          "count": 3,
+          "damageId": "1304002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        11,
+        14
+      ],
+      "id": "jinhsi/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "38.99%+19.50%*3",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.9749,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1304003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304003003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "jinhsi/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "10.65%*7+31.94%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.0649,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304004001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304004002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        18
+      ],
+      "id": "jinhsi/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "63.09%+94.63%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.5772,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1304100001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304100101"
+        },
+        {
+          "count": 1,
+          "damageId": "1304100102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        22
+      ],
+      "id": "jinhsi/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.86%*5+35.79%+83.51%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 2.386,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304006001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304006002"
+        },
+        {
+          "count": 1,
+          "damageId": "1304006003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "jinhsi/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "12.33%+24.66%+86.29%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.2328,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1304600001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304600003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        14,
+        16
+      ],
+      "id": "jinhsi/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "14.68%*7+44.02%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.4678,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1304200001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304200005"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "jinhsi/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "19.46%*4+77.84%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.5568,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1304200010"
+        },
+        {
+          "count": 4,
+          "damageId": "1304200014"
+        },
+        {
+          "count": 1,
+          "damageId": "1304200018"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "id": "jinhsi/skill_overflowing",
+      "name": "神霓飞芒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "enhanced",
+      "sourceFormula": "9.87%*4+29.59%*4+39.45%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 1.9729,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 100,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304300001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304300003"
+        }
+      ],
+      "hitTimesTicks": [
+        50,
+        80
+      ],
+      "id": "jinhsi/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "499.81%+1166.22%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Complete original skill card4 active0.5-5.5s: clasp, dragon reveal, first light3s, final flash4.5s, recovery5.5s; sampled MC fit, not frame-exact.",
+      "totalHitCount": 2,
+      "totalMultiplier": 16.6603,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304402001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "jinhsi/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "159.05%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5905,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304101002"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "jinhsi/incarnation_basic_01",
+      "name": "凌霄·普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "88.62%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8862,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304102001"
+        },
+        {
+          "count": 2,
+          "damageId": "1304102002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "jinhsi/incarnation_basic_02",
+      "name": "凌霄·普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "77.97%+25.99%+25.99%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.2995,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304103001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304103002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "jinhsi/incarnation_basic_03",
+      "name": "凌霄·普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "99.44%+66.30%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.6574,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1304104003"
+        },
+        {
+          "count": 1,
+          "damageId": "1304104004"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        9,
+        12,
+        14,
+        16,
+        18
+      ],
+      "id": "jinhsi/incarnation_basic_04",
+      "name": "凌霄·普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "18.67%*6+74.67%",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.8669,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304106001"
+        },
+        {
+          "count": 1,
+          "damageId": "1304106002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "jinhsi/incarnation_heavy",
+      "name": "凌霄·重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "47.72%+111.34%",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.5906,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304601001"
+        },
+        {
+          "count": 2,
+          "damageId": "1304601002"
+        },
+        {
+          "count": 1,
+          "damageId": "1304601003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "jinhsi/incarnation_counter",
+      "name": "凌霄·闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "43.89%+32.92%*2+109.71%",
+      "sourceNode": 7,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.1944,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304110001"
+        },
+        {
+          "count": 2,
+          "damageId": "1304110002"
+        },
+        {
+          "count": 1,
+          "damageId": "1304110003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "jinhsi/skill_crescent",
+      "name": "逐天取月技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "incarnation",
+      "sourceFormula": "100.76%+75.57%*2+251.90%",
+      "sourceNode": 7,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 5.038,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1304310001"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        16,
+        20,
+        24,
+        28,
+        32
+      ],
+      "id": "jinhsi/epiphany_rays",
+      "name": "惊龙破空·熠日伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "epiphany",
+      "sourceFormula": "19.89%*6",
+      "sourceNode": 7,
+      "sourceParameter": "8",
+      "timingEvidence": "BV1Kah4eREM6 public720p11.5-14.0s: skill rays and dragon discharge, followed by the final burst; R starts14.75s and is separate. Shared48-tick MC fit; six rays precede final, not frame-exact original timing.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.1934,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "jinhsi",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1304310003"
+        }
+      ],
+      "hitTimesTicks": [
+        42
+      ],
+      "id": "jinhsi/epiphany_final",
+      "name": "惊龙破空·炳星伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "epiphany",
+      "sourceFormula": "347.92%",
+      "sourceNode": 7,
+      "sourceParameter": "9",
+      "timingEvidence": "BV1Kah4eREM6 public720p11.5-14.0s: skill rays and dragon discharge, followed by the final burst; R starts14.75s and is separate. Shared48-tick MC fit; six rays precede final, not frame-exact original timing.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.4792,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "ages_of_harvest"
+    }
+  ],
+  "schemaVersion": 1
+}

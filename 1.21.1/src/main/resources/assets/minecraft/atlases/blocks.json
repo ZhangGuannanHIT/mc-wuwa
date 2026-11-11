@@ -1,0 +1,489 @@
+{
+  "sources": [
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/aleph_one"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/allay/allay"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/armadillo",
+      "sprite": "minecraft:entity/armadillo/armadillo"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/axolotl/axolotl_lucy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bat",
+      "sprite": "minecraft:entity/bat/bat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bear/polarbear"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/bee/bee"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/blaze",
+      "sprite": "minecraft:entity/blaze/blaze"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/breeze/breeze"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/camel/camel"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/cat/tabby",
+      "sprite": "minecraft:entity/cat/cat_tabby"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/cat/ocelot"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/chicken",
+      "sprite": "minecraft:entity/chicken/chicken_temperate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/cow/cow",
+      "sprite": "minecraft:entity/cow/cow_temperate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/cow/red_mooshroom",
+      "sprite": "minecraft:entity/cow/mooshroom_red"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/creeper/creeper"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/dolphin",
+      "sprite": "minecraft:entity/dolphin/dolphin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/enderdragon/dragon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/enderman/enderman"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/endermite",
+      "sprite": "minecraft:entity/endermite/endermite"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fish/cod"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fish/pufferfish"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fish/salmon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fish/tropical_a"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/fox/fox"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/frog/temperate_frog",
+      "sprite": "minecraft:entity/frog/frog_temperate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/ghast/ghast"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/goat/goat"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/guardian",
+      "sprite": "minecraft:entity/guardian/guardian"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/guardian_elder",
+      "sprite": "minecraft:entity/guardian/guardian_elder"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/hoglin/hoglin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/hoglin/zoglin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/horse/donkey"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/horse/horse_brown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/horse/horse_skeleton"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/horse/horse_zombie"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/horse/mule"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/evoker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/illusioner"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/pillager"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/ravager"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/vex"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/illager/vindicator"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/iron_golem/iron_golem"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/llama/creamy",
+      "sprite": "minecraft:entity/llama/llama_creamy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/panda/panda"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/parrot/parrot_blue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/phantom",
+      "sprite": "minecraft:entity/phantom/phantom"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/pig/pig",
+      "sprite": "minecraft:entity/pig/pig_temperate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/piglin/piglin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/piglin/piglin_brute"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/piglin/zombified_piglin"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/rabbit/brown",
+      "sprite": "minecraft:entity/rabbit/rabbit_brown"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/sheep/sheep"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/shulker/shulker",
+      "sprite": "mc_wuwa:echo_faces/shulker"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/silverfish",
+      "sprite": "minecraft:entity/silverfish/silverfish"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/skeleton/bogged"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/skeleton/skeleton"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/skeleton/stray"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/skeleton/wither_skeleton"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/slime/magmacube"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/slime/slime"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/sniffer/sniffer"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/snow_golem",
+      "sprite": "minecraft:entity/snow_golem/snow_golem"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/spider/cave_spider"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/spider/spider"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/squid/glow_squid"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/squid/squid"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/strider/strider"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/tadpole/tadpole"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/turtle/big_sea_turtle",
+      "sprite": "minecraft:entity/turtle/turtle"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/warden/warden"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/witch",
+      "sprite": "minecraft:entity/witch/witch"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wither/wither"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/wolf/wolf"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/zombie/drowned"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/zombie/husk"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/zombie/zombie"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "minecraft:entity/zombie_villager/zombie_villager"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_heron"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/jue_dragon"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_crownless"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_hecate"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_hyvatia"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_furnace"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:entity/echo_sigillum"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/signature_white"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/luminous_hymn"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/firstlights_herald"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/whispers_of_sirens"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/luminous_hymn_alloy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/luminous_hymn_crystal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/luminous_hymn_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/firstlights_herald_alloy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/firstlights_herald_crystal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/firstlights_herald_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/firstlights_herald_paint"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/whispers_of_sirens_alloy"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/whispers_of_sirens_crystal"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/whispers_of_sirens_gold"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/the_last_dance"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/blazing_brilliance"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/forged_dwarf_star"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/forged_dwarf_star_surface"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/glint_of_clouds"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/wildfire_mark"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/moongazers_sigil"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/moongazers_sigil_surface"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/blazing_justice"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/blazing_justice_shell"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/blazing_justice_ivory"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/blazing_justice_brushed"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/unspoken_rue"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/frame_signature"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/frame_signature_projection"
+    },
+    {
+      "type": "minecraft:single",
+      "resource": "mc_wuwa:item/thunderflare_dominion"
+    }
+  ]
+}

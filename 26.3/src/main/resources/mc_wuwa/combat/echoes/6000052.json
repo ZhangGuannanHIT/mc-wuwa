@@ -1,0 +1,189 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28001001",
+      "kind": "echo",
+      "multiplier": 0.5572,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 87,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3483,
+          4005,
+          4527,
+          5050,
+          5572
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3483,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.5860676426047451,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28001002",
+      "kind": "echo",
+      "multiplier": 3.1056,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 485,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          19410,
+          22321,
+          25233,
+          28144,
+          31056
+        ],
+        "related_property": "攻击",
+        "tough_lv": 19410,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 3.266027258960121,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为无常凶鹭，起飞后下砸，造成310.56%的湮灭伤害；\n长按声骸技能，持续幻形，起飞后向下倾泻湮灭火炎，每段攻击造成55.73%的湮灭伤害。\n幻形后首次命中敌人，回复自身10点共鸣能量；在此后15秒内，若自身施放延奏技能，则可使下一个变奏登场的角色伤害提升12%，持续15秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "无常凶鹭",
+  "parameters": [
+    "310.56%",
+    "55.73%",
+    "20"
+  ],
+  "raw": {
+    "code": "H72-",
+    "group": {
+      "8": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCloud.T_IconElementAttriCloud",
+        "id": 8,
+        "name": "轻云出月",
+        "set": {
+          "2": {
+            "desc": "共鸣效率提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "使用延奏技能后，下一个登场的共鸣者攻击提升22.5%，持续15秒",
+            "param": [
+              "22.5%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_995_UI.T_IconMonsterHead_995_UI",
+    "id": 6000052,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 330000030,
+    "name": "无常凶鹭",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_1014_UI.T_IconMonsterHead_1014_UI",
+      "name": "异相·无常凶鹭"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28001001": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 87,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3483,
+            4005,
+            4527,
+            5050,
+            5572
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3483,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28001002": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 485,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            19410,
+            22321,
+            25233,
+            28144,
+            31056
+          ],
+          "related_property": "攻击",
+          "tough_lv": 19410,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为无常凶鹭，起飞后下砸，造成{0}的湮灭伤害；\n长按声骸技能，持续幻形，起飞后向下倾泻湮灭火炎，每段攻击造成{1}的湮灭伤害。\n幻形后首次命中敌人，回复自身10点共鸣能量；在此后15秒内，若自身施放延奏技能，则可使下一个变奏登场的角色伤害提升12%，持续15秒。\n技能冷却：{2}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_995_UI.T_MstSkil_995_UI",
+      "param": [
+        [
+          "194.10%",
+          "34.83%",
+          "20"
+        ],
+        [
+          "223.22%",
+          "40.05%",
+          "20"
+        ],
+        [
+          "252.33%",
+          "45.28%",
+          "20"
+        ],
+        [
+          "281.45%",
+          "50.50%",
+          "20"
+        ],
+        [
+          "310.56%",
+          "55.73%",
+          "20"
+        ]
+      ],
+      "simple_desc": "幻形为无常凶鹭，起飞后下砸，造成湮灭伤害；长按声骸技能，飞起倾泻火炎造成湮灭伤害。\n攻击命中后回复自身共鸣能量并为下一个变奏登场的角色附加伤害提升效果。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000052
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " II",
+    " CI",
+    "R  "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "C": "mc_wuwa:core",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "mc_wuwa:unspoken_rue",
+    "count": 1
+  }
+}

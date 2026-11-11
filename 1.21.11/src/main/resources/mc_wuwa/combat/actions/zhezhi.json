@@ -1,0 +1,844 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110500101"
+        },
+        {
+          "count": 1,
+          "damageId": "110500102"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "zhezhi/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.76%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.8352,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110500203"
+        },
+        {
+          "count": 2,
+          "damageId": "110500204"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        10,
+        13,
+        16
+      ],
+      "id": "zhezhi/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "20.55%*5",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.0275,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110500302"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "zhezhi/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "133.61%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.3361,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110501101"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "zhezhi/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "112.72%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.1272,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110500703"
+        },
+        {
+          "count": 2,
+          "damageId": "110500704"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        5,
+        6,
+        8,
+        10
+      ],
+      "id": "zhezhi/air_basic_01",
+      "name": "空中普攻第一段",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "24.95%*5",
+      "sourceNode": 1,
+      "sourceParameter": "air_first",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.2475,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110500402"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "zhezhi/air_basic_02",
+      "name": "空中普攻第二段",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "104.78%",
+      "sourceNode": 1,
+      "sourceParameter": "air_last",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0478,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110500503"
+        },
+        {
+          "count": 2,
+          "damageId": "110500504"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        10,
+        13,
+        16
+      ],
+      "id": "zhezhi/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "29.07%*5",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.4535,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110510101"
+        },
+        {
+          "count": 1,
+          "damageId": "110510102"
+        },
+        {
+          "count": 1,
+          "damageId": "110510103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "zhezhi/skill",
+      "name": "短按技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "98.42%*3",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.9526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110510201"
+        },
+        {
+          "count": 1,
+          "damageId": "110510202"
+        },
+        {
+          "count": 1,
+          "damageId": "110510203"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "zhezhi/skill_hold",
+      "name": "长按技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "98.42%*3",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.9526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110510101"
+        },
+        {
+          "count": 1,
+          "damageId": "110510102"
+        },
+        {
+          "count": 1,
+          "damageId": "110510103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "zhezhi/skill_air",
+      "name": "空中短按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "98.42%*3",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.9526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [],
+      "hitTimesTicks": [],
+      "id": "zhezhi/liberation",
+      "name": "虚实境趣·召唤墨鹤",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "0%",
+      "sourceNode": 3,
+      "sourceParameter": "utility_cranes",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 0,
+      "totalMultiplier": 0.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110504002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "zhezhi/ink_crane",
+      "name": "墨鹤伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "65.21%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6521,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110504102"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "zhezhi/ink_crane_c5",
+      "name": "墨鹤·五链追加",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "91.30%",
+      "sourceNode": 3,
+      "sourceParameter": "extra_c5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.913,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110503004"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "zhezhi/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.16%*3",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.5848,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110501201"
+        },
+        {
+          "count": 1,
+          "damageId": "110501202"
+        },
+        {
+          "count": 1,
+          "damageId": "110501203"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "zhezhi/heavy_conjuration",
+      "name": "重击·构形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "83.01%*3",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.4903,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110511002"
+        }
+      ],
+      "hitTimesTicks": [
+        14
+      ],
+      "id": "zhezhi/skill_genius",
+      "name": "神来之笔伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "298.22%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.9822,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110511102"
+        }
+      ],
+      "hitTimesTicks": [
+        14
+      ],
+      "id": "zhezhi/skill_genius_air",
+      "name": "神来之笔伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "298.22%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.9822,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110511210"
+        }
+      ],
+      "hitTimesTicks": [
+        14,
+        19,
+        24
+      ],
+      "id": "zhezhi/skill_maestro",
+      "name": "极意·神来之笔伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "119.29%*3",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 3.5787,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110504202"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "zhezhi/white_crane_c6",
+      "name": "白鹤·六链追加",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "357.86%",
+      "sourceNode": 7,
+      "sourceParameter": "extra_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.5786,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zhezhi",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [],
+      "hitTimesTicks": [],
+      "id": "zhezhi/outro",
+      "name": "提白",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "0%",
+      "sourceNode": 8,
+      "sourceParameter": "utility_outro",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 0,
+      "totalMultiplier": 0.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "rime_draped_sprouts"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,2092 @@
+{
+  "schemaVersion": 1,
+  "characterId": "lynae",
+  "weaponId": "mc_wuwa:spectrum_blaster",
+  "palette": [
+    247,
+    219,
+    97
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1509",
+    "data-source/nanoka/3.7/zh/character/1509.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:lynae/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:lynae/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:lynae/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "body",
+        "head",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.195,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 0,
+        "endSeconds": 3.2,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 3,
+        "durationTicks": 10,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:lynae/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:lynae/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "body",
+        "head",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.160714,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 0,
+        "endSeconds": 3.2,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 10,
+        "durationTicks": 14,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:lynae/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:lynae/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "right_leg",
+        "left_leg",
+        "head",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1375,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 0,
+        "endSeconds": 3.2,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 4,
+        "durationTicks": 16,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:lynae/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:lynae/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "body",
+        "head",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3055,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 0,
+        "endSeconds": 3.2,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:lynae/heavy/tp",
+      "firstPersonClip": "mc_wuwa:lynae/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.309615,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 3.5,
+        "endSeconds": 5.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:lynae/air/tp",
+      "firstPersonClip": "mc_wuwa:lynae/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 15,
+        "endSeconds": 17.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:lynae/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:lynae/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.16,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/lynae-motion-pilot/full-showcase/part-0.mp4",
+        "startSeconds": 64,
+        "endSeconds": 66,
+        "scope": "BV1uzraB3ENC full479s239 samples reviewed;64--70s dense detail and256--282s slow replay; MC pose candidate, form separation inferred without HUD",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 4,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:lynae/skill/tp",
+      "firstPersonClip": "mc_wuwa:lynae/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.230769,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-1.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 3,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:lynae/liberation/tp",
+      "firstPersonClip": "mc_wuwa:lynae/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 3.0,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-2.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 4.5,
+        "scope": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact.",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 60,
+        "lastHitTick": 69,
+        "durationTicks": 80,
+        "scope": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:lynae/intro/tp",
+      "firstPersonClip": "mc_wuwa:lynae/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "head",
+        "pelvis",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "head",
+        "pelvis",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "introPhaseObservation": {
+        "source": "docs/reference/lynae-intro-detail/source.json",
+        "scope": "All50 frames of the archived official5s Intro Skill card reviewed: wheelie, backwards dismount, landing and bike departure. Adapted to retained24ticks/ten contacts; not an original exact-frame timing claim.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:lynae/outro/tp",
+      "firstPersonClip": "mc_wuwa:lynae/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:lynae/echo/tp",
+      "firstPersonClip": "mc_wuwa:lynae/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/chromatic_parade",
+      "stateVariant": "chromatic_parade",
+      "thirdPersonClip": "mc_wuwa:lynae/chromatic_parade/tp",
+      "firstPersonClip": "mc_wuwa:lynae/chromatic_parade/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/inspiration_collision",
+      "stateVariant": "inspiration_collision",
+      "thirdPersonClip": "mc_wuwa:lynae/inspiration_collision/tp",
+      "firstPersonClip": "mc_wuwa:lynae/inspiration_collision/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/phantom_leap",
+      "stateVariant": "phantom_leap",
+      "thirdPersonClip": "mc_wuwa:lynae/phantom_leap/tp",
+      "firstPersonClip": "mc_wuwa:lynae/phantom_leap/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 3,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/rainbow_splash",
+      "stateVariant": "rainbow_splash",
+      "thirdPersonClip": "mc_wuwa:lynae/rainbow_splash/tp",
+      "firstPersonClip": "mc_wuwa:lynae/rainbow_splash/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3625,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 3,
+        "endSeconds": 6.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 6,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/visual_impact",
+      "stateVariant": "visual_impact",
+      "thirdPersonClip": "mc_wuwa:lynae/visual_impact/tp",
+      "firstPersonClip": "mc_wuwa:lynae/visual_impact/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.277778,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 3,
+        "endSeconds": 6.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 10,
+        "lastHitTick": 10,
+        "durationTicks": 36,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/additive_mixing",
+      "stateVariant": "additive_mixing",
+      "thirdPersonClip": "mc_wuwa:lynae/additive_mixing/tp",
+      "firstPersonClip": "mc_wuwa:lynae/additive_mixing/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-1.gif",
+        "startSeconds": 6,
+        "endSeconds": 7.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/spectrum_analysis",
+      "stateVariant": "spectrum_analysis",
+      "thirdPersonClip": "mc_wuwa:lynae/spectrum_analysis/tp",
+      "firstPersonClip": "mc_wuwa:lynae/spectrum_analysis/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/colorful_tomorrow",
+      "stateVariant": "colorful_tomorrow",
+      "thirdPersonClip": "mc_wuwa:lynae/colorful_tomorrow/tp",
+      "firstPersonClip": "mc_wuwa:lynae/colorful_tomorrow/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/inspiration_1",
+      "stateVariant": "inspiration_1",
+      "thirdPersonClip": "mc_wuwa:lynae/inspiration_1/tp",
+      "firstPersonClip": "mc_wuwa:lynae/inspiration_1/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "conversionObservation": {
+        "source": "docs/reference/lynae-motion-pilot/timeline.json",
+        "scope": "Official card0 complete timeline reviewed; release silhouette4--5.5s. Three strength levels use MC display density, not three separately verified original clips.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/inspiration_2",
+      "stateVariant": "inspiration_2",
+      "thirdPersonClip": "mc_wuwa:lynae/inspiration_2/tp",
+      "firstPersonClip": "mc_wuwa:lynae/inspiration_2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "conversionObservation": {
+        "source": "docs/reference/lynae-motion-pilot/timeline.json",
+        "scope": "Official card0 complete timeline reviewed; release silhouette4--5.5s. Three strength levels use MC display density, not three separately verified original clips.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/inspiration_3",
+      "stateVariant": "inspiration_3",
+      "thirdPersonClip": "mc_wuwa:lynae/inspiration_3/tp",
+      "firstPersonClip": "mc_wuwa:lynae/inspiration_3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "conversionObservation": {
+        "source": "docs/reference/lynae-motion-pilot/timeline.json",
+        "scope": "Official card0 complete timeline reviewed; release silhouette4--5.5s. Three strength levels use MC display density, not three separately verified original clips.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_basic_01",
+      "stateVariant": "cruise_basic_01",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.21,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 6.5,
+        "endSeconds": 11.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 3,
+        "durationTicks": 10,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_basic_02",
+      "stateVariant": "cruise_basic_02",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.182143,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 6.5,
+        "endSeconds": 11.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 10,
+        "durationTicks": 14,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_basic_03",
+      "stateVariant": "cruise_basic_03",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 6.5,
+        "endSeconds": 11.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 12,
+        "durationTicks": 16,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_basic_04",
+      "stateVariant": "cruise_basic_04",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.255556,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 6.5,
+        "endSeconds": 11.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 14,
+        "durationTicks": 18,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_basic_05",
+      "stateVariant": "cruise_basic_05",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_basic_05/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_basic_05/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.175,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 6.5,
+        "endSeconds": 11.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_dodge_counter",
+      "stateVariant": "cruise_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.17,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/lynae-motion-pilot/full-showcase/part-0.mp4",
+        "startSeconds": 66,
+        "endSeconds": 69,
+        "scope": "BV1uzraB3ENC full479s239 samples reviewed;64--70s dense detail and256--282s slow replay; MC pose candidate, form separation inferred without HUD",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 4,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_jump_bundle",
+      "stateVariant": "cruise_jump_bundle",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_jump_bundle/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_jump_bundle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_air",
+      "stateVariant": "cruise_air",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_air/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.175,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-0.gif",
+        "startSeconds": 15,
+        "endSeconds": 17.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/cruise_air_heavy",
+      "stateVariant": "cruise_air_heavy",
+      "thirdPersonClip": "mc_wuwa:lynae/cruise_air_heavy/tp",
+      "firstPersonClip": "mc_wuwa:lynae/cruise_air_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.228846,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 3,
+        "endSeconds": 6.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/skill_additive",
+      "stateVariant": "skill_additive",
+      "thirdPersonClip": "mc_wuwa:lynae/skill_additive/tp",
+      "firstPersonClip": "mc_wuwa:lynae/skill_additive/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.265385,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-1.gif",
+        "startSeconds": 6,
+        "endSeconds": 7.5,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/toward_colorful_tomorrow",
+      "stateVariant": "toward_colorful_tomorrow",
+      "thirdPersonClip": "mc_wuwa:lynae/toward_colorful_tomorrow/tp",
+      "firstPersonClip": "mc_wuwa:lynae/toward_colorful_tomorrow/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 1.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-2.gif",
+        "startSeconds": 4.5,
+        "endSeconds": 7.5,
+        "scope": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact.",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 30,
+        "lastHitTick": 52,
+        "durationTicks": 60,
+        "scope": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/phantom_leap_1",
+      "stateVariant": "phantom_leap_1",
+      "thirdPersonClip": "mc_wuwa:lynae/phantom_leap_1/tp",
+      "firstPersonClip": "mc_wuwa:lynae/phantom_leap_1/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.154545,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 3,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/phantom_leap_2",
+      "stateVariant": "phantom_leap_2",
+      "thirdPersonClip": "mc_wuwa:lynae/phantom_leap_2/tp",
+      "firstPersonClip": "mc_wuwa:lynae/phantom_leap_2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.181818,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 3,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/phantom_leap_3",
+      "stateVariant": "phantom_leap_3",
+      "thirdPersonClip": "mc_wuwa:lynae/phantom_leap_3/tp",
+      "firstPersonClip": "mc_wuwa:lynae/phantom_leap_3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.209091,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/lynae-3.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 3,
+        "scope": "complete card timeline sampled/reviewed; stage identity inferred; MC body fit, not original frame-exact acceptance",
+        "acceptance": "candidate; concentrated native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:lynae/tune_response_spectrum",
+      "stateVariant": "tune_response_spectrum",
+      "thirdPersonClip": "mc_wuwa:lynae/tune_response_spectrum/tp",
+      "firstPersonClip": "mc_wuwa:lynae/tune_response_spectrum/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1509",
+        "data-source/nanoka/3.7/zh/character/1509.json",
+        "plan.md#24"
+      ]
+    }
+  ]
+}

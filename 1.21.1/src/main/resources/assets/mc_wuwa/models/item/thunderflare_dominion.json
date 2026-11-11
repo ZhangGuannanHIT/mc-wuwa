@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/thunderflare_dominion_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/thunderflare_dominion_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/thunderflare_dominion_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/thunderflare_dominion_display"
+    }
+  }
+}

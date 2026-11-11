@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "PGP",
+    "BCB",
+    " G "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:paper"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "C": {
+      "item": "mc_wuwa:core"
+    }
+  },
+  "result": {
+    "id": "mc_wuwa:rime_draped_sprouts",
+    "count": 1
+  }
+}

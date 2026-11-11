@@ -1,0 +1,200 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28002301",
+      "kind": "echo",
+      "multiplier": 4.05,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 562,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "related_property": "攻击",
+        "tough_lv": 22500,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 3.7859666834931853,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28002302",
+      "kind": "echo",
+      "multiplier": 2.835,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 393,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          15750,
+          18900,
+          22050,
+          25200,
+          28350
+        ],
+        "related_property": "攻击",
+        "tough_lv": 15750,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.65017667844523,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为梦魇·燎照之骑，跃起对前方敌人造成405.00%的热熔伤害。\n在首位装配该声骸技能时，自身热熔伤害加成提升12.00%，共鸣技能伤害加成提升12.00%。\n长按声骸技能，持续幻形为燎照之骑并进入骑行状态，结束时对前方的目标造成一次283.50%的热熔伤害。\n技能冷却：25秒",
+  "mechanicsFullyImplemented": false,
+  "name": "梦魇·燎照之骑",
+  "parameters": [
+    "405.00%",
+    "12.00%",
+    "12.00%",
+    "283.50%",
+    "25"
+  ],
+  "raw": {
+    "code": "W77-",
+    "group": {
+      "2": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFire.T_IconElementAttriFire",
+        "id": 2,
+        "name": "熔山裂谷",
+        "set": {
+          "2": {
+            "desc": "热熔伤害提升10%",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "使用共鸣技能时，热熔伤害提升30%，持续15秒",
+            "param": [
+              "30%"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33019_UI.T_IconMonsterHead_YZ_33019_UI",
+    "id": 6000091,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 330000190,
+    "name": "梦魇·燎照之骑",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33019_UI.T_IconMonsterGoods_SG_33019_UI",
+      "name": "异相·梦魇·燎照之骑"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28002301": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 562,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            22500,
+            27000,
+            31500,
+            36000,
+            40500
+          ],
+          "related_property": "攻击",
+          "tough_lv": 22500,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28002302": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 393,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            15750,
+            18900,
+            22050,
+            25200,
+            28350
+          ],
+          "related_property": "攻击",
+          "tough_lv": 15750,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为梦魇·燎照之骑，跃起对前方敌人造成{0}的热熔伤害。\n在首位装配该声骸技能时，自身热熔伤害加成提升{1}，共鸣技能伤害加成提升{2}。\n长按声骸技能，持续幻形为燎照之骑并进入骑行状态，结束时对前方的目标造成一次{3}的热熔伤害。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_325_UI.T_MstSkil_325_UI",
+      "param": [
+        [
+          "225.00%",
+          "12.00%",
+          "12.00%",
+          "157.50%",
+          "25"
+        ],
+        [
+          "270.00%",
+          "12.00%",
+          "12.00%",
+          "189.00%",
+          "25"
+        ],
+        [
+          "315.00%",
+          "12.00%",
+          "12.00%",
+          "220.50%",
+          "25"
+        ],
+        [
+          "360.00%",
+          "12.00%",
+          "12.00%",
+          "252.00%",
+          "25"
+        ],
+        [
+          "405.00%",
+          "12.00%",
+          "12.00%",
+          "283.50%",
+          "25"
+        ]
+      ],
+      "simple_desc": "幻形为梦魇·燎照之骑，对前方敌人造成热熔伤害，在首位装配时提高自身的热熔和共鸣技能伤害。\n长按声骸技能可以持续幻形为骑行状态的梦魇·燎照之骑。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000091
+}

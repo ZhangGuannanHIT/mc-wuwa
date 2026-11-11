@@ -1,0 +1,1162 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "suoming/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "31.55%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3155,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312002002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        16
+      ],
+      "id": "suoming/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "15.73%*2+31.46%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.6292,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1312003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312003002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "suoming/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "22.01%*3+44.02%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.1005,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312011001"
+        },
+        {
+          "count": 2,
+          "damageId": "1312011003"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "suoming/deep_basic_01",
+      "name": "普攻·解伞形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "65.42%+32.71%*2",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3084,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312012001"
+        },
+        {
+          "count": 3,
+          "damageId": "1312012002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16
+      ],
+      "id": "suoming/deep_basic_02",
+      "name": "普攻·解伞形第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "114.40%+38.14%*3",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.2882,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312013001"
+        },
+        {
+          "count": 2,
+          "damageId": "1312013002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "suoming/deep_basic_03",
+      "name": "普攻·解伞形第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "58.64%*2+58.64%*2",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.3456,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312014001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312014002"
+        },
+        {
+          "count": 3,
+          "damageId": "1312014004"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        16,
+        20,
+        24
+      ],
+      "id": "suoming/deep_basic_04",
+      "name": "普攻·解伞形第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "107.25%+107.25%+47.67%*3",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 3.5751,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312004001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312004002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "suoming/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "27.66%*2+55.32%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1064,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312015001"
+        },
+        {
+          "count": 3,
+          "damageId": "1312015002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "suoming/deep_counter",
+      "name": "闪避反击·解伞形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "174.04%+58.02%*3",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 3.481,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312007001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suoming/air",
+      "name": "下落攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "84.20%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.842,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312021001"
+        },
+        {
+          "count": 2,
+          "damageId": "1312021002"
+        },
+        {
+          "count": 1,
+          "damageId": "1312021003"
+        },
+        {
+          "count": 1,
+          "damageId": "1312021004"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        14,
+        19,
+        24
+      ],
+      "id": "suoming/thunder_spin_01",
+      "name": "普攻·解伞形·旋雷破第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "73.32%+36.66%*2+73.32%+73.32%",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.9328,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1312022001"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        14,
+        19,
+        24
+      ],
+      "id": "suoming/thunder_spin_02",
+      "name": "普攻·解伞形·旋雷破第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "56.69%*5",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.8345,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312005005"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suoming/skill",
+      "name": "共鸣技能·拢伞形·破隙伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "106.61%",
+      "sourceNode": 2,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0661,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312053001"
+        },
+        {
+          "count": 2,
+          "damageId": "1312053002"
+        },
+        {
+          "count": 1,
+          "damageId": "1312053003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "suoming/skill_counter",
+      "name": "共鸣技能·解伞形·赤芒瞬闪伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "47.25%+23.63%*2+63.00%",
+      "sourceNode": 2,
+      "sourceParameter": "13_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.5751,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "1312050001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312050002"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44
+      ],
+      "id": "suoming/liberation",
+      "name": "共鸣解放·暝伞形·重锁狱瘴伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "60.89%*8+208.76%",
+      "sourceNode": 3,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.9588,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312071002"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "suoming/rain_thunder",
+      "name": "共鸣解放·凄雨瘴雷伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "59.65%",
+      "sourceNode": 3,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5965,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312040001"
+        },
+        {
+          "count": 4,
+          "damageId": "1312040002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "id": "suoming/intro",
+      "name": "变奏技能·拢伞形·闪裂伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "110.89%*2+36.97%*4",
+      "sourceNode": 6,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 3.6966,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312040003"
+        },
+        {
+          "count": 2,
+          "damageId": "1312040004"
+        },
+        {
+          "count": 1,
+          "damageId": "1312040005"
+        },
+        {
+          "count": 1,
+          "damageId": "1312040006"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16,
+        20
+      ],
+      "id": "suoming/intro_deep",
+      "name": "变奏技能·解伞形·碎霆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "131.43%+65.72%*2+131.43%+131.43%",
+      "sourceNode": 6,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 5.2573,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312041001"
+        },
+        {
+          "count": 4,
+          "damageId": "1312041002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "id": "suoming/intro_unison",
+      "name": "变奏技能·拢伞形·锁妄念·同奏伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "110.89%*2+36.97%*4",
+      "sourceNode": 6,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 3.6966,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312041003"
+        },
+        {
+          "count": 2,
+          "damageId": "1312041004"
+        },
+        {
+          "count": 1,
+          "damageId": "1312041005"
+        },
+        {
+          "count": 1,
+          "damageId": "1312041006"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16,
+        20
+      ],
+      "id": "suoming/intro_deep_unison",
+      "name": "变奏技能·解伞形·旋雷破·同奏伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "131.43%+65.72%*2+131.43%+131.43%",
+      "sourceNode": 6,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 5.2573,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1312010001"
+        },
+        {
+          "count": 4,
+          "damageId": "1312010002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "suoming/skill_lock",
+      "name": "共鸣技能·拢伞形·锁妄念伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "62.78%*2+31.39%*4",
+      "sourceNode": 7,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 2.5112,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 6.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312030001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suoming/skill_release",
+      "name": "共鸣技能·解伞形·无舍念伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "deep",
+      "sourceFormula": "152.67%",
+      "sourceNode": 7,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5267,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "durationTicks": 40,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 7.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "1312031006"
+        },
+        {
+          "count": 8,
+          "damageId": "1312031007"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        5,
+        7,
+        9,
+        11,
+        13,
+        15,
+        17,
+        19,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36
+      ],
+      "id": "suoming/heart_hold",
+      "name": "普攻·暝伞形·刻心念长按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "calamity",
+      "sourceFormula": "19.40%*10+24.24%*8",
+      "sourceNode": 7,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 18,
+      "totalMultiplier": 3.8792,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suoming",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "MC adaptation of source packets; original dispatch unverified",
+      "displayedTotalMultiplier": 15.5141,
+      "durationTicks": 60,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 7.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1312031001"
+        },
+        {
+          "count": 1,
+          "damageId": "1312031002"
+        },
+        {
+          "count": 1,
+          "damageId": "1312031003"
+        },
+        {
+          "count": 1,
+          "damageId": "1312031004"
+        },
+        {
+          "count": 1,
+          "damageId": "1312031005"
+        },
+        {
+          "count": 8,
+          "damageId": "1312031011"
+        },
+        {
+          "count": 1,
+          "damageId": "1312031008"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        21,
+        25,
+        29,
+        33,
+        37,
+        41,
+        44,
+        48,
+        52,
+        56
+      ],
+      "id": "suoming/heart",
+      "name": "普攻·暝伞形·刻心念伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "calamity",
+      "sourceFormula": "1551.41%",
+      "sourceNode": 7,
+      "sourceParameter": "16",
+      "sourceRoundingDifference": 0.0002,
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 14,
+      "totalMultiplier": 15.5143,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "unspoken_rue"
+    }
+  ],
+  "schemaVersion": 1
+}

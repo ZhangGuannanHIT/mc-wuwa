@@ -1,0 +1,302 @@
+{
+  "schema": 1,
+  "characters": [
+    {
+      "characterId": "denia",
+      "weapon": "forged_dwarf_star",
+      "texture": "mc_wuwa:textures/entity/characters/denia.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-达妮娅Denia.png",
+      "sourceSha256": "bf057fbb9384bbd8588d3990303f70174c7cef68e2f6e621b5e8795c55e8b8d4",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "iuno",
+      "weapon": "moongazers_sigil",
+      "texture": "mc_wuwa:textures/entity/characters/iuno.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-尤诺Iuno.png",
+      "sourceSha256": "3dc3e9306261c4e993e8a6757de345999e0f076ecc5af0be16acc3663c453527",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "changli",
+      "weapon": "blazing_brilliance",
+      "texture": "mc_wuwa:textures/entity/characters/changli.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-长离Changli.png",
+      "sourceSha256": "fd7429bb1a3b63c56dcdc131143b917606f64523847f24bcde45cfe81861a4da",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "qingxiao",
+      "weapon": "glint_of_clouds",
+      "texture": "mc_wuwa:textures/entity/characters/qingxiao.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-清宵.png",
+      "sourceSha256": "148251f48be5102cf5d57eee59daf0537cf575a83280dada08bbf6d5a26067fc",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "lupa",
+      "weapon": "wildfire_mark",
+      "texture": "mc_wuwa:textures/entity/characters/lupa.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-露帕Lupa.png",
+      "sourceSha256": "3064bab95e48b04711874e07406628e797a1808aa030cd05561aa2080c41fc4a",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "carlotta",
+      "weapon": "the_last_dance",
+      "texture": "mc_wuwa:textures/entity/characters/carlotta.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-珂莱塔Carlotta.png",
+      "sourceSha256": "246680377a60c093d82dc9600433e65c5fdbb879b451c4cb8b57a5fee0135a64",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "phoebe",
+      "weapon": "luminous_hymn",
+      "texture": "mc_wuwa:textures/entity/characters/phoebe.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-菲比啾比Phoebe.png",
+      "sourceSha256": "833cab8e08c7fe55c8b93e35d8bde576a8cae1bbf440391b1dea67ced0357755",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "suisui",
+      "weapon": "firstlights_herald",
+      "texture": "mc_wuwa:textures/entity/characters/suisui.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-穗穗.png",
+      "sourceSha256": "e4da299513d1f16f1bd2e3391f59e436a739a9148813c65a27a1d014d47ec213",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "cantarella",
+      "weapon": "whispers_of_sirens",
+      "texture": "mc_wuwa:textures/entity/characters/cantarella.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-坎特蕾拉Cantarella.png",
+      "sourceSha256": "0124fddd58f191458268b5ba52b1b8512146f6ce22612b2727fcde3a9f1cbb46",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "shorekeeper",
+      "weapon": "stellar_symphony",
+      "texture": "mc_wuwa:textures/entity/characters/shorekeeper.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-守岸人Shorekeeper.png",
+      "sourceSha256": "5abcbbdd5b64ad9116bf68d80340a2333562a6a2e070d80dda11f5339a806851",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "sigrika",
+      "weapon": "solsworn_ciphers",
+      "texture": "mc_wuwa:textures/entity/characters/sigrika.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-西格莉卡Sigrika.png",
+      "sourceSha256": "b670e4906442918420bb93415ed8002a1fd33bae00e7501a1ff72cbee2098490",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "galbrena",
+      "weapon": "lux_and_umbra",
+      "texture": "mc_wuwa:textures/entity/characters/galbrena.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-嘉贝莉娜Galbrena.png",
+      "sourceSha256": "42131cff3670f9e54bed5f42bb7abeecf439cf054ee950d52dcb78095b886c6a",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "chisa",
+      "weapon": "kumokiri",
+      "texture": "mc_wuwa:textures/entity/characters/chisa.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-千咲.png",
+      "sourceSha256": "3c34ce14fad8d7f33aba041c1ca022f2e6b9fe8ec0735caff2aef9cfe035b1d3",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "jinhsi",
+      "weapon": "ages_of_harvest",
+      "texture": "mc_wuwa:textures/entity/characters/jinhsi.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-今汐Jinhsi.png",
+      "sourceSha256": "cc31ee44a3cd3002b9215cb8b3c2671d6884aa2dd38ee1f454ff1b48222a8469",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "mornye",
+      "weapon": "starfield_calibrator",
+      "texture": "mc_wuwa:textures/entity/characters/mornye.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-莫宁Mornye.png",
+      "sourceSha256": "81d90ee173309ad4e55886ea6a6127e980cec60f382e8c45ec7edaed19b5801b",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "cartethyia",
+      "weapon": "defiers_thorn",
+      "texture": "mc_wuwa:textures/entity/characters/cartethyia.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-卡提希娅.png",
+      "sourceSha256": "2300bc2a05da3ea5f4f818581754ab8eb67105a481abe33d62963f61351891f6",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained",
+      "forms": {
+        "fleurdelys": {
+          "texture": "mc_wuwa:textures/entity/characters/fleurdelys.png",
+          "model": "slim",
+          "sourceFile": "skin/芙露德莉斯.png",
+          "sourceSha256": "0bf9355e66afb67fc5e514fa54aa3a7a038d7f311066079ec11f192c19f3c160",
+          "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+        }
+      }
+    },
+    {
+      "characterId": "camellya",
+      "weapon": "red_spring",
+      "texture": "mc_wuwa:textures/entity/characters/camellya.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-椿Camellia.png",
+      "sourceSha256": "968829f823d9530b160dfb45fd3c01848743e03d09fb7000dd75aea9609b0e72",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "yangyang_xuanling",
+      "weapon": "azure_oath",
+      "texture": "mc_wuwa:textures/entity/characters/yangyang_xuanling.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-秧秧·玄翎.png",
+      "sourceSha256": "0dc365210408016858b2d03e6a7fa6c60720f8a0076f54061cb8b1c738c702ea",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "aero_rover",
+      "weapon": "bloodpacts_pledge",
+      "texture": "mc_wuwa:textures/entity/characters/aero_rover.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-男漂泊者.png",
+      "sourceSha256": "8323cdfbce6479e960e2a1964d9a97eec6d4ff923b77677cabe5987bfd40e604",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "aemeath",
+      "weapon": "everbright_polestar",
+      "texture": "mc_wuwa:textures/entity/characters/aemeath.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-爱弥斯Aemeath.png",
+      "sourceSha256": "0e2e5b8941d3e2da755a43ee953742f61a0bc12999a6263dad1fa35cc8cd6b15",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "hiyuki",
+      "weapon": "frostburn",
+      "texture": "mc_wuwa:textures/entity/characters/hiyuki.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-绯雪.png",
+      "sourceSha256": "aba6fc75f75ff59ad7036f89d50bdf10ba12ea98c3910091a80008c251d759e8",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "lynae",
+      "weapon": "spectrum_blaster",
+      "texture": "mc_wuwa:textures/entity/characters/lynae.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-琳奈.png",
+      "sourceSha256": "df5eaf03a87d384b7604777502fc3e41b79eb4f02337a90380355859d07f7e69",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "yinlin",
+      "weapon": "stringmaster",
+      "texture": "mc_wuwa:textures/entity/characters/yinlin.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-吟霖Yinlin.png",
+      "sourceSha256": "b16741432b275db6735e000a0c74fb8e829618e617213cc6d143e121e5913d47",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "phrolova",
+      "weapon": "lethean_elegy",
+      "texture": "mc_wuwa:textures/entity/characters/phrolova.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-弗洛洛Phrolova.png",
+      "sourceSha256": "3e9ba5ff08bf55e1b6566e2abe727157b838dd86f66a9f48c24a5945b23b4f50",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "hsin",
+      "weapon": "blooming_jadehaven",
+      "texture": "mc_wuwa:textures/entity/characters/hsin.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-心月狐Hsin.png",
+      "sourceSha256": "040d46bb29a491a3226a91234af27dd81175cdb37fc0f5c6588bc41fcb78a046",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "qiuyuan",
+      "weapon": "emerald_sentence",
+      "texture": "mc_wuwa:textures/entity/characters/qiuyuan.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-仇远.png",
+      "sourceSha256": "3e407b727af541751d1a49e1ededfaf8d404a66644bad067549915f1e1b1da64",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "ciaccona",
+      "weapon": "woodland_aria",
+      "texture": "mc_wuwa:textures/entity/characters/ciaccona.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-夏空.png",
+      "sourceSha256": "7d7084bc31083fe3679356ff85a440f0f3ab4e85f892c8d2c3f249495eb46bd3",
+      "source": "user-provided local standard Minecraft skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "zhezhi",
+      "weapon": "rime_draped_sprouts",
+      "texture": "mc_wuwa:textures/entity/characters/zhezhi.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-折枝Zhezhi.png",
+      "sourceSha256": "cf899c0041acc39f6b99c2af41aa55be4a3d25ddcaf79d8b21601ac3bfa753e2",
+      "source": "user-provided skin; original PNG bytes retained"
+    },
+    {
+      "characterId": "zani",
+      "weapon": "blazing_justice",
+      "texture": "mc_wuwa:textures/entity/characters/zani.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-赞妮Zani.png",
+      "sourceSha256": "10a4390521917b089135fcb9b9e8ba978c089ff2c57486e6cc78e6a912b7f493",
+      "source": "user-provided skin; unchanged PNG bytes"
+    },
+    {
+      "characterId": "suoming",
+      "weapon": "unspoken_rue",
+      "texture": "mc_wuwa:textures/entity/characters/suoming.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-锁暝Suoming.png",
+      "sourceSha256": "c6e5b722a8da8d7e1ca94ab4f45de257e615bb8e3da3f99e4ea46ffd72725208",
+      "source": "user-provided skin; unchanged PNG bytes"
+    },
+    {
+      "characterId": "lucilla",
+      "weapon": "frame_signature",
+      "texture": "mc_wuwa:textures/entity/characters/lucilla.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-洛瑟菈Lucilla.png",
+      "sourceSha256": "c150aa98bd01a4fbb2afcc854058cfc5e3c0899d86b9bd21feaab836f4a543f9",
+      "source": "user-provided skin; unchanged PNG bytes"
+    },
+    {
+      "characterId": "augusta",
+      "weapon": "thunderflare_dominion",
+      "texture": "mc_wuwa:textures/entity/characters/augusta.png",
+      "model": "slim",
+      "sourceFile": "skin/鸣潮-奥古斯塔Augusta.png",
+      "sourceSha256": "901a30b5a7395d28054dd9686d8abdc74346fdcf34027e061b9ac51f432dde69",
+      "source": "user-provided unchanged standard Minecraft skin"
+    }
+  ]
+}

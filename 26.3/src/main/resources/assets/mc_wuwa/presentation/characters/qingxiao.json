@@ -1,0 +1,2234 @@
+{
+  "schemaVersion": 1,
+  "characterId": "qingxiao",
+  "weaponId": "mc_wuwa:glint_of_clouds",
+  "palette": [
+    120,
+    220,
+    234
+  ],
+  "sourceEvidence": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+    "docs/reference/new-six-20261021/official-skills-manifest.json",
+    "data-source/nanoka/3.7/zh/character/1413.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:qingxiao/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:qingxiao/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:qingxiao/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:qingxiao/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:qingxiao/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/air_basic_01",
+      "stateVariant": "air_basic_01",
+      "thirdPersonClip": "mc_wuwa:qingxiao/air_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/air_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/air_basic_02",
+      "stateVariant": "air_basic_02",
+      "thirdPersonClip": "mc_wuwa:qingxiao/air_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/air_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/air_basic_03",
+      "stateVariant": "air_basic_03",
+      "thirdPersonClip": "mc_wuwa:qingxiao/air_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/air_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:qingxiao/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:qingxiao/air/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:qingxiao/heavy/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/heavy_c2",
+      "stateVariant": "heavy_c2",
+      "thirdPersonClip": "mc_wuwa:qingxiao/heavy_c2/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/heavy_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/skill_punishment",
+      "stateVariant": "skill_punishment",
+      "thirdPersonClip": "mc_wuwa:qingxiao/skill_punishment/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/skill_punishment/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/skill_punishment_c5",
+      "stateVariant": "skill_punishment_c5",
+      "thirdPersonClip": "mc_wuwa:qingxiao/skill_punishment_c5/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/skill_punishment_c5/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/skill_ascend",
+      "stateVariant": "skill_ascend",
+      "thirdPersonClip": "mc_wuwa:qingxiao/skill_ascend/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/skill_ascend/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:qingxiao/liberation/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "propPerformanceObservation": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json",
+        "scope": "Complete official timeline observed; adapted connected-body performance; accepted MC clocks retained, not frame exact",
+        "primaryBodyContactSeconds": 0.6,
+        "autonomousCrystalHitsDoNotRepeatRecoil": false
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:qingxiao/intro/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_01",
+      "stateVariant": "immortal_basic_01",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_02",
+      "stateVariant": "immortal_basic_02",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_03",
+      "stateVariant": "immortal_basic_03",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_04",
+      "stateVariant": "immortal_basic_04",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_counter",
+      "stateVariant": "immortal_counter",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_counter/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_01_enhanced",
+      "stateVariant": "immortal_basic_01_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_01_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_01_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_02_enhanced",
+      "stateVariant": "immortal_basic_02_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_02_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_02_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_03_enhanced",
+      "stateVariant": "immortal_basic_03_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_03_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_03_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_basic_04_enhanced",
+      "stateVariant": "immortal_basic_04_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_basic_04_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_basic_04_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/immortal_counter_enhanced",
+      "stateVariant": "immortal_counter_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/immortal_counter_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/immortal_counter_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousSwordCommandSkills": {
+        "source": "docs/reference/tide-combat-motion/qingxiao-full-timeline.json; docs/reference/enhanced-attacks-motion/next-six/qingxiao-normal_blades-page-00.jpg; qingxiao-air_blade-page-00.jpg",
+        "scope": "Ten full-film one-second sheets and six complete normal/air-blade quarter-second sheets reviewed; directional sword commands adapted to MC, not frame-exact. Approved sword, zither, liberation and immortal combos unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/heavy_banishing",
+      "stateVariant": "heavy_banishing",
+      "thirdPersonClip": "mc_wuwa:qingxiao/heavy_banishing/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/heavy_banishing/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/heavy_banishing_enhanced",
+      "stateVariant": "heavy_banishing_enhanced",
+      "thirdPersonClip": "mc_wuwa:qingxiao/heavy_banishing_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/heavy_banishing_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "immortalSwordCommandObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/qingxiao-immortal_basic-page-00.jpg through page-02.jpg; immortal_heavy-page-00.jpg through page-02.jpg",
+        "scope": "Full sampled basic and heavy sequences inspected; distinct MC sword-command and zither gestures, not frame-exact capture",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:qingxiao/outro/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/vast_sword",
+      "stateVariant": "vast_sword",
+      "thirdPersonClip": "mc_wuwa:qingxiao/vast_sword/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/vast_sword/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/vast_sword_c6",
+      "stateVariant": "vast_sword_c6",
+      "thirdPersonClip": "mc_wuwa:qingxiao/vast_sword_c6/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/vast_sword_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:qingxiao/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:qingxiao/echo/tp",
+      "firstPersonClip": "mc_wuwa:qingxiao/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5303",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1413.json"
+      ]
+    }
+  ]
+}

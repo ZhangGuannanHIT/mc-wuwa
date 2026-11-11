@@ -1,0 +1,3961 @@
+{
+  "schemaVersion": 1,
+  "characterId": "denia",
+  "weaponId": "mc_wuwa:forged_dwarf_star",
+  "palette": [
+    178,
+    141,
+    245
+  ],
+  "sourceEvidence": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+    "docs/reference/new-six-20261021/official-skills-manifest.json",
+    "data-source/nanoka/3.7/zh/character/1211.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:denia/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:denia/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:denia/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:denia/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:denia/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:denia/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:denia/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:denia/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:denia/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/basic_04_c3_full_core",
+      "stateVariant": "basic_04_c3_full_core",
+      "thirdPersonClip": "mc_wuwa:denia/basic_04_c3_full_core/tp",
+      "firstPersonClip": "mc_wuwa:denia/basic_04_c3_full_core/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending",
+        "variantOf": "denia/basic_04"
+      },
+      "continuousNormalChain": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:denia/heavy/tp",
+      "firstPersonClip": "mc_wuwa:denia/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:denia/air/tp",
+      "firstPersonClip": "mc_wuwa:denia/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:denia/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:denia/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_01",
+      "stateVariant": "disillusion_basic_01",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_02",
+      "stateVariant": "disillusion_basic_02",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_03",
+      "stateVariant": "disillusion_basic_03",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_04",
+      "stateVariant": "disillusion_basic_04",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_heavy",
+      "stateVariant": "disillusion_heavy",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_heavy/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_01",
+      "stateVariant": "disillusion_air_basic_01",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_02",
+      "stateVariant": "disillusion_air_basic_02",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_03",
+      "stateVariant": "disillusion_air_basic_03",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_04",
+      "stateVariant": "disillusion_air_basic_04",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air",
+      "stateVariant": "disillusion_air",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_counter",
+      "stateVariant": "disillusion_counter",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_counter/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_01_enhanced",
+      "stateVariant": "disillusion_basic_01_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_01_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_01_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_02_enhanced",
+      "stateVariant": "disillusion_basic_02_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_02_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_02_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_03_enhanced",
+      "stateVariant": "disillusion_basic_03_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_03_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_03_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_basic_04_enhanced",
+      "stateVariant": "disillusion_basic_04_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_basic_04_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_basic_04_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_01_enhanced",
+      "stateVariant": "disillusion_air_basic_01_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_01_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_01_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_02_enhanced",
+      "stateVariant": "disillusion_air_basic_02_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_02_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_02_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_03_enhanced",
+      "stateVariant": "disillusion_air_basic_03_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_03_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_03_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_basic_04_enhanced",
+      "stateVariant": "disillusion_air_basic_04_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_basic_04_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_basic_04_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_heavy_enhanced",
+      "stateVariant": "disillusion_heavy_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_heavy_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_heavy_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_air_enhanced",
+      "stateVariant": "disillusion_air_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_air_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_air_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/disillusion_counter_enhanced",
+      "stateVariant": "disillusion_counter_enhanced",
+      "thirdPersonClip": "mc_wuwa:denia/disillusion_counter_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:denia/disillusion_counter_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:denia/skill/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_c3_full_core",
+      "stateVariant": "skill_c3_full_core",
+      "thirdPersonClip": "mc_wuwa:denia/skill_c3_full_core/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_c3_full_core/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_call",
+      "stateVariant": "skill_call",
+      "thirdPersonClip": "mc_wuwa:denia/skill_call/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_call/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_01",
+      "stateVariant": "skill_exile_01",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_01/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_01_c2",
+      "stateVariant": "skill_exile_01_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_01_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_01_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02",
+      "stateVariant": "skill_exile_02",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_2",
+      "stateVariant": "skill_exile_02_core_2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_3",
+      "stateVariant": "skill_exile_02_core_3",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_3/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_4",
+      "stateVariant": "skill_exile_02_core_4",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_4/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_4/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_5",
+      "stateVariant": "skill_exile_02_core_5",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_5/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_5/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_c2",
+      "stateVariant": "skill_exile_02_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_2_c2",
+      "stateVariant": "skill_exile_02_core_2_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_2_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_2_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_3_c2",
+      "stateVariant": "skill_exile_02_core_3_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_3_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_3_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_4_c2",
+      "stateVariant": "skill_exile_02_core_4_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_4_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_4_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/skill_exile_02_core_5_c2",
+      "stateVariant": "skill_exile_02_core_5_c2",
+      "thirdPersonClip": "mc_wuwa:denia/skill_exile_02_core_5_c2/tp",
+      "firstPersonClip": "mc_wuwa:denia/skill_exile_02_core_5_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:denia/liberation/tp",
+      "firstPersonClip": "mc_wuwa:denia/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/liberation_disillusion",
+      "stateVariant": "liberation_disillusion",
+      "thirdPersonClip": "mc_wuwa:denia/liberation_disillusion/tp",
+      "firstPersonClip": "mc_wuwa:denia/liberation_disillusion/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/liberation_disillusion_c3",
+      "stateVariant": "liberation_disillusion_c3",
+      "thirdPersonClip": "mc_wuwa:denia/liberation_disillusion_c3/tp",
+      "firstPersonClip": "mc_wuwa:denia/liberation_disillusion_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:denia/intro/tp",
+      "firstPersonClip": "mc_wuwa:denia/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/intro_disillusion",
+      "stateVariant": "intro_disillusion",
+      "thirdPersonClip": "mc_wuwa:denia/intro_disillusion/tp",
+      "firstPersonClip": "mc_wuwa:denia/intro_disillusion/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "dreamGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/denia-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousDreamSkills": {
+        "source": "docs/reference/tide-combat-motion/denia-combat-detail-timeline.json",
+        "scope": "All sixteen quarter-second sheets 29-76.75s reviewed: folded hands, outward push and sideways directing; continuous MC adaptation, not frame-exact. Ordinary chain and liberation preserved.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:denia/erosion_field",
+      "stateVariant": "erosion_field",
+      "thirdPersonClip": "mc_wuwa:denia/erosion_field/tp",
+      "firstPersonClip": "mc_wuwa:denia/erosion_field/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:denia/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:denia/echo/tp",
+      "firstPersonClip": "mc_wuwa:denia/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:denia/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:denia/outro/tp",
+      "firstPersonClip": "mc_wuwa:denia/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/outro",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/4663",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1211.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1976 @@
+{
+  "schemaVersion": 1,
+  "characterId": "aemeath",
+  "weaponId": "mc_wuwa:everbright_polestar",
+  "palette": [
+    247,
+    108,
+    112
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1210",
+    "data-source/nanoka/3.7/zh/character/1210.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:aemeath/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:aemeath/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1625,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 0.4,
+        "endSeconds": 1.2,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 3,
+        "durationTicks": 12,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:aemeath/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1875,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 1.2,
+        "endSeconds": 2.1,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 12,
+        "durationTicks": 16,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:aemeath/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 2.1,
+        "endSeconds": 3.0,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:aemeath/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1625,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 3.0,
+        "endSeconds": 4.0,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 24,
+        "durationTicks": 28,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:aemeath/heavy/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.309615,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 5,
+        "endSeconds": 8.4,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending",
+        "supplementalVideo": "docs/reference/aemeath-motion-pilot/motion-appreciation/part-0.mp4",
+        "supplementalSeconds": [
+          128.75,
+          130.25
+        ],
+        "supplementalScope": "fencing lunge silhouette; edited slow-motion footage is not the gameplay clock"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:aemeath/air/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 8.8,
+        "endSeconds": 10.7,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 6,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:aemeath/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.16,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/aemeath-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 91.5,
+        "endSeconds": 92.75,
+        "scope": "91.5-92.75s evade then counter, reviewed at4fps; MC contact fit, no original frame-exact claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 16,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:aemeath/skill/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.230769,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-1.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 2.5,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:aemeath/liberation/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 3.0,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-2.gif",
+        "startSeconds": 0,
+        "endSeconds": 2,
+        "scope": "Complete official skill-card2: human reach/turn0-2s, mech reveal2-3s, attack3-4.5s, recovery5.5s; sampled MC timing fit, not frame-exact.",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 60,
+        "lastHitTick": 90,
+        "durationTicks": 110,
+        "scope": "Complete official skill-card2: human reach/turn0-2s, mech reveal2-3s, attack3-4.5s, recovery5.5s; sampled MC timing fit, not frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:aemeath/intro/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.177083,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-4.gif",
+        "startSeconds": 0.4,
+        "endSeconds": 3.0,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:aemeath/outro/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:aemeath/echo/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/construct_switch",
+      "stateVariant": "construct_switch",
+      "thirdPersonClip": "mc_wuwa:aemeath/construct_switch/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/construct_switch/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_basic_01",
+      "stateVariant": "mecha_basic_01",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_basic_02",
+      "stateVariant": "mecha_basic_02",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_basic_03",
+      "stateVariant": "mecha_basic_03",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_heavy",
+      "stateVariant": "mecha_heavy",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_heavy/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_air",
+      "stateVariant": "mecha_air",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_air/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mecha_counter",
+      "stateVariant": "mecha_counter",
+      "thirdPersonClip": "mc_wuwa:aemeath/mecha_counter/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mecha_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/combined_thrust",
+      "stateVariant": "combined_thrust",
+      "thirdPersonClip": "mc_wuwa:aemeath/combined_thrust/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/combined_thrust/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/starlight_overload",
+      "stateVariant": "starlight_overload",
+      "thirdPersonClip": "mc_wuwa:aemeath/starlight_overload/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/starlight_overload/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/starlight_release",
+      "stateVariant": "starlight_release",
+      "thirdPersonClip": "mc_wuwa:aemeath/starlight_release/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/starlight_release/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/starlight_finale",
+      "stateVariant": "starlight_finale",
+      "thirdPersonClip": "mc_wuwa:aemeath/starlight_finale/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/starlight_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/lightwing_flight",
+      "stateVariant": "lightwing_flight",
+      "thirdPersonClip": "mc_wuwa:aemeath/lightwing_flight/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/lightwing_flight/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/radiant_dash",
+      "stateVariant": "radiant_dash",
+      "thirdPersonClip": "mc_wuwa:aemeath/radiant_dash/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/radiant_dash/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/heavy_charge_2",
+      "stateVariant": "heavy_charge_2",
+      "thirdPersonClip": "mc_wuwa:aemeath/heavy_charge_2/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/heavy_charge_2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.236111,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-0.gif",
+        "startSeconds": 5,
+        "endSeconds": 8.4,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending",
+        "supplementalVideo": "docs/reference/aemeath-motion-pilot/motion-appreciation/part-0.mp4",
+        "supplementalSeconds": [
+          128.75,
+          130.25
+        ],
+        "supplementalScope": "fencing lunge silhouette; edited slow-motion footage is not the gameplay clock"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 10,
+        "lastHitTick": 32,
+        "durationTicks": 36,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/skill_dawn",
+      "stateVariant": "skill_dawn",
+      "thirdPersonClip": "mc_wuwa:aemeath/skill_dawn/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/skill_dawn/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.196154,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-1.gif",
+        "startSeconds": 10.7,
+        "endSeconds": 13.8,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_basic_01",
+      "stateVariant": "mech_basic_01",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_basic_02",
+      "stateVariant": "mech_basic_02",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_basic_03",
+      "stateVariant": "mech_basic_03",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_basic_04",
+      "stateVariant": "mech_basic_04",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_heavy",
+      "stateVariant": "mech_heavy",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_heavy/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_heavy_charge_2",
+      "stateVariant": "mech_heavy_charge_2",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_heavy_charge_2/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_heavy_charge_2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_air",
+      "stateVariant": "mech_air",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_air/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/mech_dodge_counter",
+      "stateVariant": "mech_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:aemeath/mech_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/mech_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/liberation_finale",
+      "stateVariant": "liberation_finale",
+      "thirdPersonClip": "mc_wuwa:aemeath/liberation_finale/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/liberation_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 3.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-2.gif",
+        "startSeconds": 9.4,
+        "endSeconds": 16.3,
+        "scope": "Official card2 active9.5-15s: human gesture, mech descent, burst at13s, recovery15s; half-second sampled MC fit, not frame-exact.",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 70,
+        "lastHitTick": 70,
+        "durationTicks": 110,
+        "scope": "Official card2 active9.5-15s: human gesture, mech descent, burst at13s, recovery15s; half-second sampled MC fit, not frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/intro_starlight",
+      "stateVariant": "intro_starlight",
+      "thirdPersonClip": "mc_wuwa:aemeath/intro_starlight/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/intro_starlight/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.177083,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-4.gif",
+        "startSeconds": 4.4,
+        "endSeconds": 7.8,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/wing_ensemble_stage",
+      "stateVariant": "wing_ensemble_stage",
+      "thirdPersonClip": "mc_wuwa:aemeath/wing_ensemble_stage/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/wing_ensemble_stage/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/wing_ensemble_descend",
+      "stateVariant": "wing_ensemble_descend",
+      "thirdPersonClip": "mc_wuwa:aemeath/wing_ensemble_descend/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/wing_ensemble_descend/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.219048,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aemeath-3.gif",
+        "startSeconds": 4,
+        "endSeconds": 6.6,
+        "scope": "complete card timeline reviewed; normalized MC body fit, no original frame or all-condition acceptance claim",
+        "acceptance": "authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 8,
+        "lastHitTick": 38,
+        "durationTicks": 42,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/tune_response_starburst",
+      "stateVariant": "tune_response_starburst",
+      "thirdPersonClip": "mc_wuwa:aemeath/tune_response_starburst/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/tune_response_starburst/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aemeath/wing_extra_hit",
+      "stateVariant": "wing_extra_hit",
+      "thirdPersonClip": "mc_wuwa:aemeath/wing_extra_hit/tp",
+      "firstPersonClip": "mc_wuwa:aemeath/wing_extra_hit/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1210",
+        "data-source/nanoka/3.7/zh/character/1210.json",
+        "plan.md#24"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2168 @@
+{
+  "baseStats": {
+    "attack": 400.0,
+    "defense": 1283.331,
+    "health": 11000.0
+  },
+  "chains": [
+    {
+      "description": "共鸣技能磁殛咆哮和召雷磁爆伤害提升70%。",
+      "name": "矛盾的抉择",
+      "parameters": [
+        "70%"
+      ],
+      "rawDescription": "共鸣技能<color=Highlight>磁殛咆哮</color>和<color=Highlight>召雷磁爆</color>伤害提升{0}。",
+      "tier": 1
+    },
+    {
+      "description": "共鸣技能磁殛爆发命中时额外恢复5点【审判值】和5点共鸣能量。",
+      "name": "牵绊的俘虏",
+      "parameters": [
+        "100%",
+        "5",
+        "5"
+      ],
+      "rawDescription": "共鸣技能<color=Highlight>磁殛爆发</color>命中时额外恢复{1}点【<te href=850030>审判值</te>】和{2}点共鸣能量。",
+      "tier": 2
+    },
+    {
+      "description": "共鸣回路审判之雷伤害倍率提升55%。",
+      "name": "无情的断罪",
+      "parameters": [
+        "55%"
+      ],
+      "rawDescription": "共鸣回路<color=Highlight>审判之雷</color>伤害倍率提升55%。",
+      "tier": 3
+    },
+    {
+      "description": "共鸣回路审判之雷命中时，队伍中的角色攻击提升20%，持续12秒。",
+      "name": "前行的鼓舞",
+      "parameters": [
+        "20%",
+        "12"
+      ],
+      "rawDescription": "共鸣回路<color=Highlight>审判之雷</color>命中时，队伍中的角色攻击提升{0}，持续{1}秒。",
+      "tier": 4
+    },
+    {
+      "description": "共鸣解放破天雷灭击命中带有共鸣回路缚罪标记、惩罚印记的目标时，伤害提升100%。",
+      "name": "决意的回响",
+      "parameters": [
+        "100%"
+      ],
+      "rawDescription": "共鸣解放<color=Highlight>破天雷灭击</color>命中带有共鸣回路<color=Highlight>缚罪标记</color>、<color=Highlight>惩罚印记</color>的目标时，伤害提升{0}。",
+      "tier": 5
+    },
+    {
+      "description": "施放共鸣解放破天雷灭击后的30秒内，吟霖的普攻命中目标时额外触发疾霆昭彰，造成吟霖攻击力419.59%的导电伤害，每段普攻可触发1次，最多触发4次，此次伤害为共鸣技能伤害。",
+      "name": "正义的践行",
+      "parameters": [
+        "10"
+      ],
+      "rawDescription": "施放共鸣解放<color=Highlight>破天雷灭击</color>后的30秒内，吟霖的<color=Highlight>普攻</color>命中目标时额外触发<color=Highlight>疾霆昭彰</color>，造成吟霖攻击力419.59%的<color=Thunder>导电伤害</color>，每段<color=Highlight>普攻</color>可触发1次，最多触发4次，此次伤害为共鸣技能伤害。",
+      "tier": 6
+    }
+  ],
+  "characterId": "yinlin",
+  "echoId": 6000052,
+  "element": "electro",
+  "id": "stringmaster",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "吟霖",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302001001",
+          "kind": "basic",
+          "multiplier": 0.2881,
+          "offTuneUnits": 0.793939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 200,
+            "energy": 60,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1449,
+              1568,
+              1687,
+              1853,
+              1972,
+              2109,
+              2299,
+              2489,
+              2679,
+              2881,
+              3119,
+              3357,
+              3594,
+              3832,
+              4069,
+              4307,
+              4545,
+              4782,
+              5020,
+              5258
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1840,
+            "type": 0,
+            "weakness_lvl": 3144
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.30960794211677606,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302002001",
+          "kind": "basic",
+          "multiplier": 0.3382,
+          "offTuneUnits": 0.7767676767676768,
+          "raw": {
+            "element": 3,
+            "element_power": 250,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1701,
+              1841,
+              1980,
+              2176,
+              2315,
+              2476,
+              2699,
+              2922,
+              3145,
+              3382,
+              3661,
+              3940,
+              4219,
+              4498,
+              4777,
+              5056,
+              5335,
+              5614,
+              5893,
+              6172
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2160,
+            "type": 0,
+            "weakness_lvl": 3076
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.36345280161534577,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302002002",
+          "kind": "basic",
+          "multiplier": 0.3382,
+          "offTuneUnits": 0.7767676767676768,
+          "raw": {
+            "element": 3,
+            "element_power": 250,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1701,
+              1841,
+              1980,
+              2176,
+              2315,
+              2476,
+              2699,
+              2922,
+              3145,
+              3382,
+              3661,
+              3940,
+              4219,
+              4498,
+              4777,
+              5056,
+              5335,
+              5614,
+              5893,
+              6172
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2160,
+            "type": 0,
+            "weakness_lvl": 3076
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.36345280161534577,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003001",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003002",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003003",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003004",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003005",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003006",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302003007",
+          "kind": "basic",
+          "multiplier": 0.1399,
+          "offTuneUnits": 0.25782828282828285,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 35,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              704,
+              762,
+              819,
+              900,
+              958,
+              1024,
+              1116,
+              1209,
+              1301,
+              1399,
+              1515,
+              1630,
+              1745,
+              1861,
+              1976,
+              2091,
+              2207,
+              2322,
+              2437,
+              2553
+            ],
+            "related_property": "攻击",
+            "tough_lv": 766,
+            "type": 0,
+            "weakness_lvl": 1021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.12889113242470132,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302004001",
+          "kind": "basic",
+          "multiplier": 0.7516,
+          "offTuneUnits": 1.2565656565656567,
+          "raw": {
+            "element": 3,
+            "element_power": 600,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3780,
+              4090,
+              4400,
+              4834,
+              5144,
+              5501,
+              5997,
+              6493,
+              6989,
+              7516,
+              8135,
+              8755,
+              9375,
+              9995,
+              10615,
+              11235,
+              11855,
+              12475,
+              13095,
+              13715
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4800,
+            "type": 0,
+            "weakness_lvl": 4976
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8076728924785462,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302010001",
+          "kind": "heavy",
+          "multiplier": 0.2983,
+          "offTuneUnits": 1.185858585858586,
+          "raw": {
+            "element": 3,
+            "element_power": 225,
+            "energy": 90,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1500,
+              1623,
+              1746,
+              1919,
+              2042,
+              2183,
+              2380,
+              2577,
+              2774,
+              2983,
+              3229,
+              3475,
+              3721,
+              3967,
+              4213,
+              4459,
+              4705,
+              4951,
+              5197,
+              5443
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1880,
+            "type": 1,
+            "weakness_lvl": 4696
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.31633854955409724,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302010002",
+          "kind": "heavy",
+          "multiplier": 0.2983,
+          "offTuneUnits": 1.185858585858586,
+          "raw": {
+            "element": 3,
+            "element_power": 225,
+            "energy": 90,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1500,
+              1623,
+              1746,
+              1919,
+              2042,
+              2183,
+              2380,
+              2577,
+              2774,
+              2983,
+              3229,
+              3475,
+              3721,
+              3967,
+              4213,
+              4459,
+              4705,
+              4951,
+              5197,
+              5443
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1880,
+            "type": 1,
+            "weakness_lvl": 4696
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.31633854955409724,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302060001",
+          "kind": "basic",
+          "multiplier": 1.2327,
+          "offTuneUnits": 1.2525252525252526,
+          "raw": {
+            "element": 3,
+            "element_power": 500,
+            "energy": 51,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6200,
+              6709,
+              7217,
+              7929,
+              8437,
+              9022,
+              9836,
+              10649,
+              11462,
+              12327,
+              13344,
+              14360,
+              15377,
+              16394,
+              17411,
+              18428,
+              19444,
+              20461,
+              21478,
+              22495
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4960,
+            "type": 0,
+            "weakness_lvl": 4960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8345953222278311,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070001",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070002",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070003",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070004",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070005",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070006",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302070007",
+          "kind": "basic",
+          "multiplier": 0.2422,
+          "offTuneUnits": 0.42373737373737375,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1218,
+              1318,
+              1418,
+              1558,
+              1658,
+              1772,
+              1932,
+              2092,
+              2252,
+              2422,
+              2621,
+              2821,
+              3021,
+              3220,
+              3420,
+              3620,
+              3820,
+              4019,
+              4219,
+              4419
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2143,
+            "type": 0,
+            "weakness_lvl": 1678
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3605922934544843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻\n控制人偶“悬丝”，进行最多4段的连续攻击，造成导电伤害。\n \n重击\n消耗耐力操纵人偶“悬丝”攻击目标，造成导电伤害。\n \n空中攻击\n消耗耐力，操控人偶“悬丝”进行空中下落攻击，造成导电伤害。\n \n闪避反击\n成功闪避后一定时间内短按普攻，将会攻击目标，造成导电伤害。",
+      "headings": [
+        "普攻",
+        "重击",
+        "空中攻击",
+        "闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+      "id": "stringmaster/node_1",
+      "name": "悬丝华刃舞",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "第一段伤害",
+          "values": [
+            "28.81%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "第二段伤害",
+          "values": [
+            "33.82%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "第三段伤害",
+          "values": [
+            "13.99%*7"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "第四段伤害",
+          "values": [
+            "75.16%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击伤害",
+          "values": [
+            "29.83%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "空中攻击伤害",
+          "values": [
+            "123.27%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "闪避反击伤害",
+          "values": [
+            "24.22%*7"
+          ]
+        },
+        {
+          "format": null,
+          "id": "30",
+          "name": "重击消耗耐力",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "31",
+          "name": "空中攻击消耗耐力",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻</color></size>\n控制人偶“悬丝”，进行最多4段的连续攻击，造成<color=Thunder>导电伤害</color>。\n<size=10> </size>\n<size=40><color=Title>重击</color></size>\n消耗耐力操纵人偶“悬丝”攻击目标，造成<color=Thunder>导电伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力，操控人偶“悬丝”进行空中下落攻击，造成<color=Thunder>导电伤害</color>。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n成功<color=Highlight>闪避</color>后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Thunder>导电伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302020001",
+          "kind": "skill",
+          "multiplier": 0.5965,
+          "offTuneUnits": 0.5611111111111111,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3000,
+              3246,
+              3492,
+              3837,
+              4083,
+              4366,
+              4759,
+              5153,
+              5547,
+              5965,
+              6457,
+              6949,
+              7441,
+              7933,
+              8425,
+              8917,
+              9409,
+              9901,
+              10393,
+              10885
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6667,
+            "type": 4,
+            "weakness_lvl": 2222
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.121823994615514,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302021001",
+          "kind": "skill",
+          "multiplier": 0.8947,
+          "offTuneUnits": 0.33636363636363636,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 375,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4500,
+              4869,
+              5238,
+              5755,
+              6124,
+              6548,
+              7139,
+              7729,
+              8320,
+              8947,
+              9685,
+              10423,
+              11161,
+              11899,
+              12637,
+              13375,
+              14113,
+              14851,
+              15589,
+              16327
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 4,
+            "weakness_lvl": 1332
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302021010",
+          "kind": "skill",
+          "multiplier": 0.8947,
+          "offTuneUnits": 0.33636363636363636,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 375,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4500,
+              4869,
+              5238,
+              5755,
+              6124,
+              6548,
+              7139,
+              7729,
+              8320,
+              8947,
+              9685,
+              10423,
+              11161,
+              11899,
+              12637,
+              13375,
+              14113,
+              14851,
+              15589,
+              16327
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 4,
+            "weakness_lvl": 1332
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302020030",
+          "kind": "skill",
+          "multiplier": 0.1989,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 500,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1000,
+              1082,
+              1164,
+              1279,
+              1361,
+              1456,
+              1587,
+              1718,
+              1849,
+              1989,
+              2153,
+              2317,
+              2481,
+              2645,
+              2809,
+              2973,
+              3137,
+              3301,
+              3465,
+              3629
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "磁殛咆哮\n人偶“悬丝”对目标造成导电伤害，并使吟霖进入共鸣技能磁殛状态。\n \n磁殛状态\n·普攻和闪避反击命中目标时，触发1次磁殛爆发；\n·每段普攻和闪避反击仅可触发1次磁殛爆发，最多可触发4次。\n \n磁殛爆发\n攻击所有携带共鸣回路缚罪标记的目标，造成导电伤害。\n \n召雷磁爆\n施放共鸣技能磁殛咆哮后一定时间内，短按共鸣技能，将会施放召雷磁爆攻击目标，造成导电伤害。\n若一定时间内没有施放共鸣技能召雷磁爆或者切换至其他角色，则技能进入冷却状态。",
+      "headings": [
+        "磁殛咆哮",
+        "磁殛状态",
+        "磁殛爆发",
+        "召雷磁爆"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinB1.SP_IconYinlinB1",
+      "id": "stringmaster/node_2",
+      "name": "磁殛咆哮",
+      "parameters": [
+        {
+          "format": null,
+          "id": "11",
+          "name": "磁殛咆哮伤害",
+          "values": [
+            "59.65%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "召雷磁爆伤害",
+          "values": [
+            "89.47%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "13",
+          "name": "磁殛爆发伤害",
+          "values": [
+            "19.89%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "14",
+          "name": "磁殛状态持续时间",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "22",
+          "name": "冷却时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "format": null,
+          "id": "23",
+          "name": "磁殛咆哮回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "24",
+          "name": "召雷磁爆回复协奏能量",
+          "values": [
+            "15"
+          ]
+        },
+        {
+          "format": null,
+          "id": "25",
+          "name": "磁殛爆发回复协奏能量",
+          "values": [
+            "5"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>磁殛咆哮</color></size>\n人偶“悬丝”对目标造成<color=Thunder>导电伤害</color>，并使吟霖进入共鸣技能<color=Highlight>磁殛状态</color>。\n<size=10> </size>\n<size=40><color=Title>磁殛状态</color></size>\n·<color=Highlight>普攻</color>和<color=Highlight>闪避反击</color>命中目标时，触发1次<color=Highlight>磁殛爆发</color>；\n·每段<color=Highlight>普攻</color>和<color=Highlight>闪避反击</color>仅可触发1次<color=Highlight>磁殛爆发</color>，最多可触发4次。\n<size=10> </size>\n<size=40><color=Title>磁殛爆发</color></size>\n攻击所有携带共鸣回路<color=Highlight><te href=850029>缚罪标记</te></color>的目标，造成<color=Thunder>导电伤害</color>。\n<size=10> </size>\n<size=40><color=Title>召雷磁爆</color></size>\n施放共鸣技能<color=Highlight>磁殛咆哮</color>后一定时间内，短按共鸣技能，将会施放<color=Highlight>召雷磁爆</color>攻击目标，造成<color=Thunder>导电伤害</color>。\n若一定时间内没有施放共鸣技能<color=Highlight>召雷磁爆</color>或者切换至其他角色，则技能进入冷却状态。",
+      "rawParameters": [
+        "8"
+      ],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302040002",
+          "kind": "liberation",
+          "multiplier": 1.1656,
+          "offTuneUnits": 1.2987373737373737,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5863,
+              6344,
+              6825,
+              7498,
+              7979,
+              8532,
+              9301,
+              10070,
+              10839,
+              11656,
+              12618,
+              13579,
+              14541,
+              15502,
+              16464,
+              17425,
+              18387,
+              19349,
+              20310,
+              21272
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5715,
+            "type": 2,
+            "weakness_lvl": 5143
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.961635537607269,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "指挥“悬丝”引下天雷，轰击敌人，造成大范围导电伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinC1.SP_IconYinlinC1",
+      "id": "stringmaster/node_3",
+      "name": "破天雷灭击",
+      "parameters": [
+        {
+          "format": null,
+          "id": "15",
+          "name": "技能伤害",
+          "values": [
+            "116.56%*7"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "16",
+          "name": "冷却时间",
+          "values": [
+            "16"
+          ]
+        },
+        {
+          "format": null,
+          "id": "17",
+          "name": "消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": null,
+          "id": "18",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "指挥“悬丝”引下天雷，轰击敌人，造成大范围<color=Thunder>导电伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "使用共鸣技能磁殛咆哮后，暴击提升15%，持续5秒。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinD1.SP_IconYinlinD1",
+      "id": "stringmaster/node_4",
+      "name": "浸渍痛楚",
+      "parameters": [],
+      "rawDescription": "使用共鸣技能<color=Highlight>磁殛咆哮</color>后，暴击提升{0}，持续{1}秒。",
+      "rawParameters": [
+        "15%",
+        "5"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "共鸣技能召雷磁爆命中带有缚罪标记的目标伤害提升10%，并且触发该效果时攻击提升10%，持续4秒。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinD2.SP_IconYinlinD2",
+      "id": "stringmaster/node_5",
+      "name": "目标专注",
+      "parameters": [],
+      "rawDescription": "共鸣技能<color=Highlight>召雷磁爆</color>命中带有<color=Highlight><te href=850029>缚罪标记</te></color>的目标伤害提升{0}，并且触发该效果时攻击提升{1}，持续{2}秒。",
+      "rawParameters": [
+        "10%",
+        "10%",
+        "4"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302050010",
+          "kind": "intro",
+          "multiplier": 0.1432,
+          "offTuneUnits": 0.2404040404040404,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              720,
+              780,
+              839,
+              921,
+              980,
+              1048,
+              1143,
+              1237,
+              1332,
+              1432,
+              1550,
+              1668,
+              1786,
+              1904,
+              2022,
+              2140,
+              2258,
+              2377,
+              2495,
+              2613
+            ],
+            "related_property": "攻击",
+            "tough_lv": 499,
+            "type": 3,
+            "weakness_lvl": 952
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0839643277805822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302050011",
+          "kind": "intro",
+          "multiplier": 0.1432,
+          "offTuneUnits": 0.2404040404040404,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              720,
+              780,
+              839,
+              921,
+              980,
+              1048,
+              1143,
+              1237,
+              1332,
+              1432,
+              1550,
+              1668,
+              1786,
+              1904,
+              2022,
+              2140,
+              2258,
+              2377,
+              2495,
+              2613
+            ],
+            "related_property": "攻击",
+            "tough_lv": 499,
+            "type": 3,
+            "weakness_lvl": 952
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0839643277805822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "利用人偶“悬丝”进行攻击，造成大范围的导电伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinQTE.SP_IconYinlinQTE",
+      "id": "stringmaster/node_6",
+      "name": "狂雷飓风",
+      "parameters": [
+        {
+          "format": null,
+          "id": "19",
+          "name": "技能伤害",
+          "values": [
+            "14.32%*10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "26",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "利用人偶“悬丝”进行攻击，造成大范围的<color=Thunder>导电伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302020041",
+          "kind": "skill",
+          "multiplier": 0.7864,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3956,
+              4280,
+              4605,
+              5059,
+              5383,
+              5756,
+              6275,
+              6794,
+              7313,
+              7864,
+              8513,
+              9162,
+              9810,
+              10459,
+              11108,
+              11756,
+              12405,
+              13054,
+              13702,
+              14351
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302013010",
+          "kind": "heavy",
+          "multiplier": 1.7893,
+          "offTuneUnits": 6.565656565656566,
+          "raw": {
+            "element": 3,
+            "element_power": 1000,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              9000,
+              9738,
+              10476,
+              11510,
+              12248,
+              13096,
+              14277,
+              15458,
+              16639,
+              17893,
+              19369,
+              20845,
+              22321,
+              23797,
+              25273,
+              26749,
+              28225,
+              29701,
+              31177,
+              32653
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2120,
+            "type": 1,
+            "weakness_lvl": 26000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.3567221941780246,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302013011",
+          "kind": "heavy",
+          "multiplier": 1.7893,
+          "offTuneUnits": 6.565656565656566,
+          "raw": {
+            "element": 3,
+            "element_power": 1000,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              9000,
+              9738,
+              10476,
+              11510,
+              12248,
+              13096,
+              14277,
+              15458,
+              16639,
+              17893,
+              19369,
+              20845,
+              22321,
+              23797,
+              25273,
+              26749,
+              28225,
+              29701,
+              31177,
+              32653
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2120,
+            "type": 1,
+            "weakness_lvl": 26000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.3567221941780246,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1302020043",
+          "kind": "skill",
+          "multiplier": 1.2189,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6131,
+              6634,
+              7137,
+              7841,
+              8343,
+              8922,
+              9726,
+              10530,
+              11335,
+              12189,
+              13195,
+              14200,
+              15206,
+              16211,
+              17217,
+              18222,
+              19227,
+              20233,
+              21238,
+              22244
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "千面魅影\n当吟霖【审判值】满时，重击将替换为千面魅影，消耗所有【审判值】攻击目标，造成导电伤害，命中携带缚罪标记的目标时，缚罪标记被替换为惩罚印记，持续18秒。千面魅影造成的伤害为重击伤害。\n \n缚罪标记\n常态攻击悬丝华刃舞、共鸣解放破天雷灭击或变奏技能狂雷飓风命中目标时，附加缚罪标记。\n吟霖离场时缚罪标记消失。\n \n惩罚印记\n携带惩罚印记的目标受到伤害时会降下审判之雷，对所有携带惩罚印记的目标造成导电伤害，每秒最多可触发1次。审判之雷造成的伤害为共鸣技能伤害。\n \n审判值\n【审判值】上限100点。\n施放变奏技能狂雷飓风时，回复【审判值】。\n常态攻击悬丝华刃舞命中目标时，回复【审判值】。\n施放共鸣技能磁殛咆哮时，回复【审判值】。\n共鸣技能磁殛爆发命中目标时，回复【审判值】。\n施放共鸣技能召雷磁爆时，回复【审判值】。",
+      "headings": [
+        "千面魅影",
+        "缚罪标记",
+        "惩罚印记",
+        "审判值"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinY.SP_IconYinlinY",
+      "id": "stringmaster/node_7",
+      "name": "千面魅影",
+      "parameters": [
+        {
+          "format": null,
+          "id": "7",
+          "name": "千面魅影伤害",
+          "values": [
+            "178.93%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "20",
+          "name": "审判之雷伤害",
+          "values": [
+            "78.64%"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>千面魅影</color></size>\n当吟霖【审判值】满时，<color=Highlight>重击</color>将替换为<color=Highlight>千面魅影</color>，消耗所有【审判值】攻击目标，造成<color=Thunder>导电伤害</color>，命中携带<color=Highlight>缚罪标记</color>的目标时，<color=Highlight>缚罪标记</color>被替换为<color=Highlight>惩罚印记</color>，持续{0}秒。<color=Highlight>千面魅影</color>造成的伤害为重击伤害。\n<size=10> </size>\n<size=40><color=Title>缚罪标记</color></size>\n常态攻击<color=Highlight>悬丝华刃舞</color>、共鸣解放<color=Highlight>破天雷灭击</color>或变奏技能<color=Highlight>狂雷飓风</color>命中目标时，附加<color=Highlight>缚罪标记</color>。\n吟霖离场时<color=Highlight>缚罪标记</color>消失。\n<size=10> </size>\n<size=40><color=Title>惩罚印记</color></size>\n携带<color=Highlight>惩罚印记</color>的目标受到伤害时会降下<color=Highlight>审判之雷</color>，对所有携带<color=Highlight>惩罚印记</color>的目标造成<color=Thunder>导电伤害</color>，每秒最多可触发1次。<color=Highlight>审判之雷</color>造成的伤害为共鸣技能伤害。\n<size=10> </size>\n<size=40><color=Title>审判值</color></size>\n【审判值】上限{1}点。\n施放变奏技能<color=Highlight>狂雷飓风</color>时，回复【审判值】。\n常态攻击<color=Highlight>悬丝华刃舞</color>命中目标时，回复【审判值】。\n施放共鸣技能<color=Highlight>磁殛咆哮</color>时，回复【审判值】。\n共鸣技能<color=Highlight>磁殛爆发</color>命中目标时，回复【审判值】。\n施放共鸣技能<color=Highlight>召雷磁爆</color>时，回复【审判值】。",
+      "rawParameters": [
+        "18",
+        "100"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "下一位登场角色导电伤害加深20%，共鸣解放伤害加深25%，效果持续14秒，若切换至其他角色则该效果提前结束。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYinlin/SP_IconYinlinT.SP_IconYinlinT",
+      "id": "stringmaster/node_8",
+      "name": "策电",
+      "parameters": [],
+      "rawDescription": "下一位登场角色导电伤害加深{0}，共鸣解放伤害加深{1}，效果持续{2}秒，若切换至其他角色则该效果提前结束。",
+      "rawParameters": [
+        "20%",
+        "25%",
+        "14"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "stringmaster/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "stringmaster/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "stringmaster/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "stringmaster/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "stringmaster/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "stringmaster/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "stringmaster/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "stringmaster/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+      "id": "stringmaster/node_17",
+      "name": "谐度破坏·音感仪",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    8,
+    8,
+    8,
+    8,
+    8
+  ],
+  "sourceId": 1302,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1302.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "密电增幅",
+    "name": "掣傀之手",
+    "refinements": [
+      {
+        "description": "全属性伤害加成提升12%。造成共鸣技能伤害时，自身攻击提升12%，可叠加2层，效果持续5秒。自身不在场时，该效果攻击额外提升12%。",
+        "parameters": [
+          "12%",
+          "12%",
+          "2",
+          "5",
+          "12%"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "全属性伤害加成提升15%。造成共鸣技能伤害时，自身攻击提升15%，可叠加2层，效果持续5秒。自身不在场时，该效果攻击额外提升15%。",
+        "parameters": [
+          "15%",
+          "15%",
+          "2",
+          "5",
+          "15%"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "全属性伤害加成提升18%。造成共鸣技能伤害时，自身攻击提升18%，可叠加2层，效果持续5秒。自身不在场时，该效果攻击额外提升18%。",
+        "parameters": [
+          "18%",
+          "18%",
+          "2",
+          "5",
+          "18%"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "全属性伤害加成提升21%。造成共鸣技能伤害时，自身攻击提升21%，可叠加2层，效果持续5秒。自身不在场时，该效果攻击额外提升21%。",
+        "parameters": [
+          "21%",
+          "21%",
+          "2",
+          "5",
+          "21%"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "全属性伤害加成提升24%。造成共鸣技能伤害时，自身攻击提升24%，可叠加2层，效果持续5秒。自身不在场时，该效果攻击额外提升24%。",
+        "parameters": [
+          "24%",
+          "24%",
+          "2",
+          "5",
+          "24%"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21050016,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 500.0,
+        "value": 500.0
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击",
+        "rawValue": 3600.0,
+        "value": 0.36
+      }
+    ]
+  },
+  "weaponType": 5
+}

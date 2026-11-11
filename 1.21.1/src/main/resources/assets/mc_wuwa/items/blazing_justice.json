@@ -1,0 +1,39 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": [
+          "firstperson_lefthand",
+          "thirdperson_lefthand"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mc_wuwa:item/blazing_justice_left_3d"
+        }
+      },
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mc_wuwa:item/blazing_justice_icon"
+        }
+      },
+      {
+        "when": [
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mc_wuwa:item/blazing_justice_display"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mc_wuwa:item/blazing_justice_3d"
+    }
+  }
+}

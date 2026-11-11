@@ -1,0 +1,32 @@
+{
+  "loader": "neoforge:obj",
+  "model": "mc_wuwa:models/item/echo_faces/echo_sigillum_head.obj",
+  "automatic_culling": false,
+  "shade_quads": true,
+  "flip_v": false,
+  "ambientocclusion": false,
+  "gui_light": "front",
+  "textures": {
+    "head": "mc_wuwa:entity/echo_sigillum",
+    "particle": "mc_wuwa:entity/echo_sigillum"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        12,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1.05,
+        1.05,
+        1.05
+      ]
+    }
+  }
+}

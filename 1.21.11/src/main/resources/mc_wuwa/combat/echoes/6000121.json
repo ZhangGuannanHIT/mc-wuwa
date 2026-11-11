@@ -1,0 +1,216 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "28003101",
+      "kind": "echo",
+      "multiplier": 0.5535,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 76,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3075,
+          3690,
+          4305,
+          4920,
+          5535
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3075,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.5174154467440687,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "28003102",
+      "kind": "echo",
+      "multiplier": 4.05,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 0,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "related_property": "攻击",
+        "tough_lv": 22500,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 3.7859666834931853,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为伪作的神王，发动旋转突进对敌人造成四段55.35%的导电伤害。\n在首位装配该声骸技能时，自身导电伤害加成提升12.00%，重击伤害加成提升12.00%；使用变奏技能登场时可召唤伪作的神王，对敌人造成405.00%的导电伤害。\n初始拥有2次可使用次数，每8秒可使用次数增加1次，可使用次数上限2次。\n技能冷却：8秒",
+  "mechanicsFullyImplemented": false,
+  "name": "伪作的神王",
+  "parameters": [
+    "55.35%",
+    "12.00%",
+    "12.00%",
+    "405.00%",
+    "2",
+    "8",
+    "2",
+    "8"
+  ],
+  "raw": {
+    "code": "W87-",
+    "group": {
+      "20": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriShield.T_IconElementAttriShield",
+        "id": 20,
+        "name": "荣斗铸锋之冠",
+        "set": {
+          "3": {
+            "desc": "角色获得护盾时，自身攻击提升{0}，暴击伤害提升{1}，该效果可叠加{2}层，持续{3}秒，每{4}秒可触发一次。",
+            "param": [
+              "6%",
+              "4%",
+              "5",
+              "4",
+              "0.5"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34017_UI.T_IconMonsterHead_34017_UI",
+    "id": 6000121,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 340000170,
+    "name": "伪作的神王",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34017_UI.T_IconMonsterGoods_SG_34017_UI",
+      "name": "异相·伪作的神王"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28003101": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 76,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3075,
+            3690,
+            4305,
+            4920,
+            5535
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3075,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28003102": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 0,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            22500,
+            27000,
+            31500,
+            36000,
+            40500
+          ],
+          "related_property": "攻击",
+          "tough_lv": 22500,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为伪作的神王，发动旋转突进对敌人造成四段{0}的导电伤害。\n在首位装配该声骸技能时，自身导电伤害加成提升{1}，重击伤害加成提升{2}；使用变奏技能登场时可召唤伪作的神王，对敌人造成{3}的导电伤害。\n初始拥有{4}次可使用次数，每{5}秒可使用次数增加1次，可使用次数上限{6}次。\n技能冷却：{7}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34017_UI.T_MstSkil_34017_UI",
+      "param": [
+        [
+          "30.75%",
+          "12.00%",
+          "12.00%",
+          "225.00%",
+          "2",
+          "8",
+          "2",
+          "8"
+        ],
+        [
+          "36.90%",
+          "12.00%",
+          "12.00%",
+          "270.00%",
+          "2",
+          "8",
+          "2",
+          "8"
+        ],
+        [
+          "43.05%",
+          "12.00%",
+          "12.00%",
+          "315.00%",
+          "2",
+          "8",
+          "2",
+          "8"
+        ],
+        [
+          "49.20%",
+          "12.00%",
+          "12.00%",
+          "360.00%",
+          "2",
+          "8",
+          "2",
+          "8"
+        ],
+        [
+          "55.35%",
+          "12.00%",
+          "12.00%",
+          "405.00%",
+          "2",
+          "8",
+          "2",
+          "8"
+        ]
+      ],
+      "simple_desc": "幻形为伪作的神王，对周围敌人造成导电伤害。\n在首位装配时，提高自身导电和重击伤害；使用变奏技能登场时可召唤伪作的神王，对敌人造成导电伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000121
+}

@@ -1,0 +1,147 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28001701",
+      "kind": "echo",
+      "multiplier": 4.05,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 562,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "related_property": "攻击",
+        "tough_lv": 22500,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 3.7859666834931853,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为罗蕾莱，对周围敌人造成405.00%的湮灭属性伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升12.00%，普攻伤害加成提升12.00%。\n技能冷却：25秒",
+  "mechanicsFullyImplemented": false,
+  "name": "罗蕾莱",
+  "parameters": [
+    "405.00%",
+    "12.00%",
+    "12.00%",
+    "25"
+  ],
+  "raw": {
+    "code": "W83-",
+    "group": {
+      "12": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkAssist.T_IconElementAttriDarkAssist",
+        "id": 12,
+        "name": "幽夜隐匿之帷",
+        "set": {
+          "2": {
+            "desc": "湮灭属性伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色触发延奏技能离场时，额外对周围敌人造成{0}的湮灭伤害，该伤害为延奏技能伤害，并使下一个登场角色湮灭属性伤害加成提升{1}，持续{2}秒。",
+            "param": [
+              "480%",
+              "15%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_33011_UI.T_IconMonsterHead_33011_UI",
+    "id": 6000082,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 330000110,
+    "name": "罗蕾莱",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33011_UI.T_IconMonsterGoods_SG_33011_UI",
+      "name": "异相·罗蕾莱"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28001701": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 562,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            22500,
+            27000,
+            31500,
+            36000,
+            40500
+          ],
+          "related_property": "攻击",
+          "tough_lv": 22500,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为罗蕾莱，对周围敌人造成{0}的湮灭属性伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升{1}，普攻伤害加成提升{2}。\n技能冷却：{3}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_33011_UI.MstSkil_33011_UI",
+      "param": [
+        [
+          "225.00%",
+          "12.00%",
+          "12.00%",
+          "25"
+        ],
+        [
+          "270.00%",
+          "12.00%",
+          "12.00%",
+          "25"
+        ],
+        [
+          "315.00%",
+          "12.00%",
+          "12.00%",
+          "25"
+        ],
+        [
+          "360.00%",
+          "12.00%",
+          "12.00%",
+          "25"
+        ],
+        [
+          "405.00%",
+          "12.00%",
+          "12.00%",
+          "25"
+        ]
+      ],
+      "simple_desc": "幻形为罗蕾莱，对周围敌人造成湮灭伤害。在首位装配时提高自身的湮灭和普攻伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000082
+}

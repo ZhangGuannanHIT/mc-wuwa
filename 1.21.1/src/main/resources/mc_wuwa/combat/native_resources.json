@@ -1,0 +1,5077 @@
+{
+  "commit": "9218d612ad815e398e064e577e42aaf878899968",
+  "commonProjectionVerified": true,
+  "comparedUniqueDamageRows": 2064,
+  "multiTargetPolicy": "authored Minecraft: one resource transaction per successful timeline hit index, regardless of target count",
+  "nanokaHotfix": "3.7.6",
+  "newSixResourceSource": {
+    "associationLimits": "Damage-slot values exact; Iuno/Lupa buff-to-hit associations separately recorded, not original blueprint callsite verification.",
+    "buffSourceSha256": "f898891fa7a82d00d79861ea3fb409f807802cfa7bc6132515176ae71e9a748a",
+    "buffUrl": "https://raw.githubusercontent.com/Arikatsu/WutheringWaves_Data/9218d612ad815e398e064e577e42aaf878899968/BinData/buff/buff.json",
+    "multiSlotYieldsVersion": 1,
+    "profiles": {
+      "denia": {
+        "actions": 31,
+        "multiYieldRows": 10,
+        "rows": 31
+      },
+      "iuno": {
+        "actions": 5,
+        "multiYieldRows": 0,
+        "rows": 12
+      },
+      "lupa": {
+        "actions": 11,
+        "multiYieldRows": 0,
+        "rows": 23
+      },
+      "qingxiao": {
+        "actions": 14,
+        "multiYieldRows": 0,
+        "rows": 31
+      }
+    },
+    "resourceVersion": "3.7.8"
+  },
+  "profiles": {
+    "aemeath": {
+      "actions": {
+        "aemeath/air": [
+          "1210100701"
+        ],
+        "aemeath/basic_01": [
+          "1210100101"
+        ],
+        "aemeath/basic_02": [
+          "1210100201",
+          "1210100202",
+          "1210100203"
+        ],
+        "aemeath/basic_03": [
+          "1210100301",
+          "1210100304",
+          "1210100305"
+        ],
+        "aemeath/basic_04": [
+          "1210100401",
+          "1210100403"
+        ],
+        "aemeath/dodge_counter": [
+          "1210100601",
+          "1210100604",
+          "1210100605"
+        ],
+        "aemeath/mech_air": [
+          "1210200801",
+          "1210200802"
+        ],
+        "aemeath/mech_basic_01": [
+          "1210200101"
+        ],
+        "aemeath/mech_basic_02": [
+          "1210200201",
+          "1210200202"
+        ],
+        "aemeath/mech_basic_03": [
+          "1210200301",
+          "1210200304",
+          "1210200305"
+        ],
+        "aemeath/mech_basic_04": [
+          "1210200401",
+          "1210200402"
+        ],
+        "aemeath/mech_dodge_counter": [
+          "1210200501",
+          "1210200504",
+          "1210200505"
+        ],
+        "aemeath/skill": [
+          "1210210401",
+          "1210210402",
+          "1210210403"
+        ],
+        "aemeath/skill_dawn": [
+          "1210110401",
+          "1210110404"
+        ]
+      },
+      "characterSourceId": 1210,
+      "damages": {
+        "1210100101": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.29,
+          "rawChange": 329
+        },
+        "1210100201": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.29,
+          "rawChange": 129
+        },
+        "1210100202": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.93,
+          "rawChange": 193
+        },
+        "1210100203": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.22,
+          "rawChange": 322
+        },
+        "1210100301": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.67,
+          "rawChange": 167
+        },
+        "1210100302": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.67,
+          "rawChange": 167
+        },
+        "1210100303": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.67,
+          "rawChange": 167
+        },
+        "1210100304": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.33,
+          "rawChange": 333
+        },
+        "1210100305": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.32,
+          "rawChange": 832
+        },
+        "1210100401": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.17,
+          "rawChange": 117
+        },
+        "1210100402": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.17,
+          "rawChange": 117
+        },
+        "1210100403": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 17.46,
+          "rawChange": 1746
+        },
+        "1210100601": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.9,
+          "rawChange": 290
+        },
+        "1210100602": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.9,
+          "rawChange": 290
+        },
+        "1210100603": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.9,
+          "rawChange": 290
+        },
+        "1210100604": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.8,
+          "rawChange": 580
+        },
+        "1210100605": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 14.49,
+          "rawChange": 1449
+        },
+        "1210100701": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 11.71,
+          "rawChange": 1171
+        },
+        "1210110401": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.22,
+          "rawChange": 222
+        },
+        "1210110402": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.22,
+          "rawChange": 222
+        },
+        "1210110403": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.22,
+          "rawChange": 222
+        },
+        "1210110404": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.52,
+          "rawChange": 1552
+        },
+        "1210200101": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.15,
+          "rawChange": 215
+        },
+        "1210200201": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.92,
+          "rawChange": 192
+        },
+        "1210200202": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.68,
+          "rawChange": 768
+        },
+        "1210200301": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.67,
+          "rawChange": 67
+        },
+        "1210200302": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.67,
+          "rawChange": 67
+        },
+        "1210200304": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 13.87,
+          "rawChange": 1387
+        },
+        "1210200305": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.99,
+          "rawChange": 199
+        },
+        "1210200401": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.99,
+          "rawChange": 699
+        },
+        "1210200402": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.29,
+          "rawChange": 1629
+        },
+        "1210200501": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.08,
+          "rawChange": 108
+        },
+        "1210200502": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.08,
+          "rawChange": 108
+        },
+        "1210200504": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 22.5,
+          "rawChange": 2250
+        },
+        "1210200505": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.22,
+          "rawChange": 322
+        },
+        "1210200801": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.96,
+          "rawChange": 996
+        },
+        "1210200802": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.59,
+          "rawChange": 59
+        },
+        "1210200803": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.59,
+          "rawChange": 59
+        },
+        "1210200804": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.59,
+          "rawChange": 59
+        },
+        "1210210401": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.66,
+          "rawChange": 366
+        },
+        "1210210402": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.49,
+          "rawChange": 549
+        },
+        "1210210403": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.14,
+          "rawChange": 914
+        }
+      },
+      "displayedCap": 200,
+      "rawUnitsPerPoint": 100,
+      "resource": "synchronization",
+      "sourceRawCap": 20000,
+      "sourceSlot": 2
+    },
+    "augusta": {
+      "actions": {
+        "augusta/air": [
+          "1306200001",
+          "1306200002"
+        ],
+        "augusta/air_counter": [
+          "1306730001",
+          "1306730002"
+        ],
+        "augusta/basic_01": [
+          "1306001001"
+        ],
+        "augusta/basic_02": [
+          "1306002001",
+          "1306002002"
+        ],
+        "augusta/basic_03": [
+          "1306003001",
+          "1306003002",
+          "1306003003"
+        ],
+        "augusta/basic_04": [
+          "1306004001",
+          "1306004002",
+          "1306004003"
+        ],
+        "augusta/counter_heavy": [
+          "1306710001"
+        ],
+        "augusta/counter_retreat": [
+          "1306720001"
+        ],
+        "augusta/dodge_counter": [
+          "1306700001",
+          "1306700002"
+        ],
+        "augusta/heavy": [
+          "1306050001"
+        ],
+        "augusta/heavy_retreat": [
+          "1306210101"
+        ],
+        "augusta/heavy_spin": [
+          "1306211101",
+          "1306211102"
+        ],
+        "augusta/heavy_uppercut": [
+          "1306311101",
+          "1306311102"
+        ],
+        "augusta/skill": [
+          "1306301001",
+          "1306301002",
+          "1306301003"
+        ]
+      },
+      "basis": "Power: source100 cap / slot2 cap5000; War: explicitly normalized650 raw to100 display, per actual successful contact.",
+      "damages": {
+        "1306001001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 15.23076923076923,
+              "rawChange": 99,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.48,
+          "rawChange": 74,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306002001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.692307692307693,
+              "rawChange": 115,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.72,
+          "rawChange": 86,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306002002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.692307692307693,
+              "rawChange": 115,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.72,
+          "rawChange": 86,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306003001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.23076923076923,
+              "rawChange": 112,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.68,
+          "rawChange": 84,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306003002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.23076923076923,
+              "rawChange": 112,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.68,
+          "rawChange": 84,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306003003": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.23076923076923,
+              "rawChange": 112,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.68,
+          "rawChange": 84,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306004001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.076923076923077,
+              "rawChange": 111,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.66,
+          "rawChange": 83,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306004002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.076923076923077,
+              "rawChange": 111,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.66,
+          "rawChange": 83,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306004003": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.076923076923077,
+              "rawChange": 111,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.66,
+          "rawChange": 83,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306050001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.53846153846154,
+              "rawChange": 114,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.7,
+          "rawChange": 85,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306200001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 3.8461538461538463,
+              "rawChange": 25,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.54,
+          "rawChange": 77,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306200002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 3.8461538461538463,
+              "rawChange": 25,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.54,
+          "rawChange": 77,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306210101": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.0,
+          "rawChange": 50,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306211101": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.96,
+          "rawChange": 248,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306211102": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.96,
+          "rawChange": 248,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306301001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+          "originalCondition": "",
+          "points": 33.84615384615385,
+          "rawChange": 220,
+          "rawUnitsPerPoint": 6.5,
+          "resource": "war",
+          "sourceSlot": 1
+        },
+        "1306301002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+          "originalCondition": "",
+          "points": 33.84615384615385,
+          "rawChange": 220,
+          "rawUnitsPerPoint": 6.5,
+          "resource": "war",
+          "sourceSlot": 1
+        },
+        "1306301003": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+          "originalCondition": "",
+          "points": 33.84615384615385,
+          "rawChange": 220,
+          "rawUnitsPerPoint": 6.5,
+          "resource": "war",
+          "sourceSlot": 1
+        },
+        "1306311101": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.82,
+          "rawChange": 191,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306311102": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.82,
+          "rawChange": 191,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306700001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.692307692307693,
+              "rawChange": 115,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.72,
+          "rawChange": 86,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306700002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.692307692307693,
+              "rawChange": 115,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.72,
+          "rawChange": 86,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306710001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 17.53846153846154,
+              "rawChange": 114,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.7,
+          "rawChange": 85,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306720001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.0,
+          "rawChange": 50,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306730001": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 3.8461538461538463,
+              "rawChange": 25,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.54,
+          "rawChange": 77,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        },
+        "1306730002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "normal"
+              ],
+              "executionTiming": 0,
+              "normalizationBasis": "MC100-point display of independently verified native650-unit War meter",
+              "originalCondition": "",
+              "points": 3.8461538461538463,
+              "rawChange": 25,
+              "rawUnitsPerPoint": 6.5,
+              "resource": "war",
+              "sourceSlot": 1
+            }
+          ],
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.54,
+          "rawChange": 77,
+          "rawUnitsPerPoint": 50,
+          "resource": "power",
+          "sourceSlot": 2
+        }
+      },
+      "displayedCap": 100,
+      "rawUnitsPerPoint": 50,
+      "resource": "power",
+      "sourceRawCap": 5000,
+      "sourceSlot": 2,
+      "stagedCharacter": false
+    },
+    "camellya": {
+      "actions": {
+        "camellya/air": [
+          "1603100001"
+        ],
+        "camellya/basic_01": [
+          "1603001001"
+        ],
+        "camellya/basic_02": [
+          "1603002001"
+        ],
+        "camellya/basic_03": [
+          "1603003001"
+        ],
+        "camellya/basic_04": [
+          "1603004001"
+        ],
+        "camellya/basic_05": [
+          "1603005000"
+        ],
+        "camellya/bloom_basic_01": [
+          "1603101001"
+        ],
+        "camellya/bloom_basic_02": [
+          "1603102001"
+        ],
+        "camellya/bloom_basic_03": [
+          "1603103001"
+        ],
+        "camellya/bloom_basic_04": [
+          "1603104000"
+        ],
+        "camellya/bloom_dark_heart": [
+          "1603011001"
+        ],
+        "camellya/bloom_dodge_counter": [
+          "1603500200"
+        ],
+        "camellya/bloom_spinning": [
+          "1603103001"
+        ],
+        "camellya/bloom_twirl": [
+          "1603012001"
+        ],
+        "camellya/dodge_counter": [
+          "1603500100"
+        ],
+        "camellya/heavy": [
+          "1603200003"
+        ],
+        "camellya/skill": [
+          "1603010001"
+        ]
+      },
+      "characterSourceId": 1603,
+      "damages": {
+        "1603001001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.15,
+          "rawChange": -615
+        },
+        "1603002001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.57,
+          "rawChange": -457
+        },
+        "1603002002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.57,
+          "rawChange": -457
+        },
+        "1603003001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.98,
+          "rawChange": -498
+        },
+        "1603003002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.98,
+          "rawChange": -498
+        },
+        "1603003003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.98,
+          "rawChange": -498
+        },
+        "1603004001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.8,
+          "rawChange": -180
+        },
+        "1603004002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.8,
+          "rawChange": -180
+        },
+        "1603004003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.8,
+          "rawChange": -180
+        },
+        "1603004004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.8,
+          "rawChange": -180
+        },
+        "1603005000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.74,
+          "rawChange": -474
+        },
+        "1603005001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.74,
+          "rawChange": -474
+        },
+        "1603005002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.74,
+          "rawChange": -474
+        },
+        "1603005005": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.74,
+          "rawChange": -474
+        },
+        "1603010001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -10.55,
+          "rawChange": -1055
+        },
+        "1603010002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -10.55,
+          "rawChange": -1055
+        },
+        "1603011001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.89,
+          "rawChange": -489
+        },
+        "1603011002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.89,
+          "rawChange": -489
+        },
+        "1603011003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.89,
+          "rawChange": -489
+        },
+        "1603011004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.89,
+          "rawChange": -489
+        },
+        "1603011005": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.89,
+          "rawChange": -489
+        },
+        "1603012001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -5.21,
+          "rawChange": -521
+        },
+        "1603012002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -5.21,
+          "rawChange": -521
+        },
+        "1603012003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -5.21,
+          "rawChange": -521
+        },
+        "1603100001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -5.48,
+          "rawChange": -548
+        },
+        "1603100002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -5.48,
+          "rawChange": -548
+        },
+        "1603101001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -9.47,
+          "rawChange": -947
+        },
+        "1603102001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.49,
+          "rawChange": -449
+        },
+        "1603102002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.49,
+          "rawChange": -449
+        },
+        "1603103001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.6,
+          "rawChange": -160
+        },
+        "1603103003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.6,
+          "rawChange": -160
+        },
+        "1603104000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.64,
+          "rawChange": -664
+        },
+        "1603104001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.64,
+          "rawChange": -664
+        },
+        "1603104004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.64,
+          "rawChange": -664
+        },
+        "1603200003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603200004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603200005": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603200903": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603200904": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603200905": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.36,
+          "rawChange": -736
+        },
+        "1603500100": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -8.3,
+          "rawChange": -830
+        },
+        "1603500101": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -8.3,
+          "rawChange": -830
+        },
+        "1603500102": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -8.3,
+          "rawChange": -830
+        },
+        "1603500200": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -9.47,
+          "rawChange": -947
+        },
+        "1603500201": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -9.47,
+          "rawChange": -947
+        }
+      },
+      "displayedCap": 100,
+      "rawUnitsPerPoint": 100,
+      "resource": "pistils",
+      "sourceRawCap": 10000,
+      "sourceSlot": 1
+    },
+    "chisa": {
+      "actions": {
+        "chisa/air": [
+          "1508008003"
+        ],
+        "chisa/basic_01": [
+          "1508001001"
+        ],
+        "chisa/basic_02": [
+          "1508000001",
+          "1508000002",
+          "1508000003"
+        ],
+        "chisa/dodge_counter": [
+          "1508011001",
+          "1508011002",
+          "1508011003"
+        ],
+        "chisa/falling_finale": [
+          "1508003001",
+          "1508003002",
+          "1508003003"
+        ],
+        "chisa/heavy": [
+          "1508002001"
+        ],
+        "chisa/pierce": [
+          "1508007001",
+          "1508007005"
+        ],
+        "chisa/reel_counter": [
+          "1508200011"
+        ],
+        "chisa/retract": [
+          "1508005001",
+          "1508005011"
+        ],
+        "chisa/saw_basic_01": [
+          "15084011000"
+        ],
+        "chisa/saw_basic_02": [
+          "15084020000"
+        ],
+        "chisa/saw_basic_02_hold": [
+          "15084020000"
+        ],
+        "chisa/saw_basic_03": [
+          "15084030010"
+        ],
+        "chisa/saw_basic_03_hold": [
+          "15084030010"
+        ],
+        "chisa/saw_counter": [
+          "15084020000"
+        ],
+        "chisa/saw_counter_hold": [
+          "15084020000"
+        ],
+        "chisa/saw_resonance_02": [
+          "15084020030"
+        ],
+        "chisa/saw_resonance_03": [
+          "15084030030"
+        ],
+        "chisa/severing_extra": [
+          "1508006002"
+        ],
+        "chisa/severing_pincers": [
+          "1508006001",
+          "1508006011",
+          "1508006111"
+        ],
+        "chisa/shattered_plane": [
+          "1508016000"
+        ],
+        "chisa/skill": [
+          "1508200001"
+        ]
+      },
+      "characterSourceId": 1508,
+      "damages": {
+        "1508000001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508000002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3
+        },
+        "1508000003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.0,
+          "rawChange": 9
+        },
+        "1508001001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508001002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508002001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "1508002002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "1508003001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508003002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3
+        },
+        "1508003003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.0,
+          "rawChange": 8
+        },
+        "1508003013": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3
+        },
+        "1508005001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3
+        },
+        "1508005011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.0,
+          "rawChange": 10
+        },
+        "1508006001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4
+        },
+        "1508006002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.0,
+          "rawChange": 9
+        },
+        "1508006011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508006111": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 12.0,
+          "rawChange": 12
+        },
+        "1508007001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508007002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508007003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508007004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2
+        },
+        "1508007005": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 12.0,
+          "rawChange": 12
+        },
+        "1508008003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.0,
+          "rawChange": 9
+        },
+        "1508011001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3
+        },
+        "1508011002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "1508011003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15
+        },
+        "1508016000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "1508016001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "1508200001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "1508200011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 14.0,
+          "rawChange": 14
+        },
+        "15084010020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010023": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010024": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010110": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010111": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010113": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084010114": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084011000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084011001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084011003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084011004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -2.0,
+          "rawChange": -2
+        },
+        "15084020001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -2.0,
+          "rawChange": -2
+        },
+        "15084020003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -2.0,
+          "rawChange": -2
+        },
+        "15084020004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -2.0,
+          "rawChange": -2
+        },
+        "15084020010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020013": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020014": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020023": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020024": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020033": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020034": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084020110": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020111": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020113": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020114": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020210": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020211": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020213": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084020214": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084030010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084030011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084030013": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084030014": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -3.0,
+          "rawChange": -3
+        },
+        "15084030030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030033": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030034": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030040": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030041": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030043": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030044": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -1.0,
+          "rawChange": -1
+        },
+        "15084030210": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.0,
+          "rawChange": -4
+        },
+        "15084030211": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.0,
+          "rawChange": -4
+        },
+        "15084030213": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.0,
+          "rawChange": -4
+        },
+        "15084030214": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.0,
+          "rawChange": -4
+        },
+        "1508801001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        }
+      },
+      "displayedCap": 100,
+      "rawUnitsPerPoint": 1,
+      "resource": "saw_echo",
+      "sourceRawCap": 100,
+      "sourceSlot": 1
+    },
+    "denia": {
+      "actions": {
+        "denia/air": [
+          "1211000001",
+          "1211000002"
+        ],
+        "denia/basic_01": [
+          "1211001001"
+        ],
+        "denia/basic_02": [
+          "1211002002"
+        ],
+        "denia/basic_03": [
+          "1211003004"
+        ],
+        "denia/basic_04": [
+          "1211004011"
+        ],
+        "denia/basic_04_c3_full_core": [
+          "1211004012"
+        ],
+        "denia/disillusion_air": [
+          "1211100081",
+          "1211100083"
+        ],
+        "denia/disillusion_air_basic_01": [
+          "1211101001"
+        ],
+        "denia/disillusion_air_basic_01_enhanced": [
+          "1211101002"
+        ],
+        "denia/disillusion_air_basic_02": [
+          "1211102001",
+          "1211102002"
+        ],
+        "denia/disillusion_air_basic_02_enhanced": [
+          "1211102005",
+          "1211102006"
+        ],
+        "denia/disillusion_air_basic_03": [
+          "1211103001"
+        ],
+        "denia/disillusion_air_basic_03_enhanced": [
+          "1211103002"
+        ],
+        "denia/disillusion_air_basic_04": [
+          "1211104001",
+          "1211104003"
+        ],
+        "denia/disillusion_air_basic_04_enhanced": [
+          "1211104011",
+          "1211104012"
+        ],
+        "denia/disillusion_air_enhanced": [
+          "1211100082",
+          "1211100084"
+        ],
+        "denia/disillusion_basic_01": [
+          "1211101001"
+        ],
+        "denia/disillusion_basic_01_enhanced": [
+          "1211101002"
+        ],
+        "denia/disillusion_basic_02": [
+          "1211102001",
+          "1211102002"
+        ],
+        "denia/disillusion_basic_02_enhanced": [
+          "1211102005",
+          "1211102006"
+        ],
+        "denia/disillusion_basic_03": [
+          "1211103001"
+        ],
+        "denia/disillusion_basic_03_enhanced": [
+          "1211103002"
+        ],
+        "denia/disillusion_basic_04": [
+          "1211104001",
+          "1211104003"
+        ],
+        "denia/disillusion_basic_04_enhanced": [
+          "1211104011",
+          "1211104012"
+        ],
+        "denia/disillusion_counter": [
+          "1211103008"
+        ],
+        "denia/disillusion_counter_enhanced": [
+          "1211103009"
+        ],
+        "denia/disillusion_heavy": [
+          "1211106003"
+        ],
+        "denia/disillusion_heavy_enhanced": [
+          "1211106004"
+        ],
+        "denia/dodge_counter": [
+          "1211003009"
+        ],
+        "denia/heavy": [
+          "1211005002"
+        ],
+        "denia/skill_call": [
+          "1211105001",
+          "1211105002"
+        ]
+      },
+      "characterSourceId": 1211,
+      "damages": {
+        "1211000001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211000002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211001001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211002002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211003004": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211003009": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211004011": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 30.0,
+          "rawChange": 30,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211004012": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 30.0,
+          "rawChange": 30,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211005002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.0,
+          "rawChange": 10,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211100081": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211100082": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 6.0,
+              "rawChange": 6,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -15.0,
+          "rawChange": -15,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211100083": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211100084": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 8.0,
+              "rawChange": 8,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -22.0,
+          "rawChange": -22,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211101001": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211101002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 6.0,
+              "rawChange": 6,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -18.0,
+          "rawChange": -18,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211102001": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211102002": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211102005": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 8.0,
+              "rawChange": 8,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -18.0,
+          "rawChange": -18,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211102006": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 4.0,
+              "rawChange": 4,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.0,
+          "rawChange": -7,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211103001": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211103002": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 12.0,
+              "rawChange": 12,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -30.0,
+          "rawChange": -30,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211103008": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.0,
+          "rawChange": 10,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211103009": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 20.0,
+              "rawChange": 20,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -52.0,
+          "rawChange": -52,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211104001": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211104003": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.0,
+          "rawChange": 8,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211104011": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 6.0,
+              "rawChange": 6,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -18.0,
+          "rawChange": -18,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211104012": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 16.0,
+              "rawChange": 16,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -40.0,
+          "rawChange": -40,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        },
+        "1211105001": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211105002": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 2,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211106003": {
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 13.0,
+          "rawChange": 13,
+          "rawUnitsPerPoint": 1,
+          "resource": "conformal",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 3
+        },
+        "1211106004": {
+          "additionalYields": [
+            {
+              "allowedForms": [
+                "disillusion"
+              ],
+              "executionTiming": 0,
+              "originalCondition": "",
+              "points": 26.0,
+              "rawChange": 26,
+              "rawUnitsPerPoint": 1,
+              "resource": "conformal",
+              "sourceKind": "original-damage-field",
+              "sourceSlot": 3
+            }
+          ],
+          "allowedForms": [
+            "disillusion"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -66.0,
+          "rawChange": -66,
+          "rawUnitsPerPoint": 1,
+          "resource": "particles",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1
+        }
+      },
+      "displayedCap": 100,
+      "multiSlotYieldsVersion": 1,
+      "rawUnitsPerPoint": 1,
+      "resource": "particles",
+      "sourceRawCap": 100,
+      "sourceSlot": 1
+    },
+    "hiyuki": {
+      "actions": {
+        "hiyuki/future_air": [
+          "11081080030"
+        ],
+        "hiyuki/future_air_01": [
+          "11081410010",
+          "11081410030"
+        ],
+        "hiyuki/future_air_02": [
+          "11081420010"
+        ],
+        "hiyuki/future_basic_01": [
+          "11081010010"
+        ],
+        "hiyuki/future_basic_02": [
+          "11081020010"
+        ],
+        "hiyuki/future_basic_03": [
+          "11081030010",
+          "11081030020"
+        ],
+        "hiyuki/future_basic_04": [
+          "11081040010"
+        ],
+        "hiyuki/future_basic_05": [
+          "11081050010"
+        ],
+        "hiyuki/future_dodge_counter": [
+          "11081090010"
+        ],
+        "hiyuki/future_heavy": [
+          "11081060010"
+        ]
+      },
+      "characterSourceId": 1108,
+      "damages": {
+        "11081010010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.0,
+          "rawChange": 10
+        },
+        "11081010011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.0,
+          "rawChange": 10
+        },
+        "11081020010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.0,
+          "rawChange": 8
+        },
+        "11081020011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.0,
+          "rawChange": 8
+        },
+        "11081020020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7
+        },
+        "11081020021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7
+        },
+        "11081030010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081030011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081030020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 12.0,
+          "rawChange": 12
+        },
+        "11081030021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 12.0,
+          "rawChange": 12
+        },
+        "11081040010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040040": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040041": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040050": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081040051": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081050010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.0,
+          "rawChange": 24
+        },
+        "11081050011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.0,
+          "rawChange": 24
+        },
+        "11081060010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21
+        },
+        "11081060011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21
+        },
+        "11081080030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 22.0,
+          "rawChange": 22
+        },
+        "11081080031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 22.0,
+          "rawChange": 22
+        },
+        "11081090010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "11081090011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "11081090020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "11081090021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "11081410010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081410011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081410020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081410021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11081410030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7
+        },
+        "11081410031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7
+        },
+        "11081420010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420040": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        },
+        "11081420041": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5
+        }
+      },
+      "displayedCap": 300,
+      "rawUnitsPerPoint": 1,
+      "resource": "cold",
+      "sourceRawCap": 300,
+      "sourceSlot": 2
+    },
+    "iuno": {
+      "actions": {
+        "iuno/air": [
+          "1410100001",
+          "1410100002"
+        ],
+        "iuno/basic_01": [
+          "1410001001"
+        ],
+        "iuno/basic_02": [
+          "1410002001",
+          "1410002002",
+          "1410002003"
+        ],
+        "iuno/basic_03": [
+          "1410003001",
+          "1410003003",
+          "1410003004"
+        ],
+        "iuno/dodge_counter": [
+          "1410500001",
+          "1410500002",
+          "1410500003"
+        ]
+      },
+      "characterSourceId": 1410,
+      "damages": {
+        "1410001001": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010001,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410002001": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010002,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410002002": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 3,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010002,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410002003": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.0,
+          "rawChange": 4,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010003,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410003001": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010004,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410003003": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010004,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410003004": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010005,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410100001": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010006,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410100002": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 5,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010006,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410500001": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010007,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410500002": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.0,
+          "rawChange": 7,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010007,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        },
+        "1410500003": {
+          "allowedForms": [
+            "crescent",
+            "new_moon"
+          ],
+          "associationEvidence": "Current ordered buff groups cross-checked against community per-action totals.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6,
+          "rawUnitsPerPoint": 1,
+          "resource": "spirituality",
+          "sourceBuffId": 1410010008,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1
+        }
+      },
+      "displayedCap": 100,
+      "multiSlotYieldsVersion": 1,
+      "rawUnitsPerPoint": 1,
+      "resource": "spirituality",
+      "sourceRawCap": 100,
+      "sourceSlot": 1
+    },
+    "lupa": {
+      "actions": {
+        "lupa/air": [
+          "120720101",
+          "120720102",
+          "120720103"
+        ],
+        "lupa/air_basic_01": [
+          "120740101"
+        ],
+        "lupa/air_basic_02": [
+          "120740201",
+          "120740202"
+        ],
+        "lupa/air_basic_03": [
+          "120740301",
+          "120740302"
+        ],
+        "lupa/basic_01": [
+          "120710101",
+          "120710102",
+          "120710103"
+        ],
+        "lupa/basic_02": [
+          "120710201"
+        ],
+        "lupa/basic_03": [
+          "120710301",
+          "120710302"
+        ],
+        "lupa/basic_04": [
+          "120710401",
+          "120710402",
+          "120710403"
+        ],
+        "lupa/dodge_counter": [
+          "120730101",
+          "120730102"
+        ],
+        "lupa/heavy": [
+          "120750101",
+          "120750102"
+        ],
+        "lupa/starfall": [
+          "120721101",
+          "120721102"
+        ]
+      },
+      "characterSourceId": 1207,
+      "damages": {
+        "120710101": {
+          "alternateBuffId": 12070000400,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.67,
+          "rawChange": 167,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000300,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710102": {
+          "alternateBuffId": 12070000401,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.67,
+          "rawChange": 167,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000301,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710103": {
+          "alternateBuffId": 12070000402,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.34,
+          "rawChange": 334,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000302,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710201": {
+          "alternateBuffId": 12070000403,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.67,
+          "rawChange": 667,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000303,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710301": {
+          "alternateBuffId": 12070000404,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.84,
+          "rawChange": 584,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000304,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710302": {
+          "alternateBuffId": 12070000405,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.98,
+          "rawChange": 98,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000305,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710401": {
+          "alternateBuffId": 12070000406,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.47,
+          "rawChange": 547,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000306,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710402": {
+          "alternateBuffId": 12070000407,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.47,
+          "rawChange": 547,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000307,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120710403": {
+          "alternateBuffId": 12070000408,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.65,
+          "rawChange": 365,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000308,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120720101": {
+          "alternateBuffId": 12070000409,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.88,
+          "rawChange": 388,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000309,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120720102": {
+          "alternateBuffId": 12070000410,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.94,
+          "rawChange": 194,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000310,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120720103": {
+          "alternateBuffId": 12070000410,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.94,
+          "rawChange": 194,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000310,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120721101": {
+          "alternateBuffId": 12070000438,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.94,
+          "rawChange": 94,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000338,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120721102": {
+          "alternateBuffId": 12070000439,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 8.74,
+          "rawChange": 874,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000339,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120730101": {
+          "alternateBuffId": 12070000411,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.53,
+          "rawChange": 253,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000311,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120730102": {
+          "alternateBuffId": 12070000412,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.12,
+          "rawChange": 1012,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000312,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120740101": {
+          "alternateBuffId": 12070000413,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.68,
+          "rawChange": 568,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000313,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120740201": {
+          "alternateBuffId": 12070000414,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.72,
+          "rawChange": 572,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000314,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120740202": {
+          "alternateBuffId": 12070000415,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 1.43,
+          "rawChange": 143,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000315,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120740301": {
+          "alternateBuffId": 12070000416,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.11,
+          "rawChange": 211,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000316,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120740302": {
+          "alternateBuffId": 12070000417,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.11,
+          "rawChange": 211,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000317,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120750101": {
+          "alternateBuffId": 12070000418,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.17,
+          "rawChange": 417,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000318,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        },
+        "120750102": {
+          "alternateBuffId": 12070000419,
+          "associationEvidence": "Same-role contiguous buff sequence and per-hit rate proportions; boosted sequence is exactly sixfold. Direct original skill-blueprint callsite not acquired.",
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.17,
+          "rawChange": 417,
+          "rawUnitsPerPoint": 100,
+          "resource": "wolf_flame",
+          "sourceBuffId": 12070000319,
+          "sourceKind": "original-buff-mapped-to-hit",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "lupa_match_point": 6
+          }
+        }
+      },
+      "displayedCap": 100,
+      "multiSlotYieldsVersion": 1,
+      "rawUnitsPerPoint": 100,
+      "resource": "wolf_flame",
+      "sourceRawCap": 10000,
+      "sourceSlot": 1
+    },
+    "qingxiao": {
+      "actions": {
+        "qingxiao/air_basic_01": [
+          "14130110020",
+          "14130110050"
+        ],
+        "qingxiao/air_basic_02": [
+          "14130110100",
+          "14130110110",
+          "14130110120"
+        ],
+        "qingxiao/air_basic_03": [
+          "14130110030",
+          "14130110060"
+        ],
+        "qingxiao/basic_01": [
+          "1413010010",
+          "1413010020"
+        ],
+        "qingxiao/basic_02": [
+          "1413020010",
+          "1413020020"
+        ],
+        "qingxiao/basic_03": [
+          "1413030010"
+        ],
+        "qingxiao/basic_04": [
+          "1413040010",
+          "1413040020",
+          "1413040030"
+        ],
+        "qingxiao/dodge_counter": [
+          "14130120010"
+        ],
+        "qingxiao/immortal_basic_01_enhanced": [
+          "1413080011",
+          "1413080021",
+          "1413080031"
+        ],
+        "qingxiao/immortal_basic_02_enhanced": [
+          "1413081011",
+          "1413081021"
+        ],
+        "qingxiao/immortal_basic_03_enhanced": [
+          "1413082011",
+          "1413082021"
+        ],
+        "qingxiao/immortal_basic_04_enhanced": [
+          "1413083011",
+          "1413083021",
+          "1413083031"
+        ],
+        "qingxiao/immortal_counter_enhanced": [
+          "14130120041",
+          "14130120051",
+          "14130120061"
+        ],
+        "qingxiao/skill_ascend": [
+          "1413050010",
+          "1413050020"
+        ]
+      },
+      "characterSourceId": 1413,
+      "damages": {
+        "1413010010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.87,
+          "rawChange": 487,
+          "rawUnitsPerPoint": 100,
+          "resource": "qin_heart",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413010020": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.87,
+          "rawChange": 487,
+          "rawUnitsPerPoint": 100,
+          "resource": "qin_heart",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110020": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.7,
+          "rawChange": 70,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110030": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.14,
+          "rawChange": 214,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110050": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.21,
+          "rawChange": 521,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110060": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.03,
+          "rawChange": 1603,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110100": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.31,
+          "rawChange": 431,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110110": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.16,
+          "rawChange": 216,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130110120": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.16,
+          "rawChange": 216,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130120010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.34,
+          "rawChange": 434,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "14130120041": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.03,
+          "rawChange": 603,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "14130120051": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.03,
+          "rawChange": 603,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "14130120061": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 36.14,
+          "rawChange": 3614,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413020010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.56,
+          "rawChange": 356,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413020020": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.56,
+          "rawChange": 356,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413030010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.34,
+          "rawChange": 234,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413040010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 14.02,
+          "rawChange": 1402,
+          "rawUnitsPerPoint": 100,
+          "resource": "qin_heart",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413040020": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.88,
+          "rawChange": 88,
+          "rawUnitsPerPoint": 100,
+          "resource": "qin_heart",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413040030": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 0.88,
+          "rawChange": 88,
+          "rawUnitsPerPoint": 100,
+          "resource": "qin_heart",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413050010": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.73,
+          "rawChange": 273,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413050020": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.18,
+          "rawChange": 318,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_rhyme",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 2,
+          "timerMultipliers": {
+            "qingxiao_clear_mind": 2
+          }
+        },
+        "1413080011": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 10.22,
+          "rawChange": 1022,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413080021": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.11,
+          "rawChange": 511,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413080031": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.11,
+          "rawChange": 511,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413081011": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.27,
+          "rawChange": 527,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413081021": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.27,
+          "rawChange": 527,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413082011": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.76,
+          "rawChange": 476,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413082021": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 7.14,
+          "rawChange": 714,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413083011": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.12,
+          "rawChange": 412,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413083021": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 4.12,
+          "rawChange": 412,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        },
+        "1413083031": {
+          "allowedForms": [
+            "immortal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.72,
+          "rawChange": 2472,
+          "rawUnitsPerPoint": 100,
+          "resource": "sword_intent",
+          "sourceKind": "original-damage-field",
+          "sourceSlot": 1,
+          "timerMultipliers": {}
+        }
+      },
+      "displayedCap": 100,
+      "multiSlotYieldsVersion": 1,
+      "rawUnitsPerPoint": 100,
+      "resource": "qin_heart",
+      "sourceRawCap": 10000,
+      "sourceSlot": 1
+    },
+    "suisui": {
+      "actions": {
+        "suisui/basic_01": [
+          "1110001001"
+        ],
+        "suisui/basic_02": [
+          "1110002001",
+          "1110002002"
+        ],
+        "suisui/basic_03": [
+          "1110003007",
+          "1110003012",
+          "1110003013"
+        ],
+        "suisui/basic_04": [
+          "1110004001",
+          "1110004109"
+        ],
+        "suisui/dodge_counter": [
+          "1110200002",
+          "1110200003",
+          "1110200004"
+        ],
+        "suisui/rain_basic_01": [
+          "11100060010",
+          "11100060020"
+        ],
+        "suisui/rain_basic_02": [
+          "11100070000",
+          "11100070010",
+          "11100070020",
+          "11100070030",
+          "11100070040"
+        ],
+        "suisui/rain_basic_03": [
+          "11100080010",
+          "11100080020",
+          "11100080030",
+          "11100080040"
+        ],
+        "suisui/rain_basic_04": [
+          "11100090020"
+        ],
+        "suisui/rain_heavy": [
+          "11100140010",
+          "11100140020"
+        ]
+      },
+      "characterSourceId": 1110,
+      "damages": {
+        "1110001001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.0,
+          "rawChange": 24
+        },
+        "1110002001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 23.0,
+          "rawChange": 23
+        },
+        "1110002002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 23.0,
+          "rawChange": 23
+        },
+        "1110003007": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "1110003012": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 16.0,
+          "rawChange": 16
+        },
+        "1110003013": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21
+        },
+        "1110004001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 30.0,
+          "rawChange": 30
+        },
+        "1110004109": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 6.0,
+          "rawChange": 6
+        },
+        "11100060010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21,
+          "resource": "fragrant_message"
+        },
+        "11100060011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21,
+          "resource": "fragrant_message"
+        },
+        "11100060020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21,
+          "resource": "fragrant_message"
+        },
+        "11100060021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 21.0,
+          "rawChange": 21,
+          "resource": "fragrant_message"
+        },
+        "11100070000": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100070001": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100070010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 17.0,
+          "rawChange": 17,
+          "resource": "fragrant_message"
+        },
+        "11100070011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 17.0,
+          "rawChange": 17,
+          "resource": "fragrant_message"
+        },
+        "11100070020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 17.0,
+          "rawChange": 17,
+          "resource": "fragrant_message"
+        },
+        "11100070021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 17.0,
+          "rawChange": 17,
+          "resource": "fragrant_message"
+        },
+        "11100070030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100070031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100070040": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100070041": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 34.0,
+          "rawChange": 34,
+          "resource": "fragrant_message"
+        },
+        "11100080010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080031": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080040": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100080041": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 15,
+          "resource": "fragrant_message"
+        },
+        "11100090020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 170.0,
+          "rawChange": 170,
+          "resource": "fragrant_message"
+        },
+        "11100090021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 170.0,
+          "rawChange": 170,
+          "resource": "fragrant_message"
+        },
+        "11100140010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 13.0,
+          "rawChange": 13,
+          "resource": "fragrant_message"
+        },
+        "11100140011": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 13.0,
+          "rawChange": 13,
+          "resource": "fragrant_message"
+        },
+        "11100140020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 128.0,
+          "rawChange": 128,
+          "resource": "fragrant_message"
+        },
+        "11100140021": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 128.0,
+          "rawChange": 128,
+          "resource": "fragrant_message"
+        },
+        "1110200002": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.0,
+          "rawChange": 9
+        },
+        "1110200003": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 9.0,
+          "rawChange": 9
+        },
+        "1110200004": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 12.0,
+          "rawChange": 12
+        }
+      },
+      "displayedCap": 120,
+      "rawUnitsPerPoint": 1,
+      "resource": "water_breath",
+      "sourceRawCap": 120,
+      "sourceSlot": 1
+    },
+    "suoming": {
+      "actions": {
+        "suoming/basic_01": [
+          "1312001001"
+        ],
+        "suoming/basic_02": [
+          "1312002001",
+          "1312002002"
+        ],
+        "suoming/basic_03": [
+          "1312003001",
+          "1312003002"
+        ],
+        "suoming/deep_basic_01": [
+          "1312011001",
+          "1312011003"
+        ],
+        "suoming/deep_basic_02": [
+          "1312012001",
+          "1312012002"
+        ],
+        "suoming/deep_basic_03": [
+          "1312013001",
+          "1312013002"
+        ],
+        "suoming/deep_basic_04": [
+          "1312014001",
+          "1312014002",
+          "1312014004"
+        ],
+        "suoming/deep_counter": [
+          "1312015001",
+          "1312015002"
+        ],
+        "suoming/dodge_counter": [
+          "1312004001",
+          "1312004002"
+        ],
+        "suoming/skill_counter": [
+          "1312053001",
+          "1312053002",
+          "1312053003"
+        ],
+        "suoming/thunder_spin_01": [
+          "1312021001",
+          "1312021002",
+          "1312021003",
+          "1312021004"
+        ],
+        "suoming/thunder_spin_02": [
+          "1312022001"
+        ]
+      },
+      "basis": "Forte names the single800-point obsession pool; independent slot1 cap800. Eligible hit actions are explicitly listed in source1312.",
+      "damages": {
+        "1312001001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 120.0,
+          "rawChange": 120,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312002001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 40.0,
+          "rawChange": 40,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312002002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 80.0,
+          "rawChange": 80,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312003001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 36.0,
+          "rawChange": 36,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312003002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 72.0,
+          "rawChange": 72,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312004001": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 40.0,
+          "rawChange": 40,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312004002": {
+          "allowedForms": [
+            "normal"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 80.0,
+          "rawChange": 80,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312011001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 60.0,
+          "rawChange": 60,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312011003": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 30.0,
+          "rawChange": 30,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312012001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 80.0,
+          "rawChange": 80,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312012002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 27.0,
+          "rawChange": 27,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312013001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 45.0,
+          "rawChange": 45,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312013002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 45.0,
+          "rawChange": 45,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312014001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 54.0,
+          "rawChange": 54,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312014002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 54.0,
+          "rawChange": 54,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312014004": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.0,
+          "rawChange": 24,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312015001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 80.0,
+          "rawChange": 80,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312015002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 27.0,
+          "rawChange": 27,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312021001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 45.0,
+          "rawChange": 45,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312021002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 23.0,
+          "rawChange": 23,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312021003": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 45.0,
+          "rawChange": 45,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312021004": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 45.0,
+          "rawChange": 45,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312022001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 36.0,
+          "rawChange": 36,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312053001": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 48.0,
+          "rawChange": 48,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312053002": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 24.0,
+          "rawChange": 24,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        },
+        "1312053003": {
+          "allowedForms": [
+            "deep"
+          ],
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 64.0,
+          "rawChange": 64,
+          "rawUnitsPerPoint": 1,
+          "resource": "obsession",
+          "sourceSlot": 1
+        }
+      },
+      "displayedCap": 800,
+      "rawUnitsPerPoint": 1,
+      "resource": "obsession",
+      "sourceRawCap": 800,
+      "sourceSlot": 1,
+      "stagedCharacter": false
+    },
+    "yangyang_xuanling": {
+      "actions": {
+        "yangyang_xuanling/air": [
+          "1610031010"
+        ],
+        "yangyang_xuanling/basic_01": [
+          "1610001010"
+        ],
+        "yangyang_xuanling/basic_02": [
+          "1610002010",
+          "1610002030"
+        ],
+        "yangyang_xuanling/basic_03": [
+          "1610003010",
+          "1610003020"
+        ],
+        "yangyang_xuanling/basic_04": [
+          "1610004010",
+          "1610004030"
+        ],
+        "yangyang_xuanling/dodge_counter": [
+          "1610041010",
+          "1610041030"
+        ],
+        "yangyang_xuanling/feather_air": [
+          "1610131010"
+        ],
+        "yangyang_xuanling/feather_basic_01": [
+          "1610101010"
+        ],
+        "yangyang_xuanling/feather_basic_02": [
+          "1610102010"
+        ],
+        "yangyang_xuanling/feather_basic_03": [
+          "1610103010"
+        ],
+        "yangyang_xuanling/feather_basic_04": [
+          "1610104010",
+          "1610104030"
+        ],
+        "yangyang_xuanling/feather_dodge_counter": [
+          "1610141010"
+        ]
+      },
+      "characterSourceId": 1610,
+      "damages": {
+        "1610001010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -12.0,
+          "rawChange": -1200
+        },
+        "1610002010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610002020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610002030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -14.4,
+          "rawChange": -1440
+        },
+        "1610003010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -7.8,
+          "rawChange": -780
+        },
+        "1610003020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -18.2,
+          "rawChange": -1820
+        },
+        "1610004010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610004020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610004030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -38.4,
+          "rawChange": -3840
+        },
+        "1610031010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -12.0,
+          "rawChange": -1200
+        },
+        "1610041010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610041020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -4.8,
+          "rawChange": -480
+        },
+        "1610041030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -14.4,
+          "rawChange": -1440
+        },
+        "1610101010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.0,
+          "rawChange": -600
+        },
+        "1610101020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -6.0,
+          "rawChange": -600
+        },
+        "1610102010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -8.0,
+          "rawChange": -800
+        },
+        "1610103010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -26.0,
+          "rawChange": -2600
+        },
+        "1610104010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -14.4,
+          "rawChange": -1440
+        },
+        "1610104020": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -14.4,
+          "rawChange": -1440
+        },
+        "1610104030": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -19.2,
+          "rawChange": -1920
+        },
+        "1610131010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -12.0,
+          "rawChange": -1200
+        },
+        "1610141010": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": -8.0,
+          "rawChange": -800
+        }
+      },
+      "displayedCap": 100,
+      "rawUnitsPerPoint": 100,
+      "resource": "stream",
+      "sourceRawCap": 10000,
+      "sourceSlot": 1
+    },
+    "zhezhi": {
+      "actions": {
+        "zhezhi/air_basic_01": [
+          "110500703",
+          "110500704"
+        ],
+        "zhezhi/air_basic_02": [
+          "110500402"
+        ],
+        "zhezhi/basic_01": [
+          "110500101",
+          "110500102"
+        ],
+        "zhezhi/basic_02": [
+          "110500203",
+          "110500204"
+        ],
+        "zhezhi/basic_03": [
+          "110500302"
+        ],
+        "zhezhi/dodge_counter": [
+          "110500503",
+          "110500504"
+        ],
+        "zhezhi/heavy": [
+          "110501101"
+        ]
+      },
+      "characterSourceId": 1105,
+      "damages": {
+        "110500101": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 500
+        },
+        "110500102": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 5.0,
+          "rawChange": 500
+        },
+        "110500203": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 300
+        },
+        "110500204": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 300
+        },
+        "110500302": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 25.0,
+          "rawChange": 2500
+        },
+        "110500402": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 1500
+        },
+        "110500503": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 300
+        },
+        "110500504": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 3.0,
+          "rawChange": 300
+        },
+        "110500703": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 200
+        },
+        "110500704": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 2.0,
+          "rawChange": 200
+        },
+        "110501101": {
+          "executionTiming": 0,
+          "originalCondition": "",
+          "points": 15.0,
+          "rawChange": 1500
+        }
+      },
+      "displayedCap": 90,
+      "rawUnitsPerPoint": 100,
+      "resource": "spirit",
+      "sourceRawCap": 9000,
+      "sourceSlot": 1
+    }
+  },
+  "resourceVersion": "3.7.8",
+  "schemaVersion": 1,
+  "sourceDamageSha256": "fbec3c8cae8caa4dfc352dd730929ecd9eac9db7b5bcede99871762a7b0c4b7c",
+  "sourcePolicy": "Explicit independent release3.7.8 slots; unexported Nanoka3.7.6 fields are not claimed identical"
+}

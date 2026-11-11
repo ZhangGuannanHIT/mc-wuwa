@@ -1,0 +1,3360 @@
+{
+  "baseStats": {
+    "attack": 450.0,
+    "defense": 1161.109,
+    "health": 10325.0
+  },
+  "chains": [
+    {
+      "description": "施放变奏技能八千春秋时，暴击伤害提升28%，持续18秒，每25秒可触发1次。\n共鸣回路一日花免疫打断。",
+      "name": "在无人知晓的秘密小径",
+      "parameters": [
+        "28%",
+        "18",
+        "25"
+      ],
+      "rawDescription": "施放变奏技能<color=Highlight>八千春秋</color>时，暴击伤害提升{0}，持续{1}秒，每{2}秒可触发1次。\n共鸣回路<color=Highlight>一日花</color>免疫打断。",
+      "tier": 1
+    },
+    {
+      "description": "共鸣回路一日花伤害倍率提升120%。",
+      "name": "呼唤那沉默之花的芬芳",
+      "parameters": [
+        "120%"
+      ],
+      "rawDescription": "共鸣回路<color=Highlight>一日花</color>伤害倍率提升{0}。",
+      "tier": 2
+    },
+    {
+      "description": "共鸣解放芳华绽烬伤害倍率提升50%；含苞状态期间，椿的攻击提升58%。",
+      "name": "一根荆棘胜过千颗花种",
+      "parameters": [
+        "50%",
+        "58%"
+      ],
+      "rawDescription": "共鸣解放<color=Highlight>芳华绽烬</color>伤害倍率提升{0}；<color=Highlight><te href=850021>含苞状态</te></color>期间，椿的攻击提升{1}。",
+      "tier": 3
+    },
+    {
+      "description": "施放变奏技能八千春秋后，队伍中的角色普攻伤害加成提升25%，持续30秒。",
+      "name": "它的根茎持续到永恒中",
+      "parameters": [
+        "25%",
+        "30"
+      ],
+      "rawDescription": "施放变奏技能<color=Highlight>八千春秋</color>后，队伍中的角色普攻伤害加成提升{0}，持续{1}秒。",
+      "tier": 4
+    },
+    {
+      "description": "变奏技能八千春秋伤害倍率提升303%。\n延奏技能缠绕伤害倍率提升68%。",
+      "name": "将那无限置于你的手掌",
+      "parameters": [
+        "303%",
+        "68%"
+      ],
+      "rawDescription": "变奏技能<color=Highlight>八千春秋</color>伤害倍率提升{0}。\n延奏技能<color=Highlight>缠绕</color>伤害倍率提升{1}。",
+      "tier": 5
+    },
+    {
+      "description": "共鸣回路酣梦的伤害倍率提升效果额外提升150%；\n共鸣回路永生花：施放共鸣回路一日花后15秒内，协奏能量充满时，若永生花不处于冷却状态，共鸣技能替换为永生花。\n施放永生花时，消耗50点协奏值，回复50点【红椿·蕊】，造成共鸣回路一日花100%的湮灭伤害，此次伤害为普攻伤害，每25秒可施放1次。\n施放永生花后，进入含苞状态，清除所有红椿·蕾，并将共鸣回路酣梦的伤害倍率提升效果提升至250%。\n共鸣回路永生花免疫打断。",
+      "name": "为你的千千万万次盛放",
+      "parameters": [
+        "150%",
+        "15",
+        "50",
+        "50",
+        "100%",
+        "25",
+        "250%"
+      ],
+      "rawDescription": "共鸣回路<color=Highlight>酣梦</color>的伤害倍率提升效果额外提升{0}；\n共鸣回路<color=Highlight>永生花</color>：施放共鸣回路<color=Highlight>一日花</color>后{1}秒内，协奏能量充满时，若<color=Highlight>永生花</color>不处于冷却状态，共鸣技能替换为<color=Highlight>永生花</color>。\n施放<color=Highlight>永生花</color>时，消耗{2}点协奏值，回复{3}点【红椿·蕊】，造成共鸣回路<color=Highlight>一日花</color>{4}的<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害，每{5}秒可施放1次。\n施放<color=Highlight>永生花</color>后，进入<color=Highlight><te href=850021>含苞状态</te></color>，清除所有红椿·蕾，并将共鸣回路<color=Highlight>酣梦</color>的伤害倍率提升效果提升至{6}。\n共鸣回路<color=Highlight>永生花</color>免疫打断。",
+      "tier": 6
+    }
+  ],
+  "characterId": "camellya",
+  "echoId": 6000090,
+  "element": "havoc",
+  "id": "red_spring",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "椿",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603001001",
+          "kind": "basic",
+          "multiplier": 0.6253,
+          "offTuneUnits": 0.7474747474747475,
+          "raw": {
+            "element": 6,
+            "element_power": 185,
+            "energy": 93,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3145,
+              3403,
+              3661,
+              4022,
+              4280,
+              4577,
+              4989,
+              5402,
+              5815,
+              6253,
+              6769,
+              7285,
+              7800,
+              8316,
+              8832,
+              9348,
+              9864,
+              10379,
+              10895,
+              11411
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3700,
+            "type": 0,
+            "weakness_lvl": 2960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6225811879522127,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603002001",
+          "kind": "basic",
+          "multiplier": 0.4648,
+          "offTuneUnits": 0.5555555555555556,
+          "raw": {
+            "element": 6,
+            "element_power": 138,
+            "energy": 69,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2338,
+              2530,
+              2721,
+              2990,
+              3181,
+              3402,
+              3708,
+              4015,
+              4322,
+              4648,
+              5031,
+              5414,
+              5798,
+              6181,
+              6564,
+              6948,
+              7331,
+              7714,
+              8098,
+              8481
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2750,
+            "type": 0,
+            "weakness_lvl": 2200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.46272926131583375,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603002002",
+          "kind": "basic",
+          "multiplier": 0.4648,
+          "offTuneUnits": 0.5555555555555556,
+          "raw": {
+            "element": 6,
+            "element_power": 138,
+            "energy": 69,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2338,
+              2530,
+              2721,
+              2990,
+              3181,
+              3402,
+              3708,
+              4015,
+              4322,
+              4648,
+              5031,
+              5414,
+              5798,
+              6181,
+              6564,
+              6948,
+              7331,
+              7714,
+              8098,
+              8481
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2750,
+            "type": 0,
+            "weakness_lvl": 2200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.46272926131583375,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603003001",
+          "kind": "basic",
+          "multiplier": 0.507,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2550,
+              2759,
+              2968,
+              3261,
+              3470,
+              3711,
+              4045,
+              4380,
+              4714,
+              5070,
+              5488,
+              5906,
+              6324,
+              6742,
+              7160,
+              7579,
+              7997,
+              8415,
+              8833,
+              9251
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603003002",
+          "kind": "basic",
+          "multiplier": 0.507,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2550,
+              2759,
+              2968,
+              3261,
+              3470,
+              3711,
+              4045,
+              4380,
+              4714,
+              5070,
+              5488,
+              5906,
+              6324,
+              6742,
+              7160,
+              7579,
+              7997,
+              8415,
+              8833,
+              9251
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603003003",
+          "kind": "basic",
+          "multiplier": 0.507,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2550,
+              2759,
+              2968,
+              3261,
+              3470,
+              3711,
+              4045,
+              4380,
+              4714,
+              5070,
+              5488,
+              5906,
+              6324,
+              6742,
+              7160,
+              7579,
+              7997,
+              8415,
+              8833,
+              9251
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603004001",
+          "kind": "basic",
+          "multiplier": 0.247,
+          "offTuneUnits": 0.21818181818181817,
+          "raw": {
+            "element": 6,
+            "element_power": 54,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1242,
+              1344,
+              1446,
+              1589,
+              1691,
+              1808,
+              1971,
+              2134,
+              2297,
+              2470,
+              2673,
+              2877,
+              3081,
+              3284,
+              3488,
+              3692,
+              3896,
+              4099,
+              4303,
+              4507
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1080,
+            "type": 0,
+            "weakness_lvl": 864
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.18172640080767288,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603004002",
+          "kind": "basic",
+          "multiplier": 0.247,
+          "offTuneUnits": 0.21818181818181817,
+          "raw": {
+            "element": 6,
+            "element_power": 54,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1242,
+              1344,
+              1446,
+              1589,
+              1691,
+              1808,
+              1971,
+              2134,
+              2297,
+              2470,
+              2673,
+              2877,
+              3081,
+              3284,
+              3488,
+              3692,
+              3896,
+              4099,
+              4303,
+              4507
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1080,
+            "type": 0,
+            "weakness_lvl": 864
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.18172640080767288,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603004003",
+          "kind": "basic",
+          "multiplier": 0.247,
+          "offTuneUnits": 0.21818181818181817,
+          "raw": {
+            "element": 6,
+            "element_power": 54,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1242,
+              1344,
+              1446,
+              1589,
+              1691,
+              1808,
+              1971,
+              2134,
+              2297,
+              2470,
+              2673,
+              2877,
+              3081,
+              3284,
+              3488,
+              3692,
+              3896,
+              4099,
+              4303,
+              4507
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1080,
+            "type": 0,
+            "weakness_lvl": 864
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.18172640080767288,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603004004",
+          "kind": "basic",
+          "multiplier": 0.247,
+          "offTuneUnits": 0.21818181818181817,
+          "raw": {
+            "element": 6,
+            "element_power": 54,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1242,
+              1344,
+              1446,
+              1589,
+              1691,
+              1808,
+              1971,
+              2134,
+              2297,
+              2470,
+              2673,
+              2877,
+              3081,
+              3284,
+              3488,
+              3692,
+              3896,
+              4099,
+              4303,
+              4507
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1080,
+            "type": 0,
+            "weakness_lvl": 864
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.18172640080767288,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603005000",
+          "kind": "basic",
+          "multiplier": 0.4817,
+          "offTuneUnits": 0.5757575757575758,
+          "raw": {
+            "element": 6,
+            "element_power": 143,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2423,
+              2622,
+              2820,
+              3098,
+              3297,
+              3525,
+              3843,
+              4161,
+              4479,
+              4817,
+              5214,
+              5611,
+              6009,
+              6406,
+              6803,
+              7200,
+              7598,
+              7995,
+              8392,
+              8790
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2850,
+            "type": 0,
+            "weakness_lvl": 2280
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4795557799091368,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603005001",
+          "kind": "basic",
+          "multiplier": 0.4817,
+          "offTuneUnits": 0.5757575757575758,
+          "raw": {
+            "element": 6,
+            "element_power": 143,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2423,
+              2622,
+              2820,
+              3098,
+              3297,
+              3525,
+              3843,
+              4161,
+              4479,
+              4817,
+              5214,
+              5611,
+              6009,
+              6406,
+              6803,
+              7200,
+              7598,
+              7995,
+              8392,
+              8790
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2850,
+            "type": 0,
+            "weakness_lvl": 2280
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4795557799091368,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603005002",
+          "kind": "basic",
+          "multiplier": 0.4817,
+          "offTuneUnits": 0.5757575757575758,
+          "raw": {
+            "element": 6,
+            "element_power": 143,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2423,
+              2622,
+              2820,
+              3098,
+              3297,
+              3525,
+              3843,
+              4161,
+              4479,
+              4817,
+              5214,
+              5611,
+              6009,
+              6406,
+              6803,
+              7200,
+              7598,
+              7995,
+              8392,
+              8790
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2850,
+            "type": 0,
+            "weakness_lvl": 2280
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4795557799091368,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603005005",
+          "kind": "basic",
+          "multiplier": 0.4817,
+          "offTuneUnits": 0.5757575757575758,
+          "raw": {
+            "element": 6,
+            "element_power": 143,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2423,
+              2622,
+              2820,
+              3098,
+              3297,
+              3525,
+              3843,
+              4161,
+              4479,
+              4817,
+              5214,
+              5611,
+              6009,
+              6406,
+              6803,
+              7200,
+              7598,
+              7995,
+              8392,
+              8790
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2850,
+            "type": 0,
+            "weakness_lvl": 2280
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4795557799091368,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603100001",
+          "kind": "basic",
+          "multiplier": 0.6561,
+          "offTuneUnits": 0.6666666666666666,
+          "raw": {
+            "element": 6,
+            "element_power": 165,
+            "energy": 83,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3300,
+              3571,
+              3842,
+              4221,
+              4491,
+              4802,
+              5235,
+              5668,
+              6101,
+              6561,
+              7102,
+              7644,
+              8185,
+              8726,
+              9267,
+              9808,
+              10350,
+              10891,
+              11432,
+              11973
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3300,
+            "type": 0,
+            "weakness_lvl": 2640
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5552751135790005,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603100002",
+          "kind": "basic",
+          "multiplier": 0.6561,
+          "offTuneUnits": 0.6666666666666666,
+          "raw": {
+            "element": 6,
+            "element_power": 165,
+            "energy": 83,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3300,
+              3571,
+              3842,
+              4221,
+              4491,
+              4802,
+              5235,
+              5668,
+              6101,
+              6561,
+              7102,
+              7644,
+              8185,
+              8726,
+              9267,
+              9808,
+              10350,
+              10891,
+              11432,
+              11973
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3300,
+            "type": 0,
+            "weakness_lvl": 2640
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5552751135790005,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200003",
+          "kind": "heavy",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 1,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200004",
+          "kind": "heavy",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 1,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200005",
+          "kind": "heavy",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 1,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603500100",
+          "kind": "basic",
+          "multiplier": 0.994,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5000,
+              5410,
+              5820,
+              6394,
+              6804,
+              7275,
+              7931,
+              8587,
+              9243,
+              9940,
+              10760,
+              11580,
+              12400,
+              13220,
+              14040,
+              14860,
+              15679,
+              16499,
+              17319,
+              18139
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603500101",
+          "kind": "basic",
+          "multiplier": 0.994,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5000,
+              5410,
+              5820,
+              6394,
+              6804,
+              7275,
+              7931,
+              8587,
+              9243,
+              9940,
+              10760,
+              11580,
+              12400,
+              13220,
+              14040,
+              14860,
+              15679,
+              16499,
+              17319,
+              18139
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603500102",
+          "kind": "basic",
+          "multiplier": 0.994,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 6,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5000,
+              5410,
+              5820,
+              6394,
+              6804,
+              7275,
+              7931,
+              8587,
+              9243,
+              9940,
+              10760,
+              11580,
+              12400,
+              13220,
+              14040,
+              14860,
+              15679,
+              16499,
+              17319,
+              18139
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200903",
+          "kind": "basic",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 0,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200904",
+          "kind": "basic",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 0,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603200905",
+          "kind": "basic",
+          "multiplier": 0.8814,
+          "offTuneUnits": 0.8957070707070707,
+          "raw": {
+            "element": 6,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4433,
+              4797,
+              5160,
+              5669,
+              6033,
+              6451,
+              7032,
+              7614,
+              8196,
+              8814,
+              9541,
+              10268,
+              10995,
+              11722,
+              12448,
+              13175,
+              13902,
+              14629,
+              15356,
+              16083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4433,
+            "type": 0,
+            "weakness_lvl": 3547
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.745919569241124,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻\n进行最多5段的连续攻击，造成湮灭伤害。\n施放第3段普攻或重击修枝后，长按普攻，将会持续攻击目标，造成湮灭伤害。\n第4段普攻结束后，将会自动施放第5段普攻。\n \n重击·修枝\n消耗耐力攻击目标，造成湮灭伤害。\n \n空中攻击\n消耗耐力进行空中下落攻击，造成湮灭伤害。\n \n闪避反击\n成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害。",
+      "headings": [
+        "普攻",
+        "重击·修枝",
+        "空中攻击",
+        "闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
+      "id": "red_spring/node_1",
+      "name": "育种",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "第一段伤害",
+          "values": [
+            "62.53%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "第二段伤害",
+          "values": [
+            "46.48%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "第三段伤害",
+          "values": [
+            "50.70%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "第四段伤害",
+          "values": [
+            "24.70%*20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "第五段伤害",
+          "values": [
+            "48.17%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "重击伤害",
+          "values": [
+            "88.14%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "空中攻击伤害",
+          "values": [
+            "65.61%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "闪避反击伤害",
+          "values": [
+            "99.40%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "重击耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "空中攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻</color></size>\n进行最多5段的连续攻击，造成<color=Dark>湮灭伤害</color>。\n施放<color=Highlight>第3段普攻</color>或重击<color=Highlight>修枝</color>后，长按<color=Highlight>普攻</color>，将会持续攻击目标，造成<color=Dark>湮灭伤害</color>。\n<color=Highlight>第4段普攻</color>结束后，将会自动施放<color=Highlight>第5段普攻</color>。\n<size=10> </size>\n<size=40><color=Title>重击·修枝</color></size>\n消耗耐力攻击目标，造成<color=Dark>湮灭伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力进行空中下落攻击，造成<color=Dark>湮灭伤害</color>。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n成功<color=Highlight>闪避</color>后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Dark>湮灭伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603101001",
+          "kind": "basic",
+          "multiplier": 0.9633,
+          "offTuneUnits": 1.1515151515151516,
+          "raw": {
+            "element": 6,
+            "element_power": 285,
+            "energy": 143,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4845,
+              5243,
+              5640,
+              6196,
+              6594,
+              7050,
+              7686,
+              8322,
+              8957,
+              9633,
+              10427,
+              11222,
+              12017,
+              12811,
+              13606,
+              14400,
+              15195,
+              15989,
+              16784,
+              17579
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5700,
+            "type": 0,
+            "weakness_lvl": 4560
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9591115598182736,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603102001",
+          "kind": "basic",
+          "multiplier": 0.4563,
+          "offTuneUnits": 0.5454545454545454,
+          "raw": {
+            "element": 6,
+            "element_power": 135,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2295,
+              2484,
+              2672,
+              2935,
+              3124,
+              3340,
+              3641,
+              3942,
+              4243,
+              4563,
+              4940,
+              5316,
+              5692,
+              6069,
+              6445,
+              6821,
+              7198,
+              7574,
+              7951,
+              8327
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2700,
+            "type": 0,
+            "weakness_lvl": 2160
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4543160020191822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603102002",
+          "kind": "basic",
+          "multiplier": 0.4563,
+          "offTuneUnits": 0.5454545454545454,
+          "raw": {
+            "element": 6,
+            "element_power": 135,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2295,
+              2484,
+              2672,
+              2935,
+              3124,
+              3340,
+              3641,
+              3942,
+              4243,
+              4563,
+              4940,
+              5316,
+              5692,
+              6069,
+              6445,
+              6821,
+              7198,
+              7574,
+              7951,
+              8327
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2700,
+            "type": 0,
+            "weakness_lvl": 2160
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4543160020191822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603103001",
+          "kind": "basic",
+          "multiplier": 0.2195,
+          "offTuneUnits": 0.19393939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 48,
+            "energy": 24,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1104,
+              1195,
+              1286,
+              1412,
+              1503,
+              1607,
+              1752,
+              1897,
+              2041,
+              2195,
+              2376,
+              2557,
+              2739,
+              2920,
+              3101,
+              3282,
+              3463,
+              3644,
+              3825,
+              4006
+            ],
+            "related_property": "攻击",
+            "tough_lv": 960,
+            "type": 0,
+            "weakness_lvl": 768
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16153457849570924,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603103003",
+          "kind": "basic",
+          "multiplier": 0.2195,
+          "offTuneUnits": 0.19393939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 48,
+            "energy": 24,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1104,
+              1195,
+              1286,
+              1412,
+              1503,
+              1607,
+              1752,
+              1897,
+              2041,
+              2195,
+              2376,
+              2557,
+              2739,
+              2920,
+              3101,
+              3282,
+              3463,
+              3644,
+              3825,
+              4006
+            ],
+            "related_property": "攻击",
+            "tough_lv": 960,
+            "type": 0,
+            "weakness_lvl": 768
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16153457849570924,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603104000",
+          "kind": "basic",
+          "multiplier": 0.6759,
+          "offTuneUnits": 0.8080808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 200,
+            "energy": 100,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3400,
+              3679,
+              3958,
+              4348,
+              4627,
+              4947,
+              5393,
+              5839,
+              6285,
+              6759,
+              7317,
+              7874,
+              8432,
+              8990,
+              9547,
+              10105,
+              10662,
+              11220,
+              11777,
+              12335
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 3200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603104001",
+          "kind": "basic",
+          "multiplier": 0.6759,
+          "offTuneUnits": 0.8080808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 200,
+            "energy": 100,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3400,
+              3679,
+              3958,
+              4348,
+              4627,
+              4947,
+              5393,
+              5839,
+              6285,
+              6759,
+              7317,
+              7874,
+              8432,
+              8990,
+              9547,
+              10105,
+              10662,
+              11220,
+              11777,
+              12335
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 3200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603104004",
+          "kind": "basic",
+          "multiplier": 0.6759,
+          "offTuneUnits": 0.8080808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 200,
+            "energy": 100,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3400,
+              3679,
+              3958,
+              4348,
+              4627,
+              4947,
+              5393,
+              5839,
+              6285,
+              6759,
+              7317,
+              7874,
+              8432,
+              8990,
+              9547,
+              10105,
+              10662,
+              11220,
+              11777,
+              12335
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 3200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603010001",
+          "kind": "basic",
+          "multiplier": 1.1362,
+          "offTuneUnits": 1.2828282828282829,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 159,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5715,
+              6184,
+              6653,
+              7309,
+              7777,
+              8316,
+              9066,
+              9816,
+              10566,
+              11362,
+              12300,
+              13237,
+              14174,
+              15112,
+              16049,
+              16986,
+              17923,
+              18861,
+              19798,
+              20735
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 0,
+            "weakness_lvl": 5080
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603010002",
+          "kind": "basic",
+          "multiplier": 1.1362,
+          "offTuneUnits": 1.2828282828282829,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 159,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5715,
+              6184,
+              6653,
+              7309,
+              7777,
+              8316,
+              9066,
+              9816,
+              10566,
+              11362,
+              12300,
+              13237,
+              14174,
+              15112,
+              16049,
+              16986,
+              17923,
+              18861,
+              19798,
+              20735
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 0,
+            "weakness_lvl": 5080
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603011001",
+          "kind": "basic",
+          "multiplier": 0.5261,
+          "offTuneUnits": 0.593939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 74,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2646,
+              2863,
+              3080,
+              3384,
+              3601,
+              3851,
+              4198,
+              4545,
+              4892,
+              5261,
+              5695,
+              6129,
+              6563,
+              6997,
+              7431,
+              7865,
+              8299,
+              8733,
+              9167,
+              9600
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2352
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603011002",
+          "kind": "basic",
+          "multiplier": 0.5261,
+          "offTuneUnits": 0.593939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 74,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2646,
+              2863,
+              3080,
+              3384,
+              3601,
+              3851,
+              4198,
+              4545,
+              4892,
+              5261,
+              5695,
+              6129,
+              6563,
+              6997,
+              7431,
+              7865,
+              8299,
+              8733,
+              9167,
+              9600
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2352
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603011003",
+          "kind": "basic",
+          "multiplier": 0.5261,
+          "offTuneUnits": 0.593939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 74,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2646,
+              2863,
+              3080,
+              3384,
+              3601,
+              3851,
+              4198,
+              4545,
+              4892,
+              5261,
+              5695,
+              6129,
+              6563,
+              6997,
+              7431,
+              7865,
+              8299,
+              8733,
+              9167,
+              9600
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2352
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603011004",
+          "kind": "basic",
+          "multiplier": 0.5261,
+          "offTuneUnits": 0.593939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 74,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2646,
+              2863,
+              3080,
+              3384,
+              3601,
+              3851,
+              4198,
+              4545,
+              4892,
+              5261,
+              5695,
+              6129,
+              6563,
+              6997,
+              7431,
+              7865,
+              8299,
+              8733,
+              9167,
+              9600
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2352
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603011005",
+          "kind": "basic",
+          "multiplier": 0.5261,
+          "offTuneUnits": 0.593939393939394,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 74,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2646,
+              2863,
+              3080,
+              3384,
+              3601,
+              3851,
+              4198,
+              4545,
+              4892,
+              5261,
+              5695,
+              6129,
+              6563,
+              6997,
+              7431,
+              7865,
+              8299,
+              8733,
+              9167,
+              9600
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2352
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603012001",
+          "kind": "basic",
+          "multiplier": 0.5295,
+          "offTuneUnits": 0.6330808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 157,
+            "energy": 79,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2664,
+              2882,
+              3100,
+              3406,
+              3624,
+              3876,
+              4225,
+              4574,
+              4924,
+              5295,
+              5732,
+              6168,
+              6605,
+              7042,
+              7479,
+              7915,
+              8352,
+              8789,
+              9226,
+              9662
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3134,
+            "type": 0,
+            "weakness_lvl": 2507
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5273430927141175,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603012002",
+          "kind": "basic",
+          "multiplier": 0.5295,
+          "offTuneUnits": 0.6330808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 157,
+            "energy": 79,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2664,
+              2882,
+              3100,
+              3406,
+              3624,
+              3876,
+              4225,
+              4574,
+              4924,
+              5295,
+              5732,
+              6168,
+              6605,
+              7042,
+              7479,
+              7915,
+              8352,
+              8789,
+              9226,
+              9662
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3134,
+            "type": 0,
+            "weakness_lvl": 2507
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5273430927141175,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603012003",
+          "kind": "basic",
+          "multiplier": 0.5295,
+          "offTuneUnits": 0.6330808080808081,
+          "raw": {
+            "element": 6,
+            "element_power": 157,
+            "energy": 79,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2664,
+              2882,
+              3100,
+              3406,
+              3624,
+              3876,
+              4225,
+              4574,
+              4924,
+              5295,
+              5732,
+              6168,
+              6605,
+              7042,
+              7479,
+              7915,
+              8352,
+              8789,
+              9226,
+              9662
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3134,
+            "type": 0,
+            "weakness_lvl": 2507
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5273430927141175,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603500200",
+          "kind": "basic",
+          "multiplier": 1.1333,
+          "offTuneUnits": 0.5454545454545454,
+          "raw": {
+            "element": 6,
+            "element_power": 135,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5700,
+              6168,
+              6635,
+              7290,
+              7757,
+              8295,
+              9042,
+              9790,
+              10538,
+              11333,
+              12267,
+              13202,
+              14137,
+              15072,
+              16007,
+              16941,
+              17876,
+              18811,
+              19746,
+              20681
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2700,
+            "type": 0,
+            "weakness_lvl": 2160
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4543160020191822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603500201",
+          "kind": "basic",
+          "multiplier": 1.1333,
+          "offTuneUnits": 0.5454545454545454,
+          "raw": {
+            "element": 6,
+            "element_power": 135,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5700,
+              6168,
+              6635,
+              7290,
+              7757,
+              8295,
+              9042,
+              9790,
+              10538,
+              11333,
+              12267,
+              13202,
+              14137,
+              15072,
+              16007,
+              16941,
+              17876,
+              18811,
+              19746,
+              20681
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2700,
+            "type": 0,
+            "weakness_lvl": 2160
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4543160020191822,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "红椿盛绽\n攻击目标，造成湮灭伤害，并进入盛绽状态，此次伤害为普攻伤害。\n可在空中施放。\n \n盛绽状态\n·椿缠绕藤蔓期间无法移动；\n·普攻和重击修枝替换为普攻蔓舞，进行最多4段的连续攻击，造成湮灭伤害，此次伤害为普攻伤害;\n·施放普攻第3段蔓舞时，长按普攻，将会施放普攻烬华蔓舞，造成湮灭伤害，并自动施放普攻第4段蔓舞;\n·闪避反击替换为闪避反击偿赎，成功闪避后一定时间内短按普攻，将会攻击目标，造成湮灭伤害，此次伤害为普攻伤害；\n·共鸣技能替换为共鸣技能黯蕊猎心，施放黯蕊猎心时，将会攻击目标，造成湮灭伤害，此次伤害为普攻伤害；\n·可在空中施放共鸣技能黯蕊猎心；\n·施放共鸣技能黯蕊猎心后，将会退出盛绽状态;\n·施放控物时，将会退出盛绽状态；\n·跳跃替换为普攻旋舞，短按跳跃，将会消耗耐力攻击目标，造成湮灭伤害，此次伤害为普攻伤害，并退出盛绽状态；\n·在空中施放普攻蔓舞、普攻烬华蔓舞，将会消耗耐力；\n·施放共鸣技能黯蕊猎心时，无法回复耐力；\n·在空中缠绕藤蔓期间，持续消耗耐力。",
+      "headings": [
+        "红椿盛绽",
+        "盛绽状态"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunB1.SP_IconChunB1",
+      "id": "red_spring/node_2",
+      "name": "盛放与凋零的轮舞",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "红椿盛绽伤害",
+          "values": [
+            "113.62%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "蔓舞第一段伤害",
+          "values": [
+            "96.33%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "蔓舞第二段伤害",
+          "values": [
+            "45.63%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "蔓舞第三段伤害",
+          "values": [
+            "21.95%*6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "蔓舞第四段伤害",
+          "values": [
+            "67.59%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "烬华蔓舞伤害",
+          "values": [
+            "21.95%*19"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "黯蕊猎心伤害",
+          "values": [
+            "52.61%*5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "旋舞伤害",
+          "values": [
+            "52.95%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "偿赎伤害",
+          "values": [
+            "113.33%*2"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "10",
+          "name": "冷却时间",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "红椿盛绽回复协奏能量",
+          "values": [
+            "7"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "黯蕊猎心回复协奏能量",
+          "values": [
+            "7"
+          ]
+        },
+        {
+          "format": null,
+          "id": "13",
+          "name": "蔓舞第一段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "14",
+          "name": "蔓舞第二段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "15",
+          "name": "蔓舞第三段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "16",
+          "name": "蔓舞第四段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "17",
+          "name": "烬华蔓舞耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "18",
+          "name": "旋舞耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "19",
+          "name": "缠绕藤蔓期间耐力消耗（每秒）",
+          "values": [
+            "5"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>红椿盛绽</color></size>\n攻击目标，造成<color=Dark>湮灭伤害</color>，并进入<color=Highlight>盛绽状态</color>，此次伤害为普攻伤害。\n可在空中施放。\n<size=10> </size>\n<size=40><color=Title>盛绽状态</color></size>\n·椿缠绕藤蔓期间无法移动；\n·<color=Highlight>普攻</color>和重击<color=Highlight>修枝</color>替换为普攻<color=Highlight>蔓舞</color>，进行最多4段的连续攻击，造成<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害;\n·施放普攻<color=Highlight>第3段蔓舞</color>时，长按<color=Highlight>普攻</color>，将会施放普攻<color=Highlight>烬华蔓舞</color>，造成<color=Dark>湮灭伤害</color>，并自动施放普攻<color=Highlight>第4段蔓舞</color>;\n·<color=Highlight>闪避反击</color>替换为闪避反击<color=Highlight>偿赎</color>，成功<color=Highlight>闪避</color>后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害；\n·共鸣技能替换为共鸣技能<color=Highlight>黯蕊猎心</color>，施放<color=Highlight>黯蕊猎心</color>时，将会攻击目标，造成<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害；\n·可在空中施放共鸣技能<color=Highlight>黯蕊猎心</color>；\n·施放共鸣技能<color=Highlight>黯蕊猎心</color>后，将会退出<color=Highlight>盛绽状态</color>;\n·施放<color=Highlight>控物</color>时，将会退出<color=Highlight>盛绽状态</color>；\n·跳跃替换为普攻<color=Highlight>旋舞</color>，短按跳跃，将会消耗耐力攻击目标，造成<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害，并退出<color=Highlight>盛绽状态</color>；\n·在空中施放普攻<color=Highlight>蔓舞</color>、普攻<color=Highlight>烬华蔓舞</color>，将会消耗耐力；\n·施放共鸣技能<color=Highlight>黯蕊猎心</color>时，无法回复耐力；\n·在空中缠绕藤蔓期间，持续消耗耐力。",
+      "rawParameters": [],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603300001",
+          "kind": "liberation",
+          "multiplier": 12.0281,
+          "offTuneUnits": 21.21212121212121,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              60500,
+              65461,
+              70422,
+              77368,
+              82329,
+              88034,
+              95972,
+              103909,
+              111847,
+              120281,
+              130203,
+              140125,
+              150047,
+              159969,
+              169891,
+              179813,
+              189735,
+              199657,
+              209579,
+              219501
+            ],
+            "related_property": "攻击",
+            "tough_lv": 40000,
+            "type": 2,
+            "weakness_lvl": 84000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 6.730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603300901",
+          "kind": "liberation",
+          "multiplier": 18.0421,
+          "offTuneUnits": 21.21212121212121,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              90750,
+              98192,
+              105633,
+              116052,
+              123493,
+              132051,
+              143957,
+              155864,
+              167770,
+              180421,
+              195304,
+              210187,
+              225070,
+              239953,
+              254836,
+              269719,
+              284602,
+              299485,
+              314368,
+              329251
+            ],
+            "related_property": "攻击",
+            "tough_lv": 40000,
+            "type": 2,
+            "weakness_lvl": 84000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 6.730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成湮灭伤害。\n可在低空中施放。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunC1.SP_IconChunC1",
+      "id": "red_spring/node_3",
+      "name": "芳华绽烬",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "1202.81%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Dark>湮灭伤害</color>。\n可在低空中施放。",
+      "rawParameters": [],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "湮灭伤害加成提升15%，重击修枝伤害视为普攻伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunD1.SP_IconChunD1",
+      "id": "red_spring/node_4",
+      "name": "温床",
+      "parameters": [],
+      "rawDescription": "湮灭伤害加成提升{0}，重击<color=Highlight>修枝</color>伤害视为普攻伤害。",
+      "rawParameters": [
+        "15%"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "普攻伤害加成提升15%，普攻和普攻蔓舞、普攻烬华蔓舞的抗打断能力提升。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunD2.SP_IconChunD2",
+      "id": "red_spring/node_5",
+      "name": "侵占",
+      "parameters": [],
+      "rawDescription": "普攻伤害加成提升{0}，<color=Highlight>普攻</color>和普攻<color=Highlight>蔓舞</color>、普攻<color=Highlight>烬华蔓舞</color>的抗打断能力提升。",
+      "rawParameters": [
+        "15%"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603600001",
+          "kind": "intro",
+          "multiplier": 1.9881,
+          "offTuneUnits": 2.4242424242424243,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 1000,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              10000,
+              10820,
+              11640,
+              12788,
+              13608,
+              14551,
+              15863,
+              17175,
+              18487,
+              19881,
+              21521,
+              23161,
+              24801,
+              26441,
+              28081,
+              29721,
+              31361,
+              33001,
+              34641,
+              36281
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 3,
+            "weakness_lvl": 9600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603600901",
+          "kind": "intro",
+          "multiplier": 8.0121,
+          "offTuneUnits": 2.4242424242424243,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 1000,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              40300,
+              43605,
+              46910,
+              51536,
+              54841,
+              58641,
+              63928,
+              69216,
+              74503,
+              80121,
+              86730,
+              93339,
+              99949,
+              106558,
+              113167,
+              119776,
+              126385,
+              132995,
+              139604,
+              146213
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 3,
+            "weakness_lvl": 9600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成湮灭伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunQTE.SP_IconChunQTE",
+      "id": "red_spring/node_6",
+      "name": "八千春秋",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "198.81%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Dark>湮灭伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603014001",
+          "kind": "basic",
+          "multiplier": 12.6245,
+          "offTuneUnits": 15.353535353535353,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 1200,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              63500,
+              68707,
+              73914,
+              81204,
+              86411,
+              92399,
+              100731,
+              109062,
+              117393,
+              126245,
+              136659,
+              147073,
+              157487,
+              167901,
+              178315,
+              188729,
+              199143,
+              209557,
+              219971,
+              230385
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 0,
+            "weakness_lvl": 60800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603014901",
+          "kind": "basic",
+          "multiplier": 27.7738,
+          "offTuneUnits": 15.353535353535353,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 1200,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              139700,
+              151156,
+              162611,
+              178649,
+              190104,
+              203278,
+              221607,
+              239935,
+              258264,
+              277738,
+              300649,
+              323560,
+              346470,
+              369381,
+              392292,
+              415203,
+              438114,
+              461024,
+              483935,
+              506846
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 0,
+            "weakness_lvl": 60800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "常态攻击、普攻蔓舞、普攻烬华蔓舞、普攻旋舞、闪避反击偿赎、共鸣技能红椿盛绽、共鸣技能黯蕊猎心命中目标时，消耗【红椿·蕊】，此次攻击的基础共鸣能量回复效率提升150%。\n每消耗10点【红椿·蕊】，回复4点协奏能量，并获得1层红椿·蕾，持续15秒，可叠加10层。\n \n共鸣回路·一日花\n当协奏能量充满时，若一日花不处于冷却状态，共鸣技能替换为一日花。\n施放一日花时，消耗70点协奏能量，并攻击目标，造成湮灭伤害，此次伤害为普攻伤害。\n施放一日花时，进入含苞状态。\n可在空中施放。\n \n含苞状态\n·酣梦：常态攻击、普攻蔓舞、普攻烬华蔓舞、普攻旋舞、闪避反击偿赎、共鸣技能红椿盛绽、共鸣技能黯蕊猎心的伤害倍率提升50%；\n·施放一日花时，清除所有红椿·蕾，每层红椿·蕾使酣梦的伤害倍率提升效果额外提升5%，最多可额外提升50%； \n·含苞状态期间，无法获得红椿·蕾；\n·含苞状态期间，常态攻击、普攻蔓舞、普攻烬华蔓舞、普攻旋舞、闪避反击偿赎、共鸣技能红椿盛绽、共鸣技能黯蕊猎心的基础共鸣能量回复效率降低至0%；\n·切换至其他角色时，将提前结束含苞状态；\n·消耗完【红椿·蕊】时，将提前结束含苞状态。\n \n红椿·蕊获取规则\n上限100点。\n施放变奏技能八千春秋时，回复100点【红椿·蕊】。\n施放共鸣回路一日花时，回复100点【红椿·蕊】。",
+      "headings": [
+        "共鸣回路·一日花",
+        "含苞状态",
+        "红椿·蕊获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunY.SP_IconChunY",
+      "id": "red_spring/node_7",
+      "name": "植物性宇宙",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "一日花伤害",
+          "values": [
+            "1262.45%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "含苞状态持续时间",
+          "values": [
+            "15"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "一日花冷却时间",
+          "values": [
+            "25"
+          ]
+        }
+      ],
+      "rawDescription": "<color=Highlight>常态攻击</color>、普攻<color=Highlight>蔓舞</color>、普攻<color=Highlight>烬华蔓舞</color>、普攻<color=Highlight>旋舞</color>、闪避反击<color=Highlight>偿赎</color>、共鸣技能<color=Highlight>红椿盛绽</color>、共鸣技能<color=Highlight>黯蕊猎心</color>命中目标时，消耗【红椿·蕊】，此次攻击的基础共鸣能量回复效率提升{0}。\n每消耗{1}点【红椿·蕊】，回复{2}点协奏能量，并获得{3}层红椿·蕾，持续{4}秒，可叠加{5}层。\n<size=10> </size>\n<size=40><color=Title>共鸣回路·一日花</color></size>\n当协奏能量充满时，若<color=Highlight>一日花</color>不处于冷却状态，共鸣技能替换为<color=Highlight>一日花</color>。\n施放<color=Highlight>一日花</color>时，消耗{6}点协奏能量，并攻击目标，造成<color=Dark>湮灭伤害</color>，此次伤害为普攻伤害。\n施放<color=Highlight>一日花</color>时，进入<color=Highlight>含苞状态</color>。\n可在空中施放。\n<size=10> </size>\n<size=40><color=Title>含苞状态</color></size>\n·<color=Highlight>酣梦</color>：<color=Highlight>常态攻击</color>、普攻<color=Highlight>蔓舞</color>、普攻<color=Highlight>烬华蔓舞</color>、普攻<color=Highlight>旋舞</color>、闪避反击<color=Highlight>偿赎</color>、共鸣技能<color=Highlight>红椿盛绽</color>、共鸣技能<color=Highlight>黯蕊猎心</color>的伤害倍率提升{8}；\n·施放<color=Highlight>一日花</color>时，清除所有红椿·蕾，每层红椿·蕾使<color=Highlight>酣梦</color>的伤害倍率提升效果额外提升{9}，最多可额外提升{10}； \n·<color=Highlight>含苞状态</color>期间，无法获得红椿·蕾；\n·<color=Highlight>含苞状态</color>期间，<color=Highlight>常态攻击</color>、普攻<color=Highlight>蔓舞</color>、普攻<color=Highlight>烬华蔓舞</color>、普攻<color=Highlight>旋舞</color>、闪避反击<color=Highlight>偿赎</color>、共鸣技能<color=Highlight>红椿盛绽</color>、共鸣技能<color=Highlight>黯蕊猎心</color>的基础共鸣能量回复效率降低至{11}；\n·切换至其他角色时，将提前结束<color=Highlight>含苞状态</color>；\n·消耗完【红椿·蕊】时，将提前结束<color=Highlight>含苞状态</color>。\n<size=10> </size>\n<size=40><color=Title>红椿·蕊获取规则</color></size>\n上限{12}点。\n施放变奏技能<color=Highlight>八千春秋</color>时，回复{13}点【红椿·蕊】。\n施放共鸣回路<color=Highlight>一日花</color>时，回复{17}点【红椿·蕊】。",
+      "rawParameters": [
+        "150%",
+        "10",
+        "4",
+        "1",
+        "15",
+        "10",
+        "70",
+        "100",
+        "50%",
+        "5%",
+        "50%",
+        "0%",
+        "100",
+        "100",
+        "50",
+        "20",
+        "20",
+        "100"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602000",
+          "kind": "unverified",
+          "multiplier": 3.2924,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              32924
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602001",
+          "kind": "unverified",
+          "multiplier": 3.2924,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              32924
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602004",
+          "kind": "unverified",
+          "multiplier": 4.5902,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              45902
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602900",
+          "kind": "unverified",
+          "multiplier": 5.5311,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              55311
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602901",
+          "kind": "unverified",
+          "multiplier": 5.5311,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              55311
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "havoc",
+          "id": "1603602904",
+          "kind": "unverified",
+          "multiplier": 7.7115,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 6,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              77115
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成椿329.24%攻击的湮灭伤害。\n施放共鸣回路一日花后，下次延奏技能缠绕额外造成椿459.02%攻击的湮灭伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconChun/SP_IconChunT.SP_IconChunT",
+      "id": "red_spring/node_8",
+      "name": "缠绕",
+      "parameters": [],
+      "rawDescription": "攻击目标，造成椿{0}攻击的<color=Dark>湮灭伤害</color>。\n施放共鸣回路<color=Highlight>一日花</color>后，下次延奏技能<color=Highlight>缠绕</color>额外造成椿{1}攻击的<color=Dark>湮灭伤害</color>。",
+      "rawParameters": [
+        "329.24%",
+        "459.02%"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击伤害提升2.40%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI",
+      "id": "red_spring/node_9",
+      "name": "暴击伤害提升",
+      "parameters": [],
+      "rawDescription": "暴击伤害提升{0}",
+      "rawParameters": [
+        "2.40%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "red_spring/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "red_spring/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击伤害提升2.40%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI",
+      "id": "red_spring/node_12",
+      "name": "暴击伤害提升",
+      "parameters": [],
+      "rawDescription": "暴击伤害提升{0}",
+      "rawParameters": [
+        "2.40%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击伤害提升5.60%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI",
+      "id": "red_spring/node_13",
+      "name": "暴击伤害提升",
+      "parameters": [],
+      "rawDescription": "暴击伤害提升{0}",
+      "rawParameters": [
+        "5.60%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "red_spring/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "red_spring/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击伤害提升5.60%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredcrit_UI.T_Iconpropertyredcrit_UI",
+      "id": "red_spring/node_16",
+      "name": "暴击伤害提升",
+      "parameters": [],
+      "rawDescription": "暴击伤害提升{0}",
+      "rawParameters": [
+        "5.60%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
+      "id": "red_spring/node_17",
+      "name": "谐度破坏·迅刀",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "sourceId": 1603,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1603.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "终始之外",
+    "name": "裁春",
+    "refinements": [
+      {
+        "description": "攻击提升12%。造成普攻伤害时，自身普攻伤害加成提升10%，持续14秒，每秒可触发1次，可叠加3层；\n自身的协奏能量消耗时，自身普攻伤害加成提升40%，持续10秒，每秒可触发1次，若切换至其他角色则该效果提前结束。",
+        "parameters": [
+          "12%",
+          "10%",
+          "14",
+          "3",
+          "40%",
+          "10"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "攻击提升15%。造成普攻伤害时，自身普攻伤害加成提升12.5%，持续14秒，每秒可触发1次，可叠加3层；\n自身的协奏能量消耗时，自身普攻伤害加成提升50%，持续10秒，每秒可触发1次，若切换至其他角色则该效果提前结束。",
+        "parameters": [
+          "15%",
+          "12.5%",
+          "14",
+          "3",
+          "50%",
+          "10"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "攻击提升18%。造成普攻伤害时，自身普攻伤害加成提升15%，持续14秒，每秒可触发1次，可叠加3层；\n自身的协奏能量消耗时，自身普攻伤害加成提升60%，持续10秒，每秒可触发1次，若切换至其他角色则该效果提前结束。",
+        "parameters": [
+          "18%",
+          "15%",
+          "14",
+          "3",
+          "60%",
+          "10"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "攻击提升21%。造成普攻伤害时，自身普攻伤害加成提升17.5%，持续14秒，每秒可触发1次，可叠加3层；\n自身的协奏能量消耗时，自身普攻伤害加成提升70%，持续10秒，每秒可触发1次，若切换至其他角色则该效果提前结束。",
+        "parameters": [
+          "21%",
+          "17.5%",
+          "14",
+          "3",
+          "70%",
+          "10"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "攻击提升24%。造成普攻伤害时，自身普攻伤害加成提升20%，持续14秒，每秒可触发1次，可叠加3层；\n自身的协奏能量消耗时，自身普攻伤害加成提升80%，持续10秒，每秒可触发1次，若切换至其他角色则该效果提前结束。",
+        "parameters": [
+          "24%",
+          "20%",
+          "14",
+          "3",
+          "80%",
+          "10"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21020026,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 587.5,
+        "value": 587.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击",
+        "rawValue": 2430.0,
+        "value": 0.243
+      }
+    ]
+  },
+  "weaponType": 2
+}

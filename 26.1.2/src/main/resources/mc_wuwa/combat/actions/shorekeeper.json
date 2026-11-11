@@ -1,0 +1,574 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505001002"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "shorekeeper/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "31.78%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3178,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505002002"
+        },
+        {
+          "count": 1,
+          "damageId": "1505002004"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "shorekeeper/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.86%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.4772,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1505003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1505003003"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        18
+      ],
+      "id": "shorekeeper/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.32%*3",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.6996,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505004001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "shorekeeper/basic_04",
+      "name": "普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "72.72%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7272,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505201001"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "shorekeeper/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "45.81%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4581,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505202001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "shorekeeper/air",
+      "name": "下落攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "73.96%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7396,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505012002"
+        },
+        {
+          "count": 1,
+          "damageId": "1505012004"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "shorekeeper/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "87.48%*2",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.7496,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1505301990"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "shorekeeper/skill",
+      "name": "混沌理论·五只黯星蝶",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "31.31%*5",
+      "sourceNode": 2,
+      "sourceParameter": "skill_five_butterflies",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.5655,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 65,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [],
+      "hitTimesTicks": [],
+      "id": "shorekeeper/liberation",
+      "name": "终末回环·星域展开（无直接伤害）",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "0%",
+      "sourceNode": 3,
+      "sourceParameter": "utility_domain",
+      "timingEvidence": "docs/reference/original-skill-gifs/new-three/shorekeeper-2.gif active=[0.25, 3.5]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 0,
+      "totalMultiplier": 0.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1505505002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16,
+        20
+      ],
+      "id": "shorekeeper/intro",
+      "name": "启迪伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "45.30%*5",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.265,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1505505001"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "shorekeeper/intro_insight",
+      "name": "洞悉伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "19.64%*3",
+      "sourceNode": 6,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.5892,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505009980"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "shorekeeper/butterfly",
+      "name": "耀星·蝶伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "37.29%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3729,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1505211001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        14,
+        18,
+        22
+      ],
+      "id": "shorekeeper/heavy_deduction",
+      "name": "演绎伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "18.97%*5",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.9485,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "shorekeeper",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.8
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1505202002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "shorekeeper/air_evolution",
+      "name": "衍变伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "73.96%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7396,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stellar_symphony"
+    }
+  ],
+  "schemaVersion": 1
+}

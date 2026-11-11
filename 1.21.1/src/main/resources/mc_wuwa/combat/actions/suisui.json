@@ -1,0 +1,815 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "suisui/basic_01",
+      "name": "普攻·浣尘时第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "63.15%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6315,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1110002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "suisui/basic_02",
+      "name": "普攻·浣尘时第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "61.00%+61.00%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.22,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110003007"
+        },
+        {
+          "count": 1,
+          "damageId": "1110003012"
+        },
+        {
+          "count": 1,
+          "damageId": "1110003013"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "suisui/basic_03",
+      "name": "普攻·浣尘时第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.80%+41.80%+55.74%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3934,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110004001"
+        },
+        {
+          "count": 5,
+          "damageId": "1110004109"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        14,
+        17,
+        21,
+        24
+      ],
+      "id": "suisui/basic_04",
+      "name": "普攻·浣尘时第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "79.53%+15.91%*5",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.5908,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110011001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suisui/air",
+      "name": "空中攻击·浣尘时伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "70.72%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7072,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110200002"
+        },
+        {
+          "count": 1,
+          "damageId": "1110200003"
+        },
+        {
+          "count": 1,
+          "damageId": "1110200004"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "suisui/dodge_counter",
+      "name": "闪避反击·浣尘时伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "51.20%+51.20%+68.27%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.7067,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1110105001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "suisui/skill",
+      "name": "共鸣技能·浣尘时伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.86%*6",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.4316,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110010001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suisui/skill_awaken",
+      "name": "醒春潮伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "28.63%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2863,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1110105002"
+        },
+        {
+          "count": 1,
+          "damageId": "1110105003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        18,
+        20
+      ],
+      "id": "suisui/rain_skill",
+      "name": "共鸣技能·濯雨时伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "11.93%*6+71.58%",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.4316,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 115,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [],
+      "hitTimesTicks": [],
+      "id": "suisui/liberation",
+      "name": "康衢之谣·山河水境（无直接伤害）",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "0%",
+      "sourceNode": 3,
+      "sourceParameter": "utility_domain",
+      "timingEvidence": "docs/reference/original-skill-gifs/tide-roles/suisui-3.gif active=[0, 5.75]; Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields.",
+      "totalHitCount": 0,
+      "totalMultiplier": 0.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110022001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "suisui/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "28.63%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2863,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "11100060010"
+        },
+        {
+          "count": 2,
+          "damageId": "11100060020"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        5,
+        8,
+        10
+      ],
+      "id": "suisui/rain_basic_01",
+      "name": "普攻·濯雨时第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "19.57%*2+19.57%*2",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.7828,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11100070000"
+        },
+        {
+          "count": 2,
+          "damageId": "11100070010"
+        },
+        {
+          "count": 2,
+          "damageId": "11100070020"
+        },
+        {
+          "count": 1,
+          "damageId": "11100070030"
+        },
+        {
+          "count": 1,
+          "damageId": "11100070040"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        12,
+        14
+      ],
+      "id": "suisui/rain_basic_02",
+      "name": "普攻·濯雨时第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "31.81%+15.91%*2+15.91%*2+31.81%+31.81%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.5907,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "11100080010"
+        },
+        {
+          "count": 3,
+          "damageId": "11100080020"
+        },
+        {
+          "count": 3,
+          "damageId": "11100080030"
+        },
+        {
+          "count": 3,
+          "damageId": "11100080040"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "id": "suisui/rain_basic_03",
+      "name": "普攻·濯雨时第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "13.76%*3+13.76%*3+13.76%*3+13.76%*3",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 12,
+      "totalMultiplier": 1.6512,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11100090020"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "suisui/rain_basic_04",
+      "name": "普攻·濯雨时第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "159.05%",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5905,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "11100140010"
+        },
+        {
+          "count": 1,
+          "damageId": "11100140020"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22
+      ],
+      "id": "suisui/rain_heavy",
+      "name": "重击·濯雨时伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "11.93%*10+119.29%",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 11,
+      "totalMultiplier": 2.3859,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110015001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suisui/rain_descent_hold",
+      "name": "重明枕露伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "104.98%",
+      "sourceNode": 7,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0498,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "suisui",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1110015002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "suisui/rain_descent",
+      "name": "飞燕裁风伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "rain",
+      "sourceFormula": "107.65%",
+      "sourceNode": 7,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0765,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "firstlights_herald"
+    }
+  ],
+  "schemaVersion": 1
+}

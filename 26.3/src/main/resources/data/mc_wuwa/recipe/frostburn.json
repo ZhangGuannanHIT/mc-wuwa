@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  R",
+    "BO ",
+    "CB "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "B": "minecraft:ice",
+    "O": "minecraft:obsidian",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:frostburn",
+    "count": 1
+  }
+}

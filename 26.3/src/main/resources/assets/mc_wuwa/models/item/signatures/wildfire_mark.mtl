@@ -1,0 +1,64 @@
+newmtl c0_alloy
+Kd 0.074510 0.074510 0.090196
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c1_alloy
+Kd 0.188235 0.180392 0.192157
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c2_alloy
+Kd 0.352941 0.345098 0.356863
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c3_alloy
+Kd 0.588235 0.588235 0.600000
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c4_alloy
+Kd 0.850980 0.858824 0.858824
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c6_alloy
+Kd 0.537255 0.376471 0.215686
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c7_alloy
+Kd 0.811765 0.647059 0.423529
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c8_alloy
+Kd 0.286275 0.035294 0.082353
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c9_alloy
+Kd 0.482353 0.050980 0.117647
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c10_alloy
+Kd 0.701961 0.101961 0.168627
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c11_alloy
+Kd 0.882353 0.211765 0.262745
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c13_alloy
+Kd 1.000000 0.705882 0.792157
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c13_crystal
+Kd 1.000000 0.705882 0.792157
+Ka 0.65 0.65 0.65
+map_Kd #surface

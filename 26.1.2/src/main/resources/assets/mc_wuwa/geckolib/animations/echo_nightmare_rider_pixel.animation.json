@@ -1,0 +1,213 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.echo_nightmare_rider_pixel.attack": {
+      "loop": false,
+      "animation_length": 1.6,
+      "bones": {
+        "root": {
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            ".45": [
+              0,
+              7,
+              -2
+            ],
+            ".85": [
+              0,
+              2,
+              -6
+            ],
+            "1.1": [
+              0,
+              0,
+              -9
+            ],
+            "1.6": [
+              0,
+              0,
+              -9
+            ]
+          }
+        },
+        "rider_arm_right": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            ".45": [
+              -40,
+              0,
+              -20
+            ],
+            ".9": [
+              30,
+              0,
+              40
+            ],
+            "1.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "front_molten_wheel": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.6": [
+              360,
+              0,
+              0
+            ]
+          }
+        },
+        "rear_molten_wheel": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.6": [
+              360,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_nightmare_rider_pixel.idle": {
+      "loop": true,
+      "animation_length": 1.6,
+      "bones": {
+        "rider_trunk": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            ".8": [
+              -1.2,
+              0,
+              0
+            ],
+            "1.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "front_molten_wheel": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.6": [
+              620,
+              0,
+              0
+            ]
+          }
+        },
+        "rear_molten_wheel": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.6": [
+              620,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_nightmare_rider_pixel.cleave": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "rider_trunk": {
+          "rotation": {
+            "0": [
+              0,
+              -18,
+              0
+            ],
+            ".4": [
+              0,
+              22,
+              0
+            ],
+            ".8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "rider_arm_right": {
+          "rotation": {
+            "0": [
+              -28,
+              -25,
+              -20
+            ],
+            ".2": [
+              -75,
+              -35,
+              -20
+            ],
+            ".4": [
+              20,
+              45,
+              40
+            ],
+            ".8": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "rider_forearm_right": {
+          "rotation": {
+            "0": [
+              -20,
+              0,
+              0
+            ],
+            ".4": [
+              -8,
+              0,
+              0
+            ],
+            ".8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

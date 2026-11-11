@@ -1,0 +1,152 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hsin_construct.idle": {
+      "loop": true,
+      "animation_length": 4,
+      "bones": {
+        "core": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "4": [
+              0,
+              360,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.hsin_construct.attack": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "stabilizer_0": {
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              -3,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "stabilizer_1": {
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              3,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "stabilizer_2": {
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              -3,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "stabilizer_3": {
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              3,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.hsin_construct.hurt": {
+      "loop": false,
+      "animation_length": 0.3,
+      "bones": {
+        "core": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.1": [
+              5,
+              0,
+              0
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

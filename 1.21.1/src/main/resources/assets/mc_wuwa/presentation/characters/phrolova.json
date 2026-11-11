@@ -1,0 +1,1627 @@
+{
+  "schemaVersion": 1,
+  "characterId": "phrolova",
+  "weaponId": "mc_wuwa:lethean_elegy",
+  "palette": [
+    170,
+    77,
+    131
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1608",
+    "data-source/nanoka/3.7/zh/character/1608.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:phrolova/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:phrolova/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3055,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif"
+      ],
+      "normalCardObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-00.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-01.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg"
+        ],
+        "scope": "Complete official card0 sampled timeline reviewed; normal chain0--4.5s has crimson crescents, turning second cast and low third recovery. Curves and widths fit retained Minecraft contact clocks; not original frame timing or exhaustive pose acceptance.",
+        "surfaceImplementation": "PhrolovaPilotVfx.normalSlashSurfaces via PilotNormalTimingVfx contact gate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:phrolova/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3525,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif"
+      ],
+      "normalCardObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-00.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-01.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg"
+        ],
+        "scope": "Complete official card0 sampled timeline reviewed; normal chain0--4.5s has crimson crescents, turning second cast and low third recovery. Curves and widths fit retained Minecraft contact clocks; not original frame timing or exhaustive pose acceptance.",
+        "surfaceImplementation": "PhrolovaPilotVfx.normalSlashSurfaces via PilotNormalTimingVfx contact gate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:phrolova/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "right_leg",
+        "right_shin",
+        "pelvis",
+        "head",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2585,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif"
+      ],
+      "normalCardObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-0.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-00.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-01.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg"
+        ],
+        "scope": "Complete official card0 sampled timeline reviewed; normal chain0--4.5s has crimson crescents, turning second cast and low third recovery. Curves and widths fit retained Minecraft contact clocks; not original frame timing or exhaustive pose acceptance.",
+        "surfaceImplementation": "PhrolovaPilotVfx.normalSlashSurfaces via PilotNormalTimingVfx contact gate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:phrolova/heavy/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:phrolova/air/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:phrolova/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.16000000000000003,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 4,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:phrolova/skill/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:phrolova/liberation/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7755,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:phrolova/intro/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-4.gif",
+        "docs/reference/phrolova-intro-detail/source.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "introPhaseObservation": {
+        "source": "docs/reference/phrolova-intro-detail/source.json",
+        "scope": "Complete74-frame official intro card reviewed. Open-arm normal arrival and raised-to-downward enhanced cue; following Basic3 and companion attacks excluded from player pose. Adapted to retained24-tick contact clocks; not original frame timing.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:phrolova/outro/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:phrolova/echo/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/terminal_composition",
+      "stateVariant": "terminal_composition",
+      "thirdPersonClip": "mc_wuwa:phrolova/terminal_composition/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/terminal_composition/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-1.gif"
+      ],
+      "compositionCardObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-1.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg"
+        ],
+        "scope": "Complete enhanced-heavy card1 sampled0--4.5s reviewed. Crimson converging cut and flowering impact; not ordinary skillE or Hecate command evidence. Geometry fits existing Minecraft contact clocks, not original frame timing.",
+        "surfaceImplementation": "PhrolovaPilotVfx.compositionSurfaces via PilotCastContactVfx contact gate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/conduction_enter",
+      "stateVariant": "conduction_enter",
+      "thirdPersonClip": "mc_wuwa:phrolova/conduction_enter/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/conduction_enter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_basic",
+      "stateVariant": "hecate_basic",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_basic/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_basic/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_strings",
+      "stateVariant": "hecate_strings",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_strings/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_strings/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_brass",
+      "stateVariant": "hecate_brass",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_brass/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_brass/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_fortissimo",
+      "stateVariant": "hecate_fortissimo",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_fortissimo/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_fortissimo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_finale",
+      "stateVariant": "hecate_finale",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_finale/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/death_movement",
+      "stateVariant": "death_movement",
+      "thirdPersonClip": "mc_wuwa:phrolova/death_movement/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/death_movement/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/eternal_dream",
+      "stateVariant": "eternal_dream",
+      "thirdPersonClip": "mc_wuwa:phrolova/eternal_dream/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/eternal_dream/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/immortal_suite",
+      "stateVariant": "immortal_suite",
+      "thirdPersonClip": "mc_wuwa:phrolova/immortal_suite/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/immortal_suite/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/composition_finale",
+      "stateVariant": "composition_finale",
+      "thirdPersonClip": "mc_wuwa:phrolova/composition_finale/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/composition_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-1.gif"
+      ],
+      "compositionCardObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-1.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg"
+        ],
+        "scope": "Complete enhanced-heavy card1 sampled0--4.5s reviewed. Crimson converging cut and flowering impact; not ordinary skillE or Hecate command evidence. Geometry fits existing Minecraft contact clocks, not original frame timing.",
+        "surfaceImplementation": "PhrolovaPilotVfx.compositionSurfaces via PilotCastContactVfx contact gate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_basic_01",
+      "stateVariant": "hecate_basic_01",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_basic_02",
+      "stateVariant": "hecate_basic_02",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_winds",
+      "stateVariant": "hecate_winds",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_winds/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_winds/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/hecate_color",
+      "stateVariant": "hecate_color",
+      "thirdPersonClip": "mc_wuwa:phrolova/hecate_color/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/hecate_color/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ],
+      "hecateCommandObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif",
+        "reviewPages": [
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-02.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-03.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-04.jpg",
+          "docs/reference/phrolova-pilot/skill-card-timeline/page-05.jpg"
+        ],
+        "scope": "Complete official liberation card2 sampled0--17s reviewed. Companion thrust, cross-cut and rising blade shapes are separate from the seated player conductor gestures. Existing Minecraft cast clocks and colors retained; no exact original frame or per-note palette certification.",
+        "surfaceImplementation": "PhrolovaPilotVfx.commandSlashSurfaces through the companion light renderer"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/liberation_curtain",
+      "stateVariant": "liberation_curtain",
+      "thirdPersonClip": "mc_wuwa:phrolova/liberation_curtain/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/liberation_curtain/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/intro_eternal",
+      "stateVariant": "intro_eternal",
+      "thirdPersonClip": "mc_wuwa:phrolova/intro_eternal/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/intro_eternal/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-4.gif",
+        "docs/reference/phrolova-intro-detail/source.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "introPhaseObservation": {
+        "source": "docs/reference/phrolova-intro-detail/source.json",
+        "scope": "Complete74-frame official intro card reviewed. Open-arm normal arrival and raised-to-downward enhanced cue; following Basic3 and companion attacks excluded from player pose. Adapted to retained24-tick contact clocks; not original frame timing.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/movement_death",
+      "stateVariant": "movement_death",
+      "thirdPersonClip": "mc_wuwa:phrolova/movement_death/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/movement_death/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/undying_reverie",
+      "stateVariant": "undying_reverie",
+      "thirdPersonClip": "mc_wuwa:phrolova/undying_reverie/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/undying_reverie/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:phrolova/conducting_idle",
+      "stateVariant": "conducting_idle",
+      "thirdPersonClip": "mc_wuwa:phrolova/conducting_idle/tp",
+      "firstPersonClip": "mc_wuwa:phrolova/conducting_idle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1608",
+        "data-source/nanoka/3.7/zh/character/1608.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1uuufz9ELi/",
+        "docs/reference/original-skill-gifs/existing-roles/phrolova-2.gif"
+      ]
+    }
+  ]
+}

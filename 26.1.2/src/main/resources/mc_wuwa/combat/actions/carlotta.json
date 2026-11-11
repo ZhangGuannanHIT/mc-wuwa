@@ -1,0 +1,1482 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110700101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "carlotta/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "54.08%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5408,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110700201"
+        },
+        {
+          "count": 1,
+          "damageId": "110700202"
+        },
+        {
+          "count": 1,
+          "damageId": "110700203"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        16
+      ],
+      "id": "carlotta/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "39.55%+39.55%+52.73%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3183,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110701101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/necessary_01",
+      "name": "必要性手段第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "65.91%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6591,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110701201"
+        },
+        {
+          "count": 1,
+          "damageId": "110701202"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "carlotta/necessary_02",
+      "name": "必要性手段第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "60.08%+73.43%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.3351,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110701301"
+        },
+        {
+          "count": 1,
+          "damageId": "110701302"
+        },
+        {
+          "count": 1,
+          "damageId": "110701303"
+        },
+        {
+          "count": 1,
+          "damageId": "110701304"
+        },
+        {
+          "count": 1,
+          "damageId": "110701305"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "carlotta/necessary_03",
+      "name": "必要性手段第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "139.93%+23.33%*4",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.3325,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "110706001"
+        },
+        {
+          "count": 2,
+          "damageId": "110706002"
+        },
+        {
+          "count": 1,
+          "damageId": "110706003"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        14,
+        18,
+        22
+      ],
+      "id": "carlotta/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "22.82%*2+22.82%*2+60.84%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.5212,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "110706101"
+        },
+        {
+          "count": 2,
+          "damageId": "110706102"
+        },
+        {
+          "count": 1,
+          "damageId": "110706103"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        14,
+        18,
+        22
+      ],
+      "id": "carlotta/heavy_restrictive",
+      "name": "限制性策略伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "34.23%*2+34.23%*2+91.26%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.2818,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110702101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "104.78%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0478,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110700301"
+        },
+        {
+          "count": 1,
+          "damageId": "110700302"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "carlotta/courtesy",
+      "name": "礼节性问候伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "107.99%+131.99%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.3998,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110700401"
+        },
+        {
+          "count": 1,
+          "damageId": "110700402"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "carlotta/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "103.77%+137.55%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.4132,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110705101"
+        },
+        {
+          "count": 1,
+          "damageId": "110705102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "carlotta/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "144.11%+144.11%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.8822,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110705201"
+        },
+        {
+          "count": 1,
+          "damageId": "110705202"
+        },
+        {
+          "count": 1,
+          "damageId": "110705203"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "carlotta/skill_show_brilliance",
+      "name": "示我璀璨伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "112.73%+112.73%+338.18%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 5.6364,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110705103"
+        },
+        {
+          "count": 1,
+          "damageId": "110705104"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "carlotta/skill_c3",
+      "name": "暴力美学·三链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "278.12%*2",
+      "sourceNode": 2,
+      "sourceParameter": "skill_c3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 5.5624,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110705204"
+        },
+        {
+          "count": 1,
+          "damageId": "110705205"
+        },
+        {
+          "count": 1,
+          "damageId": "110705206"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "carlotta/skill_show_brilliance_c3",
+      "name": "示我璀璨·三链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "217.56%*2+652.68%",
+      "sourceNode": 2,
+      "sourceParameter": "show_brilliance_c3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 10.878,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110709101"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "carlotta/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "402.71%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.0271,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703101"
+        },
+        {
+          "count": 1,
+          "damageId": "110701102"
+        },
+        {
+          "count": 1,
+          "damageId": "110701103"
+        },
+        {
+          "count": 1,
+          "damageId": "110701104"
+        },
+        {
+          "count": 1,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "carlotta/death_knell_01",
+      "name": "死兆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "183.64%+14.50%*4",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.4164,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703201"
+        },
+        {
+          "count": 1,
+          "damageId": "110701102"
+        },
+        {
+          "count": 1,
+          "damageId": "110701103"
+        },
+        {
+          "count": 1,
+          "damageId": "110701104"
+        },
+        {
+          "count": 1,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "carlotta/death_knell_02",
+      "name": "死兆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "183.64%+14.50%*4",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.4164,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703301"
+        },
+        {
+          "count": 1,
+          "damageId": "110701102"
+        },
+        {
+          "count": 1,
+          "damageId": "110701103"
+        },
+        {
+          "count": 1,
+          "damageId": "110701104"
+        },
+        {
+          "count": 1,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "carlotta/death_knell_03",
+      "name": "死兆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "183.64%+14.50%*4",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.4164,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703401"
+        },
+        {
+          "count": 1,
+          "damageId": "110701102"
+        },
+        {
+          "count": 1,
+          "damageId": "110701103"
+        },
+        {
+          "count": 1,
+          "damageId": "110701104"
+        },
+        {
+          "count": 1,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "carlotta/death_knell_04",
+      "name": "死兆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "183.64%+14.50%*4",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.4164,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703111"
+        },
+        {
+          "count": 2,
+          "damageId": "110701102"
+        },
+        {
+          "count": 2,
+          "damageId": "110701103"
+        },
+        {
+          "count": 2,
+          "damageId": "110701104"
+        },
+        {
+          "count": 2,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "carlotta/death_knell_01_c6",
+      "name": "死兆·六链射击与8晶体",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "576.61%+14.50%*8",
+      "sourceNode": 3,
+      "sourceParameter": "death_knell_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.9261,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703211"
+        },
+        {
+          "count": 2,
+          "damageId": "110701102"
+        },
+        {
+          "count": 2,
+          "damageId": "110701103"
+        },
+        {
+          "count": 2,
+          "damageId": "110701104"
+        },
+        {
+          "count": 2,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "carlotta/death_knell_02_c6",
+      "name": "死兆·六链射击与8晶体",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "576.61%+14.50%*8",
+      "sourceNode": 3,
+      "sourceParameter": "death_knell_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.9261,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703311"
+        },
+        {
+          "count": 2,
+          "damageId": "110701102"
+        },
+        {
+          "count": 2,
+          "damageId": "110701103"
+        },
+        {
+          "count": 2,
+          "damageId": "110701104"
+        },
+        {
+          "count": 2,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "carlotta/death_knell_03_c6",
+      "name": "死兆·六链射击与8晶体",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "576.61%+14.50%*8",
+      "sourceNode": 3,
+      "sourceParameter": "death_knell_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.9261,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110703411"
+        },
+        {
+          "count": 2,
+          "damageId": "110701102"
+        },
+        {
+          "count": 2,
+          "damageId": "110701103"
+        },
+        {
+          "count": 2,
+          "damageId": "110701104"
+        },
+        {
+          "count": 2,
+          "damageId": "110701105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "carlotta/death_knell_04_c6",
+      "name": "死兆·六链射击与8晶体",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "576.61%+14.50%*8",
+      "sourceNode": 3,
+      "sourceParameter": "death_knell_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.9261,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110709201"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/fatal_finale",
+      "name": "致死以终伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "644.33%",
+      "sourceNode": 3,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 6.4433,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110709202"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/fatal_finale_c2",
+      "name": "致死以终·二链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "gunflower",
+      "sourceFormula": "1456.17%",
+      "sourceNode": 3,
+      "sourceParameter": "fatal_finale_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 14.5617,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110708101"
+        },
+        {
+          "count": 2,
+          "damageId": "110708102"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "carlotta/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "178.93%+59.65%*2",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.9823,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110706201"
+        },
+        {
+          "count": 4,
+          "damageId": "110706202"
+        },
+        {
+          "count": 1,
+          "damageId": "110706203"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "carlotta/heavy_end_of_road",
+      "name": "末路见行伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "66.83%*5+501.21%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 8.3536,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110706301"
+        },
+        {
+          "count": 4,
+          "damageId": "110706302"
+        },
+        {
+          "count": 1,
+          "damageId": "110706303"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "carlotta/heavy_end_of_road_c5",
+      "name": "末路见行·五链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "98.24%*5+736.78%",
+      "sourceNode": 7,
+      "sourceParameter": "end_of_road_c5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 12.2798,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110708501"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/outro",
+      "name": "致辞",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "794.20%",
+      "sourceNode": 8,
+      "sourceParameter": "outro_base",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 7.942,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "carlotta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.7
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110708502"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "carlotta/outro_c3_extra",
+      "name": "碎璃镜花·三链额外攻击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "1032.18%",
+      "sourceNode": 8,
+      "sourceParameter": "outro_c3_extra",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 10.3218,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "the_last_dance"
+    }
+  ],
+  "schemaVersion": 1
+}

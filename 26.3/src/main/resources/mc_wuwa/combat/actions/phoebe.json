@@ -1,0 +1,778 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506001010"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "phoebe/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "29.53%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2953,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506002010"
+        },
+        {
+          "count": 1,
+          "damageId": "1506002020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "phoebe/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "22.37%+27.34%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.4971,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "1506003010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "phoebe/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "14.24%*8",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.1392,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1506011010"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "phoebe/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "41.35%*4",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.654,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1506020010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "phoebe/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "46.23%*2",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.9246,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 30,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [],
+      "hitTimesTicks": [],
+      "id": "phoebe/air_glide",
+      "name": "空中重击·乘杖滑行（无直接伤害）",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "0%",
+      "sourceNode": 1,
+      "sourceParameter": "utility_glide",
+      "timingEvidence": "Existing MC movement window: 30 ticks. Body/prop completion synchronized; not measured native duration.",
+      "totalHitCount": 0,
+      "totalMultiplier": 0.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "1506031010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        14,
+        16
+      ],
+      "id": "phoebe/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "21.58%*8",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.7264,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1506031020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "phoebe/ring_counter",
+      "name": "夏弥尔之星·闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "43.84%*6",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 2.6304,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1506101010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "phoebe/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "62.63%*2",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.2526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1506101010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "phoebe/skill_teleport",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "62.63%*2",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.2526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1506999990"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "phoebe/refraction",
+      "name": "【镜之环】折射圣辉伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "14.92%*2",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.2984,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506004010"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "phoebe/ring_basic_01",
+      "name": "夏弥尔之星第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "59.35%",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5935,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1506005010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "phoebe/ring_basic_02",
+      "name": "夏弥尔之星第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "39.77%*2",
+      "sourceNode": 2,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7954,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1506006010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "phoebe/ring_basic_03",
+      "name": "夏弥尔之星第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "28.93%*6",
+      "sourceNode": 2,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.7358,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 80,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506202092"
+        }
+      ],
+      "hitTimesTicks": [
+        55
+      ],
+      "id": "phoebe/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "401.60%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "docs/reference/original-skill-gifs/tide-roles/phoebe-3.gif active=[0.5, 4.5]; Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.016,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506300010"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "phoebe/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "198.81%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.9881,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506400000"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "phoebe/absolution",
+      "name": "圣祷赦罪伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "638.19%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 6.3819,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1506400010"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "phoebe/confession",
+      "name": "显明告解伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "187.88%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.8788,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phoebe",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.9
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1506012010"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "phoebe/heavy_starlight",
+      "name": "重击·星辉伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "82.69%*3",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.4807,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "luminous_hymn"
+    }
+  ],
+  "schemaVersion": 1
+}

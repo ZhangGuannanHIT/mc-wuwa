@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.iuno_crescent_ring.idle": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {}
+    },
+    "animation.iuno_crescent_ring.attack": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {}
+    }
+  }
+}

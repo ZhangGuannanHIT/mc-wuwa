@@ -1,0 +1,2102 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "denia/basic_01",
+      "name": "普攻·布景之形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "32.69%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3269,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1211002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "denia/basic_02",
+      "name": "普攻·布景之形第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "30.18%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.6036,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1211003004"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        18
+      ],
+      "id": "denia/basic_03",
+      "name": "普攻·布景之形第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "25.49%*3",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.7647,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211004011"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/basic_04",
+      "name": "普攻·布景之形第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "128.00%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.28,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211004012"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/basic_04_c3_full_core",
+      "name": "布景普攻4·三链满5黯核消耗",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "1328.00%",
+      "sourceNode": 1,
+      "sourceParameter": "basic_04_c3_full_core",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 13.28,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1211005002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "denia/heavy",
+      "name": "重击·布景之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "80.76%*2",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.6152,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211000001"
+        },
+        {
+          "count": 1,
+          "damageId": "1211000002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "denia/air",
+      "name": "空中攻击·布景之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "29.59%+44.38%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7397,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1211003009"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "denia/dodge_counter",
+      "name": "闪避反击·布景之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "49.35%*3",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.4805,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211101001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "denia/disillusion_basic_01",
+      "name": "普攻·幻灭之形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "36.51%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3651,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211102001"
+        },
+        {
+          "count": 4,
+          "damageId": "1211102002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "denia/disillusion_basic_02",
+      "name": "普攻·幻灭之形第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "37.51%+14.07%*4",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.9379,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "denia/disillusion_basic_03",
+      "name": "普攻·幻灭之形第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "62.39%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6239,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211104001"
+        },
+        {
+          "count": 1,
+          "damageId": "1211104003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "denia/disillusion_basic_04",
+      "name": "普攻·幻灭之形第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "35.54%+82.92%",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1846,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211106003"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "denia/disillusion_heavy",
+      "name": "重击·幻灭之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "137.06%",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.3706,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211101001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "denia/disillusion_air_basic_01",
+      "name": "空中攻击·幻灭之形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "36.51%",
+      "sourceNode": 1,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3651,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211102001"
+        },
+        {
+          "count": 4,
+          "damageId": "1211102002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "denia/disillusion_air_basic_02",
+      "name": "空中攻击·幻灭之形第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "37.51%+14.07%*4",
+      "sourceNode": 1,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.9379,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "denia/disillusion_air_basic_03",
+      "name": "空中攻击·幻灭之形第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "62.39%",
+      "sourceNode": 1,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6239,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211104001"
+        },
+        {
+          "count": 1,
+          "damageId": "1211104003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "denia/disillusion_air_basic_04",
+      "name": "空中攻击·幻灭之形第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "35.54%+82.92%",
+      "sourceNode": 1,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1846,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211100081"
+        },
+        {
+          "count": 1,
+          "damageId": "1211100083"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "denia/disillusion_air",
+      "name": "空中重击·幻灭之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "29.59%+44.38%",
+      "sourceNode": 1,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7397,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103008"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/disillusion_counter",
+      "name": "闪避反击·幻灭之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "108.08%",
+      "sourceNode": 1,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0808,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211101002"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "denia/disillusion_basic_01_enhanced",
+      "name": "幻灭普攻1·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "54.76%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_01_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5476,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211102005"
+        },
+        {
+          "count": 4,
+          "damageId": "1211102006"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "denia/disillusion_basic_02_enhanced",
+      "name": "幻灭普攻2·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "56.26%+21.10%*4",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_02_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.4066,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103002"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "denia/disillusion_basic_03_enhanced",
+      "name": "幻灭普攻3·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "93.58%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_03_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9358,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211104011"
+        },
+        {
+          "count": 1,
+          "damageId": "1211104012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "denia/disillusion_basic_04_enhanced",
+      "name": "幻灭普攻4·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "53.31%+124.38%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_04_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.7769,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211101002"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "denia/disillusion_air_basic_01_enhanced",
+      "name": "幻灭普攻1·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "54.76%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_01_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5476,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211102005"
+        },
+        {
+          "count": 4,
+          "damageId": "1211102006"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "denia/disillusion_air_basic_02_enhanced",
+      "name": "幻灭普攻2·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "56.26%+21.10%*4",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_02_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.4066,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103002"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "denia/disillusion_air_basic_03_enhanced",
+      "name": "幻灭普攻3·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "93.58%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_03_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9358,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211104011"
+        },
+        {
+          "count": 1,
+          "damageId": "1211104012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "denia/disillusion_air_basic_04_enhanced",
+      "name": "幻灭普攻4·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "53.31%+124.38%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_04_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.7769,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211106004"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "denia/disillusion_heavy_enhanced",
+      "name": "幻灭重击·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "205.59%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_heavy_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.0559,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211100082"
+        },
+        {
+          "count": 1,
+          "damageId": "1211100084"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "denia/disillusion_air_enhanced",
+      "name": "幻灭空中重击·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "44.38%+66.57%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_air_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1095,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211103009"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/disillusion_counter_enhanced",
+      "name": "幻灭反击·粒子增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "162.11%",
+      "sourceNode": 1,
+      "sourceParameter": "disillusion_counter_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.6211,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1211006013"
+        },
+        {
+          "count": 1,
+          "damageId": "1211006023"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "denia/skill",
+      "name": "拟态泡泡·布景之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "17.42%*3+52.25%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.0451,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1211006113"
+        },
+        {
+          "count": 1,
+          "damageId": "1211006123"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "denia/skill_c3_full_core",
+      "name": "拟态泡泡·三链满5黯核消耗",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "217.42%*3+652.25%",
+      "sourceNode": 2,
+      "sourceParameter": "skill_c3_full_core",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 13.0451,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211105001"
+        },
+        {
+          "count": 5,
+          "damageId": "1211105002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "denia/skill_call",
+      "name": "轻唤·幻灭之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "31.10%+14.52%*5",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.037,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "12111051010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "denia/skill_exile_01",
+      "name": "放逐·幻灭之形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "34.68%*3",
+      "sourceNode": 2,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0404,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "12111051012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "denia/skill_exile_01_c2",
+      "name": "放逐1·二链增强原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "48.55%*3",
+      "sourceNode": 2,
+      "sourceParameter": "exile_01_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.4565,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052110"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02",
+      "name": "放逐2·1黯核",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "280.03%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.8003,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052120"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_2",
+      "name": "放逐2·2黯核",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "448.04%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.4804,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052130"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_3",
+      "name": "放逐2·3黯核",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "616.06%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 6.1606,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052140"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_4",
+      "name": "放逐2·4黯核",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "784.07%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 7.8407,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052150"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_5",
+      "name": "放逐2·5黯核",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "952.09%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 9.5209,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052112"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_c2",
+      "name": "放逐2·1黯核·二链",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "392.04%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_1_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.9204,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052122"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_2_c2",
+      "name": "放逐2·2黯核·二链",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "627.26%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_2_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 6.2726,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052132"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_3_c2",
+      "name": "放逐2·3黯核·二链",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "862.48%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_3_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 8.6248,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052142"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_4_c2",
+      "name": "放逐2·4黯核·二链",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "1097.70%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_4_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 10.977,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12111052152"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/skill_exile_02_core_5_c2",
+      "name": "放逐2·5黯核·二链",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "1332.92%",
+      "sourceNode": 2,
+      "sourceParameter": "exile_02_core_5_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 13.3292,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211009001"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "denia/liberation",
+      "name": "帷幕终景·布景之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "397.62%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.9762,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "12111080120"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        23,
+        33,
+        44
+      ],
+      "id": "denia/liberation_disillusion",
+      "name": "帷幕终景·幻灭之形伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "198.81%*4",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 7.9524,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "12111080123"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        23,
+        33,
+        44
+      ],
+      "id": "denia/liberation_disillusion_c3",
+      "name": "幻灭解放·三链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "357.86%*4",
+      "sourceNode": 3,
+      "sourceParameter": "liberation_disillusion_c3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 14.3144,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211003014"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "denia/intro",
+      "name": "久疏问候！伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "104.62%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0462,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1211100076"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "denia/intro_disillusion",
+      "name": "轻叩门扉伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "disillusion",
+      "sourceFormula": "51.74%*3",
+      "sourceNode": 6,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.5522,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "denia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1211990011"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "denia/erosion_field",
+      "name": "蚀域每次伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "136.33%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.3633,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "forged_dwarf_star"
+    }
+  ],
+  "schemaVersion": 1
+}

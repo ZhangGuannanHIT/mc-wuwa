@@ -1,0 +1,10 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.suoming_open_parasol.idle": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {}
+    }
+  }
+}

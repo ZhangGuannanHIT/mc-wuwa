@@ -1,0 +1,992 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "augusta/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "57.46%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5746,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "augusta/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "67.00%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.34,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306003002"
+        },
+        {
+          "count": 1,
+          "damageId": "1306003003"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        18
+      ],
+      "id": "augusta/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "65.61%*3",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9683,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306004001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306004002"
+        },
+        {
+          "count": 1,
+          "damageId": "1306004003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "augusta/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "64.63%*3",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9389,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1306050001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "augusta/heavy",
+      "name": "重击·鸣铁伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "46.39%*3",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3917,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306200001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306200002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "augusta/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "59.65%*2",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.193,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306700001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306700002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "augusta/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "67.00%*2",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.34,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306730001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306730002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "augusta/air_counter",
+      "name": "空中闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "59.65%*2",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.193,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306210101"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "augusta/heavy_retreat",
+      "name": "重击·烁雷·后撤伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "53.68%",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5368,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306211101"
+        },
+        {
+          "count": 2,
+          "damageId": "1306211102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "augusta/heavy_spin",
+      "name": "重击·烁雷·旋切伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "141.72%*3",
+      "sourceNode": 1,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 4.2516,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306311101"
+        },
+        {
+          "count": 1,
+          "damageId": "1306311102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "augusta/heavy_uppercut",
+      "name": "重击·烁雷·升拳伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "178.93%*2",
+      "sourceNode": 1,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.5786,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1306710001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "augusta/counter_heavy",
+      "name": "闪避反击·重击·鸣铁伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "46.39%*3",
+      "sourceNode": 1,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3917,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306720001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "augusta/counter_retreat",
+      "name": "闪避反击·烁雷·后撤伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "53.68%",
+      "sourceNode": 1,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5368,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306301001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306301002"
+        },
+        {
+          "count": 1,
+          "damageId": "1306301003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "augusta/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "218.70%*3",
+      "sourceNode": 2,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 6.561,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1306640001"
+        },
+        {
+          "count": 3,
+          "damageId": "1306640002"
+        },
+        {
+          "count": 2,
+          "damageId": "1306640001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306640004"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        17,
+        21,
+        26,
+        30,
+        35,
+        39,
+        44
+      ],
+      "id": "augusta/liberation",
+      "name": "共鸣解放·誓锋不殒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "32.99%*2+131.94%*3+32.99%*2+571.7%",
+      "sourceNode": 3,
+      "sourceParameter": "30",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 10.9948,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306610101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "augusta/realm_sun",
+      "name": "赫日威临·烈阳伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "realm",
+      "sourceFormula": "119.29%",
+      "sourceNode": 3,
+      "sourceParameter": "31",
+      "timingEvidence": "Minecraft authoring: 12-tick repeated strike, sixth-tick contact unchanged; nine strikes fit the source seven-second phase. Not original measured frames.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.1929,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306690101"
+        },
+        {
+          "count": 10,
+          "damageId": "1306690102"
+        },
+        {
+          "count": 1,
+          "damageId": "1306690103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        7,
+        9,
+        10,
+        11,
+        12,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20
+      ],
+      "id": "augusta/realm_finale",
+      "name": "赫日威临·不朽者之肃伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "238.58%+894.65%+5.97%*10",
+      "sourceNode": 3,
+      "sourceParameter": "32",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 12,
+      "totalMultiplier": 11.9293,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1306800001"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        20
+      ],
+      "id": "augusta/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "99.41%*2",
+      "sourceNode": 6,
+      "sourceParameter": "38",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.9882,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306410001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306410002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "augusta/skill_rush",
+      "name": "共鸣技能·不败恒阳·迅击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "139.17%*2",
+      "sourceNode": 7,
+      "sourceParameter": "23",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.7834,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306411001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306411002"
+        },
+        {
+          "count": 1,
+          "damageId": "1306411003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "augusta/skill_leap",
+      "name": "共鸣技能·不败恒阳·跃空伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "222.67%+27.84%*2",
+      "sourceNode": 7,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.7835,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306420102"
+        },
+        {
+          "count": 1,
+          "damageId": "1306420103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "augusta/skill_descent",
+      "name": "共鸣技能·不败恒阳·落袭伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.59%+779.24%",
+      "sourceNode": 7,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 8.6583,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "augusta",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 5.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1306740001"
+        },
+        {
+          "count": 1,
+          "damageId": "1306740002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "augusta/counter_rush",
+      "name": "空中闪避反击·不败恒阳·迅击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "139.17%*2",
+      "sourceNode": 7,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.7834,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "thunderflare_dominion"
+    }
+  ],
+  "schemaVersion": 1
+}

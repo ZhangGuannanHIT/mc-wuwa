@@ -1,0 +1,1375 @@
+{
+  "schemaVersion": 1,
+  "characterId": "yinlin",
+  "weaponId": "mc_wuwa:stringmaster",
+  "palette": [
+    180,
+    114,
+    237
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1302",
+    "data-source/nanoka/3.7/zh/character/1302.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:yinlin/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:yinlin/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalDirectingPhases": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "scope": "Retail 1.0.2 community footage 80.25-84.25s: alternating string pulls and continuous sweep directing. Exact input boundaries are not shown; four-stage assignment and anchor timing remain MC adaptation. Puppet clock, damage contacts and weapon grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "normalLightObservation": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "reviewPages": [
+          "docs/reference/yinlin-release-combat/normal-detail-0.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-1.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-2.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-3.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-4.jpg"
+        ],
+        "review": "all73-87s sheets viewed again2026-11-04; attacking sweeps80.25-84.25s; community footage not official frame capture",
+        "scope": "thin luminous fill along existing clipped puppet attack strokes; control strings remain unfilled; four-stage assignment retained MC adaptation",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:yinlin/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalDirectingPhases": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "scope": "Retail 1.0.2 community footage 80.25-84.25s: alternating string pulls and continuous sweep directing. Exact input boundaries are not shown; four-stage assignment and anchor timing remain MC adaptation. Puppet clock, damage contacts and weapon grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "normalLightObservation": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "reviewPages": [
+          "docs/reference/yinlin-release-combat/normal-detail-0.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-1.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-2.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-3.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-4.jpg"
+        ],
+        "review": "all73-87s sheets viewed again2026-11-04; attacking sweeps80.25-84.25s; community footage not official frame capture",
+        "scope": "thin luminous fill along existing clipped puppet attack strokes; control strings remain unfilled; four-stage assignment retained MC adaptation",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:yinlin/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalDirectingPhases": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "scope": "Retail 1.0.2 community footage 80.25-84.25s: alternating string pulls and continuous sweep directing. Exact input boundaries are not shown; four-stage assignment and anchor timing remain MC adaptation. Puppet clock, damage contacts and weapon grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "normalLightObservation": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "reviewPages": [
+          "docs/reference/yinlin-release-combat/normal-detail-0.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-1.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-2.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-3.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-4.jpg"
+        ],
+        "review": "all73-87s sheets viewed again2026-11-04; attacking sweeps80.25-84.25s; community footage not official frame capture",
+        "scope": "thin luminous fill along existing clipped puppet attack strokes; control strings remain unfilled; four-stage assignment retained MC adaptation",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:yinlin/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalDirectingPhases": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "scope": "Retail 1.0.2 community footage 80.25-84.25s: alternating string pulls and continuous sweep directing. Exact input boundaries are not shown; four-stage assignment and anchor timing remain MC adaptation. Puppet clock, damage contacts and weapon grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "normalLightObservation": {
+        "source": "docs/reference/yinlin-release-combat/source.json",
+        "reviewPages": [
+          "docs/reference/yinlin-release-combat/normal-detail-0.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-1.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-2.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-3.jpg",
+          "docs/reference/yinlin-release-combat/normal-detail-4.jpg"
+        ],
+        "review": "all73-87s sheets viewed again2026-11-04; attacking sweeps80.25-84.25s; community footage not official frame capture",
+        "scope": "thin luminous fill along existing clipped puppet attack strokes; control strings remain unfilled; four-stage assignment retained MC adaptation",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:yinlin/heavy/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:yinlin/air/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:yinlin/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:yinlin/skill/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:yinlin/liberation/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.0,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/yinlin-3.gif",
+        "scope": "complete archived skill GIF contact sheets reviewed; source gestures fitted to existing MC contact schedule, not frame-exact timing",
+        "acceptance": "native visual review pending"
+      },
+      "sourceReviewedClock": {
+        "durationTicks": 80,
+        "hitTimesTicks": [
+          40,
+          44,
+          48,
+          52,
+          56,
+          60,
+          65
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.25
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.52,
+            0.8125
+          ],
+          [
+            0.82,
+            0.934375
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/existing-roles/yinlin-3.gif",
+        "observedActiveSeconds": [
+          0.5,
+          4.5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:yinlin/intro/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:yinlin/outro/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:yinlin/echo/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/magnetic_roar",
+      "stateVariant": "magnetic_roar",
+      "thirdPersonClip": "mc_wuwa:yinlin/magnetic_roar/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/magnetic_roar/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/magnetic_blast",
+      "stateVariant": "magnetic_blast",
+      "thirdPersonClip": "mc_wuwa:yinlin/magnetic_blast/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/magnetic_blast/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/electromagnetic_blast",
+      "stateVariant": "electromagnetic_blast",
+      "thirdPersonClip": "mc_wuwa:yinlin/electromagnetic_blast/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/electromagnetic_blast/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/judgment_strike",
+      "stateVariant": "judgment_strike",
+      "thirdPersonClip": "mc_wuwa:yinlin/judgment_strike/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/judgment_strike/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/punishment_mark",
+      "stateVariant": "punishment_mark",
+      "thirdPersonClip": "mc_wuwa:yinlin/punishment_mark/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/punishment_mark/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/skill_blast",
+      "stateVariant": "skill_blast",
+      "thirdPersonClip": "mc_wuwa:yinlin/skill_blast/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/skill_blast/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/chameleon",
+      "stateVariant": "chameleon",
+      "thirdPersonClip": "mc_wuwa:yinlin/chameleon/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/chameleon/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "directingCastPhases": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Complete archived 193-230s segment reviewed: open-palm pull, overhead release and forward directing gestures. E, heavy, Chameleon, air, counter and intro use independent continuous phase anchors on retained MC clocks. Edited film does not establish exact input-specific frames. Puppet actions and independent magnetic hits unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yinlin/judgment_thunder",
+      "stateVariant": "judgment_thunder",
+      "thirdPersonClip": "mc_wuwa:yinlin/judgment_thunder/tp",
+      "firstPersonClip": "mc_wuwa:yinlin/judgment_thunder/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1302",
+        "data-source/nanoka/3.7/zh/character/1302.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/yinlin-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

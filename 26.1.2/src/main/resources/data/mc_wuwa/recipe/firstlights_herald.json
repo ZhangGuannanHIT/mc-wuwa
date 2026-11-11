@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "FDF",
+    "GCG",
+    " S "
+  ],
+  "key": {
+    "F": "minecraft:feather",
+    "D": "minecraft:green_dye",
+    "G": "minecraft:gold_ingot",
+    "C": "mc_wuwa:core",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "mc_wuwa:firstlights_herald",
+    "count": 1
+  }
+}

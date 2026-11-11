@@ -1,0 +1,827 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900101"
+        },
+        {
+          "count": 2,
+          "damageId": "120900102"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "mornye/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "22.27%+16.71%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.5569,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900201"
+        },
+        {
+          "count": 1,
+          "damageId": "120900202"
+        },
+        {
+          "count": 4,
+          "damageId": "120900203"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        9,
+        12,
+        14,
+        16
+      ],
+      "id": "mornye/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.86%+23.86%+17.90%*4",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.1932,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900301"
+        },
+        {
+          "count": 6,
+          "damageId": "120900302"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        18,
+        20
+      ],
+      "id": "mornye/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.36%+10.34%*6",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.034,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900402"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "mornye/basic_04",
+      "name": "普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "135.20%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.352,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "120900701"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        9,
+        12
+      ],
+      "id": "mornye/observation_basic_01",
+      "name": "普攻·广域观测模式第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "wide_observation",
+      "sourceFormula": "13.92%*4",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.5568,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "120900801"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16
+      ],
+      "id": "mornye/observation_basic_02",
+      "name": "普攻·广域观测模式第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "wide_observation",
+      "sourceFormula": "25.85%*4",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.034,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "120900901"
+        },
+        {
+          "count": 2,
+          "damageId": "120900903"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "mornye/observation_basic_03",
+      "name": "普攻·广域观测模式第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "wide_observation",
+      "sourceFormula": "9.31%*4+33.09%*2",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.0342,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120902401"
+        },
+        {
+          "count": 1,
+          "damageId": "120902402"
+        },
+        {
+          "count": 1,
+          "damageId": "120902403"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "mornye/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "11.10%+11.10%+14.80%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.37,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120902501"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "mornye/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "98.61%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9861,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120901401"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "mornye/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "162.23%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.6223,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "120901501"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "mornye/observation_dodge_counter",
+      "name": "闪避反击·广域观测模式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "wide_observation",
+      "sourceFormula": "25.85%*4",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.034,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120902301"
+        },
+        {
+          "count": 1,
+          "damageId": "120902302"
+        },
+        {
+          "count": 1,
+          "damageId": "120902303"
+        },
+        {
+          "count": 1,
+          "damageId": "120902304"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "mornye/skill",
+      "name": "分布式阵列伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "distributed_array",
+      "sourceFormula": "39.77%*4",
+      "sourceNode": 2,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.5908,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120902202"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "mornye/skill_optimal",
+      "name": "最优求解伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "optimal_solution",
+      "sourceFormula": "179.73%",
+      "sourceNode": 2,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.7973,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 110,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120920002"
+        }
+      ],
+      "hitTimesTicks": [
+        90
+      ],
+      "id": "mornye/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "522.33%",
+      "sourceNode": 3,
+      "sourceParameter": "21",
+      "timingEvidence": "Observed complete official skill-card2: gesture0.5-1.5s, convergence2-4s, discharge4.5s, recovery5.5s; sampled estimate, not frame-exact.",
+      "totalHitCount": 1,
+      "totalMultiplier": 5.2233,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120940001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "mornye/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "202.79%",
+      "sourceNode": 6,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.0279,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "120900502"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "mornye/resonance_field",
+      "name": "谐振场伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "resonance_field",
+      "sourceFormula": "39.77%*5",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.9885,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900501"
+        },
+        {
+          "count": 1,
+          "damageId": "120900507"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "mornye/heavy_potential",
+      "name": "重击·位势转换伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "potential_transition",
+      "sourceFormula": "44.14%+99.02%",
+      "sourceNode": 7,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.4316,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120900602"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "mornye/heavy_inversion",
+      "name": "重击·反演伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "inversion",
+      "sourceFormula": "258.46%",
+      "sourceNode": 7,
+      "sourceParameter": "30",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.5846,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "mornye",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "120999005"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "mornye/tune_response_particle_jet",
+      "name": "震谐响应·粒子射流伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "298.22%",
+      "sourceNode": 7,
+      "sourceParameter": "31",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.9822,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "starfield_calibrator"
+    }
+  ],
+  "schemaVersion": 1
+}

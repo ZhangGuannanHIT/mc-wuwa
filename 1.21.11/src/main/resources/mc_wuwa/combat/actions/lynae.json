@@ -1,0 +1,1264 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 10,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "lynae/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.19%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8619,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1509002002"
+        },
+        {
+          "count": 1,
+          "damageId": "1509002003"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "lynae/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "52.39%+52.39%+52.39%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.5717,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509003001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "lynae/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "123.37%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2337,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509006001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "lynae/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "239.97%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.3997,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509007001"
+        },
+        {
+          "count": 1,
+          "damageId": "1509007002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lynae/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "14.37%+129.28%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.4365,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "15090230010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lynae/inspiration_1",
+      "name": "普攻·灵感碰撞·1级伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "inspiration_level_1",
+      "sourceFormula": "55.56%*2",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1112,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "15090230011"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lynae/inspiration_2",
+      "name": "普攻·灵感碰撞·2级伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "inspiration_level_2",
+      "sourceFormula": "166.67%*2",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.3334,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "15090230012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lynae/inspiration_3",
+      "name": "普攻·灵感碰撞·3级伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "inspiration_level_3",
+      "sourceFormula": "277.78%*2",
+      "sourceNode": 1,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 5.5556,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 10,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509031001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "lynae/cruise_basic_01",
+      "name": "绮彩巡游·普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "82.81%",
+      "sourceNode": 1,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8281,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1509032001"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "lynae/cruise_basic_02",
+      "name": "绮彩巡游·普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "38.87%*2",
+      "sourceNode": 1,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7774,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1509033001"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "lynae/cruise_basic_03",
+      "name": "绮彩巡游·普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "37.75%*3",
+      "sourceNode": 1,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1325,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1509034001"
+        },
+        {
+          "count": 1,
+          "damageId": "1509034002"
+        },
+        {
+          "count": 1,
+          "damageId": "1509034003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        11,
+        14
+      ],
+      "id": "lynae/cruise_basic_04",
+      "name": "绮彩巡游·普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "29.75%*2+44.62%+44.62%",
+      "sourceNode": 1,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.4874,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509035001"
+        },
+        {
+          "count": 5,
+          "damageId": "1509035004"
+        },
+        {
+          "count": 1,
+          "damageId": "1509035005"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        18,
+        20
+      ],
+      "id": "lynae/cruise_basic_05",
+      "name": "绮彩巡游·普攻第五段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "75.54%+15.11%*5+100.72%",
+      "sourceNode": 1,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 2.5181,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509040001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "lynae/cruise_dodge_counter",
+      "name": "绮彩巡游·闪避反击",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "184.20%",
+      "sourceNode": 1,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.842,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1509038002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        22
+      ],
+      "id": "lynae/heavy",
+      "name": "绮彩巡游·地面重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise_ground",
+      "sourceFormula": "17.63%*7",
+      "sourceNode": 1,
+      "sourceParameter": "23",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.2341,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509038001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lynae/cruise_jump_bundle",
+      "name": "绮彩巡游·跃动集束伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "104.78%",
+      "sourceNode": 1,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0478,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509054001"
+        },
+        {
+          "count": 1,
+          "damageId": "1509054002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lynae/cruise_air",
+      "name": "绮彩巡游·空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise",
+      "sourceFormula": "14.37%+129.28%",
+      "sourceNode": 1,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.4365,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1509039001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        22
+      ],
+      "id": "lynae/cruise_air_heavy",
+      "name": "绮彩巡游·空中重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cruise_air",
+      "sourceFormula": "34.77%*7",
+      "sourceNode": 1,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 2.4339,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509008001"
+        },
+        {
+          "count": 3,
+          "damageId": "1509008002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "lynae/skill",
+      "name": "琳奈式创想伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "139.31%+46.44%*3",
+      "sourceNode": 2,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.7863,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1509008010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "lynae/skill_additive",
+      "name": "加色混合伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "additive",
+      "sourceFormula": "116.31%*2",
+      "sourceNode": 2,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.3262,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 80,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "15090050010"
+        }
+      ],
+      "hitTimesTicks": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "id": "lynae/liberation",
+      "name": "爆炸喷涂伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "87.48%*10",
+      "sourceNode": 3,
+      "sourceParameter": "10",
+      "timingEvidence": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact.",
+      "totalHitCount": 10,
+      "totalMultiplier": 8.748,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 60,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 12,
+          "damageId": "1509063001"
+        },
+        {
+          "count": 10,
+          "damageId": "1509063002"
+        }
+      ],
+      "hitTimesTicks": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "id": "lynae/toward_colorful_tomorrow",
+      "name": "普攻·向着多彩的明天！伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "liberation_followup",
+      "sourceFormula": "8.38%*12+10.05%*10",
+      "sourceNode": 3,
+      "sourceParameter": "27",
+      "timingEvidence": "Complete card2: R active0.5-4.5s; hand reach, paint spray, canisters, burst and recovery. Separate follow-up4.5-7.5s. Half-second sampled MC fit, not frame-exact.",
+      "totalHitCount": 22,
+      "totalMultiplier": 2.0106,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "1509044001"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        8,
+        10,
+        12,
+        13,
+        15,
+        17,
+        18,
+        20
+      ],
+      "id": "lynae/intro",
+      "name": "来点儿颜色瞧瞧！伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "22.48%*10",
+      "sourceNode": 6,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 2.248,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "15090550010"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lynae/rainbow_splash",
+      "name": "普攻·虹彩飞溅伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "304.18%",
+      "sourceNode": 7,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.0418,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 36,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 7.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "15090270020"
+        }
+      ],
+      "hitTimesTicks": [
+        10
+      ],
+      "id": "lynae/visual_impact",
+      "name": "普攻·视觉冲击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "1216.72%",
+      "sourceNode": 7,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 12.1672,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "15090240010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        11,
+        18
+      ],
+      "id": "lynae/phantom_leap_1",
+      "name": "普攻·幻光折跃·第1段",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "33.80%*3",
+      "sourceNode": 7,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.014,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "15090250010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        10,
+        12,
+        15,
+        18
+      ],
+      "id": "lynae/phantom_leap_2",
+      "name": "普攻·幻光折跃·第2段",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "16.90%*6",
+      "sourceNode": 7,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.014,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "15090260020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18
+      ],
+      "id": "lynae/phantom_leap_3",
+      "name": "普攻·幻光折跃·第3段",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "13.10%*8",
+      "sourceNode": 7,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.048,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lynae",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.45
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1509056001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lynae/tune_response_spectrum",
+      "name": "震谐响应·光谱解析伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "tune_response",
+      "sourceFormula": "1880.75%",
+      "sourceNode": 7,
+      "sourceParameter": "32",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 18.8075,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "spectrum_blaster"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,1668 @@
+{
+  "schemaVersion": 1,
+  "characterId": "augusta",
+  "weaponId": "mc_wuwa:thunderflare_dominion",
+  "palette": [
+    242,
+    188,
+    93
+  ],
+  "sourceEvidence": [
+    "docs/reference/new-five-20261023/augusta-full-text.md"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:augusta/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:augusta/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:augusta/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:augusta/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:augusta/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:augusta/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:augusta/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:augusta/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:augusta/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:augusta/heavy/tp",
+      "firstPersonClip": "mc_wuwa:augusta/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:augusta/air/tp",
+      "firstPersonClip": "mc_wuwa:augusta/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:augusta/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:augusta/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/air_counter",
+      "stateVariant": "air_counter",
+      "thirdPersonClip": "mc_wuwa:augusta/air_counter/tp",
+      "firstPersonClip": "mc_wuwa:augusta/air_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/heavy_retreat",
+      "stateVariant": "heavy_retreat",
+      "thirdPersonClip": "mc_wuwa:augusta/heavy_retreat/tp",
+      "firstPersonClip": "mc_wuwa:augusta/heavy_retreat/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/heavy_spin",
+      "stateVariant": "heavy_spin",
+      "thirdPersonClip": "mc_wuwa:augusta/heavy_spin/tp",
+      "firstPersonClip": "mc_wuwa:augusta/heavy_spin/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/heavy_uppercut",
+      "stateVariant": "heavy_uppercut",
+      "thirdPersonClip": "mc_wuwa:augusta/heavy_uppercut/tp",
+      "firstPersonClip": "mc_wuwa:augusta/heavy_uppercut/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/counter_heavy",
+      "stateVariant": "counter_heavy",
+      "thirdPersonClip": "mc_wuwa:augusta/counter_heavy/tp",
+      "firstPersonClip": "mc_wuwa:augusta/counter_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/counter_retreat",
+      "stateVariant": "counter_retreat",
+      "thirdPersonClip": "mc_wuwa:augusta/counter_retreat/tp",
+      "firstPersonClip": "mc_wuwa:augusta/counter_retreat/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:augusta/skill/tp",
+      "firstPersonClip": "mc_wuwa:augusta/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:augusta/liberation/tp",
+      "firstPersonClip": "mc_wuwa:augusta/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/realm_sun",
+      "stateVariant": "realm_sun",
+      "thirdPersonClip": "mc_wuwa:augusta/realm_sun/tp",
+      "firstPersonClip": "mc_wuwa:augusta/realm_sun/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/realm_finale",
+      "stateVariant": "realm_finale",
+      "thirdPersonClip": "mc_wuwa:augusta/realm_finale/tp",
+      "firstPersonClip": "mc_wuwa:augusta/realm_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:augusta/intro/tp",
+      "firstPersonClip": "mc_wuwa:augusta/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/skill_rush",
+      "stateVariant": "skill_rush",
+      "thirdPersonClip": "mc_wuwa:augusta/skill_rush/tp",
+      "firstPersonClip": "mc_wuwa:augusta/skill_rush/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/skill_leap",
+      "stateVariant": "skill_leap",
+      "thirdPersonClip": "mc_wuwa:augusta/skill_leap/tp",
+      "firstPersonClip": "mc_wuwa:augusta/skill_leap/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/skill_descent",
+      "stateVariant": "skill_descent",
+      "thirdPersonClip": "mc_wuwa:augusta/skill_descent/tp",
+      "firstPersonClip": "mc_wuwa:augusta/skill_descent/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:augusta/counter_rush",
+      "stateVariant": "counter_rush",
+      "thirdPersonClip": "mc_wuwa:augusta/counter_rush/tp",
+      "firstPersonClip": "mc_wuwa:augusta/counter_rush/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "pending_client_review",
+      "sourceEvidence": [
+        "docs/reference/new-five-20261023/augusta-full-text.md"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "thunderGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/augusta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousThunderSkills": {
+        "source": "docs/reference/tide-combat-motion/augusta-combat-detail-timeline.json",
+        "scope": "All fourteen 34-74.75s sampled panels reviewed; heavy/rise/descent/rush/retreat curves adapted to retained clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

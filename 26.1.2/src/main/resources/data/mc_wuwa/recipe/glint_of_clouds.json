@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " FI",
+    "ICI",
+    " A "
+  ],
+  "key": {
+    "F": "minecraft:feather",
+    "I": "minecraft:iron_ingot",
+    "A": "minecraft:amethyst_shard",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:glint_of_clouds",
+    "count": 1
+  }
+}

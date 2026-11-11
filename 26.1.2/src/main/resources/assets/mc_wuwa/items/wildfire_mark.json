@@ -1,0 +1,29 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": "gui",
+        "model": {
+          "type": "minecraft:model",
+          "model": "mc_wuwa:item/wildfire_mark_icon"
+        }
+      },
+      {
+        "when": [
+          "fixed",
+          "ground"
+        ],
+        "model": {
+          "type": "minecraft:model",
+          "model": "mc_wuwa:item/wildfire_mark_display"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "mc_wuwa:item/wildfire_mark_3d"
+    }
+  }
+}

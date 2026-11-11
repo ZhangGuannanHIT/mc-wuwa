@@ -1,0 +1,1496 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413010010"
+        },
+        {
+          "count": 1,
+          "damageId": "1413010020"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "qingxiao/basic_01",
+      "name": "普攻·弦剑第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "30.13%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.6026,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413020010"
+        },
+        {
+          "count": 1,
+          "damageId": "1413020020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "qingxiao/basic_02",
+      "name": "普攻·弦剑第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "37.09%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7418,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1413030010"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        14,
+        18
+      ],
+      "id": "qingxiao/basic_03",
+      "name": "普攻·弦剑第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "24.36%*4",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.9744,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413040010"
+        },
+        {
+          "count": 2,
+          "damageId": "1413040020"
+        },
+        {
+          "count": 2,
+          "damageId": "1413040030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qingxiao/basic_04",
+      "name": "普攻·弦剑第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.73%+5.43%*4",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.0845,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "14130110020"
+        },
+        {
+          "count": 1,
+          "damageId": "14130110050"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "id": "qingxiao/air_basic_01",
+      "name": "空中攻击·弦剑第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "7.24%*5+54.28%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 0.9048,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "14130110100"
+        },
+        {
+          "count": 1,
+          "damageId": "14130110110"
+        },
+        {
+          "count": 1,
+          "damageId": "14130110120"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "qingxiao/air_basic_02",
+      "name": "空中攻击·弦剑第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "44.89%+22.45%*2",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.8979,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "14130110030"
+        },
+        {
+          "count": 1,
+          "damageId": "14130110060"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        10,
+        13,
+        15,
+        18
+      ],
+      "id": "qingxiao/air_basic_03",
+      "name": "空中攻击·弦剑第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "11.14%*5+83.51%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.3921,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "14130120010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "qingxiao/dodge_counter",
+      "name": "闪避反击·弦剑伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "45.23%*4",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.8092,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413011001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qingxiao/air",
+      "name": "空中下落攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "86.29%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8629,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1413070010"
+        },
+        {
+          "count": 3,
+          "damageId": "1413070020"
+        },
+        {
+          "count": 3,
+          "damageId": "1413070030"
+        },
+        {
+          "count": 1,
+          "damageId": "1413070040"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        10,
+        12,
+        14,
+        15,
+        17,
+        19,
+        20,
+        22
+      ],
+      "id": "qingxiao/heavy",
+      "name": "重击·弦剑伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "14.62%*3+21.92%*6+263.03%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 4.3841,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1413070012"
+        },
+        {
+          "count": 3,
+          "damageId": "1413070022"
+        },
+        {
+          "count": 3,
+          "damageId": "1413070032"
+        },
+        {
+          "count": 1,
+          "damageId": "1413070042"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        10,
+        12,
+        14,
+        15,
+        17,
+        19,
+        20,
+        22
+      ],
+      "id": "qingxiao/heavy_c2",
+      "name": "重击弦剑·二链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "20.46%*3+30.69%*6+368.24%",
+      "sourceNode": 1,
+      "sourceParameter": "heavy_c2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 6.1376,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413060010"
+        },
+        {
+          "count": 1,
+          "damageId": "1413060020"
+        },
+        {
+          "count": 1,
+          "damageId": "1413060030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "qingxiao/skill_punishment",
+      "name": "浮声一刹·行罚伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "20.88%*2+97.42%",
+      "sourceNode": 2,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3918,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413060015"
+        },
+        {
+          "count": 1,
+          "damageId": "1413060025"
+        },
+        {
+          "count": 1,
+          "damageId": "1413060035"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "qingxiao/skill_punishment_c5",
+      "name": "浮声一刹行罚·五链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "41.76%*2+194.84%",
+      "sourceNode": 2,
+      "sourceParameter": "skill_punishment_c5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.7836,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413050010"
+        },
+        {
+          "count": 2,
+          "damageId": "1413050020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "qingxiao/skill_ascend",
+      "name": "浮声一刹·凌霄伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "28.40%+33.13%*2",
+      "sourceNode": 2,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.9466,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1413014001"
+        },
+        {
+          "count": 5,
+          "damageId": "1413014002"
+        },
+        {
+          "count": 1,
+          "damageId": "1413014003"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        15,
+        18,
+        22,
+        25,
+        28,
+        31,
+        34,
+        38,
+        41,
+        44
+      ],
+      "id": "qingxiao/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "33.41%*10+1336.01%",
+      "sourceNode": 3,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 11,
+      "totalMultiplier": 16.7011,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "14130150010"
+        },
+        {
+          "count": 2,
+          "damageId": "14130150020"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "qingxiao/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "39.79%+46.42%*2",
+      "sourceNode": 6,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3263,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413080010"
+        },
+        {
+          "count": 1,
+          "damageId": "1413080020"
+        },
+        {
+          "count": 1,
+          "damageId": "1413080030"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "qingxiao/immortal_basic_01",
+      "name": "普攻·昙体仙身第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "44.89%+22.45%*2",
+      "sourceNode": 7,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.8979,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413081010"
+        },
+        {
+          "count": 4,
+          "damageId": "1413081020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "qingxiao/immortal_basic_02",
+      "name": "普攻·昙体仙身第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "23.11%*5",
+      "sourceNode": 7,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.1555,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1413082010"
+        },
+        {
+          "count": 2,
+          "damageId": "1413082020"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        12,
+        15,
+        18
+      ],
+      "id": "qingxiao/immortal_basic_03",
+      "name": "普攻·昙体仙身第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "20.88%*3+31.32%*2",
+      "sourceNode": 7,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.2528,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1413083010"
+        },
+        {
+          "count": 2,
+          "damageId": "1413083020"
+        },
+        {
+          "count": 1,
+          "damageId": "1413083030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qingxiao/immortal_basic_04",
+      "name": "普攻·昙体仙身第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "18.10%*4+108.56%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.8096,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "14130120040"
+        },
+        {
+          "count": 2,
+          "damageId": "14130120050"
+        },
+        {
+          "count": 1,
+          "damageId": "14130120060"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "qingxiao/immortal_counter",
+      "name": "闪避反击·昙体仙身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "26.45%*4+158.66%",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.6446,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413080011"
+        },
+        {
+          "count": 1,
+          "damageId": "1413080021"
+        },
+        {
+          "count": 1,
+          "damageId": "1413080031"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "qingxiao/immortal_basic_01_enhanced",
+      "name": "仙身普攻1·天钧荡煞未解锁原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "89.77%+44.89%*2",
+      "sourceNode": 7,
+      "sourceParameter": "immortal_01_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.7955,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413081011"
+        },
+        {
+          "count": 4,
+          "damageId": "1413081021"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "qingxiao/immortal_basic_02_enhanced",
+      "name": "仙身普攻2·天钧荡煞未解锁原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "46.21%*5",
+      "sourceNode": 7,
+      "sourceParameter": "immortal_02_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.3105,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1413082011"
+        },
+        {
+          "count": 2,
+          "damageId": "1413082021"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        12,
+        15,
+        18
+      ],
+      "id": "qingxiao/immortal_basic_03_enhanced",
+      "name": "仙身普攻3·天钧荡煞未解锁原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "41.76%*3+62.63%*2",
+      "sourceNode": 7,
+      "sourceParameter": "immortal_03_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.5054,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1413083011"
+        },
+        {
+          "count": 2,
+          "damageId": "1413083021"
+        },
+        {
+          "count": 1,
+          "damageId": "1413083031"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qingxiao/immortal_basic_04_enhanced",
+      "name": "仙身普攻4·天钧荡煞未解锁原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "36.19%*4+217.11%",
+      "sourceNode": 7,
+      "sourceParameter": "immortal_04_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 3.6187,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "14130120041"
+        },
+        {
+          "count": 2,
+          "damageId": "14130120051"
+        },
+        {
+          "count": 1,
+          "damageId": "14130120061"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "qingxiao/immortal_counter_enhanced",
+      "name": "仙身反击·天钧荡煞未解锁原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "52.89%*4+317.31%",
+      "sourceNode": 7,
+      "sourceParameter": "immortal_counter_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 5.2887,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "14130100010"
+        },
+        {
+          "count": 6,
+          "damageId": "14130100020"
+        },
+        {
+          "count": 1,
+          "damageId": "14130100030"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        10,
+        12,
+        14,
+        15,
+        17,
+        19,
+        20,
+        22
+      ],
+      "id": "qingxiao/heavy_banishing",
+      "name": "天钧荡煞·昙体仙身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "27.84%*9+445.34%",
+      "sourceNode": 7,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 6.959,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "14130100011"
+        },
+        {
+          "count": 6,
+          "damageId": "14130100021"
+        },
+        {
+          "count": 1,
+          "damageId": "14130100031"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        10,
+        12,
+        14,
+        15,
+        17,
+        19,
+        20,
+        22
+      ],
+      "id": "qingxiao/heavy_banishing_enhanced",
+      "name": "天钧荡煞·天心空明原始增强行",
+      "nativeTimingVerified": false,
+      "requiredForm": "immortal",
+      "sourceFormula": "55.67%*9+890.67%",
+      "sourceNode": 7,
+      "sourceParameter": "heavy_banishing_enhanced",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 13.917,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1413018001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qingxiao/outro",
+      "name": "弦歌不绝",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "800.00%",
+      "sourceNode": 8,
+      "sourceParameter": "outro_base",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 8.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "14130190011"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qingxiao/vast_sword",
+      "name": "巨阙灭迹·一链源链文本与独立Damage原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "400.00%",
+      "sourceNode": 7,
+      "sourceParameter": "vast_sword_c1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qingxiao",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "14130190016"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qingxiao/vast_sword_c6",
+      "name": "巨阙灭迹·一链源链文本与独立Damage原始行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "400.00%",
+      "sourceNode": 7,
+      "sourceParameter": "vast_sword_c1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "glint_of_clouds"
+    }
+  ],
+  "schemaVersion": 1
+}

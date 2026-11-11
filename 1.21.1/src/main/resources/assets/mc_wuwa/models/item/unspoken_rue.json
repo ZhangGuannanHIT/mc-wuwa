@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/unspoken_rue_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/unspoken_rue_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/unspoken_rue_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/unspoken_rue_display"
+    }
+  }
+}

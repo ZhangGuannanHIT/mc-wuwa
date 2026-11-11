@@ -1,0 +1,6067 @@
+{
+  "baseStats": {
+    "attack": 312.5,
+    "defense": 611.11,
+    "health": 14800.0
+  },
+  "chains": [
+    {
+      "description": "【卡提希娅】、【芙露德莉斯】自身技能直接造成的伤害击败被附加【风蚀效应】状态的目标后，获得【集意】状态，持续10秒。\n 【集意】状态下保留击败目标被附加【风蚀效应】的最高层数，自身下一次技能直接造成的伤害立即为命中目标附加该层数，最高可叠加至当前目标的【风蚀效应】层数上限，同时清除【集意】状态，清除【集意】状态后进入冷却时间1秒。\n 【芙露德莉斯】每积攒【决意】达到30、60、90、120时，【芙露德莉斯】的暴击伤害提升25%，持续15秒，最多可叠加4层，每次叠加时不刷新持续时间，施放共鸣解放·看潮怒风哮之刃后会清除该暴击伤害提升效果。",
+      "name": "因命运戴上冠冕",
+      "parameters": [
+        "10",
+        "1",
+        "25%",
+        "15"
+      ],
+      "rawDescription": "<color=Highlight>【卡提希娅】</color>、<color=Highlight>【芙露德莉斯】</color>自身技能直接造成的伤害击败被附加<color=Wind>【<te href=850009>风蚀效应</te>】</color>状态的目标后，获得<color=Highlight>【集意】</color>状态，持续{0}秒。\n <color=Highlight>【集意】</color>状态下保留击败目标被附加<color=Wind>【<te href=850009>风蚀效应</te>】</color>的最高层数，自身下一次技能直接造成的伤害立即为命中目标附加该层数，最高可叠加至当前目标的<color=Wind>【<te href=850009>风蚀效应</te>】</color>层数上限，同时清除<color=Highlight>【集意】</color>状态，清除<color=Highlight>【集意】</color>状态后进入冷却时间{1}秒。\n <color=Highlight>【芙露德莉斯】</color>每积攒<color=Highlight>【<te href=850179>决意</te>】</color>达到30、60、90、120时，<color=Highlight>【芙露德莉斯】</color>的暴击伤害提升{2}，持续{3}秒，最多可叠加4层，每次叠加时不刷新持续时间，施放<color=Highlight>共鸣解放·看潮怒风哮之刃</color>后会清除该暴击伤害提升效果。",
+      "tier": 1
+    },
+    {
+      "description": "施放共鸣解放·听骑士从心祈愿后，使自身一定范围内的目标【风蚀效应】层数上限提升3层，自身技能下一次直接造成伤害后，对自身一定范围内的目标附加3层【风蚀效应】，并立刻结算1次目标身上的【风蚀效应】效果，此次结算不消耗【风蚀效应】层数。\n【卡提希娅】普攻、重击、闪避反击、变奏技能倍率提升50%，空中攻击倍率提升200%。\n施放空中攻击·卡提希娅后，每回收1种【剑之影】使共鸣技能·卡提希娅的冷却时间减少1秒。",
+      "name": "听风潮斩断利刃",
+      "parameters": [
+        "3",
+        "3",
+        "50%",
+        "200%"
+      ],
+      "rawDescription": "施放<color=Highlight>共鸣解放·听骑士从心祈愿</color>后，使自身一定范围内的目标<color=Wind>【<te href=850009>风蚀效应</te>】</color>层数上限提升{0}层，自身技能下一次直接造成伤害后，对自身一定范围内的目标附加{1}层<color=Wind>【<te href=850009>风蚀效应</te>】</color>，并立刻结算1次目标身上的<color=Wind>【<te href=850009>风蚀效应</te>】</color>效果，此次结算不消耗<color=Wind>【<te href=850009>风蚀效应</te>】</color>层数。\n<color=Highlight>【卡提希娅】</color>普攻、重击、闪避反击、变奏技能倍率提升{2}，空中攻击倍率提升{3}。\n施放<color=Highlight>空中攻击·卡提希娅</color>后，每回收1种【剑之影】使<color=Highlight>共鸣技能·卡提希娅</color>的冷却时间减少1秒。",
+      "tier": 2
+    },
+    {
+      "description": "【芙露德莉斯】的普攻·芙露德莉斯第5段，空中攻击·芙露德莉斯第2段，强化重击·芙露德莉斯，共鸣技能·凭风斩浪破敌会为命中目标附加2层【风蚀效应】。\n共鸣解放·看潮怒风哮之刃的伤害倍率提升100%。",
+      "name": "以自身束悬高塔",
+      "parameters": [
+        "2",
+        "100%"
+      ],
+      "rawDescription": "<color=Highlight>【芙露德莉斯】</color>的<color=Highlight>普攻·芙露德莉斯第5段</color>，<color=Highlight>空中攻击·芙露德莉斯第2段</color>，<color=Highlight>强化重击·芙露德莉斯</color>，<color=Highlight>共鸣技能·凭风斩浪破敌</color>会为命中目标附加{0}层<color=Wind>【<te href=850009>风蚀效应</te>】</color>。\n<color=Highlight>共鸣解放·看潮怒风哮之刃</color>的伤害倍率提升{1}。",
+      "tier": 3
+    },
+    {
+      "description": "队伍中的角色为目标附加【虚湮效应】、【聚爆效应】、【光噪效应】、【电磁效应】、【霜渐效应】、【风蚀效应】后，使队伍中所有角色全属性伤害加成提升20%，持续20秒。",
+      "name": "为拯救舍弃其身",
+      "parameters": [
+        "20%",
+        "20"
+      ],
+      "rawDescription": "队伍中的角色为目标附加<color=Highlight>【<te href=850012>虚湮效应</te>】</color>、<color=Highlight>【<te href=850011>聚爆效应</te>】</color>、<color=Highlight>【<te href=850008>光噪效应</te>】</color>、<color=Highlight>【<te href=850013>电磁效应</te>】</color>、<color=Highlight>【<te href=850010>霜渐效应</te>】</color>、<color=Highlight>【<te href=850009>风蚀效应</te>】</color>后，使队伍中所有角色全属性伤害加成提升{0}，持续{1}秒。",
+      "tier": 4
+    },
+    {
+      "description": "【卡提希娅】或【芙露德莉斯】受到致命伤害时，此次伤害不会使【卡提希娅】或【芙露德莉斯】倒下，并获得【卡提希娅】20%生命上限的护盾，持续10秒，该效果每10分钟可触发1次。\n施放共鸣解放·听骑士从心祈愿消耗的自身生命值降至生命上限的25%。",
+      "name": "将烈风重塑希望",
+      "parameters": [
+        "20%",
+        "10",
+        "25%"
+      ],
+      "rawDescription": "<color=Highlight>【卡提希娅】</color>或<color=Highlight>【芙露德莉斯】</color>受到致命伤害时，此次伤害不会使<color=Highlight>【卡提希娅】</color>或<color=Highlight>【芙露德莉斯】</color>倒下，并获得<color=Highlight>【卡提希娅】</color>{0}生命上限的护盾，持续{1}秒，该效果每10分钟可触发1次。\n施放<color=Highlight>共鸣解放·听骑士从心祈愿</color>消耗的自身生命值降至生命上限的{2}。",
+      "tier": 5
+    },
+    {
+      "description": "施放共鸣解放·看潮怒风哮之刃对命中的目标附加【风蚀效应】至层数上限，且施放共鸣解放·看潮怒风哮之刃命中目标后，不再清空目标拥有的【风蚀效应】。\n 施放变奏技能·此剑，为潮水的过去、变奏技能·此剑，为自由的未来、共鸣解放·听骑士从心祈愿、共鸣解放·看潮怒风哮之刃后，30秒内，队伍中的角色对【风蚀效应】层数到达上限的目标再次附加【风蚀效应】时，立即结算一次【风蚀效应】。\n目标受到【芙露德莉斯】的伤害提升40%。",
+      "name": "尽一线挣扎自由",
+      "parameters": [
+        "30",
+        "40%"
+      ],
+      "rawDescription": "施放<color=Highlight>共鸣解放·看潮怒风哮之刃</color>对命中的目标附加<color=Wind>【<te href=850009>风蚀效应</te>】</color>至层数上限，且施放<color=Highlight>共鸣解放·看潮怒风哮之刃</color>命中目标后，不再清空目标拥有的<color=Wind>【<te href=850009>风蚀效应</te>】</color>。\n 施放<color=Highlight>变奏技能·此剑，为潮水的过去</color>、<color=Highlight>变奏技能·此剑，为自由的未来</color>、<color=Highlight>共鸣解放·听骑士从心祈愿</color>、<color=Highlight>共鸣解放·看潮怒风哮之刃</color>后，{0}秒内，队伍中的角色对<color=Wind>【<te href=850009>风蚀效应</te>】</color>层数到达上限的目标再次附加<color=Wind>【<te href=850009>风蚀效应</te>】</color>时，立即结算一次<color=Wind>【<te href=850009>风蚀效应</te>】</color>。\n目标受到<color=Highlight>【芙露德莉斯】</color>的伤害提升{1}。",
+      "tier": 6
+    }
+  ],
+  "characterId": "cartethyia",
+  "echoId": 6000106,
+  "element": "aero",
+  "id": "defiers_thorn",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "卡提希娅",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900101",
+          "kind": "basic",
+          "multiplier": 0.0478,
+          "offTuneUnits": 0.5656565656565656,
+          "raw": {
+            "element": 4,
+            "element_power": 98,
+            "energy": 70,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              241,
+              260,
+              280,
+              308,
+              327,
+              350,
+              382,
+              413,
+              445,
+              478,
+              518,
+              557,
+              596,
+              636,
+              675,
+              715,
+              754,
+              793,
+              833,
+              872
+            ],
+            "related_property": "生命",
+            "tough_lv": 2800,
+            "type": 0,
+            "weakness_lvl": 2240
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4711425206124853,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900201",
+          "kind": "basic",
+          "multiplier": 0.0394,
+          "offTuneUnits": 0.46565656565656566,
+          "raw": {
+            "element": 4,
+            "element_power": 81,
+            "energy": 58,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              198,
+              214,
+              231,
+              253,
+              270,
+              288,
+              314,
+              340,
+              366,
+              394,
+              426,
+              458,
+              491,
+              523,
+              556,
+              588,
+              620,
+              653,
+              685,
+              718
+            ],
+            "related_property": "生命",
+            "tough_lv": 2304,
+            "type": 0,
+            "weakness_lvl": 1844
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38768298838970217,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900210",
+          "kind": "basic",
+          "multiplier": 0.0394,
+          "offTuneUnits": 0.46565656565656566,
+          "raw": {
+            "element": 4,
+            "element_power": 81,
+            "energy": 58,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              198,
+              214,
+              231,
+              253,
+              270,
+              288,
+              314,
+              340,
+              366,
+              394,
+              426,
+              458,
+              491,
+              523,
+              556,
+              588,
+              620,
+              653,
+              685,
+              718
+            ],
+            "related_property": "生命",
+            "tough_lv": 2304,
+            "type": 0,
+            "weakness_lvl": 1844
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38768298838970217,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900211",
+          "kind": "basic",
+          "multiplier": 0.0525,
+          "offTuneUnits": 0.6207070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 108,
+            "energy": 77,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              264,
+              286,
+              307,
+              338,
+              359,
+              384,
+              419,
+              453,
+              488,
+              525,
+              568,
+              611,
+              654,
+              697,
+              741,
+              784,
+              827,
+              870,
+              914,
+              957
+            ],
+            "related_property": "生命",
+            "tough_lv": 3072,
+            "type": 0,
+            "weakness_lvl": 2458
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5169106511862696,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900301",
+          "kind": "basic",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              370,
+              398,
+              428,
+              463,
+              498,
+              534,
+              569,
+              604,
+              639,
+              675,
+              710,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900311",
+          "kind": "basic",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              370,
+              398,
+              428,
+              463,
+              498,
+              534,
+              569,
+              604,
+              639,
+              675,
+              710,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900321",
+          "kind": "basic",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              370,
+              398,
+              428,
+              463,
+              498,
+              534,
+              569,
+              604,
+              639,
+              675,
+              710,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900331",
+          "kind": "basic",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              370,
+              398,
+              428,
+              463,
+              498,
+              534,
+              569,
+              604,
+              639,
+              675,
+              710,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900341",
+          "kind": "basic",
+          "multiplier": 0.0685,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              345,
+              373,
+              401,
+              441,
+              469,
+              502,
+              547,
+              592,
+              637,
+              685,
+              742,
+              798,
+              854,
+              911,
+              967,
+              1024,
+              1080,
+              1137,
+              1193,
+              1250
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900351",
+          "kind": "basic",
+          "multiplier": 0.0685,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              345,
+              373,
+              401,
+              441,
+              469,
+              502,
+              547,
+              592,
+              637,
+              685,
+              742,
+              798,
+              854,
+              911,
+              967,
+              1024,
+              1080,
+              1137,
+              1193,
+              1250
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900361",
+          "kind": "basic",
+          "multiplier": 0.0685,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              345,
+              373,
+              401,
+              441,
+              469,
+              502,
+              547,
+              592,
+              637,
+              685,
+              742,
+              798,
+              854,
+              911,
+              967,
+              1024,
+              1080,
+              1137,
+              1193,
+              1250
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900371",
+          "kind": "basic",
+          "multiplier": 0.0685,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              345,
+              373,
+              401,
+              441,
+              469,
+              502,
+              547,
+              592,
+              637,
+              685,
+              742,
+              798,
+              854,
+              911,
+              967,
+              1024,
+              1080,
+              1137,
+              1193,
+              1250
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900411",
+          "kind": "basic",
+          "multiplier": 0.0252,
+          "offTuneUnits": 0.29772727272727273,
+          "raw": {
+            "element": 4,
+            "element_power": 52,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              127,
+              137,
+              148,
+              162,
+              173,
+              184,
+              201,
+              218,
+              234,
+              252,
+              273,
+              293,
+              314,
+              335,
+              355,
+              376,
+              397,
+              418,
+              438,
+              459
+            ],
+            "related_property": "生命",
+            "tough_lv": 1474,
+            "type": 0,
+            "weakness_lvl": 1179
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.24802288406528689,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900412",
+          "kind": "basic",
+          "multiplier": 0.0754,
+          "offTuneUnits": 0.8929292929292929,
+          "raw": {
+            "element": 4,
+            "element_power": 155,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              380,
+              411,
+              442,
+              485,
+              517,
+              552,
+              602,
+              652,
+              702,
+              754,
+              817,
+              879,
+              941,
+              1003,
+              1065,
+              1128,
+              1190,
+              1252,
+              1314,
+              1376
+            ],
+            "related_property": "生命",
+            "tough_lv": 4420,
+            "type": 0,
+            "weakness_lvl": 3536
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7437321218239946,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900401",
+          "kind": "basic",
+          "multiplier": 0.0252,
+          "offTuneUnits": 0.29772727272727273,
+          "raw": {
+            "element": 4,
+            "element_power": 52,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              127,
+              137,
+              148,
+              162,
+              173,
+              184,
+              201,
+              218,
+              234,
+              252,
+              273,
+              293,
+              314,
+              335,
+              355,
+              376,
+              397,
+              418,
+              438,
+              459
+            ],
+            "related_property": "生命",
+            "tough_lv": 1474,
+            "type": 0,
+            "weakness_lvl": 1179
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.24802288406528689,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900402",
+          "kind": "basic",
+          "multiplier": 0.0754,
+          "offTuneUnits": 0.8929292929292929,
+          "raw": {
+            "element": 4,
+            "element_power": 155,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              380,
+              411,
+              442,
+              485,
+              517,
+              552,
+              602,
+              652,
+              702,
+              754,
+              817,
+              879,
+              941,
+              1003,
+              1065,
+              1128,
+              1190,
+              1252,
+              1314,
+              1376
+            ],
+            "related_property": "生命",
+            "tough_lv": 4420,
+            "type": 0,
+            "weakness_lvl": 3536
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7437321218239946,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902101",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902102",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902110",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902113",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902111",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902114",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902112",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902115",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902120",
+          "kind": "basic",
+          "multiplier": 0.033,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              166,
+              180,
+              193,
+              212,
+              226,
+              241,
+              263,
+              285,
+              307,
+              330,
+              357,
+              384,
+              411,
+              438,
+              465,
+              493,
+              520,
+              547,
+              574,
+              601
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902122",
+          "kind": "basic",
+          "multiplier": 0.033,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              166,
+              180,
+              193,
+              212,
+              226,
+              241,
+              263,
+              285,
+              307,
+              330,
+              357,
+              384,
+              411,
+              438,
+              465,
+              493,
+              520,
+              547,
+              574,
+              601
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902130",
+          "kind": "basic",
+          "multiplier": 0.1129,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              568,
+              615,
+              661,
+              727,
+              773,
+              827,
+              901,
+              976,
+              1050,
+              1129,
+              1222,
+              1315,
+              1409,
+              1502,
+              1595,
+              1688,
+              1781,
+              1874,
+              1967,
+              2060
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140902132",
+          "kind": "basic",
+          "multiplier": 0.0565,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              284,
+              308,
+              331,
+              364,
+              387,
+              414,
+              451,
+              488,
+              525,
+              565,
+              611,
+              658,
+              705,
+              751,
+              798,
+              844,
+              891,
+              937,
+              984,
+              1030
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409001011",
+          "kind": "basic",
+          "multiplier": 0.0717,
+          "offTuneUnits": 0.5656565656565656,
+          "raw": {
+            "element": 4,
+            "element_power": 98,
+            "energy": 70,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              361,
+              390,
+              420,
+              461,
+              491,
+              525,
+              572,
+              619,
+              667,
+              717,
+              776,
+              835,
+              894,
+              953,
+              1012,
+              1072,
+              1131,
+              1190,
+              1249,
+              1308
+            ],
+            "related_property": "生命",
+            "tough_lv": 2800,
+            "type": 0,
+            "weakness_lvl": 2240
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4711425206124853,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409002011",
+          "kind": "basic",
+          "multiplier": 0.059,
+          "offTuneUnits": 0.46565656565656566,
+          "raw": {
+            "element": 4,
+            "element_power": 81,
+            "energy": 58,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              297,
+              321,
+              346,
+              380,
+              404,
+              432,
+              471,
+              510,
+              549,
+              590,
+              639,
+              687,
+              736,
+              785,
+              833,
+              882,
+              930,
+              979,
+              1028,
+              1076
+            ],
+            "related_property": "生命",
+            "tough_lv": 2304,
+            "type": 0,
+            "weakness_lvl": 1844
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38768298838970217,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409002101",
+          "kind": "basic",
+          "multiplier": 0.059,
+          "offTuneUnits": 0.46565656565656566,
+          "raw": {
+            "element": 4,
+            "element_power": 81,
+            "energy": 58,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              297,
+              321,
+              346,
+              380,
+              404,
+              432,
+              471,
+              510,
+              549,
+              590,
+              639,
+              687,
+              736,
+              785,
+              833,
+              882,
+              930,
+              979,
+              1028,
+              1076
+            ],
+            "related_property": "生命",
+            "tough_lv": 2304,
+            "type": 0,
+            "weakness_lvl": 1844
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38768298838970217,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409002111",
+          "kind": "basic",
+          "multiplier": 0.0787,
+          "offTuneUnits": 0.6207070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 108,
+            "energy": 77,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              396,
+              428,
+              461,
+              506,
+              539,
+              576,
+              628,
+              680,
+              731,
+              787,
+              851,
+              916,
+              981,
+              1046,
+              1111,
+              1176,
+              1240,
+              1305,
+              1370,
+              1435
+            ],
+            "related_property": "生命",
+            "tough_lv": 3072,
+            "type": 0,
+            "weakness_lvl": 2458
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5169106511862696,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003011",
+          "kind": "basic",
+          "multiplier": 0.0641,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              323,
+              349,
+              376,
+              413,
+              439,
+              470,
+              512,
+              554,
+              597,
+              641,
+              694,
+              747,
+              800,
+              853,
+              906,
+              959,
+              1012,
+              1064,
+              1117,
+              1170
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003111",
+          "kind": "basic",
+          "multiplier": 0.0641,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              323,
+              349,
+              376,
+              413,
+              439,
+              470,
+              512,
+              554,
+              597,
+              641,
+              694,
+              747,
+              800,
+              853,
+              906,
+              959,
+              1012,
+              1064,
+              1117,
+              1170
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003211",
+          "kind": "basic",
+          "multiplier": 0.0641,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              323,
+              349,
+              376,
+              413,
+              439,
+              470,
+              512,
+              554,
+              597,
+              641,
+              694,
+              747,
+              800,
+              853,
+              906,
+              959,
+              1012,
+              1064,
+              1117,
+              1170
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003311",
+          "kind": "basic",
+          "multiplier": 0.0641,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 88,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              323,
+              349,
+              376,
+              413,
+              439,
+              470,
+              512,
+              554,
+              597,
+              641,
+              694,
+              747,
+              800,
+              853,
+              906,
+              959,
+              1012,
+              1064,
+              1117,
+              1170
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003411",
+          "kind": "basic",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              518,
+              560,
+              602,
+              662,
+              704,
+              753,
+              821,
+              888,
+              956,
+              1028,
+              1113,
+              1197,
+              1281,
+              1367,
+              1451,
+              1536,
+              1620,
+              1706,
+              1790,
+              1875
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003511",
+          "kind": "basic",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              518,
+              560,
+              602,
+              662,
+              704,
+              753,
+              821,
+              888,
+              956,
+              1028,
+              1113,
+              1197,
+              1281,
+              1367,
+              1451,
+              1536,
+              1620,
+              1706,
+              1790,
+              1875
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003611",
+          "kind": "basic",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              518,
+              560,
+              602,
+              662,
+              704,
+              753,
+              821,
+              888,
+              956,
+              1028,
+              1113,
+              1197,
+              1281,
+              1367,
+              1451,
+              1536,
+              1620,
+              1706,
+              1790,
+              1875
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409003711",
+          "kind": "basic",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.5060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 141,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              518,
+              560,
+              602,
+              662,
+              704,
+              753,
+              821,
+              888,
+              956,
+              1028,
+              1113,
+              1197,
+              1281,
+              1367,
+              1451,
+              1536,
+              1620,
+              1706,
+              1790,
+              1875
+            ],
+            "related_property": "生命",
+            "tough_lv": 2505,
+            "type": 0,
+            "weakness_lvl": 2004
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4215042907622413,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409004011",
+          "kind": "basic",
+          "multiplier": 0.0377,
+          "offTuneUnits": 0.29772727272727273,
+          "raw": {
+            "element": 4,
+            "element_power": 52,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              190,
+              206,
+              221,
+              243,
+              259,
+              276,
+              301,
+              326,
+              351,
+              377,
+              409,
+              440,
+              471,
+              502,
+              533,
+              564,
+              595,
+              626,
+              657,
+              688
+            ],
+            "related_property": "生命",
+            "tough_lv": 1474,
+            "type": 0,
+            "weakness_lvl": 1179
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.24802288406528689,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409004021",
+          "kind": "basic",
+          "multiplier": 0.1131,
+          "offTuneUnits": 0.8929292929292929,
+          "raw": {
+            "element": 4,
+            "element_power": 155,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              569,
+              616,
+              663,
+              728,
+              775,
+              828,
+              903,
+              978,
+              1052,
+              1131,
+              1225,
+              1318,
+              1411,
+              1505,
+              1598,
+              1691,
+              1784,
+              1878,
+              1971,
+              2064
+            ],
+            "related_property": "生命",
+            "tough_lv": 4420,
+            "type": 0,
+            "weakness_lvl": 3536
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7437321218239946,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409041011",
+          "kind": "basic",
+          "multiplier": 0.0312,
+          "offTuneUnits": 0.3368686868686869,
+          "raw": {
+            "element": 4,
+            "element_power": 59,
+            "energy": 42,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              157,
+              170,
+              183,
+              201,
+              214,
+              229,
+              249,
+              270,
+              290,
+              312,
+              338,
+              364,
+              389,
+              415,
+              441,
+              466,
+              492,
+              518,
+              543,
+              569
+            ],
+            "related_property": "生命",
+            "tough_lv": 1667,
+            "type": 0,
+            "weakness_lvl": 1334
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2804980649503618,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409041021",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409041111",
+          "kind": "basic",
+          "multiplier": 0.0935,
+          "offTuneUnits": 1.0101010101010102,
+          "raw": {
+            "element": 4,
+            "element_power": 175,
+            "energy": 125,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              471,
+              509,
+              548,
+              602,
+              640,
+              685,
+              746,
+              808,
+              870,
+              935,
+              1013,
+              1090,
+              1167,
+              1244,
+              1321,
+              1398,
+              1475,
+              1552,
+              1629,
+              1707
+            ],
+            "related_property": "生命",
+            "tough_lv": 5000,
+            "type": 0,
+            "weakness_lvl": 4000
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021011",
+          "kind": "basic",
+          "multiplier": 0.1695,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              852,
+              924,
+              993,
+              1092,
+              1161,
+              1242,
+              1353,
+              1464,
+              1575,
+              1695,
+              1833,
+              1974,
+              2115,
+              2253,
+              2394,
+              2532,
+              2673,
+              2811,
+              2952,
+              3090
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021101",
+          "kind": "basic",
+          "multiplier": 0.1695,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              852,
+              924,
+              993,
+              1092,
+              1161,
+              1242,
+              1353,
+              1464,
+              1575,
+              1695,
+              1833,
+              1974,
+              2115,
+              2253,
+              2394,
+              2532,
+              2673,
+              2811,
+              2952,
+              3090
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021111",
+          "kind": "basic",
+          "multiplier": 0.1695,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              852,
+              924,
+              993,
+              1092,
+              1161,
+              1242,
+              1353,
+              1464,
+              1575,
+              1695,
+              1833,
+              1974,
+              2115,
+              2253,
+              2394,
+              2532,
+              2673,
+              2811,
+              2952,
+              3090
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021121",
+          "kind": "basic",
+          "multiplier": 0.1695,
+          "offTuneUnits": 1.0727272727272728,
+          "raw": {
+            "element": 4,
+            "element_power": 186,
+            "energy": 133,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              852,
+              924,
+              993,
+              1092,
+              1161,
+              1242,
+              1353,
+              1464,
+              1575,
+              1695,
+              1833,
+              1974,
+              2115,
+              2253,
+              2394,
+              2532,
+              2673,
+              2811,
+              2952,
+              3090
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 4248
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021201",
+          "kind": "basic",
+          "multiplier": 0.099,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              498,
+              540,
+              579,
+              636,
+              678,
+              723,
+              789,
+              855,
+              921,
+              990,
+              1071,
+              1152,
+              1233,
+              1314,
+              1395,
+              1479,
+              1560,
+              1641,
+              1722,
+              1803
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409021301",
+          "kind": "basic",
+          "multiplier": 0.3387,
+          "offTuneUnits": 0.3575757575757576,
+          "raw": {
+            "element": 4,
+            "element_power": 62,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1704,
+              1845,
+              1983,
+              2181,
+              2319,
+              2481,
+              2703,
+              2928,
+              3150,
+              3387,
+              3666,
+              3945,
+              4227,
+              4506,
+              4785,
+              5064,
+              5343,
+              5622,
+              5901,
+              6180
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 0,
+            "weakness_lvl": 1416
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140904101",
+          "kind": "basic",
+          "multiplier": 0.0208,
+          "offTuneUnits": 0.3368686868686869,
+          "raw": {
+            "element": 4,
+            "element_power": 59,
+            "energy": 42,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              105,
+              114,
+              122,
+              134,
+              143,
+              153,
+              166,
+              180,
+              194,
+              208,
+              225,
+              243,
+              260,
+              277,
+              294,
+              311,
+              328,
+              345,
+              362,
+              380
+            ],
+            "related_property": "生命",
+            "tough_lv": 1667,
+            "type": 0,
+            "weakness_lvl": 1334
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2804980649503618,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140904111",
+          "kind": "basic",
+          "multiplier": 0.0624,
+          "offTuneUnits": 1.0101010101010102,
+          "raw": {
+            "element": 4,
+            "element_power": 175,
+            "energy": 125,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              314,
+              340,
+              365,
+              401,
+              427,
+              457,
+              498,
+              539,
+              580,
+              624,
+              675,
+              727,
+              778,
+              829,
+              881,
+              932,
+              984,
+              1035,
+              1086,
+              1138
+            ],
+            "related_property": "生命",
+            "tough_lv": 5000,
+            "type": 0,
+            "weakness_lvl": 4000
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻·卡提希娅\n 进行最多4段的连续攻击，造成气动伤害。\n 施放第4段普攻·卡提希娅后，会为命中的目标附加1层【风蚀效应】，同时会召唤【神权剑之影】。\n 【神权剑之影】持续20秒，至多仅存在1把。\n \n 重击·卡提希娅\n 消耗耐力攻击目标，造成气动伤害，同时会召唤【异权剑之影】，可在空中施放。\n 【异权剑之影】持续20秒，至多仅存在1把。\n 此次伤害视为普攻伤害。\n \n 空中攻击·卡提希娅\n 空中松开普攻时，消耗耐力进行空中下落攻击，造成气动伤害，同时视为【风蚀效应】伤害。\n 施放下落攻击后一定时间短按普攻将会施放普攻·卡提希娅第2段。\n 施放空中攻击·卡提希娅后，卡提希娅回收附近场上所有【剑之影】，根据【剑之影】的种类之和，改变此次下落攻击的形态，并分别对应获得【人权之心】、【神权之意】、【异权之力】。\n \n 闪避反击·卡提希娅\n 成功闪避后一定时间内短按普攻，将会攻击目标，造成气动伤害。",
+      "headings": [
+        "普攻·卡提希娅",
+        "重击·卡提希娅",
+        "空中攻击·卡提希娅",
+        "闪避反击·卡提希娅"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorKnife.SP_IconNorKnife",
+      "id": "defiers_thorn/node_1",
+      "name": "以剑奉读此身",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "1",
+          "name": "第一段伤害",
+          "values": [
+            "4.78%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "2",
+          "name": "第二段伤害",
+          "values": [
+            "3.94%+3.94%+5.25%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "3",
+          "name": "第三段伤害",
+          "values": [
+            "4.28%+4.28%+4.28%+4.28%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "4",
+          "name": "第四段伤害",
+          "values": [
+            "2.52%*3+7.54%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "5",
+          "name": "闪避反击伤害",
+          "values": [
+            "6.85%+6.85%+6.85%+6.85%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "8",
+          "name": "重击伤害",
+          "values": [
+            "2.08%*3+6.24%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "9",
+          "name": "空中攻击",
+          "values": [
+            "5.65%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "10",
+          "name": "空中攻击回收一剑",
+          "values": [
+            "5.65%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "11",
+          "name": "空中攻击回收二剑",
+          "values": [
+            "3.30%*3"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "12",
+          "name": "空中攻击回收三剑",
+          "values": [
+            "11.29%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "33",
+          "name": "空中攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "34",
+          "name": "重击耐力消耗",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻·卡提希娅</color></size>\n 进行最多4段的连续攻击，造成<color=Wind>气动伤害</color>。\n 施放第4段<color=Highlight>普攻·卡提希娅</color>后，会为命中的目标附加1层<color=Wind>【<te href=850009>风蚀效应</te>】</color>，同时会召唤<color=Highlight>【<te href=850186>神权剑之影</te>】</color>。\n <color=Highlight>【<te href=850186>神权剑之影</te>】</color>持续20秒，至多仅存在1把。\n \n <size=40><color=Title>重击·卡提希娅</color></size>\n 消耗耐力攻击目标，造成<color=Wind>气动伤害</color>，同时会召唤<color=Highlight>【<te href=850185>异权剑之影</te>】</color>，可在空中施放。\n <color=Highlight>【<te href=850185>异权剑之影</te>】</color>持续20秒，至多仅存在1把。\n 此次伤害视为<color=Highlight>普攻</color>伤害。\n \n <size=40><color=Title>空中攻击·卡提希娅</color></size>\n 空中松开<color=Highlight>普攻</color>时，消耗耐力进行空中下落攻击，造成<color=Wind>气动伤害</color>，同时视为<color=Wind>【<te href=850009>风蚀效应</te>】</color>伤害。\n 施放<color=Highlight>下落攻击</color>后一定时间短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻·卡提希娅第2段</color>。\n 施放<color=Highlight>空中攻击·卡提希娅</color>后，卡提希娅回收附近场上所有<color=Highlight>【剑之影】</color>，根据<color=Highlight>【剑之影】</color>的种类之和，改变此次下落攻击的形态，并分别对应获得<color=Highlight>【<te href=850181>人权之心</te>】</color>、<color=Highlight>【<te href=850182>神权之意</te>】</color>、<color=Highlight>【<te href=850183>异权之力</te>】</color>。\n \n <size=40><color=Title>闪避反击·卡提希娅</color></size>\n 成功<color=Highlight>闪避</color>后一定时间内短按普攻，将会攻击目标，造成<color=Wind>气动伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140901101",
+          "kind": "basic",
+          "multiplier": 0.0689,
+          "offTuneUnits": 0.42424242424242425,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 380,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              347,
+              375,
+              404,
+              444,
+              472,
+              505,
+              550,
+              596,
+              641,
+              689,
+              746,
+              803,
+              860,
+              917,
+              974,
+              1030,
+              1087,
+              1144,
+              1201,
+              1258
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 1680
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140901102",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140901110",
+          "kind": "basic",
+          "multiplier": 0.0886,
+          "offTuneUnits": 0.5454545454545454,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 488,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              446,
+              483,
+              519,
+              570,
+              607,
+              649,
+              707,
+              766,
+              824,
+              886,
+              959,
+              1032,
+              1105,
+              1178,
+              1252,
+              1325,
+              1398,
+              1471,
+              1544,
+              1617
+            ],
+            "related_property": "生命",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2160
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "共鸣技能·卡提希娅\n 攻击目标，短暂击飞周围敌人，随后将其击回地面，造成气动伤害，为命中目标附加2层【风蚀效应】，此次伤害为普攻伤害，可在空中施放。\n 施放共鸣技能·卡提希娅后，会召唤【人权剑之影】。\n 【人权剑之影】持续20秒，至多可存在1把。",
+      "headings": [
+        "共鸣技能·卡提希娅"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaB3.SP_IconKatixiyaB3",
+      "id": "defiers_thorn/node_2",
+      "name": "此剑以人之名",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "6",
+          "name": "技能伤害",
+          "values": [
+            "6.89%*3+8.86%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "共鸣技能回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "32",
+          "name": "共鸣技能冷却时间",
+          "values": [
+            "14"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>共鸣技能·卡提希娅</color></size>\n 攻击目标，短暂击飞周围敌人，随后将其击回地面，造成<color=Wind>气动伤害</color>，为命中目标附加2层<color=Wind>【<te href=850009>风蚀效应</te>】</color>，此次伤害为普攻伤害，可在空中施放。\n 施放<color=Highlight>共鸣技能·卡提希娅</color>后，会召唤<color=Highlight>【<te href=850184>人权剑之影</te>】</color>。\n <color=Highlight>【<te href=850184>人权剑之影</te>】</color>持续20秒，至多可存在1把。",
+      "rawParameters": [],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900001",
+          "kind": "liberation",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 2,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140900002",
+          "kind": "liberation",
+          "multiplier": 0.1312,
+          "offTuneUnits": 6.0606060606060606,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              660,
+              714,
+              768,
+              844,
+              898,
+              961,
+              1047,
+              1134,
+              1220,
+              1312,
+              1420,
+              1529,
+              1637,
+              1745,
+              1853,
+              1961,
+              2070,
+              2178,
+              2286,
+              2394
+            ],
+            "related_property": "生命",
+            "tough_lv": 5715,
+            "type": 2,
+            "weakness_lvl": 24000
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.961635537607269,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409000011",
+          "kind": "liberation",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 5310,
+            "type": 2,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.8934881373043917,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409000021",
+          "kind": "liberation",
+          "multiplier": 0.2624,
+          "offTuneUnits": 6.0606060606060606,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1320,
+              1428,
+              1536,
+              1688,
+              1796,
+              1921,
+              2094,
+              2267,
+              2440,
+              2624,
+              2840,
+              3057,
+              3273,
+              3490,
+              3706,
+              3922,
+              4139,
+              4355,
+              4572,
+              4788
+            ],
+            "related_property": "生命",
+            "tough_lv": 5715,
+            "type": 2,
+            "weakness_lvl": 24000
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.961635537607269,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "共鸣解放·听骑士从心祈愿\n 【卡提希娅】化身【芙露德莉斯】，获得全新的战斗形态，自身生命值降至生命上限的50%，并进入【显化】状态，持续12秒，可在空中施放。\n 进入该状态时，清空【决意】。\n 【芙露德莉斯】形态下，【芙露德莉斯】的普攻·芙露德莉斯第5段，空中攻击·芙露德莉斯第2段，共鸣技能·凭风斩浪破敌可以给命中的目标立刻结算1次【风蚀效应】，结算完成后会使当前【风蚀效应】层数减少1层。\n 退出该状态时，不会清空共鸣能量。\n 当自身生命值低于50%时，不消耗生命值。\n \n 【芙露德莉斯】攻击命中目标时，可积攒【决意】，当【决意】达到120点时，点按共鸣解放，可施放共鸣解放·看潮怒风哮之刃。\n \n 当【决意】未满120点时，点按共鸣解放，可化身【卡提希娅】，在【显化】状态持续期间，由【卡提希娅】施放共鸣解放·听骑士从心祈愿将不消耗共鸣能量。\n \n 当【芙露德莉斯】拥有【人权之心】和【显化】状态时获得以下效果：\n ·【芙露德莉斯】的普攻·芙露德莉斯第4段会召唤力场使范围内敌人停滞。\n ·【芙露德莉斯】抗打断能力提升。\n 【显化】状态结束时，移除【人权之心】。\n \n 当【芙露德莉斯】拥有【神权之意】和【显化】状态时获得以下效果：\n 【芙露德莉斯】自身一定范围内，目标【风蚀效应】触发的间隔减少50%，并使目标受到的【风蚀效应】伤害加深50%。\n 【显化】状态结束时，移除【神权之意】。\n \n 当【芙露德莉斯】拥有【异权之力】和【显化】状态时获得以下效果：\n 【芙露德莉斯】的普攻·芙露德莉斯第5段、空中攻击·芙露德莉斯第2段、强化重击·芙露德莉斯命中目标前，共鸣技能·凭风斩浪破敌造成伤害后，记录一定范围内的目标被附加的【风蚀效应】最高层数，并复制到范围内的所有目标身上。\n 【显化】状态结束时，移除【异权之力】。\n \n  当化身为【芙露德莉斯】时，进行任务对话、使用附带动作表现的场景交互或探索工具时，会切换回【卡提希娅】形态，并进行对应动作。\n 【芙露德莉斯】可在水面行走，在深水区时，会持续消耗体力；在步行模式下，【芙露德莉斯】可由悬崖步入空中，并在空中缓慢行走，该状态下将持续消耗体力。\n \n 化身·卡提希娅\n 在【芙露德莉斯】形态下，【决意】未满120点时，点按共鸣解放，会施放普攻·卡提希娅第2段，并临时化身为【卡提希娅】，并暂停【显化】状态持续时间计时。\n 可以在空中施放，空中施放该技能时，会施放空中攻击·卡提希娅。\n \n 化身·芙露德莉斯\n 在【显化】状态持续时间内，【卡提希娅】使用共鸣解放时，会施放普攻·芙露德莉斯第2段，不消耗共鸣能量，即可重新化身为【芙露德莉斯】，并恢复【显化】状态持续时间计时。\n 可以在空中施放，空中施放该技能时，会施放空中攻击·芙露德莉斯第1段。\n \n共鸣解放·看潮怒风哮之刃\n 【芙露德莉斯】拥有120点【决意】时，共鸣解放·听骑士从心祈愿替换为共鸣解放·看潮怒风哮之刃。\n 施放共鸣解放·看潮怒风哮之刃时，清空【决意】，移除【显化】状态，回复自身50%生命上限的生命值，其后对前方直线范围内目标，造成气动伤害。造成伤害时目标每拥有1层【风蚀效应】，对目标造成的伤害加深20%，至多5层，命中后会清空目标拥有的【风蚀效应】。\n 可以在空中施放。",
+      "headings": [
+        "共鸣解放·听骑士从心祈愿",
+        "化身·卡提希娅",
+        "化身·芙露德莉斯",
+        "共鸣解放·看潮怒风哮之刃"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaC1.SP_IconKatixiyaC1",
+      "id": "defiers_thorn/node_3",
+      "name": "听骑士从心祈愿",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "31",
+          "name": "看潮怒风哮之刃伤害",
+          "values": [
+            "13.12%*7"
+          ]
+        },
+        {
+          "format": null,
+          "id": "31_2",
+          "name": "听骑士从心祈愿消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "34",
+          "name": "听骑士从心祈愿冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "36",
+          "name": "看潮怒风哮之刃冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "37",
+          "name": "听骑士从心祈愿回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "38",
+          "name": "看潮怒风哮之刃回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "39",
+          "name": "化身冷却时间",
+          "values": [
+            "1.5"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>共鸣解放·听骑士从心祈愿</color></size>\n <color=Highlight>【卡提希娅】</color>化身<color=Highlight>【芙露德莉斯】</color>，获得全新的战斗形态，自身生命值降至生命上限的50%，并进入<color=Highlight>【显化】</color>状态，持续12秒，可在空中施放。\n 进入该状态时，清空<color=Highlight>【<te href=850179>决意</te>】</color>。\n <color=Highlight>【芙露德莉斯】</color>形态下，<color=Highlight>【芙露德莉斯】</color>的<color=Highlight>普攻·芙露德莉斯第5段</color>，<color=Highlight>空中攻击·芙露德莉斯第2段</color>，<color=Highlight>共鸣技能·凭风斩浪破敌</color>可以给命中的目标立刻结算1次<color=Wind>【<te href=850009>风蚀效应</te>】</color>，结算完成后会使当前<color=Wind>【<te href=850009>风蚀效应</te>】</color>层数减少1层。\n 退出该状态时，不会清空共鸣能量。\n 当自身生命值低于50%时，不消耗生命值。\n \n <color=Highlight>【芙露德莉斯】</color>攻击命中目标时，可积攒<color=Highlight>【<te href=850179>决意</te>】</color>，当<color=Highlight>【<te href=850179>决意</te>】</color>达到120点时，点按共鸣解放，可施放<color=Highlight>共鸣解放·看潮怒风哮之刃</color>。\n \n 当<color=Highlight>【<te href=850179>决意</te>】</color>未满120点时，点按共鸣解放，可化身<color=Highlight>【卡提希娅】</color>，在<color=Highlight>【显化】</color>状态持续期间，由<color=Highlight>【卡提希娅】</color>施放<color=Highlight>共鸣解放·听骑士从心祈愿</color>将不消耗共鸣能量。\n \n 当<color=Highlight>【芙露德莉斯】</color>拥有<color=Highlight>【<te href=850181>人权之心</te>】</color>和<color=Highlight>【显化】</color>状态时获得以下效果：\n ·<color=Highlight>【芙露德莉斯】</color>的<color=Highlight>普攻·芙露德莉斯第4段</color>会召唤力场使范围内敌人停滞。\n ·<color=Highlight>【芙露德莉斯】</color>抗打断能力提升。\n <color=Highlight>【显化】</color>状态结束时，移除<color=Highlight>【<te href=850181>人权之心</te>】</color>。\n \n 当<color=Highlight>【芙露德莉斯】</color>拥有<color=Highlight>【<te href=850182>神权之意</te>】</color>和<color=Highlight>【显化】</color>状态时获得以下效果：\n <color=Highlight>【芙露德莉斯】</color>自身一定范围内，目标<color=Wind>【<te href=850009>风蚀效应</te>】</color>触发的间隔减少50%，并使目标受到的<color=Wind>【<te href=850009>风蚀效应</te>】</color>伤害加深50%。\n <color=Highlight>【显化】</color>状态结束时，移除<color=Highlight>【<te href=850182>神权之意</te>】</color>。\n \n 当<color=Highlight>【芙露德莉斯】</color>拥有<color=Highlight>【<te href=850183>异权之力</te>】</color>和<color=Highlight>【显化】</color>状态时获得以下效果：\n <color=Highlight>【芙露德莉斯】</color>的<color=Highlight>普攻·芙露德莉斯第5段</color>、<color=Highlight>空中攻击·芙露德莉斯第2段</color>、<color=Highlight>强化重击·芙露德莉斯</color>命中目标前，<color=Highlight>共鸣技能·凭风斩浪破敌</color>造成伤害后，记录一定范围内的目标被附加的<color=Wind>【<te href=850009>风蚀效应</te>】</color>最高层数，并复制到范围内的所有目标身上。\n <color=Highlight>【显化】</color>状态结束时，移除<color=Highlight>【<te href=850183>异权之力</te>】</color>。\n \n  当化身为<color=Highlight>【芙露德莉斯】</color>时，进行<color=Highlight>任务对话</color>、使用<color=Highlight>附带动作表现的场景交互</color>或<color=Highlight>探索工具</color>时，会切换回<color=Highlight>【卡提希娅】</color>形态，并进行对应动作。\n <color=Highlight>【芙露德莉斯】</color>可在水面行走，在深水区时，会持续消耗体力；在步行模式下，<color=Highlight>【芙露德莉斯】</color>可由悬崖步入空中，并在空中缓慢行走，该状态下将持续消耗体力。\n \n <size=40><color=Title>化身·卡提希娅</color></size>\n 在<color=Highlight>【芙露德莉斯】</color>形态下，<color=Highlight>【<te href=850179>决意</te>】</color>未满120点时，点按共鸣解放，会施放<color=Highlight>普攻·卡提希娅第2段</color>，并临时化身为<color=Highlight>【卡提希娅】</color>，并暂停<color=Highlight>【显化】</color>状态持续时间计时。\n 可以在空中施放，空中施放该技能时，会施放<color=Highlight>空中攻击·卡提希娅</color>。\n \n <size=40><color=Title>化身·芙露德莉斯</color></size>\n 在<color=Highlight>【显化】</color>状态持续时间内，<color=Highlight>【卡提希娅】</color>使用共鸣解放时，会施放<color=Highlight>普攻·芙露德莉斯第2段</color>，不消耗共鸣能量，即可重新化身为<color=Highlight>【芙露德莉斯】</color>，并恢复<color=Highlight>【显化】</color>状态持续时间计时。\n 可以在空中施放，空中施放该技能时，会施放<color=Highlight>空中攻击·芙露德莉斯第1段</color>。\n \n<size=40><color=Title>共鸣解放·看潮怒风哮之刃</color></size>\n <color=Highlight>【芙露德莉斯】</color>拥有120点<color=Highlight>【<te href=850179>决意</te>】</color>时，<color=Highlight>共鸣解放·听骑士从心祈愿</color>替换为<color=Highlight>共鸣解放·看潮怒风哮之刃</color>。\n 施放<color=Highlight>共鸣解放·看潮怒风哮之刃</color>时，清空<color=Highlight>【<te href=850179>决意</te>】</color>，移除<color=Highlight>【显化】</color>状态，回复自身50%生命上限的生命值，其后对前方直线范围内目标，造成<color=Wind>气动伤害</color>。造成伤害时目标每拥有1层<color=Wind>【<te href=850009>风蚀效应</te>】</color>，对目标造成的伤害加深20%，至多5层，命中后会清空目标拥有的<color=Wind>【<te href=850009>风蚀效应</te>】</color>。\n 可以在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "队伍中除【卡提希娅】、【芙露德莉斯】以外的角色受到的治疗效果提升20%，抗打断能力提升；若漂泊者·气动处于同一编队中，则漂泊者·气动施放万象归墟时，额外获得25点【弦风息】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaD1.SP_IconKatixiyaD1",
+      "id": "defiers_thorn/node_4",
+      "name": "以心织就颂愿",
+      "parameters": [],
+      "rawDescription": "队伍中除<color=Highlight>【卡提希娅】</color>、<color=Highlight>【芙露德莉斯】</color>以外的角色受到的治疗效果提升20%，抗打断能力提升；若漂泊者·气动处于同一编队中，则漂泊者·气动施放<color=Highlight>万象归墟</color>时，额外获得25点<color=Highlight>【弦风息】</color>。",
+      "rawParameters": [
+        "20%"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "当目标拥有1到3层【风蚀效应】时，【卡提希娅】与【芙露德莉斯】对其造成的伤害提升30%；当目标拥有3层以上【风蚀效应】时，每层【风蚀效应】使【卡提希娅】与【芙露德莉斯】对其造成的伤害额外提升10%，该效果最多可叠加3层。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaD2.SP_IconKatixiyaD2",
+      "id": "defiers_thorn/node_5",
+      "name": "以风刻痕留蚀",
+      "parameters": [],
+      "rawDescription": "当目标拥有1到3层<color=Wind>【<te href=850009>风蚀效应</te>】</color>时，<color=Highlight>【卡提希娅】</color>与<color=Highlight>【芙露德莉斯】</color>对其造成的伤害提升30%；当目标拥有3层以上<color=Wind>【<te href=850009>风蚀效应</te>】</color>时，每层<color=Wind>【<te href=850009>风蚀效应</te>】</color>使<color=Highlight>【卡提希娅】</color>与<color=Highlight>【芙露德莉斯】</color>对其造成的伤害额外提升10%，该效果最多可叠加3层。",
+      "rawParameters": [
+        "1",
+        "10%",
+        "60%"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140904201",
+          "kind": "intro",
+          "multiplier": 0.0208,
+          "offTuneUnits": 0.29494949494949496,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 167,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              105,
+              114,
+              122,
+              134,
+              143,
+              153,
+              166,
+              180,
+              194,
+              208,
+              225,
+              243,
+              260,
+              277,
+              294,
+              311,
+              328,
+              345,
+              362,
+              380
+            ],
+            "related_property": "生命",
+            "tough_lv": 1460,
+            "type": 3,
+            "weakness_lvl": 1168
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.24566717146222447,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140904202",
+          "kind": "intro",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 3,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140904211",
+          "kind": "intro",
+          "multiplier": 0.0624,
+          "offTuneUnits": 0.8848484848484849,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              314,
+              340,
+              365,
+              401,
+              427,
+              457,
+              498,
+              539,
+              580,
+              624,
+              675,
+              727,
+              778,
+              829,
+              881,
+              932,
+              984,
+              1035,
+              1086,
+              1138
+            ],
+            "related_property": "生命",
+            "tough_lv": 4380,
+            "type": 3,
+            "weakness_lvl": 3504
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.7370015143866734,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409042011",
+          "kind": "intro",
+          "multiplier": 0.0312,
+          "offTuneUnits": 0.29494949494949496,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 167,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              157,
+              170,
+              183,
+              201,
+              214,
+              229,
+              249,
+              270,
+              290,
+              312,
+              338,
+              364,
+              389,
+              415,
+              441,
+              466,
+              492,
+              518,
+              543,
+              569
+            ],
+            "related_property": "生命",
+            "tough_lv": 1460,
+            "type": 3,
+            "weakness_lvl": 1168
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.24566717146222447,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409042021",
+          "kind": "intro",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 3,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1409042111",
+          "kind": "intro",
+          "multiplier": 0.0935,
+          "offTuneUnits": 0.8848484848484849,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              471,
+              509,
+              548,
+              602,
+              640,
+              685,
+              746,
+              808,
+              870,
+              935,
+              1013,
+              1090,
+              1167,
+              1244,
+              1321,
+              1398,
+              1475,
+              1552,
+              1629,
+              1707
+            ],
+            "related_property": "生命",
+            "tough_lv": 4380,
+            "type": 3,
+            "weakness_lvl": 3504
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.7370015143866734,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921401",
+          "kind": "intro",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.4255050505050505,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 53,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              369,
+              398,
+              428,
+              463,
+              498,
+              533,
+              568,
+              604,
+              639,
+              674,
+              709,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 2106,
+            "type": 3,
+            "weakness_lvl": 1685
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.35436648157496214,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921402",
+          "kind": "intro",
+          "multiplier": 0.0997,
+          "offTuneUnits": 0.9929292929292929,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              502,
+              543,
+              584,
+              641,
+              683,
+              730,
+              796,
+              861,
+              927,
+              997,
+              1079,
+              1161,
+              1244,
+              1326,
+              1408,
+              1490,
+              1572,
+              1655,
+              1737,
+              1819
+            ],
+            "related_property": "生命",
+            "tough_lv": 4914,
+            "type": 3,
+            "weakness_lvl": 3932
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.8268551236749117,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "卡提希娅·此剑，为潮水的过去\n 造成气动伤害，为命中目标附加2层【风蚀效应】，同时会召唤【异权剑之影】。\n 【异权剑之影】持续20秒，至多仅存在1把。\n 施放卡提希娅·此剑，为潮水的过去后一定时间短按普攻将会施放普攻·卡提希娅第2段。\n \n 芙露德莉斯·此剑，为自由的未来\n 向前突刺造成气动伤害，并获得【决意】。\n 施放芙露德莉斯·此剑，为自由的未来后一定时间短按普攻将会施放普攻·芙露德莉斯第2段。",
+      "headings": [
+        "卡提希娅·此剑，为潮水的过去",
+        "芙露德莉斯·此剑，为自由的未来"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaQTE.SP_IconKatixiyaQTE",
+      "id": "defiers_thorn/node_6",
+      "name": "此剑，为潮水的过去",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "9",
+          "name": "此剑，为潮水的过去伤害",
+          "values": [
+            "2.08%*3+6.24%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "22",
+          "name": "此剑，为自由的未来伤害",
+          "values": [
+            "4.28%+9.97%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "23",
+          "name": "此剑，为潮水的过去回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "24",
+          "name": "此剑，为自由的未来回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>卡提希娅·此剑，为潮水的过去</color></size>\n 造成气动伤害，为命中目标附加2层<color=Wind>【<te href=850009>风蚀效应</te>】</color>，同时会召唤<color=Highlight>【<te href=850185>异权剑之影</te>】</color>。\n <color=Highlight>【<te href=850185>异权剑之影</te>】</color>持续20秒，至多仅存在1把。\n 施放<color=Highlight>卡提希娅·此剑，为潮水的过去</color>后一定时间短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻·卡提希娅第2段</color>。\n \n <size=40><color=Title>芙露德莉斯·此剑，为自由的未来</color></size>\n 向前突刺造成<color=Wind>气动伤害</color>，并获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n 施放<color=Highlight>芙露德莉斯·此剑，为自由的未来</color>后一定时间短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻·芙露德莉斯第2段</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920101",
+          "kind": "basic",
+          "multiplier": 0.0649,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 105,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              327,
+              354,
+              380,
+              418,
+              445,
+              475,
+              518,
+              561,
+              604,
+              649,
+              703,
+              756,
+              810,
+              864,
+              917,
+              971,
+              1024,
+              1078,
+              1131,
+              1185
+            ],
+            "related_property": "生命",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920102",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920201",
+          "kind": "basic",
+          "multiplier": 0.0363,
+          "offTuneUnits": 0.615909090909091,
+          "raw": {
+            "element": 4,
+            "element_power": 107,
+            "energy": 77,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              183,
+              198,
+              213,
+              233,
+              248,
+              266,
+              289,
+              313,
+              337,
+              363,
+              392,
+              422,
+              452,
+              482,
+              512,
+              542,
+              572,
+              602,
+              631,
+              661
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2439
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920202",
+          "kind": "basic",
+          "multiplier": 0.0182,
+          "offTuneUnits": 0.30808080808080807,
+          "raw": {
+            "element": 4,
+            "element_power": 54,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              92,
+              99,
+              107,
+              117,
+              124,
+              133,
+              145,
+              157,
+              169,
+              182,
+              196,
+              211,
+              226,
+              241,
+              256,
+              271,
+              286,
+              301,
+              316,
+              331
+            ],
+            "related_property": "生命",
+            "tough_lv": 1524,
+            "type": 0,
+            "weakness_lvl": 1220
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.25643614336193843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920203",
+          "kind": "basic",
+          "multiplier": 0.0182,
+          "offTuneUnits": 0.30808080808080807,
+          "raw": {
+            "element": 4,
+            "element_power": 54,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              92,
+              99,
+              107,
+              117,
+              124,
+              133,
+              145,
+              157,
+              169,
+              182,
+              196,
+              211,
+              226,
+              241,
+              256,
+              271,
+              286,
+              301,
+              316,
+              331
+            ],
+            "related_property": "生命",
+            "tough_lv": 1524,
+            "type": 0,
+            "weakness_lvl": 1220
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.25643614336193843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920204",
+          "kind": "basic",
+          "multiplier": 0.0182,
+          "offTuneUnits": 0.30808080808080807,
+          "raw": {
+            "element": 4,
+            "element_power": 54,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              92,
+              99,
+              107,
+              117,
+              124,
+              133,
+              145,
+              157,
+              169,
+              182,
+              196,
+              211,
+              226,
+              241,
+              256,
+              271,
+              286,
+              301,
+              316,
+              331
+            ],
+            "related_property": "生命",
+            "tough_lv": 1524,
+            "type": 0,
+            "weakness_lvl": 1220
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.25643614336193843,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920301",
+          "kind": "basic",
+          "multiplier": 0.0213,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              108,
+              116,
+              125,
+              137,
+              146,
+              156,
+              170,
+              184,
+              198,
+              213,
+              231,
+              249,
+              266,
+              284,
+              301,
+              319,
+              336,
+              354,
+              372,
+              389
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920302",
+          "kind": "basic",
+          "multiplier": 0.0213,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              108,
+              116,
+              125,
+              137,
+              146,
+              156,
+              170,
+              184,
+              198,
+              213,
+              231,
+              249,
+              266,
+              284,
+              301,
+              319,
+              336,
+              354,
+              372,
+              389
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920303",
+          "kind": "basic",
+          "multiplier": 0.0213,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              108,
+              116,
+              125,
+              137,
+              146,
+              156,
+              170,
+              184,
+              198,
+              213,
+              231,
+              249,
+              266,
+              284,
+              301,
+              319,
+              336,
+              354,
+              372,
+              389
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920304",
+          "kind": "basic",
+          "multiplier": 0.0426,
+          "offTuneUnits": 0.7272727272727273,
+          "raw": {
+            "element": 4,
+            "element_power": 126,
+            "energy": 90,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              232,
+              250,
+              274,
+              292,
+              312,
+              340,
+              368,
+              396,
+              426,
+              461,
+              497,
+              532,
+              567,
+              602,
+              637,
+              672,
+              707,
+              743,
+              778
+            ],
+            "related_property": "生命",
+            "tough_lv": 3600,
+            "type": 0,
+            "weakness_lvl": 2880
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6057546693589096,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920311",
+          "kind": "basic",
+          "multiplier": 0.032,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              161,
+              174,
+              187,
+              206,
+              219,
+              234,
+              255,
+              276,
+              297,
+              320,
+              346,
+              373,
+              399,
+              425,
+              452,
+              478,
+              504,
+              531,
+              557,
+              583
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920312",
+          "kind": "basic",
+          "multiplier": 0.032,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              161,
+              174,
+              187,
+              206,
+              219,
+              234,
+              255,
+              276,
+              297,
+              320,
+              346,
+              373,
+              399,
+              425,
+              452,
+              478,
+              504,
+              531,
+              557,
+              583
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920313",
+          "kind": "basic",
+          "multiplier": 0.032,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              161,
+              174,
+              187,
+              206,
+              219,
+              234,
+              255,
+              276,
+              297,
+              320,
+              346,
+              373,
+              399,
+              425,
+              452,
+              478,
+              504,
+              531,
+              557,
+              583
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920314",
+          "kind": "basic",
+          "multiplier": 0.0639,
+          "offTuneUnits": 0.7272727272727273,
+          "raw": {
+            "element": 4,
+            "element_power": 126,
+            "energy": 90,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              322,
+              348,
+              374,
+              411,
+              438,
+              468,
+              510,
+              552,
+              594,
+              639,
+              692,
+              745,
+              797,
+              850,
+              903,
+              955,
+              1008,
+              1061,
+              1114,
+              1166
+            ],
+            "related_property": "生命",
+            "tough_lv": 3600,
+            "type": 0,
+            "weakness_lvl": 2880
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6057546693589096,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920421",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920431",
+          "kind": "basic",
+          "multiplier": 0.0274,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 4,
+            "element_power": 63,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              138,
+              149,
+              161,
+              177,
+              188,
+              201,
+              219,
+              237,
+              255,
+              274,
+              297,
+              319,
+              342,
+              365,
+              387,
+              410,
+              432,
+              455,
+              478,
+              500
+            ],
+            "related_property": "生命",
+            "tough_lv": 1800,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920432",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920531",
+          "kind": "basic",
+          "multiplier": 0.072,
+          "offTuneUnits": 0.3202020202020202,
+          "raw": {
+            "element": 4,
+            "element_power": 56,
+            "energy": 40,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              363,
+              392,
+              422,
+              463,
+              493,
+              527,
+              575,
+              622,
+              670,
+              720,
+              780,
+              839,
+              898,
+              958,
+              1017,
+              1077,
+              1136,
+              1195,
+              1255,
+              1314
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 1268
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920541",
+          "kind": "basic",
+          "multiplier": 0.288,
+          "offTuneUnits": 1.280050505050505,
+          "raw": {
+            "element": 4,
+            "element_power": 222,
+            "energy": 159,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1449,
+              1567,
+              1686,
+              1852,
+              1971,
+              2108,
+              2298,
+              2488,
+              2678,
+              2880,
+              3117,
+              3355,
+              3592,
+              3830,
+              4067,
+              4305,
+              4542,
+              4780,
+              5017,
+              5255
+            ],
+            "related_property": "生命",
+            "tough_lv": 6336,
+            "type": 0,
+            "weakness_lvl": 5069
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.066128218071681,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920551",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140920601",
+          "kind": "basic",
+          "multiplier": 0.0454,
+          "offTuneUnits": 0.6111111111111112,
+          "raw": {
+            "element": 4,
+            "element_power": 106,
+            "energy": 76,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              229,
+              248,
+              266,
+              292,
+              311,
+              333,
+              363,
+              393,
+              423,
+              454,
+              492,
+              529,
+              567,
+              604,
+              642,
+              679,
+              717,
+              754,
+              791,
+              829
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 2420
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921101",
+          "kind": "basic",
+          "multiplier": 0.0428,
+          "offTuneUnits": 0.4255050505050505,
+          "raw": {
+            "element": 4,
+            "element_power": 74,
+            "energy": 53,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              215,
+              233,
+              251,
+              275,
+              293,
+              313,
+              341,
+              369,
+              398,
+              428,
+              463,
+              498,
+              533,
+              568,
+              604,
+              639,
+              674,
+              709,
+              745,
+              780
+            ],
+            "related_property": "生命",
+            "tough_lv": 2106,
+            "type": 0,
+            "weakness_lvl": 1685
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.35436648157496214,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921102",
+          "kind": "basic",
+          "multiplier": 0.0997,
+          "offTuneUnits": 0.9929292929292929,
+          "raw": {
+            "element": 4,
+            "element_power": 172,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              502,
+              543,
+              584,
+              641,
+              683,
+              730,
+              796,
+              861,
+              927,
+              997,
+              1079,
+              1161,
+              1244,
+              1326,
+              1408,
+              1490,
+              1572,
+              1655,
+              1737,
+              1819
+            ],
+            "related_property": "生命",
+            "tough_lv": 4914,
+            "type": 0,
+            "weakness_lvl": 3932
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8268551236749117,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921201",
+          "kind": "basic",
+          "multiplier": 0.0778,
+          "offTuneUnits": 0.7742424242424243,
+          "raw": {
+            "element": 4,
+            "element_power": 135,
+            "energy": 96,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              391,
+              423,
+              455,
+              500,
+              532,
+              569,
+              621,
+              672,
+              723,
+              778,
+              842,
+              906,
+              970,
+              1034,
+              1098,
+              1162,
+              1226,
+              1290,
+              1354,
+              1419
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 3066
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140921301",
+          "kind": "basic",
+          "multiplier": 0.0389,
+          "offTuneUnits": 0.38712121212121214,
+          "raw": {
+            "element": 4,
+            "element_power": 68,
+            "energy": 48,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              196,
+              212,
+              228,
+              250,
+              266,
+              285,
+              311,
+              336,
+              362,
+              389,
+              421,
+              453,
+              485,
+              517,
+              549,
+              581,
+              613,
+              645,
+              677,
+              710
+            ],
+            "related_property": "生命",
+            "tough_lv": 1916,
+            "type": 0,
+            "weakness_lvl": 1533
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.32239609624768634,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927101",
+          "kind": "basic",
+          "multiplier": 0.0299,
+          "offTuneUnits": 0.532070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 93,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              150,
+              163,
+              175,
+              192,
+              205,
+              219,
+              238,
+              258,
+              278,
+              299,
+              323,
+              348,
+              372,
+              397,
+              422,
+              446,
+              471,
+              495,
+              520,
+              545
+            ],
+            "related_property": "生命",
+            "tough_lv": 2634,
+            "type": 0,
+            "weakness_lvl": 2107
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.44321049974760224,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927103",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927102",
+          "kind": "basic",
+          "multiplier": 0.0299,
+          "offTuneUnits": 0.532070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 93,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              150,
+              163,
+              175,
+              192,
+              205,
+              219,
+              238,
+              258,
+              278,
+              299,
+              323,
+              348,
+              372,
+              397,
+              422,
+              446,
+              471,
+              495,
+              520,
+              545
+            ],
+            "related_property": "生命",
+            "tough_lv": 2634,
+            "type": 0,
+            "weakness_lvl": 2107
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.44321049974760224,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927104",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927105",
+          "kind": "basic",
+          "multiplier": 0.0308,
+          "offTuneUnits": 0.5482323232323232,
+          "raw": {
+            "element": 4,
+            "element_power": 95,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              155,
+              168,
+              180,
+              198,
+              211,
+              225,
+              246,
+              266,
+              286,
+              308,
+              333,
+              358,
+              384,
+              409,
+              434,
+              460,
+              485,
+              510,
+              536,
+              561
+            ],
+            "related_property": "生命",
+            "tough_lv": 2714,
+            "type": 0,
+            "weakness_lvl": 2171
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.45667171462224465,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927110",
+          "kind": "basic",
+          "multiplier": 0.0739,
+          "offTuneUnits": 0.41515151515151516,
+          "raw": {
+            "element": 4,
+            "element_power": 72,
+            "energy": 52,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              372,
+              402,
+              433,
+              475,
+              506,
+              541,
+              589,
+              638,
+              687,
+              739,
+              799,
+              860,
+              921,
+              982,
+              1043,
+              1104,
+              1165,
+              1226,
+              1287,
+              1347
+            ],
+            "related_property": "生命",
+            "tough_lv": 2055,
+            "type": 0,
+            "weakness_lvl": 1644
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3457849570923776,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927120",
+          "kind": "basic",
+          "multiplier": 0.0739,
+          "offTuneUnits": 0.41515151515151516,
+          "raw": {
+            "element": 4,
+            "element_power": 72,
+            "energy": 52,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              372,
+              402,
+              433,
+              475,
+              506,
+              541,
+              589,
+              638,
+              687,
+              739,
+              799,
+              860,
+              921,
+              982,
+              1043,
+              1104,
+              1165,
+              1226,
+              1287,
+              1347
+            ],
+            "related_property": "生命",
+            "tough_lv": 2055,
+            "type": 0,
+            "weakness_lvl": 1644
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3457849570923776,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927111",
+          "kind": "basic",
+          "multiplier": 0.1477,
+          "offTuneUnits": 0.8303030303030303,
+          "raw": {
+            "element": 4,
+            "element_power": 144,
+            "energy": 103,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              743,
+              804,
+              865,
+              950,
+              1011,
+              1081,
+              1178,
+              1276,
+              1373,
+              1477,
+              1598,
+              1720,
+              1842,
+              1964,
+              2086,
+              2207,
+              2329,
+              2451,
+              2573,
+              2694
+            ],
+            "related_property": "生命",
+            "tough_lv": 4110,
+            "type": 0,
+            "weakness_lvl": 3288
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6915699141847552,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927121",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927201",
+          "kind": "basic",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140927210",
+          "kind": "basic",
+          "multiplier": 0.022,
+          "offTuneUnits": 0.38585858585858585,
+          "raw": {
+            "element": 4,
+            "element_power": 67,
+            "energy": 48,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              111,
+              120,
+              129,
+              142,
+              151,
+              161,
+              176,
+              190,
+              205,
+              220,
+              238,
+              256,
+              274,
+              292,
+              311,
+              329,
+              347,
+              365,
+              383,
+              401
+            ],
+            "related_property": "生命",
+            "tough_lv": 1910,
+            "type": 0,
+            "weakness_lvl": 1528
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.32138650513208816,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925101",
+          "kind": "skill",
+          "multiplier": 0.0186,
+          "offTuneUnits": 0.13914141414141415,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 18,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              94,
+              102,
+              109,
+              120,
+              128,
+              137,
+              149,
+              161,
+              173,
+              186,
+              202,
+              217,
+              232,
+              248,
+              263,
+              278,
+              294,
+              309,
+              325,
+              340
+            ],
+            "related_property": "生命",
+            "tough_lv": 4000,
+            "type": 4,
+            "weakness_lvl": 551
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925102",
+          "kind": "skill",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925103",
+          "kind": "skill",
+          "multiplier": 0.1736,
+          "offTuneUnits": 1.2969696969696969,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 161,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              873,
+              945,
+              1017,
+              1117,
+              1188,
+              1271,
+              1385,
+              1500,
+              1614,
+              1736,
+              1879,
+              2022,
+              2166,
+              2309,
+              2452,
+              2595,
+              2738,
+              2881,
+              3025,
+              3168
+            ],
+            "related_property": "生命",
+            "tough_lv": 6419,
+            "type": 4,
+            "weakness_lvl": 5136
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.0800942285041224,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925201",
+          "kind": "skill",
+          "multiplier": 0.0186,
+          "offTuneUnits": 0.13914141414141415,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              94,
+              102,
+              109,
+              120,
+              128,
+              137,
+              149,
+              161,
+              173,
+              186,
+              202,
+              217,
+              232,
+              248,
+              263,
+              278,
+              294,
+              309,
+              325,
+              340
+            ],
+            "related_property": "生命",
+            "tough_lv": 688,
+            "type": 4,
+            "weakness_lvl": 551
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.11576644792192495,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925202",
+          "kind": "skill",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925221",
+          "kind": "skill",
+          "multiplier": 0.0703,
+          "offTuneUnits": 0.525,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 250,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              354,
+              383,
+              412,
+              452,
+              481,
+              515,
+              561,
+              607,
+              654,
+              703,
+              761,
+              819,
+              877,
+              935,
+              993,
+              1051,
+              1109,
+              1167,
+              1225,
+              1282
+            ],
+            "related_property": "生命",
+            "tough_lv": 2599,
+            "type": 4,
+            "weakness_lvl": 2079
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.43732121823994613,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "140925222",
+          "kind": "skill",
+          "multiplier": 0.0,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "【卡提希娅】化身【芙露德莉斯】后，会获得全新的战斗形态：\n \n 普攻·芙露德莉斯\n 普攻·卡提希娅替换为普攻·芙露德莉斯\n 进行最多5段的连续攻击，造成气动伤害，命中目标时获得【决意】。\n \n 空中攻击·芙露德莉斯\n 空中攻击·卡提希娅替换为空中攻击·芙露德莉斯。\n 消耗耐力，在空中进行至多3段的连续攻击，造成气动伤害，命中目标时获得【决意】。\n 处于空中时，长按普攻，可施放空中攻击·芙露德莉斯第3段。\n 施放空中攻击·芙露德莉斯第3段后一定时间内短按普攻，将会施放普攻·芙露德莉斯第3段。\n 处于空中时，施放共鸣技能·此剑为潮浪之意、共鸣技能·凭风斩浪破敌后，会重置空中攻击·芙露德莉斯连击段数。\n \n  重击·芙露德莉斯\n 重击·卡提希娅替换为重击·芙露德莉斯\n 汇聚剑意，向前突刺造成气动伤害，命中目标时获得【决意】，此次伤害为普攻伤害。\n \n 强化重击·芙露德莉斯\n 在重击·芙露德莉斯施放期间，按下普攻键可施放强化重击·芙露德莉斯，向后退并在直线范围内造成气动伤害，命中目标时获得【决意】，此次伤害为普攻伤害。\n 施放强化重击·芙露德莉斯后一定时间内短按普攻，将会施放上挑攻击·芙露德莉斯。\n \n 上挑攻击·芙露德莉斯\n 【芙露德莉斯】处于地面状态时短按跳跃可施放该技能，造成气动伤害，命中目标时获得【决意】。\n \n 闪避反击·芙露德莉斯\n 闪避反击·卡提希娅替换为闪避反击·芙露德莉斯\n 成功闪避后一定时间内短按普攻，造成气动伤害，命中目标时获得【决意】。\n 施放该技能后短按普攻，将会施放普攻·芙露德莉斯第4段。\n \n 共鸣技能·此剑为潮浪之意\n 共鸣技能·卡提希娅替换为共鸣技能·此剑为潮浪之意。\n 在目标位置处召唤重力场，并将周围的目标牵引至重力场中心，造成气动伤害，命中目标时获得【决意】。\n 可以在空中施放。\n \n 共鸣技能·凭风斩浪破敌\n 在施放共鸣技能·此剑为潮浪之意后一定时间内，可再次点按共鸣技能,召唤巨大的剑之影从空中坠落，在目标位置处召唤重力场，并将周围的目标牵引至重力场中心，对地面的目标造成气动伤害，命中目标时获得【决意】。施放该技能后一定时间内短按普攻，将会施放普攻·芙露德莉斯第3段。\n 若切换至其他角色或者一定时间内没有施放共鸣技能·凭风斩浪破敌，则技能进入冷却状态。\n 可以在空中施放。",
+      "headings": [
+        "普攻·芙露德莉斯",
+        "空中攻击·芙露德莉斯",
+        "重击·芙露德莉斯",
+        "强化重击·芙露德莉斯",
+        "上挑攻击·芙露德莉斯",
+        "闪避反击·芙露德莉斯",
+        "共鸣技能·此剑为潮浪之意",
+        "共鸣技能·凭风斩浪破敌"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaY.SP_IconKatixiyaY",
+      "id": "defiers_thorn/node_7",
+      "name": "暴风雨",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "13",
+          "name": "普攻第一段伤害",
+          "values": [
+            "6.49%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "14",
+          "name": "普攻第二段伤害",
+          "values": [
+            "3.63%+1.82%+1.82%+1.82%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "15",
+          "name": "普攻第三段伤害",
+          "values": [
+            "2.13%+2.13%+2.13%+4.26%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "16",
+          "name": "普攻第四段伤害",
+          "values": [
+            "2.74%*5"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "17",
+          "name": "普攻第五段伤害",
+          "values": [
+            "7.20%+28.80%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "18",
+          "name": "闪避反击伤害",
+          "values": [
+            "3.20%+3.20%+3.20%+6.39%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "19",
+          "name": "上挑攻击伤害",
+          "values": [
+            "4.54%*2"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "20",
+          "name": "重击伤害",
+          "values": [
+            "4.28%+9.97%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "21",
+          "name": "强化重击伤害",
+          "values": [
+            "7.78%*2+3.89%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "25",
+          "name": "空中攻击第一段伤害",
+          "values": [
+            "2.99%+2.99%+3.08%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "26",
+          "name": "空中攻击第二段伤害",
+          "values": [
+            "7.39%+7.39%+14.77%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "27",
+          "name": "空中攻击第三段伤害",
+          "values": [
+            "2.20%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "28",
+          "name": "共鸣技能·此剑为潮浪之意伤害",
+          "values": [
+            "1.86%*4+17.36%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "28_2",
+          "name": "共鸣技能·此剑为潮浪之意回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "29",
+          "name": "共鸣技能·凭风斩浪破敌伤害",
+          "values": [
+            "1.86%*2+7.03%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "29_2",
+          "name": "共鸣技能·凭风斩浪破敌回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "41",
+          "name": "共鸣技能冷却时间",
+          "values": [
+            "14"
+          ]
+        },
+        {
+          "format": null,
+          "id": "42",
+          "name": "重击耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "43",
+          "name": "强化重击耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "44",
+          "name": "空中攻击第一段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "45",
+          "name": "空中攻击第二段耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "46",
+          "name": "空中攻击第三段耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<color=Highlight>【卡提希娅】</color>化身<color=Highlight>【芙露德莉斯】</color>后，会获得全新的战斗形态：\n \n <size=40><color=Title>普攻·芙露德莉斯</color></size>\n <color=Highlight>普攻·卡提希娅</color>替换为<color=Highlight>普攻·芙露德莉斯</color>\n 进行最多5段的连续攻击，造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n \n <size=40><color=Title>空中攻击·芙露德莉斯</color></size>\n <color=Highlight>空中攻击·卡提希娅</color>替换为<color=Highlight>空中攻击·芙露德莉斯</color>。\n 消耗耐力，在空中进行至多3段的连续攻击，造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n 处于空中时，长按<color=Highlight>普攻</color>，可施放<color=Highlight>空中攻击·芙露德莉斯第3段</color>。\n 施放<color=Highlight>空中攻击·芙露德莉斯第3段</color>后一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·芙露德莉斯第3段</color>。\n 处于空中时，施放<color=Highlight>共鸣技能·此剑为潮浪之意</color>、<color=Highlight>共鸣技能·凭风斩浪破敌</color>后，会重置<color=Highlight>空中攻击·芙露德莉斯</color>连击段数。\n \n  <size=40><color=Title>重击·芙露德莉斯</color></size>\n <color=Highlight>重击·卡提希娅</color>替换为<color=Highlight>重击·芙露德莉斯</color>\n 汇聚剑意，向前突刺造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>，此次伤害为普攻伤害。\n \n <size=40><color=Title>强化重击·芙露德莉斯</color></size>\n 在<color=Highlight>重击·芙露德莉斯</color>施放期间，按下<color=Highlight>普攻</color>键可施放<color=Highlight>强化重击·芙露德莉斯</color>，向后退并在直线范围内造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>，此次伤害为普攻伤害。\n 施放<color=Highlight>强化重击·芙露德莉斯</color>后一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>上挑攻击·芙露德莉斯</color>。\n \n <size=40><color=Title>上挑攻击·芙露德莉斯</color></size>\n <color=Highlight>【芙露德莉斯】</color>处于地面状态时短按<color=Highlight>跳跃</color>可施放该技能，造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n \n <size=40><color=Title>闪避反击·芙露德莉斯</color></size>\n <color=Highlight>闪避反击·卡提希娅</color>替换为<color=Highlight>闪避反击·芙露德莉斯</color>\n 成功闪避后一定时间内短按<color=Highlight>普攻</color>，造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n 施放该技能后短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·芙露德莉斯第4段</color>。\n \n <size=40><color=Title>共鸣技能·此剑为潮浪之意</color></size>\n <color=Highlight>共鸣技能·卡提希娅</color>替换为<color=Highlight>共鸣技能·此剑为潮浪之意</color>。\n 在目标位置处召唤重力场，并将周围的目标牵引至重力场中心，造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。\n 可以在空中施放。\n \n <size=40><color=Title>共鸣技能·凭风斩浪破敌</color></size>\n 在施放<color=Highlight>共鸣技能·此剑为潮浪之意</color>后一定时间内，可再次点按<color=Highlight>共鸣技能</color>,召唤巨大的剑之影从空中坠落，在目标位置处召唤重力场，并将周围的目标牵引至重力场中心，对地面的目标造成<color=Wind>气动伤害</color>，命中目标时获得<color=Highlight>【<te href=850179>决意</te>】</color>。施放该技能后一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·芙露德莉斯第3段</color>。\n 若切换至其他角色或者一定时间内没有施放<color=Highlight>共鸣技能·凭风斩浪破敌</color>，则技能进入冷却状态。\n 可以在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "队伍中除【卡提希娅】、【芙露德莉斯】以外的登场角色对拥有【异常效应】的目标造成的气动伤害加深17.5%，持续20秒。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconKatixiya/SP_IconKatixiyaT.SP_IconKatixiyaT",
+      "id": "defiers_thorn/node_8",
+      "name": "听风潮为你祝颂",
+      "parameters": [],
+      "rawDescription": "队伍中除<color=Highlight>【卡提希娅】</color>、<color=Highlight>【芙露德莉斯】</color>以外的登场角色对拥有【<te href=850180>异常效应</te>】的目标造成的<color=Wind>气动伤害</color>加深17.5%，持续20秒。",
+      "rawParameters": [],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "defiers_thorn/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "defiers_thorn/node_10",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "defiers_thorn/node_11",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "defiers_thorn/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "defiers_thorn/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "defiers_thorn/node_14",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "defiers_thorn/node_15",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "defiers_thorn/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakKnife.SP_IconWeakPointBreakKnife",
+      "id": "defiers_thorn/node_17",
+      "name": "谐度破坏·迅刀",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    17,
+    17,
+    17,
+    17,
+    17
+  ],
+  "sourceId": 1409,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1409.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "自由骑士之舞",
+    "name": "不屈命定之冠",
+    "refinements": [
+      {
+        "description": "生命提升12%。施放变奏技能或普攻后15秒内，自身造成伤害无视目标8%防御，当目标的风蚀效应不少于1层时，对目标造成的伤害加深20%。",
+        "parameters": [
+          "12%",
+          "8%",
+          "20%",
+          "15"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "生命提升15%。施放变奏技能或普攻后15秒内，自身造成伤害无视目标10%防御，当目标的风蚀效应不少于1层时，对目标造成的伤害加深25%。",
+        "parameters": [
+          "15%",
+          "10%",
+          "25%",
+          "15"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "生命提升18%。施放变奏技能或普攻后15秒内，自身造成伤害无视目标12%防御，当目标的风蚀效应不少于1层时，对目标造成的伤害加深30%。",
+        "parameters": [
+          "18%",
+          "12%",
+          "30%",
+          "15"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "生命提升21%。施放变奏技能或普攻后15秒内，自身造成伤害无视目标14%防御，当目标的风蚀效应不少于1层时，对目标造成的伤害加深35%。",
+        "parameters": [
+          "21%",
+          "14%",
+          "35%",
+          "15"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "生命提升24%。施放变奏技能或普攻后15秒内，自身造成伤害无视目标16%防御，当目标的风蚀效应不少于1层时，对目标造成的伤害加深40%。",
+        "parameters": [
+          "24%",
+          "16%",
+          "40%",
+          "15"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21020056,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 412.5,
+        "value": 412.5
+      },
+      {
+        "isPercent": false,
+        "isRatio": true,
+        "name": "生命",
+        "rawValue": 0.7222500219941139,
+        "value": 0.7222500219941139
+      }
+    ]
+  },
+  "weaponType": 2
+}

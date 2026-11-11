@@ -1,0 +1,52 @@
+package cn.zgnhit.mcwuwa.client;
+import java.util.Map;
+/** Retained non-autonomous hit clocks. */
+final class SealPuppetContactClocks {
+    record Clock(int duration,int... hits){}
+    static final Map<String,Clock> ALL=Map.ofEntries(
+        Map.entry("hsin/heavy",new Clock(26,7,10,13,16,19,22)),
+        Map.entry("hsin/air",new Clock(24,6)),
+        Map.entry("hsin/dodge_counter",new Clock(20,4,8,12,16)),
+        Map.entry("hsin/illuminated_basic_01",new Clock(14,3,6,10)),
+        Map.entry("hsin/illuminated_word_lock",new Clock(24,6,20)),
+        Map.entry("hsin/illuminated_basic_02",new Clock(20,5,16)),
+        Map.entry("hsin/illuminated_basic_03",new Clock(24,6,8,9,11,12,14,15,17,18,20)),
+        Map.entry("hsin/illuminated_heavy",new Clock(26,7,22)),
+        Map.entry("hsin/illuminated_uppercut",new Clock(24,6,20)),
+        Map.entry("hsin/illuminated_air",new Clock(24,6,20)),
+        Map.entry("hsin/illuminated_dodge_counter",new Clock(20,4,16)),
+        Map.entry("hsin/thousand_palaces_basic_01",new Clock(14,3,6,10)),
+        Map.entry("hsin/thousand_palaces_basic_02",new Clock(20,5,10,16)),
+        Map.entry("hsin/thousand_palaces_basic_03",new Clock(24,6,10,13,16,20)),
+        Map.entry("hsin/thousand_palaces_basic_04",new Clock(26,6,8,11,13,15,17,20,22)),
+        Map.entry("hsin/thousand_palaces_counter",new Clock(24,6,13,20)),
+        Map.entry("hsin/skill",new Clock(26,6,9,12,16,19,22)),
+        Map.entry("hsin/illuminated_skill",new Clock(24,6,10,13,16,20)),
+        Map.entry("hsin/intro",new Clock(24,5,9,12,16,20)),
+        Map.entry("hsin/intro_unison",new Clock(24,5,8,11,14,17,20)),
+        Map.entry("hsin/intro_full_unison",new Clock(24,5,8,11,14,17,20)),
+        Map.entry("hsin/illuminated_intro",new Clock(24,6,8,9,11,12,14,15,17,18,20)),
+        Map.entry("hsin/illuminated_intro_unison",new Clock(24,6,8,10,11,13,15,16,18,20)),
+        Map.entry("hsin/illuminated_intro_full_unison",new Clock(24,6,8,10,11,13,15,16,18,20)),
+        Map.entry("hsin/worldly_suppress",new Clock(24,6,8,10,12,14,16,18,20)),
+        Map.entry("hsin/illuminated_descend",new Clock(24,6,10,13,16,20)),
+        Map.entry("hsin/illuminated_suppress",new Clock(24,6,10,13,16,20)),
+        Map.entry("yinlin/heavy",new Clock(26,7,22)),
+        Map.entry("yinlin/air",new Clock(24,6)),
+        Map.entry("yinlin/dodge_counter",new Clock(20,4,6,8,10,12,14,16)),
+        Map.entry("yinlin/skill",new Clock(26,6,14,22)),
+        Map.entry("yinlin/skill_blast",new Clock(26,6,11,17,22)),
+        Map.entry("yinlin/magnetic_blast",new Clock(24,6)),
+        Map.entry("yinlin/intro",new Clock(24,5,7,8,10,12,13,15,17,18,20)),
+        Map.entry("yinlin/chameleon",new Clock(24,6,20)),
+        Map.entry("changli/heavy",new Clock(26,7,12,17,22)),
+        Map.entry("changli/air",new Clock(24,6)),
+        Map.entry("changli/dodge_counter",new Clock(20,4,10,16)),
+        Map.entry("changli/skill",new Clock(26,6,11,17,22)),
+        Map.entry("changli/true_sight_conquest",new Clock(24,6,11,15,20)),
+        Map.entry("changli/true_sight_charge",new Clock(24,6,20)),
+        Map.entry("changli/intro",new Clock(24,5,9,12,16,20)),
+        Map.entry("changli/heavy_flaming_sacrifice",new Clock(26,7,10,13,16,19,22)),
+        Map.entry("changli/heavy_flaming_sacrifice_c5",new Clock(26,7,10,13,16,19,22)));
+    private SealPuppetContactClocks(){}
+}

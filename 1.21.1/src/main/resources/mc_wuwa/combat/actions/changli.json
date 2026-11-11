@@ -1,0 +1,836 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205001000"
+        },
+        {
+          "count": 1,
+          "damageId": "1205001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        8
+      ],
+      "id": "changli/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "29.49%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.5898,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "changli/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "35.49%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7098,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003002"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003003"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        16
+      ],
+      "id": "changli/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "36.45%*3",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0935,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205004001"
+        },
+        {
+          "count": 4,
+          "damageId": "1205004002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "changli/basic_04",
+      "name": "普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "50.70%+29.58%*4",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.6902,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205001100"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "changli/air_basic_01",
+      "name": "空中攻击第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "61.35%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6135,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205002100"
+        },
+        {
+          "count": 1,
+          "damageId": "1205002101"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "changli/air_basic_02",
+      "name": "空中攻击第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "50.87%*2",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0174,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205003100"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003101"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003102"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        16
+      ],
+      "id": "changli/air_basic_03",
+      "name": "空中攻击第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "44.00%*3",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.32,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205004100"
+        },
+        {
+          "count": 4,
+          "damageId": "1205004101"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "changli/air_basic_04",
+      "name": "空中攻击第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "38.03%+22.18%*4",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.2675,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1205006001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205006002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "changli/heavy",
+      "name": "重击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "28.99%*3+37.27%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.2424,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205006100"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "changli/air",
+      "name": "空中重击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "123.27%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2327,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205003011"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003012"
+        },
+        {
+          "count": 1,
+          "damageId": "1205003013"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "changli/dodge_counter",
+      "name": "闪避反击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "82.64%*3",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.4792,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205201001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205201004"
+        },
+        {
+          "count": 1,
+          "damageId": "1205201005"
+        },
+        {
+          "count": 1,
+          "damageId": "1205201002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "changli/skill",
+      "name": "心眼·劫伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "81.88%*3+163.76%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 4.094,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205005001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205005002"
+        },
+        {
+          "count": 1,
+          "damageId": "1205005003"
+        },
+        {
+          "count": 1,
+          "damageId": "1205005004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "changli/true_sight_conquest",
+      "name": "心眼·征伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "58.95%*2+82.52%+94.31%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.9473,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205005100"
+        },
+        {
+          "count": 1,
+          "damageId": "1205005101"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "changli/true_sight_charge",
+      "name": "心眼·冲伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "72.68%+109.02%",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.817,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 90,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205401001"
+        }
+      ],
+      "hitTimesTicks": [
+        60
+      ],
+      "id": "changli/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "1212.75%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "docs/reference/new-six-20261021/changli-official-3.gif active=[0.5, 5]; Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields.",
+      "totalHitCount": 1,
+      "totalMultiplier": 12.1275,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1205004300"
+        },
+        {
+          "count": 4,
+          "damageId": "1205004301"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16,
+        20
+      ],
+      "id": "changli/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "44.50%+25.96%*4",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.4834,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1205007001"
+        },
+        {
+          "count": 1,
+          "damageId": "1205007002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "changli/heavy_flaming_sacrifice",
+      "name": "焚身以火伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "39.25%*5+457.85%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 6.541,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "changli",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1205007101"
+        },
+        {
+          "count": 1,
+          "damageId": "1205007102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "changli/heavy_flaming_sacrifice_c5",
+      "name": "焚身以火·五链原始替换行",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "58.87%*5+686.78%",
+      "sourceNode": 7,
+      "sourceParameter": "flaming_sacrifice_c5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 9.8113,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_brilliance"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,345 @@
+{
+  "characters": [
+    {
+      "id": "thunderflare_dominion",
+      "name": "奥古斯塔",
+      "resource": "characters/thunderflare_dominion.json",
+      "sourceId": 1306
+    },
+    {
+      "id": "frame_signature",
+      "name": "洛瑟菈",
+      "resource": "characters/frame_signature.json",
+      "sourceId": 1109
+    },
+    {
+      "id": "unspoken_rue",
+      "name": "锁暝",
+      "resource": "characters/unspoken_rue.json",
+      "sourceId": 1312
+    },
+    {
+      "id": "blazing_justice",
+      "name": "赞妮",
+      "resource": "characters/blazing_justice.json",
+      "sourceId": 1507
+    },
+    {
+      "id": "rime_draped_sprouts",
+      "name": "折枝",
+      "resource": "characters/rime_draped_sprouts.json",
+      "sourceId": 1105
+    },
+    {
+      "id": "forged_dwarf_star",
+      "name": "达妮娅",
+      "resource": "characters/forged_dwarf_star.json",
+      "sourceId": 1211
+    },
+    {
+      "id": "moongazers_sigil",
+      "name": "尤诺",
+      "resource": "characters/moongazers_sigil.json",
+      "sourceId": 1410
+    },
+    {
+      "id": "blazing_brilliance",
+      "name": "长离",
+      "resource": "characters/blazing_brilliance.json",
+      "sourceId": 1205
+    },
+    {
+      "id": "glint_of_clouds",
+      "name": "清宵",
+      "resource": "characters/glint_of_clouds.json",
+      "sourceId": 1413
+    },
+    {
+      "id": "wildfire_mark",
+      "name": "露帕",
+      "resource": "characters/wildfire_mark.json",
+      "sourceId": 1207
+    },
+    {
+      "id": "the_last_dance",
+      "name": "珂莱塔",
+      "resource": "characters/the_last_dance.json",
+      "sourceId": 1107
+    },
+    {
+      "id": "luminous_hymn",
+      "name": "菲比",
+      "resource": "characters/luminous_hymn.json",
+      "sourceId": 1506
+    },
+    {
+      "id": "firstlights_herald",
+      "name": "穗穗",
+      "resource": "characters/firstlights_herald.json",
+      "sourceId": 1110
+    },
+    {
+      "id": "whispers_of_sirens",
+      "name": "坎特蕾拉",
+      "resource": "characters/whispers_of_sirens.json",
+      "sourceId": 1607
+    },
+    {
+      "id": "kumokiri",
+      "name": "千咲",
+      "resource": "characters/kumokiri.json",
+      "sourceId": 1508
+    },
+    {
+      "id": "ages_of_harvest",
+      "name": "今汐",
+      "resource": "characters/ages_of_harvest.json",
+      "sourceId": 1304
+    },
+    {
+      "id": "starfield_calibrator",
+      "name": "莫宁",
+      "resource": "characters/starfield_calibrator.json",
+      "sourceId": 1209
+    },
+    {
+      "id": "defiers_thorn",
+      "name": "卡提希娅",
+      "resource": "characters/defiers_thorn.json",
+      "sourceId": 1409
+    },
+    {
+      "id": "red_spring",
+      "name": "椿",
+      "resource": "characters/red_spring.json",
+      "sourceId": 1603
+    },
+    {
+      "id": "azure_oath",
+      "name": "秧秧·玄翎",
+      "resource": "characters/azure_oath.json",
+      "sourceId": 1610
+    },
+    {
+      "id": "bloodpacts_pledge",
+      "name": "漂泊者·气动",
+      "resource": "characters/bloodpacts_pledge.json",
+      "sourceId": 1406
+    },
+    {
+      "id": "everbright_polestar",
+      "name": "爱弥斯",
+      "resource": "characters/everbright_polestar.json",
+      "sourceId": 1210
+    },
+    {
+      "id": "frostburn",
+      "name": "绯雪",
+      "resource": "characters/frostburn.json",
+      "sourceId": 1108
+    },
+    {
+      "id": "spectrum_blaster",
+      "name": "琳奈",
+      "resource": "characters/spectrum_blaster.json",
+      "sourceId": 1509
+    },
+    {
+      "id": "stringmaster",
+      "name": "吟霖",
+      "resource": "characters/stringmaster.json",
+      "sourceId": 1302
+    },
+    {
+      "id": "lethean_elegy",
+      "name": "弗洛洛",
+      "resource": "characters/lethean_elegy.json",
+      "sourceId": 1608
+    },
+    {
+      "id": "blooming_jadehaven",
+      "name": "心",
+      "resource": "characters/blooming_jadehaven.json",
+      "sourceId": 1311
+    },
+    {
+      "id": "emerald_sentence",
+      "name": "仇远",
+      "resource": "characters/emerald_sentence.json",
+      "sourceId": 1411
+    },
+    {
+      "id": "woodland_aria",
+      "name": "夏空",
+      "resource": "characters/woodland_aria.json",
+      "sourceId": 1407
+    },
+    {
+      "id": "stellar_symphony",
+      "name": "守岸人",
+      "resource": "characters/stellar_symphony.json",
+      "sourceId": 1505
+    },
+    {
+      "id": "solsworn_ciphers",
+      "name": "西格莉卡",
+      "resource": "characters/solsworn_ciphers.json",
+      "sourceId": 1412
+    },
+    {
+      "id": "lux_and_umbra",
+      "name": "嘉贝莉娜",
+      "resource": "characters/lux_and_umbra.json",
+      "sourceId": 1208
+    }
+  ],
+  "dataVersion": "3.7",
+  "echoes": [
+    {
+      "name": "无常凶鹭",
+      "resource": "echoes/6000052.json",
+      "sourceId": 6000052
+    },
+    {
+      "name": "角",
+      "resource": "echoes/6000059.json",
+      "sourceId": 6000059
+    },
+    {
+      "name": "无归的谬误",
+      "resource": "echoes/6000060.json",
+      "sourceId": 6000060
+    },
+    {
+      "name": "罗蕾莱",
+      "resource": "echoes/6000082.json",
+      "sourceId": 6000082
+    },
+    {
+      "name": "异构武装",
+      "resource": "echoes/6000083.json",
+      "sourceId": 6000083
+    },
+    {
+      "name": "梦魇·无冠者",
+      "resource": "echoes/6000090.json",
+      "sourceId": 6000090
+    },
+    {
+      "name": "梦魇·燎照之骑",
+      "resource": "echoes/6000091.json",
+      "sourceId": 6000091
+    },
+    {
+      "name": "梦魇·哀声鸷",
+      "resource": "echoes/6000092.json",
+      "sourceId": 6000092
+    },
+    {
+      "name": "荣光节使",
+      "resource": "echoes/6000104.json",
+      "sourceId": 6000104
+    },
+    {
+      "name": "共鸣回响·芙露德莉斯",
+      "resource": "echoes/6000106.json",
+      "sourceId": 6000106
+    },
+    {
+      "name": "荣耀狮像",
+      "resource": "echoes/6000114.json",
+      "sourceId": 6000114
+    },
+    {
+      "name": "梦魇·赫卡忒",
+      "resource": "echoes/6000115.json",
+      "sourceId": 6000115
+    },
+    {
+      "name": "共鸣回响·芬莱克",
+      "resource": "echoes/6000116.json",
+      "sourceId": 6000116
+    },
+    {
+      "name": "伪作的神王",
+      "resource": "echoes/6000121.json",
+      "sourceId": 6000121
+    },
+    {
+      "name": "海之女",
+      "resource": "echoes/6000160.json",
+      "sourceId": 6000160
+    },
+    {
+      "name": "共鸣回响·鸣式·利维亚坦",
+      "resource": "echoes/6000167.json",
+      "sourceId": 6000167
+    },
+    {
+      "name": "海维夏",
+      "resource": "echoes/6000189.json",
+      "sourceId": 6000189
+    },
+    {
+      "name": "炉芯机骸",
+      "resource": "echoes/6000190.json",
+      "sourceId": 6000190
+    },
+    {
+      "name": "辛吉勒姆",
+      "resource": "echoes/6000191.json",
+      "sourceId": 6000191
+    },
+    {
+      "name": "无铭探索者",
+      "resource": "echoes/6000192.json",
+      "sourceId": 6000192
+    },
+    {
+      "name": "格洛犸图",
+      "resource": "echoes/6000195.json",
+      "sourceId": 6000195
+    },
+    {
+      "name": "迷胧幻蛾",
+      "resource": "echoes/6000198.json",
+      "sourceId": 6000198
+    },
+    {
+      "name": "共鸣回响·鸣式·虚造神型",
+      "resource": "echoes/6000199.json",
+      "sourceId": 6000199
+    },
+    {
+      "name": "共鸣回响·达妮娅",
+      "resource": "echoes/6000200.json",
+      "sourceId": 6000200
+    },
+    {
+      "name": "千傀重楼",
+      "resource": "echoes/6000218.json",
+      "sourceId": 6000218
+    },
+    {
+      "name": "天傀劫煞",
+      "resource": "echoes/6000221.json",
+      "sourceId": 6000221
+    },
+    {
+      "name": "绝息魄",
+      "resource": "echoes/6000224.json",
+      "sourceId": 6000224
+    },
+    {
+      "name": "共鸣回响·天演溯心",
+      "resource": "echoes/6000225.json",
+      "sourceId": 6000225
+    }
+  ],
+  "gameplayDataOverridesAllowed": false,
+  "hotfix": "3.7.6",
+  "rawDamageRowCount": 2071,
+  "schemaVersion": 1,
+  "supplementalResourceDefinition": "native_resources.json",
+  "supplementalResourceVersion": "3.7.8"
+}

@@ -1,0 +1,1504 @@
+{
+  "schemaVersion": 1,
+  "characterId": "aero_rover",
+  "weaponId": "mc_wuwa:bloodpacts_pledge",
+  "palette": [
+    120,
+    224,
+    173
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1406",
+    "data-source/nanoka/3.7/zh/character/1406.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:aero_rover/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:aero_rover/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:aero_rover/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:aero_rover/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.4,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:aero_rover/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:aero_rover/heavy/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:aero_rover/air/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:aero_rover/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.376,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:aero_rover/skill/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "skillPhaseObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/aero_rover-1.gif",
+        "review": "complete 5.6-second panel timeline sampled at 0.3 seconds; skill and subsequent air skill separated",
+        "scope": "body phase adaptation, existing MC contact times; not frame-exact motion capture",
+        "nativeReview": "pending"
+      },
+      "thirdPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "skillLightObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/aero_rover-1.gif",
+        "reviewPages": [
+          "docs/reference/20261029-aero-skill/skill_review-00.jpg",
+          "docs/reference/20261029-aero-skill/skill_review-01.jpg",
+          "docs/reference/20261029-aero-skill/skill_review-02.jpg"
+        ],
+        "review": "complete 5.6-second skill card resampled at0.3s, all three sheets viewed 2026-11-04",
+        "scope": "rising cut, low sweep and aerial crossed wind; retained MC contacts and geometry, not frame-exact capture",
+        "implementation": "AeroSkillVfx",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:aero_rover/liberation/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.7,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/aero_rover-2.gif",
+        "scope": "complete archived skill GIF contact sheets reviewed; source gestures fitted to existing MC contact schedule, not frame-exact timing",
+        "acceptance": "native visual review pending"
+      },
+      "sourceReviewedClock": {
+        "durationTicks": 80,
+        "hitTimesTicks": [
+          54
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.3375
+          ],
+          [
+            0.25,
+            0.675
+          ],
+          [
+            0.52,
+            0.7985
+          ],
+          [
+            0.82,
+            0.88625
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/existing-roles/aero_rover-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          4.5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:aero_rover/intro/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "introPhaseObservation": {
+        "source": "docs/reference/aero-intro-detail/source.json",
+        "scope": "All58 frames of the5.8s archived official intro panel reviewed; rising entry, rotating sweep and low recovery adapted to existing24-tick/two-contact schedule. No original exact-frame claim; no camera, geometry or damage change.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:aero_rover/outro/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:aero_rover/echo/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/razor_gale",
+      "stateVariant": "razor_gale",
+      "thirdPersonClip": "mc_wuwa:aero_rover/razor_gale/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/razor_gale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/gale_thrust",
+      "stateVariant": "gale_thrust",
+      "thirdPersonClip": "mc_wuwa:aero_rover/gale_thrust/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/gale_thrust/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/sky_break",
+      "stateVariant": "sky_break",
+      "thirdPersonClip": "mc_wuwa:aero_rover/sky_break/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/sky_break/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/aerial_dance",
+      "stateVariant": "aerial_dance",
+      "thirdPersonClip": "mc_wuwa:aero_rover/aerial_dance/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/aerial_dance/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/windless_form",
+      "stateVariant": "windless_form",
+      "thirdPersonClip": "mc_wuwa:aero_rover/windless_form/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/windless_form/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/heavy_strangle",
+      "stateVariant": "heavy_strangle",
+      "thirdPersonClip": "mc_wuwa:aero_rover/heavy_strangle/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/heavy_strangle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/skill_sky",
+      "stateVariant": "skill_sky",
+      "thirdPersonClip": "mc_wuwa:aero_rover/skill_sky/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/skill_sky/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "skillPhaseObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/aero_rover-1.gif",
+        "review": "complete 5.6-second panel timeline sampled at 0.3 seconds; skill and subsequent air skill separated",
+        "scope": "body phase adaptation, existing MC contact times; not frame-exact motion capture",
+        "nativeReview": "pending"
+      },
+      "thirdPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "skillLightObservation": {
+        "source": "docs/reference/original-skill-gifs/existing-roles/aero_rover-1.gif",
+        "reviewPages": [
+          "docs/reference/20261029-aero-skill/skill_review-00.jpg",
+          "docs/reference/20261029-aero-skill/skill_review-01.jpg",
+          "docs/reference/20261029-aero-skill/skill_review-02.jpg"
+        ],
+        "review": "complete 5.6-second skill card resampled at0.3s, all three sheets viewed 2026-11-04",
+        "scope": "rising cut, low sweep and aerial crossed wind; retained MC contacts and geometry, not frame-exact capture",
+        "implementation": "AeroSkillVfx",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/wind_air_01",
+      "stateVariant": "wind_air_01",
+      "thirdPersonClip": "mc_wuwa:aero_rover/wind_air_01/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/wind_air_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/wind_air_02",
+      "stateVariant": "wind_air_02",
+      "thirdPersonClip": "mc_wuwa:aero_rover/wind_air_02/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/wind_air_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/unbound_wind_01",
+      "stateVariant": "unbound_wind_01",
+      "thirdPersonClip": "mc_wuwa:aero_rover/unbound_wind_01/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/unbound_wind_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:aero_rover/unbound_wind_02",
+      "stateVariant": "unbound_wind_02",
+      "thirdPersonClip": "mc_wuwa:aero_rover/unbound_wind_02/tp",
+      "firstPersonClip": "mc_wuwa:aero_rover/unbound_wind_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1406",
+        "data-source/nanoka/3.7/zh/character/1406.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousWindMelodyHeavies": {
+        "source": "docs/reference/enhanced-attacks-motion/support-blades/source.json",
+        "scope": "Observed normal/heavy and conditional attack contact sheets; continuous MC joint adaptation. Not frame-exact. Existing motion, contacts, weapons and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

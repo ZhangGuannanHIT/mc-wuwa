@@ -1,0 +1,248 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "20008801",
+      "kind": "echo",
+      "multiplier": 1.188,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 165,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          6600,
+          7920,
+          9240,
+          10560,
+          11880
+        ],
+        "related_property": "攻击",
+        "tough_lv": 6600,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.110550227158001,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "20008802",
+      "kind": "echo",
+      "multiplier": 0.594,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 82,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3300,
+          3960,
+          4620,
+          5280,
+          5940
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3300,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.5552751135790005,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤荣光节使，向目标跳砸，造成118.80%的衍射伤害，并生成额外的4道【凛冽裁决】，每道造成59.40%的衍射伤害。\n在首位装配该声骸技能时，自身衍射伤害加成提升12.00%，重击伤害加成提升12.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "荣光节使",
+  "parameters": [
+    "118.80%",
+    "59.40%",
+    "12.00%",
+    "12.00%",
+    "20"
+  ],
+  "raw": {
+    "code": "W71-",
+    "group": {
+      "11": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightError.T_IconElementAttriLightError",
+        "id": 11,
+        "name": "此间永驻之光",
+        "set": {
+          "2": {
+            "desc": "衍射伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【光噪效应】时，自身暴击提升{0}，持续{1}秒；攻击存在{2}层【光噪效应】的敌人时，自身衍射伤害加成提升{3}，持续{4}秒。",
+            "param": [
+              "20%",
+              "15",
+              "10",
+              "15%",
+              "15"
+            ]
+          }
+        }
+      },
+      "16": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindError.T_IconElementAttriWindError",
+        "id": 16,
+        "name": "流云逝尽之空",
+        "set": {
+          "2": {
+            "desc": "气动伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【风蚀效应】时，队伍中角色气动伤害提升{0}，自身气动伤害额外提升{1}，持续{2}秒。",
+            "param": [
+              "15%",
+              "15%",
+              "20"
+            ]
+          }
+        }
+      },
+      "17": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindErrorA.T_IconElementAttriWindErrorA",
+        "id": 17,
+        "name": "愿戴荣光之旅",
+        "set": {
+          "2": {
+            "desc": "气动伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "攻击命中存在【风蚀效应】的敌人时，自身暴击提升{0}，气动伤害提升{1}，持续{2}秒。",
+            "param": [
+              "10%",
+              "30%",
+              "10"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32033_UI.T_IconMonsterHead_32033_UI",
+    "id": 6000104,
+    "intensity": "",
+    "intensity_code": 1,
+    "monster_info": 320000330,
+    "name": "荣光节使",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_32033_1_UI.T_IconMonsterGoods_32033_1_UI",
+      "name": "异相·荣光节使"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "20008801": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 165,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            6600,
+            7920,
+            9240,
+            10560,
+            11880
+          ],
+          "related_property": "攻击",
+          "tough_lv": 6600,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "20008802": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 82,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3300,
+            3960,
+            4620,
+            5280,
+            5940
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3300,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤荣光节使，向目标跳砸，造成{0}的衍射伤害，并生成额外的4道【凛冽裁决】，每道造成{1}的衍射伤害。\n在首位装配该声骸技能时，自身衍射伤害加成提升{2}，重击伤害加成提升{3}。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32033_UI.T_MstSkil_32033_UI",
+      "param": [
+        [
+          "66.00%",
+          "33.00%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "79.20%",
+          "39.60%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "92.40%",
+          "46.20%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "105.60%",
+          "52.80%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "118.80%",
+          "59.40%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤荣光节使，对敌人造成衍射伤害。在首位装配时提高自身的衍射伤害和重击伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000104
+}

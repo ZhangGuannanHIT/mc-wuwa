@@ -1,0 +1,1099 @@
+{
+  "schemaVersion": 1,
+  "defaultSelf": "full",
+  "defaultOthers": "reduced",
+  "cameraMotion": false,
+  "worldSlowMotion": false,
+  "profiles": [
+    {
+      "id": "mc_wuwa:fusion/basic",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/heavy",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/air",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/dodge_counter",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/skill",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/liberation",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/intro",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/outro",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:fusion/echo",
+      "color": [
+        247,
+        108,
+        112
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/basic",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/heavy",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/air",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/dodge_counter",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/skill",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/liberation",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/intro",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/outro",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:spectro/echo",
+      "color": [
+        247,
+        219,
+        97
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/basic",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/heavy",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/air",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/dodge_counter",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/skill",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/liberation",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/intro",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/outro",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:havoc/echo",
+      "color": [
+        218,
+        68,
+        105
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/basic",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/heavy",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/air",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/dodge_counter",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/skill",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/liberation",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/intro",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/outro",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:electro/echo",
+      "color": [
+        180,
+        114,
+        237
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/basic",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/heavy",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/air",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/dodge_counter",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/skill",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/liberation",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/intro",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/outro",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:aero/echo",
+      "color": [
+        87,
+        207,
+        169
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/basic",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/heavy",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/air",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/dodge_counter",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "arc",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/skill",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/liberation",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 16,
+        "otherBudget": 3,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/intro",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/outro",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.swing",
+      "authoritativeDamage": false
+    },
+    {
+      "id": "mc_wuwa:glacio/echo",
+      "color": [
+        132,
+        204,
+        252
+      ],
+      "major": {
+        "shape": "radial_line",
+        "opacity": 0.55,
+        "retainedAtMinimumQuality": true
+      },
+      "decoration": {
+        "selfBudget": 6,
+        "otherBudget": 1,
+        "maxLifeTicks": 10
+      },
+      "sound": "mc_wuwa:combat.cast",
+      "authoritativeDamage": false
+    }
+  ],
+  "essentialCues": {
+    "parry": {
+      "texture": "mc_wuwa:textures/gui/icons/parry_ring.png",
+      "alwaysVisible": true
+    },
+    "tuneReady": {
+      "texture": "mc_wuwa:textures/gui/icons/tune_ready.png",
+      "alwaysVisible": true
+    }
+  }
+}

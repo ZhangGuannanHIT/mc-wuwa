@@ -1,0 +1,2015 @@
+{
+  "schemaVersion": 1,
+  "characterId": "cartethyia",
+  "weaponId": "mc_wuwa:defiers_thorn",
+  "palette": [
+    87,
+    207,
+    169
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1409",
+    "data-source/nanoka/3.7/zh/character/1409.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:cartethyia/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:cartethyia/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1625,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 105,
+        "endSeconds": 108,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      },
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 3,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:cartethyia/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3525,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 109,
+        "endSeconds": 113,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:cartethyia/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2585,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 121,
+        "endSeconds": 129,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:cartethyia/heavy/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 168,
+        "endSeconds": 175,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:cartethyia/air/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 218,
+        "endSeconds": 231,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      },
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:cartethyia/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.376,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md",
+        "https://www.bilibili.com/video/BV1oVMB64E6v/"
+      ],
+      "pilotObservation": {
+        "video": "BV1oVMB64E6v",
+        "startSeconds": 215.5,
+        "endSeconds": 216.4,
+        "scope": "post-dodge silhouette candidate; no input overlay, identification inferred; do not copy C6/R5 effects or video hitstop duration",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:cartethyia/skill/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 197,
+        "endSeconds": 217,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:cartethyia/liberation/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7755,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 251,
+        "endSeconds": 264,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:cartethyia/intro/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 184,
+        "endSeconds": 196,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:cartethyia/outro/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:cartethyia/echo/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_enter",
+      "stateVariant": "fleurdelys_enter",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_enter/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_enter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 251,
+        "endSeconds": 264,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_basic_01",
+      "stateVariant": "fleurdelys_basic_01",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2875,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 275,
+        "endSeconds": 283,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      },
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 3,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_basic_02",
+      "stateVariant": "fleurdelys_basic_02",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 275,
+        "endSeconds": 283,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_basic_03",
+      "stateVariant": "fleurdelys_basic_03",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 284,
+        "endSeconds": 295,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_basic_04",
+      "stateVariant": "fleurdelys_basic_04",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 284,
+        "endSeconds": 295,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_heavy",
+      "stateVariant": "fleurdelys_heavy",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_heavy/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 321,
+        "endSeconds": 340,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_enhanced_heavy",
+      "stateVariant": "fleurdelys_enhanced_heavy",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_enhanced_heavy/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_enhanced_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 321,
+        "endSeconds": 340,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_air",
+      "stateVariant": "fleurdelys_air",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_air/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_counter",
+      "stateVariant": "fleurdelys_counter",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_counter/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md",
+        "https://www.bilibili.com/video/BV1oVMB64E6v/"
+      ],
+      "pilotObservation": {
+        "video": "BV1oVMB64E6v",
+        "startSeconds": 81.5,
+        "endSeconds": 82.3,
+        "scope": "post-dodge silhouette candidate; no input overlay, identification inferred; do not copy C6/R5 effects or video hitstop duration",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/upward_cut",
+      "stateVariant": "upward_cut",
+      "thirdPersonClip": "mc_wuwa:cartethyia/upward_cut/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/upward_cut/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 341,
+        "endSeconds": 350,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/storm_sword",
+      "stateVariant": "storm_sword",
+      "thirdPersonClip": "mc_wuwa:cartethyia/storm_sword/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/storm_sword/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_exit",
+      "stateVariant": "fleurdelys_exit",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_exit/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_exit/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:cartethyia/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 133,
+        "endSeconds": 147,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/air_one_sword",
+      "stateVariant": "air_one_sword",
+      "thirdPersonClip": "mc_wuwa:cartethyia/air_one_sword/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/air_one_sword/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2875,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 218,
+        "endSeconds": 231,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      },
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/air_two_swords",
+      "stateVariant": "air_two_swords",
+      "thirdPersonClip": "mc_wuwa:cartethyia/air_two_swords/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/air_two_swords/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 218,
+        "endSeconds": 231,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/air_three_swords",
+      "stateVariant": "air_three_swords",
+      "thirdPersonClip": "mc_wuwa:cartethyia/air_three_swords/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/air_three_swords/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 218,
+        "endSeconds": 231,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/liberation_finale",
+      "stateVariant": "liberation_finale",
+      "thirdPersonClip": "mc_wuwa:cartethyia/liberation_finale/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/liberation_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 400,
+        "endSeconds": 415,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_intro",
+      "stateVariant": "fleurdelys_intro",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_intro/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/cartethyia-4.gif",
+        "startSeconds": 4.6,
+        "endSeconds": 6.8,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_basic_05",
+      "stateVariant": "fleurdelys_basic_05",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_05/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_basic_05/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 284,
+        "endSeconds": 295,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_uppercut",
+      "stateVariant": "fleurdelys_uppercut",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_uppercut/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_uppercut/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 341,
+        "endSeconds": 350,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_heavy_enhanced",
+      "stateVariant": "fleurdelys_heavy_enhanced",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_heavy_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_heavy_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 321,
+        "endSeconds": 340,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_air_01",
+      "stateVariant": "fleurdelys_air_01",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_01/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 341,
+        "endSeconds": 350,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_air_02",
+      "stateVariant": "fleurdelys_air_02",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_02/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 351,
+        "endSeconds": 362,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_air_03",
+      "stateVariant": "fleurdelys_air_03",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_03/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_air_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 363,
+        "endSeconds": 374,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete",
+        "additionalSource": "docs/reference/original-skill-gifs/existing-roles/cartethyia-3.gif, 15.6-16.2s: inverted descent and recovery; normalized MC clock preserved"
+      },
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_skill",
+      "stateVariant": "fleurdelys_skill",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_skill/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 307,
+        "endSeconds": 320,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:cartethyia/fleurdelys_skill_followup",
+      "stateVariant": "fleurdelys_skill_followup",
+      "thirdPersonClip": "mc_wuwa:cartethyia/fleurdelys_skill_followup/tp",
+      "firstPersonClip": "mc_wuwa:cartethyia/fleurdelys_skill_followup/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1409",
+        "data-source/nanoka/3.7/zh/character/1409.json",
+        "plan.md#24",
+        "https://www.bilibili.com/video/BV1hKT2znE6L/",
+        "https://www.bilibili.com/video/BV19NKJzGE1R/",
+        "docs/implementation/cartethyia-pilot-action-observations.md"
+      ],
+      "pilotObservation": {
+        "video": "BV19NKJzGE1R",
+        "startSeconds": 375,
+        "endSeconds": 394,
+        "scope": "pose silhouettes; includes slow motion, not original frame timing",
+        "acceptance": "candidate; full original-condition visual acceptance incomplete"
+      }
+    }
+  ]
+}

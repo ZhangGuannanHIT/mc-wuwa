@@ -1,0 +1,122 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cartethyia_storm_blade.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {}
+    },
+    "animation.cartethyia_storm_blade.attack": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {
+        "blade": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.2": [
+              0,
+              0,
+              -25
+            ],
+            "0.55": [
+              0,
+              0,
+              65
+            ],
+            "1": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.cartethyia_storm_blade.hurt": {
+      "loop": false,
+      "animation_length": 0.3,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.1": [
+              0,
+              0,
+              7
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.cartethyia_storm_blade.cleave": {
+      "loop": false,
+      "animation_length": 2.4,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0": [
+              -35,
+              0,
+              0
+            ],
+            "0.35": [
+              -70,
+              0,
+              0
+            ],
+            "0.6": [
+              -175,
+              0,
+              0
+            ],
+            "2.1": [
+              -175,
+              0,
+              0
+            ],
+            "2.4": [
+              -175,
+              0,
+              0
+            ]
+          },
+          "position": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.35": [
+              0,
+              8,
+              -8
+            ],
+            "0.6": [
+              0,
+              0,
+              0
+            ],
+            "2.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

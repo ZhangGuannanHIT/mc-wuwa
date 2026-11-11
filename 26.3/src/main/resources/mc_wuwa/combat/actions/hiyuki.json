@@ -1,0 +1,1030 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1108001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        8
+      ],
+      "id": "hiyuki/basic_01",
+      "name": "普攻·常世身第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "37.72%+37.72%",
+      "sourceNode": 1,
+      "sourceParameter": "101",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7544,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108002001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "hiyuki/basic_02",
+      "name": "普攻·常世身第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "90.25%",
+      "sourceNode": 1,
+      "sourceParameter": "102",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9025,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1108003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1108003002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "hiyuki/basic_03",
+      "name": "普攻·常世身第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "4.92%*5+98.37%",
+      "sourceNode": 1,
+      "sourceParameter": "103",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.2297,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 24.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.35
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "11080050030"
+        },
+        {
+          "count": 1,
+          "damageId": "11080050070"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "hiyuki/heavy",
+      "name": "重击·寒簇·常世身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present_c0",
+      "sourceFormula": "79.31%*2+158.61%",
+      "sourceNode": 1,
+      "sourceParameter": "105",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 3.1723,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn",
+      "sourceGeometryEvidence": "Entire official hiyuki-0 bottom panel: present heavy draws and releases a bow. Projectile delivery observed; 24-block range and .35 width are MC adaptation."
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108006001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "hiyuki/air",
+      "name": "空中攻击·常世身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "128.18%",
+      "sourceNode": 1,
+      "sourceParameter": "106",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2818,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108007001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "hiyuki/dodge_counter",
+      "name": "闪避反击·常世身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "173.75%",
+      "sourceNode": 1,
+      "sourceParameter": "107",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.7375,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11081010010"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "hiyuki/future_basic_01",
+      "name": "普攻·预求身第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "49.27%",
+      "sourceNode": 1,
+      "sourceParameter": "108",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4927,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "11081020010"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "hiyuki/future_basic_02",
+      "name": "普攻·预求身第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "40.02%+40.02%",
+      "sourceNode": 1,
+      "sourceParameter": "109",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.8004,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "11081030010"
+        },
+        {
+          "count": 1,
+          "damageId": "11081030020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hiyuki/future_basic_03",
+      "name": "普攻·预求身第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "25.16%*4+67.08%",
+      "sourceNode": 1,
+      "sourceParameter": "110",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.6772,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "11081040010"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        10,
+        13,
+        16
+      ],
+      "id": "hiyuki/future_basic_04",
+      "name": "普攻·预求身第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "29.93%+29.93%+29.93%+29.93%+29.93%",
+      "sourceNode": 1,
+      "sourceParameter": "111",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.4965,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11081050010"
+        },
+        {
+          "count": 1,
+          "damageId": "11081050020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "hiyuki/future_basic_05",
+      "name": "普攻·预求身第五段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "12.17%+109.47%",
+      "sourceNode": 1,
+      "sourceParameter": "112",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.2164,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11081060010"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "hiyuki/future_heavy",
+      "name": "重击·预求身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "107.16%",
+      "sourceNode": 1,
+      "sourceParameter": "113",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0716,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "11081070010"
+        },
+        {
+          "count": 1,
+          "damageId": "11081070020"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        11,
+        13,
+        14,
+        16,
+        18,
+        20,
+        22
+      ],
+      "id": "hiyuki/future_heavy_frost",
+      "name": "重击·枯霜·预求身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "15.41%*8+493.05%",
+      "sourceNode": 1,
+      "sourceParameter": "114",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 6.1633,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "11081410010"
+        },
+        {
+          "count": 1,
+          "damageId": "11081410030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "hiyuki/future_air_01",
+      "name": "空中攻击·预求身第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "28.83%+28.83%+38.43%",
+      "sourceNode": 1,
+      "sourceParameter": "115",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.9609,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "11081420010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "hiyuki/future_air_02",
+      "name": "空中攻击·预求身第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "26.09%+26.09%+26.09%+26.09%",
+      "sourceNode": 1,
+      "sourceParameter": "116",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.0436,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11081080030"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "hiyuki/future_air",
+      "name": "空中下落攻击·预求身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "111.60%",
+      "sourceNode": 1,
+      "sourceParameter": "117",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.116,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "11081090010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "hiyuki/future_dodge_counter",
+      "name": "闪避反击·预求身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "81.77%+81.77%",
+      "sourceNode": 1,
+      "sourceParameter": "118",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.6354,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "11080110010"
+        },
+        {
+          "count": 1,
+          "damageId": "11080110030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "hiyuki/skill",
+      "name": "共鸣技能·常世身伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present_c0",
+      "sourceFormula": "24.50%*4+97.98%",
+      "sourceNode": 2,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.9598,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "11081110010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "hiyuki/skill_jade",
+      "name": "霜罚·白玉切伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "66.01%*4",
+      "sourceNode": 2,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.6404,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "11081120010"
+        },
+        {
+          "count": 1,
+          "damageId": "11081120030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "hiyuki/skill_falling",
+      "name": "霜罚·落华伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_c0",
+      "sourceFormula": "64.02%*4+64.02%",
+      "sourceNode": 2,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 3.201,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 95,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108031001"
+        }
+      ],
+      "hitTimesTicks": [
+        70
+      ],
+      "id": "hiyuki/liberation",
+      "name": "预求我身·见心伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "present",
+      "sourceFormula": "397.62%",
+      "sourceNode": 3,
+      "sourceParameter": "22",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/hiyuki-5.gif active=[0.5, 5.25]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.9762,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 125,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108131001"
+        },
+        {
+          "count": 1,
+          "damageId": "1108131002"
+        }
+      ],
+      "hitTimesTicks": [
+        70,
+        105
+      ],
+      "id": "hiyuki/liberation_return",
+      "name": "预求我身·归刃基础伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "future_base",
+      "sourceFormula": "198.81%+795.24%",
+      "sourceNode": 3,
+      "sourceParameter": "23",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/hiyuki-6.gif active=[0.5, 6.75]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 2,
+      "totalMultiplier": 9.9405,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1108201001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "hiyuki/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "156.15%",
+      "sourceNode": 6,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5615,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hiyuki",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "11081220010"
+        },
+        {
+          "count": 4,
+          "damageId": "11081220020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hiyuki/iai",
+      "name": "普攻·居合伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "iai",
+      "sourceFormula": "283.82%+47.31%*4",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 4.7306,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frostburn"
+    }
+  ],
+  "schemaVersion": 1
+}

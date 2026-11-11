@@ -1,0 +1,1073 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "sigrika/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "52.97%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5297,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "sigrika/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "50.34%+50.34%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0068,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412003002"
+        },
+        {
+          "count": 1,
+          "damageId": "1412003003"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        18
+      ],
+      "id": "sigrika/basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "33.41%+33.41%+44.54%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1136,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412004001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412004002"
+        },
+        {
+          "count": 1,
+          "damageId": "1412004003"
+        },
+        {
+          "count": 1,
+          "damageId": "1412004004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "sigrika/basic_04",
+      "name": "普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.36%+51.70%+51.70%+62.03%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.0679,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1412005011"
+        },
+        {
+          "count": 1,
+          "damageId": "1412005012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "sigrika/basic_insight",
+      "name": "普攻·明悟伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "61.56%*3+123.11%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 3.0779,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1412201001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "sigrika/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "58.14%*2",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1628,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412501001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "sigrika/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "104.78%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0478,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412601001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412601002"
+        },
+        {
+          "count": 1,
+          "damageId": "1412601003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "sigrika/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "65.91%+65.91%+87.88%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.197,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412603001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "sigrika/air_counter",
+      "name": "空中闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "206.17%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.0617,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1412005011"
+        },
+        {
+          "count": 1,
+          "damageId": "1412005012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "sigrika/counter_insight",
+      "name": "闪避反击·解读伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "61.56%*3+123.11%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 3.0779,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412100001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412100002"
+        },
+        {
+          "count": 1,
+          "damageId": "1412100003"
+        },
+        {
+          "count": 1,
+          "damageId": "1412100004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "sigrika/skill",
+      "name": "嘭嘭！伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "28.63%+28.63%+28.63%+57.26%",
+      "sourceNode": 2,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.4315,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1412101011"
+        },
+        {
+          "count": 1,
+          "damageId": "1412101012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "sigrika/skill_insight",
+      "name": "大嘭嘭！伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "28.81%*4+172.85%",
+      "sourceNode": 2,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.8809,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1412102011"
+        },
+        {
+          "count": 1,
+          "damageId": "1412102012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "sigrika/skill_sun",
+      "name": "日灵帮帮忙伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "27.83%*3+194.77%",
+      "sourceNode": 2,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.7826,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 85,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412301011"
+        }
+      ],
+      "hitTimesTicks": [
+        55
+      ],
+      "id": "sigrika/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "861.43%",
+      "sourceNode": 3,
+      "sourceParameter": "18",
+      "timingEvidence": "docs/reference/original-skill-gifs/new-three/sigrika-2.gif active=[0.5, 4.75]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 1,
+      "totalMultiplier": 8.6143,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412401001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "sigrika/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "163.42%",
+      "sourceNode": 6,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.6342,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202001"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "sigrika/heavy_origin",
+      "name": "重击·符语本源伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "132.51%",
+      "sourceNode": 7,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.3251,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202811"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202812"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202813"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "sigrika/rune_burst",
+      "name": "符语爆破伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "117.67%+205.92%+264.75%",
+      "sourceNode": 7,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 5.8834,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1412202711"
+        },
+        {
+          "count": 3,
+          "damageId": "1412202712"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        18,
+        20
+      ],
+      "id": "sigrika/rune_chain",
+      "name": "符语链刃伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "49.70%*4+66.26%*3",
+      "sourceNode": 7,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 3.9758,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202911"
+        },
+        {
+          "count": 4,
+          "damageId": "1412202912"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202913"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "sigrika/rune_sun",
+      "name": "符语日灵伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "39.76%+59.63%*4+119.26%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 3.9754,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412104011"
+        },
+        {
+          "count": 1,
+          "damageId": "1412104012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "sigrika/skill_semantics",
+      "name": "共鸣回路·我即语义伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "302.87%+908.61%",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 12.1148,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202811"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202812"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202813"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "sigrika/heavy_origin_burst",
+      "name": "重击·符语本源＋符语爆破伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "132.51%+117.67%+205.92%+264.75%",
+      "sourceNode": 7,
+      "sourceParameter": "origin_burst",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 7.2085,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202001"
+        },
+        {
+          "count": 4,
+          "damageId": "1412202711"
+        },
+        {
+          "count": 3,
+          "damageId": "1412202712"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        9,
+        11,
+        13,
+        16,
+        18,
+        20,
+        22
+      ],
+      "id": "sigrika/heavy_origin_chain",
+      "name": "重击·符语本源＋符语链刃伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "132.51%+49.70%*4+66.26%*3",
+      "sourceNode": 7,
+      "sourceParameter": "origin_chain",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 5.3009,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "sigrika",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.3
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1412202001"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202911"
+        },
+        {
+          "count": 4,
+          "damageId": "1412202912"
+        },
+        {
+          "count": 1,
+          "damageId": "1412202913"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        12,
+        14,
+        17,
+        20,
+        22
+      ],
+      "id": "sigrika/heavy_origin_sun",
+      "name": "重击·符语本源＋符语日灵伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "132.51%+39.76%+59.63%*4+119.26%",
+      "sourceNode": 7,
+      "sourceParameter": "origin_sun",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 5.3005,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "solsworn_ciphers"
+    }
+  ],
+  "schemaVersion": 1
+}

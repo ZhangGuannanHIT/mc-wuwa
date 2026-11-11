@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/whispers_of_sirens_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/whispers_of_sirens_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/whispers_of_sirens_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/whispers_of_sirens_display"
+    }
+  }
+}

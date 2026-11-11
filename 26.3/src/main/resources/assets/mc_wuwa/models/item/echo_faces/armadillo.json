@@ -1,0 +1,95 @@
+{
+  "gui_light": "front",
+  "textures": {
+    "face": "minecraft:entity/armadillo/armadillo",
+    "particle": "minecraft:entity/armadillo/armadillo"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7.99
+      ],
+      "to": [
+        16,
+        16,
+        8.01
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#face",
+          "uv": [
+            11.25,
+            4.25,
+            12.0,
+            5.5
+          ]
+        },
+        "south": {
+          "texture": "#face",
+          "uv": [
+            12.0,
+            4.25,
+            11.25,
+            5.5
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

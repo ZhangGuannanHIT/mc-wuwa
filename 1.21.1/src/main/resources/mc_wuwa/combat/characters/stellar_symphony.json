@@ -1,0 +1,1726 @@
+{
+  "baseStats": {
+    "attack": 287.5,
+    "defense": 1099.998,
+    "health": 16712.5
+  },
+  "chains": [
+    {
+      "description": "共鸣解放终末回环展开的星域获得加强：\n·治疗和增益效果生效范围增加150%。\n·持续时间增加10秒。\n·施放变奏技能洞悉后不再结束星域。",
+      "name": "不语者假想",
+      "parameters": [
+        "150%",
+        "10"
+      ],
+      "rawDescription": "共鸣解放<color=Highlight>终末回环</color>展开的<color=Highlight>星域</color>获得加强：\n·治疗和增益效果生效范围增加{0}。\n·持续时间增加{1}秒。\n·施放变奏技能<color=Highlight>洞悉</color>后不再结束<color=Highlight>星域</color>。",
+      "tier": 1
+    },
+    {
+      "description": "浅析星域新增额外效果：附近队伍中的角色攻击提升40%。",
+      "name": "夜幕的赠予与拒绝",
+      "parameters": [
+        "40%"
+      ],
+      "rawDescription": "<color=Highlight><te href=850024>浅析星域</te></color>新增额外效果：附近队伍中的角色攻击提升{0}。",
+      "tier": 2
+    },
+    {
+      "description": "施放共鸣解放终末回环时，守岸人额外回复20点协奏能量，每25秒可触发1次。",
+      "name": "无限正将我等待",
+      "parameters": [
+        "20",
+        "25"
+      ],
+      "rawDescription": "施放共鸣解放<color=Highlight>终末回环</color>时，守岸人额外回复{0}点协奏能量，每{1}秒可触发1次。",
+      "tier": 3
+    },
+    {
+      "description": "施放共鸣技能混沌理论时，治疗效果加成提升70%。",
+      "name": "万物寂静满溢",
+      "parameters": [
+        "70%"
+      ],
+      "rawDescription": "施放共鸣技能<color=Highlight>混沌理论</color>时，治疗效果加成提升{0}。",
+      "tier": 4
+    },
+    {
+      "description": "普攻第三段牵引范围增加50%，共鸣回路演绎牵引范围增加30%。",
+      "name": "来自缄默的回声",
+      "parameters": [
+        "50%",
+        "30%"
+      ],
+      "rawDescription": "<color=Highlight>普攻第三段</color>牵引范围增加{0}，共鸣回路<color=Highlight>演绎</color>牵引范围增加{1}。",
+      "tier": 5
+    },
+    {
+      "description": "变奏技能洞悉伤害倍率提升42%。施放变奏技能洞悉时，守岸人的暴击伤害提升500%。",
+      "name": "我所驶向的新世界",
+      "parameters": [
+        "42%",
+        "500%"
+      ],
+      "rawDescription": "变奏技能<color=Highlight>洞悉</color>伤害倍率提升{0}。施放变奏技能<color=Highlight>洞悉</color>时，守岸人的暴击伤害提升{1}。",
+      "tier": 6
+    }
+  ],
+  "characterId": "shorekeeper",
+  "echoId": 6000060,
+  "element": "spectro",
+  "id": "stellar_symphony",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "守岸人",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505001002",
+          "kind": "basic",
+          "multiplier": 0.3178,
+          "offTuneUnits": 0.6727272727272727,
+          "raw": {
+            "element": 5,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1599,
+              1730,
+              1861,
+              2045,
+              2176,
+              2326,
+              2536,
+              2746,
+              2955,
+              3178,
+              3440,
+              3703,
+              3965,
+              4227,
+              4489,
+              4751,
+              5013,
+              5275,
+              5538,
+              5800
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1599,
+            "type": 0,
+            "weakness_lvl": 2664
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2690560323069157,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505002002",
+          "kind": "basic",
+          "multiplier": 0.2386,
+          "offTuneUnits": 0.5050505050505051,
+          "raw": {
+            "element": 5,
+            "element_power": 120,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1200,
+            "type": 0,
+            "weakness_lvl": 2000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.20191822311963656,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505002004",
+          "kind": "basic",
+          "multiplier": 0.2386,
+          "offTuneUnits": 0.5050505050505051,
+          "raw": {
+            "element": 5,
+            "element_power": 120,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1200,
+            "type": 0,
+            "weakness_lvl": 2000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.20191822311963656,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505003001",
+          "kind": "basic",
+          "multiplier": 0.2332,
+          "offTuneUnits": 0.4936868686868687,
+          "raw": {
+            "element": 5,
+            "element_power": 118,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1173,
+              1269,
+              1366,
+              1500,
+              1596,
+              1707,
+              1861,
+              2015,
+              2169,
+              2332,
+              2524,
+              2717,
+              2909,
+              3102,
+              3294,
+              3486,
+              3679,
+              3871,
+              4063,
+              4256
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1173,
+            "type": 0,
+            "weakness_lvl": 1955
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.19737506309944472,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505003003",
+          "kind": "basic",
+          "multiplier": 0.2332,
+          "offTuneUnits": 0.4936868686868687,
+          "raw": {
+            "element": 5,
+            "element_power": 118,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1173,
+              1269,
+              1366,
+              1500,
+              1596,
+              1707,
+              1861,
+              2015,
+              2169,
+              2332,
+              2524,
+              2717,
+              2909,
+              3102,
+              3294,
+              3486,
+              3679,
+              3871,
+              4063,
+              4256
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1173,
+            "type": 0,
+            "weakness_lvl": 1955
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.19737506309944472,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505004001",
+          "kind": "basic",
+          "multiplier": 0.7272,
+          "offTuneUnits": 1.5393939393939393,
+          "raw": {
+            "element": 5,
+            "element_power": 366,
+            "energy": 115,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3658,
+              3958,
+              4258,
+              4678,
+              4978,
+              5323,
+              5803,
+              6282,
+              6762,
+              7272,
+              7872,
+              8472,
+              9072,
+              9672,
+              10271,
+              10871,
+              11471,
+              12071,
+              12671,
+              13271
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3658,
+            "type": 0,
+            "weakness_lvl": 6096
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6155140501430254,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505012002",
+          "kind": "basic",
+          "multiplier": 0.8748,
+          "offTuneUnits": 1.1111111111111112,
+          "raw": {
+            "element": 5,
+            "element_power": 440,
+            "energy": 138,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4400,
+              4761,
+              5122,
+              5627,
+              5988,
+              6403,
+              6980,
+              7557,
+              8135,
+              8748,
+              9470,
+              10191,
+              10913,
+              11635,
+              12356,
+              13078,
+              13799,
+              14521,
+              15243,
+              15964
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4400,
+            "type": 0,
+            "weakness_lvl": 4400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.740366818105334,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505012004",
+          "kind": "basic",
+          "multiplier": 0.8748,
+          "offTuneUnits": 1.1111111111111112,
+          "raw": {
+            "element": 5,
+            "element_power": 440,
+            "energy": 138,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4400,
+              4761,
+              5122,
+              5627,
+              5988,
+              6403,
+              6980,
+              7557,
+              8135,
+              8748,
+              9470,
+              10191,
+              10913,
+              11635,
+              12356,
+              13078,
+              13799,
+              14521,
+              15243,
+              15964
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4400,
+            "type": 0,
+            "weakness_lvl": 4400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.740366818105334,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505201001",
+          "kind": "heavy",
+          "multiplier": 0.4581,
+          "offTuneUnits": 0.7757575757575758,
+          "raw": {
+            "element": 5,
+            "element_power": 308,
+            "energy": 96,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2304,
+              2493,
+              2682,
+              2947,
+              3136,
+              3353,
+              3655,
+              3958,
+              4260,
+              4581,
+              4959,
+              5337,
+              5715,
+              6093,
+              6470,
+              6848,
+              7226,
+              7604,
+              7982,
+              8360
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3072,
+            "type": 1,
+            "weakness_lvl": 3072
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.5169106511862696,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505202001",
+          "kind": "basic",
+          "multiplier": 0.7396,
+          "offTuneUnits": 1.2525252525252526,
+          "raw": {
+            "element": 5,
+            "element_power": 500,
+            "energy": 155,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3720,
+              4026,
+              4331,
+              4758,
+              5063,
+              5413,
+              5902,
+              6390,
+              6878,
+              7396,
+              8006,
+              8616,
+              9226,
+              9837,
+              10447,
+              11057,
+              11667,
+              12277,
+              12887,
+              13497
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4960,
+            "type": 0,
+            "weakness_lvl": 4960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8345953222278311,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻\n进行最多4段的连续攻击，造成衍射伤害。攻击命中目标时生成坍缩核。\n \n重击\n长按普攻持续消耗耐力，进入解限状态，在该状态下：\n·每1秒积蓄1段演算数据。\n·可以自动采集一定范围内的植物类采集物。\n·耐力不足或通过点按普攻等方式结束解限状态时，对目标造成衍射伤害，同时已积累的每1段演算数据转化为1段【实论数据】并生成1枚坍缩核。\n \n空中攻击\n消耗耐力进行空中下落攻击。攻击命中目标时生成1枚坍缩核。一定时间内短按普攻将会施放普攻第2段。\n \n闪避反击\n成功闪避后一定时间内短按普攻，将会攻击目标，造成衍射伤害。",
+      "headings": [
+        "普攻",
+        "重击",
+        "空中攻击",
+        "闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+      "id": "stellar_symphony/node_1",
+      "name": "真源构演",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "普攻第一段伤害",
+          "values": [
+            "31.78%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "普攻第二段伤害",
+          "values": [
+            "23.86%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "普攻第三段伤害",
+          "values": [
+            "23.32%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "普攻第四段伤害",
+          "values": [
+            "72.72%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击伤害",
+          "values": [
+            "45.81%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "下落攻击伤害",
+          "values": [
+            "73.96%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "闪避反击伤害",
+          "values": [
+            "87.48%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "重击耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "下落攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻</color></size>\n进行最多4段的连续攻击，造成<color=Light>衍射伤害</color>。攻击命中目标时生成<color=Highlight><te href=850022>坍缩核</te></color>。\n<size=10> </size>\n<size=40><color=Title>重击</color></size>\n长按<color=Highlight>普攻</color>持续消耗耐力，进入<color=Highlight>解限状态</color>，在该状态下：\n·每1秒积蓄1段<color=Highlight>演算数据</color>。\n·可以自动采集一定范围内的植物类采集物。\n·耐力不足或通过点按<color=Highlight>普攻</color>等方式结束<color=Highlight>解限状态</color>时，对目标造成<color=Light>衍射伤害</color>，同时已积累的每1段<color=Highlight>演算数据</color>转化为1段【实论数据】并生成1枚<color=Highlight><te href=850022>坍缩核</te></color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力进行空中下落攻击。攻击命中目标时生成1枚<color=Highlight>坍缩核</color>。一定时间内短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻第2段</color>。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n成功闪避后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Light>衍射伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505301990",
+          "kind": "skill",
+          "multiplier": 0.3131,
+          "offTuneUnits": 0.26515151515151514,
+          "raw": {
+            "element": 5,
+            "element_power": 200,
+            "energy": 200,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1575,
+              1704,
+              1833,
+              2014,
+              2143,
+              2291,
+              2498,
+              2705,
+              2911,
+              3131,
+              3389,
+              3647,
+              3905,
+              4163,
+              4422,
+              4680,
+              4938,
+              5196,
+              5454,
+              5713
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 4,
+            "weakness_lvl": 1050
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1505600001",
+          "kind": "skill",
+          "multiplier": 0.0597,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              300,
+              325,
+              350,
+              384,
+              409,
+              437,
+              476,
+              516,
+              555,
+              597,
+              646,
+              695,
+              745,
+              794,
+              843,
+              892,
+              941,
+              991,
+              1040,
+              1089
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 4,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "回复附近队伍中所有角色的生命值，并召唤5只黯星·蝶。黯星·蝶将自动追踪目标，造成衍射伤害。一定时间内短按普攻将会施放普攻第2段。\n可在空中施放。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenB1.SP_IconShouanrenB1",
+      "id": "stellar_symphony/node_2",
+      "name": "混沌理论",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "黯星·蝶伤害",
+          "values": [
+            "31.31%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "2",
+          "name": "治疗量",
+          "values": [
+            "1313+5.97%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "冷却时间",
+          "values": [
+            "16"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "derivedFromDescription": "原文召唤5只黯星蝶",
+          "id": "skill_five_butterflies",
+          "name": "混沌理论·五只黯星蝶",
+          "values": [
+            "31.31%*5"
+          ]
+        }
+      ],
+      "rawDescription": "回复附近队伍中所有角色的生命值，并召唤5只<color=Highlight>黯星·蝶</color>。<color=Highlight>黯星·蝶</color>将自动追踪目标，造成<color=Light>衍射伤害</color>。一定时间内短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻第2段</color>。\n可在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1505600003",
+          "kind": "basic",
+          "multiplier": 0.0239,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              120,
+              130,
+              140,
+              154,
+              164,
+              175,
+              191,
+              207,
+              222,
+              239,
+              259,
+              278,
+              298,
+              318,
+              337,
+              357,
+              377,
+              397,
+              416,
+              436
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "浅析星域\n展开浅析星域，持续为处于星域生效范围内的附近队伍中登场角色回复生命值，每3秒可触发1次。\n \n深潜星域\n浅析星域持续期间，当附近队伍中的角色使用变奏技能时，将进入深潜星域。深潜星域生效范围内附近队伍中所有角色暴击提升：守岸人自身每0.2%共鸣效率计算为0.01%暴击提升，上限12.5%。\n深潜星域继承浅析星域的所有效果。\n \n解限星域\n深潜星域持续期间，当附近队伍中的角色使用变奏技能时，将进入解限星域。解限星域生效范围内附近队伍中所有角色暴击伤害提升：守岸人自身每0.1%共鸣效率计算为0.01%暴击伤害提升，上限25%。\n解限星域继承浅析星域和深潜星域的所有效果。",
+      "headings": [
+        "浅析星域",
+        "深潜星域",
+        "解限星域"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenC1.SP_IconShouanrenC1",
+      "id": "stellar_symphony/node_3",
+      "name": "终末回环",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "1",
+          "name": "治疗量",
+          "values": [
+            "438+2.39%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "星域持续时间",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "消耗共鸣能量",
+          "values": [
+            "175"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "id": "utility_domain",
+          "name": "终末回环·星域展开（无直接伤害）",
+          "utilityOnly": true,
+          "values": [
+            "0%"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>浅析星域</color></size>\n展开<color=Highlight>浅析星域</color>，持续为处于<color=Highlight>星域</color>生效范围内的附近队伍中登场角色回复生命值，每3秒可触发1次。\n<size=10> </size>\n<size=40><color=Title>深潜星域</color></size>\n<color=Highlight>浅析星域</color>持续期间，当附近队伍中的角色使用<color=Highlight>变奏技能</color>时，将进入<color=Highlight>深潜星域</color>。<color=Highlight>深潜星域</color>生效范围内附近队伍中所有角色暴击提升：守岸人自身每{0}共鸣效率计算为{1}暴击提升，上限{2}。\n<color=Highlight>深潜星域</color>继承<color=Highlight>浅析星域</color>的所有效果。\n<size=10> </size>\n<size=40><color=Title>解限星域</color></size>\n<color=Highlight>深潜星域</color>持续期间，当附近队伍中的角色使用<color=Highlight>变奏技能</color>时，将进入<color=Highlight>解限星域</color>。<color=Highlight>解限星域</color>生效范围内附近队伍中所有角色暴击伤害提升：守岸人自身每{3}共鸣效率计算为{4}暴击伤害提升，上限{5}。\n<color=Highlight>解限星域</color>继承<color=Highlight>浅析星域</color>和<color=Highlight>深潜星域</color>的所有效果。",
+      "rawParameters": [
+        "0.2%",
+        "0.01%",
+        "12.5%",
+        "0.1%",
+        "0.01%",
+        "25%"
+      ],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "队伍中有守岸人自身以外的角色受到致死伤害时，此次伤害不会使该角色倒下并获得守岸人当前50%生命值，守岸人扣除等量生命值。守岸人最少保留1点生命值，该效果每10分钟可触发1次。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenD1.SP_IconShouanrenD1",
+      "id": "stellar_symphony/node_4",
+      "name": "死生流溢",
+      "parameters": [],
+      "rawDescription": "队伍中有守岸人自身以外的角色受到致死伤害时，此次伤害不会使该角色倒下并获得守岸人当前{0}生命值，守岸人扣除等量生命值。守岸人最少保留1点生命值，该效果每10分钟可触发1次。",
+      "rawParameters": [
+        "50%"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "队伍中登场角色处于星域生效范围内时，守岸人共鸣效率提升10%，若漂泊者处于同一编队中，漂泊者共鸣效率提升10%。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenD2.SP_IconShouanrenD2",
+      "id": "stellar_symphony/node_5",
+      "name": "自我引力",
+      "parameters": [],
+      "rawDescription": "队伍中登场角色处于<color=Highlight><te href=850023>星域</te></color>生效范围内时，守岸人共鸣效率提升{0}，若漂泊者处于同一编队中，漂泊者共鸣效率提升{1}。",
+      "rawParameters": [
+        "10%",
+        "10%"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505505001",
+          "kind": "liberation",
+          "multiplier": 0.1964,
+          "offTuneUnits": 6.165151515151515,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 334,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              988,
+              1069,
+              1150,
+              1264,
+              1345,
+              1438,
+              1567,
+              1697,
+              1826,
+              1964,
+              2126,
+              2288,
+              2450,
+              2612,
+              2774,
+              2936,
+              3098,
+              3260,
+              3422,
+              3584
+            ],
+            "related_property": "生命",
+            "tough_lv": 3334,
+            "type": 2,
+            "weakness_lvl": 24414
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.5609961299007236,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505505002",
+          "kind": "skill",
+          "multiplier": 0.453,
+          "offTuneUnits": 0.5755050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 200,
+            "energy": 200,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2279,
+              2466,
+              2653,
+              2914,
+              3101,
+              3316,
+              3615,
+              3914,
+              4213,
+              4530,
+              4904,
+              5278,
+              5651,
+              6025,
+              6398,
+              6772,
+              7146,
+              7519,
+              7893,
+              8267
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2848,
+            "type": 4,
+            "weakness_lvl": 2279
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.47921924953727074,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1505600004",
+          "kind": "intro",
+          "multiplier": 0.012,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              60,
+              65,
+              70,
+              77,
+              82,
+              88,
+              96,
+              104,
+              111,
+              120,
+              130,
+              139,
+              149,
+              159,
+              169,
+              179,
+              189,
+              199,
+              208,
+              218
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 3,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1505600005",
+          "kind": "intro",
+          "multiplier": 0.0132,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              66,
+              72,
+              77,
+              85,
+              90,
+              97,
+              105,
+              114,
+              123,
+              132,
+              143,
+              153,
+              164,
+              175,
+              186,
+              197,
+              207,
+              218,
+              229,
+              240
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 3,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505505011",
+          "kind": "liberation",
+          "multiplier": 0.2789,
+          "offTuneUnits": 6.165151515151515,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 334,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1403,
+              1518,
+              1633,
+              1794,
+              1909,
+              2041,
+              2225,
+              2409,
+              2593,
+              2789,
+              3019,
+              3249,
+              3479,
+              3709,
+              3939,
+              4169,
+              4399,
+              4629,
+              4859,
+              5089
+            ],
+            "related_property": "生命",
+            "tough_lv": 3334,
+            "type": 2,
+            "weakness_lvl": 24414
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.5609961299007236,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "启迪\n守岸人出现，回复附近队伍中所有角色的生命值，并召唤5只黯星·蝶。黯星·蝶将自动追踪目标，造成衍射伤害，此次伤害为共鸣技能伤害。\n \n洞悉\n解限星域持续期间，守岸人的变奏技能启迪替换为变奏技能洞悉。施放时对应星域状态结束，回复附近队伍中所有角色的生命值，并攻击目标造成衍射伤害。此次伤害为共鸣解放伤害，并且必定暴击。同一个解限星域中仅可触发1次变奏技能洞悉。",
+      "headings": [
+        "启迪",
+        "洞悉"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenQTE.SP_IconShouanrenQTE",
+      "id": "stellar_symphony/node_6",
+      "name": "故此证明",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "启迪伤害",
+          "values": [
+            "45.30%*5"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "2",
+          "name": "洞悉伤害",
+          "values": [
+            "19.64%*3"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "3",
+          "name": "启迪治疗量",
+          "values": [
+            "259+1.20%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "4",
+          "name": "洞悉治疗量",
+          "values": [
+            "289+1.32%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "启迪回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "洞悉回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>启迪</color></size>\n守岸人出现，回复附近队伍中所有角色的生命值，并召唤5只<color=Highlight>黯星·蝶</color>。<color=Highlight>黯星·蝶</color>将自动追踪目标，造成<color=Light>衍射伤害</color>，此次伤害为共鸣技能伤害。\n<size=10> </size>\n<size=40><color=Title>洞悉</color></size>\n<color=Highlight>解限星域</color>持续期间，守岸人的变奏技能<color=Highlight>启迪</color>替换为变奏技能<color=Highlight>洞悉</color>。施放时对应星域状态结束，回复附近队伍中所有角色的生命值，并攻击目标造成<color=Light>衍射伤害</color>。此次伤害为共鸣解放伤害，并且必定暴击。同一个<color=Highlight>解限星域</color>中仅可触发1次变奏技能<color=Highlight>洞悉</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505202002",
+          "kind": "basic",
+          "multiplier": 0.7396,
+          "offTuneUnits": 1.2525252525252526,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 155,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3720,
+              4026,
+              4331,
+              4758,
+              5063,
+              5413,
+              5902,
+              6390,
+              6878,
+              7396,
+              8006,
+              8616,
+              9226,
+              9837,
+              10447,
+              11057,
+              11667,
+              12277,
+              12887,
+              13497
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4960,
+            "type": 0,
+            "weakness_lvl": 4960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8345953222278311,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505211001",
+          "kind": "heavy",
+          "multiplier": 0.1897,
+          "offTuneUnits": 0.3212121212121212,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 40,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              954,
+              1033,
+              1111,
+              1220,
+              1299,
+              1389,
+              1514,
+              1639,
+              1764,
+              1897,
+              2054,
+              2210,
+              2367,
+              2523,
+              2679,
+              2836,
+              2992,
+              3149,
+              3305,
+              3462
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1272,
+            "type": 1,
+            "weakness_lvl": 1272
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.21403331650681473,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1505009980",
+          "kind": "basic",
+          "multiplier": 0.3729,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 5,
+            "element_power": 100,
+            "energy": 59,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1876,
+              2029,
+              2183,
+              2399,
+              2552,
+              2729,
+              2975,
+              3221,
+              3467,
+              3729,
+              4036,
+              4344,
+              4651,
+              4959,
+              5266,
+              5574,
+              5881,
+              6189,
+              6496,
+              6804
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1876,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.31566548881036516,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "耀星·蝶\n常态攻击命中目标时，生成坍缩核悬浮在空中，并在6秒后演化为耀星·蝶。耀星·蝶将自动追踪目标，造成衍射伤害。若场上坍缩核的数量已达到5枚，守岸人下一次普攻会催生坍缩核，使之提前演化为耀星·蝶。\n \n演绎\n持有5段【实论数据】时，施放重击将消耗所有【实论数据】，牵引周围的目标，造成衍射伤害，并使所有坍缩核立即演化为耀星·蝶。\n \n衍变\n持有5段【实论数据】时，施放空中攻击将消耗所有【实论数据】，造成衍射伤害，并使所有坍缩核立即演化为耀星·蝶。一定时间内短按普攻将会施放普攻第2段。\n \n实论数据获取规则\n【实论数据】上限5段。\n普攻第1段、普攻第2段、普攻第4段命中目标时，获得1段【实论数据】。\n普攻第3段命中目标时，获得2段【实论数据】。\n空中攻击命中目标时，获得1段【实论数据】。\n闪避反击命中目标时，获得1段【实论数据】。",
+      "headings": [
+        "耀星·蝶",
+        "演绎",
+        "衍变",
+        "实论数据获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenY.SP_IconShouanrenY",
+      "id": "stellar_symphony/node_7",
+      "name": "群星漫响",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "耀星·蝶伤害",
+          "values": [
+            "37.29%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "演绎伤害",
+          "values": [
+            "18.97%*5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "衍变伤害",
+          "values": [
+            "73.96%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "演绎耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "衍变耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "演绎回复协奏能量",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "衍变回复协奏能量",
+          "values": [
+            "6"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>耀星·蝶</color></size>\n常态攻击命中目标时，生成<color=Highlight>坍缩核</color>悬浮在空中，并在{0}秒后演化为<color=Highlight>耀星·蝶</color>。<color=Highlight>耀星·蝶</color>将自动追踪目标，造成<color=Light>衍射伤害</color>。若场上<color=Highlight>坍缩核</color>的数量已达到{1}枚，守岸人下一次<color=Highlight>普攻</color>会催生<color=Highlight>坍缩核</color>，使之提前演化为<color=Highlight>耀星·蝶</color>。\n<size=10> </size>\n<size=40><color=Title>演绎</color></size>\n持有5段【实论数据】时，施放<color=Highlight>重击</color>将消耗所有【实论数据】，牵引周围的目标，造成<color=Light>衍射伤害</color>，并使所有<color=Highlight>坍缩核</color>立即演化为<color=Highlight>耀星·蝶</color>。\n<size=10> </size>\n<size=40><color=Title>衍变</color></size>\n持有5段【实论数据】时，施放<color=Highlight>空中攻击</color>将消耗所有【实论数据】，造成<color=Light>衍射伤害</color>，并使所有<color=Highlight>坍缩核</color>立即演化为<color=Highlight>耀星·蝶</color>。一定时间内短按<color=Highlight>普攻</color>将会施放<color=Highlight>普攻第2段</color>。\n<size=10> </size>\n<size=40><color=Title>实论数据获取规则</color></size>\n【实论数据】上限5段。\n<color=Highlight>普攻第1段</color>、<color=Highlight>普攻第2段</color>、<color=Highlight>普攻第4段</color>命中目标时，获得1段【实论数据】。\n<color=Highlight>普攻第3段</color>命中目标时，获得2段【实论数据】。\n<color=Highlight>空中攻击</color>命中目标时，获得1段【实论数据】。\n<color=Highlight>闪避反击</color>命中目标时，获得1段【实论数据】。",
+      "rawParameters": [
+        "6",
+        "5"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "守岸人召唤一只耀星·蝶和一只黯星·蝶环绕队伍中登场角色，最多存在30秒，并获得以下效果：\n·若队伍中登场角色处于受击或被击飞状态中，点按闪避将脱离受击状态或被击飞状态，并视为闪避成功，若处于低空，则会回到地面。该效果最多可触发5次。\n·队伍中的角色全伤害加深15%。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconShouanren/SP_IconShouanrenT.SP_IconShouanrenT",
+      "id": "stellar_symphony/node_8",
+      "name": "双联合相",
+      "parameters": [],
+      "rawDescription": "守岸人召唤一只<color=Highlight>耀星·蝶</color>和一只<color=Highlight>黯星·蝶</color>环绕队伍中登场角色，最多存在{0}秒，并获得以下效果：\n·若队伍中登场角色处于受击或被击飞状态中，点按<color=Highlight>闪避</color>将脱离受击状态或被击飞状态，并视为闪避成功，若处于低空，则会回到地面。该效果最多可触发{1}次。\n·队伍中的角色全伤害加深{2}。",
+      "rawParameters": [
+        "30",
+        "5",
+        "15%"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "stellar_symphony/node_9",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "stellar_symphony/node_10",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "stellar_symphony/node_11",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "stellar_symphony/node_12",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "stellar_symphony/node_13",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "stellar_symphony/node_14",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "stellar_symphony/node_15",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "stellar_symphony/node_16",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+      "id": "stellar_symphony/node_17",
+      "name": "谐度破坏·音感仪",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    7,
+    7,
+    7,
+    7,
+    7
+  ],
+  "sourceId": 1505,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1505.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "群星迭律",
+    "name": "星序协响",
+    "refinements": [
+      {
+        "description": "生命提升12%。施放共鸣解放时，回复自身8点协奏能量，每20秒可触发1次。共鸣技能造成治疗时，使附近队伍中所有角色的攻击提升14%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "12%",
+          "8",
+          "20",
+          "1",
+          "14%",
+          "30"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "生命提升15%。施放共鸣解放时，回复自身10点协奏能量，每20秒可触发1次。共鸣技能造成治疗时，使附近队伍中所有角色的攻击提升17.5%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "15%",
+          "10",
+          "20",
+          "1",
+          "17.5%",
+          "30"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "生命提升18%。施放共鸣解放时，回复自身12点协奏能量，每20秒可触发1次。共鸣技能造成治疗时，使附近队伍中所有角色的攻击提升21%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "18%",
+          "12",
+          "20",
+          "1",
+          "21%",
+          "30"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "生命提升21%。施放共鸣解放时，回复自身14点协奏能量，每20秒可触发1次。共鸣技能造成治疗时，使附近队伍中所有角色的攻击提升24.5%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "21%",
+          "14",
+          "20",
+          "1",
+          "24.5%",
+          "30"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "生命提升24%。施放共鸣解放时，回复自身16点协奏能量，每20秒可触发1次。共鸣技能造成治疗时，使附近队伍中所有角色的攻击提升28%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "24%",
+          "16",
+          "20",
+          "1",
+          "28%",
+          "30"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21050036,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 412.5,
+        "value": 412.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "共鸣效率",
+        "rawValue": 7704.0,
+        "value": 0.7704
+      }
+    ]
+  },
+  "weaponType": 5
+}

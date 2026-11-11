@@ -1,0 +1,3165 @@
+{
+  "schemaVersion": 1,
+  "characterId": "hsin",
+  "weaponId": "mc_wuwa:blooming_jadehaven",
+  "palette": [
+    126,
+    204,
+    203
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1311",
+    "data-source/nanoka/3.7/zh/character/1311.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:hsin/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:hsin/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:hsin/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:hsin/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:hsin/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:hsin/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:hsin/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:hsin/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:hsin/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:hsin/heavy/tp",
+      "firstPersonClip": "mc_wuwa:hsin/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:hsin/air/tp",
+      "firstPersonClip": "mc_wuwa:hsin/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "airCastPhaseObservation": {
+        "source": "docs/reference/hsin-air-phases/source.json",
+        "scope": "All 50 cached official frames viewed. Upper answering plunge and lower illuminating uppercut followed by plunge are separate inputs. Continuous limb phases retain MC collision movement and damage clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:hsin/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:hsin/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:hsin/skill/tp",
+      "firstPersonClip": "mc_wuwa:hsin/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "skillCastPhaseObservation": {
+        "source": "docs/reference/hsin-skill-phases/source.json",
+        "scope": "Complete six-second simultaneous official skill panels inspected; worldly sweep and illuminated open-palm cast adapted to retained MC clocks. Fox traversal remains independently owned.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:hsin/liberation/tp",
+      "firstPersonClip": "mc_wuwa:hsin/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7755,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/hsin-4.gif",
+        "scope": "complete archived GIF quarter-second timeline reviewed; distinct FP gesture and TP body; MC clock fit, not frame-exact reconstruction",
+        "acceptance": "native review pending"
+      },
+      "sourceReviewedClock": null
+    },
+    {
+      "actionId": "mc_wuwa:hsin/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:hsin/intro/tp",
+      "firstPersonClip": "mc_wuwa:hsin/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:hsin/outro/tp",
+      "firstPersonClip": "mc_wuwa:hsin/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:hsin/echo/tp",
+      "firstPersonClip": "mc_wuwa:hsin/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/worldly_basic",
+      "stateVariant": "worldly_basic",
+      "thirdPersonClip": "mc_wuwa:hsin/worldly_basic/tp",
+      "firstPersonClip": "mc_wuwa:hsin/worldly_basic/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminating_basic",
+      "stateVariant": "illuminating_basic",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminating_basic/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminating_basic/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/worldly_skill",
+      "stateVariant": "worldly_skill",
+      "thirdPersonClip": "mc_wuwa:hsin/worldly_skill/tp",
+      "firstPersonClip": "mc_wuwa:hsin/worldly_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminating_skill",
+      "stateVariant": "illuminating_skill",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminating_skill/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminating_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/phase_transition",
+      "stateVariant": "phase_transition",
+      "thirdPersonClip": "mc_wuwa:hsin/phase_transition/tp",
+      "firstPersonClip": "mc_wuwa:hsin/phase_transition/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/command",
+      "stateVariant": "command",
+      "thirdPersonClip": "mc_wuwa:hsin/command/tp",
+      "firstPersonClip": "mc_wuwa:hsin/command/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/ten_thousand_palaces",
+      "stateVariant": "ten_thousand_palaces",
+      "thirdPersonClip": "mc_wuwa:hsin/ten_thousand_palaces/tp",
+      "firstPersonClip": "mc_wuwa:hsin/ten_thousand_palaces/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/heavy_red_dust",
+      "stateVariant": "heavy_red_dust",
+      "thirdPersonClip": "mc_wuwa:hsin/heavy_red_dust/tp",
+      "firstPersonClip": "mc_wuwa:hsin/heavy_red_dust/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/heavy_universe",
+      "stateVariant": "heavy_universe",
+      "thirdPersonClip": "mc_wuwa:hsin/heavy_universe/tp",
+      "firstPersonClip": "mc_wuwa:hsin/heavy_universe/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/construct_command",
+      "stateVariant": "construct_command",
+      "thirdPersonClip": "mc_wuwa:hsin/construct_command/tp",
+      "firstPersonClip": "mc_wuwa:hsin/construct_command/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/unison_response",
+      "stateVariant": "unison_response",
+      "thirdPersonClip": "mc_wuwa:hsin/unison_response/tp",
+      "firstPersonClip": "mc_wuwa:hsin/unison_response/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/heavy_wander",
+      "stateVariant": "heavy_wander",
+      "thirdPersonClip": "mc_wuwa:hsin/heavy_wander/tp",
+      "firstPersonClip": "mc_wuwa:hsin/heavy_wander/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/air_wander",
+      "stateVariant": "air_wander",
+      "thirdPersonClip": "mc_wuwa:hsin/air_wander/tp",
+      "firstPersonClip": "mc_wuwa:hsin/air_wander/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_basic_01",
+      "stateVariant": "illuminated_basic_01",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_word_lock",
+      "stateVariant": "illuminated_word_lock",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_word_lock/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_word_lock/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_basic_02",
+      "stateVariant": "illuminated_basic_02",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_basic_03",
+      "stateVariant": "illuminated_basic_03",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_heavy",
+      "stateVariant": "illuminated_heavy",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_heavy/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_uppercut",
+      "stateVariant": "illuminated_uppercut",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_uppercut/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_uppercut/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "airCastPhaseObservation": {
+        "source": "docs/reference/hsin-air-phases/source.json",
+        "scope": "All 50 cached official frames viewed. Upper answering plunge and lower illuminating uppercut followed by plunge are separate inputs. Continuous limb phases retain MC collision movement and damage clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_air",
+      "stateVariant": "illuminated_air",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_air/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "airCastPhaseObservation": {
+        "source": "docs/reference/hsin-air-phases/source.json",
+        "scope": "All 50 cached official frames viewed. Upper answering plunge and lower illuminating uppercut followed by plunge are separate inputs. Continuous limb phases retain MC collision movement and damage clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_dodge_counter",
+      "stateVariant": "illuminated_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/thousand_palaces_basic_01",
+      "stateVariant": "thousand_palaces_basic_01",
+      "thirdPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/thousand_palaces_basic_02",
+      "stateVariant": "thousand_palaces_basic_02",
+      "thirdPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/thousand_palaces_basic_03",
+      "stateVariant": "thousand_palaces_basic_03",
+      "thirdPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/thousand_palaces_basic_04",
+      "stateVariant": "thousand_palaces_basic_04",
+      "thirdPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:hsin/thousand_palaces_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "continuousCastingObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json; docs/reference/original-skill-gifs/existing-roles/hsin-1-gameplay.jpg",
+        "scope": "Continuous open-palm construct guidance observed in official footage and enhanced-attack panel. Seven MC gestures adapted; not frame-exact or isolated-stage verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/thousand_palaces_counter",
+      "stateVariant": "thousand_palaces_counter",
+      "thirdPersonClip": "mc_wuwa:hsin/thousand_palaces_counter/tp",
+      "firstPersonClip": "mc_wuwa:hsin/thousand_palaces_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_skill",
+      "stateVariant": "illuminated_skill",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_skill/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "skillCastPhaseObservation": {
+        "source": "docs/reference/hsin-skill-phases/source.json",
+        "scope": "Complete six-second simultaneous official skill panels inspected; worldly sweep and illuminated open-palm cast adapted to retained MC clocks. Fox traversal remains independently owned.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/liberation_palaces",
+      "stateVariant": "liberation_palaces",
+      "thirdPersonClip": "mc_wuwa:hsin/liberation_palaces/tp",
+      "firstPersonClip": "mc_wuwa:hsin/liberation_palaces/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 1.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/hsin-4.gif",
+        "scope": "complete archived GIF quarter-second timeline reviewed; distinct FP gesture and TP body; MC clock fit, not frame-exact reconstruction",
+        "acceptance": "native review pending"
+      },
+      "sourceReviewedClock": {
+        "durationTicks": 105,
+        "hitTimesTicks": [
+          30,
+          40,
+          50,
+          60,
+          75,
+          90
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.14285714285714285
+          ],
+          [
+            0.25,
+            0.2857142857142857
+          ],
+          [
+            0.52,
+            0.8571428571428571
+          ],
+          [
+            0.82,
+            0.95
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/existing-roles/hsin-4.gif",
+        "observedActiveSeconds": [
+          0.5,
+          5.75
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/flying_palace",
+      "stateVariant": "flying_palace",
+      "thirdPersonClip": "mc_wuwa:hsin/flying_palace/tp",
+      "firstPersonClip": "mc_wuwa:hsin/flying_palace/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3995,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:hsin/intro_unison",
+      "stateVariant": "intro_unison",
+      "thirdPersonClip": "mc_wuwa:hsin/intro_unison/tp",
+      "firstPersonClip": "mc_wuwa:hsin/intro_unison/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/intro_full_unison",
+      "stateVariant": "intro_full_unison",
+      "thirdPersonClip": "mc_wuwa:hsin/intro_full_unison/tp",
+      "firstPersonClip": "mc_wuwa:hsin/intro_full_unison/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_intro",
+      "stateVariant": "illuminated_intro",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_intro/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_intro_unison",
+      "stateVariant": "illuminated_intro_unison",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_intro_unison/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_intro_unison/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_intro_full_unison",
+      "stateVariant": "illuminated_intro_full_unison",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_intro_full_unison/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_intro_full_unison/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/worldly_step",
+      "stateVariant": "worldly_step",
+      "thirdPersonClip": "mc_wuwa:hsin/worldly_step/tp",
+      "firstPersonClip": "mc_wuwa:hsin/worldly_step/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "specialHeavyPhaseObservation": {
+        "source": "docs/reference/hsin-special-heavy/source.json",
+        "scope": "Both simultaneous official panels inspected over complete five-second quarter-second timeline; worldly sweep/rise/release and illuminated palm-directed construct. Existing MC damage clocks retained; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/worldly_suppress",
+      "stateVariant": "worldly_suppress",
+      "thirdPersonClip": "mc_wuwa:hsin/worldly_suppress/tp",
+      "firstPersonClip": "mc_wuwa:hsin/worldly_suppress/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "specialHeavyPhaseObservation": {
+        "source": "docs/reference/hsin-special-heavy/source.json",
+        "scope": "Both simultaneous official panels inspected over complete five-second quarter-second timeline; worldly sweep/rise/release and illuminated palm-directed construct. Existing MC damage clocks retained; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_descend",
+      "stateVariant": "illuminated_descend",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_descend/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_descend/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "specialHeavyPhaseObservation": {
+        "source": "docs/reference/hsin-special-heavy/source.json",
+        "scope": "Both simultaneous official panels inspected over complete five-second quarter-second timeline; worldly sweep/rise/release and illuminated palm-directed construct. Existing MC damage clocks retained; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/illuminated_suppress",
+      "stateVariant": "illuminated_suppress",
+      "thirdPersonClip": "mc_wuwa:hsin/illuminated_suppress/tp",
+      "firstPersonClip": "mc_wuwa:hsin/illuminated_suppress/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/hsin-full-timeline.json",
+        "scope": "Whole official film viewed; worldly sweeps and illuminated open-palm casting are authored fits. Input-specific timing remains MC adaptation.",
+        "nativeReview": "pending"
+      },
+      "specialHeavyPhaseObservation": {
+        "source": "docs/reference/hsin-special-heavy/source.json",
+        "scope": "Both simultaneous official panels inspected over complete five-second quarter-second timeline; worldly sweep/rise/release and illuminated palm-directed construct. Existing MC damage clocks retained; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:hsin/palaces_formation",
+      "stateVariant": "palaces_formation",
+      "thirdPersonClip": "mc_wuwa:hsin/palaces_formation/tp",
+      "firstPersonClip": "mc_wuwa:hsin/palaces_formation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:electro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1311",
+        "data-source/nanoka/3.7/zh/character/1311.json",
+        "plan.md#24"
+      ]
+    }
+  ]
+}

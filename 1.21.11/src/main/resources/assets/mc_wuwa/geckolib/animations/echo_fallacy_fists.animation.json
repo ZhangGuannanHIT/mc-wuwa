@@ -1,0 +1,180 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.echo_fallacy_fists.idle": {
+      "loop": true,
+      "animation_length": 1,
+      "bones": {}
+    },
+    "animation.echo_fallacy_fists.attack": {
+      "loop": false,
+      "animation_length": 0.6,
+      "bones": {
+        "right_forearm": {
+          "rotation": {
+            "0": [
+              -30,
+              0,
+              20
+            ],
+            "0.3": [
+              35,
+              0,
+              -10
+            ],
+            "0.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "left_forearm": {
+          "rotation": {
+            "0": [
+              -30,
+              0,
+              -20
+            ],
+            "0.3": [
+              35,
+              0,
+              10
+            ],
+            "0.6": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_fallacy_fists.breath": {
+      "loop": true,
+      "animation_length": 0.25,
+      "bones": {
+        "right_forearm": {
+          "rotation": {
+            "0": [
+              25,
+              0,
+              0
+            ],
+            "0.125": [
+              0,
+              12,
+              0
+            ],
+            "0.25": [
+              25,
+              0,
+              0
+            ]
+          }
+        },
+        "right_fist": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.125": [
+              10,
+              0,
+              0
+            ],
+            "0.25": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "left_forearm": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.125": [
+              25,
+              -12,
+              0
+            ],
+            "0.25": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "left_fist": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.125": [
+              10,
+              0,
+              0
+            ],
+            "0.25": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_fallacy_fists.cleave": {
+      "loop": false,
+      "animation_length": 0.4,
+      "bones": {
+        "right_forearm": {
+          "rotation": {
+            "0": [
+              -30,
+              -15,
+              20
+            ],
+            "0.16": [
+              40,
+              20,
+              -10
+            ],
+            "0.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "left_forearm": {
+          "rotation": {
+            "0": [
+              -30,
+              15,
+              -20
+            ],
+            "0.16": [
+              40,
+              -20,
+              10
+            ],
+            "0.4": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "mc_wuwa:core"
+    },
+    "title": {
+      "translate": "advancements.mc_wuwa.root.title"
+    },
+    "description": {
+      "translate": "advancements.mc_wuwa.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone"
+  },
+  "criteria": {
+    "begin": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "begin"
+    ]
+  ]
+}

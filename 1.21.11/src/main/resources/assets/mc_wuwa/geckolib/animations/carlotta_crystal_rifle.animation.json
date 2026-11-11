@@ -1,0 +1,15 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.carlotta_crystal_rifle.idle": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {}
+    },
+    "animation.carlotta_crystal_rifle.attack": {
+      "loop": false,
+      "animation_length": 1,
+      "bones": {}
+    }
+  }
+}

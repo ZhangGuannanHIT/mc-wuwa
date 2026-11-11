@@ -1,0 +1,926 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "lucilla/basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "59.29%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5929,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900201"
+        },
+        {
+          "count": 1,
+          "damageId": "110900202"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "lucilla/basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "26.89%+40.34%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.6723,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900302"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/basic_03",
+      "name": "普攻第三段·乏善可陈伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "159.55%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5955,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900301"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/basic_03_perfect",
+      "name": "普攻第三段·可圈可点伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "235.27%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.3527,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900501"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lucilla/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.29%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8629,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900211"
+        },
+        {
+          "count": 1,
+          "damageId": "110900212"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "lucilla/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "67.83%+82.90%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.5073,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "110900401"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        8
+      ],
+      "id": "lucilla/skill",
+      "name": "幻象定帧伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "13.26%*3",
+      "sourceNode": 2,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.3978,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900402"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lucilla/skill_fill",
+      "name": "补光伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "249.07%",
+      "sourceNode": 2,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.4907,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900403"
+        },
+        {
+          "count": 1,
+          "damageId": "110900404"
+        },
+        {
+          "count": 1,
+          "damageId": "110900405"
+        },
+        {
+          "count": 1,
+          "damageId": "110900406"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "lucilla/skill_chase",
+      "name": "追光伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "82.35%+82.35%+274.48%+109.80%",
+      "sourceNode": 2,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 5.4898,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1109010011"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "lucilla/liberation",
+      "name": "历历在目伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "142.74%",
+      "sourceNode": 3,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.4274,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1109010012"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "lucilla/liberation_echo",
+      "name": "历历在目伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "142.74%",
+      "sourceNode": 3,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.4274,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110901101"
+        },
+        {
+          "count": 1,
+          "damageId": "110901102"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "lucilla/memory_basic_01",
+      "name": "普攻·溯念留形第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "30.64%+45.95%",
+      "sourceNode": 3,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7659,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110901201"
+        },
+        {
+          "count": 1,
+          "damageId": "110901202"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "lucilla/memory_basic_02",
+      "name": "普攻·溯念留形第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "59.77%+89.65%",
+      "sourceNode": 3,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.4942,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "110901301"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        14,
+        16
+      ],
+      "id": "lucilla/memory_basic_03",
+      "name": "普攻·溯念留形第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "52.12%*8",
+      "sourceNode": 3,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 4.1696,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1109014011"
+        },
+        {
+          "count": 1,
+          "damageId": "1109014021"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "lucilla/finale",
+      "name": "断舍离伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "84.81%*3+593.64%",
+      "sourceNode": 3,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 8.4807,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1109014012"
+        },
+        {
+          "count": 1,
+          "damageId": "1109014022"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "lucilla/finale_echo",
+      "name": "断舍离伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "84.81%*3+593.64%",
+      "sourceNode": 3,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 8.4807,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110901501"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "lucilla/memory_air",
+      "name": "空中攻击·追忆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "110.94%",
+      "sourceNode": 3,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.1094,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110901211"
+        },
+        {
+          "count": 1,
+          "damageId": "110901212"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "lucilla/memory_counter",
+      "name": "闪避反击·追忆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "115.55%+141.22%",
+      "sourceNode": 3,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.5677,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110900321"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/intro",
+      "name": "剪辑伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "97.42%",
+      "sourceNode": 6,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9742,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "110901222"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/intro_memory",
+      "name": "剪辑·硬切伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "149.41%",
+      "sourceNode": 6,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.4941,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1109010021"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/forget",
+      "name": "遗忘伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "285.48%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.8548,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "lucilla",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.5
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1109010022"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "lucilla/forget_echo",
+      "name": "遗忘伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "memory",
+      "sourceFormula": "285.48%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.8548,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "frame_signature"
+    }
+  ],
+  "schemaVersion": 1
+}

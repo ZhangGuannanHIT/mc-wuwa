@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/wildfire_mark_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/wildfire_mark_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/wildfire_mark_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/wildfire_mark_display"
+    }
+  }
+}

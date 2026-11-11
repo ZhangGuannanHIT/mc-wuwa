@@ -1,0 +1,1363 @@
+{
+  "schemaVersion": 1,
+  "characterId": "zhezhi",
+  "weaponId": "mc_wuwa:rime_draped_sprouts",
+  "palette": [
+    189,
+    230,
+    228
+  ],
+  "sourceEvidence": [
+    "docs/implementation/zhezhi-motion-authoring-20261023.md",
+    "data-source/nanoka/3.7/zh/character/1105.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:zhezhi/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:zhezhi/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:zhezhi/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:zhezhi/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousFiveNormalChain": {
+        "source": "docs/reference/base-combat-motion/new-five/source.json",
+        "scope": "Complete normal card sampled sheets inspected; perfect focus shares the third-stage gesture with distinct existing hit/VFX; continuous MC adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:zhezhi/heavy/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/air_basic_01",
+      "stateVariant": "air_basic_01",
+      "thirdPersonClip": "mc_wuwa:zhezhi/air_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/air_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/air_basic_02",
+      "stateVariant": "air_basic_02",
+      "thirdPersonClip": "mc_wuwa:zhezhi/air_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/air_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:zhezhi/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill_hold",
+      "stateVariant": "skill_hold",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill_hold/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill_hold/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill_air",
+      "stateVariant": "skill_air",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill_air/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:zhezhi/liberation/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/ink_crane",
+      "stateVariant": "ink_crane",
+      "thirdPersonClip": "mc_wuwa:zhezhi/ink_crane/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/ink_crane/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/ink_crane_c5",
+      "stateVariant": "ink_crane_c5",
+      "thirdPersonClip": "mc_wuwa:zhezhi/ink_crane_c5/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/ink_crane_c5/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:zhezhi/intro/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/heavy_conjuration",
+      "stateVariant": "heavy_conjuration",
+      "thirdPersonClip": "mc_wuwa:zhezhi/heavy_conjuration/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/heavy_conjuration/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill_genius",
+      "stateVariant": "skill_genius",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill_genius/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill_genius/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill_genius_air",
+      "stateVariant": "skill_genius_air",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill_genius_air/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill_genius_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/skill_maestro",
+      "stateVariant": "skill_maestro",
+      "thirdPersonClip": "mc_wuwa:zhezhi/skill_maestro/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/skill_maestro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.7,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/new-five/enhanced-source.json",
+        "scope": "Complete panel timeline reviewed; body and per-hit contacts; accepted MC clocks retained",
+        "nativeReview": "pending"
+      },
+      "inkGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInkSkills": {
+        "source": "docs/reference/tide-combat-motion/zhezhi-combat-detail-timeline.json",
+        "scope": "All twelve 172-206.75s sampled panels reviewed; continuous brush/arrival/air adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/white_crane_c6",
+      "stateVariant": "white_crane_c6",
+      "thirdPersonClip": "mc_wuwa:zhezhi/white_crane_c6/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/white_crane_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:zhezhi/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:zhezhi/outro/tp",
+      "firstPersonClip": "mc_wuwa:zhezhi/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_original_frame_data",
+      "reviewState": "authored_pending_client_review",
+      "sourceEvidence": [
+        "docs/implementation/zhezhi-motion-authoring-20261023.md",
+        "data-source/nanoka/3.7/zh/character/1105.json"
+      ]
+    }
+  ]
+}

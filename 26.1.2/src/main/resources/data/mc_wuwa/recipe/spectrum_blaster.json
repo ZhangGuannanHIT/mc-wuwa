@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  Q",
+    "IEI",
+    "C  "
+  ],
+  "key": {
+    "Q": "minecraft:quartz",
+    "I": "minecraft:iron_ingot",
+    "E": "minecraft:emerald",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:spectrum_blaster",
+    "count": 1
+  }
+}

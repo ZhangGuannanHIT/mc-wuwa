@@ -1,0 +1,57 @@
+{
+  "100001": {
+    "desc": "目标<color=Highlight>【偏谐值】</color>满时，将进入<color=Highlight>失谐</color>状态：\n队伍中登场角色可对其施放<color=Highlight>【谐度破坏技】</color>造成伤害，随后目标退出<color=Highlight>失谐</color>状态。\n若目标为轻波级，队伍中的角色部分技能命中目标时将直接造成一次<color=Highlight>谐度破坏伤害</color>，随后目标退出<color=Highlight>失谐</color>状态。",
+    "name": "【谐度破坏】",
+    "param": []
+  },
+  "100002": {
+    "desc": "部分角色可为目标附加<color=Highlight>【震谐·偏移】</color>状态。该状态下的目标被<color=Highlight>【谐度破坏】</color>命中后，将移除<color=Highlight>【震谐·偏移】</color>并进入<color=Highlight>【震谐·干涉】</color>状态。",
+    "name": "【震谐·偏移】",
+    "param": []
+  },
+  "100003": {
+    "desc": "部分角色可为目标附加<color=Highlight>【集谐·偏移】</color>状态。该状态下的目标被<color=Highlight>【谐度破坏】</color>命中后，将移除<color=Highlight>【集谐·偏移】</color>并进入<color=Highlight>【集谐·干涉】</color>状态。",
+    "name": "【集谐·偏移】",
+    "param": []
+  },
+  "100004": {
+    "desc": "目标处于<color=Highlight>【震谐·偏移】</color>状态下，被<color=Highlight>【谐度破坏】</color>命中后进入的状态。拥有响应<color=Highlight>【震谐·干涉】</color>能力的角色会对该状态下的目标造成特殊效果。<color=Highlight>【震谐·干涉】</color>状态持续8秒。",
+    "name": "【震谐·干涉】",
+    "param": []
+  },
+  "100005": {
+    "desc": "目标处于<color=Highlight>【集谐·偏移】</color>状态下，被<color=Highlight>【谐度破坏】</color>命中后进入的状态。拥有响应<color=Highlight>【集谐·干涉】</color>能力的角色会对该状态下的目标造成特殊效果。<color=Highlight>【集谐·干涉】</color>状态持续30秒。",
+    "name": "【集谐·干涉】",
+    "param": []
+  },
+  "850008": {
+    "desc": "·【光噪效应】持续时，会使目标自身每隔一段时间便受到<color=Light>衍射伤害</color>，并减少1层【光噪效应】。\n·随着层数叠加，【光噪效应】造成的伤害会大幅提升。",
+    "name": "光噪效应",
+    "param": []
+  },
+  "850009": {
+    "desc": "·【风蚀效应】持续时，会使目标自身每隔一段时间便受到<color=Wind>气动伤害</color>。\n·【风蚀效应】层数越高，其造成的伤害也越高。",
+    "name": "风蚀效应",
+    "param": []
+  },
+  "850010": {
+    "desc": "·【霜渐效应】附加时，会对目标造成<color=Ice>冷凝伤害</color>。\n·随【霜渐效应】的层数增加，目标自身的移动速度将逐渐降低。\n·【霜渐效应】达到最大层数时，目标自身将被<color=Highlight>冰冻</color>并移除自身的【霜渐效应】层数，通过挣扎可以更快从冰冻状态中恢复。\n·【霜渐效应】基础最大层数为10层，层数越高，其造成的伤害越高，<color=Highlight>冰冻</color>时间也越长。",
+    "name": "霜渐效应",
+    "param": []
+  },
+  "850011": {
+    "desc": "·【聚爆效应】达到到最大层数时，目标将会发生<color=Highlight>爆炸</color>并移除自身的【聚爆效应】层数，对目标及周围敌人造成<color=Fire>热熔伤害</color>。\n·【聚爆效应】基础最大层数为10层，层数越高，其造成的伤害越高。",
+    "name": "聚爆效应",
+    "param": []
+  },
+  "850012": {
+    "desc": "·【虚湮效应】持续时，目标自身的防御将降低。\n·【虚湮效应】基础最大层数为3层，每层可降低2%防御。",
+    "name": "虚湮效应",
+    "param": []
+  },
+  "850013": {
+    "desc": "·【电磁效应】持续时，会使目标自身每隔一段时间便受到<color=Thunder>导电伤害</color>，并减少一半的【电磁效应】层数。\n·【电磁效应】达到最大层数时，附加溢出的【电磁效应】，将变为附加可叠加的【电磁爆发】。\n·【电磁爆发】可提升下一次【电磁效应】触发的伤害，触发后移除【电磁爆发】。\n·【电磁效应】、【电磁爆发】基础最大层数为10层，层数越高，其造成的伤害越高。",
+    "name": "电磁效应",
+    "param": []
+  }
+}

@@ -1,0 +1,1870 @@
+{
+  "schemaVersion": 1,
+  "characterId": "qiuyuan",
+  "weaponId": "mc_wuwa:emerald_sentence",
+  "palette": [
+    102,
+    210,
+    163
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1411",
+    "data-source/nanoka/3.7/zh/character/1411.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:qiuyuan/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDrawnBladeBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full9.1s26sample publisher panel reviewed: normal0-3.8s low draw, horizontal cut, crossing cuts; scabbard support arm separate. MC phase adaptation, not frame-exact; approved blade/grip retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDrawnBladeBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full9.1s26sample publisher panel reviewed: normal0-3.8s low draw, horizontal cut, crossing cuts; scabbard support arm separate. MC phase adaptation, not frame-exact; approved blade/grip retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDrawnBladeBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full9.1s26sample publisher panel reviewed: normal0-3.8s low draw, horizontal cut, crossing cuts; scabbard support arm separate. MC phase adaptation, not frame-exact; approved blade/grip retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/heavy/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/air/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/skill/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/liberation/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.5,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 90,
+        "hitTimesTicks": [
+          50
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.2777777777777778
+          ],
+          [
+            0.25,
+            0.5555555555555556
+          ],
+          [
+            0.52,
+            0.7244444444444444
+          ],
+          [
+            0.82,
+            0.876
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/qiuyuan-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/qiuyuan-2.gif",
+        "scope": "Full card and every quarter-second timeline page viewed; authored connected body gesture, no forced camera; MC timing fit",
+        "acceptance": "native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/intro/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/outro/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/echo/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/answer_basic_01",
+      "stateVariant": "answer_basic_01",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/answer_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/answer_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/answer_basic_02",
+      "stateVariant": "answer_basic_02",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/answer_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/answer_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/answer_basic_03",
+      "stateVariant": "answer_basic_03",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/answer_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/answer_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/answer_basic_04",
+      "stateVariant": "answer_basic_04",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/answer_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/answer_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_01",
+      "stateVariant": "ink_heavy_01",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_01/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_02",
+      "stateVariant": "ink_heavy_02",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_02/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_03",
+      "stateVariant": "ink_heavy_03",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_03/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/skill_dash",
+      "stateVariant": "skill_dash",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/skill_dash/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/skill_dash/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/skill_canopy",
+      "stateVariant": "skill_canopy",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/skill_canopy/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/skill_canopy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/drunken_exit",
+      "stateVariant": "drunken_exit",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/drunken_exit/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/drunken_exit/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "scissorBambooObservation": {
+        "source": "docs/reference/tide-combat-motion/qiuyuan-full-timeline.json",
+        "scope": "Complete official timeline and half-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/liberation_c3",
+      "stateVariant": "liberation_c3",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/liberation_c3/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/liberation_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.5,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 90,
+        "hitTimesTicks": [
+          50
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.2777777777777778
+          ],
+          [
+            0.25,
+            0.5555555555555556
+          ],
+          [
+            0.52,
+            0.7244444444444444
+          ],
+          [
+            0.82,
+            0.876
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/qiuyuan-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/qiuyuan-2.gif",
+        "scope": "Full card and every quarter-second timeline page viewed; authored connected body gesture, no forced camera; MC timing fit",
+        "acceptance": "native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_01_c3",
+      "stateVariant": "ink_heavy_01_c3",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_01_c3/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_01_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_02_c3",
+      "stateVariant": "ink_heavy_02_c3",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_02_c3/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_02_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/ink_heavy_03_c3",
+      "stateVariant": "ink_heavy_03_c3",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/ink_heavy_03_c3/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/ink_heavy_03_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "continuousAnswerInkPhases": {
+        "source": "docs/reference/enhanced-attacks-motion/next-support/source.json",
+        "scope": "Complete 11.5-second forte panel, four quarter-second sheets reviewed: sweeping answer chain, forward finish, aerial rise/pursuit/descent. Connected MC phase adaptation on unchanged combat clocks; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:qiuyuan/skill_run",
+      "stateVariant": "skill_run",
+      "thirdPersonClip": "mc_wuwa:qiuyuan/skill_run/tp",
+      "firstPersonClip": "mc_wuwa:qiuyuan/skill_run/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1411",
+        "data-source/nanoka/3.7/zh/character/1411.json",
+        "plan.md#24"
+      ]
+    }
+  ]
+}

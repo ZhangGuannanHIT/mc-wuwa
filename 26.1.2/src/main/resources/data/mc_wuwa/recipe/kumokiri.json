@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  R",
+    "RO ",
+    "CR "
+  ],
+  "key": {
+    "R": "minecraft:redstone",
+    "O": "minecraft:obsidian",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:kumokiri",
+    "count": 1
+  }
+}

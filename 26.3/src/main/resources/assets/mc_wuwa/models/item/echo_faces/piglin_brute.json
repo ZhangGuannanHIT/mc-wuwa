@@ -1,0 +1,95 @@
+{
+  "gui_light": "front",
+  "textures": {
+    "face": "minecraft:entity/piglin/piglin_brute",
+    "particle": "minecraft:entity/piglin/piglin_brute"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7.99
+      ],
+      "to": [
+        16,
+        16,
+        8.01
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#face",
+          "uv": [
+            2.0,
+            2.0,
+            4.5,
+            4.0
+          ]
+        },
+        "south": {
+          "texture": "#face",
+          "uv": [
+            4.5,
+            2.0,
+            2.0,
+            4.0
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

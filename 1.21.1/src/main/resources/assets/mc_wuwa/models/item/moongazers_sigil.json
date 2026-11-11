@@ -1,0 +1,23 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/moongazers_sigil_3d"
+  },
+  "perspectives": {
+    "firstperson_lefthand": {
+      "parent": "mc_wuwa:item/moongazers_sigil_left_3d"
+    },
+    "thirdperson_lefthand": {
+      "parent": "mc_wuwa:item/moongazers_sigil_left_3d"
+    },
+    "gui": {
+      "parent": "mc_wuwa:item/moongazers_sigil_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/moongazers_sigil_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/moongazers_sigil_display"
+    }
+  }
+}

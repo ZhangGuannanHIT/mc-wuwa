@@ -1,0 +1,36 @@
+license="Original code by ZhangGuannanHIT is licensed under the MIT License. Third-party assets retain their respective licenses."
+[[mixins]]
+config="mc_wuwa.mixins.json"
+[[mods]]
+modId="mc_wuwa"
+version="${version}"
+displayName="mc_wuwa"
+description='''Wuthering-inspired weapon-bound combat for Minecraft. See the bundled development and data-audit reports for verification status.'''
+
+[[dependencies.mc_wuwa]]
+modId="neoforge"
+type="required"
+versionRange="[21.11.48,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mc_wuwa]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.11]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mc_wuwa]]
+modId="player_animation_library"
+type="required"
+versionRange="[1.1.12,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.mc_wuwa]]
+modId="geckolib"
+type="required"
+versionRange="[5.4.5,)"
+ordering="AFTER"
+side="BOTH"

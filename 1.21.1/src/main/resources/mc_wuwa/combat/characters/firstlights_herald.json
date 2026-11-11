@@ -1,0 +1,3176 @@
+{
+  "baseStats": {
+    "attack": 287.5,
+    "defense": 1099.998,
+    "health": 16712.5
+  },
+  "chains": [
+    {
+      "description": "持有烟岚的角色为目标附加【异常效应】或造成异常效应伤害后，也可以触发攻击提升效果。\n第3次翾舞的时候获得的重明照影的时间提升100%。\n普攻·濯雨时、重击·濯雨时、下落攻击·重明枕露和下落攻击·飞燕裁风免疫打断。",
+      "name": "雨洗千山皆入画",
+      "parameters": [
+        "30",
+        "100%"
+      ],
+      "rawDescription": "持有<color=Highlight><te href=111011>烟岚</te></color>的角色为目标附加<color=Highlight>【<te href=850180>异常效应</te>】</color>或造成<color=Highlight><te href=150811>异常效应伤害</te></color>后，也可以触发攻击提升效果。\n第3次<color=Highlight><te href=111010>翾舞</te></color>的时候获得的<color=Highlight><te href=111009>重明照影</te></color>的时间提升{1}。\n<color=Highlight>普攻·濯雨时</color>、<color=Highlight>重击·濯雨时</color>、<color=Highlight>下落攻击·重明枕露</color>和<color=Highlight>下落攻击·飞燕裁风</color>免疫打断。",
+      "tier": 1
+    },
+    {
+      "description": "山河水境内附近队伍中所有角色触发以下效果后，使触发效果的角色暴击伤害提升50%，持续30秒：\n·为目标附加【光噪效应】、【聚爆效应】、【霜渐效应】、【风蚀效应】、【电磁效应】，或造成对应异常效应伤害。\n·消耗目标【虚湮效应】层数。\n队伍中登场角色不处于山河水境内时，该暴击伤害提升效果暂时失效。",
+      "name": "霞铺万顷欲流金",
+      "parameters": [
+        "50%"
+      ],
+      "rawDescription": "<color=Highlight>山河水境</color>内附近队伍中所有角色触发以下效果后，使触发效果的角色暴击伤害提升{0}，持续30秒：\n·为目标附加<color=Highlight>【<te href=850008>光噪效应</te>】</color>、<color=Highlight>【<te href=850011>聚爆效应</te>】</color>、<color=Highlight>【<te href=850010>霜渐效应</te>】</color>、<color=Highlight>【<te href=850009>风蚀效应</te>】</color>、<color=Highlight>【<te href=850013>电磁效应</te>】</color>，或造成对应异常效应伤害。\n·消耗目标<color=Highlight>【<te href=850012>虚湮效应</te>】</color>层数。\n队伍中登场角色不处于<color=Highlight>山河水境</color>内时，该暴击伤害提升效果暂时失效。",
+      "tier": 2
+    },
+    {
+      "description": "施放共鸣技能·濯雨时后的一定时间内，短按普攻，将会施放普攻·濯雨时第4段。\n\n施放共鸣技能·濯雨时时，获得点翠，切换至其他角色时移除。施放普攻·濯雨时第4段时，会消耗点翠，回复自身20点协奏，并回复350点【芳菲信】。每25秒最多消耗1次点翠。",
+      "name": "半卷疏帘邀晚照",
+      "parameters": [
+        "20",
+        "350",
+        "25"
+      ],
+      "rawDescription": "施放<color=Highlight>共鸣技能·濯雨时</color>后的一定时间内，短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·濯雨时第4段</color>。\n<size=10></size>\n施放<color=Highlight>共鸣技能·濯雨时</color>时，获得<color=Highlight>点翠</color>，切换至其他角色时移除。施放<color=Highlight>普攻·濯雨时第4段</color>时，会消耗<color=Highlight>点翠</color>，回复自身{0}点协奏，并回复{1}点<color=Highlight>【<te href=111008>芳菲信</te>】</color>。每{2}秒最多消耗1次<color=Highlight>点翠</color>。",
+      "tier": 3
+    },
+    {
+      "description": "润物和春生造成的治疗量提升50%。",
+      "name": "一桁秋山共我吟",
+      "parameters": [
+        "50%"
+      ],
+      "rawDescription": "<color=Highlight><te href=111001>润物</te></color>和<color=Highlight><te href=111002>春生</te></color>造成的治疗量提升{0}。",
+      "tier": 4
+    },
+    {
+      "description": "普攻·濯雨时和重击·濯雨时的伤害倍率提升100%。",
+      "name": "愿乘东风千万里",
+      "parameters": [
+        "100%"
+      ],
+      "rawDescription": "<color=Highlight>普攻·濯雨时</color>和<color=Highlight>重击·濯雨时</color>的伤害倍率提升{0}。",
+      "tier": 5
+    },
+    {
+      "description": "变奏技能·泠泠漱玉声和共鸣技能·醒春潮的暴击伤害提升500%。",
+      "name": "不负江山锦绣心",
+      "parameters": [
+        "500%"
+      ],
+      "rawDescription": "<color=Highlight>变奏技能·泠泠漱玉声</color>和<color=Highlight>共鸣技能·醒春潮</color>的暴击伤害提升{0}。",
+      "tier": 6
+    }
+  ],
+  "characterId": "suisui",
+  "echoId": 6000218,
+  "element": "glacio",
+  "id": "firstlights_herald",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "穗穗",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110001001",
+          "kind": "basic",
+          "multiplier": 0.6315,
+          "offTuneUnits": 0.802020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 318,
+            "energy": 100,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3176,
+              3437,
+              3697,
+              4062,
+              4322,
+              4622,
+              5039,
+              5455,
+              5872,
+              6315,
+              6836,
+              7356,
+              7877,
+              8398,
+              8919,
+              9440,
+              9961,
+              10482,
+              11002,
+              11523
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3176,
+            "type": 0,
+            "weakness_lvl": 3176
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5344102305233047,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110002001",
+          "kind": "basic",
+          "multiplier": 0.61,
+          "offTuneUnits": 0.7747474747474747,
+          "raw": {
+            "element": 1,
+            "element_power": 307,
+            "energy": 96,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3068,
+              3320,
+              3572,
+              3924,
+              4175,
+              4465,
+              4867,
+              5270,
+              5672,
+              6100,
+              6603,
+              7106,
+              7609,
+              8113,
+              8616,
+              9119,
+              9622,
+              10125,
+              10628,
+              11132
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3068,
+            "type": 0,
+            "weakness_lvl": 3068
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5162375904425375,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110002002",
+          "kind": "basic",
+          "multiplier": 0.61,
+          "offTuneUnits": 0.7747474747474747,
+          "raw": {
+            "element": 1,
+            "element_power": 307,
+            "energy": 96,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3068,
+              3320,
+              3572,
+              3924,
+              4175,
+              4465,
+              4867,
+              5270,
+              5672,
+              6100,
+              6603,
+              7106,
+              7609,
+              8113,
+              8616,
+              9119,
+              9622,
+              10125,
+              10628,
+              11132
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3068,
+            "type": 0,
+            "weakness_lvl": 3068
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5162375904425375,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110003007",
+          "kind": "basic",
+          "multiplier": 0.418,
+          "offTuneUnits": 0.531060606060606,
+          "raw": {
+            "element": 1,
+            "element_power": 211,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2103,
+              2275,
+              2448,
+              2689,
+              2861,
+              3060,
+              3336,
+              3611,
+              3887,
+              4180,
+              4525,
+              4870,
+              5215,
+              5559,
+              5904,
+              6249,
+              6594,
+              6939,
+              7283,
+              7628
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2103,
+            "type": 0,
+            "weakness_lvl": 2103
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.35386168601716306,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110003012",
+          "kind": "basic",
+          "multiplier": 0.418,
+          "offTuneUnits": 0.531060606060606,
+          "raw": {
+            "element": 1,
+            "element_power": 211,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2103,
+              2275,
+              2448,
+              2689,
+              2861,
+              3060,
+              3336,
+              3611,
+              3887,
+              4180,
+              4525,
+              4870,
+              5215,
+              5559,
+              5904,
+              6249,
+              6594,
+              6939,
+              7283,
+              7628
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2103,
+            "type": 0,
+            "weakness_lvl": 2103
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.35386168601716306,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110003013",
+          "kind": "basic",
+          "multiplier": 0.5574,
+          "offTuneUnits": 0.7080808080808081,
+          "raw": {
+            "element": 1,
+            "element_power": 281,
+            "energy": 88,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2804,
+              3034,
+              3263,
+              3585,
+              3815,
+              4079,
+              4447,
+              4815,
+              5183,
+              5574,
+              6033,
+              6493,
+              6953,
+              7412,
+              7872,
+              8332,
+              8792,
+              9251,
+              9711,
+              10171
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2804,
+            "type": 0,
+            "weakness_lvl": 2804
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4718155813562174,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110004001",
+          "kind": "basic",
+          "multiplier": 0.7953,
+          "offTuneUnits": 1.0101010101010102,
+          "raw": {
+            "element": 1,
+            "element_power": 400,
+            "energy": 125,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4000,
+              4328,
+              4656,
+              5116,
+              5444,
+              5821,
+              6346,
+              6870,
+              7395,
+              7953,
+              8609,
+              9265,
+              9921,
+              10577,
+              11233,
+              11889,
+              12545,
+              13201,
+              13857,
+              14513
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 0,
+            "weakness_lvl": 4000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110004109",
+          "kind": "basic",
+          "multiplier": 0.1591,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 80,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              800,
+              866,
+              932,
+              1024,
+              1089,
+              1165,
+              1270,
+              1374,
+              1479,
+              1591,
+              1722,
+              1853,
+              1985,
+              2116,
+              2247,
+              2378,
+              2509,
+              2641,
+              2772,
+              2903
+            ],
+            "related_property": "攻击",
+            "tough_lv": 800,
+            "type": 0,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.13461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110200002",
+          "kind": "basic",
+          "multiplier": 0.512,
+          "offTuneUnits": 0.6505050505050505,
+          "raw": {
+            "element": 1,
+            "element_power": 258,
+            "energy": 81,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2576,
+              2787,
+              2998,
+              3294,
+              3505,
+              3748,
+              4086,
+              4423,
+              4761,
+              5120,
+              5543,
+              5965,
+              6387,
+              6810,
+              7232,
+              7654,
+              8077,
+              8499,
+              8921,
+              9344
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 0,
+            "weakness_lvl": 2576
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110200003",
+          "kind": "basic",
+          "multiplier": 0.512,
+          "offTuneUnits": 0.6505050505050505,
+          "raw": {
+            "element": 1,
+            "element_power": 258,
+            "energy": 81,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2576,
+              2787,
+              2998,
+              3294,
+              3505,
+              3748,
+              4086,
+              4423,
+              4761,
+              5120,
+              5543,
+              5965,
+              6387,
+              6810,
+              7232,
+              7654,
+              8077,
+              8499,
+              8921,
+              9344
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 0,
+            "weakness_lvl": 2576
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110200004",
+          "kind": "basic",
+          "multiplier": 0.6827,
+          "offTuneUnits": 0.8671717171717171,
+          "raw": {
+            "element": 1,
+            "element_power": 344,
+            "energy": 108,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3434,
+              3716,
+              3997,
+              4391,
+              4673,
+              4997,
+              5447,
+              5898,
+              6348,
+              6827,
+              7390,
+              7953,
+              8516,
+              9079,
+              9642,
+              10206,
+              10769,
+              11332,
+              11895,
+              12458
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6000,
+            "type": 0,
+            "weakness_lvl": 3434
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0095911155981827,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110011001",
+          "kind": "basic",
+          "multiplier": 0.7072,
+          "offTuneUnits": 1.496969696969697,
+          "raw": {
+            "element": 1,
+            "element_power": 593,
+            "energy": 186,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3557,
+              3849,
+              4141,
+              4549,
+              4841,
+              5176,
+              5643,
+              6109,
+              6576,
+              7072,
+              7655,
+              8238,
+              8822,
+              9405,
+              9988,
+              10572,
+              11155,
+              11738,
+              12322,
+              12905
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5928,
+            "type": 0,
+            "weakness_lvl": 5928
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9974760222110045,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻·浣尘时\n连续短按或按住普攻，进行最多4段的连续攻击，造成冷凝伤害，命中目标时，回复【水云息】。\n\n空中攻击·浣尘时\n消耗耐力进行空中下落攻击，造成冷凝伤害。\n\n闪避反击·浣尘时\n成功闪避后一定时间内短按普攻，将会攻击目标，造成冷凝伤害，命中目标时，回复【水云息】。\n施放该技能后在一定时间内短按普攻，将会施放普攻·浣尘时第4段。",
+      "headings": [
+        "普攻·浣尘时",
+        "空中攻击·浣尘时",
+        "闪避反击·浣尘时"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+      "id": "firstlights_herald/node_1",
+      "name": "解春风",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "普攻·浣尘时第一段伤害",
+          "values": [
+            "63.15%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "普攻·浣尘时第二段伤害",
+          "values": [
+            "61.00%+61.00%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "普攻·浣尘时第三段伤害",
+          "values": [
+            "41.80%+41.80%+55.74%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "普攻·浣尘时第四段伤害",
+          "values": [
+            "79.53%+15.91%*5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "空中攻击·浣尘时伤害",
+          "values": [
+            "70.72%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "闪避反击·浣尘时伤害",
+          "values": [
+            "51.20%+51.20%+68.27%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "空中攻击·浣尘时耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻·浣尘时</color></size>\n连续短按或按住<color=Highlight>普攻</color>，进行最多4段的连续攻击，造成<color=Ice>冷凝伤害</color>，命中目标时，回复<color=Highlight>【<te href=111007>水云息</te>】</color>。\n<size=10></size>\n<size=40><color=Title>空中攻击·浣尘时</color></size>\n消耗耐力进行空中下落攻击，造成<color=Ice>冷凝伤害</color>。\n<size=10></size>\n<size=40><color=Title>闪避反击·浣尘时</color></size>\n成功闪避后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Ice>冷凝伤害</color>，命中目标时，回复<color=Highlight>【<te href=111007>水云息</te>】</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·浣尘时第4段</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110105001",
+          "kind": "skill",
+          "multiplier": 0.2386,
+          "offTuneUnits": 0.30303030303030304,
+          "raw": {
+            "element": 1,
+            "element_power": 120,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3334,
+            "type": 4,
+            "weakness_lvl": 1200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5609961299007236,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110105002",
+          "kind": "skill",
+          "multiplier": 0.1193,
+          "offTuneUnits": 0.15151515151515152,
+          "raw": {
+            "element": 1,
+            "element_power": 60,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              600,
+              650,
+              699,
+              768,
+              817,
+              874,
+              952,
+              1031,
+              1110,
+              1193,
+              1292,
+              1390,
+              1489,
+              1587,
+              1685,
+              1784,
+              1882,
+              1981,
+              2079,
+              2177
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1667,
+            "type": 4,
+            "weakness_lvl": 600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.2804980649503618,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110105003",
+          "kind": "skill",
+          "multiplier": 0.7158,
+          "offTuneUnits": 0.9090909090909091,
+          "raw": {
+            "element": 1,
+            "element_power": 360,
+            "energy": 113,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3600,
+              3896,
+              4191,
+              4604,
+              4899,
+              5239,
+              5711,
+              6183,
+              6656,
+              7158,
+              7748,
+              8338,
+              8929,
+              9519,
+              10110,
+              10700,
+              11290,
+              11881,
+              12471,
+              13062
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 4,
+            "weakness_lvl": 3600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110010001",
+          "kind": "skill",
+          "multiplier": 0.2863,
+          "offTuneUnits": 2.4242424242424243,
+          "raw": {
+            "element": 1,
+            "element_power": 960,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1440,
+              1559,
+              1677,
+              1842,
+              1960,
+              2096,
+              2285,
+              2474,
+              2663,
+              2863,
+              3100,
+              3336,
+              3572,
+              3808,
+              4044,
+              4280,
+              4516,
+              4753,
+              4989,
+              5225
+            ],
+            "related_property": "生命",
+            "tough_lv": 20000,
+            "type": 4,
+            "weakness_lvl": 9600
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110010002",
+          "kind": "skill",
+          "multiplier": 0.2863,
+          "offTuneUnits": 20.606060606060606,
+          "raw": {
+            "element": 1,
+            "element_power": 2760,
+            "energy": 1800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1440,
+              1559,
+              1677,
+              1842,
+              1960,
+              2096,
+              2285,
+              2474,
+              2663,
+              2863,
+              3100,
+              3336,
+              3572,
+              3808,
+              4044,
+              4280,
+              4516,
+              4753,
+              4989,
+              5225
+            ],
+            "related_property": "生命",
+            "tough_lv": 20000,
+            "type": 4,
+            "weakness_lvl": 81600
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "11109010010",
+          "kind": "basic",
+          "multiplier": 0.0342,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              162,
+              169,
+              175,
+              185,
+              198,
+              211,
+              236,
+              263,
+              293,
+              342,
+              370,
+              398,
+              426,
+              455,
+              483,
+              511,
+              539,
+              568,
+              596,
+              624
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "11109010011",
+          "kind": "basic",
+          "multiplier": 0.0513,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              243,
+              253,
+              262,
+              277,
+              297,
+              316,
+              354,
+              394,
+              439,
+              513,
+              555,
+              597,
+              639,
+              682,
+              724,
+              766,
+              808,
+              852,
+              894,
+              936
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "共鸣技能·浣尘时\n浣尘时期间，【水云息】没满时，短按共鸣技能施放。穗穗向前突进，造成冷凝伤害。施放期间，若穗穗为队伍中登场角色，则回复【水云息】。\n可在低空中施放。\n该技能与共鸣技能·濯雨时共享冷却时间。\n\n醒春潮\n浣尘时期间，【水云息】满时，共鸣技能·浣尘时替换为醒春潮。施放时，消耗所有【水云息】，牵引周围的目标，进入濯雨时，造成冷凝伤害，为命中的目标附加1次【霜渐效应】。\n\n润物\n施放醒春潮和变奏技能·泠泠漱玉声时，使附近队伍中所有角色获得1层润物，每25秒最多触发1次。角色登场时，会消耗润物，使穗穗为其回复生命值。\n\n共鸣技能·濯雨时\n濯雨时期间，共鸣技能·浣尘时替换为共鸣技能·濯雨时。\n短按共鸣技能施放。穗穗向前突进，造成冷凝伤害。施放期间，若穗穗为队伍中登场角色，则回复【芳菲信】。\n可在低空中施放。\n该技能与共鸣技能·浣尘时共享冷却时间。",
+      "headings": [
+        "共鸣技能·浣尘时",
+        "醒春潮",
+        "润物",
+        "共鸣技能·濯雨时"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiB1.SP_IconSuisuiB1",
+      "id": "firstlights_herald/node_2",
+      "name": "翠落画屏",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "共鸣技能·浣尘时伤害",
+          "values": [
+            "23.86%*6"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "2",
+          "name": "醒春潮伤害",
+          "values": [
+            "28.63%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "共鸣技能·濯雨时伤害",
+          "values": [
+            "11.93%*6+71.58%"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "4",
+          "name": "润物治疗量",
+          "values": [
+            "627+3.42%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "5",
+          "name": "共鸣技能·浣尘时/共鸣技能·濯雨时冷却时间",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "6",
+          "name": "醒春潮冷却时间",
+          "values": [
+            "15"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>共鸣技能·浣尘时</color></size>\n<color=Highlight><te href=111005>浣尘时</te></color>期间，<color=Highlight>【<te href=111007>水云息</te>】</color>没满时，短按<color=Highlight>共鸣技能</color>施放。穗穗向前突进，造成<color=Ice>冷凝伤害</color>。施放期间，若穗穗为队伍中登场角色，则回复<color=Highlight>【<te href=111007>水云息</te>】</color>。\n可在低空中施放。\n该技能与<color=Highlight>共鸣技能·濯雨时</color>共享冷却时间。\n<size=10></size>\n<size=40><color=Title>醒春潮</color></size>\n<color=Highlight><te href=111005>浣尘时</te></color>期间，<color=Highlight>【<te href=111007>水云息</te>】</color>满时，<color=Highlight>共鸣技能·浣尘时</color>替换为<color=Highlight>醒春潮</color>。施放时，消耗所有<color=Highlight>【<te href=111007>水云息</te>】</color>，牵引周围的目标，进入<color=Highlight><te href=111006>濯雨时</te></color>，造成<color=Ice>冷凝伤害</color>，为命中的目标附加1次<color=Highlight>【<te href=850010>霜渐效应</te>】</color>。\n<size=10></size>\n<size=40><color=Title>润物</color></size>\n施放<color=Highlight>醒春潮</color>和<color=Highlight>变奏技能·泠泠漱玉声</color>时，使附近队伍中所有角色获得1层<color=Highlight><te href=111001>润物</te></color>，每25秒最多触发1次。角色登场时，会消耗<color=Highlight><te href=111001>润物</te></color>，使穗穗为其回复生命值。\n<size=10></size>\n<size=40><color=Title>共鸣技能·濯雨时</color></size>\n<color=Highlight><te href=111006>濯雨时</te></color>期间，<color=Highlight>共鸣技能·浣尘时</color>替换为<color=Highlight>共鸣技能·濯雨时</color>。\n短按<color=Highlight>共鸣技能</color>施放。穗穗向前突进，造成<color=Ice>冷凝伤害</color>。施放期间，若穗穗为队伍中登场角色，则回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n可在低空中施放。\n该技能与<color=Highlight>共鸣技能·浣尘时</color>共享冷却时间。",
+      "rawParameters": [],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1110901002",
+          "kind": "basic",
+          "multiplier": 0.057,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              271,
+              282,
+              293,
+              309,
+              331,
+              353,
+              393,
+              439,
+              488,
+              570,
+              617,
+              664,
+              711,
+              758,
+              805,
+              852,
+              899,
+              946,
+              993,
+              1040
+            ],
+            "related_property": "生命",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "施放时，在场上展开山河水境，持续30秒。山河水境存在期间，穗穗施放延奏技能·渌水盈盈时，会进入仙游碧落状态。\n山河水境内附近队伍中所有角色获得以下效果：\n·为目标附加【光噪效应】、【聚爆效应】、【霜渐效应】、【风蚀效应】，或造成对应异常效应伤害后，使目标对应的【异常效应】层数上限增加3层，持续15秒，该效果无法叠加。\n·为目标附加【电磁效应】，或造成对应异常效应伤害后，使目标【电磁效应】和【电磁爆发】的层数上限增加3层，持续15秒，该效果无法叠加。\n·消耗目标【虚湮效应】层数后，使自身造成的湮灭伤害无视目标6%防御，且无视目标12%湮灭抗性，持续30秒，该效果无法叠加。\n可在低空中施放。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiC1.SP_IconSuisuiC1",
+      "id": "firstlights_herald/node_3",
+      "name": "康衢之谣",
+      "parameters": [
+        {
+          "format": "{0}秒",
+          "id": "1",
+          "name": "冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "消耗共鸣能量",
+          "values": [
+            "175"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": "{0}生命",
+          "id": "4",
+          "name": "每次翾舞治疗量",
+          "values": [
+            "1045+5.70%"
+          ]
+        },
+        {
+          "id": "utility_domain",
+          "name": "康衢之谣·山河水境（无直接伤害）",
+          "utilityOnly": true,
+          "values": [
+            "0%"
+          ]
+        }
+      ],
+      "rawDescription": "施放时，在场上展开<color=Highlight><te href=111003>山河水境</te></color>，持续30秒。<color=Highlight><te href=111003>山河水境</te></color>存在期间，穗穗施放<color=Highlight>延奏技能·渌水盈盈</color>时，会进入<color=Highlight><te href=111004>仙游碧落</te></color>状态。\n<color=Highlight><te href=111003>山河水境</te></color>内附近队伍中所有角色获得以下效果：\n·为目标附加<color=Highlight>【<te href=850008>光噪效应</te>】</color>、<color=Highlight>【<te href=850011>聚爆效应</te>】</color>、<color=Highlight>【<te href=850010>霜渐效应</te>】</color>、<color=Highlight>【<te href=850009>风蚀效应</te>】</color>，或造成对应异常效应伤害后，使目标对应的<color=Highlight>【<te href=850180>异常效应</te>】</color>层数上限增加3层，持续{0}秒，该效果无法叠加。\n·为目标附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>，或造成对应异常效应伤害后，使目标<color=Highlight>【<te href=850013>电磁效应</te>】</color>和<color=Highlight>【<te href=150806>电磁爆发</te>】</color>的层数上限增加3层，持续{1}秒，该效果无法叠加。\n·消耗目标<color=Highlight>【<te href=850012>虚湮效应</te>】</color>层数后，使自身造成的湮灭伤害无视目标{2}防御，且无视目标{3}湮灭抗性，持续{4}秒，该效果无法叠加。\n可在低空中施放。",
+      "rawParameters": [
+        "15",
+        "15",
+        "6%",
+        "12%",
+        "30"
+      ],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "润物被消耗时，该角色还会获得10层春生，上限10层。拥有春生的角色如果当前生命值未达生命上限，则每2秒消耗1层春生，穗穗为其回复62+0.34%穗穗生命上限的生命值。\n\n共鸣技能·醒春潮和变奏技能·泠泠漱玉声命中目标时，额外回复18点协奏和13点共鸣能量，并使该次攻击的暴击率提升80%，造成的冷凝伤害提升240%。每25秒最多触发1次。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD1.SP_IconSuisuiD1",
+      "id": "firstlights_herald/node_4",
+      "name": "近水纳天光",
+      "parameters": [],
+      "rawDescription": "<color=Highlight><te href=111001>润物</te></color>被消耗时，该角色还会获得{0}层<color=Highlight><te href=111002>春生</te></color>，上限{1}层。拥有<color=Highlight><te href=111002>春生</te></color>的角色如果当前生命值未达生命上限，则每{2}秒消耗1层<color=Highlight><te href=111002>春生</te></color>，穗穗为其回复{3}+{4}穗穗生命上限的生命值。\n<size=10></size>\n<color=Highlight>共鸣技能·醒春潮</color>和<color=Highlight>变奏技能·泠泠漱玉声</color>命中目标时，额外回复{5}点协奏和{6}点共鸣能量，并使该次攻击的暴击率提升{7}，造成的冷凝伤害提升{8}。每25秒最多触发1次。",
+      "rawParameters": [
+        "10",
+        "10",
+        "2",
+        "62",
+        "0.34%",
+        "18",
+        "13",
+        "80%",
+        "240%"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "队伍中有穗穗以外的角色受到致死伤害时，此次伤害不会使该角色倒下并获得穗穗当前50%生命值，穗穗扣除等量生命值。穗穗最少保留1点生命值。该效果每10分钟可触发一次。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiD2.SP_IconSuisuiD2",
+      "id": "firstlights_herald/node_5",
+      "name": "浮光跃金处",
+      "parameters": [],
+      "rawDescription": "队伍中有穗穗以外的角色受到致死伤害时，此次伤害不会使该角色倒下并获得穗穗当前{0}生命值，穗穗扣除等量生命值。穗穗最少保留{1}点生命值。该效果每{2}分钟可触发一次。",
+      "rawParameters": [
+        "50%",
+        "1",
+        "10"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110022001",
+          "kind": "intro",
+          "multiplier": 0.2863,
+          "offTuneUnits": 2.4242424242424243,
+          "raw": {
+            "element": 1,
+            "element_power": 960,
+            "energy": 1000,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1440,
+              1559,
+              1677,
+              1842,
+              1960,
+              2096,
+              2285,
+              2474,
+              2663,
+              2863,
+              3100,
+              3336,
+              3572,
+              3808,
+              4044,
+              4280,
+              4516,
+              4753,
+              4989,
+              5225
+            ],
+            "related_property": "生命",
+            "tough_lv": 9600,
+            "type": 3,
+            "weakness_lvl": 9600
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 1.6153457849570925,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110022002",
+          "kind": "intro",
+          "multiplier": 0.2863,
+          "offTuneUnits": 20.606060606060606,
+          "raw": {
+            "element": 1,
+            "element_power": 2760,
+            "energy": 2300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1440,
+              1559,
+              1677,
+              1842,
+              1960,
+              2096,
+              2285,
+              2474,
+              2663,
+              2863,
+              3100,
+              3336,
+              3572,
+              3808,
+              4044,
+              4280,
+              4516,
+              4753,
+              4989,
+              5225
+            ],
+            "related_property": "生命",
+            "tough_lv": 9600,
+            "type": 3,
+            "weakness_lvl": 81600
+          },
+          "scalingProperty": "health",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 1.6153457849570925,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成冷凝伤害，为命中的目标附加1次【霜渐效应】。\n施放时，消耗所有【水云息】，牵引周围的目标，进入濯雨时。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiQTE.SP_IconSuisuiQTE",
+      "id": "firstlights_herald/node_6",
+      "name": "泠泠漱玉声",
+      "parameters": [
+        {
+          "format": "{0}生命",
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "28.63%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Ice>冷凝伤害</color>，为命中的目标附加1次<color=Highlight>【<te href=850010>霜渐效应</te>】</color>。\n施放时，消耗所有<color=Highlight>【<te href=111007>水云息</te>】</color>，牵引周围的目标，进入<color=Highlight><te href=111006>濯雨时</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100060010",
+          "kind": "basic",
+          "multiplier": 0.1957,
+          "offTuneUnits": 0.24848484848484848,
+          "raw": {
+            "element": 1,
+            "element_power": 99,
+            "energy": 31,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              984,
+              1065,
+              1146,
+              1259,
+              1340,
+              1432,
+              1561,
+              1691,
+              1820,
+              1957,
+              2118,
+              2280,
+              2441,
+              2602,
+              2764,
+              2925,
+              3086,
+              3248,
+              3409,
+              3571
+            ],
+            "related_property": "攻击",
+            "tough_lv": 984,
+            "type": 0,
+            "weakness_lvl": 984
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16557294295810196,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100060020",
+          "kind": "basic",
+          "multiplier": 0.1957,
+          "offTuneUnits": 0.24848484848484848,
+          "raw": {
+            "element": 1,
+            "element_power": 99,
+            "energy": 31,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              984,
+              1065,
+              1146,
+              1259,
+              1340,
+              1432,
+              1561,
+              1691,
+              1820,
+              1957,
+              2118,
+              2280,
+              2441,
+              2602,
+              2764,
+              2925,
+              3086,
+              3248,
+              3409,
+              3571
+            ],
+            "related_property": "攻击",
+            "tough_lv": 984,
+            "type": 0,
+            "weakness_lvl": 984
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16557294295810196,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070000",
+          "kind": "basic",
+          "multiplier": 0.3181,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1600,
+              1732,
+              1863,
+              2047,
+              2178,
+              2329,
+              2539,
+              2748,
+              2958,
+              3181,
+              3444,
+              3706,
+              3969,
+              4231,
+              4493,
+              4756,
+              5018,
+              5281,
+              5543,
+              5805
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070010",
+          "kind": "basic",
+          "multiplier": 0.1591,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 80,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              800,
+              866,
+              932,
+              1024,
+              1089,
+              1165,
+              1270,
+              1374,
+              1479,
+              1591,
+              1722,
+              1853,
+              1985,
+              2116,
+              2247,
+              2378,
+              2509,
+              2641,
+              2772,
+              2903
+            ],
+            "related_property": "攻击",
+            "tough_lv": 800,
+            "type": 0,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.13461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070020",
+          "kind": "basic",
+          "multiplier": 0.1591,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 80,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              800,
+              866,
+              932,
+              1024,
+              1089,
+              1165,
+              1270,
+              1374,
+              1479,
+              1591,
+              1722,
+              1853,
+              1985,
+              2116,
+              2247,
+              2378,
+              2509,
+              2641,
+              2772,
+              2903
+            ],
+            "related_property": "攻击",
+            "tough_lv": 800,
+            "type": 0,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.13461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070030",
+          "kind": "basic",
+          "multiplier": 0.3181,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1600,
+              1732,
+              1863,
+              2047,
+              2178,
+              2329,
+              2539,
+              2748,
+              2958,
+              3181,
+              3444,
+              3706,
+              3969,
+              4231,
+              4493,
+              4756,
+              5018,
+              5281,
+              5543,
+              5805
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070040",
+          "kind": "basic",
+          "multiplier": 0.3181,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1600,
+              1732,
+              1863,
+              2047,
+              2178,
+              2329,
+              2539,
+              2748,
+              2958,
+              3181,
+              3444,
+              3706,
+              3969,
+              4231,
+              4493,
+              4756,
+              5018,
+              5281,
+              5543,
+              5805
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080010",
+          "kind": "basic",
+          "multiplier": 0.1376,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              692,
+              749,
+              806,
+              885,
+              942,
+              1007,
+              1098,
+              1189,
+              1280,
+              1376,
+              1490,
+              1603,
+              1717,
+              1830,
+              1944,
+              2057,
+              2171,
+              2284,
+              2398,
+              2511
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080020",
+          "kind": "basic",
+          "multiplier": 0.1376,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              692,
+              749,
+              806,
+              885,
+              942,
+              1007,
+              1098,
+              1189,
+              1280,
+              1376,
+              1490,
+              1603,
+              1717,
+              1830,
+              1944,
+              2057,
+              2171,
+              2284,
+              2398,
+              2511
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080030",
+          "kind": "basic",
+          "multiplier": 0.1376,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              692,
+              749,
+              806,
+              885,
+              942,
+              1007,
+              1098,
+              1189,
+              1280,
+              1376,
+              1490,
+              1603,
+              1717,
+              1830,
+              1944,
+              2057,
+              2171,
+              2284,
+              2398,
+              2511
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080040",
+          "kind": "basic",
+          "multiplier": 0.1376,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              692,
+              749,
+              806,
+              885,
+              942,
+              1007,
+              1098,
+              1189,
+              1280,
+              1376,
+              1490,
+              1603,
+              1717,
+              1830,
+              1944,
+              2057,
+              2171,
+              2284,
+              2398,
+              2511
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100090020",
+          "kind": "basic",
+          "multiplier": 1.5905,
+          "offTuneUnits": 2.0202020202020203,
+          "raw": {
+            "element": 1,
+            "element_power": 800,
+            "energy": 250,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8000,
+              8656,
+              9312,
+              10231,
+              10887,
+              11641,
+              12691,
+              13740,
+              14790,
+              15905,
+              17217,
+              18529,
+              19841,
+              21153,
+              22465,
+              23777,
+              25089,
+              26401,
+              27713,
+              29025
+            ],
+            "related_property": "攻击",
+            "tough_lv": 8000,
+            "type": 0,
+            "weakness_lvl": 8000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.3461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100140010",
+          "kind": "heavy",
+          "multiplier": 0.1193,
+          "offTuneUnits": 0.15151515151515152,
+          "raw": {
+            "element": 1,
+            "element_power": 60,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              600,
+              650,
+              699,
+              768,
+              817,
+              874,
+              952,
+              1031,
+              1110,
+              1193,
+              1292,
+              1390,
+              1489,
+              1587,
+              1685,
+              1784,
+              1882,
+              1981,
+              2079,
+              2177
+            ],
+            "related_property": "攻击",
+            "tough_lv": 600,
+            "type": 1,
+            "weakness_lvl": 600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.10095911155981828,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100140020",
+          "kind": "heavy",
+          "multiplier": 1.1929,
+          "offTuneUnits": 1.5151515151515151,
+          "raw": {
+            "element": 1,
+            "element_power": 600,
+            "energy": 188,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6000,
+              6492,
+              6984,
+              7673,
+              8165,
+              8731,
+              9518,
+              10305,
+              11093,
+              11929,
+              12913,
+              13897,
+              14881,
+              15865,
+              16849,
+              17833,
+              18817,
+              19801,
+              20785,
+              21769
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6000,
+            "type": 1,
+            "weakness_lvl": 6000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 1.0095911155981827,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100060011",
+          "kind": "basic",
+          "multiplier": 0.3913,
+          "offTuneUnits": 0.24848484848484848,
+          "raw": {
+            "element": 1,
+            "element_power": 99,
+            "energy": 31,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1968,
+              2130,
+              2291,
+              2517,
+              2679,
+              2864,
+              3122,
+              3381,
+              3639,
+              3913,
+              4236,
+              4559,
+              4881,
+              5204,
+              5527,
+              5850,
+              6172,
+              6495,
+              6818,
+              7141
+            ],
+            "related_property": "攻击",
+            "tough_lv": 984,
+            "type": 0,
+            "weakness_lvl": 984
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16557294295810196,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100060021",
+          "kind": "basic",
+          "multiplier": 0.3913,
+          "offTuneUnits": 0.24848484848484848,
+          "raw": {
+            "element": 1,
+            "element_power": 99,
+            "energy": 31,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1968,
+              2130,
+              2291,
+              2517,
+              2679,
+              2864,
+              3122,
+              3381,
+              3639,
+              3913,
+              4236,
+              4559,
+              4881,
+              5204,
+              5527,
+              5850,
+              6172,
+              6495,
+              6818,
+              7141
+            ],
+            "related_property": "攻击",
+            "tough_lv": 984,
+            "type": 0,
+            "weakness_lvl": 984
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16557294295810196,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070001",
+          "kind": "basic",
+          "multiplier": 0.6362,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3200,
+              3463,
+              3725,
+              4093,
+              4355,
+              4657,
+              5077,
+              5496,
+              5916,
+              6362,
+              6887,
+              7412,
+              7937,
+              8462,
+              8986,
+              9511,
+              10036,
+              10561,
+              11086,
+              11610
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070011",
+          "kind": "basic",
+          "multiplier": 0.3181,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 80,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1600,
+              1732,
+              1863,
+              2047,
+              2178,
+              2329,
+              2539,
+              2748,
+              2958,
+              3181,
+              3444,
+              3706,
+              3969,
+              4231,
+              4493,
+              4756,
+              5018,
+              5281,
+              5543,
+              5805
+            ],
+            "related_property": "攻击",
+            "tough_lv": 800,
+            "type": 0,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.13461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070021",
+          "kind": "basic",
+          "multiplier": 0.3181,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 1,
+            "element_power": 80,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1600,
+              1732,
+              1863,
+              2047,
+              2178,
+              2329,
+              2539,
+              2748,
+              2958,
+              3181,
+              3444,
+              3706,
+              3969,
+              4231,
+              4493,
+              4756,
+              5018,
+              5281,
+              5543,
+              5805
+            ],
+            "related_property": "攻击",
+            "tough_lv": 800,
+            "type": 0,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.13461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070031",
+          "kind": "basic",
+          "multiplier": 0.6362,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3200,
+              3463,
+              3725,
+              4093,
+              4355,
+              4657,
+              5077,
+              5496,
+              5916,
+              6362,
+              6887,
+              7412,
+              7937,
+              8462,
+              8986,
+              9511,
+              10036,
+              10561,
+              11086,
+              11610
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100070041",
+          "kind": "basic",
+          "multiplier": 0.6362,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 1,
+            "element_power": 160,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3200,
+              3463,
+              3725,
+              4093,
+              4355,
+              4657,
+              5077,
+              5496,
+              5916,
+              6362,
+              6887,
+              7412,
+              7937,
+              8462,
+              8986,
+              9511,
+              10036,
+              10561,
+              11086,
+              11610
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080011",
+          "kind": "basic",
+          "multiplier": 0.2752,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1384,
+              1498,
+              1611,
+              1770,
+              1884,
+              2014,
+              2196,
+              2378,
+              2559,
+              2752,
+              2979,
+              3206,
+              3433,
+              3660,
+              3887,
+              4114,
+              4341,
+              4568,
+              4795,
+              5022
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080021",
+          "kind": "basic",
+          "multiplier": 0.2752,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1384,
+              1498,
+              1611,
+              1770,
+              1884,
+              2014,
+              2196,
+              2378,
+              2559,
+              2752,
+              2979,
+              3206,
+              3433,
+              3660,
+              3887,
+              4114,
+              4341,
+              4568,
+              4795,
+              5022
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080031",
+          "kind": "basic",
+          "multiplier": 0.2752,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1384,
+              1498,
+              1611,
+              1770,
+              1884,
+              2014,
+              2196,
+              2378,
+              2559,
+              2752,
+              2979,
+              3206,
+              3433,
+              3660,
+              3887,
+              4114,
+              4341,
+              4568,
+              4795,
+              5022
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100080041",
+          "kind": "basic",
+          "multiplier": 0.2752,
+          "offTuneUnits": 0.17474747474747473,
+          "raw": {
+            "element": 1,
+            "element_power": 70,
+            "energy": 22,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1384,
+              1498,
+              1611,
+              1770,
+              1884,
+              2014,
+              2196,
+              2378,
+              2559,
+              2752,
+              2979,
+              3206,
+              3433,
+              3660,
+              3887,
+              4114,
+              4341,
+              4568,
+              4795,
+              5022
+            ],
+            "related_property": "攻击",
+            "tough_lv": 692,
+            "type": 0,
+            "weakness_lvl": 692
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.11643950866565708,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100090021",
+          "kind": "basic",
+          "multiplier": 3.181,
+          "offTuneUnits": 2.0202020202020203,
+          "raw": {
+            "element": 1,
+            "element_power": 800,
+            "energy": 250,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              16000,
+              17312,
+              18624,
+              20461,
+              21773,
+              23282,
+              25381,
+              27480,
+              29580,
+              31810,
+              34434,
+              37058,
+              39682,
+              42306,
+              44930,
+              47554,
+              50178,
+              52802,
+              55426,
+              58050
+            ],
+            "related_property": "攻击",
+            "tough_lv": 8000,
+            "type": 0,
+            "weakness_lvl": 8000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.3461214874642435,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100140011",
+          "kind": "heavy",
+          "multiplier": 0.2386,
+          "offTuneUnits": 0.15151515151515152,
+          "raw": {
+            "element": 1,
+            "element_power": 60,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "related_property": "攻击",
+            "tough_lv": 600,
+            "type": 1,
+            "weakness_lvl": 600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.10095911155981828,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "11100140021",
+          "kind": "heavy",
+          "multiplier": 2.3858,
+          "offTuneUnits": 1.5151515151515151,
+          "raw": {
+            "element": 1,
+            "element_power": 600,
+            "energy": 188,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              12000,
+              12984,
+              13968,
+              15346,
+              16330,
+              17462,
+              19036,
+              20610,
+              22185,
+              23858,
+              25826,
+              27794,
+              29762,
+              31730,
+              33698,
+              35666,
+              37634,
+              39602,
+              41570,
+              43538
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6000,
+            "type": 1,
+            "weakness_lvl": 6000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 1.0095911155981827,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110015001",
+          "kind": "basic",
+          "multiplier": 1.0498,
+          "offTuneUnits": 2.2222222222222223,
+          "raw": {
+            "element": 1,
+            "element_power": 880,
+            "energy": 275,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5280,
+              5713,
+              6146,
+              6753,
+              7186,
+              7683,
+              8376,
+              9069,
+              9762,
+              10498,
+              11364,
+              12230,
+              13095,
+              13961,
+              14827,
+              15693,
+              16559,
+              17425,
+              18291,
+              19157
+            ],
+            "related_property": "攻击",
+            "tough_lv": 8800,
+            "type": 0,
+            "weakness_lvl": 8800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.480733636210668,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "glacio",
+          "id": "1110015002",
+          "kind": "basic",
+          "multiplier": 1.0765,
+          "offTuneUnits": 2.278787878787879,
+          "raw": {
+            "element": 1,
+            "element_power": 903,
+            "energy": 282,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5415,
+              5859,
+              6303,
+              6924,
+              7368,
+              7879,
+              8589,
+              9300,
+              10010,
+              10765,
+              11653,
+              12541,
+              13429,
+              14317,
+              15205,
+              16093,
+              16981,
+              17869,
+              18757,
+              19644
+            ],
+            "related_property": "攻击",
+            "tough_lv": 9024,
+            "type": 0,
+            "weakness_lvl": 9024
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.5184250378596669,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "浣尘时\n穗穗初始处于浣尘时，浣尘时期间，可通过特定技能回复【水云息】。\n\n濯雨时\n进入濯雨时时，清除所有【芳菲信】。\n濯雨时期间：\n·解锁全新的战斗形态，可通过特定技能回复【芳菲信】。\n·穗穗的抗打断提升。\n·穗穗施放闪避技能触发成功闪避后的一定时间内，短按普攻，会施放普攻·濯雨时第一段。\n进入濯雨时15秒后，退出濯雨时，退出时，清除所有【芳菲信】。\n\n闪避·拨云雾见\n地面攻击动作期间，短按闪避，会消耗耐力，施放闪避·拨云雾见。\n浣尘时期间，施放闪避·拨云雾见触发成功闪避时，回复【水云息】，且一定时间内短按普攻，将会施放闪避反击·浣尘时。\n濯雨时期间，施放闪避·拨云雾见触发成功闪避时，回复【芳菲信】，且一定时间内不会重置普攻·濯雨时连段。\n\n普攻·濯雨时\n濯雨时期间，普攻·浣尘时替换为普攻·濯雨时。\n连续短按普攻，进行最多4段的连续攻击，造成冷凝伤害，命中目标时，回复【芳菲信】。\n施放普攻·濯雨时第3段期间，持续牵引周围的目标。\n普攻·濯雨时第4段会为命中的目标附加1次【霜渐效应】。\n\n重击·濯雨时\n消耗耐力，造成冷凝伤害，命中目标时，回复【芳菲信】。\n\n重明枕露\n濯雨时期间，施放重击·濯雨时后，保持按住普攻施放。\n消耗耐力进行空中下落攻击，造成冷凝伤害。\n\n飞燕裁风\n濯雨时期间，可通过以下方式施放：\n·施放重击·濯雨时期间，松开普攻施放。\n·穗穗处于空中时，短按普攻施放。\n消耗耐力进行空中下落攻击，造成冷凝伤害。\n\n【水云息】获取规则\n上限120点。\n浣尘时期间：\n·普攻·浣尘时、闪避反击·浣尘时命中目标时，回复【水云息】。\n·施放共鸣技能·浣尘时期间为队伍中登场角色时，回复40点【水云息】。\n·施放闪避·拨云雾见触发成功闪避时，回复35点【水云息】。\n\n【芳菲信】获取规则\n上限600点。\n濯雨时期间：\n·普攻·濯雨时、重击·濯雨时命中目标时，回复【芳菲信】。\n·施放共鸣技能·濯雨时期间为队伍中登场角色时，回复100点【芳菲信】。\n·施放闪避·拨云雾见触发成功闪避时，回复102点【芳菲信】。",
+      "headings": [
+        "浣尘时",
+        "濯雨时",
+        "闪避·拨云雾见",
+        "普攻·濯雨时",
+        "重击·濯雨时",
+        "重明枕露",
+        "飞燕裁风",
+        "【水云息】获取规则",
+        "【芳菲信】获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiY.SP_IconSuisuiY",
+      "id": "firstlights_herald/node_7",
+      "name": "穗摇金",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "普攻·濯雨时第一段伤害",
+          "values": [
+            "19.57%*2+19.57%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "普攻·濯雨时第二段伤害",
+          "values": [
+            "31.81%+15.91%*2+15.91%*2+31.81%+31.81%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "普攻·濯雨时第三段伤害",
+          "values": [
+            "13.76%*3+13.76%*3+13.76%*3+13.76%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "普攻·濯雨时第四段伤害",
+          "values": [
+            "159.05%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击·濯雨时伤害",
+          "values": [
+            "11.93%*10+119.29%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "重明枕露伤害",
+          "values": [
+            "104.98%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "飞燕裁风伤害",
+          "values": [
+            "107.65%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "闪避·拨云雾见耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "重击·濯雨时耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "重明枕露耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "飞燕裁风耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>浣尘时</color></size>\n穗穗初始处于<color=Highlight><te href=111005>浣尘时</te></color>，<color=Highlight><te href=111005>浣尘时</te></color>期间，可通过特定技能回复<color=Highlight>【<te href=111007>水云息</te>】</color>。\n<size=10></size>\n<size=40><color=Title>濯雨时</color></size>\n进入<color=Highlight><te href=111006>濯雨时</te></color>时，清除所有<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n<color=Highlight><te href=111006>濯雨时</te></color>期间：\n·解锁全新的战斗形态，可通过特定技能回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n·穗穗的抗打断提升。\n·穗穗施放<color=Highlight>闪避技能</color>触发成功闪避后的一定时间内，短按<color=Highlight>普攻</color>，会施放<color=Highlight>普攻·濯雨时第一段</color>。\n进入<color=Highlight><te href=111006>濯雨时</te></color>15秒后，退出<color=Highlight><te href=111006>濯雨时</te></color>，退出时，清除所有<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n<size=10></size>\n<size=40><color=Title>闪避·拨云雾见</color></size>\n地面攻击动作期间，短按<color=Highlight>闪避</color>，会消耗耐力，施放<color=Highlight>闪避·拨云雾见</color>。\n<color=Highlight><te href=111005>浣尘时</te></color>期间，施放<color=Highlight>闪避·拨云雾见</color>触发成功闪避时，回复<color=Highlight>【<te href=111007>水云息</te>】</color>，且一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>闪避反击·浣尘时</color>。\n<color=Highlight><te href=111006>濯雨时</te></color>期间，施放<color=Highlight>闪避·拨云雾见</color>触发成功闪避时，回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>，且一定时间内不会重置<color=Highlight>普攻·濯雨时</color>连段。\n<size=10></size>\n<size=40><color=Title>普攻·濯雨时</color></size>\n<color=Highlight><te href=111006>濯雨时</te></color>期间，<color=Highlight>普攻·浣尘时</color>替换为<color=Highlight>普攻·濯雨时</color>。\n连续短按<color=Highlight>普攻</color>，进行最多4段的连续攻击，造成<color=Ice>冷凝伤害</color>，命中目标时，回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n施放<color=Highlight>普攻·濯雨时第3段</color>期间，持续牵引周围的目标。\n<color=Highlight>普攻·濯雨时第4段</color>会为命中的目标附加1次<color=Highlight>【<te href=850010>霜渐效应</te>】</color>。\n<size=10></size>\n<size=40><color=Title>重击·濯雨时</color></size>\n消耗耐力，造成<color=Ice>冷凝伤害</color>，命中目标时，回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n<size=10></size>\n<size=40><color=Title>重明枕露</color></size>\n<color=Highlight><te href=111006>濯雨时</te></color>期间，施放<color=Highlight>重击·濯雨时</color>后，保持按住<color=Highlight>普攻</color>施放。\n消耗耐力进行空中下落攻击，造成<color=Ice>冷凝伤害</color>。\n<size=10></size>\n<size=40><color=Title>飞燕裁风</color></size>\n<color=Highlight><te href=111006>濯雨时</te></color>期间，可通过以下方式施放：\n·施放<color=Highlight>重击·濯雨时</color>期间，松开<color=Highlight>普攻</color>施放。\n·穗穗处于空中时，短按<color=Highlight>普攻</color>施放。\n消耗耐力进行空中下落攻击，造成<color=Ice>冷凝伤害</color>。\n<size=10></size>\n<size=40><color=Title>【水云息】获取规则</color></size>\n上限{0}点。\n<color=Highlight><te href=111005>浣尘时</te></color>期间：\n·<color=Highlight>普攻·浣尘时</color>、<color=Highlight>闪避反击·浣尘时</color>命中目标时，回复<color=Highlight>【<te href=111007>水云息</te>】</color>。\n·施放<color=Highlight>共鸣技能·浣尘时</color>期间为队伍中登场角色时，回复{1}点<color=Highlight>【<te href=111007>水云息</te>】</color>。\n·施放<color=Highlight>闪避·拨云雾见</color>触发成功闪避时，回复{2}点<color=Highlight>【<te href=111007>水云息</te>】</color>。\n<size=10></size>\n<size=40><color=Title>【芳菲信】获取规则</color></size>\n上限{3}点。\n<color=Highlight><te href=111006>濯雨时</te></color>期间：\n·<color=Highlight>普攻·濯雨时</color>、<color=Highlight>重击·濯雨时</color>命中目标时，回复<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n·施放<color=Highlight>共鸣技能·濯雨时</color>期间为队伍中登场角色时，回复{4}点<color=Highlight>【<te href=111008>芳菲信</te>】</color>。\n·施放<color=Highlight>闪避·拨云雾见</color>触发成功闪避时，回复{5}点<color=Highlight>【<te href=111008>芳菲信</te>】</color>。",
+      "rawParameters": [
+        "120",
+        "40",
+        "35",
+        "600",
+        "100",
+        "102"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "队伍中的角色全伤害加深25%，持续30秒。\n\n施放时，若当前场上存在山河水境，则穗穗进入仙游碧落状态。\n施放时，退出濯雨时，并消耗所有【芳菲信】，且根据消耗的【芳菲信】解锁以下效果：\n\n消耗至少0点【芳菲信】：\n·附近队伍中所有角色获得6秒的重明照影。持有重明照影的角色抗打断提升。\n\n消耗至少200点【芳菲信】：\n·山河水境存在时，仙游碧落状态下，飞仙演舞一定时间后会进行第1次翾舞。\n\n消耗至少400点【芳菲信】：\n·本次仙游碧落状态期间，山河水境内登场角色获得额外效果：若持有重明照影，则造成的伤害提升：穗穗自身共鸣效率大于200%时，每超过1%的共鸣效率计算为0.2%的伤害提升，上限12%。\n·山河水境存在时，仙游碧落状态下，飞仙演舞一定时间后会进行第2次翾舞。\n\n消耗至少600点【芳菲信】：\n·第1次翾舞时，山河水境内附近队伍中登场角色在穗穗本次仙游碧落期间获得额外效果：下一次施放延奏技能时，穗穗使下一个登场角色获得烟岚，持续14秒。持有烟岚的角色消耗目标【异常效应】或【电磁爆发】层数后，攻击提升：穗穗自身共鸣效率大于200%时，每超过0.12%的共鸣效率计算为0.1%的攻击提升，上限50%，持续6秒，烟岚被移除时移除攻击提升效果，若切换至其他角色则提前移除烟岚。\n·山河水境存在时，仙游碧落状态下，飞仙演舞一定时间后会进行第3次翾舞。\n\n仙游碧落\n持续30秒。\n仙游碧落状态期间，穗穗不是队伍中登场角色时，会依附于山河水境之上进行飞仙演舞，并根据施放延奏技能·渌水盈盈时消耗的【芳菲信】，每隔一定时间进行一次翾舞。\n穗穗为队伍中登场角色时，暂停飞仙演舞。\n山河水境不存在时，退出仙游碧落状态。\n\n翾舞\n每次进行翾舞时，使附近队伍中所有角色获得6秒的重明照影，为山河水境内敌方目标附加一层【霜渐效应】，为山河水境内附近队伍中登场角色回复生命值。",
+      "headings": [
+        "仙游碧落",
+        "翾舞"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconSuisui/SP_IconSuisuiT.SP_IconSuisuiT",
+      "id": "firstlights_herald/node_8",
+      "name": "渌水盈盈",
+      "parameters": [],
+      "rawDescription": "队伍中的角色全伤害加深{0}，持续30秒。\n<size=10></size>\n施放时，若当前场上存在<color=Highlight><te href=111003>山河水境</te></color>，则穗穗进入<color=Highlight><te href=111004>仙游碧落</te></color>状态。\n施放时，退出<color=Highlight><te href=111006>濯雨时</te></color>，并消耗所有<color=Highlight>【<te href=111008>芳菲信</te>】</color>，且根据消耗的<color=Highlight>【<te href=111008>芳菲信</te>】</color>解锁以下效果：\n<size=10></size>\n消耗至少0点<color=Highlight>【<te href=111008>芳菲信</te>】</color>：\n·附近队伍中所有角色获得6秒的<color=Highlight><te href=111009>重明照影</te></color>。持有<color=Highlight><te href=111009>重明照影</te></color>的角色抗打断提升。\n<size=10></size>\n消耗至少200点<color=Highlight>【<te href=111008>芳菲信</te>】</color>：\n·<color=Highlight><te href=111003>山河水境</te></color>存在时，<color=Highlight><te href=111004>仙游碧落</te></color>状态下，飞仙演舞一定时间后会进行第1次<color=Highlight><te href=111010>翾舞</te></color>。\n<size=10></size>\n消耗至少400点<color=Highlight>【<te href=111008>芳菲信</te>】</color>：\n·本次<color=Highlight><te href=111004>仙游碧落</te></color>状态期间，<color=Highlight><te href=111003>山河水境</te></color>内登场角色获得额外效果：若持有<color=Highlight><te href=111009>重明照影</te></color>，则造成的伤害提升：穗穗自身共鸣效率大于{1}时，每超过{2}的共鸣效率计算为{3}的伤害提升，上限{4}。\n·<color=Highlight><te href=111003>山河水境</te></color>存在时，<color=Highlight><te href=111004>仙游碧落</te></color>状态下，飞仙演舞一定时间后会进行第2次<color=Highlight><te href=111010>翾舞</te></color>。\n<size=10></size>\n消耗至少600点<color=Highlight>【<te href=111008>芳菲信</te>】</color>：\n·第1次<color=Highlight><te href=111010>翾舞</te></color>时，<color=Highlight><te href=111003>山河水境</te></color>内附近队伍中登场角色在穗穗本次<color=Highlight><te href=111004>仙游碧落</te></color>期间获得额外效果：下一次施放延奏技能时，穗穗使下一个登场角色获得<color=Highlight><te href=111011>烟岚</te></color>，持续14秒。持有<color=Highlight><te href=111011>烟岚</te></color>的角色消耗目标<color=Highlight>【<te href=850180>异常效应</te>】</color>或<color=Highlight>【<te href=150806>电磁爆发</te>】</color>层数后，攻击提升：穗穗自身共鸣效率大于{5}时，每超过{6}的共鸣效率计算为{7}的攻击提升，上限{8}，持续{9}秒，<color=Highlight><te href=111011>烟岚</te></color>被移除时移除攻击提升效果，若切换至其他角色则提前移除<color=Highlight><te href=111011>烟岚</te></color>。\n·<color=Highlight><te href=111003>山河水境</te></color>存在时，<color=Highlight><te href=111004>仙游碧落</te></color>状态下，飞仙演舞一定时间后会进行第3次<color=Highlight><te href=111010>翾舞</te></color>。\n<size=10></size>\n<size=40><color=Title>仙游碧落</color></size>\n持续{10}秒。\n<color=Highlight><te href=111004>仙游碧落</te></color>状态期间，穗穗不是队伍中登场角色时，会依附于<color=Highlight><te href=111003>山河水境</te></color>之上进行飞仙演舞，并根据施放<color=Highlight>延奏技能·渌水盈盈</color>时消耗的<color=Highlight>【<te href=111008>芳菲信</te>】</color>，每隔一定时间进行一次<color=Highlight><te href=111010>翾舞</te></color>。\n穗穗为队伍中登场角色时，暂停飞仙演舞。\n<color=Highlight><te href=111003>山河水境</te></color>不存在时，退出<color=Highlight><te href=111004>仙游碧落</te></color>状态。\n<size=10></size>\n<size=40><color=Title>翾舞</color></size>\n每次进行<color=Highlight><te href=111010>翾舞</te></color>时，使附近队伍中所有角色获得6秒的<color=Highlight><te href=111009>重明照影</te></color>，为<color=Highlight><te href=111003>山河水境</te></color>内敌方目标附加一层<color=Highlight>【<te href=850010>霜渐效应</te>】</color>，为<color=Highlight><te href=111003>山河水境</te></color>内附近队伍中登场角色回复生命值。",
+      "rawParameters": [
+        "25%",
+        "200%",
+        "1%",
+        "0.2%",
+        "12%",
+        "200%",
+        "0.12%",
+        "0.1%",
+        "50%",
+        "6",
+        "30"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "firstlights_herald/node_9",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "firstlights_herald/node_10",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "firstlights_herald/node_11",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "firstlights_herald/node_12",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "firstlights_herald/node_13",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "firstlights_herald/node_14",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "生命提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreenlife_UI.T_Iconpropertygreenlife_UI",
+      "id": "firstlights_herald/node_15",
+      "name": "生命提升",
+      "parameters": [],
+      "rawDescription": "生命提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "治疗效果加成提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertygreencure_UI.T_Iconpropertygreencure_UI",
+      "id": "firstlights_herald/node_16",
+      "name": "治疗效果加成提升",
+      "parameters": [],
+      "rawDescription": "治疗效果加成提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+      "id": "firstlights_herald/node_17",
+      "name": "谐度破坏·音感仪",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    33,
+    33,
+    33,
+    33,
+    33
+  ],
+  "sourceId": 1110,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1110.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "簪春",
+    "name": "栖霞饮露",
+    "refinements": [
+      {
+        "description": "生命提升12%。施放共鸣解放时，回复自身8点协奏能量，每20秒可触发1次。每次附加霜渐效应时，获得【染雪色】，持续6秒；每次造成治疗时，获得【生漪】，持续6秒。若自身为队伍中登场角色时附加过霜渐效应且造成过治疗，则下次施放延奏技能时获得6秒的【染雪色】与【生漪】。自身同时持有【染雪色】和【生漪】时，附近队伍中所有角色攻击提升20%。同名效果之间不可叠加。",
+        "parameters": [
+          "12%",
+          "8",
+          "20%"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "生命提升15%。施放共鸣解放时，回复自身10点协奏能量，每20秒可触发1次。每次附加霜渐效应时，获得【染雪色】，持续6秒；每次造成治疗时，获得【生漪】，持续6秒。若自身为队伍中登场角色时附加过霜渐效应且造成过治疗，则下次施放延奏技能时获得6秒的【染雪色】与【生漪】。自身同时持有【染雪色】和【生漪】时，附近队伍中所有角色攻击提升25%。同名效果之间不可叠加。",
+        "parameters": [
+          "15%",
+          "10",
+          "25%"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "生命提升18%。施放共鸣解放时，回复自身12点协奏能量，每20秒可触发1次。每次附加霜渐效应时，获得【染雪色】，持续6秒；每次造成治疗时，获得【生漪】，持续6秒。若自身为队伍中登场角色时附加过霜渐效应且造成过治疗，则下次施放延奏技能时获得6秒的【染雪色】与【生漪】。自身同时持有【染雪色】和【生漪】时，附近队伍中所有角色攻击提升30%。同名效果之间不可叠加。",
+        "parameters": [
+          "18%",
+          "12",
+          "30%"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "生命提升21%。施放共鸣解放时，回复自身14点协奏能量，每20秒可触发1次。每次附加霜渐效应时，获得【染雪色】，持续6秒；每次造成治疗时，获得【生漪】，持续6秒。若自身为队伍中登场角色时附加过霜渐效应且造成过治疗，则下次施放延奏技能时获得6秒的【染雪色】与【生漪】。自身同时持有【染雪色】和【生漪】时，附近队伍中所有角色攻击提升35%。同名效果之间不可叠加。",
+        "parameters": [
+          "21%",
+          "14",
+          "35%"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "生命提升24%。施放共鸣解放时，回复自身16点协奏能量，每20秒可触发1次。每次附加霜渐效应时，获得【染雪色】，持续6秒；每次造成治疗时，获得【生漪】，持续6秒。若自身为队伍中登场角色时附加过霜渐效应且造成过治疗，则下次施放延奏技能时获得6秒的【染雪色】与【生漪】。自身同时持有【染雪色】和【生漪】时，附近队伍中所有角色攻击提升40%。同名效果之间不可叠加。",
+        "parameters": [
+          "24%",
+          "16",
+          "40%"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21050096,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 412.5,
+        "value": 412.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "共鸣效率",
+        "rawValue": 7704.0,
+        "value": 0.7704
+      }
+    ]
+  },
+  "weaponType": 5
+}

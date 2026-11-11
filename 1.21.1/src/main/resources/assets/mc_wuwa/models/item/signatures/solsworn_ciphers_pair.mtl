@@ -1,0 +1,44 @@
+newmtl c3_crystal
+Kd 0.384314 0.294118 0.674510
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c5_crystal
+Kd 0.607843 0.901961 1.000000
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c6_alloy
+Kd 0.909804 0.929412 0.964706
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c6_crystal
+Kd 0.909804 0.929412 0.964706
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c7_gold
+Kd 0.721569 0.607843 0.380392
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c8_crystal
+Kd 0.415686 0.247059 0.709804
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c9_crystal
+Kd 0.662745 0.537255 0.956863
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c11_crystal
+Kd 0.952941 0.862745 0.647059
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c14_alloy
+Kd 0.968627 0.960784 0.925490
+Ka 0 0 0
+map_Kd #surface

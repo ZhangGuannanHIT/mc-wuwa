@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:core"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mc_wuwa:survey_motorcycle"
+    ]
+  }
+}

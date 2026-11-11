@@ -1,0 +1,152 @@
+{
+  "credit": "Original voxel artwork; editable parts: art/source/weapons/woodland_aria.json",
+  "ambientocclusion": false,
+  "gui_light": "side",
+  "textures": {
+    "atlas": "mc_wuwa:item/aero_weapon_palette",
+    "particle": "mc_wuwa:item/woodland_aria"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        5.72958,
+        -107.18873,
+        0
+      ],
+      "translation": [
+        -0.588976,
+        -1.248168,
+        1.588015
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        5.72958,
+        -287.18873,
+        0
+      ],
+      "translation": [
+        -0.588976,
+        -1.248168,
+        1.588015
+      ],
+      "scale": [
+        0.72,
+        0.72,
+        0.72
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        1.2,
+        2.0,
+        -0.6
+      ],
+      "scale": [
+        0.66,
+        0.66,
+        0.66
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        1.2,
+        2.0,
+        -0.6
+      ],
+      "scale": [
+        0.66,
+        0.66,
+        0.66
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        -35
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.38,
+        0.38,
+        0.38
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        -35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.55,
+        0.55,
+        0.55
+      ]
+    },
+    "gui": {
+      "rotation": [
+        15,
+        -20,
+        -35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "head": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        11,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "directionCorrection": "separate_native_idle_and_action_grip_v2",
+  "loader": "neoforge:obj",
+  "model": "mc_wuwa:models/item/woodland_aria_3d.obj",
+  "automatic_culling": false,
+  "flip_v": false
+}

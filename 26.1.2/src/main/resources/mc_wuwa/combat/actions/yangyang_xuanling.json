@@ -1,0 +1,1213 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1610001010"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "yangyang_xuanling/basic_01",
+      "name": "普攻·苍剑式第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "47.72%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4772,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1610002010"
+        },
+        {
+          "count": 1,
+          "damageId": "1610002030"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "yangyang_xuanling/basic_02",
+      "name": "普攻·苍剑式第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "20.14%+20.14%+60.41%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0069,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1610003010"
+        },
+        {
+          "count": 1,
+          "damageId": "1610003020"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "yangyang_xuanling/basic_03",
+      "name": "普攻·苍剑式第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "30.21%+70.48%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0069,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1610004010"
+        },
+        {
+          "count": 1,
+          "damageId": "1610004030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "yangyang_xuanling/basic_04",
+      "name": "普攻·苍剑式第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "18.57%+18.57%+148.49%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.8563,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1610101010"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        8
+      ],
+      "id": "yangyang_xuanling/feather_basic_01",
+      "name": "普攻·羽剑式第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "39.77%+39.77%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7954,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1610102010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "yangyang_xuanling/feather_basic_02",
+      "name": "普攻·羽剑式第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "33.56%*3",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0068,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1610103010"
+        },
+        {
+          "count": 3,
+          "damageId": "1610103020"
+        },
+        {
+          "count": 1,
+          "damageId": "1610103030"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        9,
+        12,
+        14
+      ],
+      "id": "yangyang_xuanling/feather_basic_03",
+      "name": "普攻·羽剑式第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "14.86%+7.43%*3+37.14%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.7429,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1610104010"
+        },
+        {
+          "count": 1,
+          "damageId": "1610104030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "yangyang_xuanling/feather_basic_04",
+      "name": "普攻·羽剑式第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "71.58%+71.58%+95.43%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.3859,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1610031010"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yangyang_xuanling/air",
+      "name": "空中攻击·苍剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "98.61%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9861,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1610131010"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yangyang_xuanling/feather_air",
+      "name": "空中攻击·羽剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "98.61%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9861,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1610041010"
+        },
+        {
+          "count": 1,
+          "damageId": "1610041030"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "yangyang_xuanling/dodge_counter",
+      "name": "闪避反击·苍剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "39.23%+39.23%+117.67%",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9613,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1610141010"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "yangyang_xuanling/feather_dodge_counter",
+      "name": "闪避反击·羽剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "65.37%*3",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9611,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161015101"
+        },
+        {
+          "count": 3,
+          "damageId": "161015102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "yangyang_xuanling/skill",
+      "name": "剑式切换·苍伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "to_azure",
+      "sourceFormula": "69.95%+15.55%*3",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.166,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "161005101"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "yangyang_xuanling/skill_feather",
+      "name": "剑式切换·羽伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "to_feather",
+      "sourceFormula": "33.56%*3",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0068,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 100,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161029901"
+        }
+      ],
+      "hitTimesTicks": [
+        85
+      ],
+      "id": "yangyang_xuanling/liberation",
+      "name": "裁羽寂万音伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "1988.10%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/yangyang_xuanling-2.gif active=[0.75, 5.75]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 1,
+      "totalMultiplier": 19.881,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161040001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yangyang_xuanling/shadow",
+      "name": "玄翎之影伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "337.98%",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.3798,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161020101"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "yangyang_xuanling/intro",
+      "name": "羽挟苍空伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "116.59%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.1659,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161015201"
+        },
+        {
+          "count": 3,
+          "damageId": "161015203"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "yangyang_xuanling/flow_azure",
+      "name": "共鸣技能·剑式流转·苍伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "69.95%+15.55%*3",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.166,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "161005201"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "yangyang_xuanling/flow_feather",
+      "name": "共鸣技能·剑式流转·羽伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "33.56%*3",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0068,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "161002101"
+        },
+        {
+          "count": 1,
+          "damageId": "161002103"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "yangyang_xuanling/heavy",
+      "name": "重击·苍剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "azure",
+      "sourceFormula": "135.16%+135.16%+180.21%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 4.5053,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161012101"
+        },
+        {
+          "count": 1,
+          "damageId": "161012102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "yangyang_xuanling/feather_heavy",
+      "name": "重击·羽剑式伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "21.71%+195.34%",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.1705,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "161013201"
+        },
+        {
+          "count": 1,
+          "damageId": "161013202"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "yangyang_xuanling/feather_descent",
+      "name": "空中攻击·释羽风落伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "feather",
+      "sourceFormula": "14.80%*3+66.57%",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.1097,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "161013301"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        8
+      ],
+      "id": "yangyang_xuanling/listening_basic_01",
+      "name": "普攻·湮象风华第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "39.79%*3",
+      "sourceNode": 7,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1937,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161013401"
+        },
+        {
+          "count": 2,
+          "damageId": "161013402"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "yangyang_xuanling/listening_basic_02",
+      "name": "普攻·湮象风华第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "89.25%+66.94%+66.94%",
+      "sourceNode": 7,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.2313,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "161013501"
+        },
+        {
+          "count": 1,
+          "damageId": "161013502"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14
+      ],
+      "id": "yangyang_xuanling/listening_basic_03",
+      "name": "普攻·湮象风华第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "23.98%*5+279.69%",
+      "sourceNode": 7,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 3.9959,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "161014201"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "yangyang_xuanling/listening_counter_01",
+      "name": "闪避反击·湮象风华第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "39.79%*3",
+      "sourceNode": 7,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1937,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "161014301"
+        },
+        {
+          "count": 2,
+          "damageId": "161014302"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "yangyang_xuanling/listening_counter_02",
+      "name": "闪避反击·湮象风华第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "89.25%+66.94%+66.94%",
+      "sourceNode": 7,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.2313,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yangyang_xuanling",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "161014401"
+        },
+        {
+          "count": 1,
+          "damageId": "161014402"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "yangyang_xuanling/listening_counter_03",
+      "name": "闪避反击·湮象风华第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "listening",
+      "sourceFormula": "23.98%*5+279.69%",
+      "sourceNode": 7,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 3.9959,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "azure_oath"
+    }
+  ],
+  "schemaVersion": 1
+}

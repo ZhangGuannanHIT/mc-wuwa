@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "cn.zgnhit.mcwuwa.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CarlottaElytraMixin",
+    "MotorcycleLandMotionMixin",
+    "InventoryMixin",
+    "InventoryMenuMixin",
+    "SlotMixin",
+    "MenuClickMixin",
+    "ServerInventoryGuardMixin",
+    "MobAiMixin",
+    "HurtMemoryAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "client.IrisCombatKeyMixin",
+    "client.IpnRoleOverlayMixin",
+    "client.IpnOrderThreadMixin",
+    "client.OwnedRoleRendererMixin",
+    "client.RoleOffhandLayerMixin",
+    "client.WorldAvatarRenderScopeMixin",
+    "client.RoleSkinMixin",
+    "client.ContainerScreenAccessor",
+    "client.TeamInventoryScreenMixin",
+    "client.CreativeTeamSlotVisibilityMixin",
+    "client.CreativeEchoPickupMixin",
+    "client.RecitalSoundClockMixin"
+  ]
+}

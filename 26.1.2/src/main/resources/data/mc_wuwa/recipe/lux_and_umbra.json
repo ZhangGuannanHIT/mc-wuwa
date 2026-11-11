@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" QQ", "IBI", "C G"],
+  "key": {"Q": "minecraft:quartz", "I": "minecraft:iron_ingot", "B": "minecraft:blaze_rod", "C": "mc_wuwa:core", "G": "minecraft:gold_ingot"},
+  "result": {"id": "mc_wuwa:lux_and_umbra", "count": 1}
+}

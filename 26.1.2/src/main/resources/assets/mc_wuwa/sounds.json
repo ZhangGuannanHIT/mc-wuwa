@@ -1,0 +1,146 @@
+{
+  "combat.swing": {
+    "subtitle": "subtitles.mc_wuwa.swing",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/swing",
+        "volume": 0.65
+      }
+    ]
+  },
+  "combat.hit": {
+    "subtitle": "subtitles.mc_wuwa.hit",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/hit",
+        "volume": 0.8
+      }
+    ]
+  },
+  "combat.cast": {
+    "subtitle": "subtitles.mc_wuwa.cast",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/cast",
+        "volume": 0.8
+      }
+    ]
+  },
+  "combat.dodge": {
+    "subtitle": "subtitles.mc_wuwa.dodge",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/dodge",
+        "volume": 0.8
+      }
+    ]
+  },
+  "combat.parry": {
+    "subtitle": "subtitles.mc_wuwa.parry",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/parry",
+        "volume": 0.8
+      }
+    ]
+  },
+  "combat.tune_break": {
+    "subtitle": "subtitles.mc_wuwa.tune_break",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/tune_break",
+        "volume": 0.8
+      }
+    ]
+  },
+  "combat.switch": {
+    "subtitle": "subtitles.mc_wuwa.switch",
+    "sounds": [
+      {
+        "name": "mc_wuwa:combat/switch",
+        "volume": 0.8
+      }
+    ]
+  },
+  "motorcycle.idle": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/idle",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.low": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/low",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.cruise": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/cruise",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.boost": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/boost",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.boost_start": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/boost_start",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.boost_loop": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/boost_loop",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.boost_end": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/boost_end",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.mount": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/mount",
+        "stream": false
+      }
+    ]
+  },
+  "motorcycle.dismount": {
+    "sounds": [
+      {
+        "name": "mc_wuwa:motorcycle/dismount",
+        "stream": false
+      }
+    ]
+  },
+  "ciaccona.recital": {
+    "subtitle": "subtitles.mc_wuwa.ciaccona_recital",
+    "sounds": [
+      {
+        "name": "mc_wuwa:ciaccona/recital",
+        "stream": true
+      }
+    ]
+  }
+}

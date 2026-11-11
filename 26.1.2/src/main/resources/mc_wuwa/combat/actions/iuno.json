@@ -1,0 +1,1061 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "iuno/basic_01",
+      "name": "月环·普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "87.68%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8768,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410002002"
+        },
+        {
+          "count": 1,
+          "damageId": "1410002003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "iuno/basic_02",
+      "name": "月环·普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "46.06%*2+47.46%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3958,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410003003"
+        },
+        {
+          "count": 1,
+          "damageId": "1410003004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "iuno/basic_03",
+      "name": "月环·普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "87.98%*2+90.65%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.6661,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410100001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410100002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "iuno/air",
+      "name": "空中攻击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "53.68%*2",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0736,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410500001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410500002"
+        },
+        {
+          "count": 1,
+          "damageId": "1410500003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "iuno/dodge_counter",
+      "name": "月环·闪避反击",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "82.08%*2+84.57%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.4873,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410101021"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "iuno/bow_basic_01",
+      "name": "月弓·普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "126.45%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2645,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1410102021"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "iuno/bow_basic_02",
+      "name": "月弓·普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "55.67%*3",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.6701,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410103021"
+        },
+        {
+          "count": 1,
+          "damageId": "1410103022"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "iuno/bow_basic_03",
+      "name": "月弓·普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "167.01%*2",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.3402,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1410510021"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "iuno/bow_counter",
+      "name": "月弓·闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "103.39%*3",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 3.1017,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1410201001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410201003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        17,
+        20,
+        22
+      ],
+      "id": "iuno/skill",
+      "name": "原初的律动伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "18.65%*7+130.52%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 2.6107,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410202001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410202003"
+        },
+        {
+          "count": 1,
+          "damageId": "1410202004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "iuno/skill_ending",
+      "name": "告终的喧响伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "140.73%*2+145.00%",
+      "sourceNode": 2,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 4.2646,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410202001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410202003"
+        },
+        {
+          "count": 1,
+          "damageId": "1410202004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "iuno/skill_unending",
+      "name": "未终的喧响伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "crescent",
+      "sourceFormula": "140.73%*2+145.00%",
+      "sourceNode": 2,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 4.2646,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410204021"
+        },
+        {
+          "count": 1,
+          "damageId": "1410204022"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "iuno/skill_beyond",
+      "name": "越限的弦引伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "219.79%*2",
+      "sourceNode": 2,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 4.3958,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410300001"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "iuno/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "1093.46%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 10.9346,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1410600001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410600003"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        9,
+        11,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "iuno/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "15.91%*7+47.72%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.5909,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410004001"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "iuno/heavy_bow",
+      "name": "流变·月弓伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "crescent",
+      "sourceFormula": "250.51%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.5051,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410005001"
+        },
+        {
+          "count": 1,
+          "damageId": "1410005002"
+        },
+        {
+          "count": 1,
+          "damageId": "1410005003"
+        },
+        {
+          "count": 1,
+          "damageId": "1410005004"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "iuno/heavy_ring",
+      "name": "流变·月环伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "79.18%*4",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 3.1672,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410101011"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "iuno/bow_basic_01_enhanced",
+      "name": "月弓·普攻第一段强化伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "205.97%",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.0597,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1410102011"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "iuno/bow_basic_02_enhanced",
+      "name": "月弓·普攻第二段强化伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "95.43%*3",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.8629,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410103011"
+        },
+        {
+          "count": 1,
+          "damageId": "1410103012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "iuno/bow_basic_03_enhanced",
+      "name": "月弓·普攻第三段强化伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "266.41%*2",
+      "sourceNode": 7,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 5.3282,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1410510011"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "iuno/bow_counter_enhanced",
+      "name": "月弓·闪避反击强化伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "156.40%*3",
+      "sourceNode": 7,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 4.692,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 16.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410204011"
+        },
+        {
+          "count": 1,
+          "damageId": "1410204012"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "iuno/skill_beyond_enhanced",
+      "name": "越限的弦引强化伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "new_moon",
+      "sourceFormula": "319.19%*2",
+      "sourceNode": 7,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 6.3838,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410205002"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "iuno/heavy_perfection",
+      "name": "至臻的完满伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "159.05%",
+      "sourceNode": 7,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.5905,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "iuno",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1410205003"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "iuno/heavy_perfection_c6",
+      "name": "至臻的完满·六链固定追加1600%",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "1759.05%",
+      "sourceNode": 7,
+      "sourceParameter": "perfection_c6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 17.5905,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "moongazers_sigil"
+    }
+  ],
+  "schemaVersion": 1
+}

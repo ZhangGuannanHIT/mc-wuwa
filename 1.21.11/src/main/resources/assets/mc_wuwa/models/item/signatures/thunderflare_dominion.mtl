@@ -1,0 +1,34 @@
+newmtl c18_alloy
+Kd 0.219608 0.188235 0.168627
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c19_alloy
+Kd 0.490196 0.470588 0.427451
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c20_alloy
+Kd 0.905882 0.878431 0.792157
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c21_alloy
+Kd 0.776471 0.576471 0.247059
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c22_alloy
+Kd 0.988235 0.878431 0.588235
+Ka 0 0 0
+map_Kd #surface
+
+newmtl c23_crystal
+Kd 1.000000 0.501961 0.109804
+Ka 0.65 0.65 0.65
+map_Kd #surface
+
+newmtl c24_crystal
+Kd 1.000000 0.878431 0.450980
+Ka 0.65 0.65 0.65
+map_Kd #surface

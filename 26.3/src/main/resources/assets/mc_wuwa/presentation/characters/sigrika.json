@@ -1,0 +1,1925 @@
+{
+  "schemaVersion": 1,
+  "characterId": "sigrika",
+  "weaponId": "mc_wuwa:solsworn_ciphers",
+  "palette": [
+    205,
+    190,
+    255
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1412",
+    "data-source/nanoka/3.7/zh/character/1412.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:sigrika/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:sigrika/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSigrikaNormalChain": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete 5.6s normal card sampled sheets inspected; continuous MC joint adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:sigrika/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSigrikaNormalChain": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete 5.6s normal card sampled sheets inspected; continuous MC joint adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:sigrika/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSigrikaNormalChain": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete 5.6s normal card sampled sheets inspected; continuous MC joint adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:sigrika/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousSigrikaNormalChain": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete 5.6s normal card sampled sheets inspected; continuous MC joint adaptation, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:sigrika/heavy/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:sigrika/air/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:sigrika/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:sigrika/skill/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:sigrika/liberation/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head",
+        "pelvis"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.75,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 85,
+        "hitTimesTicks": [
+          55
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.3235294117647059
+          ],
+          [
+            0.25,
+            0.6470588235294118
+          ],
+          [
+            0.52,
+            0.7811764705882354
+          ],
+          [
+            0.82,
+            0.9015294117647059
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/new-three/sigrika-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          4.75
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/new-three/sigrika-2.gif",
+        "scope": "Full card and every quarter-second timeline page viewed; authored connected body gesture, no forced camera; MC timing fit",
+        "acceptance": "native review pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:sigrika/intro/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:sigrika/outro/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:sigrika/echo/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/basic_insight",
+      "stateVariant": "basic_insight",
+      "thirdPersonClip": "mc_wuwa:sigrika/basic_insight/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/basic_insight/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/air_counter",
+      "stateVariant": "air_counter",
+      "thirdPersonClip": "mc_wuwa:sigrika/air_counter/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/air_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/counter_insight",
+      "stateVariant": "counter_insight",
+      "thirdPersonClip": "mc_wuwa:sigrika/counter_insight/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/counter_insight/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/skill_insight",
+      "stateVariant": "skill_insight",
+      "thirdPersonClip": "mc_wuwa:sigrika/skill_insight/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/skill_insight/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/skill_sun",
+      "stateVariant": "skill_sun",
+      "thirdPersonClip": "mc_wuwa:sigrika/skill_sun/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/skill_sun/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/heavy_origin",
+      "stateVariant": "heavy_origin",
+      "thirdPersonClip": "mc_wuwa:sigrika/heavy_origin/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/heavy_origin/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/rune_burst",
+      "stateVariant": "rune_burst",
+      "thirdPersonClip": "mc_wuwa:sigrika/rune_burst/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/rune_burst/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head",
+        "pelvis"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/rune_chain",
+      "stateVariant": "rune_chain",
+      "thirdPersonClip": "mc_wuwa:sigrika/rune_chain/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/rune_chain/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head",
+        "pelvis"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/rune_sun",
+      "stateVariant": "rune_sun",
+      "thirdPersonClip": "mc_wuwa:sigrika/rune_sun/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/rune_sun/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head",
+        "pelvis"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/skill_semantics",
+      "stateVariant": "skill_semantics",
+      "thirdPersonClip": "mc_wuwa:sigrika/skill_semantics/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/skill_semantics/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/heavy_origin_burst",
+      "stateVariant": "heavy_origin_burst",
+      "thirdPersonClip": "mc_wuwa:sigrika/heavy_origin_burst/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/heavy_origin_burst/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/heavy_origin_chain",
+      "stateVariant": "heavy_origin_chain",
+      "thirdPersonClip": "mc_wuwa:sigrika/heavy_origin_chain/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/heavy_origin_chain/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:sigrika/heavy_origin_sun",
+      "stateVariant": "heavy_origin_sun",
+      "thirdPersonClip": "mc_wuwa:sigrika/heavy_origin_sun/tp",
+      "firstPersonClip": "mc_wuwa:sigrika/heavy_origin_sun/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1412",
+        "data-source/nanoka/3.7/zh/character/1412.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "sunGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousRuneSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/sigrika-rune_heavy-page-01.jpg; docs/reference/enhanced-attacks-motion/sigrika-forte_finisher-page-01.jpg; docs/reference/tide-combat-motion/sigrika-full-timeline.json",
+        "scope": "Prior full-film gesture review and renewed rune/finisher samples. Continuous MC adaptation of kick, forward strike and raised sun command; not original frame-exact reconstruction. Rune autonomous effects, approved gauntlets, sun sprite and liberation unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

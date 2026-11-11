@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  G",
+    "DI ",
+    "CD "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "mc_wuwa:core"
+    }
+  },
+  "result": {
+    "id": "mc_wuwa:bloodpacts_pledge",
+    "count": 1
+  }
+}

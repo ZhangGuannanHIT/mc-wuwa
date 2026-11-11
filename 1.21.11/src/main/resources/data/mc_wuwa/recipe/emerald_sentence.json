@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " BD",
+    " BS",
+    " C "
+  ],
+  "key": {
+    "B": "minecraft:bamboo",
+    "D": "minecraft:diamond",
+    "S": "minecraft:iron_sword",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:emerald_sentence",
+    "count": 1
+  }
+}

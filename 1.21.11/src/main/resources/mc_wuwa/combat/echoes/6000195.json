@@ -1,0 +1,184 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "glacio",
+      "id": "20013101",
+      "kind": "echo",
+      "multiplier": 2.736,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 1,
+        "element_power": 0,
+        "energy": 380,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "related_property": "攻击",
+        "tough_lv": 15200,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.557630826182063,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤格洛犸图，践踏敌人造成273.60%的冷凝伤害。\n在此后15秒内，若自身施放延奏技能，使下一个变奏技能登场的角色冷凝伤害加成提升12.00%，持续15秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "格洛犸图",
+  "parameters": [
+    "273.60%",
+    "15",
+    "12.00%",
+    "15",
+    "20"
+  ],
+  "raw": {
+    "code": "R68-",
+    "group": {
+      "27": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA1.T_IconElementAttriFireA1",
+        "id": 27,
+        "name": "长路启航之星",
+        "set": {
+          "2": {
+            "desc": "热熔伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【聚爆效应】或【震谐·偏移】时，自身暴击提升{0}，热熔伤害提升{1}，持续{2}秒。",
+            "param": [
+              "20%",
+              "20%",
+              "8"
+            ]
+          }
+        }
+      },
+      "30": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceA1.T_IconElementAttriIceA1",
+        "id": 30,
+        "name": "雪落无声之愿",
+        "set": {
+          "2": {
+            "desc": "冷凝伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【霜渐效应】时，冷凝伤害提升{0}，持续{1}秒。自身获得【落雪】效果，持续{11}秒，该效果每{2}秒可触发1次。拥有【落雪】效果时：\n·角色造成共鸣解放伤害时，将清除【落雪】效果，使自身暴击提升{4}，持续{5}秒。该效果持续期间角色造成共鸣解放伤害时，将延长{8}秒的持续时间，每{9}秒可触发1次，每次清除【落雪】后该效果至多触发{10}次。\n·角色施放延奏技能时，将清除【落雪】效果，使下一个变奏技能登场的角色冷凝伤害提升{6}，持续{7}秒。\n每次清除【落雪】效果时，上述效果仅能同时触发一个。",
+            "param": [
+              "10%",
+              "15",
+              "25",
+              "1",
+              "25%",
+              "6",
+              "25%",
+              "15",
+              "4",
+              "0.5",
+              "6",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32061_UI.T_IconMonsterHead_32061_UI",
+    "id": 6000195,
+    "intensity": "",
+    "intensity_code": 1,
+    "monster_info": 320000610,
+    "name": "格洛犸图",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_32061_UI.T_IconMonsterGoods_SG_32061_UI",
+      "name": "异相·格洛犸图"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "20013101": {
+          "element": 1,
+          "element_power": 0,
+          "energy": 380,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            15200,
+            18240,
+            21280,
+            24320,
+            27360
+          ],
+          "related_property": "攻击",
+          "tough_lv": 15200,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤格洛犸图，践踏敌人造成{0}的冷凝伤害。\n在此后{1}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色冷凝伤害加成提升{2}，持续{3}秒。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32061_UI.T_MstSkil_32061_UI",
+      "param": [
+        [
+          "152.00%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "182.40%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "212.80%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "243.20%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ],
+        [
+          "273.60%",
+          "15",
+          "12.00%",
+          "15",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤格洛犸图，对敌人造成冷凝伤害，并使下一个变奏技能登场的角色冷凝伤害提升。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000195
+}

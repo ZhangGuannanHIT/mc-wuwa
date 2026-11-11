@@ -1,0 +1,6166 @@
+{
+  "baseStats": {
+    "attack": 462.5,
+    "defense": 1112.2202,
+    "health": 10300.0
+  },
+  "chains": [
+    {
+      "description": "施放共鸣解放·转相时，心获得2层敛华障，可叠加2层，转变为应世相时移除全部层数。心受到敌方怪物攻击造成的伤害时，可消耗1层敛华障，使自身免疫打断且受到的伤害降低60%，持续1秒，该效果每1秒可触发1次。\n\n处于共鸣模态·同奏时：\n变奏技能·应世相·诸相同奏、变奏技能·照世相·诸相同奏的伤害倍率提升15%。且每有1层【同奏增益】，使变奏技能·应世相·诸相同奏、变奏技能·照世相·诸相同奏的伤害倍率额外提升10%，至多叠加4层。\n\n处于共鸣模态·电磁时：\n心进入战斗状态时，若霆心域层数不足50层，则增加至50层，每12秒可触发一次。\n共鸣技能·踏月归心触发【电磁效应】伤害提升至42%*自身霆心域层数*目标当前【电磁效应】的层数对应的【电磁效应】伤害倍率。",
+      "name": "授以舟楫渡潮生",
+      "parameters": [
+        "2",
+        "60%",
+        "1",
+        "1",
+        "4",
+        "100",
+        "15%",
+        "10%",
+        "4",
+        "400%",
+        "40%",
+        "10",
+        "12",
+        "50",
+        "5",
+        "210%",
+        "42%"
+      ],
+      "rawDescription": "施放<color=Highlight>共鸣解放·转相</color>时，心获得2层<color=Highlight>敛华障</color>，可叠加{0}层，转变为<color=Highlight>应世相</color>时移除全部层数。心受到敌方怪物攻击造成的伤害时，可消耗1层<color=Highlight>敛华障</color>，使自身免疫打断且受到的伤害降低{1}，持续{2}秒，该效果每{3}秒可触发1次。\n\n处于<color=Highlight>共鸣模态·同奏</color>时：\n<color=Highlight>变奏技能·应世相·诸相同奏</color>、<color=Highlight>变奏技能·照世相·诸相同奏</color>的伤害倍率提升{6}。且每有1层<color=Highlight>【<te href=131111>同奏增益</te>】</color>，使<color=Highlight>变奏技能·应世相·诸相同奏</color>、<color=Highlight>变奏技能·照世相·诸相同奏</color>的伤害倍率额外提升{7}，至多叠加{8}层。\n\n处于<color=Highlight>共鸣模态·电磁</color>时：\n心进入战斗状态时，若<color=Highlight><te href=131113>霆心域</te></color>层数不足{13}层，则增加至{13}层，每{12}秒可触发一次。\n<color=Highlight>共鸣技能·踏月归心</color>触发<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害提升至{16}*自身<color=Highlight>霆心域</color>层数*目标当前<color=Highlight>【<te href=850013>电磁效应</te>】</color>的层数对应的<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害倍率。",
+      "tier": 1
+    },
+    {
+      "description": "重击·应世相·步红尘和重击·应世相·镇红尘的伤害倍率提升60%。\n重击·照世相·临寰宇和重击·照世相·镇寰宇的伤害倍率提升60%。\n\n心进入战斗状态时，重置心获得了尘愿和承天则的冷却时间，并额外回复100点【应世心】，上述效果每12秒可触发一次。",
+      "name": "一念初醒问此身",
+      "parameters": [
+        "60%",
+        "60%",
+        "100",
+        "12"
+      ],
+      "rawDescription": "<color=Highlight>重击·应世相·步红尘</color>和<color=Highlight>重击·应世相·镇红尘</color>的伤害倍率提升{0}。\n<color=Highlight>重击·照世相·临寰宇</color>和<color=Highlight>重击·照世相·镇寰宇</color>的伤害倍率提升{1}。\n\n心进入战斗状态时，重置心获得<color=Highlight><te href=131114>了尘愿</te></color>和<color=Highlight><te href=131115>承天则</te></color>的冷却时间，并额外回复{2}点<color=Highlight>【<te href=131117>应世心</te>】</color>，上述效果每{3}秒可触发一次。",
+      "tier": 2
+    },
+    {
+      "description": "共鸣解放·万阙垂天的伤害倍率提升70%。\n\n处于共鸣模态·同奏时：\n共鸣解放·万阙垂天的暴击伤害提升20%。且每有1层【同奏增益】额外使其暴击伤害提升15%，至多叠加4层。\n\n处于共鸣模态·电磁时：\n共鸣解放·万阙垂天最后一段命中具有【电磁效应】的目标时，主动触发一次【电磁效应】伤害，伤害倍率为1500%*目标当前【电磁效应】的层数对应的【电磁效应】伤害倍率。",
+      "name": "溪山深处留归梦",
+      "parameters": [
+        "70%",
+        "20%",
+        "15%",
+        "4",
+        "1500%"
+      ],
+      "rawDescription": "<color=Highlight>共鸣解放·万阙垂天</color>的伤害倍率提升{0}。\n\n处于<color=Highlight>共鸣模态·同奏</color>时：\n<color=Highlight>共鸣解放·万阙垂天</color>的暴击伤害提升{1}。且每有1层<color=Highlight>【<te href=131111>同奏增益</te>】</color>额外使其暴击伤害提升{2}，至多叠加{3}层。\n\n处于<color=Highlight>共鸣模态·电磁</color>时：\n<color=Highlight>共鸣解放·万阙垂天</color>最后一段命中具有<color=Highlight>【<te href=850013>电磁效应</te>】</color>的目标时，主动触发一次<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害，伤害倍率为{4}*目标当前<color=Highlight>【<te href=850013>电磁效应</te>】</color>的层数对应的<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害倍率。",
+      "tier": 3
+    },
+    {
+      "description": "队伍中的角色触发以下任意效果时使队伍中所有角色全属性伤害加成提升20%，持续30秒：\n·为目标附加【电磁效应】、【电磁爆发】后。\n·未拥有并获得同奏时。\n·响应同奏时。",
+      "name": "浮灯照水藏微愿",
+      "parameters": [
+        "20%",
+        "30"
+      ],
+      "rawDescription": "队伍中的角色触发以下任意效果时使队伍中所有角色全属性伤害加成提升{0}，持续{1}秒：\n·为目标附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>、<color=Highlight>【<te href=150806>电磁爆发</te>】</color>后。\n·未拥有并获得<color=Highlight><te href=131110>同奏</te></color>时。\n·<color=Highlight><te href=131112>响应同奏</te></color>时。",
+      "tier": 4
+    },
+    {
+      "description": "处于照世相时，心受到的伤害降低20%。\n心受到致命伤害时，此次伤害不会使心倒下，并回复心100%生命上限的生命值，同时免疫伤害和受击，持续1秒。该效果每10分钟可触发1次。",
+      "name": "诸相流转由心定",
+      "parameters": [
+        "20%",
+        "100%",
+        "1",
+        "10"
+      ],
+      "rawDescription": "处于<color=Highlight>照世相</color>时，心受到的伤害降低{0}。\n心受到致命伤害时，此次伤害不会使心倒下，并回复心{1}生命上限的生命值，同时免疫伤害和受击，持续{2}秒。该效果每{3}分钟可触发1次。",
+      "tier": 5
+    },
+    {
+      "description": "目标受到心的共鸣技能伤害提升40%。\n\n心造成的共鸣技能伤害无视目标20%防御。\n\n处于共鸣模态·同奏时：\n队伍中的角色【同奏增益】效果的层数上限额外增加1层。队伍中的角色响应同奏时，队伍中的角色额外获得1层【同奏增益】，持续30秒，该效果无法叠加。\n\n处于共鸣模态·电磁时：\n处于战斗状态时，心附近一定范围内的目标受到【电磁效应】的伤害可暴击，暴击固定为80%，暴击伤害固定为230%。",
+      "name": "不教朝月负今人",
+      "parameters": [
+        "40%",
+        "1",
+        "20%",
+        "80%",
+        "230%",
+        "30"
+      ],
+      "rawDescription": "目标受到心的共鸣技能伤害提升{0}。\n\n心造成的共鸣技能伤害无视目标{2}防御。\n\n处于<color=Highlight>共鸣模态·同奏</color>时：\n队伍中的角色<color=Highlight>【<te href=131111>同奏增益</te>】</color>效果的层数上限额外增加{1}层。队伍中的角色<color=Highlight><te href=131112>响应同奏</te></color>时，队伍中的角色额外获得{1}层<color=Highlight>【<te href=131111>同奏增益</te>】</color>，持续{5}秒，该效果无法叠加。\n\n处于<color=Highlight>共鸣模态·电磁</color>时：\n处于战斗状态时，心附近一定范围内的目标受到<color=Highlight>【<te href=850013>电磁效应</te>】</color>的伤害可暴击，暴击固定为{3}，暴击伤害固定为{4}。",
+      "tier": 6
+    }
+  ],
+  "characterId": "hsin",
+  "echoId": 6000225,
+  "element": "electro",
+  "id": "blooming_jadehaven",
+  "mechanicsFullyImplemented": false,
+  "modes": [
+    {
+      "description": "处于共鸣模态·同奏时，心拥有同奏相关能力，可快速施放多次具有特殊效果的变奏技能，并配合同奏相关体系的其他角色提升队伍整体造成的伤害。",
+      "name": "共鸣模态·同奏",
+      "sourceId": 131101
+    },
+    {
+      "description": "处于共鸣模态·电磁时，心可以为目标附加【电磁效应】，并将周围目标的【电磁爆发】转化为自身的霆心域，心通过共鸣技能消耗霆心域将造成【电磁效应】伤害。",
+      "name": "共鸣模态·电磁",
+      "sourceId": 131102
+    }
+  ],
+  "name": "心",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100101",
+          "kind": "basic",
+          "multiplier": 0.2784,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 3,
+            "element_power": 80,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 0,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100102",
+          "kind": "basic",
+          "multiplier": 0.4176,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 3,
+            "element_power": 120,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2100,
+              2273,
+              2445,
+              2686,
+              2858,
+              3056,
+              3332,
+              3607,
+              3883,
+              4176,
+              4520,
+              4864,
+              5209,
+              5553,
+              5898,
+              6242,
+              6586,
+              6931,
+              7275,
+              7620
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2400,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4038364462392731,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100201",
+          "kind": "basic",
+          "multiplier": 0.1515,
+          "offTuneUnits": 0.21994949494949495,
+          "raw": {
+            "element": 3,
+            "element_power": 44,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              762,
+              825,
+              887,
+              974,
+              1037,
+              1109,
+              1209,
+              1309,
+              1408,
+              1515,
+              1640,
+              1764,
+              1889,
+              2014,
+              2139,
+              2264,
+              2389,
+              2514,
+              2639,
+              2764
+            ],
+            "related_property": "攻击",
+            "tough_lv": 871,
+            "type": 0,
+            "weakness_lvl": 871
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.14655897694766953,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100202",
+          "kind": "basic",
+          "multiplier": 0.6814,
+          "offTuneUnits": 0.9891414141414141,
+          "raw": {
+            "element": 3,
+            "element_power": 196,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3428,
+              3709,
+              3990,
+              4383,
+              4664,
+              4987,
+              5437,
+              5887,
+              6336,
+              6814,
+              7376,
+              7938,
+              8500,
+              9062,
+              9624,
+              10186,
+              10749,
+              11311,
+              11873,
+              12435
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3917,
+            "type": 0,
+            "weakness_lvl": 3917
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6590947332996803,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100203",
+          "kind": "basic",
+          "multiplier": 0.53,
+          "offTuneUnits": 0.7694444444444445,
+          "raw": {
+            "element": 3,
+            "element_power": 153,
+            "energy": 96,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2666,
+              2885,
+              3103,
+              3409,
+              3628,
+              3879,
+              4229,
+              4579,
+              4928,
+              5300,
+              5737,
+              6174,
+              6611,
+              7049,
+              7486,
+              7923,
+              8360,
+              8797,
+              9234,
+              9672
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3047,
+            "type": 0,
+            "weakness_lvl": 3047
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5127040215379438,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100301",
+          "kind": "basic",
+          "multiplier": 0.3151,
+          "offTuneUnits": 0.24242424242424243,
+          "raw": {
+            "element": 3,
+            "element_power": 48,
+            "energy": 57,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1585,
+              1715,
+              1845,
+              2027,
+              2157,
+              2306,
+              2514,
+              2722,
+              2930,
+              3151,
+              3411,
+              3671,
+              3931,
+              4191,
+              4450,
+              4710,
+              4970,
+              5230,
+              5490,
+              5750
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1812,
+            "type": 0,
+            "weakness_lvl": 960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.30489651691065117,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100302",
+          "kind": "basic",
+          "multiplier": 0.2363,
+          "offTuneUnits": 0.18181818181818182,
+          "raw": {
+            "element": 3,
+            "element_power": 36,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1189,
+              1286,
+              1384,
+              1520,
+              1618,
+              1730,
+              1886,
+              2042,
+              2198,
+              2363,
+              2558,
+              2753,
+              2948,
+              3143,
+              3338,
+              3533,
+              3728,
+              3923,
+              4118,
+              4313
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1359,
+            "type": 0,
+            "weakness_lvl": 720
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2286723876829884,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100303",
+          "kind": "basic",
+          "multiplier": 0.4726,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 3,
+            "element_power": 72,
+            "energy": 85,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2378,
+              2572,
+              2767,
+              3040,
+              3235,
+              3459,
+              3771,
+              4083,
+              4395,
+              4726,
+              5116,
+              5506,
+              5896,
+              6286,
+              6675,
+              7065,
+              7455,
+              7845,
+              8235,
+              8625
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2717,
+            "type": 0,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.45717651018004374,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100601",
+          "kind": "heavy",
+          "multiplier": 0.2784,
+          "offTuneUnits": 0.40404040404040403,
+          "raw": {
+            "element": 3,
+            "element_power": 80,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1400,
+              1515,
+              1630,
+              1791,
+              1906,
+              2038,
+              2221,
+              2405,
+              2589,
+              2784,
+              3013,
+              3243,
+              3473,
+              3702,
+              3932,
+              4161,
+              4391,
+              4621,
+              4850,
+              5080
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 1,
+            "weakness_lvl": 1600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100401",
+          "kind": "basic",
+          "multiplier": 0.3972,
+          "offTuneUnits": 0.7916666666666666,
+          "raw": {
+            "element": 3,
+            "element_power": 157,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1998,
+              2162,
+              2326,
+              2555,
+              2719,
+              2907,
+              3169,
+              3431,
+              3693,
+              3972,
+              4300,
+              4627,
+              4955,
+              5282,
+              5610,
+              5938,
+              6265,
+              6593,
+              6920,
+              7248
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2283,
+            "type": 0,
+            "weakness_lvl": 3135
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38414941948510856,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100402",
+          "kind": "basic",
+          "multiplier": 0.3972,
+          "offTuneUnits": 0.7916666666666666,
+          "raw": {
+            "element": 3,
+            "element_power": 157,
+            "energy": 72,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1998,
+              2162,
+              2326,
+              2555,
+              2719,
+              2907,
+              3169,
+              3431,
+              3693,
+              3972,
+              4300,
+              4627,
+              4955,
+              5282,
+              5610,
+              5938,
+              6265,
+              6593,
+              6920,
+              7248
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2283,
+            "type": 0,
+            "weakness_lvl": 3135
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.38414941948510856,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100404",
+          "kind": "basic",
+          "multiplier": 1.1915,
+          "offTuneUnits": 2.3744949494949497,
+          "raw": {
+            "element": 3,
+            "element_power": 471,
+            "energy": 215,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5993,
+              6485,
+              6976,
+              7664,
+              8156,
+              8721,
+              9507,
+              10293,
+              11079,
+              11915,
+              12898,
+              13881,
+              14863,
+              15846,
+              16829,
+              17812,
+              18795,
+              19778,
+              20760,
+              21743
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6849,
+            "type": 0,
+            "weakness_lvl": 9403
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.1524482584553255,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311150101",
+          "kind": "basic",
+          "multiplier": 0.4498,
+          "offTuneUnits": 0.6530303030303031,
+          "raw": {
+            "element": 3,
+            "element_power": 130,
+            "energy": 81,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2263,
+              2448,
+              2634,
+              2894,
+              3079,
+              3293,
+              3589,
+              3886,
+              4183,
+              4498,
+              4869,
+              5240,
+              5611,
+              5983,
+              6354,
+              6725,
+              7096,
+              7467,
+              7838,
+              8209
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2586
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311150102",
+          "kind": "basic",
+          "multiplier": 0.6747,
+          "offTuneUnits": 0.9795454545454545,
+          "raw": {
+            "element": 3,
+            "element_power": 194,
+            "energy": 122,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3394,
+              3672,
+              3951,
+              4340,
+              4619,
+              4939,
+              5384,
+              5829,
+              6274,
+              6747,
+              7304,
+              7860,
+              8417,
+              8974,
+              9530,
+              10087,
+              10643,
+              11200,
+              11756,
+              12313
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 0,
+            "weakness_lvl": 3879
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311150103",
+          "kind": "basic",
+          "multiplier": 0.6747,
+          "offTuneUnits": 0.9795454545454545,
+          "raw": {
+            "element": 3,
+            "element_power": 194,
+            "energy": 122,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3394,
+              3672,
+              3951,
+              4340,
+              4619,
+              4939,
+              5384,
+              5829,
+              6274,
+              6747,
+              7304,
+              7860,
+              8417,
+              8974,
+              9530,
+              10087,
+              10643,
+              11200,
+              11756,
+              12313
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 0,
+            "weakness_lvl": 3879
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100406",
+          "kind": "heavy",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              517,
+              559,
+              602,
+              661,
+              703,
+              752,
+              820,
+              888,
+              956,
+              1028,
+              1112,
+              1197,
+              1282,
+              1366,
+              1451,
+              1536,
+              1621,
+              1705,
+              1790,
+              1875
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 1,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100408",
+          "kind": "heavy",
+          "multiplier": 0.2055,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1034,
+              1118,
+              1203,
+              1322,
+              1406,
+              1504,
+              1639,
+              1775,
+              1911,
+              2055,
+              2224,
+              2393,
+              2563,
+              2732,
+              2902,
+              3071,
+              3241,
+              3410,
+              3580,
+              3749
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 1,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100409",
+          "kind": "heavy",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              517,
+              559,
+              602,
+              661,
+              703,
+              752,
+              820,
+              888,
+              956,
+              1028,
+              1112,
+              1197,
+              1282,
+              1366,
+              1451,
+              1536,
+              1621,
+              1705,
+              1790,
+              1875
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 1,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100407",
+          "kind": "heavy",
+          "multiplier": 0.2055,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1034,
+              1118,
+              1203,
+              1322,
+              1406,
+              1504,
+              1639,
+              1775,
+              1911,
+              2055,
+              2224,
+              2393,
+              2563,
+              2732,
+              2902,
+              3071,
+              3241,
+              3410,
+              3580,
+              3749
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 1,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311110101",
+          "kind": "basic",
+          "multiplier": 0.2244,
+          "offTuneUnits": 0.5252525252525253,
+          "raw": {
+            "element": 3,
+            "element_power": 65,
+            "energy": 41,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1129,
+              1221,
+              1314,
+              1443,
+              1536,
+              1642,
+              1790,
+              1939,
+              2087,
+              2244,
+              2429,
+              2614,
+              2799,
+              2984,
+              3169,
+              3354,
+              3539,
+              3724,
+              3909,
+              4094
+            ],
+            "related_property": "攻击",
+            "tough_lv": 15000,
+            "type": 0,
+            "weakness_lvl": 2080
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 2.523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311100801",
+          "kind": "basic",
+          "multiplier": 0.2244,
+          "offTuneUnits": 0.5252525252525253,
+          "raw": {
+            "element": 3,
+            "element_power": 65,
+            "energy": 41,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1129,
+              1221,
+              1314,
+              1443,
+              1536,
+              1642,
+              1790,
+              1939,
+              2087,
+              2244,
+              2429,
+              2614,
+              2799,
+              2984,
+              3169,
+              3354,
+              3539,
+              3724,
+              3909,
+              4094
+            ],
+            "related_property": "攻击",
+            "tough_lv": 15000,
+            "type": 0,
+            "weakness_lvl": 2080
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 2.523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200101",
+          "kind": "basic",
+          "multiplier": 0.1255,
+          "offTuneUnits": 0.18232323232323233,
+          "raw": {
+            "element": 3,
+            "element_power": 37,
+            "energy": 23,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              632,
+              683,
+              735,
+              808,
+              859,
+              919,
+              1002,
+              1085,
+              1167,
+              1255,
+              1359,
+              1462,
+              1566,
+              1669,
+              1773,
+              1876,
+              1980,
+              2083,
+              2187,
+              2290
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2165,
+            "type": 0,
+            "weakness_lvl": 722
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.36429412754501095,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200106",
+          "kind": "basic",
+          "multiplier": 0.3765,
+          "offTuneUnits": 0.5467171717171717,
+          "raw": {
+            "element": 3,
+            "element_power": 109,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1894,
+              2049,
+              2205,
+              2422,
+              2577,
+              2756,
+              3004,
+              3253,
+              3501,
+              3765,
+              4076,
+              4386,
+              4697,
+              5007,
+              5318,
+              5628,
+              5939,
+              6249,
+              6560,
+              6870
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6493,
+            "type": 0,
+            "weakness_lvl": 2165
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0925458522631668,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200104",
+          "kind": "basic",
+          "multiplier": 0.2092,
+          "offTuneUnits": 0.3037878787878788,
+          "raw": {
+            "element": 3,
+            "element_power": 61,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1052,
+              1139,
+              1225,
+              1346,
+              1432,
+              1531,
+              1669,
+              1807,
+              1945,
+              2092,
+              2264,
+              2437,
+              2609,
+              2782,
+              2955,
+              3127,
+              3300,
+              3472,
+              3645,
+              3817
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1203,
+            "type": 0,
+            "weakness_lvl": 1203
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.20242301867743565,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200204",
+          "kind": "basic",
+          "multiplier": 0.348,
+          "offTuneUnits": 0.5050505050505051,
+          "raw": {
+            "element": 3,
+            "element_power": 100,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1750,
+              1894,
+              2037,
+              2238,
+              2382,
+              2547,
+              2777,
+              3006,
+              3236,
+              3480,
+              3767,
+              4054,
+              4341,
+              4628,
+              4915,
+              5202,
+              5489,
+              5776,
+              6063,
+              6350
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 0,
+            "weakness_lvl": 2000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200301",
+          "kind": "basic",
+          "multiplier": 0.0911,
+          "offTuneUnits": 0.13232323232323231,
+          "raw": {
+            "element": 3,
+            "element_power": 27,
+            "energy": 17,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              458,
+              496,
+              533,
+              586,
+              623,
+              667,
+              727,
+              787,
+              847,
+              911,
+              986,
+              1061,
+              1136,
+              1211,
+              1286,
+              1361,
+              1436,
+              1511,
+              1586,
+              1661
+            ],
+            "related_property": "攻击",
+            "tough_lv": 524,
+            "type": 0,
+            "weakness_lvl": 524
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.08817095742890796,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200302",
+          "kind": "basic",
+          "multiplier": 0.1821,
+          "offTuneUnits": 0.2643939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 53,
+            "energy": 33,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              916,
+              991,
+              1066,
+              1171,
+              1246,
+              1333,
+              1453,
+              1573,
+              1693,
+              1821,
+              1971,
+              2121,
+              2271,
+              2421,
+              2572,
+              2722,
+              2872,
+              3022,
+              3172,
+              3322
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1047,
+            "type": 0,
+            "weakness_lvl": 1047
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.1761736496718829,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200303",
+          "kind": "basic",
+          "multiplier": 0.2731,
+          "offTuneUnits": 0.39646464646464646,
+          "raw": {
+            "element": 3,
+            "element_power": 79,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1374,
+              1487,
+              1599,
+              1757,
+              1869,
+              1999,
+              2179,
+              2359,
+              2540,
+              2731,
+              2956,
+              3181,
+              3407,
+              3632,
+              3857,
+              4082,
+              4308,
+              4533,
+              4758,
+              4983
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1570,
+            "type": 0,
+            "weakness_lvl": 1570
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.26417634191485784,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200402",
+          "kind": "heavy",
+          "multiplier": 0.5393,
+          "offTuneUnits": 0.7828282828282829,
+          "raw": {
+            "element": 3,
+            "element_power": 155,
+            "energy": 97,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2713,
+              2935,
+              3158,
+              3469,
+              3692,
+              3947,
+              4303,
+              4659,
+              5015,
+              5393,
+              5838,
+              6283,
+              6728,
+              7173,
+              7617,
+              8062,
+              8507,
+              8952,
+              9397,
+              9842
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3100,
+            "type": 1,
+            "weakness_lvl": 3100
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.5216220763923944,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200502",
+          "kind": "basic",
+          "multiplier": 0.9568,
+          "offTuneUnits": 1.3888888888888888,
+          "raw": {
+            "element": 3,
+            "element_power": 275,
+            "energy": 172,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4813,
+              5208,
+              5602,
+              6155,
+              6549,
+              7003,
+              7635,
+              8266,
+              8897,
+              9568,
+              10357,
+              11147,
+              11936,
+              12725,
+              13514,
+              14304,
+              15093,
+              15882,
+              16671,
+              17461
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7500,
+            "type": 0,
+            "weakness_lvl": 5500
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.2619888944977284,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311201101",
+          "kind": "basic",
+          "multiplier": 0.1347,
+          "offTuneUnits": 0.3151515151515151,
+          "raw": {
+            "element": 3,
+            "element_power": 39,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              678,
+              733,
+              789,
+              866,
+              922,
+              986,
+              1074,
+              1163,
+              1252,
+              1347,
+              1458,
+              1569,
+              1680,
+              1791,
+              1902,
+              2013,
+              2124,
+              2235,
+              2346,
+              2457
+            ],
+            "related_property": "攻击",
+            "tough_lv": 9000,
+            "type": 0,
+            "weakness_lvl": 1248
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.5143866733972742,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311201102",
+          "kind": "basic",
+          "multiplier": 0.0898,
+          "offTuneUnits": 0.2101010101010101,
+          "raw": {
+            "element": 3,
+            "element_power": 26,
+            "energy": 17,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              452,
+              489,
+              526,
+              578,
+              615,
+              657,
+              716,
+              776,
+              835,
+              898,
+              972,
+              1046,
+              1120,
+              1194,
+              1268,
+              1342,
+              1416,
+              1490,
+              1564,
+              1638
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6000,
+            "type": 0,
+            "weakness_lvl": 832
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0095911155981827,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311201201",
+          "kind": "basic",
+          "multiplier": 0.3503,
+          "offTuneUnits": 0.5085858585858586,
+          "raw": {
+            "element": 3,
+            "element_power": 101,
+            "energy": 63,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1762,
+              1907,
+              2051,
+              2253,
+              2398,
+              2564,
+              2795,
+              3026,
+              3257,
+              3503,
+              3792,
+              4081,
+              4370,
+              4659,
+              4948,
+              5237,
+              5526,
+              5814,
+              6103,
+              6392
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6000,
+            "type": 0,
+            "weakness_lvl": 2014
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0095911155981827,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311201202",
+          "kind": "basic",
+          "multiplier": 0.5254,
+          "offTuneUnits": 0.7628787878787879,
+          "raw": {
+            "element": 3,
+            "element_power": 152,
+            "energy": 95,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2643,
+              2860,
+              3077,
+              3380,
+              3597,
+              3846,
+              4193,
+              4539,
+              4886,
+              5254,
+              5688,
+              6121,
+              6555,
+              6988,
+              7421,
+              7855,
+              8288,
+              8721,
+              9155,
+              9588
+            ],
+            "related_property": "攻击",
+            "tough_lv": 9000,
+            "type": 0,
+            "weakness_lvl": 3021
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.5143866733972742,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220101",
+          "kind": "basic",
+          "multiplier": 0.2886,
+          "offTuneUnits": 0.41893939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 83,
+            "energy": 52,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1452,
+              1571,
+              1690,
+              1857,
+              1976,
+              2113,
+              2303,
+              2494,
+              2684,
+              2886,
+              3124,
+              3362,
+              3601,
+              3839,
+              4077,
+              4315,
+              4553,
+              4791,
+              5029,
+              5267
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1659,
+            "type": 0,
+            "weakness_lvl": 1659
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2791519434628975,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220201",
+          "kind": "basic",
+          "multiplier": 0.3823,
+          "offTuneUnits": 0.555050505050505,
+          "raw": {
+            "element": 3,
+            "element_power": 110,
+            "energy": 69,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1923,
+              2081,
+              2239,
+              2460,
+              2617,
+              2799,
+              3051,
+              3303,
+              3555,
+              3823,
+              4139,
+              4454,
+              4769,
+              5085,
+              5400,
+              5716,
+              6031,
+              6346,
+              6662,
+              6977
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2198,
+            "type": 0,
+            "weakness_lvl": 2198
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.36984687868080096,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220301",
+          "kind": "basic",
+          "multiplier": 0.2135,
+          "offTuneUnits": 0.3101010101010101,
+          "raw": {
+            "element": 3,
+            "element_power": 62,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1074,
+              1162,
+              1250,
+              1374,
+              1462,
+              1563,
+              1704,
+              1845,
+              1986,
+              2135,
+              2311,
+              2488,
+              2664,
+              2840,
+              3016,
+              3192,
+              3368,
+              3544,
+              3720,
+              3896
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1228,
+            "type": 0,
+            "weakness_lvl": 1228
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2066296483257614,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220402",
+          "kind": "basic",
+          "multiplier": 0.1664,
+          "offTuneUnits": 0.24141414141414141,
+          "raw": {
+            "element": 3,
+            "element_power": 48,
+            "energy": 30,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              837,
+              906,
+              974,
+              1070,
+              1139,
+              1218,
+              1327,
+              1437,
+              1547,
+              1664,
+              1801,
+              1938,
+              2075,
+              2212,
+              2349,
+              2487,
+              2624,
+              2761,
+              2898,
+              3035
+            ],
+            "related_property": "攻击",
+            "tough_lv": 956,
+            "type": 0,
+            "weakness_lvl": 956
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.16086151775197713,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220403",
+          "kind": "basic",
+          "multiplier": 0.499,
+          "offTuneUnits": 0.7242424242424242,
+          "raw": {
+            "element": 3,
+            "element_power": 144,
+            "energy": 90,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2510,
+              2716,
+              2922,
+              3210,
+              3415,
+              3652,
+              3981,
+              4311,
+              4640,
+              4990,
+              5401,
+              5813,
+              6224,
+              6636,
+              7047,
+              7459,
+              7871,
+              8282,
+              8694,
+              9105
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2868,
+            "type": 0,
+            "weakness_lvl": 2868
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.48258455325593136,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311200601",
+          "kind": "basic",
+          "multiplier": 0.6607,
+          "offTuneUnits": 0.9590909090909091,
+          "raw": {
+            "element": 3,
+            "element_power": 190,
+            "energy": 119,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3323,
+              3596,
+              3868,
+              4250,
+              4522,
+              4836,
+              5272,
+              5708,
+              6144,
+              6607,
+              7152,
+              7697,
+              8242,
+              8787,
+              9332,
+              9876,
+              10421,
+              10966,
+              11511,
+              12056
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 0,
+            "weakness_lvl": 3798
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻·应世相\n处于应世相时，进行最多4段的连续攻击，造成导电伤害。\n\n重击·应世相\n处于应世相时，消耗耐力，造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·应世相第2段。\n\n空中攻击·应世相\n处于应世相时，处于空中状态时，短按普攻施放，消耗耐力进行空中下落攻击，造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·应世相第2段。\n\n重击·应世相·闲中御\n处于应世相时，处于空中状态时，按住普攻将施放重击·应世相·闲中御，持续消耗耐力并对目标造成导电伤害。\n耐力耗尽时或切换至其他角色则提前结束。\n\n空中攻击·应世相·闲中御\n施放重击·应世相·闲中御期间松开普攻，将施放空中攻击·应世相·闲中御，消耗耐力进行空中下落攻击，造成导电伤害。\n施放空中攻击·应世相·闲中御后在一定时间内短按普攻，将会施放普攻·应世相第2段。\n\n闪避反击·应世相\n处于应世相时，成功闪避后一定时间内短按普攻，攻击目标造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·应世相第3段。\n\n普攻·照世相\n处于照世相时且不处于统御众机状态时，御使玄方机巧进行最多3段的连续攻击，造成导电伤害。\n施放普攻·照世相第1段时，将在目标位置生成活字心锁。施放普攻·照世相第2段、重击·照世相、闪避反击·照世相、共鸣技能·照世相期间将令活字心锁崩解，造成导电伤害。\n心在空中状态时，施放该技能将消耗耐力。\n\n重击·照世相\n处于照世相时，消耗耐力，御使玄方机巧造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·照世相第3段。\n\n上挑攻击·照世相\n处于照世相时，处于地面状态时，短按跳跃可施放该技能，造成导电伤害。\n\n空中攻击·照世相\n处于照世相时，心在空中状态时，共鸣技能·照世相将替换为空中攻击·照世相。\n消耗耐力进行空中下落攻击，造成导电伤害。\n\n闪避反击·照世相\n处于照世相时，成功闪避后一定时间内短按普攻，攻击目标造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·照世相第3段。\n\n普攻·照世相·万阙连衡\n处于照世相时且处于统御众机状态时，御使玄方机巧进行最多4段的连续攻击，造成导电伤害。\n\n闪避反击·照世相·万阙连衡\n处于照世相时且处于统御众机状态时，成功闪避后一定时间内短按普攻，攻击目标造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·照世相·万阙连衡第3段。",
+      "headings": [
+        "普攻·应世相",
+        "重击·应世相",
+        "空中攻击·应世相",
+        "重击·应世相·闲中御",
+        "空中攻击·应世相·闲中御",
+        "闪避反击·应世相",
+        "普攻·照世相",
+        "重击·照世相",
+        "上挑攻击·照世相",
+        "空中攻击·照世相",
+        "闪避反击·照世相",
+        "普攻·照世相·万阙连衡",
+        "闪避反击·照世相·万阙连衡"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorMagic.SP_IconNorMagic",
+      "id": "blooming_jadehaven/node_1",
+      "name": "万相生华",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "普攻·应世相第一段伤害",
+          "values": [
+            "27.84%+41.76%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "普攻·应世相第二段伤害",
+          "values": [
+            "15.15%*2+68.14%+53.00%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "普攻·应世相第三段伤害",
+          "values": [
+            "31.51%*2+23.63%*2+47.26%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "普攻·应世相第四段伤害",
+          "values": [
+            "39.72%+39.72%+119.15%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击·应世相·闲中御伤害",
+          "values": [
+            "27.84%*25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "空中攻击·应世相·闲中御伤害",
+          "values": [
+            "22.44%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "重击·应世相伤害",
+          "values": [
+            "10.28%+20.55%+10.28%+20.55%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "空中攻击·应世相伤害",
+          "values": [
+            "22.44%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "闪避反击·应世相伤害",
+          "values": [
+            "44.98%*2+67.47%+67.47%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "普攻·照世相第一段伤害",
+          "values": [
+            "12.55%*2+37.65%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "普攻·照世相·活字心锁伤害",
+          "values": [
+            "20.92%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "普攻·照世相第二段伤害",
+          "values": [
+            "34.80%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "13",
+          "name": "普攻·照世相第三段伤害",
+          "values": [
+            "9.11%*4+18.21%*2+27.31%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "14",
+          "name": "重击·照世相伤害",
+          "values": [
+            "53.93%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "15",
+          "name": "上挑攻击·照世相伤害",
+          "values": [
+            "35.03%+52.54%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "16",
+          "name": "空中攻击·照世相伤害",
+          "values": [
+            "13.47%+8.98%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "17",
+          "name": "闪避反击·照世相伤害",
+          "values": [
+            "95.68%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "18",
+          "name": "普攻·照世相·万阙连衡第一段伤害",
+          "values": [
+            "28.86%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "19",
+          "name": "普攻·照世相·万阙连衡第二段伤害",
+          "values": [
+            "38.23%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "20",
+          "name": "普攻·照世相·万阙连衡第三段伤害",
+          "values": [
+            "21.35%*5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "21",
+          "name": "普攻·照世相·万阙连衡第四段伤害",
+          "values": [
+            "16.64%*7+49.90%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "22",
+          "name": "闪避反击·照世相·万阙连衡伤害",
+          "values": [
+            "66.07%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "23",
+          "name": "重击·应世相·闲中御耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": "{0}",
+          "id": "24",
+          "name": "重击·应世相·闲中御每秒耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "25",
+          "name": "空中攻击·应世相·闲中御耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "26",
+          "name": "重击·应世相耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "27",
+          "name": "空中攻击·应世相耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "28",
+          "name": "普攻·照世相空中状态下耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "29",
+          "name": "重击·照世相耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "30",
+          "name": "空中攻击·照世相耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻·应世相</color></size>\n处于<color=Highlight>应世相</color>时，进行最多4段的连续攻击，造成<color=Thunder>导电伤害</color>。\n\n<size=40><color=Title>重击·应世相</color></size>\n处于<color=Highlight>应世相</color>时，消耗耐力，造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第2段</color>。\n\n<size=40><color=Title>空中攻击·应世相</color></size>\n处于<color=Highlight>应世相</color>时，处于空中状态时，短按<color=Highlight>普攻</color>施放，消耗耐力进行空中下落攻击，造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第2段</color>。\n\n<size=40><color=Title>重击·应世相·闲中御</color></size>\n处于<color=Highlight>应世相</color>时，处于空中状态时，按住<color=Highlight>普攻</color>将施放<color=Highlight>重击·应世相·闲中御</color>，持续消耗耐力并对目标造成<color=Thunder>导电伤害</color>。\n耐力耗尽时或切换至其他角色则提前结束。\n\n<size=40><color=Title>空中攻击·应世相·闲中御</color></size>\n施放<color=Highlight>重击·应世相·闲中御</color>期间松开<color=Highlight>普攻</color>，将施放<color=Highlight>空中攻击·应世相·闲中御</color>，消耗耐力进行空中下落攻击，造成<color=Thunder>导电伤害</color>。\n施放<color=Highlight>空中攻击·应世相·闲中御</color>后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第2段</color>。\n\n<size=40><color=Title>闪避反击·应世相</color></size>\n处于<color=Highlight>应世相</color>时，成功闪避后一定时间内短按<color=Highlight>普攻</color>，攻击目标造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第3段</color>。\n\n<size=40><color=Title>普攻·照世相</color></size>\n处于<color=Highlight>照世相</color>时且不处于<color=Highlight><te href=131116>统御众机</te></color>状态时，御使玄方机巧进行最多3段的连续攻击，造成<color=Thunder>导电伤害</color>。\n施放<color=Highlight>普攻·照世相第1段</color>时，将在目标位置生成<color=Highlight>活字心锁</color>。施放<color=Highlight>普攻·照世相第2段</color>、<color=Highlight>重击·照世相</color>、<color=Highlight>闪避反击·照世相</color>、<color=Highlight>共鸣技能·照世相</color>期间将令<color=Highlight>活字心锁</color>崩解，造成<color=Thunder>导电伤害</color>。\n心在空中状态时，施放该技能将消耗耐力。\n\n<size=40><color=Title>重击·照世相</color></size>\n处于<color=Highlight>照世相</color>时，消耗耐力，御使玄方机巧造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·照世相第3段</color>。\n\n<size=40><color=Title>上挑攻击·照世相</color></size>\n处于<color=Highlight>照世相</color>时，处于地面状态时，短按<color=Highlight>跳跃</color>可施放该技能，造成<color=Thunder>导电伤害</color>。\n\n<size=40><color=Title>空中攻击·照世相</color></size>\n处于<color=Highlight>照世相</color>时，心在空中状态时，<color=Highlight>共鸣技能·照世相</color>将替换为<color=Highlight>空中攻击·照世相</color>。\n消耗耐力进行空中下落攻击，造成<color=Thunder>导电伤害</color>。\n\n<size=40><color=Title>闪避反击·照世相</color></size>\n处于<color=Highlight>照世相</color>时，成功闪避后一定时间内短按<color=Highlight>普攻</color>，攻击目标造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·照世相第3段</color>。\n\n<size=40><color=Title>普攻·照世相·万阙连衡</color></size>\n处于<color=Highlight>照世相</color>时且处于<color=Highlight><te href=131116>统御众机</te></color>状态时，御使玄方机巧进行最多4段的连续攻击，造成<color=Thunder>导电伤害</color>。\n\n<size=40><color=Title>闪避反击·照世相·万阙连衡</color></size>\n处于<color=Highlight>照世相</color>时且处于<color=Highlight><te href=131116>统御众机</te></color>状态时，成功闪避后一定时间内短按<color=Highlight>普攻</color>，攻击目标造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·照世相·万阙连衡第3段</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311120101",
+          "kind": "skill",
+          "multiplier": 0.2506,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 3,
+            "element_power": 36,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1260,
+              1364,
+              1467,
+              1612,
+              1715,
+              1834,
+              1999,
+              2165,
+              2330,
+              2506,
+              2712,
+              2919,
+              3125,
+              3332,
+              3539,
+              3745,
+              3952,
+              4159,
+              4365,
+              4572
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311120102",
+          "kind": "skill",
+          "multiplier": 0.2506,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 3,
+            "element_power": 36,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1260,
+              1364,
+              1467,
+              1612,
+              1715,
+              1834,
+              1999,
+              2165,
+              2330,
+              2506,
+              2712,
+              2919,
+              3125,
+              3332,
+              3539,
+              3745,
+              3952,
+              4159,
+              4365,
+              4572
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311120103",
+          "kind": "skill",
+          "multiplier": 0.2506,
+          "offTuneUnits": 0.36363636363636365,
+          "raw": {
+            "element": 3,
+            "element_power": 36,
+            "energy": 45,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1260,
+              1364,
+              1467,
+              1612,
+              1715,
+              1834,
+              1999,
+              2165,
+              2330,
+              2506,
+              2712,
+              2919,
+              3125,
+              3332,
+              3539,
+              3745,
+              3952,
+              4159,
+              4365,
+              4572
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 1440
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311120104",
+          "kind": "skill",
+          "multiplier": 0.1671,
+          "offTuneUnits": 0.24242424242424243,
+          "raw": {
+            "element": 3,
+            "element_power": 24,
+            "energy": 30,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              840,
+              909,
+              978,
+              1075,
+              1144,
+              1223,
+              1333,
+              1443,
+              1553,
+              1671,
+              1808,
+              1946,
+              2084,
+              2222,
+              2359,
+              2497,
+              2635,
+              2773,
+              2910,
+              3048
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 4,
+            "weakness_lvl": 960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311120105",
+          "kind": "skill",
+          "multiplier": 0.5846,
+          "offTuneUnits": 0.8484848484848485,
+          "raw": {
+            "element": 3,
+            "element_power": 84,
+            "energy": 105,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2940,
+              3182,
+              3423,
+              3760,
+              4001,
+              4278,
+              4664,
+              5050,
+              5436,
+              5846,
+              6328,
+              6810,
+              7292,
+              7774,
+              8256,
+              8738,
+              9221,
+              9703,
+              10185,
+              10667
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7000,
+            "type": 4,
+            "weakness_lvl": 3360
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.1778563015312131,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311210102",
+          "kind": "skill",
+          "multiplier": 0.1114,
+          "offTuneUnits": 0.16161616161616163,
+          "raw": {
+            "element": 3,
+            "element_power": 32,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              560,
+              606,
+              652,
+              717,
+              763,
+              815,
+              889,
+              962,
+              1036,
+              1114,
+              1206,
+              1298,
+              1389,
+              1481,
+              1573,
+              1665,
+              1757,
+              1849,
+              1940,
+              2032
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 640
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311210103",
+          "kind": "skill",
+          "multiplier": 1.7814,
+          "offTuneUnits": 2.585858585858586,
+          "raw": {
+            "element": 3,
+            "element_power": 512,
+            "energy": 320,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8960,
+              9695,
+              10430,
+              11459,
+              12193,
+              13038,
+              14214,
+              15389,
+              16565,
+              17814,
+              19283,
+              20753,
+              22222,
+              23692,
+              25161,
+              26631,
+              28100,
+              29569,
+              31039,
+              32508
+            ],
+            "related_property": "攻击",
+            "tough_lv": 16000,
+            "type": 4,
+            "weakness_lvl": 10240
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "共鸣技能·应世相\n处于应世相时，短按共鸣技能，造成导电伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·应世相第4段。\n可在空中施放。\n\n施放该技能后一定时间内，若心处于地面状态进行移动，将化作心狐。\n·化作心狐时，若心处于非战斗状态下，获得不惊尘。拥有不惊尘时，心进入目标的警戒范围将不会进入战斗状态。心进入战斗、切换至其他角色时，或心进行场景、玩法、功能交互退出心狐形态时，将强制移除不惊尘。\n·化作心狐期间，若心处于非战斗状态下，每3秒回复生命上限6%的生命值。\n·化作心狐期间，心受到伤害时、处于地面状态下若未按下方向键进行闪避时、处于空中状态下进行闪避时将退出心狐形态。切换至其他角色或短按共鸣技能也会退出心狐形态。短按普攻则会退出心狐形态并施放普攻·应世相第4段。\n·化作心狐期间，心处于冲刺状态期间会持续消耗耐力。\n·化作心狐期间，心无法施放共鸣解放。\n\n共鸣技能·照世相\n处于照世相时，若心在地面状态，短按共鸣技能，心将御使巨型玄方机巧，造成导电伤害。",
+      "headings": [
+        "共鸣技能·应世相",
+        "共鸣技能·照世相"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinB1.SP_IconXinB1",
+      "id": "blooming_jadehaven/node_2",
+      "name": "踏月归心",
+      "parameters": [
+        {
+          "format": null,
+          "id": "31",
+          "name": "共鸣技能·应世相伤害",
+          "values": [
+            "25.06%+25.06%+25.06%+16.71%*2+58.46%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "32",
+          "name": "共鸣技能·照世相伤害",
+          "values": [
+            "11.14%*4+178.14%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "33",
+          "name": "共鸣技能·应世相冷却时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "34",
+          "name": "共鸣技能·照世相冷却时间",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>共鸣技能·应世相</color></size>\n处于<color=Highlight>应世相</color>时，短按<color=Highlight>共鸣技能</color>，造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第4段</color>。\n可在空中施放。\n\n施放该技能后一定时间内，若心处于地面状态进行移动，将化作<color=Highlight>心狐</color>。\n·化作<color=Highlight>心狐</color>时，若心处于非战斗状态下，获得<color=Highlight>不惊尘</color>。拥有<color=Highlight>不惊尘</color>时，心进入目标的警戒范围将不会进入战斗状态。心进入战斗、切换至其他角色时，或心进行场景、玩法、功能交互退出<color=Highlight>心狐</color>形态时，将强制移除<color=Highlight>不惊尘</color>。\n·化作<color=Highlight>心狐</color>期间，若心处于非战斗状态下，每{1}秒回复生命上限{0}的生命值。\n·化作<color=Highlight>心狐</color>期间，心受到伤害时、处于地面状态下若未按下方向键进行<color=Highlight>闪避</color>时、处于空中状态下进行<color=Highlight>闪避</color>时将退出<color=Highlight>心狐</color>形态。切换至其他角色或短按<color=Highlight>共鸣技能</color>也会退出<color=Highlight>心狐</color>形态。短按<color=Highlight>普攻</color>则会退出<color=Highlight>心狐</color>形态并施放<color=Highlight>普攻·应世相第4段</color>。\n·化作<color=Highlight>心狐</color>期间，心处于冲刺状态期间会持续消耗耐力。\n·化作<color=Highlight>心狐</color>期间，心无法施放<color=Highlight>共鸣解放</color>。\n\n<size=40><color=Title>共鸣技能·照世相</color></size>\n处于<color=Highlight>照世相</color>时，若心在地面状态，短按<color=Highlight>共鸣技能</color>，心将御使巨型玄方机巧，造成<color=Thunder>导电伤害</color>。",
+      "rawParameters": [
+        "6%",
+        "3"
+      ],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401010",
+          "kind": "skill",
+          "multiplier": 0.8051,
+          "offTuneUnits": 0.4946969696969697,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4050,
+              4382,
+              4714,
+              5179,
+              5511,
+              5893,
+              6424,
+              6955,
+              7487,
+              8051,
+              8715,
+              9379,
+              10043,
+              10707,
+              11372,
+              12036,
+              12700,
+              13364,
+              14028,
+              14692
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 4,
+            "weakness_lvl": 1959
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401020",
+          "kind": "skill",
+          "multiplier": 0.9057,
+          "offTuneUnits": 0.5565656565656566,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4556,
+              4930,
+              5303,
+              5826,
+              6200,
+              6629,
+              7227,
+              7825,
+              8422,
+              9057,
+              9804,
+              10552,
+              11299,
+              12046,
+              12793,
+              13540,
+              14287,
+              15034,
+              15781,
+              16528
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1800,
+            "type": 4,
+            "weakness_lvl": 2204
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401030",
+          "kind": "skill",
+          "multiplier": 0.6038,
+          "offTuneUnits": 0.37095959595959593,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3038,
+              3287,
+              3536,
+              3884,
+              4133,
+              4420,
+              4818,
+              5217,
+              5615,
+              6038,
+              6536,
+              7035,
+              7533,
+              8031,
+              8529,
+              9027,
+              9525,
+              10023,
+              10521,
+              11019
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1200,
+            "type": 4,
+            "weakness_lvl": 1469
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.20191822311963656,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401040",
+          "kind": "skill",
+          "multiplier": 1.0064,
+          "offTuneUnits": 0.6181818181818182,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5062,
+              5477,
+              5892,
+              6473,
+              6888,
+              7366,
+              8030,
+              8694,
+              9358,
+              10064,
+              10894,
+              11724,
+              12554,
+              13384,
+              14214,
+              15044,
+              15875,
+              16705,
+              17535,
+              18365
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 4,
+            "weakness_lvl": 2448
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401050",
+          "kind": "skill",
+          "multiplier": 0.7045,
+          "offTuneUnits": 0.43282828282828284,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3544,
+              3834,
+              4125,
+              4532,
+              4822,
+              5156,
+              5621,
+              6086,
+              6551,
+              7045,
+              7626,
+              8207,
+              8788,
+              9369,
+              9950,
+              10531,
+              11112,
+              11693,
+              12275,
+              12856
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1400,
+            "type": 4,
+            "weakness_lvl": 1714
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23557126030624265,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401060",
+          "kind": "skill",
+          "multiplier": 16.1012,
+          "offTuneUnits": 9.89090909090909,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              80988,
+              87629,
+              94270,
+              103567,
+              110208,
+              117845,
+              128471,
+              139097,
+              149722,
+              161012,
+              174294,
+              187576,
+              200858,
+              214140,
+              227422,
+              240704,
+              253986,
+              267268,
+              280549,
+              293831
+            ],
+            "related_property": "攻击",
+            "tough_lv": 32000,
+            "type": 4,
+            "weakness_lvl": 39168
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 5.384485949856974,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311240404",
+          "kind": "liberation",
+          "multiplier": 0.1137,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              572,
+              619,
+              666,
+              731,
+              778,
+              832,
+              907,
+              982,
+              1057,
+              1137,
+              1230,
+              1324,
+              1418,
+              1511,
+              1605,
+              1699,
+              1793,
+              1886,
+              1980,
+              2074
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 2,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401011",
+          "kind": "skill",
+          "multiplier": 1.3686,
+          "offTuneUnits": 0.4946969696969697,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6884,
+              7449,
+              8013,
+              8804,
+              9368,
+              10017,
+              10920,
+              11824,
+              12727,
+              13686,
+              14815,
+              15944,
+              17073,
+              18202,
+              19331,
+              20460,
+              21589,
+              22718,
+              23847,
+              24976
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1600,
+            "type": 4,
+            "weakness_lvl": 1959
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.2692242974928487,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401021",
+          "kind": "skill",
+          "multiplier": 1.5397,
+          "offTuneUnits": 0.5565656565656566,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7745,
+              8380,
+              9015,
+              9904,
+              10539,
+              11269,
+              12285,
+              13302,
+              14318,
+              15397,
+              16667,
+              17937,
+              19207,
+              20478,
+              21748,
+              23018,
+              24288,
+              25558,
+              26828,
+              28098
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1800,
+            "type": 4,
+            "weakness_lvl": 2204
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.3028773346794548,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401031",
+          "kind": "skill",
+          "multiplier": 1.0265,
+          "offTuneUnits": 0.37095959595959593,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5163,
+              5587,
+              6010,
+              6603,
+              7026,
+              7513,
+              8190,
+              8868,
+              9545,
+              10265,
+              11112,
+              11958,
+              12805,
+              13652,
+              14499,
+              15345,
+              16192,
+              17039,
+              17885,
+              18732
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1200,
+            "type": 4,
+            "weakness_lvl": 1469
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.20191822311963656,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401041",
+          "kind": "skill",
+          "multiplier": 1.7108,
+          "offTuneUnits": 0.6181818181818182,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8605,
+              9311,
+              10017,
+              11004,
+              11710,
+              12522,
+              13650,
+              14779,
+              15908,
+              17108,
+              18519,
+              19930,
+              21342,
+              22753,
+              24164,
+              25575,
+              26986,
+              28398,
+              29809,
+              31220
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 4,
+            "weakness_lvl": 2448
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401051",
+          "kind": "skill",
+          "multiplier": 1.1976,
+          "offTuneUnits": 0.43282828282828284,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6024,
+              6518,
+              7012,
+              7703,
+              8197,
+              8765,
+              9555,
+              10346,
+              11136,
+              11976,
+              12964,
+              13951,
+              14939,
+              15927,
+              16915,
+              17903,
+              18891,
+              19878,
+              20866,
+              21854
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1400,
+            "type": 4,
+            "weakness_lvl": 1714
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23557126030624265,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112401061",
+          "kind": "skill",
+          "multiplier": 27.372,
+          "offTuneUnits": 9.89090909090909,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              137679,
+              148969,
+              160259,
+              176064,
+              187354,
+              200337,
+              218400,
+              236464,
+              254527,
+              273720,
+              296299,
+              318878,
+              341458,
+              364037,
+              386616,
+              409196,
+              431775,
+              454354,
+              476934,
+              499513
+            ],
+            "related_property": "攻击",
+            "tough_lv": 32000,
+            "type": 4,
+            "weakness_lvl": 39168
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 5.384485949856974,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "转相\n施放重击·应世相·步红尘或重击·应世相·镇红尘后，解锁转相。\n施放转相，展开万相神宫，心将转为照世相，解锁全新的战斗能力，并进入心相心生状态。\n可在低空中施放。\n处于照世相时，进行任务对话、使用附带动作表现的场景交互或探索工具时，会切换回应世相，并进行对应动作。\n处于照世相的心可在水面行走，在深水区时，会持续消耗耐力；在步行模式下，处于照世相的心可由悬崖步入空中，并在空中缓慢行走，该状态下将持续消耗耐力。处于照世相的心在空中状态时，无法回复耐力。\n\n万阙垂天\n施放重击·照世相·临寰宇或重击·照世相·镇寰宇后，处于照世相且共鸣能量满时，解锁万阙垂天。\n施放万阙垂天，引导万相神宫坠落，对目标造成导电伤害，此次伤害为共鸣技能伤害。\n可在低空中施放。\n心将回到应世相，并退出心相心生状态。\n\n敕令\n施放转相时，心将同时获得21层敕令，上限21层，持续45秒，持续时间结束移除全部层数。\n队伍中在场角色造成伤害后，心将在后续3秒内自动消耗敕令，该效果每秒至多获得1次，重复获得时刷新该效果持续时间：\n·消耗敕令时，从万相神宫召唤飞阙对目标进行一次协同攻击，造成导电伤害。\n·每秒至多自动消耗1层敕令。\n·通过飞阙造成的伤害不会获得该效果。\n·心失去意识时，移除全部敕令。\n\n心相心生\n提升心自身抗打断能力，持续45秒。\n进入心相心生状态时，重置心的照世相。\n心相心生状态下，处于照世相时，若未解锁万阙垂天，短按共鸣解放，心将施放借相·应世；处于应世相时，短按共鸣解放，心将施放借相·照世。\n此外，若心退出心相心生状态后仍处于照世相，若未解锁万阙垂天，短按共鸣解放也将施放借相·应世。\n\n借相·应世\n心临时转变回应世相。施放该技能时，若心处于地面状态，将施放普攻·应世相第2段；若心处于空中状态，将施放空中攻击·应世相。\n\n借相·照世\n心重新转变为照世相。施放该技能时，若心处于地面状态，将施放上挑攻击·照世相；若心处于空中状态，将施放空中攻击·照世相。",
+      "headings": [
+        "转相",
+        "万阙垂天",
+        "敕令",
+        "心相心生",
+        "借相·应世",
+        "借相·照世"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinC1.SP_IconXinC1",
+      "id": "blooming_jadehaven/node_3",
+      "name": "引枢作清辉",
+      "parameters": [
+        {
+          "format": null,
+          "id": "35",
+          "name": "万阙垂天伤害",
+          "values": [
+            "80.51%+90.57%+60.38%+100.64%+70.45%+1610.12%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "36",
+          "name": "飞阙伤害",
+          "values": [
+            "11.37%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "37",
+          "name": "转相冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "38",
+          "name": "借相冷却时间",
+          "values": [
+            "1.5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "39",
+          "name": "万阙垂天消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": null,
+          "id": "40",
+          "name": "转相回复协奏能量",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "41",
+          "name": "万阙垂天回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>转相</color></size>\n施放<color=Highlight>重击·应世相·步红尘</color>或<color=Highlight>重击·应世相·镇红尘</color>后，解锁<color=Highlight>转相</color>。\n施放<color=Highlight>转相</color>，展开万相神宫，心将转为<color=Highlight>照世相</color>，解锁全新的战斗能力，并进入<color=Highlight><te href=131120>心相心生</te></color>状态。\n可在低空中施放。\n处于<color=Highlight>照世相</color>时，进行<color=Highlight>任务对话</color>、使用<color=Highlight>附带动作表现的场景交互</color>或<color=Highlight>探索工具</color>时，会切换回<color=Highlight>应世相</color>，并进行对应动作。\n处于<color=Highlight>照世相</color>的心可在水面行走，在深水区时，会持续消耗耐力；在步行模式下，处于<color=Highlight>照世相</color>的心可由悬崖步入空中，并在空中缓慢行走，该状态下将持续消耗耐力。处于<color=Highlight>照世相</color>的心在空中状态时，无法回复耐力。\n\n<size=40><color=Title>万阙垂天</color></size>\n施放<color=Highlight>重击·照世相·临寰宇</color>或<color=Highlight>重击·照世相·镇寰宇</color>后，处于<color=Highlight>照世相</color>且共鸣能量满时，解锁<color=Highlight>万阙垂天</color>。\n施放<color=Highlight>万阙垂天</color>，引导万相神宫坠落，对目标造成<color=Thunder>导电伤害</color>，此次伤害为<color=Highlight>共鸣技能伤害</color>。\n可在低空中施放。\n心将回到<color=Highlight>应世相</color>，并退出<color=Highlight><te href=131120>心相心生</te></color>状态。\n\n<size=40><color=Title>敕令</color></size>\n施放<color=Highlight>转相</color>时，心将同时获得{0}层<color=Highlight>敕令</color>，上限{0}层，持续{2}秒，持续时间结束移除全部层数。\n队伍中在场角色造成伤害后，心将在后续{1}秒内自动消耗<color=Highlight>敕令</color>，该效果每秒至多获得1次，重复获得时刷新该效果持续时间：\n·消耗<color=Highlight>敕令</color>时，从万相神宫召唤<color=Highlight>飞阙</color>对目标进行一次协同攻击，造成<color=Thunder>导电伤害</color>。\n·每秒至多自动消耗1层<color=Highlight>敕令</color>。\n·通过<color=Highlight>飞阙</color>造成的伤害不会获得该效果。\n·心失去意识时，移除全部<color=Highlight>敕令</color>。\n\n<size=40><color=Title>心相心生</color></size>\n提升心自身抗打断能力，持续{2}秒。\n进入<color=Highlight>心相心生</color>状态时，重置心的<color=Highlight>照世相</color>。\n<color=Highlight>心相心生</color>状态下，处于<color=Highlight>照世相</color>时，若未解锁<color=Highlight>万阙垂天</color>，短按<color=Highlight>共鸣解放</color>，心将施放<color=Highlight>借相·应世</color>；处于<color=Highlight>应世相</color>时，短按<color=Highlight>共鸣解放</color>，心将施放<color=Highlight>借相·照世</color>。\n此外，若心退出<color=Highlight>心相心生</color>状态后仍处于<color=Highlight>照世相</color>，若未解锁<color=Highlight>万阙垂天</color>，短按<color=Highlight>共鸣解放</color>也将施放<color=Highlight>借相·应世</color>。\n\n<size=40><color=Title>借相·应世</color></size>\n心临时转变回<color=Highlight>应世相</color>。施放该技能时，若心处于地面状态，将施放<color=Highlight>普攻·应世相第2段</color>；若心处于空中状态，将施放<color=Highlight>空中攻击·应世相</color>。\n\n<size=40><color=Title>借相·照世</color></size>\n心重新转变为<color=Highlight>照世相</color>。施放该技能时，若心处于地面状态，将施放<color=Highlight>上挑攻击·照世相</color>；若心处于空中状态，将施放<color=Highlight>空中攻击·照世相</color>。",
+      "rawParameters": [
+        "21",
+        "3",
+        "45"
+      ],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "处于共鸣模态·同奏时，心施放变奏技能·应世相·诸相同奏或变奏技能·照世相·诸相同奏时，自身攻击提升50%，持续8秒，切换至其他角色或切换模态时该效果提前结束。\n\n处于共鸣模态·电磁时，队伍中的角色附加【电磁效应】后，心导电伤害加成提升25%，最多可叠加2层，该效果每名角色仅可触发1次。此外，若漂泊者·导电处于同一编队中，则漂泊者·导电施放变奏技能·不啻惊雷时，心和漂泊者·导电的导电伤害加成提升20%，持续30秒。\n角色编入队伍或切换模态时，重置该效果。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinD1.SP_IconXinD1",
+      "id": "blooming_jadehaven/node_4",
+      "name": "循流引兴替",
+      "parameters": [],
+      "rawDescription": "处于<color=Highlight>共鸣模态·同奏</color>时，心施放<color=Highlight>变奏技能·应世相·诸相同奏</color>或<color=Highlight>变奏技能·照世相·诸相同奏</color>时，自身攻击提升{0}，持续{1}秒，切换至其他角色或切换模态时该效果提前结束。\n\n处于<color=Highlight>共鸣模态·电磁</color>时，队伍中的角色附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>后，心导电伤害加成提升{2}，最多可叠加{3}层，该效果每名角色仅可触发1次。此外，若漂泊者·导电处于同一编队中，则漂泊者·导电施放<color=Highlight>变奏技能·不啻惊雷</color>时，心和漂泊者·导电的导电伤害加成提升{6}，持续{7}秒。\n角色编入队伍或切换模态时，重置该效果。",
+      "rawParameters": [
+        "50%",
+        "8",
+        "25%",
+        "2",
+        "2",
+        "30%",
+        "20%",
+        "30"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "处于共鸣模态·同奏时，队伍中的角色【同奏增益】效果的层数上限增加1层。队伍中的角色响应同奏时，队伍中的角色获得1层【同奏增益】，持续30秒，该效果无法叠加。\n\n处于共鸣模态·电磁时，心不处于心相心生状态期间，队伍中除心之外的角色附加【电磁效应】后，每添加1层【电磁效应】使心获得1层霆霓，可叠加10层。\n心处于心相心生状态期间，一定范围内的目标【电磁效应】层数为0时，将对目标附加1层【电磁效应】，且若心的霆霓层数达到上限，还将为目标附加疾霆：\n·为目标附加疾霆时，心将为目标附加【电磁效应】至其层数上限，至多可附加至16层【电磁效应】。\n·疾霆持续期间，若目标【电磁效应】层数上限增加，则心将再次为目标附加【电磁效应】至其层数上限，至多可附加至16层【电磁效应】。\n目标离开心附近一定范围时，移除目标疾霆。\n退出心相心生状态或切换模态时，移除上述效果。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinD2.SP_IconXinD2",
+      "id": "blooming_jadehaven/node_5",
+      "name": "信步拾清欢",
+      "parameters": [],
+      "rawDescription": "处于<color=Highlight>共鸣模态·同奏</color>时，队伍中的角色<color=Highlight>【<te href=131111>同奏增益</te>】</color>效果的层数上限增加{0}层。队伍中的角色<color=Highlight><te href=131112>响应同奏</te></color>时，队伍中的角色获得{0}层<color=Highlight>【<te href=131111>同奏增益</te>】</color>，持续{2}秒，该效果无法叠加。\n\n处于<color=Highlight>共鸣模态·电磁</color>时，心不处于<color=Highlight><te href=131120>心相心生</te></color>状态期间，队伍中除心之外的角色附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>后，每添加1层<color=Highlight>【<te href=850013>电磁效应</te>】</color>使心获得1层<color=Highlight>霆霓</color>，可叠加{1}层。\n心处于<color=Highlight><te href=131120>心相心生</te></color>状态期间，一定范围内的目标<color=Highlight>【<te href=850013>电磁效应</te>】</color>层数为0时，将对目标附加1层<color=Highlight>【<te href=850013>电磁效应</te>】</color>，且若心的<color=Highlight>霆霓</color>层数达到上限，还将为目标附加<color=Highlight>疾霆</color>：\n·为目标附加<color=Highlight>疾霆</color>时，心将为目标附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>至其层数上限，至多可附加至{3}层<color=Highlight>【<te href=850013>电磁效应</te>】</color>。\n·<color=Highlight>疾霆</color>持续期间，若目标<color=Highlight>【<te href=850013>电磁效应</te>】</color>层数上限增加，则心将再次为目标附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>至其层数上限，至多可附加至{3}层<color=Highlight>【<te href=850013>电磁效应</te>】</color>。\n目标离开心附近一定范围时，移除目标<color=Highlight>疾霆</color>。\n退出<color=Highlight><te href=131120>心相心生</te></color>状态或切换模态时，移除上述效果。",
+      "rawParameters": [
+        "1",
+        "10",
+        "30",
+        "16"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130101",
+          "kind": "intro",
+          "multiplier": 0.0788,
+          "offTuneUnits": 0.1143939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 23,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              397,
+              429,
+              462,
+              507,
+              540,
+              577,
+              629,
+              681,
+              733,
+              788,
+              853,
+              918,
+              983,
+              1048,
+              1113,
+              1178,
+              1243,
+              1308,
+              1373,
+              1438
+            ],
+            "related_property": "攻击",
+            "tough_lv": 453,
+            "type": 3,
+            "weakness_lvl": 453
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.07622412922766279,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130102",
+          "kind": "intro",
+          "multiplier": 0.0788,
+          "offTuneUnits": 0.1143939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 23,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              397,
+              429,
+              462,
+              507,
+              540,
+              577,
+              629,
+              681,
+              733,
+              788,
+              853,
+              918,
+              983,
+              1048,
+              1113,
+              1178,
+              1243,
+              1308,
+              1373,
+              1438
+            ],
+            "related_property": "攻击",
+            "tough_lv": 453,
+            "type": 3,
+            "weakness_lvl": 453
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.07622412922766279,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130103",
+          "kind": "intro",
+          "multiplier": 1.2602,
+          "offTuneUnits": 1.8295454545454546,
+          "raw": {
+            "element": 3,
+            "element_power": 363,
+            "energy": 800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6339,
+              6859,
+              7379,
+              8106,
+              8626,
+              9224,
+              10056,
+              10887,
+              11719,
+              12602,
+              13642,
+              14682,
+              15721,
+              16761,
+              17800,
+              18840,
+              19879,
+              20919,
+              21958,
+              22998
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7245,
+            "type": 3,
+            "weakness_lvl": 7245
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 1.2190812720848057,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130201",
+          "kind": "intro",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              517,
+              559,
+              602,
+              661,
+              703,
+              752,
+              820,
+              888,
+              956,
+              1028,
+              1112,
+              1197,
+              1282,
+              1366,
+              1451,
+              1536,
+              1621,
+              1705,
+              1790,
+              1875
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 3,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130202",
+          "kind": "intro",
+          "multiplier": 0.2055,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1034,
+              1118,
+              1203,
+              1322,
+              1406,
+              1504,
+              1639,
+              1775,
+              1911,
+              2055,
+              2224,
+              2393,
+              2563,
+              2732,
+              2902,
+              3071,
+              3241,
+              3410,
+              3580,
+              3749
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 3,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130203",
+          "kind": "intro",
+          "multiplier": 0.1028,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              517,
+              559,
+              602,
+              661,
+              703,
+              752,
+              820,
+              888,
+              956,
+              1028,
+              1112,
+              1197,
+              1282,
+              1366,
+              1451,
+              1536,
+              1621,
+              1705,
+              1790,
+              1875
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 3,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130204",
+          "kind": "intro",
+          "multiplier": 0.2055,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1034,
+              1118,
+              1203,
+              1322,
+              1406,
+              1504,
+              1639,
+              1775,
+              1911,
+              2055,
+              2224,
+              2393,
+              2563,
+              2732,
+              2902,
+              3071,
+              3241,
+              3410,
+              3580,
+              3749
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 3,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130301",
+          "kind": "skill",
+          "multiplier": 0.6059,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3048,
+              3298,
+              3548,
+              3898,
+              4147,
+              4435,
+              4835,
+              5235,
+              5634,
+              6059,
+              6559,
+              7059,
+              7559,
+              8058,
+              8558,
+              9058,
+              9558,
+              10057,
+              10557,
+              11057
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 4,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130302",
+          "kind": "skill",
+          "multiplier": 1.2118,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6095,
+              6595,
+              7095,
+              7795,
+              8294,
+              8869,
+              9669,
+              10469,
+              11268,
+              12118,
+              13117,
+              14117,
+              15117,
+              16116,
+              17116,
+              18115,
+              19115,
+              20114,
+              21114,
+              22113
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 4,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130303",
+          "kind": "skill",
+          "multiplier": 0.6059,
+          "offTuneUnits": 0.14924242424242423,
+          "raw": {
+            "element": 3,
+            "element_power": 30,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3048,
+              3298,
+              3548,
+              3898,
+              4147,
+              4435,
+              4835,
+              5235,
+              5634,
+              6059,
+              6559,
+              7059,
+              7559,
+              8058,
+              8558,
+              9058,
+              9558,
+              10057,
+              10557,
+              11057
+            ],
+            "related_property": "攻击",
+            "tough_lv": 591,
+            "type": 4,
+            "weakness_lvl": 591
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.099444724886421,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311130304",
+          "kind": "skill",
+          "multiplier": 1.2118,
+          "offTuneUnits": 0.29823232323232324,
+          "raw": {
+            "element": 3,
+            "element_power": 60,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6095,
+              6595,
+              7095,
+              7795,
+              8294,
+              8869,
+              9669,
+              10469,
+              11268,
+              12118,
+              13117,
+              14117,
+              15117,
+              16116,
+              17116,
+              18115,
+              19115,
+              20114,
+              21114,
+              22113
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1181,
+            "type": 4,
+            "weakness_lvl": 1181
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.19872118458690896,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230101",
+          "kind": "intro",
+          "multiplier": 0.1142,
+          "offTuneUnits": 0.16590909090909092,
+          "raw": {
+            "element": 3,
+            "element_power": 33,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              575,
+              622,
+              669,
+              735,
+              782,
+              836,
+              912,
+              987,
+              1062,
+              1142,
+              1237,
+              1331,
+              1425,
+              1519,
+              1613,
+              1708,
+              1802,
+              1896,
+              1990,
+              2084
+            ],
+            "related_property": "攻击",
+            "tough_lv": 657,
+            "type": 3,
+            "weakness_lvl": 657
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.11055022715800102,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230102",
+          "kind": "intro",
+          "multiplier": 0.1142,
+          "offTuneUnits": 0.16590909090909092,
+          "raw": {
+            "element": 3,
+            "element_power": 33,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              575,
+              622,
+              669,
+              735,
+              782,
+              836,
+              912,
+              987,
+              1062,
+              1142,
+              1237,
+              1331,
+              1425,
+              1519,
+              1613,
+              1708,
+              1802,
+              1896,
+              1990,
+              2084
+            ],
+            "related_property": "攻击",
+            "tough_lv": 657,
+            "type": 3,
+            "weakness_lvl": 657
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.11055022715800102,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230103",
+          "kind": "intro",
+          "multiplier": 0.3997,
+          "offTuneUnits": 0.5803030303030303,
+          "raw": {
+            "element": 3,
+            "element_power": 115,
+            "energy": 175,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2011,
+              2176,
+              2340,
+              2571,
+              2736,
+              2926,
+              3189,
+              3453,
+              3717,
+              3997,
+              4327,
+              4656,
+              4986,
+              5316,
+              5645,
+              5975,
+              6305,
+              6634,
+              6964,
+              7294
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2298,
+            "type": 3,
+            "weakness_lvl": 2298
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.386673397274104,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230201",
+          "kind": "intro",
+          "multiplier": 0.5659,
+          "offTuneUnits": 0.8214646464646465,
+          "raw": {
+            "element": 3,
+            "element_power": 163,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2847,
+              3080,
+              3313,
+              3640,
+              3874,
+              4142,
+              4515,
+              4889,
+              5262,
+              5659,
+              6126,
+              6593,
+              7059,
+              7526,
+              7993,
+              8460,
+              8926,
+              9393,
+              9860,
+              10327
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3253,
+            "type": 3,
+            "weakness_lvl": 3253
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.547366649840148,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230211",
+          "kind": "intro",
+          "multiplier": 0.0566,
+          "offTuneUnits": 0.08232323232323233,
+          "raw": {
+            "element": 3,
+            "element_power": 17,
+            "energy": 15,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              285,
+              308,
+              332,
+              364,
+              388,
+              415,
+              452,
+              489,
+              527,
+              566,
+              613,
+              660,
+              706,
+              753,
+              800,
+              846,
+              893,
+              940,
+              986,
+              1033
+            ],
+            "related_property": "攻击",
+            "tough_lv": 326,
+            "type": 3,
+            "weakness_lvl": 326
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.05485445061416793,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230212",
+          "kind": "intro",
+          "multiplier": 0.1132,
+          "offTuneUnits": 0.1643939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 33,
+            "energy": 30,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              570,
+              616,
+              663,
+              728,
+              775,
+              829,
+              903,
+              978,
+              1053,
+              1132,
+              1226,
+              1319,
+              1412,
+              1506,
+              1599,
+              1692,
+              1786,
+              1879,
+              1972,
+              2066
+            ],
+            "related_property": "攻击",
+            "tough_lv": 651,
+            "type": 3,
+            "weakness_lvl": 651
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.10954063604240283,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230213",
+          "kind": "intro",
+          "multiplier": 0.1415,
+          "offTuneUnits": 0.20555555555555555,
+          "raw": {
+            "element": 3,
+            "element_power": 41,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              712,
+              770,
+              829,
+              910,
+              969,
+              1036,
+              1129,
+              1223,
+              1316,
+              1415,
+              1532,
+              1649,
+              1765,
+              1882,
+              1999,
+              2115,
+              2232,
+              2349,
+              2465,
+              2582
+            ],
+            "related_property": "攻击",
+            "tough_lv": 814,
+            "type": 3,
+            "weakness_lvl": 814
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.1369678613494868,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230301",
+          "kind": "skill",
+          "multiplier": 1.5722,
+          "offTuneUnits": 0.8214646464646465,
+          "raw": {
+            "element": 3,
+            "element_power": 263,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7908,
+              8557,
+              9205,
+              10113,
+              10762,
+              11507,
+              12545,
+              13582,
+              14620,
+              15722,
+              17019,
+              18316,
+              19613,
+              20910,
+              22207,
+              23504,
+              24801,
+              26097,
+              27394,
+              28691
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3253,
+            "type": 4,
+            "weakness_lvl": 3253
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.547366649840148,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230311",
+          "kind": "skill",
+          "multiplier": 0.1573,
+          "offTuneUnits": 0.08232323232323233,
+          "raw": {
+            "element": 3,
+            "element_power": 27,
+            "energy": 15,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              791,
+              856,
+              921,
+              1012,
+              1077,
+              1151,
+              1255,
+              1359,
+              1462,
+              1573,
+              1702,
+              1832,
+              1962,
+              2091,
+              2221,
+              2351,
+              2481,
+              2610,
+              2740,
+              2870
+            ],
+            "related_property": "攻击",
+            "tough_lv": 326,
+            "type": 4,
+            "weakness_lvl": 326
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.05485445061416793,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230312",
+          "kind": "skill",
+          "multiplier": 0.3145,
+          "offTuneUnits": 0.1643939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 53,
+            "energy": 30,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1582,
+              1712,
+              1841,
+              2023,
+              2153,
+              2302,
+              2509,
+              2717,
+              2924,
+              3145,
+              3404,
+              3664,
+              3923,
+              4182,
+              4442,
+              4701,
+              4961,
+              5220,
+              5479,
+              5739
+            ],
+            "related_property": "攻击",
+            "tough_lv": 651,
+            "type": 4,
+            "weakness_lvl": 651
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.10954063604240283,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311230313",
+          "kind": "skill",
+          "multiplier": 0.3931,
+          "offTuneUnits": 0.20555555555555555,
+          "raw": {
+            "element": 3,
+            "element_power": 66,
+            "energy": 38,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1977,
+              2140,
+              2302,
+              2529,
+              2691,
+              2877,
+              3137,
+              3396,
+              3655,
+              3931,
+              4255,
+              4579,
+              4904,
+              5228,
+              5552,
+              5876,
+              6201,
+              6525,
+              6849,
+              7173
+            ],
+            "related_property": "攻击",
+            "tough_lv": 814,
+            "type": 4,
+            "weakness_lvl": 814
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.1369678613494868,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311291202",
+          "kind": "unverified",
+          "multiplier": 0.15,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1500
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311291203",
+          "kind": "unverified",
+          "multiplier": 0.15,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1500
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311291204",
+          "kind": "unverified",
+          "multiplier": 0.4,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4000
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311291301",
+          "kind": "unverified",
+          "multiplier": 0.5,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5000
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 7,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 7,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping",
+            "damage type 7 semantic mapping"
+          ]
+        }
+      ],
+      "description": "变奏技能·应世相\n处于应世相时可施放该技能，攻击目标，造成导电伤害。\n施放该技能后在一定时间内短按普攻，处于共鸣模态·同奏将会施放普攻·应世相第3段，处于共鸣模态·电磁将会施放普攻·应世相第4段。\n\n变奏技能·应世相·诸相同奏\n处于应世相时可施放该技能，攻击目标，造成更高的导电伤害，此次伤害为共鸣技能伤害。\n施放该技能后在一定时间内短按普攻，将会施放普攻·应世相第3段。\n\n变奏技能·照世相\n处于照世相时可施放该技能，攻击目标，造成导电伤害。\n\n变奏技能·照世相·诸相同奏\n处于照世相时可施放该技能，攻击目标，造成更高的导电伤害，此次伤害为共鸣技能伤害。",
+      "headings": [
+        "变奏技能·应世相",
+        "变奏技能·应世相·诸相同奏",
+        "变奏技能·照世相",
+        "变奏技能·照世相·诸相同奏"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinQTE.SP_IconXinQTE",
+      "id": "blooming_jadehaven/node_6",
+      "name": "乘兴一顾",
+      "parameters": [
+        {
+          "format": null,
+          "id": "42",
+          "name": "共鸣模态·电磁下变奏技能·应世相伤害",
+          "values": [
+            "7.88%*2+7.88%*2+126.02%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "43",
+          "name": "共鸣模态·同奏下变奏技能·应世相伤害",
+          "values": [
+            "10.28%+20.55%+10.28%+20.55%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "44",
+          "name": "变奏技能·应世相·诸相同奏伤害",
+          "values": [
+            "60.59%+121.18%+60.59%+121.18%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "45",
+          "name": "共鸣模态·电磁下变奏技能·照世相伤害",
+          "values": [
+            "11.42%*4+11.42%*2+39.97%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "46",
+          "name": "共鸣模态·同奏下变奏技能·照世相伤害",
+          "values": [
+            "56.59%*4+5.66%+11.32%*2+14.15%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "47",
+          "name": "变奏技能·照世相·诸相同奏伤害",
+          "values": [
+            "157.22%*4+15.73%+31.45%*2+39.31%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "48",
+          "name": "变奏技能·应世相回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "49",
+          "name": "变奏技能·应世相·诸相同奏回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "50",
+          "name": "变奏技能·照世相回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "51",
+          "name": "变奏技能·照世相·诸相同奏回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>变奏技能·应世相</color></size>\n处于<color=Highlight>应世相</color>时可施放该技能，攻击目标，造成<color=Thunder>导电伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，处于<color=Highlight>共鸣模态·同奏</color>将会施放<color=Highlight>普攻·应世相第3段</color>，处于<color=Highlight>共鸣模态·电磁</color>将会施放<color=Highlight>普攻·应世相第4段</color>。\n\n<size=40><color=Title>变奏技能·应世相·诸相同奏</color></size>\n处于<color=Highlight>应世相</color>时可施放该技能，攻击目标，造成更高的<color=Thunder>导电伤害</color>，此次伤害为<color=Highlight>共鸣技能伤害</color>。\n施放该技能后在一定时间内短按<color=Highlight>普攻</color>，将会施放<color=Highlight>普攻·应世相第3段</color>。\n\n<size=40><color=Title>变奏技能·照世相</color></size>\n处于<color=Highlight>照世相</color>时可施放该技能，攻击目标，造成<color=Thunder>导电伤害</color>。\n\n<size=40><color=Title>变奏技能·照世相·诸相同奏</color></size>\n处于<color=Highlight>照世相</color>时可施放该技能，攻击目标，造成更高的<color=Thunder>导电伤害</color>，此次伤害为<color=Highlight>共鸣技能伤害</color>。",
+      "rawParameters": [
+        "1"
+      ],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202010",
+          "kind": "skill",
+          "multiplier": 0.4565,
+          "offTuneUnits": 0.346969696969697,
+          "raw": {
+            "element": 3,
+            "element_power": 69,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2296,
+              2485,
+              2673,
+              2936,
+              3125,
+              3341,
+              3642,
+              3944,
+              4245,
+              4565,
+              4941,
+              5318,
+              5695,
+              6071,
+              6448,
+              6824,
+              7201,
+              7577,
+              7954,
+              8330
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1374,
+            "type": 4,
+            "weakness_lvl": 1374
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23119636547198386,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202020",
+          "kind": "skill",
+          "multiplier": 0.1142,
+          "offTuneUnits": 0.08686868686868687,
+          "raw": {
+            "element": 3,
+            "element_power": 18,
+            "energy": 11,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              574,
+              622,
+              669,
+              734,
+              782,
+              836,
+              911,
+              986,
+              1062,
+              1142,
+              1236,
+              1330,
+              1424,
+              1518,
+              1612,
+              1706,
+              1801,
+              1895,
+              1989,
+              2083
+            ],
+            "related_property": "攻击",
+            "tough_lv": 344,
+            "type": 4,
+            "weakness_lvl": 344
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.057883223960962474,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202030",
+          "kind": "skill",
+          "multiplier": 4.5645,
+          "offTuneUnits": 3.4694444444444446,
+          "raw": {
+            "element": 3,
+            "element_power": 687,
+            "energy": 430,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              22959,
+              24842,
+              26725,
+              29360,
+              31243,
+              33408,
+              36420,
+              39432,
+              42445,
+              45645,
+              49410,
+              53175,
+              56941,
+              60706,
+              64471,
+              68236,
+              72002,
+              75767,
+              79532,
+              83297
+            ],
+            "related_property": "攻击",
+            "tough_lv": 13739,
+            "type": 4,
+            "weakness_lvl": 13739
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.3117953895339056,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220011",
+          "kind": "skill",
+          "multiplier": 0.1795,
+          "offTuneUnits": 0.08232323232323233,
+          "raw": {
+            "element": 3,
+            "element_power": 27,
+            "energy": 11,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              903,
+              977,
+              1051,
+              1155,
+              1229,
+              1314,
+              1432,
+              1551,
+              1669,
+              1795,
+              1943,
+              2091,
+              2239,
+              2387,
+              2535,
+              2683,
+              2831,
+              2979,
+              3127,
+              3275
+            ],
+            "related_property": "攻击",
+            "tough_lv": 326,
+            "type": 4,
+            "weakness_lvl": 326
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.05485445061416793,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220012",
+          "kind": "skill",
+          "multiplier": 0.3589,
+          "offTuneUnits": 0.1643939393939394,
+          "raw": {
+            "element": 3,
+            "element_power": 53,
+            "energy": 21,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1806,
+              1954,
+              2102,
+              2309,
+              2457,
+              2627,
+              2864,
+              3101,
+              3337,
+              3589,
+              3885,
+              4181,
+              4477,
+              4773,
+              5069,
+              5365,
+              5661,
+              5957,
+              6253,
+              6549
+            ],
+            "related_property": "攻击",
+            "tough_lv": 651,
+            "type": 4,
+            "weakness_lvl": 651
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.10954063604240283,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220013",
+          "kind": "skill",
+          "multiplier": 0.4486,
+          "offTuneUnits": 0.20555555555555555,
+          "raw": {
+            "element": 3,
+            "element_power": 66,
+            "energy": 26,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2257,
+              2442,
+              2627,
+              2886,
+              3071,
+              3284,
+              3580,
+              3876,
+              4172,
+              4486,
+              4856,
+              5226,
+              5596,
+              5966,
+              6336,
+              6706,
+              7076,
+              7446,
+              7816,
+              8186
+            ],
+            "related_property": "攻击",
+            "tough_lv": 814,
+            "type": 4,
+            "weakness_lvl": 814
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.1369678613494868,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "1311220001",
+          "kind": "skill",
+          "multiplier": 1.7943,
+          "offTuneUnits": 0.8214646464646465,
+          "raw": {
+            "element": 3,
+            "element_power": 263,
+            "energy": 102,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              9026,
+              9766,
+              10506,
+              11542,
+              12282,
+              13133,
+              14317,
+              15501,
+              16685,
+              17943,
+              19423,
+              20904,
+              22384,
+              23864,
+              25344,
+              26824,
+              28304,
+              29784,
+              31264,
+              32744
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3253,
+            "type": 4,
+            "weakness_lvl": 3253
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.547366649840148,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205010",
+          "kind": "skill",
+          "multiplier": 0.1027,
+          "offTuneUnits": 0.0007575757575757576,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 6,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              517,
+              559,
+              602,
+              661,
+              703,
+              752,
+              820,
+              888,
+              955,
+              1027,
+              1112,
+              1197,
+              1282,
+              1366,
+              1451,
+              1536,
+              1620,
+              1705,
+              1790,
+              1875
+            ],
+            "related_property": "攻击",
+            "tough_lv": 484,
+            "type": 4,
+            "weakness_lvl": 3
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.08144034999158674,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205020",
+          "kind": "skill",
+          "multiplier": 3.697,
+          "offTuneUnits": 0.022727272727272728,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 185,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              18596,
+              20120,
+              21645,
+              23780,
+              25305,
+              27058,
+              29498,
+              31938,
+              34377,
+              36970,
+              40019,
+              43069,
+              46118,
+              49168,
+              52218,
+              55267,
+              58317,
+              61366,
+              64416,
+              67466
+            ],
+            "related_property": "攻击",
+            "tough_lv": 17424,
+            "type": 4,
+            "weakness_lvl": 90
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.9318525996971228,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202110",
+          "kind": "skill",
+          "multiplier": 0.9932,
+          "offTuneUnits": 1.307070707070707,
+          "raw": {
+            "element": 3,
+            "element_power": 69,
+            "energy": 107,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4996,
+              5406,
+              5815,
+              6389,
+              6798,
+              7269,
+              7925,
+              8580,
+              9236,
+              9932,
+              10751,
+              11571,
+              12390,
+              13209,
+              14028,
+              14848,
+              15667,
+              16486,
+              17305,
+              18125
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1374,
+            "type": 4,
+            "weakness_lvl": 5176
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23119636547198386,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202120",
+          "kind": "skill",
+          "multiplier": 0.2483,
+          "offTuneUnits": 0.32676767676767676,
+          "raw": {
+            "element": 3,
+            "element_power": 18,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1249,
+              1352,
+              1454,
+              1598,
+              1700,
+              1818,
+              1982,
+              2145,
+              2309,
+              2483,
+              2688,
+              2893,
+              3098,
+              3303,
+              3507,
+              3712,
+              3917,
+              4122,
+              4327,
+              4532
+            ],
+            "related_property": "攻击",
+            "tough_lv": 344,
+            "type": 4,
+            "weakness_lvl": 1294
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.057883223960962474,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202130",
+          "kind": "skill",
+          "multiplier": 9.9315,
+          "offTuneUnits": 13.069444444444445,
+          "raw": {
+            "element": 3,
+            "element_power": 687,
+            "energy": 1070,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              49955,
+              54051,
+              58148,
+              63883,
+              67979,
+              72690,
+              79244,
+              85798,
+              92352,
+              99315,
+              107508,
+              115701,
+              123893,
+              132086,
+              140278,
+              148471,
+              156663,
+              164856,
+              173049,
+              181241
+            ],
+            "related_property": "攻击",
+            "tough_lv": 13739,
+            "type": 4,
+            "weakness_lvl": 51755
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.3117953895339056,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205110",
+          "kind": "skill",
+          "multiplier": 0.2705,
+          "offTuneUnits": 0.3,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 36,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1361,
+              1472,
+              1584,
+              1740,
+              1851,
+              1980,
+              2158,
+              2337,
+              2515,
+              2705,
+              2928,
+              3151,
+              3374,
+              3597,
+              3820,
+              4043,
+              4266,
+              4489,
+              4712,
+              4935
+            ],
+            "related_property": "攻击",
+            "tough_lv": 484,
+            "type": 4,
+            "weakness_lvl": 1188
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.08144034999158674,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205120",
+          "kind": "skill",
+          "multiplier": 9.7349,
+          "offTuneUnits": 10.8,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 1265,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              48966,
+              52981,
+              56996,
+              62618,
+              66633,
+              71250,
+              77675,
+              84099,
+              90523,
+              97349,
+              105379,
+              113410,
+              121440,
+              129470,
+              137501,
+              145531,
+              153561,
+              161592,
+              169622,
+              177652
+            ],
+            "related_property": "攻击",
+            "tough_lv": 17424,
+            "type": 4,
+            "weakness_lvl": 42768
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.9318525996971228,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202011",
+          "kind": "skill",
+          "multiplier": 0.7304,
+          "offTuneUnits": 0.346969696969697,
+          "raw": {
+            "element": 3,
+            "element_power": 69,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3674,
+              3975,
+              4276,
+              4698,
+              4999,
+              5346,
+              5828,
+              6310,
+              6792,
+              7304,
+              7906,
+              8508,
+              9111,
+              9713,
+              10316,
+              10918,
+              11521,
+              12123,
+              12726,
+              13328
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1374,
+            "type": 4,
+            "weakness_lvl": 1374
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23119636547198386,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202021",
+          "kind": "skill",
+          "multiplier": 0.1826,
+          "offTuneUnits": 0.08686868686868687,
+          "raw": {
+            "element": 3,
+            "element_power": 18,
+            "energy": 11,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              919,
+              994,
+              1069,
+              1175,
+              1250,
+              1337,
+              1457,
+              1578,
+              1698,
+              1826,
+              1977,
+              2127,
+              2278,
+              2429,
+              2579,
+              2730,
+              2881,
+              3031,
+              3182,
+              3332
+            ],
+            "related_property": "攻击",
+            "tough_lv": 344,
+            "type": 4,
+            "weakness_lvl": 344
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.057883223960962474,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202031",
+          "kind": "skill",
+          "multiplier": 7.3032,
+          "offTuneUnits": 3.4694444444444446,
+          "raw": {
+            "element": 3,
+            "element_power": 687,
+            "energy": 430,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              36735,
+              39747,
+              42759,
+              46976,
+              49988,
+              53452,
+              58272,
+              63091,
+              67911,
+              73032,
+              79056,
+              85080,
+              91105,
+              97129,
+              103154,
+              109178,
+              115202,
+              121227,
+              127251,
+              133276
+            ],
+            "related_property": "攻击",
+            "tough_lv": 13739,
+            "type": 4,
+            "weakness_lvl": 13739
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.3117953895339056,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205011",
+          "kind": "skill",
+          "multiplier": 0.1644,
+          "offTuneUnits": 0.0007575757575757576,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 6,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              827,
+              895,
+              962,
+              1057,
+              1125,
+              1203,
+              1312,
+              1420,
+              1528,
+              1644,
+              1779,
+              1915,
+              2050,
+              2186,
+              2321,
+              2457,
+              2592,
+              2728,
+              2863,
+              2999
+            ],
+            "related_property": "攻击",
+            "tough_lv": 484,
+            "type": 4,
+            "weakness_lvl": 3
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.08144034999158674,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205021",
+          "kind": "skill",
+          "multiplier": 5.9151,
+          "offTuneUnits": 0.022727272727272728,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 185,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              29753,
+              32192,
+              34632,
+              38048,
+              40487,
+              43293,
+              47197,
+              51100,
+              55004,
+              59151,
+              64030,
+              68910,
+              73789,
+              78669,
+              83548,
+              88427,
+              93307,
+              98186,
+              103065,
+              107945
+            ],
+            "related_property": "攻击",
+            "tough_lv": 17424,
+            "type": 4,
+            "weakness_lvl": 90
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.9318525996971228,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202111",
+          "kind": "skill",
+          "multiplier": 1.5891,
+          "offTuneUnits": 1.307070707070707,
+          "raw": {
+            "element": 3,
+            "element_power": 69,
+            "energy": 107,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7993,
+              8649,
+              9304,
+              10222,
+              10877,
+              11631,
+              12679,
+              13728,
+              14777,
+              15891,
+              17202,
+              18513,
+              19823,
+              21134,
+              22445,
+              23756,
+              25067,
+              26377,
+              27688,
+              28999
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1374,
+            "type": 4,
+            "weakness_lvl": 5176
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.23119636547198386,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202121",
+          "kind": "skill",
+          "multiplier": 0.3973,
+          "offTuneUnits": 0.32676767676767676,
+          "raw": {
+            "element": 3,
+            "element_power": 18,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1999,
+              2163,
+              2326,
+              2556,
+              2720,
+              2908,
+              3170,
+              3432,
+              3695,
+              3973,
+              4301,
+              4629,
+              4956,
+              5284,
+              5612,
+              5939,
+              6267,
+              6595,
+              6922,
+              7250
+            ],
+            "related_property": "攻击",
+            "tough_lv": 344,
+            "type": 4,
+            "weakness_lvl": 1294
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.057883223960962474,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13111202131",
+          "kind": "skill",
+          "multiplier": 15.8904,
+          "offTuneUnits": 13.069444444444445,
+          "raw": {
+            "element": 3,
+            "element_power": 687,
+            "energy": 1070,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              79928,
+              86482,
+              93036,
+              102212,
+              108766,
+              116303,
+              126790,
+              137276,
+              147762,
+              158904,
+              172012,
+              185121,
+              198229,
+              211337,
+              224445,
+              237553,
+              250661,
+              263769,
+              276877,
+              289985
+            ],
+            "related_property": "攻击",
+            "tough_lv": 13739,
+            "type": 4,
+            "weakness_lvl": 51755
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.3117953895339056,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205111",
+          "kind": "skill",
+          "multiplier": 0.4327,
+          "offTuneUnits": 0.3,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 36,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2177,
+              2355,
+              2534,
+              2783,
+              2962,
+              3167,
+              3453,
+              3738,
+              4024,
+              4327,
+              4684,
+              5041,
+              5398,
+              5755,
+              6112,
+              6469,
+              6825,
+              7182,
+              7539,
+              7896
+            ],
+            "related_property": "攻击",
+            "tough_lv": 484,
+            "type": 4,
+            "weakness_lvl": 1188
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.08144034999158674,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "electro",
+          "id": "13112205121",
+          "kind": "skill",
+          "multiplier": 15.5758,
+          "offTuneUnits": 10.8,
+          "raw": {
+            "element": 3,
+            "element_power": 0,
+            "energy": 1265,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              78345,
+              84770,
+              91194,
+              100188,
+              106612,
+              114000,
+              124279,
+              134558,
+              144837,
+              155758,
+              168606,
+              181455,
+              194304,
+              207152,
+              220001,
+              232849,
+              245698,
+              258546,
+              271395,
+              284243
+            ],
+            "related_property": "攻击",
+            "tough_lv": 17424,
+            "type": 4,
+            "weakness_lvl": 42768
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.9318525996971228,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "诸相心生\n处于应世相时，心可获得和消耗【应世心】。\n处于照世相时，心可获得和消耗【照世心】。\n\n重击·应世相·步红尘\n处于应世相时，心的【应世心】达到100点时，重击·应世相替换为重击·应世相·步红尘。\n按住普攻，消耗耐力和100点【应世心】施放，期间免疫打断，对目标造成导电伤害，此次伤害为共鸣技能伤害。\n施放重击·应世相·步红尘时，心将获得了尘愿。此次重击·应世相·步红尘将消耗了尘愿替换为重击·应世相·镇红尘，造成更高的伤害。每24秒仅可获得1次了尘愿。\n施放重击·应世相·步红尘或重击·应世相·镇红尘期间，若不处于心相心生状态，解锁共鸣解放·转相。\n\n重击·照世相·临寰宇\n处于照世相时，且心处于统御众机状态期间，【照世心】被消耗至0时，重击·照世相替换为重击·照世相·临寰宇。\n按住普攻，消耗耐力施放，对目标造成导电伤害，此次伤害为共鸣技能伤害。\n施放重击·照世相·临寰宇时，心将获得承天则。此次重击·照世相·临寰宇将消耗承天则替换为重击·照世相·镇寰宇，造成更高的伤害。每24秒仅可获得1次承天则。\n施放重击·照世相·临寰宇或重击·照世相·镇寰宇时，退出统御众机状态，解锁共鸣解放·万阙垂天。\n可在空中施放。\n\n共鸣技能·照世相·万阙连衡\n处于照世相时，心的【照世心】达到300点时，若心在地面状态，共鸣技能替换为共鸣技能·照世相·万阙连衡。\n短按共鸣技能，对周围的目标造成导电伤害。\n施放共鸣技能·照世相·万阙连衡时，心将进入统御众机状态。\n\n统御众机\n统御众机状态持续13秒。\n该状态持续期间，普攻·照世相将替换为普攻·照世相·万阙连衡，同时闪避反击·照世相替换为闪避反击·照世相·万阙连衡。\n普攻·照世相·万阙连衡或闪避反击·照世相·万阙连衡命中目标时，若心为队伍中登场角色将消耗【照世心】。\n退出统御众机状态时，清除【照世心】。\n\n共鸣模态·同奏\n处于共鸣模态·同奏时，获得以下效果：\n·心拥有响应同奏的能力，该效果联机状态下不会生效。\n·心施放变奏技能·应世相或变奏技能·应世相·诸相同奏时，使下一次施放共鸣解放·转相时，心获得同奏，持续5秒。\n·心响应同奏时，获得溯意，并使本次施放的变奏技能替换为变奏技能·诸相同奏，造成更高的伤害。\n心施放变奏技能时，若未响应同奏且拥有溯意，则将消耗溯意，使本次施放的变奏技能替换为变奏技能·诸相同奏，造成更高的伤害。\n·心切换模态时，移除自身获得的上述效果。\n·施放变奏技能·照世相或变奏技能·照世相·诸相同奏时，心将直接进入统御众机状态。\n\n共鸣模态·电磁\n处于共鸣模态·电磁时，获得以下效果：\n·心进入战斗状态时，一定范围内的目标【电磁效应】每次触发时不再减少层数。\n·队伍中的角色为目标添加【电磁爆发】后，每添加1层【电磁爆发】使心获得1层霆心域，可叠加100层，并消耗目标全部的【电磁爆发】层数。心切换模态时移除霆心域。\n·共鸣技能·踏月归心最后一段攻击时，心将主动触发一次【电磁效应】伤害，伤害倍率为35%*自身霆心域层数*目标当前【电磁效应】的层数对应的【电磁效应】伤害倍率。\n施放共鸣技能·踏月归心期间，切换至其他角色或提前结束技能则上述效果提前退出。\n施放共鸣技能·踏月归心一定时间后，消耗全部霆心域。\n心拥有至少50层霆心域时，施放共鸣技能·照世相期间停滞周围目标。\n·施放共鸣解放·转相后，为附近一定范围内的目标附加5层【电磁效应】，并使普攻·照世相·万阙连衡、闪避反击·照世相·万阙连衡可为命中的目标附加【电磁效应】，至多生效5次。施放共鸣解放·转相重置可生效次数，切换模态时移除可生效次数。\n共鸣技能·照世相·万阙连衡、重击·照世相·镇寰宇为命中的目标附加5层【电磁效应】，变奏技能·应世相、变奏技能·照世相、重击·应世相·镇红尘为命中的目标附加1层【电磁效应】。\n\n同奏\n处于共鸣模态·同奏时，心拥有同奏时，若切换其他角色，登场角色将施放自身变奏技能，心则施放自身延奏技能，并移除其自身的同奏效果。心协奏能量达到最大值，并且拥有同奏效果时，只消耗同奏效果。\n\n响应同奏\n处于共鸣模态·同奏时，队伍中的登场角色拥有同奏时，若切换至心，心施放变奏技能后响应同奏，队伍中的角色获得1层【同奏增益】，持续30秒。\n心至多以此方式提供1层【同奏增益】。\n\n同奏增益\n仅可响应同奏的角色可以获得该效果。每层【同奏增益】使队伍中可响应同奏的角色造成的最终伤害提升3%，可叠加2层。\n\n【应世心】获取规则\n【应世心】上限100点。\n处于应世相时，常态攻击·应世相、共鸣技能·应世相、变奏技能·应世相、变奏技能·应世相·诸相同奏命中目标时，若心为队伍中登场角色则获得【应世心】。\n施放变奏技能·应世相、变奏技能·应世相·诸相同奏时，获得60点【应世心】。\n\n【照世心】获取规则\n【照世心】上限300点。\n处于照世相时且不处于统御众机状态时，常态攻击·照世相、共鸣技能·照世相、变奏技能·照世相命中目标时，若心为队伍中登场角色则获得【照世心】。\n·处于共鸣模态·同奏时，施放变奏技能·照世相、变奏技能·照世相·诸相同奏时，将直接进入统御众机状态，并获得300点【照世心】。\n·处于共鸣模态·电磁时，施放共鸣解放·转相后，施放普攻·照世相第2段、重击·照世相、闪避反击·照世相、共鸣技能·照世相期间令普攻·照世相第1段生成的活字心锁崩解时，若心处于照世相且不处于统御众机状态，且心为队伍中登场角色则额外获得150点【照世心】，可生效1次，施放共鸣解放·转相重置可生效次数，切换模态时移除可生效次数。",
+      "headings": [
+        "诸相心生",
+        "重击·应世相·步红尘",
+        "重击·照世相·临寰宇",
+        "共鸣技能·照世相·万阙连衡",
+        "统御众机",
+        "共鸣模态·同奏",
+        "共鸣模态·电磁",
+        "同奏",
+        "响应同奏",
+        "同奏增益",
+        "【应世心】获取规则",
+        "【照世心】获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinY.SP_IconXinY",
+      "id": "blooming_jadehaven/node_7",
+      "name": "万相流转，此心自明",
+      "parameters": [
+        {
+          "format": null,
+          "id": "52",
+          "name": "重击·应世相·步红尘伤害",
+          "values": [
+            "45.65%+11.42%*6+456.45%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "53",
+          "name": "重击·应世相·镇红尘伤害",
+          "values": [
+            "99.32%+24.83%*6+993.15%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "54",
+          "name": "重击·照世相·临寰宇伤害",
+          "values": [
+            "10.27%*4+369.70%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "55",
+          "name": "重击·照世相·镇寰宇伤害",
+          "values": [
+            "27.05%*4+973.49%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "56",
+          "name": "共鸣技能·照世相·万阙连衡伤害",
+          "values": [
+            "179.43%*4+17.95%+35.89%*2+44.86%*2"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "57",
+          "name": "共鸣技能·照世相·万阙连衡冷却时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "format": null,
+          "id": "58",
+          "name": "重击·应世相·步红尘耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "59",
+          "name": "重击·应世相·镇红尘耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "60",
+          "name": "重击·照世相·临寰宇耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "61",
+          "name": "重击·照世相·镇寰宇耐力消耗",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>诸相心生</color></size>\n处于<color=Highlight>应世相</color>时，心可获得和消耗<color=Highlight>【<te href=131117>应世心</te>】</color>。\n处于<color=Highlight>照世相</color>时，心可获得和消耗<color=Highlight>【<te href=131118>照世心</te>】</color>。\n\n<size=40><color=Title>重击·应世相·步红尘</color></size>\n处于<color=Highlight>应世相</color>时，心的<color=Highlight>【<te href=131117>应世心</te>】</color>达到{0}点时，<color=Highlight>重击·应世相</color>替换为<color=Highlight>重击·应世相·步红尘</color>。\n按住<color=Highlight>普攻</color>，消耗耐力和{0}点<color=Highlight>【<te href=131117>应世心</te>】</color>施放，期间免疫打断，对目标造成<color=Thunder>导电伤害</color>，此次伤害为<color=Highlight>共鸣技能伤害</color>。\n施放<color=Highlight>重击·应世相·步红尘</color>时，心将获得<color=Highlight><te href=131114>了尘愿</te></color>。此次<color=Highlight>重击·应世相·步红尘</color>将消耗<color=Highlight><te href=131114>了尘愿</te></color>替换为<color=Highlight>重击·应世相·镇红尘</color>，造成更高的伤害。每{16}秒仅可获得1次<color=Highlight><te href=131114>了尘愿</te></color>。\n施放<color=Highlight>重击·应世相·步红尘</color>或<color=Highlight>重击·应世相·镇红尘</color>期间，若不处于<color=Highlight><te href=131120>心相心生</te></color>状态，解锁<color=Highlight>共鸣解放·转相</color>。\n\n<size=40><color=Title>重击·照世相·临寰宇</color></size>\n处于<color=Highlight>照世相</color>时，且心处于<color=Highlight><te href=131116>统御众机</te></color>状态期间，<color=Highlight>【<te href=131118>照世心</te>】</color>被消耗至0时，<color=Highlight>重击·照世相</color>替换为<color=Highlight>重击·照世相·临寰宇</color>。\n按住<color=Highlight>普攻</color>，消耗耐力施放，对目标造成<color=Thunder>导电伤害</color>，此次伤害为<color=Highlight>共鸣技能伤害</color>。\n施放<color=Highlight>重击·照世相·临寰宇</color>时，心将获得<color=Highlight><te href=131115>承天则</te></color>。此次<color=Highlight>重击·照世相·临寰宇</color>将消耗<color=Highlight><te href=131115>承天则</te></color>替换为<color=Highlight>重击·照世相·镇寰宇</color>，造成更高的伤害。每{16}秒仅可获得1次<color=Highlight><te href=131115>承天则</te></color>。\n施放<color=Highlight>重击·照世相·临寰宇</color>或<color=Highlight>重击·照世相·镇寰宇</color>时，退出<color=Highlight><te href=131116>统御众机</te></color>状态，解锁<color=Highlight>共鸣解放·万阙垂天</color>。\n可在空中施放。\n\n<size=40><color=Title>共鸣技能·照世相·万阙连衡</color></size>\n处于<color=Highlight>照世相</color>时，心的<color=Highlight>【<te href=131118>照世心</te>】</color>达到{1}点时，若心在地面状态，<color=Highlight>共鸣技能</color>替换为<color=Highlight>共鸣技能·照世相·万阙连衡</color>。\n短按<color=Highlight>共鸣技能</color>，对周围的目标造成<color=Thunder>导电伤害</color>。\n施放<color=Highlight>共鸣技能·照世相·万阙连衡</color>时，心将进入<color=Highlight><te href=131116>统御众机</te></color>状态。\n\n<size=40><color=Title>统御众机</color></size>\n<color=Highlight>统御众机</color>状态持续{2}秒。\n该状态持续期间，<color=Highlight>普攻·照世相</color>将替换为<color=Highlight>普攻·照世相·万阙连衡</color>，同时<color=Highlight>闪避反击·照世相</color>替换为<color=Highlight>闪避反击·照世相·万阙连衡</color>。\n<color=Highlight>普攻·照世相·万阙连衡</color>或<color=Highlight>闪避反击·照世相·万阙连衡</color>命中目标时，若心为队伍中登场角色将消耗<color=Highlight>【<te href=131118>照世心</te>】</color>。\n退出<color=Highlight>统御众机</color>状态时，清除<color=Highlight>【<te href=131118>照世心</te>】</color>。\n\n<size=40><color=Title>共鸣模态·同奏</color></size>\n处于<color=Highlight>共鸣模态·同奏</color>时，获得以下效果：\n·心拥有<color=Highlight><te href=131112>响应同奏</te></color>的能力，该效果联机状态下不会生效。\n·心施放<color=Highlight>变奏技能·应世相</color>或<color=Highlight>变奏技能·应世相·诸相同奏</color>时，使下一次施放<color=Highlight>共鸣解放·转相</color>时，心获得<color=Highlight><te href=131110>同奏</te></color>，持续{17}秒。\n·心<color=Highlight><te href=131112>响应同奏</te></color>时，获得<color=Highlight>溯意</color>，并使本次施放的<color=Highlight>变奏技能</color>替换为<color=Highlight>变奏技能·诸相同奏</color>，造成更高的伤害。\n心施放<color=Highlight>变奏技能</color>时，若未<color=Highlight><te href=131112>响应同奏</te></color>且拥有<color=Highlight>溯意</color>，则将消耗<color=Highlight>溯意</color>，使本次施放的<color=Highlight>变奏技能</color>替换为<color=Highlight>变奏技能·诸相同奏</color>，造成更高的伤害。\n·心切换模态时，移除自身获得的上述效果。\n·施放<color=Highlight>变奏技能·照世相</color>或<color=Highlight>变奏技能·照世相·诸相同奏</color>时，心将直接进入<color=Highlight><te href=131116>统御众机</te></color>状态。\n\n<size=40><color=Title>共鸣模态·电磁</color></size>\n处于<color=Highlight>共鸣模态·电磁</color>时，获得以下效果：\n·心进入战斗状态时，一定范围内的目标<color=Highlight>【<te href=850013>电磁效应</te>】</color>每次触发时不再减少层数。\n·队伍中的角色为目标添加<color=Highlight>【<te href=150806>电磁爆发</te>】</color>后，每添加{4}层<color=Highlight>【<te href=150806>电磁爆发</te>】</color>使心获得{6}层<color=Highlight>霆心域</color>，可叠加{5}层，并消耗目标全部的<color=Highlight>【<te href=150806>电磁爆发</te>】</color>层数。心切换模态时移除<color=Highlight>霆心域</color>。\n·<color=Highlight>共鸣技能·踏月归心</color>最后一段攻击时，心将主动触发一次<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害，伤害倍率为{9}*自身<color=Highlight>霆心域</color>层数*目标当前<color=Highlight>【<te href=850013>电磁效应</te>】</color>的层数对应的<color=Highlight>【<te href=850013>电磁效应</te>】</color>伤害倍率。\n施放<color=Highlight>共鸣技能·踏月归心</color>期间，切换至其他角色或提前结束技能则上述效果提前退出。\n施放<color=Highlight>共鸣技能·踏月归心</color>一定时间后，消耗全部<color=Highlight>霆心域</color>。\n心拥有至少{24}层<color=Highlight>霆心域</color>时，施放<color=Highlight>共鸣技能·照世相</color>期间停滞周围目标。\n·施放<color=Highlight>共鸣解放·转相</color>后，为附近一定范围内的目标附加{18}层<color=Highlight>【<te href=850013>电磁效应</te>】</color>，并使<color=Highlight>普攻·照世相·万阙连衡</color>、<color=Highlight>闪避反击·照世相·万阙连衡</color>可为命中的目标附加<color=Highlight>【<te href=850013>电磁效应</te>】</color>，至多生效{12}次。施放<color=Highlight>共鸣解放·转相</color>重置可生效次数，切换模态时移除可生效次数。\n<color=Highlight>共鸣技能·照世相·万阙连衡</color>、<color=Highlight>重击·照世相·镇寰宇</color>为命中的目标附加{18}层<color=Highlight>【<te href=850013>电磁效应</te>】</color>，<color=Highlight>变奏技能·应世相</color>、<color=Highlight>变奏技能·照世相</color>、<color=Highlight>重击·应世相·镇红尘</color>为命中的目标附加{19}层<color=Highlight>【<te href=850013>电磁效应</te>】</color>。\n\n<size=40><color=Title>同奏</color></size>\n处于<color=Highlight>共鸣模态·同奏</color>时，心拥有<color=Highlight>同奏</color>时，若切换其他角色，登场角色将施放自身变奏技能，心则施放自身延奏技能，并移除其自身的<color=Highlight>同奏</color>效果。心协奏能量达到最大值，并且拥有<color=Highlight>同奏</color>效果时，只消耗<color=Highlight>同奏</color>效果。\n\n<size=40><color=Title>响应同奏</color></size>\n处于<color=Highlight>共鸣模态·同奏</color>时，队伍中的登场角色拥有<color=Highlight><te href=131110>同奏</te></color>时，若切换至心，心施放<color=Highlight>变奏技能</color>后<color=Highlight>响应同奏</color>，队伍中的角色获得{20}层<color=Highlight>【<te href=131111>同奏增益</te>】</color>，持续{21}秒。\n心至多以此方式提供{20}层<color=Highlight>【<te href=131111>同奏增益</te>】</color>。\n\n<size=40><color=Title>同奏增益</color></size>\n仅可响应同奏的角色可以获得该效果。每层<color=Highlight>【同奏增益】</color>使队伍中可<color=Highlight><te href=131112>响应同奏</te></color>的角色造成的最终伤害提升{22}，可叠加{23}层。\n\n<size=40><color=Title>【应世心】获取规则</color></size>\n<color=Highlight>【应世心】</color>上限{0}点。\n处于<color=Highlight>应世相</color>时，<color=Highlight>常态攻击·应世相</color>、<color=Highlight>共鸣技能·应世相</color>、<color=Highlight>变奏技能·应世相</color>、<color=Highlight>变奏技能·应世相·诸相同奏</color>命中目标时，若心为队伍中登场角色则获得<color=Highlight>【应世心】</color>。\n施放<color=Highlight>变奏技能·应世相</color>、<color=Highlight>变奏技能·应世相·诸相同奏</color>时，获得{13}点<color=Highlight>【应世心】</color>。\n\n<size=40><color=Title>【照世心】获取规则</color></size>\n<color=Highlight>【照世心】</color>上限{1}点。\n处于<color=Highlight>照世相</color>时且不处于<color=Highlight><te href=131116>统御众机</te></color>状态时，<color=Highlight>常态攻击·照世相</color>、<color=Highlight>共鸣技能·照世相</color>、<color=Highlight>变奏技能·照世相</color>命中目标时，若心为队伍中登场角色则获得<color=Highlight>【照世心】</color>。\n·处于<color=Highlight>共鸣模态·同奏</color>时，施放<color=Highlight>变奏技能·照世相</color>、<color=Highlight>变奏技能·照世相·诸相同奏</color>时，将直接进入<color=Highlight><te href=131116>统御众机</te></color>状态，并获得{10}点<color=Highlight>【照世心】</color>。\n·处于<color=Highlight>共鸣模态·电磁</color>时，施放<color=Highlight>共鸣解放·转相</color>后，施放<color=Highlight>普攻·照世相第2段</color>、<color=Highlight>重击·照世相</color>、<color=Highlight>闪避反击·照世相</color>、<color=Highlight>共鸣技能·照世相</color>期间令<color=Highlight>普攻·照世相第1段</color>生成的<color=Highlight>活字心锁</color>崩解时，若心处于<color=Highlight>照世相</color>且不处于<color=Highlight><te href=131116>统御众机</te></color>状态，且心为队伍中登场角色则额外获得{11}点<color=Highlight>【照世心】</color>，可生效1次，施放<color=Highlight>共鸣解放·转相</color>重置可生效次数，切换模态时移除可生效次数。",
+      "rawParameters": [
+        "100",
+        "300",
+        "13",
+        "25",
+        "1",
+        "100",
+        "1",
+        "5",
+        "175%",
+        "35%",
+        "300",
+        "150",
+        "5",
+        "60",
+        "100%",
+        "100%",
+        "24",
+        "5",
+        "5",
+        "1",
+        "1",
+        "30",
+        "3%",
+        "2",
+        "50"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "攻击目标，造成100%的导电伤害。\n心进入战斗状态或施放共鸣解放·万阙垂天时，将获得照夜明。心施放延奏技能时，将消耗照夜明并根据所处的共鸣模态触发不同的效果：\n·处于共鸣模态·同奏时，队伍中除心之外的角色获得同奏时将获得灯同辉。心施放延奏技能后，拥有灯同辉的角色全伤害加深20%，持续30秒。\n·处于共鸣模态·电磁时，队伍中除心之外的角色导电伤害加深20%，持续20秒。\n心切换模态时，上述效果提前结束。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconXin/SP_IconXinT.SP_IconXinT",
+      "id": "blooming_jadehaven/node_8",
+      "name": "身作千灯",
+      "parameters": [],
+      "rawDescription": "攻击目标，造成{0}的<color=Thunder>导电伤害</color>。\n心进入战斗状态或施放<color=Highlight>共鸣解放·万阙垂天</color>时，将获得<color=Highlight>照夜明</color>。心施放<color=Highlight>延奏技能</color>时，将消耗<color=Highlight>照夜明</color>并根据所处的<color=Highlight>共鸣模态</color>触发不同的效果：\n·处于<color=Highlight>共鸣模态·同奏</color>时，队伍中除心之外的角色获得<color=Highlight><te href=131110>同奏</te></color>时将获得<color=Highlight>灯同辉</color>。心施放<color=Highlight>延奏技能</color>后，拥有<color=Highlight>灯同辉</color>的角色全伤害加深{1}，持续{2}秒。\n·处于<color=Highlight>共鸣模态·电磁</color>时，队伍中除心之外的角色导电伤害加深{3}，持续{4}秒。\n心切换模态时，上述效果提前结束。",
+      "rawParameters": [
+        "100%",
+        "20%",
+        "30",
+        "20%",
+        "20"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "blooming_jadehaven/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "blooming_jadehaven/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "blooming_jadehaven/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "blooming_jadehaven/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "blooming_jadehaven/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "blooming_jadehaven/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "blooming_jadehaven/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "blooming_jadehaven/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakMagic.SP_IconWeakPointBreakMagic",
+      "id": "blooming_jadehaven/node_17",
+      "name": "谐度破坏·音感仪",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    36,
+    36,
+    36,
+    36,
+    36
+  ],
+  "sourceId": 1311,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1311.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "百巧琢锋",
+    "name": "玉阙玄华",
+    "refinements": [
+      {
+        "description": "全属性伤害加成提升12%。附加电磁效应后或响应同奏时，共鸣技能伤害加深36%，共鸣技能伤害无视目标10%导电伤害抗性，且自身为队伍中登场角色时，一定范围内的目标受到电磁效应伤害加深30%，持续30秒，每0.1秒可触发1次。同名效果之间取最高值。",
+        "parameters": [
+          "12%",
+          "36%",
+          "10%",
+          "30%",
+          "30",
+          "0.1",
+          "1"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "全属性伤害加成提升15%。附加电磁效应后或响应同奏时，共鸣技能伤害加深45%，共鸣技能伤害无视目标13.5%导电伤害抗性，且自身为队伍中登场角色时，一定范围内的目标受到电磁效应伤害加深37.5%，持续30秒，每0.1秒可触发1次。同名效果之间取最高值。",
+        "parameters": [
+          "15%",
+          "45%",
+          "13.5%",
+          "37.5%",
+          "30",
+          "0.1",
+          "1"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "全属性伤害加成提升18%。附加电磁效应后或响应同奏时，共鸣技能伤害加深54%，共鸣技能伤害无视目标17%导电伤害抗性，且自身为队伍中登场角色时，一定范围内的目标受到电磁效应伤害加深45%，持续30秒，每0.1秒可触发1次。同名效果之间取最高值。",
+        "parameters": [
+          "18%",
+          "54%",
+          "17%",
+          "45%",
+          "30",
+          "0.1",
+          "1"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "全属性伤害加成提升21%。附加电磁效应后或响应同奏时，共鸣技能伤害加深63%，共鸣技能伤害无视目标20.5%导电伤害抗性，且自身为队伍中登场角色时，一定范围内的目标受到电磁效应伤害加深52.5%，持续30秒，每0.1秒可触发1次。同名效果之间取最高值。",
+        "parameters": [
+          "21%",
+          "63%",
+          "20.5%",
+          "52.5%",
+          "30",
+          "0.1",
+          "1"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "全属性伤害加成提升24%。附加电磁效应后或响应同奏时，共鸣技能伤害加深72%，共鸣技能伤害无视目标24%导电伤害抗性，且自身为队伍中登场角色时，一定范围内的目标受到电磁效应伤害加深60%，持续30秒，每0.1秒可触发1次。同名效果之间取最高值。",
+        "parameters": [
+          "24%",
+          "72%",
+          "24%",
+          "60%",
+          "30",
+          "0.1",
+          "1"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21050116,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 587.5,
+        "value": 587.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击",
+        "rawValue": 2430.0,
+        "value": 0.243
+      }
+    ]
+  },
+  "weaponType": 5
+}

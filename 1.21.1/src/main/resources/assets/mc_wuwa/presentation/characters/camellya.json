@@ -1,0 +1,1877 @@
+{
+  "schemaVersion": 1,
+  "characterId": "camellya",
+  "weaponId": "mc_wuwa:red_spring",
+  "palette": [
+    218,
+    68,
+    105
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1603",
+    "data-source/nanoka/3.7/zh/character/1603.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:camellya/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:camellya/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:camellya/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:camellya/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:camellya/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:camellya/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:camellya/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:camellya/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:camellya/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.55,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/basic_05",
+      "stateVariant": "basic_05",
+      "thirdPersonClip": "mc_wuwa:camellya/basic_05/tp",
+      "firstPersonClip": "mc_wuwa:camellya/basic_05/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:camellya/heavy/tp",
+      "firstPersonClip": "mc_wuwa:camellya/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalHeavyPhaseObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/camellya-normal_hold-page-00.jpg through page-04.jpg",
+        "scope": "Complete cached normal panel sampled through14.25s; normal heavy sweep phases adapted to retained three contacts; not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:camellya/air/tp",
+      "firstPersonClip": "mc_wuwa:camellya/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:camellya/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:camellya/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24",
+        "https://wuwabeacon.com/guide/331de8b7-ee23-4089-acc1-961d79ebe765"
+      ],
+      "counterGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/camellya-guide-community-20261102.html",
+        "scope": "Firsthand guide identifies normal counter gesture as BA3; reuse reviewed BA3 body, fit independently retained4/10/16 contacts. No direct labelled counter-video or original frame verification."
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:camellya/skill/tp",
+      "firstPersonClip": "mc_wuwa:camellya/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:camellya/liberation/tp",
+      "firstPersonClip": "mc_wuwa:camellya/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 3.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/camellya-2.gif",
+        "scope": "complete archived skill GIF contact sheets reviewed; source gestures fitted to existing MC contact schedule, not frame-exact timing",
+        "acceptance": "native visual review pending"
+      },
+      "sourceReviewedClock": {
+        "durationTicks": 120,
+        "hitTimesTicks": [
+          70
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.2916666666666667
+          ],
+          [
+            0.25,
+            0.5833333333333334
+          ],
+          [
+            0.52,
+            0.7416666666666667
+          ],
+          [
+            0.82,
+            0.8541666666666667
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/existing-roles/camellya-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          6.5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:camellya/intro/tp",
+      "firstPersonClip": "mc_wuwa:camellya/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:camellya/outro/tp",
+      "firstPersonClip": "mc_wuwa:camellya/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:camellya/echo/tp",
+      "firstPersonClip": "mc_wuwa:camellya/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/budding",
+      "stateVariant": "budding",
+      "thirdPersonClip": "mc_wuwa:camellya/budding/tp",
+      "firstPersonClip": "mc_wuwa:camellya/budding/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_basic_01",
+      "stateVariant": "bloom_basic_01",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_basic_02",
+      "stateVariant": "bloom_basic_02",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_basic_03",
+      "stateVariant": "bloom_basic_03",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_heavy",
+      "stateVariant": "bloom_heavy",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_heavy/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/ephemeral",
+      "stateVariant": "ephemeral",
+      "thirdPersonClip": "mc_wuwa:camellya/ephemeral/tp",
+      "firstPersonClip": "mc_wuwa:camellya/ephemeral/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/crimson_vine",
+      "stateVariant": "crimson_vine",
+      "thirdPersonClip": "mc_wuwa:camellya/crimson_vine/tp",
+      "firstPersonClip": "mc_wuwa:camellya/crimson_vine/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_exit",
+      "stateVariant": "bloom_exit",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_exit/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_exit/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_basic_04",
+      "stateVariant": "bloom_basic_04",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.55,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_spinning",
+      "stateVariant": "bloom_spinning",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_spinning/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_spinning/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_dark_heart",
+      "stateVariant": "bloom_dark_heart",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_dark_heart/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_dark_heart/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_twirl",
+      "stateVariant": "bloom_twirl",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_twirl/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_twirl/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Four complete official panels14 pages inspected; connected hanging posture and branch silhouettes, MC scale/clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "vineLightObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "reviewedPages": "vine_complete-00..03 (0.00-11.75s, 0.25s samples)",
+        "scope": "Thin red lash spans and bright petal strips follow existing contact paths; dark roots stay open. MC transparency and existing clocks; not original frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_dodge_counter",
+      "stateVariant": "bloom_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/immortal_blossom",
+      "stateVariant": "immortal_blossom",
+      "thirdPersonClip": "mc_wuwa:camellya/immortal_blossom/tp",
+      "firstPersonClip": "mc_wuwa:camellya/immortal_blossom/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "torso",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "authored_minecraft_schedule_tick6_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:camellya/bloom_idle",
+      "stateVariant": "bloom_idle",
+      "thirdPersonClip": "mc_wuwa:camellya/bloom_idle/tp",
+      "firstPersonClip": "mc_wuwa:camellya/bloom_idle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": true
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_persistent_hanging_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1603",
+        "data-source/nanoka/3.7/zh/character/1603.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "vineGestureObservation": {
+        "source": "docs/reference/camellya-vine-branches/source.json",
+        "scope": "Vine idle2.0-3.0s and7.75-9.25s; knees hook the vine, head below hips; visual lift12 pixels only",
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

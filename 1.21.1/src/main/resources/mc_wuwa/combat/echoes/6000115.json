@@ -1,0 +1,137 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28002901",
+      "kind": "echo",
+      "multiplier": 1.5238,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 105,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          8466,
+          10159,
+          11852,
+          13545,
+          15238
+        ],
+        "related_property": "攻击",
+        "tough_lv": 8466,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.424533064109036,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为梦魇·赫卡忒，向上跃起后下砸造成三段每段152.39%的湮灭伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升12.00%，声骸技能伤害加成提升20.00%。\n技能冷却：25秒",
+  "mechanicsFullyImplemented": false,
+  "name": "梦魇·赫卡忒",
+  "parameters": [
+    "152.39%",
+    "12.00%",
+    "20.00%",
+    "25"
+  ],
+  "raw": {
+    "code": "W93-",
+    "group": {
+      "19": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDarkVision.T_IconElementAttriDarkVision",
+        "id": 19,
+        "name": "失序彼岸之梦",
+        "set": {
+          "3": {
+            "desc": "角色共鸣能量为{0}时，自身暴击率提升{1}，声骸技能伤害加成提升{2}。",
+            "param": [
+              "0",
+              "20%",
+              "35%"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34016_UI.T_IconMonsterHead_34016_UI",
+    "id": 6000115,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000160,
+    "name": "梦魇·赫卡忒",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28002901": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 105,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            8466,
+            10159,
+            11852,
+            13545,
+            15238
+          ],
+          "related_property": "攻击",
+          "tough_lv": 8466,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为梦魇·赫卡忒，向上跃起后下砸造成三段每段{0}的湮灭伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升{1}，声骸技能伤害加成提升{2}。\n技能冷却：{3}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/MstSkil_34010_UI.MstSkil_34010_UI",
+      "param": [
+        [
+          "84.66%",
+          "12.00%",
+          "20.00%",
+          "25"
+        ],
+        [
+          "101.59%",
+          "12.00%",
+          "20.00%",
+          "25"
+        ],
+        [
+          "118.52%",
+          "12.00%",
+          "20.00%",
+          "25"
+        ],
+        [
+          "135.46%",
+          "12.00%",
+          "20.00%",
+          "25"
+        ],
+        [
+          "152.39%",
+          "12.00%",
+          "20.00%",
+          "25"
+        ]
+      ],
+      "simple_desc": "幻形为梦魇·赫卡忒，向上跃起后下砸造成三段湮灭伤害。\n在首位装配时，提高自身湮灭和声骸技能伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000115
+}

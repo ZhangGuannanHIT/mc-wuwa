@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 2,
+  "rigVersion": 2,
+  "meshVersion": 2,
+  "units": "pixels_degrees",
+  "runtimeTexture": "current_player_skin",
+  "wideModel": "mc_wuwa:presentation/rigs/player_wide.skin.json",
+  "slimModel": "mc_wuwa:presentation/rigs/player_slim.skin.json",
+  "palRoot": "body",
+  "palTorso": "torso",
+  "customBones": {
+    "right_forearm": {
+      "pivot": [
+        5,
+        18,
+        0
+      ]
+    },
+    "left_forearm": {
+      "pivot": [
+        -5,
+        18,
+        0
+      ]
+    },
+    "right_shin": {
+      "pivot": [
+        2,
+        6,
+        0
+      ]
+    },
+    "left_shin": {
+      "pivot": [
+        -2,
+        6,
+        0
+      ]
+    }
+  },
+  "parents": {
+    "right_forearm": "right_arm",
+    "left_forearm": "left_arm",
+    "right_shin": "right_leg",
+    "left_shin": "left_leg"
+  },
+  "jointBendImplementation": "parent_local_euler_inner_bend_no_pal_bend",
+  "outerLayersMustRespectSkinPartFlags": true,
+  "dailyAnimationOverride": false
+}

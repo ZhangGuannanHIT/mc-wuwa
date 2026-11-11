@@ -1,0 +1,1060 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "qiuyuan/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.76%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4176,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1411002002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "qiuyuan/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "34.80%+34.80%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.696,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411003002"
+        },
+        {
+          "count": 1,
+          "damageId": "1411003003"
+        },
+        {
+          "count": 1,
+          "damageId": "1411003004"
+        },
+        {
+          "count": 1,
+          "damageId": "1411003005"
+        },
+        {
+          "count": 1,
+          "damageId": "1411003006"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qiuyuan/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "24.64%+24.64%+24.64%+24.64%+65.69%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.6425,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411010001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qiuyuan/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "116.91%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.1691,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411100001"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "qiuyuan/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "165.61%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.6561,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411500001"
+        },
+        {
+          "count": 3,
+          "damageId": "1411500002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "qiuyuan/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "194.84%+27.84%*3",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.7836,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1411200001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "qiuyuan/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "71.84%*3",
+      "sourceNode": 2,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.1552,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411220000"
+        },
+        {
+          "count": 3,
+          "damageId": "1411220002"
+        },
+        {
+          "count": 1,
+          "damageId": "1411220003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qiuyuan/skill_dash",
+      "name": "不辞远伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "32.33%+32.33%*3+86.21%",
+      "sourceNode": 2,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.1553,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 90,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411230001"
+        }
+      ],
+      "hitTimesTicks": [
+        50
+      ],
+      "id": "qiuyuan/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "795.24%",
+      "sourceNode": 3,
+      "sourceParameter": "13",
+      "timingEvidence": "docs/reference/original-skill-gifs/qiuyuan-2.gif active=[0.5, 5]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 1,
+      "totalMultiplier": 7.9524,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1411900005"
+        },
+        {
+          "count": 1,
+          "damageId": "1411900006"
+        },
+        {
+          "count": 1,
+          "damageId": "1411900007"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        10,
+        12,
+        15,
+        18,
+        20
+      ],
+      "id": "qiuyuan/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "9.55%*5+47.72%+143.15%",
+      "sourceNode": 6,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 2.3862,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411020001"
+        },
+        {
+          "count": 1,
+          "damageId": "1411020002"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "qiuyuan/answer_basic_01",
+      "name": "答剑·质黑相青第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "59.65%+59.65%",
+      "sourceNode": 7,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.193,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411030001"
+        },
+        {
+          "count": 1,
+          "damageId": "1411030002"
+        },
+        {
+          "count": 1,
+          "damageId": "1411030003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "qiuyuan/answer_basic_02",
+      "name": "答剑·质黑相青第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "55.65%+55.65%+74.20%",
+      "sourceNode": 7,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.855,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411040001"
+        },
+        {
+          "count": 4,
+          "damageId": "1411040002"
+        },
+        {
+          "count": 1,
+          "damageId": "1411040003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "qiuyuan/answer_basic_03",
+      "name": "答剑·质黑相青第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "14.58%+14.58%*4+72.87%",
+      "sourceNode": 7,
+      "sourceParameter": "23",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.4577,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411050001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "qiuyuan/answer_basic_04",
+      "name": "答剑·质黑相青第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "172.37%",
+      "sourceNode": 7,
+      "sourceParameter": "24",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.7237,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411110001"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110002"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110003"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110004"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110005"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        14,
+        18,
+        22
+      ],
+      "id": "qiuyuan/ink_heavy_01",
+      "name": "答剑·弦歌不辍伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "drunken",
+      "sourceFormula": "91.44%+91.44%+91.44%+91.44%+91.44%",
+      "sourceNode": 7,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 4.572,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1411120001"
+        },
+        {
+          "count": 3,
+          "damageId": "1411120002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "qiuyuan/ink_heavy_02",
+      "name": "答剑·割股之心伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "drunken",
+      "sourceFormula": "38.44%*3+31.45%+31.45%+31.45%",
+      "sourceNode": 7,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 2.0967,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411120003"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "qiuyuan/ink_heavy_03",
+      "name": "答剑·忠烈死节伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "drunken",
+      "sourceFormula": "217.70%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.177,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411900002"
+        },
+        {
+          "count": 3,
+          "damageId": "1411900003"
+        },
+        {
+          "count": 1,
+          "damageId": "1411900004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        14,
+        18,
+        22
+      ],
+      "id": "qiuyuan/skill_canopy",
+      "name": "荷蓑出林",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain3",
+      "sourceFormula": "500.0000%",
+      "sourceNode": 2,
+      "sourceParameter": "chain3_canopy",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 5.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 90,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411230011"
+        }
+      ],
+      "hitTimesTicks": [
+        50
+      ],
+      "id": "qiuyuan/liberation_c3",
+      "name": "万钧一断·三链",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain3",
+      "sourceFormula": "1295.2400%",
+      "sourceNode": 3,
+      "sourceParameter": "chain3_liberation",
+      "timingEvidence": "docs/reference/original-skill-gifs/qiuyuan-2.gif active=[0.5, 5]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 1,
+      "totalMultiplier": 12.9524,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411110011"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110012"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110013"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110014"
+        },
+        {
+          "count": 1,
+          "damageId": "1411110015"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        11,
+        14,
+        18,
+        22
+      ],
+      "id": "qiuyuan/ink_heavy_01_c3",
+      "name": "答剑·弦歌不辍·荷蓑",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain3",
+      "sourceFormula": "1057.2000%",
+      "sourceNode": 7,
+      "sourceParameter": "chain3_ink1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 10.572,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1411120011"
+        },
+        {
+          "count": 3,
+          "damageId": "1411120012"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "qiuyuan/ink_heavy_02_c3",
+      "name": "答剑·割股之心·荷蓑",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain3",
+      "sourceFormula": "809.6100%",
+      "sourceNode": 7,
+      "sourceParameter": "chain3_ink2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 8.0961,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411120013"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "qiuyuan/ink_heavy_03_c3",
+      "name": "答剑·忠烈死节·荷蓑",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain3",
+      "sourceFormula": "817.7000%",
+      "sourceNode": 7,
+      "sourceParameter": "chain3_ink3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 8.177,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "qiuyuan",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1411900008"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "qiuyuan/drunken_exit",
+      "name": "如是我闻·醉墨散尽",
+      "nativeTimingVerified": false,
+      "requiredForm": "chain6",
+      "sourceFormula": "600.0000%",
+      "sourceNode": 7,
+      "sourceParameter": "chain6_exit",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 6.0,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "emerald_sentence"
+    }
+  ],
+  "schemaVersion": 1
+}

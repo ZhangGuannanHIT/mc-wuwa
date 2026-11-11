@@ -1,0 +1,196 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28003701",
+      "kind": "echo",
+      "multiplier": 0.684,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 23,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3800,
+          4560,
+          5320,
+          6080,
+          6840
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3800,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.6394077065455157,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "fusion",
+      "id": "28003702",
+      "kind": "echo",
+      "multiplier": 2.052,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 2,
+        "element_power": 0,
+        "energy": 213,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          11400,
+          13680,
+          15960,
+          18240,
+          20520
+        ],
+        "related_property": "攻击",
+        "tough_lv": 11400,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.9182231196365471,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤辛吉勒姆，对敌人造成一段68.40%和一段205.20%的热熔伤害。\n在首位装配该声骸技能时，若装配角色为爱弥斯，则自身共鸣解放伤害加成提升25.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "辛吉勒姆",
+  "parameters": [
+    "68.40%",
+    "205.20%",
+    "25.00%",
+    "20"
+  ],
+  "raw": {
+    "code": "Z04-",
+    "group": {
+      "27": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriFireA1.T_IconElementAttriFireA1",
+        "id": 27,
+        "name": "长路启航之星",
+        "set": {
+          "2": {
+            "desc": "热熔伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【聚爆效应】或【震谐·偏移】时，自身暴击提升{0}，热熔伤害提升{1}，持续{2}秒。",
+            "param": [
+              "20%",
+              "20%",
+              "8"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34025_0_UI.T_IconMonsterHead_34025_0_UI",
+    "id": 6000191,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000250,
+    "name": "辛吉勒姆",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_34025_UI.T_IconMonsterGoods_SG_34025_UI",
+      "name": "异相·辛吉勒姆"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28003701": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 23,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3800,
+            4560,
+            5320,
+            6080,
+            6840
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3800,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28003702": {
+          "element": 2,
+          "element_power": 0,
+          "energy": 213,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            11400,
+            13680,
+            15960,
+            18240,
+            20520
+          ],
+          "related_property": "攻击",
+          "tough_lv": 11400,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤辛吉勒姆，对敌人造成一段{0}和一段{1}的热熔伤害。\n在首位装配该声骸技能时，若装配角色为爱弥斯，则自身共鸣解放伤害加成提升{2}。\n技能冷却：{3}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34025_UI.T_MstSkil_34025_UI",
+      "param": [
+        [
+          "38.00%",
+          "114.00%",
+          "25.00%",
+          "20"
+        ],
+        [
+          "45.60%",
+          "136.80%",
+          "25.00%",
+          "20"
+        ],
+        [
+          "53.20%",
+          "159.60%",
+          "25.00%",
+          "20"
+        ],
+        [
+          "60.80%",
+          "182.40%",
+          "25.00%",
+          "20"
+        ],
+        [
+          "68.40%",
+          "205.20%",
+          "25.00%",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤辛吉勒姆，对敌人造成热熔伤害。\n爱弥斯在首位装配该声骸技能时，提高自身共鸣解放伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000191
+}

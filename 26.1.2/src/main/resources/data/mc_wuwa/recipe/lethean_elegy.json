@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " P ",
+    "OCO",
+    " R "
+  ],
+  "key": {
+    "P": "#minecraft:planks",
+    "O": "minecraft:obsidian",
+    "C": "mc_wuwa:core",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "mc_wuwa:lethean_elegy",
+    "count": 1
+  }
+}

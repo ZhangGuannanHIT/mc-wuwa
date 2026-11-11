@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " U ",
+    "GCG",
+    " U "
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:copper_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "mc_wuwa:core"
+    }
+  },
+  "result": {
+    "id": "mc_wuwa:blooming_jadehaven",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+# Only publish the files needed to develop and build the mod.
+/*
+!/.gitignore
+!/TEMPLATE_LICENSE.txt
+!/build.gradle
+!/settings.gradle
+!/gradle.properties
+!/gradlew
+!/gradlew.bat
+
+# Gradle wrapper for a fresh checkout.
+!/gradle/
+/gradle/*
+!/gradle/wrapper/
+/gradle/wrapper/*
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# Include all current and future production code, artwork and game data.
+!/src/
+/src/*
+!/src/main/

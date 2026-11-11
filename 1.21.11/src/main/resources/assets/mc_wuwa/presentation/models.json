@@ -1,0 +1,751 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "modelId": "mc_wuwa:aleph_one",
+      "model": "mc_wuwa:geckolib/models/aleph_one.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/aleph_one.animation.json",
+      "texture": "mc_wuwa:textures/entity/aleph_one.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/aleph_one.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:aemeath_mecha",
+      "model": "mc_wuwa:geckolib/models/aemeath_mecha.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/aemeath_mecha.animation.json",
+      "texture": "mc_wuwa:textures/entity/aemeath_mecha.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/aemeath_mecha.bbmodel",
+      "firstPersonView": {
+        "schemaVersion": 1,
+        "modelAnchor": [
+          0,
+          49,
+          0
+        ],
+        "cameraAnchor": [
+          0,
+          -0.38,
+          -0.32
+        ],
+        "scale": 0.65
+      }
+    },
+    {
+      "modelId": "mc_wuwa:jue_dragon",
+      "model": "mc_wuwa:geckolib/models/jue_dragon.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/jue_dragon.animation.json",
+      "texture": "mc_wuwa:textures/entity/jue_dragon.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/jue_dragon.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:hecate",
+      "model": "mc_wuwa:geckolib/models/hecate.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hecate.animation.json",
+      "texture": "mc_wuwa:textures/entity/hecate.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/hecate.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:camellya_blossom",
+      "model": "mc_wuwa:geckolib/models/camellya_blossom.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/camellya_blossom.animation.json",
+      "texture": "mc_wuwa:textures/entity/camellya_blossom.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/camellya_blossom.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:chisa_chainsaw",
+      "model": "mc_wuwa:geckolib/models/chisa_chainsaw.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/chisa_chainsaw.animation.json",
+      "texture": "mc_wuwa:textures/entity/chisa_chainsaw.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/chisa_chainsaw.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:hiyuki_frost_blade",
+      "model": "mc_wuwa:geckolib/models/hiyuki_frost_blade.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hiyuki_frost_blade.animation.json",
+      "texture": "mc_wuwa:textures/entity/hiyuki_frost_blade.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/hiyuki_frost_blade.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_storm_blade",
+      "model": "mc_wuwa:geckolib/models/cartethyia_storm_blade.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_storm_blade.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_storm_blade.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_storm_blade.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:rover_wind_blade",
+      "model": "mc_wuwa:geckolib/models/rover_wind_blade.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/rover_wind_blade.animation.json",
+      "texture": "mc_wuwa:textures/entity/rover_wind_blade.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/rover_wind_blade.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:yinlin_puppet",
+      "model": "mc_wuwa:geckolib/models/yinlin_puppet.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/yinlin_puppet.animation.json",
+      "texture": "mc_wuwa:textures/entity/yinlin_puppet.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/yinlin_puppet.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:lynae_skates",
+      "model": "mc_wuwa:geckolib/models/lynae_skates.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/lynae_skates.animation.json",
+      "texture": "mc_wuwa:textures/entity/lynae_skates.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/lynae_skates.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:mornye_observation",
+      "model": "mc_wuwa:geckolib/models/mornye_observation.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/mornye_observation.animation.json",
+      "texture": "mc_wuwa:textures/entity/mornye_observation.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/mornye_observation.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:hsin_construct",
+      "model": "mc_wuwa:geckolib/models/hsin_construct.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hsin_construct.animation.json",
+      "texture": "mc_wuwa:textures/entity/hsin_construct.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/hsin_construct.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:xuanling_feathers",
+      "model": "mc_wuwa:geckolib/models/xuanling_feathers.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/xuanling_feathers.animation.json",
+      "texture": "mc_wuwa:textures/entity/xuanling_feathers.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/xuanling_feathers.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_crownless",
+      "model": "mc_wuwa:geckolib/models/echo_crownless.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_crownless.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_crownless.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_crownless.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_heron",
+      "model": "mc_wuwa:geckolib/models/echo_heron.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_heron.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_heron.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_heron.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_fleurdelys",
+      "model": "mc_wuwa:geckolib/models/echo_fleurdelys.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_fleurdelys.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_fleurdelys.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_fleurdelys.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_furnace",
+      "model": "mc_wuwa:geckolib/models/echo_furnace.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_furnace.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_furnace.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_furnace.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_sigillum",
+      "model": "mc_wuwa:geckolib/models/echo_sigillum.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_sigillum.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_sigillum.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_sigillum.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_hyvatia",
+      "model": "mc_wuwa:geckolib/models/echo_hyvatia.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_hyvatia.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_hyvatia.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_hyvatia.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_forged_god",
+      "model": "mc_wuwa:geckolib/models/echo_forged_god.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_forged_god.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_forged_god.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_forged_god.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_tianyan",
+      "model": "mc_wuwa:geckolib/models/echo_tianyan.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_tianyan.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_tianyan.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_tianyan.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_puppet_tower",
+      "model": "mc_wuwa:geckolib/models/echo_puppet_tower.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_puppet_tower.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_puppet_tower.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_puppet_tower.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_leviathan",
+      "model": "mc_wuwa:geckolib/models/echo_leviathan.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_leviathan.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_leviathan.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_leviathan.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_hecate",
+      "model": "mc_wuwa:geckolib/models/echo_hecate.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_hecate.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_hecate.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_hecate.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:hsin_fox",
+      "model": "mc_wuwa:geckolib/models/hsin_fox.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hsin_fox.animation.json",
+      "texture": "mc_wuwa:textures/entity/hsin_fox.png",
+      "reviewState": "authored_mc_adaptation",
+      "source": "art/source/models/hsin_fox.bbmodel",
+      "firstPersonView": {
+        "schemaVersion": 1,
+        "modelAnchor": [
+          0,
+          5,
+          -3.4
+        ],
+        "cameraAnchor": [
+          0,
+          -0.5,
+          -0.65
+        ],
+        "scale": 0.65
+      }
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_ensemble",
+      "model": "mc_wuwa:geckolib/models/ciaccona_ensemble.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_ensemble.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_ensemble.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_ensemble.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_lyre",
+      "model": "mc_wuwa:geckolib/models/ciaccona_lyre.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_lyre.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_lyre.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_lyre.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_microphone",
+      "model": "mc_wuwa:geckolib/models/ciaccona_microphone.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_microphone.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_microphone.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_microphone.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_singer_ensemble",
+      "model": "mc_wuwa:geckolib/models/ciaccona_singer_ensemble.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_singer_ensemble.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_singer_ensemble.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_singer_ensemble.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_guitar",
+      "model": "mc_wuwa:geckolib/models/ciaccona_guitar.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_guitar.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_guitar.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_guitar.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_guitar_ensemble",
+      "model": "mc_wuwa:geckolib/models/ciaccona_guitar_ensemble.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_guitar_ensemble.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_guitar_ensemble.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_guitar_ensemble.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_drum",
+      "model": "mc_wuwa:geckolib/models/ciaccona_drum.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_drum.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_drum.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_drum.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:ciaccona_drum_ensemble",
+      "model": "mc_wuwa:geckolib/models/ciaccona_drum_ensemble.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/ciaccona_drum_ensemble.animation.json",
+      "texture": "mc_wuwa:textures/entity/ciaccona_drum_ensemble.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/ciaccona_drum_ensemble.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:fenrico_claw",
+      "model": "mc_wuwa:geckolib/models/fenrico_claw.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/fenrico_claw.animation.json",
+      "texture": "mc_wuwa:textures/entity/fenrico_claw.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/fenrico_claw.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_fallacy_fists",
+      "model": "mc_wuwa:geckolib/models/echo_fallacy_fists.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_fallacy_fists.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_fallacy_fists.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_fallacy_fists.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_nameless_explorer",
+      "model": "mc_wuwa:geckolib/models/echo_nameless_explorer.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_nameless_explorer.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_nameless_explorer.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_nameless_explorer.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_star_butterfly",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_star_butterfly.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_star_butterfly.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_star_butterfly.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_star_butterfly.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_dark_butterfly",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_dark_butterfly.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_dark_butterfly.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_dark_butterfly.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_dark_butterfly.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_butterfly_form",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_butterfly_form.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_butterfly_form.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_butterfly_form.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_butterfly_form.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_kernel",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_kernel.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_kernel.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_kernel.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_kernel.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_domain_blue",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_domain_blue.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_domain_blue.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_domain_blue.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_domain_blue.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_domain_purple",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_domain_purple.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_domain_purple.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_domain_purple.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_domain_purple.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:shorekeeper_domain_gold",
+      "model": "mc_wuwa:geckolib/models/shorekeeper_domain_gold.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/shorekeeper_domain_gold.animation.json",
+      "texture": "mc_wuwa:textures/entity/shorekeeper_domain_gold.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/shorekeeper_domain_gold.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_nightmare_aix",
+      "model": "mc_wuwa:geckolib/models/echo_nightmare_aix.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_nightmare_aix.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_nightmare_aix.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_nightmare_aix.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_lorelei",
+      "model": "mc_wuwa:geckolib/models/echo_lorelei.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_lorelei.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_lorelei.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_lorelei.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:skill_phoebe_ring",
+      "model": "mc_wuwa:geckolib/models/skill_phoebe_ring.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/skill_phoebe_ring.animation.json",
+      "texture": "mc_wuwa:textures/entity/skill_phoebe_ring.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/skill_phoebe_ring.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:skill_suisui_landscape",
+      "model": "mc_wuwa:geckolib/models/skill_suisui_landscape.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/skill_suisui_landscape.animation.json",
+      "texture": "mc_wuwa:textures/entity/skill_suisui_landscape.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/skill_suisui_landscape.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:skill_cantarella_jellyfish",
+      "model": "mc_wuwa:geckolib/models/skill_cantarella_jellyfish.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/skill_cantarella_jellyfish.animation.json",
+      "texture": "mc_wuwa:textures/entity/skill_cantarella_jellyfish.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/skill_cantarella_jellyfish.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:skill_phoebe_staff",
+      "model": "mc_wuwa:geckolib/models/skill_phoebe_staff.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/skill_phoebe_staff.animation.json",
+      "texture": "mc_wuwa:textures/entity/skill_phoebe_staff.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/skill_phoebe_staff.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:suisui_reserve_dancer",
+      "model": "mc_wuwa:geckolib/models/suisui_reserve_dancer.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/suisui_reserve_dancer.animation.json",
+      "texture": "mc_wuwa:textures/entity/suisui_reserve_dancer.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/suisui_reserve_dancer.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_lorelei_pixel",
+      "model": "mc_wuwa:geckolib/models/echo_lorelei_pixel.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_lorelei_pixel.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_lorelei_pixel.png",
+      "source": "art/source/models/echo_lorelei_pixel.bbmodel",
+      "reviewState": "style_approved_runtime_pending"
+    },
+    {
+      "modelId": "mc_wuwa:echo_puppet_memory_sword",
+      "model": "mc_wuwa:geckolib/models/echo_puppet_memory_sword.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_puppet_memory_sword.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_puppet_memory_sword.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/echo_puppet_memory_sword.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:lupa_reserve_assist",
+      "model": "mc_wuwa:geckolib/models/lupa_reserve_assist.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/lupa_reserve_assist.animation.json",
+      "texture": "mc_wuwa:textures/entity/lupa_reserve_assist.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/lupa_reserve_assist.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_calamity_effigy",
+      "model": "mc_wuwa:geckolib/models/echo_calamity_effigy.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_calamity_effigy.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_calamity_effigy.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_calamity_effigy.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_sentry_construct",
+      "model": "mc_wuwa:geckolib/models/echo_sentry_construct.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_sentry_construct.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_sentry_construct.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_sentry_construct.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_sea_maiden_twin_vortex",
+      "model": "mc_wuwa:geckolib/models/echo_sea_maiden_twin_vortex.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_sea_maiden_twin_vortex.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_sea_maiden_twin_vortex.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_sea_maiden_twin_vortex.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_lion_halberd_field",
+      "model": "mc_wuwa:geckolib/models/echo_lion_halberd_field.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_lion_halberd_field.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_lion_halberd_field.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_lion_halberd_field.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_denia_trickster",
+      "model": "mc_wuwa:geckolib/models/echo_denia_trickster.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_denia_trickster.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_denia_trickster.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_denia_trickster.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_voidwing_moth",
+      "model": "mc_wuwa:geckolib/models/echo_voidwing_moth.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_voidwing_moth.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_voidwing_moth.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_voidwing_moth.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_nightmare_rider_pixel",
+      "model": "mc_wuwa:geckolib/models/echo_nightmare_rider_pixel.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_nightmare_rider_pixel.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_nightmare_rider_pixel.png",
+      "reviewState": "user_approved_model_native_view_pending",
+      "source": "art/source/models/echo_nightmare_rider_pixel.bbmodel",
+      "firstPersonView": {
+        "schemaVersion": 1,
+        "modelAnchor": [
+          0,
+          27,
+          0
+        ],
+        "cameraAnchor": [
+          0,
+          -0.5,
+          -0.9
+        ],
+        "scale": 0.65
+      }
+    },
+    {
+      "modelId": "mc_wuwa:qingxiao_flight_sword",
+      "model": "mc_wuwa:geckolib/models/qingxiao_flight_sword.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/qingxiao_flight_sword.animation.json",
+      "texture": "mc_wuwa:textures/entity/qingxiao_flight_sword.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/qingxiao_flight_sword.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_capitaneus",
+      "model": "mc_wuwa:geckolib/models/echo_capitaneus.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_capitaneus.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_capitaneus.png",
+      "reviewState": "limb_spacing_revised_pending_final_review",
+      "source": "art/source/new-five-20261023/echo-candidates/capitaneus/echo_capitaneus.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_gromos",
+      "model": "mc_wuwa:geckolib/models/echo_gromos.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_gromos.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_gromos.png",
+      "reviewState": "user_approved_geometry_release_timing_pending",
+      "source": "art/source/new-five-20261023/echo-candidates/gromos/echo_gromos.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:echo_soulfrayer",
+      "model": "mc_wuwa:geckolib/models/echo_soulfrayer.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/echo_soulfrayer.animation.json",
+      "texture": "mc_wuwa:textures/entity/echo_soulfrayer.png",
+      "reviewState": "user_requested_pixel_style_final_shape_pending_review",
+      "source": "art/source/new-five-20261023/echo-candidates/soulfrayer/echo_soulfrayer.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:phrolova_conductor_baton",
+      "model": "mc_wuwa:geckolib/models/phrolova_conductor_baton.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/phrolova_conductor_baton.animation.json",
+      "texture": "mc_wuwa:textures/entity/phrolova_conductor_baton.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/phrolova_conductor_baton.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:phrolova_conductor_throne",
+      "model": "mc_wuwa:geckolib/models/phrolova_conductor_throne.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/phrolova_conductor_throne.animation.json",
+      "texture": "mc_wuwa:textures/entity/phrolova_conductor_throne.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/phrolova_conductor_throne.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_shadow_human",
+      "model": "mc_wuwa:geckolib/models/cartethyia_shadow_human.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_shadow_human.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_shadow_human.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_shadow_human.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_authority_human",
+      "model": "mc_wuwa:geckolib/models/cartethyia_authority_human.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_authority_human.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_authority_human.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_authority_human.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_shadow_divine",
+      "model": "mc_wuwa:geckolib/models/cartethyia_shadow_divine.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_shadow_divine.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_shadow_divine.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_shadow_divine.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_authority_divine",
+      "model": "mc_wuwa:geckolib/models/cartethyia_authority_divine.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_authority_divine.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_authority_divine.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_authority_divine.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_shadow_outsider",
+      "model": "mc_wuwa:geckolib/models/cartethyia_shadow_outsider.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_shadow_outsider.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_shadow_outsider.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_shadow_outsider.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cartethyia_authority_outsider",
+      "model": "mc_wuwa:geckolib/models/cartethyia_authority_outsider.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cartethyia_authority_outsider.animation.json",
+      "texture": "mc_wuwa:textures/entity/cartethyia_authority_outsider.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cartethyia_authority_outsider.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:aemeath_assist",
+      "model": "mc_wuwa:geckolib/models/aemeath_assist.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/aemeath_assist.animation.json",
+      "texture": "mc_wuwa:textures/entity/aemeath_assist.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/aemeath_assist.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:hsin_palace_city",
+      "model": "mc_wuwa:geckolib/models/hsin_palace_city.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hsin_palace_city.animation.json",
+      "texture": "mc_wuwa:textures/entity/hsin_palace_city.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/hsin_palace_city.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:skill_suisui_hand_fan",
+      "model": "mc_wuwa:geckolib/models/skill_suisui_hand_fan.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/skill_suisui_hand_fan.animation.json",
+      "texture": "mc_wuwa:textures/entity/skill_suisui_hand_fan.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/skill_suisui_hand_fan.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:phrolova_reserve_conductor",
+      "model": "mc_wuwa:geckolib/models/phrolova_reserve_conductor.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/phrolova_reserve_conductor.animation.json",
+      "texture": "mc_wuwa:textures/entity/phrolova_reserve_conductor.png",
+      "source": "tools/art/fix_reserve_cast_presentation.py",
+      "reviewState": "authored_unverified"
+    },
+    {
+      "modelId": "mc_wuwa:hiyuki_frost_bow",
+      "model": "mc_wuwa:geckolib/models/hiyuki_frost_bow.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/hiyuki_frost_bow.animation.json",
+      "texture": "mc_wuwa:textures/entity/hiyuki_frost_bow.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/hiyuki_frost_bow.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:cantarella_held_umbrella",
+      "model": "mc_wuwa:geckolib/models/cantarella_held_umbrella.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/cantarella_held_umbrella.animation.json",
+      "texture": "mc_wuwa:textures/entity/cantarella_held_umbrella.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/cantarella_held_umbrella.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:iuno_crescent_ring",
+      "model": "mc_wuwa:geckolib/models/iuno_crescent_ring.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/iuno_crescent_ring.animation.json",
+      "texture": "mc_wuwa:textures/entity/iuno_crescent_ring.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/iuno_crescent_ring.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:iuno_new_moon_platform",
+      "model": "mc_wuwa:geckolib/models/iuno_new_moon_platform.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/iuno_new_moon_platform.animation.json",
+      "texture": "mc_wuwa:textures/entity/iuno_new_moon_platform.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/iuno_new_moon_platform.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:lupa_flame_wolf_heads",
+      "model": "mc_wuwa:geckolib/models/lupa_flame_wolf_heads.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/lupa_flame_wolf_heads.animation.json",
+      "texture": "mc_wuwa:textures/entity/lupa_flame_wolf_heads.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/lupa_flame_wolf_heads.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:carlotta_crystal_rifle",
+      "model": "mc_wuwa:geckolib/models/carlotta_crystal_rifle.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/carlotta_crystal_rifle.animation.json",
+      "texture": "mc_wuwa:textures/entity/carlotta_crystal_rifle.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/carlotta_crystal_rifle.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:qingxiao_sword_zither",
+      "model": "mc_wuwa:geckolib/models/qingxiao_sword_zither.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/qingxiao_sword_zither.animation.json",
+      "texture": "mc_wuwa:textures/entity/qingxiao_sword_zither.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/qingxiao_sword_zither.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:zani_mechanical_guard_blade",
+      "model": "mc_wuwa:geckolib/models/zani_mechanical_guard_blade.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/zani_mechanical_guard_blade.animation.json",
+      "texture": "mc_wuwa:textures/entity/zani_mechanical_guard_blade.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/zani_mechanical_guard_blade.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:suoming_open_parasol",
+      "model": "mc_wuwa:geckolib/models/suoming_open_parasol.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/suoming_open_parasol.animation.json",
+      "texture": "mc_wuwa:textures/entity/suoming_open_parasol.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/suoming_open_parasol.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:zhezhi_painting_brush",
+      "model": "mc_wuwa:geckolib/models/zhezhi_painting_brush.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/zhezhi_painting_brush.animation.json",
+      "texture": "mc_wuwa:textures/entity/zhezhi_painting_brush.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/zhezhi_painting_brush.bbmodel"
+    },
+    {
+      "modelId": "mc_wuwa:sigrika_sun_sprite",
+      "model": "mc_wuwa:geckolib/models/sigrika_sun_sprite.geo.json",
+      "animation": "mc_wuwa:geckolib/animations/sigrika_sun_sprite.animation.json",
+      "texture": "mc_wuwa:textures/entity/sigrika_sun_sprite.png",
+      "reviewState": "authored_unverified",
+      "source": "art/source/models/sigrika_sun_sprite.bbmodel"
+    }
+  ]
+}

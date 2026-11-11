@@ -1,0 +1,167 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ciaccona_ensemble.idle": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "left_arm": {
+          "rotation": {
+            "0": [
+              -62,
+              12,
+              18
+            ]
+          }
+        },
+        "left_forearm": {
+          "rotation": {
+            "0": [
+              -55,
+              0,
+              0
+            ]
+          }
+        },
+        "right_arm": {
+          "rotation": {
+            "0": [
+              -78,
+              -12,
+              -10
+            ],
+            "1": [
+              -70,
+              -4,
+              -5
+            ],
+            "2": [
+              -78,
+              -12,
+              -10
+            ]
+          }
+        },
+        "right_forearm": {
+          "rotation": {
+            "0": [
+              -20,
+              0,
+              0
+            ],
+            "1": [
+              -45,
+              0,
+              0
+            ],
+            "2": [
+              -20,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0": [
+              6,
+              -4,
+              0
+            ],
+            "1": [
+              4,
+              3,
+              0
+            ],
+            "2": [
+              6,
+              -4,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.ciaccona_ensemble.attack": {
+      "loop": true,
+      "animation_length": 2,
+      "bones": {
+        "left_arm": {
+          "rotation": {
+            "0": [
+              -62,
+              12,
+              18
+            ]
+          }
+        },
+        "left_forearm": {
+          "rotation": {
+            "0": [
+              -55,
+              0,
+              0
+            ]
+          }
+        },
+        "right_arm": {
+          "rotation": {
+            "0": [
+              -78,
+              -12,
+              -10
+            ],
+            "1": [
+              -70,
+              -4,
+              -5
+            ],
+            "2": [
+              -78,
+              -12,
+              -10
+            ]
+          }
+        },
+        "right_forearm": {
+          "rotation": {
+            "0": [
+              -20,
+              0,
+              0
+            ],
+            "1": [
+              -45,
+              0,
+              0
+            ],
+            "2": [
+              -20,
+              0,
+              0
+            ]
+          }
+        },
+        "head": {
+          "rotation": {
+            "0": [
+              6,
+              -4,
+              0
+            ],
+            "1": [
+              4,
+              3,
+              0
+            ],
+            "2": [
+              6,
+              -4,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28002201",
+      "kind": "echo",
+      "multiplier": 2.646,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 367,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          14700,
+          17640,
+          20580,
+          23520,
+          26460
+        ],
+        "related_property": "攻击",
+        "tough_lv": 14700,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.4734982332155475,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，幻形为梦魇·无冠者，对前方敌人造成264.60%的湮灭伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升12.00%，普攻伤害加成提升12.00%。\n初始拥有3次可使用次数，每12秒可使用次数增加1次，可使用次数上限3次。梦魇·无冠者命中目标后，该声骸技能造成的伤害提升20.00%，持续2秒，不可叠加。\n技能冷却：12秒",
+  "mechanicsFullyImplemented": false,
+  "name": "梦魇·无冠者",
+  "parameters": [
+    "264.60%",
+    "12.00%",
+    "12.00%",
+    "3",
+    "12",
+    "3",
+    "20.00%",
+    "2"
+  ],
+  "raw": {
+    "code": "H80-",
+    "group": {
+      "6": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriDark.T_IconElementAttriDark",
+        "id": 6,
+        "name": "沉日劫明",
+        "set": {
+          "2": {
+            "desc": "湮灭伤害提升10%",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "使用普攻或重击时，湮灭伤害提升7.5%，该效果可叠加四层，持续15秒",
+            "param": [
+              "6%",
+              "5",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_YZ_33018_UI.T_IconMonsterHead_YZ_33018_UI",
+    "id": 6000090,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 330000180,
+    "name": "梦魇·无冠者",
+    "phantom": {
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterGoods/T_IconMonsterGoods_SG_33018_UI.T_IconMonsterGoods_SG_33018_UI",
+      "name": "异相·梦魇·无冠者"
+    },
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28002201": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 367,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            14700,
+            17640,
+            20580,
+            23520,
+            26460
+          ],
+          "related_property": "攻击",
+          "tough_lv": 14700,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，幻形为梦魇·无冠者，对前方敌人造成{0}的湮灭伤害。\n在首位装配该声骸技能时，自身湮灭伤害加成提升{1}，普攻伤害加成提升{2}。\n初始拥有{3}次可使用次数，每{4}秒可使用次数增加1次，可使用次数上限{5}次。梦魇·无冠者命中目标后，该声骸技能造成的伤害提升{6}，持续{7}秒，不可叠加。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_Z_B8_UI.T_MstSkil_Z_B8_UI",
+      "param": [
+        [
+          "147.00%",
+          "12.00%",
+          "12.00%",
+          "3",
+          "12",
+          "3",
+          "20.00%",
+          "2"
+        ],
+        [
+          "176.40%",
+          "12.00%",
+          "12.00%",
+          "3",
+          "12",
+          "3",
+          "20.00%",
+          "2"
+        ],
+        [
+          "205.80%",
+          "12.00%",
+          "12.00%",
+          "3",
+          "12",
+          "3",
+          "20.00%",
+          "2"
+        ],
+        [
+          "235.20%",
+          "12.00%",
+          "12.00%",
+          "3",
+          "12",
+          "3",
+          "20.00%",
+          "2"
+        ],
+        [
+          "264.60%",
+          "12.00%",
+          "12.00%",
+          "3",
+          "12",
+          "3",
+          "20.00%",
+          "2"
+        ]
+      ],
+      "simple_desc": "幻形为梦魇·无冠者，对前方敌人造成湮灭伤害，在首位装配时提高自身的湮灭和普攻伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000090
+}

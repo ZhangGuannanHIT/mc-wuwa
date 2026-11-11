@@ -1,0 +1,1222 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140900101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "cartethyia/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "4.78%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.0478,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140900201"
+        },
+        {
+          "count": 1,
+          "damageId": "140900211"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "cartethyia/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "3.94%+3.94%+5.25%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.1313,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "140900301"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16
+      ],
+      "id": "cartethyia/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "4.28%+4.28%+4.28%+4.28%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.1712,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140900401"
+        },
+        {
+          "count": 1,
+          "damageId": "140900402"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        14,
+        18
+      ],
+      "id": "cartethyia/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "2.52%*3+7.54%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.151,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "140900341"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "cartethyia/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "6.85%+6.85%+6.85%+6.85%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.274,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140904101"
+        },
+        {
+          "count": 1,
+          "damageId": "140904111"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "cartethyia/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "2.08%*3+6.24%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.1248,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140902101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cartethyia/air",
+      "name": "空中攻击",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "5.65%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.0565,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140902110"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cartethyia/air_one_sword",
+      "name": "空中攻击回收一剑",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "5.65%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.0565,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140902120"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "cartethyia/air_two_swords",
+      "name": "空中攻击回收二剑",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "3.30%*3",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.099,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140902130"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "cartethyia/air_three_swords",
+      "name": "空中攻击回收三剑",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "11.29%*3",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.3387,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140901101"
+        },
+        {
+          "count": 1,
+          "damageId": "140901110"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "cartethyia/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "6.89%*3+8.86%",
+      "sourceNode": 2,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.2953,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "140900002"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        17,
+        23,
+        28,
+        33,
+        39,
+        44
+      ],
+      "id": "cartethyia/liberation_finale",
+      "name": "看潮怒风哮之刃伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys_c0",
+      "sourceFormula": "13.12%*7",
+      "sourceNode": 3,
+      "sourceParameter": "31",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 0.9184,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140904201"
+        },
+        {
+          "count": 1,
+          "damageId": "140904211"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "id": "cartethyia/intro",
+      "name": "此剑，为潮水的过去伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "cartethyia_c0",
+      "sourceFormula": "2.08%*3+6.24%",
+      "sourceNode": 6,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.1248,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140921401"
+        },
+        {
+          "count": 1,
+          "damageId": "140921402"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_intro",
+      "name": "此剑，为自由的未来伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "4.28%+9.97%",
+      "sourceNode": 6,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.1425,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140920101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "cartethyia/fleurdelys_basic_01",
+      "name": "普攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "6.49%",
+      "sourceNode": 7,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.0649,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140920201"
+        },
+        {
+          "count": 3,
+          "damageId": "140920202"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        11,
+        14
+      ],
+      "id": "cartethyia/fleurdelys_basic_02",
+      "name": "普攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "3.63%+1.82%+1.82%+1.82%",
+      "sourceNode": 7,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.0909,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140920301"
+        },
+        {
+          "count": 1,
+          "damageId": "140920304"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16
+      ],
+      "id": "cartethyia/fleurdelys_basic_03",
+      "name": "普攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "2.13%+2.13%+2.13%+4.26%",
+      "sourceNode": 7,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.1065,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "140920431"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        12,
+        15,
+        18
+      ],
+      "id": "cartethyia/fleurdelys_basic_04",
+      "name": "普攻第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "2.74%*5",
+      "sourceNode": 7,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.137,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140920531"
+        },
+        {
+          "count": 1,
+          "damageId": "140920541"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        18
+      ],
+      "id": "cartethyia/fleurdelys_basic_05",
+      "name": "普攻第五段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "7.20%+28.80%",
+      "sourceNode": 7,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.36,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "140920311"
+        },
+        {
+          "count": 1,
+          "damageId": "140920314"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "3.20%+3.20%+3.20%+6.39%",
+      "sourceNode": 7,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.1599,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140920601"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_uppercut",
+      "name": "上挑攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "4.54%*2",
+      "sourceNode": 7,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.0908,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140921101"
+        },
+        {
+          "count": 1,
+          "damageId": "140921102"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "cartethyia/fleurdelys_heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "4.28%+9.97%",
+      "sourceNode": 7,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.1425,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140921201"
+        },
+        {
+          "count": 1,
+          "damageId": "140921301"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "cartethyia/fleurdelys_heavy_enhanced",
+      "name": "强化重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "7.78%*2+3.89%",
+      "sourceNode": 7,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.1945,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140927101"
+        },
+        {
+          "count": 1,
+          "damageId": "140927105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_air_01",
+      "name": "空中攻击第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "2.99%+2.99%+3.08%",
+      "sourceNode": 7,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.0906,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140927110"
+        },
+        {
+          "count": 1,
+          "damageId": "140927111"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_air_02",
+      "name": "空中攻击第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "7.39%+7.39%+14.77%",
+      "sourceNode": 7,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.2955,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "140927210"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cartethyia/fleurdelys_air_03",
+      "name": "空中攻击第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "2.20%",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.022,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "140925101"
+        },
+        {
+          "count": 1,
+          "damageId": "140925103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_skill",
+      "name": "共鸣技能·此剑为潮浪之意伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "1.86%*4+17.36%",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.248,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cartethyia",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "140925201"
+        },
+        {
+          "count": 3,
+          "damageId": "140925221"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "cartethyia/fleurdelys_skill_followup",
+      "name": "共鸣技能·凭风斩浪破敌伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "fleurdelys",
+      "sourceFormula": "1.86%*2+7.03%*3",
+      "sourceNode": 7,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.2481,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "defiers_thorn"
+    }
+  ],
+  "schemaVersion": 1
+}

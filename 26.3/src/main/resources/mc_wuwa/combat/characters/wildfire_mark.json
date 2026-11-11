@@ -1,0 +1,3380 @@
+{
+  "baseStats": {
+    "attack": 387.5,
+    "defense": 1185.5534,
+    "health": 11912.5
+  },
+  "chains": [
+    {
+      "description": "施放共鸣解放荣光欢酣于火时，露帕额外回复10点协奏能量，暴击提升20%，持续10秒。\n狼舞的决意·极免疫打断。",
+      "name": "看那无名之人",
+      "parameters": [
+        "10",
+        "20%",
+        "10"
+      ],
+      "rawDescription": "施放共鸣解放<color=Highlight>荣光欢酣于火</color>时，露帕额外回复{0}点协奏能量，暴击提升{1}，持续{2}秒。\n<color=Highlight>狼舞的决意·极</color>免疫打断。",
+      "tier": 1
+    },
+    {
+      "description": "施放共鸣解放荣光欢酣于火、重击·狼咬、重击·锐爪、空中攻击·焰袭时，队伍中的角色热熔伤害加成提升20%，持续30秒，可叠加2层。",
+      "name": "所处皆为猎场",
+      "parameters": [
+        "20%",
+        "30",
+        "2"
+      ],
+      "rawDescription": "施放共鸣解放<color=Highlight>荣光欢酣于火</color>、<color=Highlight>重击·狼咬</color>、<color=Highlight>重击·锐爪</color>、<color=Highlight>空中攻击·焰袭</color>时，队伍中的角色热熔伤害加成提升{0}，持续{1}秒，可叠加{2}层。",
+      "tier": 2
+    },
+    {
+      "description": "·变奏技能你无法逃离！的伤害倍率提升100%。\n·共鸣解放追猎额外效果不再需要队伍中的热熔属性角色达到3名。\n·共鸣解放荣光效果替换为：\n施放共鸣解放荣光欢酣于火时，额外获得荣光效果，35秒内：队伍中的角色攻击时无视15%热熔抗性。",
+      "name": "狼影随焰咆哮",
+      "parameters": [
+        "100%",
+        "35",
+        "15%",
+        "3",
+        "1"
+      ],
+      "rawDescription": "·变奏技能<color=Highlight>你无法逃离！</color>的伤害倍率提升{0}。\n·共鸣解放<color=Highlight><te href=850176>追猎</te></color>额外效果不再需要队伍中的热熔属性角色达到{3}名。\n·共鸣解放<color=Highlight><te href=850178>荣光</te></color>效果替换为：\n施放共鸣解放<color=Highlight>荣光欢酣于火</color>时，额外获得<color=Highlight><te href=850178>荣光</te></color>效果，{1}秒内：队伍中的角色攻击时无视{2}热熔抗性。",
+      "tier": 3
+    },
+    {
+      "description": "狼舞的决意·极的伤害倍率提升125%。",
+      "name": "旗帜于火飞扬",
+      "parameters": [
+        "125%"
+      ],
+      "rawDescription": "<color=Highlight>狼舞的决意·极</color>的伤害倍率提升{0}。",
+      "tier": 4
+    },
+    {
+      "description": "施放变奏技能你在看哪里？或你无法逃离！时，共鸣解放伤害加成提升15%，持续10秒。",
+      "name": "胜利让掌声喝彩",
+      "parameters": [
+        "15%",
+        "10"
+      ],
+      "rawDescription": "施放变奏技能<color=Highlight>你在看哪里？</color>或<color=Highlight>你无法逃离！</color>时，共鸣解放伤害加成提升{0}，持续{1}秒。",
+      "tier": 5
+    },
+    {
+      "description": "·共鸣回路狼舞的决意·极、共鸣解放荣光欢酣于火、变奏技能你无法逃离！攻击造成伤害时忽视目标30%防御。\n·施放共鸣技能凶噬命中目标时，回复100点【狼焰】，每20秒可触发一次。\n·共鸣回路狼舞的决意替换为狼舞的决意·极，施放狼舞的决意·极不需要处于赛点沸腾状态。\n·施放变奏技能你无法逃离！不再结束追猎和荣光效果。",
+      "name": "致那最闪耀的焰星",
+      "parameters": [
+        "30%",
+        "100",
+        "20"
+      ],
+      "rawDescription": "·共鸣回路<color=Highlight>狼舞的决意·极</color>、共鸣解放<color=Highlight>荣光欢酣于火</color>、变奏技能<color=Highlight>你无法逃离！</color>攻击造成伤害时忽视目标{0}防御。\n·施放共鸣技能<color=Highlight>凶噬</color>命中目标时，回复{1}点【<te href=850174>狼焰</te>】，每{2}秒可触发一次。\n·共鸣回路<color=Highlight>狼舞的决意</color>替换为<color=Highlight>狼舞的决意·极</color>，施放<color=Highlight>狼舞的决意·极</color>不需要处于<color=Highlight><te href=850177>赛点沸腾</te></color>状态。\n·施放变奏技能<color=Highlight>你无法逃离！</color>不再结束<color=Highlight><te href=850176>追猎</te></color>和<color=Highlight><te href=850178>荣光</te></color>效果。",
+      "tier": 6
+    }
+  ],
+  "characterId": "lupa",
+  "echoId": 6000114,
+  "element": "fusion",
+  "id": "wildfire_mark",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "露帕",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710101",
+          "kind": "basic",
+          "multiplier": 0.2252,
+          "offTuneUnits": 0.2691919191919192,
+          "raw": {
+            "element": 2,
+            "element_power": 67,
+            "energy": 34,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1599,
+            "type": 0,
+            "weakness_lvl": 1066
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2690560323069157,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710102",
+          "kind": "basic",
+          "multiplier": 0.2252,
+          "offTuneUnits": 0.2691919191919192,
+          "raw": {
+            "element": 2,
+            "element_power": 67,
+            "energy": 34,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1133,
+              1226,
+              1319,
+              1449,
+              1542,
+              1649,
+              1797,
+              1946,
+              2094,
+              2252,
+              2438,
+              2624,
+              2810,
+              2995,
+              3181,
+              3367,
+              3553,
+              3738,
+              3924,
+              4110
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1599,
+            "type": 0,
+            "weakness_lvl": 1066
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2690560323069157,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710103",
+          "kind": "basic",
+          "multiplier": 0.4504,
+          "offTuneUnits": 0.5383838383838384,
+          "raw": {
+            "element": 2,
+            "element_power": 134,
+            "energy": 67,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2266,
+              2452,
+              2637,
+              2897,
+              3083,
+              3297,
+              3594,
+              3891,
+              4188,
+              4504,
+              4876,
+              5247,
+              5619,
+              5990,
+              6362,
+              6733,
+              7105,
+              7476,
+              7848,
+              8219
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3198,
+            "type": 0,
+            "weakness_lvl": 2132
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5381120646138314,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710201",
+          "kind": "basic",
+          "multiplier": 0.9008,
+          "offTuneUnits": 1.0767676767676768,
+          "raw": {
+            "element": 2,
+            "element_power": 267,
+            "energy": 134,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4531,
+              4903,
+              5274,
+              5794,
+              6166,
+              6593,
+              7187,
+              7782,
+              8376,
+              9008,
+              9751,
+              10494,
+              11237,
+              11980,
+              12723,
+              13466,
+              14209,
+              14952,
+              15695,
+              16438
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6396,
+            "type": 0,
+            "weakness_lvl": 4264
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0762241292276629,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710301",
+          "kind": "basic",
+          "multiplier": 0.7884,
+          "offTuneUnits": 0.9424242424242424,
+          "raw": {
+            "element": 2,
+            "element_power": 234,
+            "energy": 117,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3966,
+              4291,
+              4616,
+              5071,
+              5396,
+              5770,
+              6291,
+              6811,
+              7331,
+              7884,
+              8534,
+              9184,
+              9835,
+              10485,
+              11135,
+              11786,
+              12436,
+              13086,
+              13737,
+              14387
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5598,
+            "type": 0,
+            "weakness_lvl": 3732
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9419485108531045,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710302",
+          "kind": "basic",
+          "multiplier": 0.1314,
+          "offTuneUnits": 0.15707070707070708,
+          "raw": {
+            "element": 2,
+            "element_power": 39,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              661,
+              716,
+              770,
+              846,
+              900,
+              962,
+              1049,
+              1136,
+              1222,
+              1314,
+              1423,
+              1531,
+              1640,
+              1748,
+              1856,
+              1965,
+              2073,
+              2181,
+              2290,
+              2398
+            ],
+            "related_property": "攻击",
+            "tough_lv": 933,
+            "type": 0,
+            "weakness_lvl": 622
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.15699141847551742,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710401",
+          "kind": "basic",
+          "multiplier": 0.7387,
+          "offTuneUnits": 0.8830808080808081,
+          "raw": {
+            "element": 2,
+            "element_power": 219,
+            "energy": 110,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5246,
+            "type": 0,
+            "weakness_lvl": 3497
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8827191654046778,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710402",
+          "kind": "basic",
+          "multiplier": 0.7387,
+          "offTuneUnits": 0.8830808080808081,
+          "raw": {
+            "element": 2,
+            "element_power": 219,
+            "energy": 110,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3716,
+              4021,
+              4325,
+              4752,
+              5056,
+              5407,
+              5894,
+              6382,
+              6869,
+              7387,
+              7996,
+              8606,
+              9215,
+              9824,
+              10434,
+              11043,
+              11652,
+              12262,
+              12871,
+              13480
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5246,
+            "type": 0,
+            "weakness_lvl": 3497
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8827191654046778,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120710403",
+          "kind": "basic",
+          "multiplier": 0.4925,
+          "offTuneUnits": 0.5886363636363636,
+          "raw": {
+            "element": 2,
+            "element_power": 146,
+            "energy": 73,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2477,
+              2681,
+              2884,
+              3168,
+              3371,
+              3605,
+              3930,
+              4255,
+              4580,
+              4925,
+              5331,
+              5737,
+              6143,
+              6550,
+              6956,
+              7362,
+              7768,
+              8175,
+              8581,
+              8987
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3497,
+            "type": 0,
+            "weakness_lvl": 2331
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5884233552078075,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120720103",
+          "kind": "basic",
+          "multiplier": 0.262,
+          "offTuneUnits": 0.31313131313131315,
+          "raw": {
+            "element": 2,
+            "element_power": 78,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1860,
+            "type": 0,
+            "weakness_lvl": 1240
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3129732458354367,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120720101",
+          "kind": "basic",
+          "multiplier": 0.5239,
+          "offTuneUnits": 0.6262626262626263,
+          "raw": {
+            "element": 2,
+            "element_power": 155,
+            "energy": 78,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2635,
+              2852,
+              3068,
+              3370,
+              3586,
+              3835,
+              4180,
+              4526,
+              4872,
+              5239,
+              5671,
+              6103,
+              6536,
+              6968,
+              7400,
+              7832,
+              8264,
+              8696,
+              9128,
+              9561
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3720,
+            "type": 0,
+            "weakness_lvl": 2480
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.6259464916708734,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120720102",
+          "kind": "basic",
+          "multiplier": 0.262,
+          "offTuneUnits": 0.31313131313131315,
+          "raw": {
+            "element": 2,
+            "element_power": 78,
+            "energy": 39,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1318,
+              1426,
+              1534,
+              1685,
+              1793,
+              1918,
+              2090,
+              2263,
+              2436,
+              2620,
+              2836,
+              3052,
+              3268,
+              3484,
+              3700,
+              3916,
+              4132,
+              4348,
+              4564,
+              4781
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1860,
+            "type": 0,
+            "weakness_lvl": 1240
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3129732458354367,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120730101",
+          "kind": "basic",
+          "multiplier": 0.3418,
+          "offTuneUnits": 0.4085858585858586,
+          "raw": {
+            "element": 2,
+            "element_power": 102,
+            "energy": 51,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1720,
+              1861,
+              2002,
+              2199,
+              2340,
+              2502,
+              2728,
+              2953,
+              3179,
+              3418,
+              3700,
+              3982,
+              4264,
+              4546,
+              4828,
+              5110,
+              5392,
+              5674,
+              5956,
+              6238
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1875,
+            "type": 0,
+            "weakness_lvl": 1618
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3154972236244321,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120730102",
+          "kind": "basic",
+          "multiplier": 1.3672,
+          "offTuneUnits": 1.6343434343434344,
+          "raw": {
+            "element": 2,
+            "element_power": 405,
+            "energy": 203,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6877,
+              7441,
+              8005,
+              8794,
+              9358,
+              10006,
+              10909,
+              11811,
+              12713,
+              13672,
+              14799,
+              15927,
+              17055,
+              18183,
+              19310,
+              20438,
+              21566,
+              22694,
+              23821,
+              24949
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7500,
+            "type": 0,
+            "weakness_lvl": 6472
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.2619888944977284,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740101",
+          "kind": "basic",
+          "multiplier": 0.7673,
+          "offTuneUnits": 0.9171717171717172,
+          "raw": {
+            "element": 2,
+            "element_power": 227,
+            "energy": 114,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3859,
+              4176,
+              4492,
+              4935,
+              5252,
+              5616,
+              6122,
+              6628,
+              7135,
+              7673,
+              8305,
+              8938,
+              9571,
+              10204,
+              10837,
+              11470,
+              12103,
+              12736,
+              13368,
+              14001
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5448,
+            "type": 0,
+            "weakness_lvl": 3632
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9167087329631499,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740201",
+          "kind": "basic",
+          "multiplier": 0.7723,
+          "offTuneUnits": 0.9232323232323232,
+          "raw": {
+            "element": 2,
+            "element_power": 229,
+            "energy": 115,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3885,
+              4204,
+              4522,
+              4968,
+              5287,
+              5653,
+              6162,
+              6672,
+              7182,
+              7723,
+              8360,
+              8997,
+              9634,
+              10272,
+              10909,
+              11546,
+              12183,
+              12820,
+              13457,
+              14094
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5484,
+            "type": 0,
+            "weakness_lvl": 3656
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9227662796567391,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740202",
+          "kind": "basic",
+          "multiplier": 0.1931,
+          "offTuneUnits": 0.2308080808080808,
+          "raw": {
+            "element": 2,
+            "element_power": 58,
+            "energy": 29,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              972,
+              1051,
+              1131,
+              1242,
+              1322,
+              1414,
+              1541,
+              1668,
+              1796,
+              1931,
+              2090,
+              2250,
+              2409,
+              2568,
+              2728,
+              2887,
+              3046,
+              3205,
+              3365,
+              3524
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1371,
+            "type": 0,
+            "weakness_lvl": 914
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.23069156991418477,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740301",
+          "kind": "basic",
+          "multiplier": 0.2848,
+          "offTuneUnits": 0.34040404040404043,
+          "raw": {
+            "element": 2,
+            "element_power": 85,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2022,
+            "type": 0,
+            "weakness_lvl": 1348
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3402322059565876,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740302",
+          "kind": "basic",
+          "multiplier": 0.2848,
+          "offTuneUnits": 0.34040404040404043,
+          "raw": {
+            "element": 2,
+            "element_power": 85,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2022,
+            "type": 0,
+            "weakness_lvl": 1348
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.3402322059565876,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740401",
+          "kind": "heavy",
+          "multiplier": 0.2848,
+          "offTuneUnits": 0.34040404040404043,
+          "raw": {
+            "element": 2,
+            "element_power": 500,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2022,
+            "type": 1,
+            "weakness_lvl": 1348
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.3402322059565876,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120740402",
+          "kind": "heavy",
+          "multiplier": 0.2848,
+          "offTuneUnits": 0.34040404040404043,
+          "raw": {
+            "element": 2,
+            "element_power": 500,
+            "energy": 43,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1433,
+              1550,
+              1668,
+              1832,
+              1950,
+              2085,
+              2272,
+              2460,
+              2648,
+              2848,
+              3083,
+              3318,
+              3553,
+              3788,
+              4022,
+              4257,
+              4492,
+              4727,
+              4962,
+              5197
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2022,
+            "type": 1,
+            "weakness_lvl": 1348
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.3402322059565876,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120750101",
+          "kind": "heavy",
+          "multiplier": 0.5636,
+          "offTuneUnits": 0.6737373737373737,
+          "raw": {
+            "element": 2,
+            "element_power": 167,
+            "energy": 84,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4002,
+            "type": 1,
+            "weakness_lvl": 2668
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.6733972741039879,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120750102",
+          "kind": "heavy",
+          "multiplier": 0.5636,
+          "offTuneUnits": 0.6737373737373737,
+          "raw": {
+            "element": 2,
+            "element_power": 167,
+            "energy": 84,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2835,
+              3068,
+              3300,
+              3626,
+              3858,
+              4125,
+              4497,
+              4869,
+              5241,
+              5636,
+              6101,
+              6566,
+              7031,
+              7496,
+              7961,
+              8426,
+              8891,
+              9355,
+              9820,
+              10285
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4002,
+            "type": 1,
+            "weakness_lvl": 2668
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.6733972741039879,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751101",
+          "kind": "heavy",
+          "multiplier": 0.5611,
+          "offTuneUnits": 0.6707070707070707,
+          "raw": {
+            "element": 2,
+            "element_power": 500,
+            "energy": 83,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3984,
+            "type": 1,
+            "weakness_lvl": 2656
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.6703685007571933,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751102",
+          "kind": "heavy",
+          "multiplier": 0.5611,
+          "offTuneUnits": 0.6707070707070707,
+          "raw": {
+            "element": 2,
+            "element_power": 500,
+            "energy": 83,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2822,
+              3054,
+              3285,
+              3609,
+              3841,
+              4107,
+              4477,
+              4847,
+              5218,
+              5611,
+              6074,
+              6537,
+              6999,
+              7462,
+              7925,
+              8388,
+              8851,
+              9313,
+              9776,
+              10239
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3984,
+            "type": 1,
+            "weakness_lvl": 2656
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.6703685007571933,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751201",
+          "kind": "heavy",
+          "multiplier": 0.7215,
+          "offTuneUnits": 0.8623737373737373,
+          "raw": {
+            "element": 2,
+            "element_power": 300,
+            "energy": 107,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3629,
+              3927,
+              4224,
+              4641,
+              4938,
+              5281,
+              5757,
+              6233,
+              6709,
+              7215,
+              7810,
+              8405,
+              9000,
+              9595,
+              10190,
+              10785,
+              11380,
+              11975,
+              12571,
+              13166
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5825,
+            "type": 1,
+            "weakness_lvl": 3415
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.9801447080599024,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751202",
+          "kind": "heavy",
+          "multiplier": 0.1804,
+          "offTuneUnits": 0.21565656565656566,
+          "raw": {
+            "element": 2,
+            "element_power": 75,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              908,
+              982,
+              1056,
+              1161,
+              1235,
+              1321,
+              1440,
+              1559,
+              1678,
+              1804,
+              1953,
+              2102,
+              2250,
+              2399,
+              2548,
+              2697,
+              2845,
+              2994,
+              3143,
+              3292
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1457,
+            "type": 1,
+            "weakness_lvl": 854
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.24516237590442538,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751203",
+          "kind": "heavy",
+          "multiplier": 0.9619,
+          "offTuneUnits": 1.15,
+          "raw": {
+            "element": 2,
+            "element_power": 400,
+            "energy": 143,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4839,
+              5235,
+              5632,
+              6188,
+              6584,
+              7041,
+              7675,
+              8310,
+              8945,
+              9619,
+              10413,
+              11206,
+              12000,
+              12793,
+              13587,
+              14380,
+              15174,
+              15967,
+              16761,
+              17554
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7767,
+            "type": 1,
+            "weakness_lvl": 4554
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 1.3069156991418476,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120721101",
+          "kind": "basic",
+          "multiplier": 0.1265,
+          "offTuneUnits": 0.15126262626262627,
+          "raw": {
+            "element": 2,
+            "element_power": 38,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "related_property": "攻击",
+            "tough_lv": 558,
+            "type": 0,
+            "weakness_lvl": 599
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.09389197375063099,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120721102",
+          "kind": "basic",
+          "multiplier": 1.1806,
+          "offTuneUnits": 1.4113636363636364,
+          "raw": {
+            "element": 2,
+            "element_power": 350,
+            "energy": 175,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5208,
+            "type": 0,
+            "weakness_lvl": 5589
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8763250883392226,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780201",
+          "kind": "basic",
+          "multiplier": 0.1265,
+          "offTuneUnits": 0.15126262626262627,
+          "raw": {
+            "element": 2,
+            "element_power": 38,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              637,
+              689,
+              741,
+              814,
+              866,
+              926,
+              1010,
+              1093,
+              1177,
+              1265,
+              1370,
+              1474,
+              1578,
+              1683,
+              1787,
+              1891,
+              1996,
+              2100,
+              2204,
+              2309
+            ],
+            "related_property": "攻击",
+            "tough_lv": 558,
+            "type": 0,
+            "weakness_lvl": 599
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.09389197375063099,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780202",
+          "kind": "basic",
+          "multiplier": 1.1806,
+          "offTuneUnits": 1.4113636363636364,
+          "raw": {
+            "element": 2,
+            "element_power": 350,
+            "energy": 175,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5939,
+              6426,
+              6912,
+              7594,
+              8081,
+              8641,
+              9420,
+              10199,
+              10978,
+              11806,
+              12780,
+              13754,
+              14728,
+              15701,
+              16675,
+              17649,
+              18623,
+              19597,
+              20571,
+              21545
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5208,
+            "type": 0,
+            "weakness_lvl": 5589
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8763250883392226,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻\n进行最多4段的连续攻击，造成热熔伤害。\n·在普攻第3段后，恰当时机短按普攻，将会施放空中攻击第1段\n·施放闪避反击、星灭、共鸣技能围猎或共鸣技能凶噬后一定时间内短按普攻，可施放普攻第2段。\n\n重击\n消耗耐力攻击目标，造成热熔伤害。\n\n重击·狼咬\n露帕【狼焰】达到50点时，施放的重击将替换为狼咬，消耗耐力攻击目标，造成热熔伤害。\n·无法回复【狼焰】，施放时消耗50点【狼焰】，获得1点【狼魂】。\n\n重击·锐爪\n露帕【狼焰】达到50点时且持有1点【狼魂】，施放的重击将替换为锐爪，消耗耐力攻击目标，造成热熔伤害。\n·施放空中攻击·焰袭、重击·狼咬后，若露帕【狼焰】达到50点时且持有1点【狼魂】，一定时间内可以短按普攻施放重击·锐爪。\n·无法回复【狼焰】，施放时消耗50点【狼焰】，获得1点【狼魂】。\n\n空中攻击\n消耗耐力进行最多3段空中攻击，造成热熔伤害。空中攻击的连击段数不会被重置。\n\n空中攻击·焰袭\n露帕【狼焰】达到50时，施放的空中攻击第3段将替换为空中攻击·焰袭，消耗耐力攻击目标，造成热熔伤害，此次伤害为重击伤害。\n·无法回复【狼焰】，施放时消耗50点【狼焰】，获得1点【狼魂】。\n\n空中下落攻击\n在空中长按普攻，消耗耐力进行空中下落攻击，造成热熔伤害。施放空中下落攻击后一定时间内，可以短按普攻施放星灭。\n·施放空中攻击第3段或空中攻击·焰袭期间，若施放闪避，则在一定时间内可以短按普攻消耗耐力施放空中下落攻击。\n\n普攻·星灭\n攻击目标，造成热熔伤害。\n\n闪避反击\n成功闪避后一定时间内短按普攻，将会攻击目标，造成热熔伤害。",
+      "headings": [
+        "普攻",
+        "重击",
+        "重击·狼咬",
+        "重击·锐爪",
+        "空中攻击",
+        "空中攻击·焰袭",
+        "空中下落攻击",
+        "普攻·星灭",
+        "闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+      "id": "wildfire_mark/node_1",
+      "name": "燃星",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "第一段伤害",
+          "values": [
+            "22.52%+22.52%+45.04%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "第二段伤害",
+          "values": [
+            "90.08%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "第三段伤害",
+          "values": [
+            "78.84%+13.14%*6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "第四段伤害",
+          "values": [
+            "73.87%+73.87%+49.25%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击伤害",
+          "values": [
+            "56.36%+56.36%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "重击·狼咬伤害",
+          "values": [
+            "56.11%+56.11%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "重击·锐爪伤害",
+          "values": [
+            "72.15%+18.04%*4+96.19%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "空中攻击第一段伤害",
+          "values": [
+            "76.73%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "空中攻击第二段伤害",
+          "values": [
+            "77.23%+19.31%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "空中攻击第三段伤害",
+          "values": [
+            "28.48%+28.48%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "空中攻击·焰袭伤害",
+          "values": [
+            "28.48%+28.48%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "空中下落攻击伤害",
+          "values": [
+            "26.20%+52.39%+26.20%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "13",
+          "name": "普攻·星灭伤害",
+          "values": [
+            "12.65%*4+118.06%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "14",
+          "name": "闪避反击伤害",
+          "values": [
+            "34.18%*4+136.72%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "15",
+          "name": "重击耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "16",
+          "name": "重击·狼咬耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "17",
+          "name": "重击·锐爪耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "18",
+          "name": "空中攻击耐力消耗",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": null,
+          "id": "19",
+          "name": "空中下落攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "20",
+          "name": "空中攻击·焰袭耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻</color></size>\n进行最多4段的连续攻击，造成<color=Fire>热熔伤害</color>。\n·在普攻第3段后，恰当时机短按普攻，将会施放<color=Highlight>空中攻击第1段</color>\n·施放<color=Highlight>闪避反击</color>、<color=Highlight>星灭</color>、共鸣技能<color=Highlight>围猎</color>或共鸣技能<color=Highlight>凶噬</color>后一定时间内短按<color=Highlight>普攻</color>，可施放<color=Highlight>普攻第2段</color>。\n\n<size=40><color=Title>重击</color></size>\n消耗耐力攻击目标，造成<color=Fire>热熔伤害</color>。\n\n<size=40><color=Title>重击·狼咬</color></size>\n露帕【<te href=850174>狼焰</te>】达到{0}点时，施放的<color=Highlight>重击</color>将替换为<color=Highlight>狼咬</color>，消耗耐力攻击目标，造成<color=Fire>热熔伤害</color>。\n·无法回复【<te href=850174>狼焰</te>】，施放时消耗{1}点【<te href=850174>狼焰</te>】，获得{2}点【<te href=850175>狼魂</te>】。\n\n<size=40><color=Title>重击·锐爪</color></size>\n露帕【<te href=850174>狼焰</te>】达到{3}点时且持有{4}点【<te href=850175>狼魂</te>】，施放的<color=Highlight>重击</color>将替换为<color=Highlight>锐爪</color>，消耗耐力攻击目标，造成<color=Fire>热熔伤害</color>。\n·施放<color=Highlight>空中攻击·焰袭</color>、<color=Highlight>重击·狼咬</color>后，若露帕【<te href=850174>狼焰</te>】达到{5}点时且持有{6}点【<te href=850175>狼魂</te>】，一定时间内可以短按<color=Highlight>普攻</color>施放<color=Highlight>重击·锐爪</color>。\n·无法回复【<te href=850174>狼焰</te>】，施放时消耗{7}点【<te href=850174>狼焰</te>】，获得{8}点【<te href=850175>狼魂</te>】。\n\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力进行最多3段空中攻击，造成<color=Fire>热熔伤害</color>。<color=Highlight>空中攻击</color>的连击段数不会被重置。\n\n<size=40><color=Title>空中攻击·焰袭</color></size>\n露帕【<te href=850174>狼焰</te>】达到{9}时，施放的<color=Highlight>空中攻击第3段</color>将替换为<color=Highlight>空中攻击·焰袭</color>，消耗耐力攻击目标，造成<color=Fire>热熔伤害</color>，此次伤害为重击伤害。\n·无法回复【<te href=850174>狼焰</te>】，施放时消耗{10}点【<te href=850174>狼焰</te>】，获得{11}点【<te href=850175>狼魂</te>】。\n\n<size=40><color=Title>空中下落攻击</color></size>\n在空中长按普攻，消耗耐力进行空中下落攻击，造成<color=Fire>热熔伤害</color>。施放<color=Highlight>空中下落攻击</color>后一定时间内，可以短按普攻施放<color=Highlight>星灭</color>。\n·施放<color=Highlight>空中攻击第3段</color>或<color=Highlight>空中攻击·焰袭</color>期间，若施放<color=Highlight>闪避</color>，则在一定时间内可以短按<color=Highlight>普攻</color>消耗耐力施放<color=Highlight>空中下落攻击</color>。\n\n<size=40><color=Title>普攻·星灭</color></size>\n攻击目标，造成<color=Fire>热熔伤害</color>。\n\n<size=40><color=Title>闪避反击</color></size>\n成功闪避后一定时间内短按普攻，将会攻击目标，造成<color=Fire>热熔伤害</color>。",
+      "rawParameters": [
+        "50",
+        "50",
+        "1",
+        "50",
+        "1",
+        "50",
+        "1",
+        "50",
+        "1",
+        "50",
+        "50",
+        "1"
+      ],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120760102",
+          "kind": "skill",
+          "multiplier": 1.4077,
+          "offTuneUnits": 1.6828282828282828,
+          "raw": {
+            "element": 2,
+            "element_power": 417,
+            "energy": 209,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7081,
+              7662,
+              8242,
+              9055,
+              9636,
+              10303,
+              11232,
+              12161,
+              13090,
+              14077,
+              15238,
+              16400,
+              17561,
+              18722,
+              19883,
+              21044,
+              22206,
+              23367,
+              24528,
+              25689
+            ],
+            "related_property": "攻击",
+            "tough_lv": 9996,
+            "type": 4,
+            "weakness_lvl": 6664
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6819787985865724,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120760201",
+          "kind": "skill",
+          "multiplier": 3.1361,
+          "offTuneUnits": 1.3454545454545455,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 1367,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              15774,
+              17068,
+              18361,
+              20172,
+              21466,
+              22953,
+              25023,
+              27092,
+              29162,
+              31361,
+              33948,
+              36535,
+              39122,
+              41709,
+              44295,
+              46882,
+              49469,
+              52056,
+              54643,
+              57230
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 4,
+            "weakness_lvl": 5328
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120760211",
+          "kind": "skill",
+          "multiplier": 4.7041,
+          "offTuneUnits": 1.3454545454545455,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 1367,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              23661,
+              25602,
+              27542,
+              30258,
+              32198,
+              34430,
+              37534,
+              40638,
+              43743,
+              47041,
+              50921,
+              54802,
+              58682,
+              62563,
+              66443,
+              70323,
+              74204,
+              78084,
+              81965,
+              85845
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 4,
+            "weakness_lvl": 5328
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "露帕向目标投掷焰旗，施放期间回复15点【狼焰】，造成热熔伤害，并标记目标，持续8秒。在施放共鸣技能围猎后的一定时间内，可以施放凶噬。\n可在低空中施放。\n·长按共鸣技能，露帕会跃向空中，一定时间内短按普攻将会施放空中攻击第1段。\n\n共鸣技能·凶噬\n露帕追击目标，施放期间回复15点【狼焰】，造成热熔伤害，并对标记的目标伤害倍率提升50%。若一定时间内没有施放共鸣技能凶噬或者切换至其他角色，则技能进入冷却状态。\n可在低空中施放。",
+      "headings": [
+        "共鸣技能·凶噬"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaB1.SP_IconLupaB1",
+      "id": "wildfire_mark/node_2",
+      "name": "围猎",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "140.77%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "凶噬伤害",
+          "values": [
+            "313.61%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "冷却时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "derivedFromDescription": "独立C链原始替换行；不得再次乘同一C链倍率",
+          "id": "ferocious_marked",
+          "name": "凶噬·标记目标原始增强行",
+          "values": [
+            "470.41%"
+          ]
+        }
+      ],
+      "rawDescription": "露帕向目标投掷焰旗，施放期间回复{0}点【<te href=850174>狼焰</te>】，造成<color=Fire>热熔伤害</color>，并<color=Highlight>标记</color>目标，持续{1}秒。在施放共鸣技能<color=Highlight>围猎</color>后的一定时间内，可以施放<color=Highlight>凶噬</color>。\n可在低空中施放。\n·长按共鸣技能，露帕会跃向空中，一定时间内短按<color=Highlight>普攻</color>将会施放<color=Highlight>空中攻击第1段</color>。\n\n<size=40><color=Title>共鸣技能·凶噬</color></size>\n露帕追击目标，施放期间回复{2}点【<te href=850174>狼焰</te>】，造成<color=Fire>热熔伤害</color>，并对<color=Highlight>标记</color>的目标伤害倍率提升{3}。若一定时间内没有施放共鸣技能凶噬或者切换至其他角色，则技能进入冷却状态。\n可在低空中施放。",
+      "rawParameters": [
+        "15",
+        "8",
+        "15",
+        "50%"
+      ],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120761101",
+          "kind": "skill",
+          "multiplier": 3.0446,
+          "offTuneUnits": 1.6282828282828283,
+          "raw": {
+            "element": 2,
+            "element_power": 2000,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              15314,
+              16570,
+              17826,
+              19584,
+              20840,
+              22284,
+              24293,
+              26302,
+              28311,
+              30446,
+              32958,
+              35469,
+              37981,
+              40492,
+              43004,
+              45515,
+              48027,
+              50538,
+              53050,
+              55561
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 4,
+            "weakness_lvl": 6448
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120790101",
+          "kind": "liberation",
+          "multiplier": 8.2044,
+          "offTuneUnits": 12.121212121212121,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              41268,
+              44652,
+              48036,
+              52773,
+              56157,
+              60048,
+              65463,
+              70877,
+              76291,
+              82044,
+              88812,
+              95579,
+              102347,
+              109115,
+              115883,
+              122651,
+              129419,
+              136186,
+              142954,
+              149722
+            ],
+            "related_property": "攻击",
+            "tough_lv": 40000,
+            "type": 2,
+            "weakness_lvl": 48000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 6.730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成热熔伤害，施放时清除所有【狼魂】，并回复100点【狼焰】，一定时间内短按普攻或共鸣技能可以施放共鸣技能破敌。\n可在低空中施放。\n施放该技能时，露帕将强化自身和队友，35秒内：\n·队伍中的角色获得追猎效果。\n·若队伍中登场角色处于受击或被击飞状态中，将会立刻自动脱离受击状态或被击飞状态，若此时处于地面则视为闪避成功。该效果最多可触发3次。\n\n追猎\n持有追猎的角色攻击提升6%，且攻击怒涛级或海啸级目标时热熔伤害加成提升10%，无法叠加。若队伍中的热熔属性角色达到3名时，攻击怒涛级或海啸级目标时的热熔伤害加成效果额外增加10%。队伍中登场角色施放变奏技能时，会强化追猎效果，队伍中的角色追猎的攻击提升效果额外增加6%，上限为18%。\n露帕追猎效果达到上限后，在追猎持续时间内，进入追杀状态，可施放变奏技能你无法逃离！。同一个追猎仅可进入一次追杀状态。\n\n共鸣技能·破敌\n消耗所有【狼焰】，造成热熔伤害。\n施放破敌时，进入赛点沸腾状态。\n\n赛点沸腾\n常态攻击命中时获取【狼焰】效率提升500%，且无法施放共鸣技能围猎、共鸣技能凶噬。",
+      "headings": [
+        "追猎",
+        "共鸣技能·破敌",
+        "赛点沸腾"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaC1.SP_IconLupaC1",
+      "id": "wildfire_mark/node_3",
+      "name": "荣光欢酣于火",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "820.44%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "破敌伤害",
+          "values": [
+            "304.46%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "赛点沸腾持续时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "4",
+          "name": "冷却时间",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Fire>热熔伤害</color>，施放时清除所有【<te href=850175>狼魂</te>】，并回复{0}点【<te href=850174>狼焰</te>】，一定时间内短按普攻或共鸣技能可以施放共鸣技能<color=Highlight>破敌</color>。\n可在低空中施放。\n施放该技能时，露帕将强化自身和队友，{1}秒内：\n·队伍中的角色获得<color=Highlight>追猎</color>效果。\n·若队伍中登场角色处于受击或被击飞状态中，将会立刻自动脱离受击状态或被击飞状态，若此时处于地面则视为闪避成功。该效果最多可触发3次。\n\n<size=40><color=Title>追猎</color></size>\n持有<color=Highlight>追猎</color>的角色攻击提升{2}，且攻击怒涛级或海啸级目标时热熔伤害加成提升{3}，无法叠加。若队伍中的热熔属性角色达到{7}名时，攻击怒涛级或海啸级目标时的热熔伤害加成效果额外增加{8}。队伍中登场角色施放<color=Highlight>变奏技能</color>时，会强化追猎效果，队伍中的角色<color=Highlight>追猎</color>的攻击提升效果额外增加{4}，上限为{5}。\n露帕<color=Highlight>追猎</color>效果达到上限后，在<color=Highlight>追猎</color>持续时间内，进入<color=Highlight>追杀状态</color>，可施放变奏技能<color=Highlight>你无法逃离！</color>。同一个<color=Highlight>追猎</color>仅可进入一次<color=Highlight>追杀状态</color>。\n\n<size=40><color=Title>共鸣技能·破敌</color></size>\n消耗所有【<te href=850174>狼焰</te>】，造成<color=Fire>热熔伤害</color>。\n施放<color=Highlight>破敌</color>时，进入<color=Highlight>赛点沸腾</color>状态。\n\n<size=40><color=Title>赛点沸腾</color></size>\n常态攻击命中时获取【<te href=850174>狼焰</te>】效率提升{6}，且无法施放共鸣技能<color=Highlight>围猎</color>、共鸣技能<color=Highlight>凶噬</color>。",
+      "rawParameters": [
+        "100",
+        "35",
+        "6%",
+        "10%",
+        "6%",
+        "18%",
+        "500%",
+        "3",
+        "10%"
+      ],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "露帕保持冲刺状态2.5秒后，进入加速冲刺状态，下一次常态攻击普攻替换为普攻·星灭。\n重击·狼咬、重击·锐爪、空中攻击·焰袭抗打断能力提升。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD1.SP_IconLupaD1",
+      "id": "wildfire_mark/node_4",
+      "name": "记住我的名字",
+      "parameters": [],
+      "rawDescription": "露帕保持冲刺状态{0}秒后，进入加速冲刺状态，下一次常态攻击<color=Highlight>普攻</color>替换为<color=Highlight>普攻·星灭</color>。\n<color=Highlight>重击·狼咬</color>、<color=Highlight>重击·锐爪</color>、<color=Highlight>空中攻击·焰袭</color>抗打断能力提升。",
+      "rawParameters": [
+        "2.5"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "露帕击杀受到标记的目标时，重置共鸣技能围猎的冷却时间。\n\n共鸣解放·荣光\n施放共鸣解放荣光欢酣于火时，额外获得荣光效果，35秒内：\n队伍中的角色攻击时无视3%热熔抗性，并且队伍中每有一名除露帕外的热熔属性角色，无视热熔抗性效果增加3%，上限为9%，当队伍中的热熔属性角色达到3名时，无视热熔抗性的效果额外增加6%。",
+      "headings": [
+        "共鸣解放·荣光"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaD2.SP_IconLupaD2",
+      "id": "wildfire_mark/node_5",
+      "name": "胜利为我呼嚎",
+      "parameters": [],
+      "rawDescription": "露帕击杀受到<color=Highlight>标记</color>的目标时，重置共鸣技能<color=Highlight>围猎</color>的冷却时间。\n\n<size=40><color=Title>共鸣解放·荣光</color></size>\n施放共鸣解放<color=Highlight>荣光欢酣于火</color>时，额外获得<color=Highlight>荣光</color>效果，{0}秒内：\n队伍中的角色攻击时无视{1}热熔抗性，并且队伍中每有一名除露帕外的热熔属性角色，无视热熔抗性效果增加{2}，上限为{3}，当队伍中的热熔属性角色达到{4}名时，无视热熔抗性的效果额外增加{5}。",
+      "rawParameters": [
+        "35",
+        "3%",
+        "3%",
+        "9%",
+        "3",
+        "6%"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780001",
+          "kind": "intro",
+          "multiplier": 0.2976,
+          "offTuneUnits": 0.3558080808080808,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 150,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1497,
+              1620,
+              1743,
+              1915,
+              2037,
+              2179,
+              2375,
+              2571,
+              2768,
+              2976,
+              3222,
+              3467,
+              3713,
+              3958,
+              4204,
+              4449,
+              4695,
+              4940,
+              5186,
+              5431
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2114,
+            "type": 3,
+            "weakness_lvl": 1409
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.35571260306242636,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780002",
+          "kind": "intro",
+          "multiplier": 0.4216,
+          "offTuneUnits": 0.5040404040404041,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 213,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2121,
+              2295,
+              2469,
+              2712,
+              2886,
+              3086,
+              3364,
+              3643,
+              3921,
+              4216,
+              4564,
+              4912,
+              5260,
+              5607,
+              5955,
+              6303,
+              6651,
+              6998,
+              7346,
+              7694
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2994,
+            "type": 3,
+            "weakness_lvl": 1996
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.5037859666834932,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780101",
+          "kind": "liberation",
+          "multiplier": 7.9357,
+          "offTuneUnits": 3.2323232323232323,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              39916,
+              43190,
+              46463,
+              51045,
+              54318,
+              58082,
+              63319,
+              68556,
+              73793,
+              79357,
+              85904,
+              92450,
+              98996,
+              105542,
+              112089,
+              118635,
+              125181,
+              131727,
+              138274,
+              144820
+            ],
+            "related_property": "攻击",
+            "tough_lv": 11271,
+            "type": 2,
+            "weakness_lvl": 12800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.8965169106511863,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780102",
+          "kind": "liberation",
+          "multiplier": 0.496,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2495,
+              2700,
+              2904,
+              3191,
+              3395,
+              3631,
+              3958,
+              4285,
+              4613,
+              4960,
+              5369,
+              5779,
+              6188,
+              6597,
+              7006,
+              7415,
+              7824,
+              8233,
+              8643,
+              9052
+            ],
+            "related_property": "攻击",
+            "tough_lv": 705,
+            "type": 2,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.11862695608278648,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780111",
+          "kind": "liberation",
+          "multiplier": 15.8714,
+          "offTuneUnits": 3.2323232323232323,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              79832,
+              86379,
+              92925,
+              102090,
+              108636,
+              116164,
+              126638,
+              137112,
+              147586,
+              158714,
+              171807,
+              184899,
+              197992,
+              211084,
+              224177,
+              237269,
+              250362,
+              263454,
+              276547,
+              289639
+            ],
+            "related_property": "攻击",
+            "tough_lv": 11271,
+            "type": 2,
+            "weakness_lvl": 12800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.8965169106511863,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120780112",
+          "kind": "liberation",
+          "multiplier": 0.992,
+          "offTuneUnits": 0.20202020202020202,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 50,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4990,
+              5399,
+              5808,
+              6381,
+              6790,
+              7261,
+              7915,
+              8570,
+              9225,
+              9920,
+              10738,
+              11557,
+              12375,
+              13193,
+              14012,
+              14830,
+              15648,
+              16466,
+              17285,
+              18103
+            ],
+            "related_property": "攻击",
+            "tough_lv": 705,
+            "type": 2,
+            "weakness_lvl": 800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.11862695608278648,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成热熔伤害。施放变奏技能你在看哪里？后，可以短按普攻施放空中攻击第3段。\n\n你无法逃离！\n当露帕处于追杀状态时，下一次变奏技能替换为你无法逃离！。施放你无法逃离！时，清除队伍中所有角色追猎和荣光效果，造成热熔伤害，此次伤害为共鸣解放伤害。",
+      "headings": [
+        "你无法逃离！"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaQTE.SP_IconLupaQTE",
+      "id": "wildfire_mark/node_6",
+      "name": "你在看哪里？",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "29.76%+42.16%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "你无法逃离！伤害",
+          "values": [
+            "793.57%+49.60%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "你无法逃离！回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "derivedFromDescription": "独立C链原始替换行；不得再次乘同一C链倍率",
+          "id": "pursuit_c3",
+          "name": "你无法逃离！·三链原始替换行",
+          "values": [
+            "1587.14%+99.20%*4"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Fire>热熔伤害</color>。施放变奏技能<color=Highlight>你在看哪里？</color>后，可以短按<color=Highlight>普攻</color>施放<color=Highlight>空中攻击第3段</color>。\n\n<size=40><color=Title>你无法逃离！</color></size>\n当露帕处于<color=Highlight>追杀状态</color>时，下一次变奏技能替换为<color=Highlight>你无法逃离！</color>。施放<color=Highlight>你无法逃离！</color>时，清除队伍中所有角色<color=Highlight><te href=850176>追猎</te></color>和<color=Highlight><te href=850178>荣光</te></color>效果，造成<color=Fire>热熔伤害</color>，此次伤害为共鸣解放伤害。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751301",
+          "kind": "liberation",
+          "multiplier": 0.7563,
+          "offTuneUnits": 1.3742424242424243,
+          "raw": {
+            "element": 2,
+            "element_power": 300,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3804,
+              4116,
+              4428,
+              4865,
+              5177,
+              5535,
+              6034,
+              6534,
+              7033,
+              7563,
+              8187,
+              8810,
+              9434,
+              10058,
+              10682,
+              11306,
+              11930,
+              12553,
+              13177,
+              13801
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 2,
+            "weakness_lvl": 5442
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751302",
+          "kind": "liberation",
+          "multiplier": 0.5672,
+          "offTuneUnits": 1.0305555555555554,
+          "raw": {
+            "element": 2,
+            "element_power": 225,
+            "energy": 225,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2853,
+              3087,
+              3321,
+              3649,
+              3883,
+              4152,
+              4526,
+              4900,
+              5275,
+              5672,
+              6140,
+              6608,
+              7076,
+              7544,
+              8012,
+              8479,
+              8947,
+              9415,
+              9883,
+              10351
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1500,
+            "type": 2,
+            "weakness_lvl": 4081
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.2523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751303",
+          "kind": "liberation",
+          "multiplier": 4.5375,
+          "offTuneUnits": 8.244949494949495,
+          "raw": {
+            "element": 2,
+            "element_power": 1800,
+            "energy": 1800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              22823,
+              24695,
+              26566,
+              29186,
+              31058,
+              33210,
+              36204,
+              39199,
+              42193,
+              45375,
+              49117,
+              52860,
+              56603,
+              60346,
+              64089,
+              67832,
+              71575,
+              75318,
+              79061,
+              82804
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 2,
+            "weakness_lvl": 32650
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751311",
+          "kind": "liberation",
+          "multiplier": 1.7016,
+          "offTuneUnits": 1.3742424242424243,
+          "raw": {
+            "element": 2,
+            "element_power": 300,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8559,
+              9261,
+              9963,
+              10945,
+              11647,
+              12454,
+              13577,
+              14700,
+              15823,
+              17016,
+              18419,
+              19823,
+              21227,
+              22630,
+              24034,
+              25437,
+              26841,
+              28245,
+              29648,
+              31052
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 2,
+            "weakness_lvl": 5442
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751312",
+          "kind": "liberation",
+          "multiplier": 1.2762,
+          "offTuneUnits": 1.0305555555555554,
+          "raw": {
+            "element": 2,
+            "element_power": 225,
+            "energy": 225,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6419,
+              6946,
+              7472,
+              8209,
+              8735,
+              9341,
+              10183,
+              11025,
+              11867,
+              12762,
+              13815,
+              14867,
+              15920,
+              16973,
+              18025,
+              19078,
+              20131,
+              21184,
+              22236,
+              23289
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1500,
+            "type": 2,
+            "weakness_lvl": 4081
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.2523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120751313",
+          "kind": "liberation",
+          "multiplier": 10.2092,
+          "offTuneUnits": 8.244949494949495,
+          "raw": {
+            "element": 2,
+            "element_power": 1800,
+            "energy": 1800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              51352,
+              55563,
+              59773,
+              65669,
+              69879,
+              74722,
+              81459,
+              88196,
+              94934,
+              102092,
+              110514,
+              118935,
+              127357,
+              135778,
+              144200,
+              152622,
+              161043,
+              169465,
+              177887,
+              186308
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 2,
+            "weakness_lvl": 32650
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120761201",
+          "kind": "liberation",
+          "multiplier": 0.5602,
+          "offTuneUnits": 0.40454545454545454,
+          "raw": {
+            "element": 2,
+            "element_power": 150,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2818,
+              3049,
+              3280,
+              3604,
+              3835,
+              4100,
+              4470,
+              4840,
+              5209,
+              5602,
+              6064,
+              6526,
+              6989,
+              7451,
+              7913,
+              8375,
+              8837,
+              9299,
+              9761,
+              10223
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2000,
+            "type": 2,
+            "weakness_lvl": 1602
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.3365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120761202",
+          "kind": "liberation",
+          "multiplier": 0.4202,
+          "offTuneUnits": 0.30328282828282827,
+          "raw": {
+            "element": 2,
+            "element_power": 113,
+            "energy": 225,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2114,
+              2287,
+              2460,
+              2703,
+              2876,
+              3075,
+              3353,
+              3630,
+              3907,
+              4202,
+              4548,
+              4895,
+              5242,
+              5588,
+              5935,
+              6281,
+              6628,
+              6974,
+              7321,
+              7667
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1500,
+            "type": 2,
+            "weakness_lvl": 1201
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.2523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120761203",
+          "kind": "liberation",
+          "multiplier": 3.3611,
+          "offTuneUnits": 2.426767676767677,
+          "raw": {
+            "element": 2,
+            "element_power": 900,
+            "energy": 1800,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              16906,
+              18293,
+              19679,
+              21620,
+              23006,
+              24600,
+              26818,
+              29036,
+              31254,
+              33611,
+              36383,
+              39156,
+              41929,
+              44701,
+              47474,
+              50246,
+              53019,
+              55791,
+              58564,
+              61336
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 2,
+            "weakness_lvl": 9610
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120790202",
+          "kind": "skill",
+          "multiplier": 0.4235,
+          "offTuneUnits": 0.48484848484848486,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2131,
+              2305,
+              2480,
+              2725,
+              2899,
+              3100,
+              3380,
+              3659,
+              3938,
+              4235,
+              4585,
+              4934,
+              5283,
+              5633,
+              5982,
+              6331,
+              6681,
+              7030,
+              7379,
+              7729
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 1920
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "fusion",
+          "id": "120790203",
+          "kind": "skill",
+          "multiplier": 1.694,
+          "offTuneUnits": 1.9393939393939394,
+          "raw": {
+            "element": 2,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8521,
+              9220,
+              9918,
+              10897,
+              11595,
+              12399,
+              13517,
+              14634,
+              15752,
+              16940,
+              18337,
+              19735,
+              21132,
+              22530,
+              23927,
+              25324,
+              26722,
+              28119,
+              29516,
+              30914
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 4,
+            "weakness_lvl": 7680
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "燃旗\n露帕在进行以下操作时，攻击提升12%，持续8秒。\n·施放共鸣技能凶噬期间。\n·施放重击·狼咬、重击·锐爪或空中攻击·焰袭期间。\n·施放共鸣解放荣光欢酣于火期间。\n·施放狼舞的决意、狼舞的决意·极期间。\n\n共鸣技能·狼舞的决意\n【狼魂】达到2点时，共鸣技能替换为狼舞的决意。施放狼舞的决意时，消耗所有【狼魂】，造成热熔伤害，此次伤害为共鸣解放伤害。\n可在低空中施放。\n\n共鸣技能·狼舞的决意·极\n【狼魂】达到2点且处于赛点沸腾状态时，共鸣技能替换为狼舞的决意·极。施放狼舞的决意·极时，消耗所有【狼魂】，并失去赛点沸腾状态，造成热熔伤害，此次伤害为共鸣解放伤害。\n可在低空中施放。\n\n共鸣技能·此刻，让火焰延燃赛场\n施放狼舞的决意或狼舞的决意·极时的8秒内，若切换至其他角色，露帕会停留在场上，当队友施放共鸣解放时，会协助队友进行攻击，造成热熔伤害，此次伤害为共鸣技能伤害，最多可触发1次。\n\n【狼焰】获取规则\n【狼焰】上限100点\n常态攻击命中目标时，回复【狼焰】。\n共鸣技能施放期间，回复【狼焰】。\n共鸣解放施放时，回复【狼焰】。\n\n【狼魂】获取规则\n【狼魂】上限2点\n【狼魂】持续10秒，重复获得时刷新时间，持续时间结束后，每点未消耗的【狼魂】返还50点【狼焰】。\n施放重击·狼咬、重击·锐爪、空中攻击·焰袭时，获得1点。",
+      "headings": [
+        "燃旗",
+        "共鸣技能·狼舞的决意",
+        "共鸣技能·狼舞的决意·极",
+        "共鸣技能·此刻，让火焰延燃赛场",
+        "【狼焰】获取规则",
+        "【狼魂】获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaY.SP_IconLupaY",
+      "id": "wildfire_mark/node_7",
+      "name": "焰狼宣告",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "狼舞的决意伤害",
+          "values": [
+            "56.02%+42.02%*4+336.11%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "狼舞的决意·极伤害",
+          "values": [
+            "75.63%+56.72%*4+453.75%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "此刻，让火焰延燃赛场伤害",
+          "values": [
+            "42.35%+169.40%"
+          ]
+        },
+        {
+          "derivedFromDescription": "独立C链原始替换行；不得再次乘同一C链倍率",
+          "id": "wolf_dance_extreme_c4",
+          "name": "狼舞的决意·极·四链原始替换行",
+          "values": [
+            "170.16%+127.62%*4+1020.92%"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>燃旗</color></size>\n露帕在进行以下操作时，攻击提升{0}，持续{1}秒。\n·施放共鸣技能<color=Highlight>凶噬</color>期间。\n·施放<color=Highlight>重击·狼咬</color>、<color=Highlight>重击·锐爪</color>或<color=Highlight>空中攻击·焰袭</color>期间。\n·施放共鸣解放<color=Highlight>荣光欢酣于火</color>期间。\n·施放<color=Highlight>狼舞的决意</color>、<color=Highlight>狼舞的决意·极</color>期间。\n\n<size=40><color=Title>共鸣技能·狼舞的决意</color></size>\n【<te href=850175>狼魂</te>】达到{2}点时，共鸣技能替换为<color=Highlight>狼舞的决意</color>。施放<color=Highlight>狼舞的决意</color>时，消耗所有【<te href=850175>狼魂</te>】，造成<color=Fire>热熔伤害</color>，此次伤害为共鸣解放伤害。\n可在低空中施放。\n\n<size=40><color=Title>共鸣技能·狼舞的决意·极</color></size>\n【<te href=850175>狼魂</te>】达到{3}点且处于<color=Highlight><te href=850177>赛点沸腾</te></color>状态时，共鸣技能替换为<color=Highlight>狼舞的决意·极</color>。施放<color=Highlight>狼舞的决意·极</color>时，消耗所有【<te href=850175>狼魂</te>】，并失去<color=Highlight><te href=850177>赛点沸腾</te></color>状态，造成<color=Fire>热熔伤害</color>，此次伤害为共鸣解放伤害。\n可在低空中施放。\n\n<size=40><color=Title>共鸣技能·此刻，让火焰延燃赛场</color></size>\n施放<color=Highlight>狼舞的决意</color>或<color=Highlight>狼舞的决意·极</color>时的{4}秒内，若切换至其他角色，露帕会停留在场上，当队友施放<color=Highlight>共鸣解放</color>时，会协助队友进行攻击，造成<color=Fire>热熔伤害</color>，此次伤害为共鸣技能伤害，最多可触发1次。\n\n<size=40><color=Title>【狼焰】获取规则</color></size>\n【狼焰】上限{5}点\n常态攻击命中目标时，回复【狼焰】。\n共鸣技能施放期间，回复【狼焰】。\n共鸣解放施放时，回复【狼焰】。\n\n<size=40><color=Title>【狼魂】获取规则</color></size>\n【狼魂】上限{6}点\n【狼魂】持续{7}秒，重复获得时刷新时间，持续时间结束后，每点未消耗的【狼魂】返还{8}点【狼焰】。\n施放<color=Highlight>重击·狼咬</color>、<color=Highlight>重击·锐爪</color>、<color=Highlight>空中攻击·焰袭</color>时，获得{9}点。",
+      "rawParameters": [
+        "12%",
+        "8",
+        "2",
+        "2",
+        "8",
+        "100",
+        "2",
+        "10",
+        "50",
+        "1"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "下一位登场角色热熔伤害加深20%，普攻伤害加深25%，效果持续14秒，若切换至其他角色则该效果提前结束。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconLupa/SP_IconLupaT.SP_IconLupaT",
+      "id": "wildfire_mark/node_8",
+      "name": "搭档啊，与我并肩",
+      "parameters": [],
+      "rawDescription": "下一位登场角色热熔伤害加深{0}，普攻伤害加深{1}，效果持续{2}秒，若切换至其他角色则该效果提前结束。",
+      "rawParameters": [
+        "20%",
+        "25%",
+        "14"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "wildfire_mark/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "wildfire_mark/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "wildfire_mark/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "wildfire_mark/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "wildfire_mark/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "wildfire_mark/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "wildfire_mark/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "wildfire_mark/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
+      "id": "wildfire_mark/node_17",
+      "name": "谐度破坏·长刃",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    18,
+    18,
+    18,
+    18,
+    18
+  ],
+  "sourceId": 1207,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1207.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "闪耀星火",
+    "name": "焰痕",
+    "refinements": [
+      {
+        "description": "攻击提升12%。施放变奏技能或共鸣解放时，共鸣解放伤害提升24%，持续6秒；造成重击伤害时，该效果延长4秒，最多可延长1次。成功延长效果时，使队伍中的角色热熔伤害加成提升24%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "12%",
+          "24%",
+          "6",
+          "4",
+          "1",
+          "24%",
+          "30"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "攻击提升15%。施放变奏技能或共鸣解放时，共鸣解放伤害提升30%，持续6秒；造成重击伤害时，该效果延长4秒，最多可延长1次。成功延长效果时，使队伍中的角色热熔伤害加成提升30%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "15%",
+          "30%",
+          "6",
+          "4",
+          "1",
+          "30%",
+          "30"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "攻击提升18%。施放变奏技能或共鸣解放时，共鸣解放伤害提升36%，持续6秒；造成重击伤害时，该效果延长4秒，最多可延长1次。成功延长效果时，使队伍中的角色热熔伤害加成提升36%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "18%",
+          "36%",
+          "6",
+          "4",
+          "1",
+          "36%",
+          "30"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "攻击提升21%。施放变奏技能或共鸣解放时，共鸣解放伤害提升42%，持续6秒；造成重击伤害时，该效果延长4秒，最多可延长1次。成功延长效果时，使队伍中的角色热熔伤害加成提升42%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "21%",
+          "42%",
+          "6",
+          "4",
+          "1",
+          "42%",
+          "30"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "攻击提升24%。施放变奏技能或共鸣解放时，共鸣解放伤害提升48%，持续6秒；造成重击伤害时，该效果延长4秒，最多可延长1次。成功延长效果时，使队伍中的角色热熔伤害加成提升48%，持续30秒，同名效果之间不可叠加。",
+        "parameters": [
+          "24%",
+          "48%",
+          "6",
+          "4",
+          "1",
+          "48%",
+          "30"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21010036,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 587.5,
+        "value": 587.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击伤害",
+        "rawValue": 4860.0,
+        "value": 0.486
+      }
+    ]
+  },
+  "weaponType": 1
+}

@@ -1,0 +1,2275 @@
+{
+  "schemaVersion": 1,
+  "characterId": "yangyang_xuanling",
+  "weaponId": "mc_wuwa:azure_oath",
+  "palette": [
+    90,
+    151,
+    191
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1610",
+    "data-source/nanoka/3.7/zh/character/1610.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousRemainingNormalChain": {
+        "source": "docs/reference/base-combat-motion/remaining-five/source.json",
+        "scope": "All14 sampled normal-card pages inspected; continuous MC joint adaptation on existing hit clocks, not exact original stage timing",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/heavy/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "heavyStanceObservation": {
+        "source": "docs/reference/xuanling-heavy/source.json; full-00.jpg through full-03.jpg",
+        "scope": "Complete 7.6-second official two-panel card inspected at 0.2-second intervals. Grounded circular release and feather lift/fall differentiated; retained MC phase timing, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/air/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.376,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/skill/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "stanceEntryObservation": {
+        "source": "docs/reference/xuanling-skill-intro/source.json",
+        "scope": "All 43 frames of skill card and all 49 frames of intro card inspected. Skill cards include preceding basic attacks: only switch segment informs these poses. Original cameras are not reproduced. Body phases adapted to retained MC contacts, not native skeletal timing.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/liberation/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 4.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/yangyang_xuanling-2.gif",
+        "scope": "complete archived GIF quarter-second timeline reviewed; distinct FP gesture and TP body; MC clock fit, not frame-exact reconstruction",
+        "acceptance": "native review pending"
+      },
+      "sourceReviewedClock": {
+        "durationTicks": 100,
+        "hitTimesTicks": [
+          85
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.425
+          ],
+          [
+            0.25,
+            0.85
+          ],
+          [
+            0.52,
+            0.907
+          ],
+          [
+            0.82,
+            0.9475
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/existing-roles/yangyang_xuanling-2.gif",
+        "observedActiveSeconds": [
+          0.75,
+          5.75
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/intro/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 5,
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "stanceEntryObservation": {
+        "source": "docs/reference/xuanling-skill-intro/source.json",
+        "scope": "All 43 frames of skill card and all 49 frames of intro card inspected. Skill cards include preceding basic attacks: only switch segment informs these poses. Original cameras are not reproduced. Body phases adapted to retained MC contacts, not native skeletal timing.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/outro/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/echo/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/azure_basic_01",
+      "stateVariant": "azure_basic_01",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/azure_basic_02",
+      "stateVariant": "azure_basic_02",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/azure_basic_03",
+      "stateVariant": "azure_basic_03",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/azure_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_basic_01",
+      "stateVariant": "feather_basic_01",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "featherChainObservation": {
+        "source": "docs/reference/xuanling-feather-basics/source.json; full-00.jpg through full-02.jpg (lower panel)",
+        "scope": "Every one of the 35 archived official GIF frames viewed, including recovery. Low sweeping entry, raised crossing cuts and forward finishing release adapted into four retained MC stages; segmentation is adaptation, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_basic_02",
+      "stateVariant": "feather_basic_02",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "featherChainObservation": {
+        "source": "docs/reference/xuanling-feather-basics/source.json; full-00.jpg through full-02.jpg (lower panel)",
+        "scope": "Every one of the 35 archived official GIF frames viewed, including recovery. Low sweeping entry, raised crossing cuts and forward finishing release adapted into four retained MC stages; segmentation is adaptation, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_basic_03",
+      "stateVariant": "feather_basic_03",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "featherChainObservation": {
+        "source": "docs/reference/xuanling-feather-basics/source.json; full-00.jpg through full-02.jpg (lower panel)",
+        "scope": "Every one of the 35 archived official GIF frames viewed, including recovery. Low sweeping entry, raised crossing cuts and forward finishing release adapted into four retained MC stages; segmentation is adaptation, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/azure_heavy",
+      "stateVariant": "azure_heavy",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/azure_heavy/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/azure_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_heavy",
+      "stateVariant": "feather_heavy",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_heavy/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "heavyStanceObservation": {
+        "source": "docs/reference/xuanling-heavy/source.json; full-00.jpg through full-03.jpg",
+        "scope": "Complete 7.6-second official two-panel card inspected at 0.2-second intervals. Grounded circular release and feather lift/fall differentiated; retained MC phase timing, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/azure_switch",
+      "stateVariant": "azure_switch",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/azure_switch/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/azure_switch/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_switch",
+      "stateVariant": "feather_switch",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_switch/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_switch/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_descent",
+      "stateVariant": "feather_descent",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_descent/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_descent/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "heavyStanceObservation": {
+        "source": "docs/reference/xuanling-heavy/source.json; full-00.jpg through full-03.jpg",
+        "scope": "Complete 7.6-second official two-panel card inspected at 0.2-second intervals. Grounded circular release and feather lift/fall differentiated; retained MC phase timing, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/wind_offering",
+      "stateVariant": "wind_offering",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/wind_offering/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/wind_offering/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_basic_04",
+      "stateVariant": "feather_basic_04",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "featherChainObservation": {
+        "source": "docs/reference/xuanling-feather-basics/source.json; full-00.jpg through full-02.jpg (lower panel)",
+        "scope": "Every one of the 35 archived official GIF frames viewed, including recovery. Low sweeping entry, raised crossing cuts and forward finishing release adapted into four retained MC stages; segmentation is adaptation, not native frame certification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_air",
+      "stateVariant": "feather_air",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_air/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "contactAlignment": {
+        "scope": "single MC hit; pose values and gameplay clocks preserved",
+        "hitTick": 6,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/feather_dodge_counter",
+      "stateVariant": "feather_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/feather_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/feather_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/skill_feather",
+      "stateVariant": "skill_feather",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/skill_feather/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/skill_feather/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "stanceEntryObservation": {
+        "source": "docs/reference/xuanling-skill-intro/source.json",
+        "scope": "All 43 frames of skill card and all 49 frames of intro card inspected. Skill cards include preceding basic attacks: only switch segment informs these poses. Original cameras are not reproduced. Body phases adapted to retained MC contacts, not native skeletal timing.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/shadow",
+      "stateVariant": "shadow",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/shadow/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/shadow/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/flow_azure",
+      "stateVariant": "flow_azure",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/flow_azure/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/flow_azure/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "flowPhaseObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/yangyang_xuanling-flow_{azure,feather}-page-{00,01}.jpg",
+        "scope": "Both full 0-5 second quarter-second panel timelines inspected; low azure dash and upright feather cue adapted to existing MC contacts, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/flow_feather",
+      "stateVariant": "flow_feather",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/flow_feather/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/flow_feather/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "flowPhaseObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/yangyang_xuanling-flow_{azure,feather}-page-{00,01}.jpg",
+        "scope": "Both full 0-5 second quarter-second panel timelines inspected; low azure dash and upright feather cue adapted to existing MC contacts, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_basic_01",
+      "stateVariant": "listening_basic_01",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "listeningComboObservation": {
+        "source": "docs/reference/xuanling-listening/source.json; full-00.jpg through full-04.jpg",
+        "scope": "All 49 samples across the complete 9.69-second official panel viewed. Diagonal sweeps, airborne turn and low finishing release adapted to retained MC clocks; exact phase boundaries and native timing are not certified.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_basic_02",
+      "stateVariant": "listening_basic_02",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "listeningComboObservation": {
+        "source": "docs/reference/xuanling-listening/source.json; full-00.jpg through full-04.jpg",
+        "scope": "All 49 samples across the complete 9.69-second official panel viewed. Diagonal sweeps, airborne turn and low finishing release adapted to retained MC clocks; exact phase boundaries and native timing are not certified.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_basic_03",
+      "stateVariant": "listening_basic_03",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "listeningComboObservation": {
+        "source": "docs/reference/xuanling-listening/source.json; full-00.jpg through full-04.jpg",
+        "scope": "All 49 samples across the complete 9.69-second official panel viewed. Diagonal sweeps, airborne turn and low finishing release adapted to retained MC clocks; exact phase boundaries and native timing are not certified.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_counter_01",
+      "stateVariant": "listening_counter_01",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_01/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24",
+        "docs/reference/xuanling-listening/source.json"
+      ],
+      "counterGestureObservation": {
+        "source": "docs/reference/xuanling-listening/source.json",
+        "scope": "Listening substitutes the corresponding Hark the Wind stage. Reuse the reviewed full-panel body with independently retained counter contacts; no direct labelled counter-video or original frame verification."
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_counter_02",
+      "stateVariant": "listening_counter_02",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_02/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24",
+        "docs/reference/xuanling-listening/source.json"
+      ],
+      "counterGestureObservation": {
+        "source": "docs/reference/xuanling-listening/source.json",
+        "scope": "Listening substitutes the corresponding Hark the Wind stage. Reuse the reviewed full-panel body with independently retained counter contacts; no direct labelled counter-video or original frame verification."
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:yangyang_xuanling/listening_counter_03",
+      "stateVariant": "listening_counter_03",
+      "thirdPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_03/tp",
+      "firstPersonClip": "mc_wuwa:yangyang_xuanling/listening_counter_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:havoc/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1610",
+        "data-source/nanoka/3.7/zh/character/1610.json",
+        "plan.md#24",
+        "docs/reference/xuanling-listening/source.json"
+      ],
+      "counterGestureObservation": {
+        "source": "docs/reference/xuanling-listening/source.json",
+        "scope": "Listening substitutes the corresponding Hark the Wind stage. Reuse the reviewed full-panel body with independently retained counter contacts; no direct labelled counter-video or original frame verification."
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ]
+    }
+  ]
+}

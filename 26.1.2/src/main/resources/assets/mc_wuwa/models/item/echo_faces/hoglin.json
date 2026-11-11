@@ -1,0 +1,95 @@
+{
+  "gui_light": "front",
+  "textures": {
+    "face": "minecraft:entity/hoglin/hoglin",
+    "particle": "minecraft:entity/hoglin/hoglin"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7.99
+      ],
+      "to": [
+        16,
+        16,
+        8.01
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "texture": "#face",
+          "uv": [
+            10.0,
+            5.0,
+            11.75,
+            6.5
+          ]
+        },
+        "south": {
+          "texture": "#face",
+          "uv": [
+            11.75,
+            5.0,
+            10.0,
+            6.5
+          ]
+        }
+      }
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  }
+}

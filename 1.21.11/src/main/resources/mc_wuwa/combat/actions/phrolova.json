@@ -1,0 +1,777 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1608001001"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "phrolova/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "53.45%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.069,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608002001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "phrolova/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "95.43%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9543,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1608003002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "phrolova/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "32.69%*6",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.9614,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1608005001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "phrolova/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "79.85%*2",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.597,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1608008001"
+        },
+        {
+          "count": 8,
+          "damageId": "1608008002"
+        },
+        {
+          "count": 1,
+          "damageId": "1608008003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        7,
+        9,
+        10,
+        12,
+        13,
+        14,
+        16,
+        17,
+        19,
+        20
+      ],
+      "id": "phrolova/composition_finale",
+      "name": "谱曲终末伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "33.01%*2+12.38%*8+495.10%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 11,
+      "totalMultiplier": 6.6016,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608006001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "phrolova/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "127.24%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2724,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608009001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "phrolova/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "121.99%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2199,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1608101001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "phrolova/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "105.97%*2",
+      "sourceNode": 2,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.1194,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608301001"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "phrolova/hecate_basic_01",
+      "name": "普攻·赫卡忒第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "27.84%",
+      "sourceNode": 3,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2784,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1608301002"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "phrolova/hecate_basic_02",
+      "name": "普攻·赫卡忒第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "13.92%*2",
+      "sourceNode": 3,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.2784,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608301111"
+        },
+        {
+          "count": 1,
+          "damageId": "1608301112"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        24
+      ],
+      "id": "phrolova/hecate_strings",
+      "name": "强化攻击·弦乐·赫卡忒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "104.38%+243.55%",
+      "sourceNode": 3,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.4793,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608301121"
+        },
+        {
+          "count": 1,
+          "damageId": "1608301122"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        24
+      ],
+      "id": "phrolova/hecate_winds",
+      "name": "强化攻击·管乐·赫卡忒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "99.16%+231.37%",
+      "sourceNode": 3,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.3053,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608301131"
+        },
+        {
+          "count": 1,
+          "damageId": "1608301132"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        24
+      ],
+      "id": "phrolova/hecate_color",
+      "name": "强化攻击·彩乐·赫卡忒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "104.38%+243.55%",
+      "sourceNode": 3,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.4793,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608302006"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "phrolova/liberation_curtain",
+      "name": "谢幕伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "hecate",
+      "sourceFormula": "465.22%",
+      "sourceNode": 3,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.6522,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608201001"
+        },
+        {
+          "count": 1,
+          "damageId": "1608201002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        20
+      ],
+      "id": "phrolova/intro",
+      "name": "致命组歌伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "80.61%+120.91%",
+      "sourceNode": 6,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.0152,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1608302002"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "phrolova/intro_eternal",
+      "name": "永生组歌伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "596.43%",
+      "sourceNode": 6,
+      "sourceParameter": "26",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 5.9643,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1608004013"
+        },
+        {
+          "count": 3,
+          "damageId": "1608004014"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        18,
+        20
+      ],
+      "id": "phrolova/movement_death",
+      "name": "亡与死的乐章伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "enhanced_basic",
+      "sourceFormula": "37.88%*4+117.83%*3",
+      "sourceNode": 7,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 5.0501,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "phrolova",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1608102001"
+        },
+        {
+          "count": 1,
+          "damageId": "1608102002"
+        },
+        {
+          "count": 1,
+          "damageId": "1608102004"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        14,
+        17,
+        20
+      ],
+      "id": "phrolova/undying_reverie",
+      "name": "永不消逝的梦呓伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "full_notes",
+      "sourceFormula": "23.21%*4+46.41%+324.82%",
+      "sourceNode": 7,
+      "sourceParameter": "30",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 4.6407,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "lethean_elegy"
+    }
+  ],
+  "schemaVersion": 1
+}

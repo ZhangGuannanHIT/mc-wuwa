@@ -1,0 +1,169 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.echo_leviathan.idle": {
+      "loop": true,
+      "animation_length": 4,
+      "bones": {
+        "blade": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              -2
+            ],
+            "2": [
+              0,
+              0,
+              2
+            ],
+            "4": [
+              0,
+              0,
+              -2
+            ]
+          }
+        },
+        "vortex_0": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "4": [
+              0,
+              0,
+              -360
+            ]
+          }
+        },
+        "vortex_1": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "4": [
+              0,
+              0,
+              360
+            ]
+          }
+        },
+        "vortex_2": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "4": [
+              0,
+              0,
+              -360
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_leviathan.attack": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "blade": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              -30
+            ],
+            "0.2": [
+              0,
+              0,
+              -44
+            ],
+            "0.65": [
+              0,
+              0,
+              75
+            ],
+            "1.2": [
+              0,
+              0,
+              0
+            ]
+          }
+        },
+        "vortex_0": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              -300
+            ]
+          }
+        },
+        "vortex_1": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              300
+            ]
+          }
+        },
+        "vortex_2": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "1.2": [
+              0,
+              0,
+              -300
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_leviathan.hurt": {
+      "loop": false,
+      "animation_length": 0.3,
+      "bones": {
+        "blade": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            "0.1": [
+              0,
+              0,
+              7
+            ],
+            "0.3": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,496 @@
+{
+  "parent": "mc_wuwa:combat/root",
+  "display": {
+    "icon": {
+      "id": "mc_wuwa:starfield_calibrator"
+    },
+    "title": {
+      "translate": "advancements.mc_wuwa.star_tuner.title"
+    },
+    "description": {
+      "translate": "advancements.mc_wuwa.star_tuner.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "kumokiri": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:kumokiri"
+            ]
+          }
+        ]
+      }
+    },
+    "ages_of_harvest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:ages_of_harvest"
+            ]
+          }
+        ]
+      }
+    },
+    "starfield_calibrator": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:starfield_calibrator"
+            ]
+          }
+        ]
+      }
+    },
+    "defiers_thorn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:defiers_thorn"
+            ]
+          }
+        ]
+      }
+    },
+    "red_spring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:red_spring"
+            ]
+          }
+        ]
+      }
+    },
+    "azure_oath": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:azure_oath"
+            ]
+          }
+        ]
+      }
+    },
+    "bloodpacts_pledge": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:bloodpacts_pledge"
+            ]
+          }
+        ]
+      }
+    },
+    "everbright_polestar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:everbright_polestar"
+            ]
+          }
+        ]
+      }
+    },
+    "frostburn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:frostburn"
+            ]
+          }
+        ]
+      }
+    },
+    "spectrum_blaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:spectrum_blaster"
+            ]
+          }
+        ]
+      }
+    },
+    "stringmaster": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:stringmaster"
+            ]
+          }
+        ]
+      }
+    },
+    "lethean_elegy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:lethean_elegy"
+            ]
+          }
+        ]
+      }
+    },
+    "blooming_jadehaven": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:blooming_jadehaven"
+            ]
+          }
+        ]
+      }
+    },
+    "emerald_sentence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:emerald_sentence"
+            ]
+          }
+        ]
+      }
+    },
+    "woodland_aria": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:woodland_aria"
+            ]
+          }
+        ]
+      }
+    },
+    "stellar_symphony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:stellar_symphony"
+            ]
+          }
+        ]
+      }
+    },
+    "solsworn_ciphers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:solsworn_ciphers"
+            ]
+          }
+        ]
+      }
+    },
+    "lux_and_umbra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:lux_and_umbra"
+            ]
+          }
+        ]
+      }
+    },
+    "luminous_hymn": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:luminous_hymn"
+            ]
+          }
+        ]
+      }
+    },
+    "firstlights_herald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:firstlights_herald"
+            ]
+          }
+        ]
+      }
+    },
+    "whispers_of_sirens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:whispers_of_sirens"
+            ]
+          }
+        ]
+      }
+    },
+    "forged_dwarf_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:forged_dwarf_star"
+            ]
+          }
+        ]
+      }
+    },
+    "moongazers_sigil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:moongazers_sigil"
+            ]
+          }
+        ]
+      }
+    },
+    "blazing_brilliance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:blazing_brilliance"
+            ]
+          }
+        ]
+      }
+    },
+    "glint_of_clouds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:glint_of_clouds"
+            ]
+          }
+        ]
+      }
+    },
+    "wildfire_mark": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:wildfire_mark"
+            ]
+          }
+        ]
+      }
+    },
+    "the_last_dance": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:the_last_dance"
+            ]
+          }
+        ]
+      }
+    },
+    "rime_draped_sprouts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:rime_draped_sprouts"
+            ]
+          }
+        ]
+      }
+    },
+    "blazing_justice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:blazing_justice"
+            ]
+          }
+        ]
+      }
+    },
+    "unspoken_rue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mc_wuwa:unspoken_rue"
+          }
+        ]
+      }
+    },
+    "frame_signature": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mc_wuwa:frame_signature"
+          }
+        ]
+      }
+    },
+    "thunderflare_dominion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mc_wuwa:thunderflare_dominion"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "kumokiri"
+    ],
+    [
+      "ages_of_harvest"
+    ],
+    [
+      "starfield_calibrator"
+    ],
+    [
+      "defiers_thorn"
+    ],
+    [
+      "red_spring"
+    ],
+    [
+      "azure_oath"
+    ],
+    [
+      "bloodpacts_pledge"
+    ],
+    [
+      "everbright_polestar"
+    ],
+    [
+      "frostburn"
+    ],
+    [
+      "spectrum_blaster"
+    ],
+    [
+      "stringmaster"
+    ],
+    [
+      "lethean_elegy"
+    ],
+    [
+      "blooming_jadehaven"
+    ],
+    [
+      "emerald_sentence"
+    ],
+    [
+      "woodland_aria"
+    ],
+    [
+      "stellar_symphony"
+    ],
+    [
+      "solsworn_ciphers"
+    ],
+    [
+      "lux_and_umbra"
+    ],
+    [
+      "luminous_hymn"
+    ],
+    [
+      "firstlights_herald"
+    ],
+    [
+      "whispers_of_sirens"
+    ],
+    [
+      "forged_dwarf_star"
+    ],
+    [
+      "moongazers_sigil"
+    ],
+    [
+      "blazing_brilliance"
+    ],
+    [
+      "glint_of_clouds"
+    ],
+    [
+      "wildfire_mark"
+    ],
+    [
+      "the_last_dance"
+    ],
+    [
+      "rime_draped_sprouts"
+    ],
+    [
+      "blazing_justice"
+    ],
+    [
+      "unspoken_rue"
+    ],
+    [
+      "frame_signature"
+    ],
+    [
+      "thunderflare_dominion"
+    ]
+  ]
+}

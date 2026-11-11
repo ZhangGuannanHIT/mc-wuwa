@@ -1,0 +1,536 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mc_wuwa:item/echo"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "mc_wuwa:item/echo_faces/aleph_one"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 2
+      },
+      "model": "mc_wuwa:item/echo_faces/allay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 3
+      },
+      "model": "mc_wuwa:item/echo_faces/armadillo"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 4
+      },
+      "model": "mc_wuwa:item/echo_faces/axolotl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 5
+      },
+      "model": "mc_wuwa:item/echo_faces/bat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 6
+      },
+      "model": "mc_wuwa:item/echo_faces/bee"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 7
+      },
+      "model": "mc_wuwa:item/echo_faces/blaze"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 8
+      },
+      "model": "mc_wuwa:item/echo_faces/bogged"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 9
+      },
+      "model": "mc_wuwa:item/echo_faces/breeze"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 10
+      },
+      "model": "mc_wuwa:item/echo_faces/camel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 12
+      },
+      "model": "mc_wuwa:item/echo_faces/cat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 13
+      },
+      "model": "mc_wuwa:item/echo_faces/cave_spider"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 14
+      },
+      "model": "mc_wuwa:item/echo_faces/chicken"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 15
+      },
+      "model": "mc_wuwa:item/echo_faces/cod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 17
+      },
+      "model": "mc_wuwa:item/echo_faces/cow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 19
+      },
+      "model": "mc_wuwa:item/echo_faces/creeper"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 20
+      },
+      "model": "mc_wuwa:item/echo_faces/dolphin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 21
+      },
+      "model": "mc_wuwa:item/echo_faces/donkey"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 22
+      },
+      "model": "mc_wuwa:item/echo_faces/drowned"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 23
+      },
+      "model": "mc_wuwa:item/echo_faces/elder_guardian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 24
+      },
+      "model": "mc_wuwa:item/echo_faces/ender_dragon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 25
+      },
+      "model": "mc_wuwa:item/echo_faces/enderman"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 26
+      },
+      "model": "mc_wuwa:item/echo_faces/endermite"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 27
+      },
+      "model": "mc_wuwa:item/echo_faces/evoker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 28
+      },
+      "model": "mc_wuwa:item/echo_faces/fox"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 29
+      },
+      "model": "mc_wuwa:item/echo_faces/frog"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 30
+      },
+      "model": "mc_wuwa:item/echo_faces/furnace_husk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 31
+      },
+      "model": "mc_wuwa:item/echo_faces/ghast"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 32
+      },
+      "model": "mc_wuwa:item/echo_faces/giant"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 33
+      },
+      "model": "mc_wuwa:item/echo_faces/glow_squid"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 34
+      },
+      "model": "mc_wuwa:item/echo_faces/goat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 35
+      },
+      "model": "mc_wuwa:item/echo_faces/guardian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 37
+      },
+      "model": "mc_wuwa:item/echo_faces/hoglin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 38
+      },
+      "model": "mc_wuwa:item/echo_faces/horse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 39
+      },
+      "model": "mc_wuwa:item/echo_faces/husk"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 40
+      },
+      "model": "mc_wuwa:item/echo_faces/hyvatia"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 41
+      },
+      "model": "mc_wuwa:item/echo_faces/illusioner"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 42
+      },
+      "model": "mc_wuwa:item/echo_faces/impermanence_heron"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 43
+      },
+      "model": "mc_wuwa:item/echo_faces/iron_golem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 44
+      },
+      "model": "mc_wuwa:item/echo_faces/jue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 45
+      },
+      "model": "mc_wuwa:item/echo_faces/llama"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 46
+      },
+      "model": "mc_wuwa:item/echo_faces/magma_cube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 47
+      },
+      "model": "mc_wuwa:item/echo_faces/mooshroom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 48
+      },
+      "model": "mc_wuwa:item/echo_faces/mule"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 50
+      },
+      "model": "mc_wuwa:item/echo_faces/nightmare_crownless"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 51
+      },
+      "model": "mc_wuwa:item/echo_faces/nightmare_hecate"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 52
+      },
+      "model": "mc_wuwa:item/echo_faces/ocelot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 53
+      },
+      "model": "mc_wuwa:item/echo_faces/panda"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 55
+      },
+      "model": "mc_wuwa:item/echo_faces/parrot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 56
+      },
+      "model": "mc_wuwa:item/echo_faces/phantom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 57
+      },
+      "model": "mc_wuwa:item/echo_faces/pig"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 58
+      },
+      "model": "mc_wuwa:item/echo_faces/piglin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 59
+      },
+      "model": "mc_wuwa:item/echo_faces/piglin_brute"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 60
+      },
+      "model": "mc_wuwa:item/echo_faces/pillager"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 61
+      },
+      "model": "mc_wuwa:item/echo_faces/polar_bear"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 62
+      },
+      "model": "mc_wuwa:item/echo_faces/pufferfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 63
+      },
+      "model": "mc_wuwa:item/echo_faces/rabbit"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 64
+      },
+      "model": "mc_wuwa:item/echo_faces/ravager"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 65
+      },
+      "model": "mc_wuwa:item/echo_faces/salmon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 66
+      },
+      "model": "mc_wuwa:item/echo_faces/sheep"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 67
+      },
+      "model": "mc_wuwa:item/echo_faces/shulker"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 68
+      },
+      "model": "mc_wuwa:item/echo_faces/sigillum"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 69
+      },
+      "model": "mc_wuwa:item/echo_faces/silverfish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 70
+      },
+      "model": "mc_wuwa:item/echo_faces/skeleton"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 71
+      },
+      "model": "mc_wuwa:item/echo_faces/skeleton_horse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 72
+      },
+      "model": "mc_wuwa:item/echo_faces/slime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 73
+      },
+      "model": "mc_wuwa:item/echo_faces/sniffer"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 74
+      },
+      "model": "mc_wuwa:item/echo_faces/snow_golem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 75
+      },
+      "model": "mc_wuwa:item/echo_faces/spider"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 76
+      },
+      "model": "mc_wuwa:item/echo_faces/squid"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 77
+      },
+      "model": "mc_wuwa:item/echo_faces/stray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 78
+      },
+      "model": "mc_wuwa:item/echo_faces/strider"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 79
+      },
+      "model": "mc_wuwa:item/echo_faces/tadpole"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 80
+      },
+      "model": "mc_wuwa:item/echo_faces/trader_llama"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 81
+      },
+      "model": "mc_wuwa:item/echo_faces/tropical_fish"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 82
+      },
+      "model": "mc_wuwa:item/echo_faces/turtle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 83
+      },
+      "model": "mc_wuwa:item/echo_faces/vex"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 84
+      },
+      "model": "mc_wuwa:item/echo_faces/vindicator"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 85
+      },
+      "model": "mc_wuwa:item/echo_faces/warden"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 86
+      },
+      "model": "mc_wuwa:item/echo_faces/witch"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 87
+      },
+      "model": "mc_wuwa:item/echo_faces/wither"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 88
+      },
+      "model": "mc_wuwa:item/echo_faces/wither_skeleton"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 89
+      },
+      "model": "mc_wuwa:item/echo_faces/wolf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 90
+      },
+      "model": "mc_wuwa:item/echo_faces/zoglin"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 91
+      },
+      "model": "mc_wuwa:item/echo_faces/zombie"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 92
+      },
+      "model": "mc_wuwa:item/echo_faces/zombie_horse"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 94
+      },
+      "model": "mc_wuwa:item/echo_faces/zombie_villager"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 95
+      },
+      "model": "mc_wuwa:item/echo_faces/zombified_piglin"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "parent": "mc_wuwa:combat/root",
+  "display": {
+    "icon": {
+      "id": "mc_wuwa:aleph_one_spawn_egg"
+    },
+    "title": {
+      "translate": "advancements.mc_wuwa.charioteer.title"
+    },
+    "description": {
+      "translate": "advancements.mc_wuwa.charioteer.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aleph_one": {
+      "trigger": "minecraft:impossible"
+    },
+    "impermanence_heron": {
+      "trigger": "minecraft:impossible"
+    },
+    "jue": {
+      "trigger": "minecraft:impossible"
+    },
+    "nightmare_crownless": {
+      "trigger": "minecraft:impossible"
+    },
+    "nightmare_hecate": {
+      "trigger": "minecraft:impossible"
+    },
+    "hyvatia": {
+      "trigger": "minecraft:impossible"
+    },
+    "furnace_husk": {
+      "trigger": "minecraft:impossible"
+    },
+    "sigillum": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "aleph_one"
+    ],
+    [
+      "impermanence_heron"
+    ],
+    [
+      "jue"
+    ],
+    [
+      "nightmare_crownless"
+    ],
+    [
+      "nightmare_hecate"
+    ],
+    [
+      "hyvatia"
+    ],
+    [
+      "furnace_husk"
+    ],
+    [
+      "sigillum"
+    ]
+  ]
+}

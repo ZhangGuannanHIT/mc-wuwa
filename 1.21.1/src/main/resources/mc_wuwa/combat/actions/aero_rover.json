@@ -1,0 +1,716 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "aero_rover/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "35.31%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3531,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1406002001"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "aero_rover/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "43.05%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.861,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 37,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406003001"
+        },
+        {
+          "count": 25,
+          "damageId": "1406003003"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "id": "aero_rover/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "55.05%+1.99%*25",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 26,
+      "totalMultiplier": 1.048,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406004001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "aero_rover/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "76.72%",
+      "sourceNode": 1,
+      "sourceParameter": "3_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7672,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1406204002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        14,
+        22
+      ],
+      "id": "aero_rover/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "17.91%*3",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.5373,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406004002"
+        },
+        {
+          "count": 1,
+          "damageId": "1406004003"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "aero_rover/heavy_strangle",
+      "name": "绞息伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "36.37%+44.46%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.8083,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406007002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aero_rover/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "140.76%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.4076,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 33,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406013001"
+        },
+        {
+          "count": 25,
+          "damageId": "1406003003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "id": "aero_rover/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "125.43%+1.99%*25",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 26,
+      "totalMultiplier": 1.7518,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406103001"
+        },
+        {
+          "count": 1,
+          "damageId": "1406103002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "aero_rover/skill",
+      "name": "苍息破象伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "66.44%+99.66%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.661,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1406204004"
+        },
+        {
+          "count": 1,
+          "damageId": "1406204003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "aero_rover/skill_sky",
+      "name": "碧霄断行伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "enhanced",
+      "sourceFormula": "23.37%*3+105.15%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.7526,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 80,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406301001"
+        }
+      ],
+      "hitTimesTicks": [
+        54
+      ],
+      "id": "aero_rover/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "536.79%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/aero_rover-2.gif active=[0.5, 4.5]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 1,
+      "totalMultiplier": 5.3679,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406401001"
+        },
+        {
+          "count": 1,
+          "damageId": "1406401002"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        20
+      ],
+      "id": "aero_rover/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "79.53%+119.29%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.9882,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406005001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aero_rover/wind_air_01",
+      "name": "抃风儛润第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "forte_air",
+      "sourceFormula": "128.80%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.288,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406006001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aero_rover/wind_air_02",
+      "name": "抃风儛润第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "forte_air",
+      "sourceFormula": "141.47%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.4147,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1406202001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "aero_rover/unbound_wind_01",
+      "name": "缥缈无相第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "full_wind",
+      "sourceFormula": "34.30%*5",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.715,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aero_rover",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1406202002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aero_rover/unbound_wind_02",
+      "name": "缥缈无相第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "unbound_followup",
+      "sourceFormula": "723.03%",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 7.2303,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "bloodpacts_pledge"
+    }
+  ],
+  "schemaVersion": 1
+}

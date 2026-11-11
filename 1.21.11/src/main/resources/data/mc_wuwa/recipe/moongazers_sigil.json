@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "APA",
+    "GCG",
+    " I "
+  ],
+  "key": {
+    "A": "minecraft:amethyst_shard",
+    "P": "minecraft:lapis_lazuli",
+    "G": "minecraft:gold_ingot",
+    "I": "minecraft:iron_ingot",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:moongazers_sigil",
+    "count": 1
+  }
+}

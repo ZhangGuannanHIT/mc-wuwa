@@ -1,0 +1,207 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "glacio",
+      "id": "28003901",
+      "kind": "echo",
+      "multiplier": 0.2188,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 1,
+        "element_power": 0,
+        "energy": 12,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          1216,
+          1459,
+          1702,
+          1945,
+          2188
+        ],
+        "related_property": "攻击",
+        "tough_lv": 1216,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.20461046609456504,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "glacio",
+      "id": "28003902",
+      "kind": "echo",
+      "multiplier": 1.6416,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 1,
+        "element_power": 0,
+        "energy": 136,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "related_property": "攻击",
+        "tough_lv": 9120,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.5345784957092377,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤阿列夫一造物，对敌人造成五段21.88%和一段164.16%的冷凝伤害。\n在首位装配该声骸技能时，自身冷凝伤害加成提升12.00%，共鸣解放伤害加成提升12.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "共鸣回响·鸣式·虚造神型",
+  "parameters": [
+    "21.88%",
+    "164.16%",
+    "12.00%",
+    "12.00%",
+    "20"
+  ],
+  "raw": {
+    "code": "Z06-",
+    "group": {
+      "30": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriIceA1.T_IconElementAttriIceA1",
+        "id": 30,
+        "name": "雪落无声之愿",
+        "set": {
+          "2": {
+            "desc": "冷凝伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【霜渐效应】时，冷凝伤害提升{0}，持续{1}秒。自身获得【落雪】效果，持续{11}秒，该效果每{2}秒可触发1次。拥有【落雪】效果时：\n·角色造成共鸣解放伤害时，将清除【落雪】效果，使自身暴击提升{4}，持续{5}秒。该效果持续期间角色造成共鸣解放伤害时，将延长{8}秒的持续时间，每{9}秒可触发1次，每次清除【落雪】后该效果至多触发{10}次。\n·角色施放延奏技能时，将清除【落雪】效果，使下一个变奏技能登场的角色冷凝伤害提升{6}，持续{7}秒。\n每次清除【落雪】效果时，上述效果仅能同时触发一个。",
+            "param": [
+              "10%",
+              "15",
+              "25",
+              "1",
+              "25%",
+              "6",
+              "25%",
+              "15",
+              "4",
+              "0.5",
+              "6",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34027_UI.T_IconMonsterHead_34027_UI",
+    "id": 6000199,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000271,
+    "name": "共鸣回响·鸣式·虚造神型",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28003901": {
+          "element": 1,
+          "element_power": 0,
+          "energy": 12,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            1216,
+            1459,
+            1702,
+            1945,
+            2188
+          ],
+          "related_property": "攻击",
+          "tough_lv": 1216,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28003902": {
+          "element": 1,
+          "element_power": 0,
+          "energy": 136,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            9120,
+            10944,
+            12768,
+            14592,
+            16416
+          ],
+          "related_property": "攻击",
+          "tough_lv": 9120,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤阿列夫一造物，对敌人造成五段{0}和一段{1}的冷凝伤害。\n在首位装配该声骸技能时，自身冷凝伤害加成提升{2}，共鸣解放伤害加成提升{3}。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34027_UI.T_MstSkil_34027_UI",
+      "param": [
+        [
+          "12.16%",
+          "91.20%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "14.59%",
+          "109.44%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "17.02%",
+          "127.68%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "19.45%",
+          "145.92%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ],
+        [
+          "21.88%",
+          "164.16%",
+          "12.00%",
+          "12.00%",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤阿列夫一造物，造成冷凝伤害。\n在首位装配该声骸技能时，提高自身冷凝和共鸣解放伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000199
+}

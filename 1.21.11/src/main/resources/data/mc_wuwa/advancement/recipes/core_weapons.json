@@ -1,0 +1,58 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mc_wuwa:core"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_core"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mc_wuwa:ages_of_harvest",
+      "mc_wuwa:azure_oath",
+      "mc_wuwa:blazing_brilliance",
+      "mc_wuwa:blazing_justice",
+      "mc_wuwa:bloodpacts_pledge",
+      "mc_wuwa:blooming_jadehaven",
+      "mc_wuwa:defiers_thorn",
+      "mc_wuwa:emerald_sentence",
+      "mc_wuwa:everbright_polestar",
+      "mc_wuwa:firstlights_herald",
+      "mc_wuwa:forged_dwarf_star",
+      "mc_wuwa:frostburn",
+      "mc_wuwa:glint_of_clouds",
+      "mc_wuwa:kumokiri",
+      "mc_wuwa:lethean_elegy",
+      "mc_wuwa:luminous_hymn",
+      "mc_wuwa:lux_and_umbra",
+      "mc_wuwa:moongazers_sigil",
+      "mc_wuwa:red_spring",
+      "mc_wuwa:rime_draped_sprouts",
+      "mc_wuwa:solsworn_ciphers",
+      "mc_wuwa:spectrum_blaster",
+      "mc_wuwa:starfield_calibrator",
+      "mc_wuwa:stellar_symphony",
+      "mc_wuwa:stringmaster",
+      "mc_wuwa:the_last_dance",
+      "mc_wuwa:whispers_of_sirens",
+      "mc_wuwa:wildfire_mark",
+      "mc_wuwa:woodland_aria",
+      "mc_wuwa:unspoken_rue",
+      "mc_wuwa:frame_signature",
+      "mc_wuwa:thunderflare_dominion"
+    ]
+  }
+}

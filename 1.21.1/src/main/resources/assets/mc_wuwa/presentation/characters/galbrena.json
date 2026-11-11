@@ -1,0 +1,2378 @@
+{
+  "schemaVersion": 1,
+  "characterId": "galbrena",
+  "weaponId": "mc_wuwa:lux_and_umbra",
+  "palette": [
+    96,
+    152,
+    245
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1208",
+    "data-source/nanoka/3.7/zh/character/1208.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:galbrena/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:galbrena/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDualPistolBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full13.65s40sample publisher panel reviewed; normal0.65-3.4s alternating shots, low turn and final recoil. Some legs cropped; adapted lower body and MC phases, not frame-exact. Both approved pistol geometries/grips retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:galbrena/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDualPistolBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full13.65s40sample publisher panel reviewed; normal0.65-3.4s alternating shots, low turn and final recoil. Some legs cropped; adapted lower body and MC phases, not frame-exact. Both approved pistol geometries/grips retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:galbrena/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDualPistolBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full13.65s40sample publisher panel reviewed; normal0.65-3.4s alternating shots, low turn and final recoil. Some legs cropped; adapted lower body and MC phases, not frame-exact. Both approved pistol geometries/grips retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:galbrena/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousDualPistolBasics": {
+        "source": "docs/reference/base-combat-motion/support-five/source.json",
+        "scope": "Full13.65s40sample publisher panel reviewed; normal0.65-3.4s alternating shots, low turn and final recoil. Some legs cropped; adapted lower body and MC phases, not frame-exact. Both approved pistol geometries/grips retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:galbrena/heavy/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:galbrena/air/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:galbrena/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:galbrena/skill/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:galbrena/liberation/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head",
+        "pelvis"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.75,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 105,
+        "hitTimesTicks": [
+          55,
+          58,
+          61,
+          65,
+          68,
+          71,
+          74,
+          77,
+          80,
+          84,
+          87,
+          90
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.2619047619047619
+          ],
+          [
+            0.25,
+            0.5238095238095238
+          ],
+          [
+            0.52,
+            0.8571428571428571
+          ],
+          [
+            0.82,
+            0.9357142857142857
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/original-skill-gifs/new-three/galbrena-2.gif",
+        "observedActiveSeconds": [
+          0.5,
+          5.75
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/new-three/galbrena-2.gif",
+        "scope": "Complete original GIF, every quarter-second timeline page reviewed; independent FP and connected body fit; no forced camera",
+        "acceptance": "native review pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:galbrena/intro/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:galbrena/outro/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:galbrena/echo/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/air_rain",
+      "stateVariant": "air_rain",
+      "thirdPersonClip": "mc_wuwa:galbrena/air_rain/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/air_rain/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/heavy_01",
+      "stateVariant": "heavy_01",
+      "thirdPersonClip": "mc_wuwa:galbrena/heavy_01/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/heavy_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/heavy_02",
+      "stateVariant": "heavy_02",
+      "thirdPersonClip": "mc_wuwa:galbrena/heavy_02/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/heavy_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/heavy_03",
+      "stateVariant": "heavy_03",
+      "thirdPersonClip": "mc_wuwa:galbrena/heavy_03/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/heavy_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/skill_ascend",
+      "stateVariant": "skill_ascend",
+      "thirdPersonClip": "mc_wuwa:galbrena/skill_ascend/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/skill_ascend/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_basic_01",
+      "stateVariant": "demon_basic_01",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_basic_02",
+      "stateVariant": "demon_basic_02",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_basic_03",
+      "stateVariant": "demon_basic_03",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_basic_04",
+      "stateVariant": "demon_basic_04",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_basic_05",
+      "stateVariant": "demon_basic_05",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_basic_05/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_basic_05/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_heavy_01",
+      "stateVariant": "demon_heavy_01",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_heavy_01/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_heavy_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_heavy_02",
+      "stateVariant": "demon_heavy_02",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_heavy_02/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_heavy_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_heavy_03",
+      "stateVariant": "demon_heavy_03",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_heavy_03/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_heavy_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_dodge_counter",
+      "stateVariant": "demon_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_air",
+      "stateVariant": "demon_air",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_air/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_air_rain",
+      "stateVariant": "demon_air_rain",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_air_rain/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_air_rain/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/demon_skill",
+      "stateVariant": "demon_skill",
+      "thirdPersonClip": "mc_wuwa:galbrena/demon_skill/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/demon_skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      },
+      "infernalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/galbrena-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousInfernalSkills": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Existing full card review with renewed normal/heavy/air pages02-04, ascend01 and demon02/04 inspection. Continuous adapted joint motion; restores source-visible inverted downward firing, not frame-exact reconstruction. Approved pistol geometry/grips and release clock retained.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:galbrena/hellwalk",
+      "stateVariant": "hellwalk",
+      "thirdPersonClip": "mc_wuwa:galbrena/hellwalk/tp",
+      "firstPersonClip": "mc_wuwa:galbrena/hellwalk/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.36,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1208",
+        "data-source/nanoka/3.7/zh/character/1208.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/infernal-gun/source.json",
+        "scope": "Entire corresponding panel timeline reviewed; accepted MC action clocks retained",
+        "nativeReview": "pending"
+      }
+    }
+  ]
+}

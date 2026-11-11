@@ -1,0 +1,1807 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311100101"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100102"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "hsin/basic_01",
+      "name": "普攻·应世相第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "27.84%+41.76%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.696,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311100201"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100202"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100203"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16
+      ],
+      "id": "hsin/basic_02",
+      "name": "普攻·应世相第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "15.15%*2+68.14%+53.00%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.5144,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311100301"
+        },
+        {
+          "count": 2,
+          "damageId": "1311100302"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100303"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hsin/basic_03",
+      "name": "普攻·应世相第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "31.51%*2+23.63%*2+47.26%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.5754,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311100401"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100404"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "hsin/basic_04",
+      "name": "普攻·应世相第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "39.72%+39.72%+119.15%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9859,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 35,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 25,
+          "damageId": "1311100601"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "id": "hsin/heavy_wander",
+      "name": "重击·应世相·闲中御伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "27.84%*25",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 25,
+      "totalMultiplier": 6.96,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311110101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "hsin/air_wander",
+      "name": "空中攻击·应世相·闲中御伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "22.44%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2244,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311100406"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100408"
+        },
+        {
+          "count": 1,
+          "damageId": "1311100409"
+        },
+        {
+          "count": 3,
+          "damageId": "1311100407"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        13,
+        16,
+        19,
+        22
+      ],
+      "id": "hsin/heavy",
+      "name": "重击·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "10.28%+20.55%+10.28%+20.55%*3",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.0276,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311100801"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "hsin/air",
+      "name": "空中攻击·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "22.44%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2244,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311150101"
+        },
+        {
+          "count": 1,
+          "damageId": "1311150102"
+        },
+        {
+          "count": 1,
+          "damageId": "1311150103"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "hsin/dodge_counter",
+      "name": "闪避反击·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "44.98%*2+67.47%+67.47%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.249,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311200101"
+        },
+        {
+          "count": 1,
+          "damageId": "1311200106"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "hsin/illuminated_basic_01",
+      "name": "普攻·照世相第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "12.55%*2+37.65%",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.6275,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311200104"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "hsin/illuminated_word_lock",
+      "name": "普攻·照世相·活字心锁伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "20.92%*2",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.4184,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311200204"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        16
+      ],
+      "id": "hsin/illuminated_basic_02",
+      "name": "普攻·照世相第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "34.80%*2",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.696,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311200301"
+        },
+        {
+          "count": 2,
+          "damageId": "1311200302"
+        },
+        {
+          "count": 4,
+          "damageId": "1311200303"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "id": "hsin/illuminated_basic_03",
+      "name": "普攻·照世相第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "9.11%*4+18.21%*2+27.31%*4",
+      "sourceNode": 1,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 1.821,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311200402"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "hsin/illuminated_heavy",
+      "name": "重击·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "53.93%*2",
+      "sourceNode": 1,
+      "sourceParameter": "14",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0786,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311201201"
+        },
+        {
+          "count": 1,
+          "damageId": "1311201202"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "hsin/illuminated_uppercut",
+      "name": "上挑攻击·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "35.03%+52.54%",
+      "sourceNode": 1,
+      "sourceParameter": "15",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.8757,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311201101"
+        },
+        {
+          "count": 1,
+          "damageId": "1311201102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "hsin/illuminated_air",
+      "name": "空中攻击·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "13.47%+8.98%",
+      "sourceNode": 1,
+      "sourceParameter": "16",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.2245,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311200502"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        16
+      ],
+      "id": "hsin/illuminated_dodge_counter",
+      "name": "闪避反击·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "95.68%*2",
+      "sourceNode": 1,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.9136,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1311220101"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "hsin/thousand_palaces_basic_01",
+      "name": "普攻·照世相·万阙连衡第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "28.86%*3",
+      "sourceNode": 1,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.8658,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1311220201"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        16
+      ],
+      "id": "hsin/thousand_palaces_basic_02",
+      "name": "普攻·照世相·万阙连衡第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "38.23%*3",
+      "sourceNode": 1,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.1469,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1311220301"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hsin/thousand_palaces_basic_03",
+      "name": "普攻·照世相·万阙连衡第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "21.35%*5",
+      "sourceNode": 1,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.0675,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1311220402"
+        },
+        {
+          "count": 1,
+          "damageId": "1311220403"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        17,
+        20,
+        22
+      ],
+      "id": "hsin/thousand_palaces_basic_04",
+      "name": "普攻·照世相·万阙连衡第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "16.64%*7+49.90%",
+      "sourceNode": 1,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.6638,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1311200601"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "hsin/thousand_palaces_counter",
+      "name": "闪避反击·照世相·万阙连衡伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "66.07%*3",
+      "sourceNode": 1,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.9821,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1311120101"
+        },
+        {
+          "count": 2,
+          "damageId": "1311120104"
+        },
+        {
+          "count": 1,
+          "damageId": "1311120105"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        12,
+        16,
+        19,
+        22
+      ],
+      "id": "hsin/skill",
+      "name": "共鸣技能·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "25.06%+25.06%+25.06%+16.71%*2+58.46%",
+      "sourceNode": 2,
+      "sourceParameter": "31",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.6706,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311210102"
+        },
+        {
+          "count": 1,
+          "damageId": "1311210103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hsin/illuminated_skill",
+      "name": "共鸣技能·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "11.14%*4+178.14%",
+      "sourceNode": 2,
+      "sourceParameter": "32",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.227,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 105,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "13112401010"
+        },
+        {
+          "count": 1,
+          "damageId": "13112401020"
+        },
+        {
+          "count": 1,
+          "damageId": "13112401030"
+        },
+        {
+          "count": 1,
+          "damageId": "13112401040"
+        },
+        {
+          "count": 1,
+          "damageId": "13112401050"
+        },
+        {
+          "count": 1,
+          "damageId": "13112401060"
+        }
+      ],
+      "hitTimesTicks": [
+        30,
+        40,
+        50,
+        60,
+        75,
+        90
+      ],
+      "id": "hsin/liberation_palaces",
+      "name": "万阙垂天伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "c0",
+      "sourceFormula": "80.51%+90.57%+60.38%+100.64%+70.45%+1610.12%",
+      "sourceNode": 3,
+      "sourceParameter": "35",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/hsin-4.gif active=[0.5, 5.75]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 6,
+      "totalMultiplier": 20.1267,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311240404"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "hsin/flying_palace",
+      "name": "飞阙伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "11.37%",
+      "sourceNode": 3,
+      "sourceParameter": "36",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.1137,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1311130101"
+        },
+        {
+          "count": 2,
+          "damageId": "1311130102"
+        },
+        {
+          "count": 1,
+          "damageId": "1311130103"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        12,
+        16,
+        20
+      ],
+      "id": "hsin/intro",
+      "name": "共鸣模态·电磁下变奏技能·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly_electro",
+      "sourceFormula": "7.88%*2+7.88%*2+126.02%",
+      "sourceNode": 6,
+      "sourceParameter": "42",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.5754,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311130201"
+        },
+        {
+          "count": 1,
+          "damageId": "1311130202"
+        },
+        {
+          "count": 1,
+          "damageId": "1311130203"
+        },
+        {
+          "count": 3,
+          "damageId": "1311130204"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "id": "hsin/intro_unison",
+      "name": "共鸣模态·同奏下变奏技能·应世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly_unison",
+      "sourceFormula": "10.28%+20.55%+10.28%+20.55%*3",
+      "sourceNode": 6,
+      "sourceParameter": "43",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.0276,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1311130301"
+        },
+        {
+          "count": 1,
+          "damageId": "1311130302"
+        },
+        {
+          "count": 1,
+          "damageId": "1311130303"
+        },
+        {
+          "count": 3,
+          "damageId": "1311130304"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "id": "hsin/intro_full_unison",
+      "name": "变奏技能·应世相·诸相同奏伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly_full_unison",
+      "sourceFormula": "60.59%+121.18%+60.59%+121.18%*3",
+      "sourceNode": 6,
+      "sourceParameter": "44",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 6.059,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311230101"
+        },
+        {
+          "count": 2,
+          "damageId": "1311230102"
+        },
+        {
+          "count": 4,
+          "damageId": "1311230103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "id": "hsin/illuminated_intro",
+      "name": "共鸣模态·电磁下变奏技能·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated_electro",
+      "sourceFormula": "11.42%*4+11.42%*2+39.97%*4",
+      "sourceNode": 6,
+      "sourceParameter": "45",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 2.284,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311230201"
+        },
+        {
+          "count": 1,
+          "damageId": "1311230211"
+        },
+        {
+          "count": 2,
+          "damageId": "1311230212"
+        },
+        {
+          "count": 2,
+          "damageId": "1311230213"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "hsin/illuminated_intro_unison",
+      "name": "共鸣模态·同奏下变奏技能·照世相伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated_unison",
+      "sourceFormula": "56.59%*4+5.66%+11.32%*2+14.15%*2",
+      "sourceNode": 6,
+      "sourceParameter": "46",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 2.8296,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311230301"
+        },
+        {
+          "count": 1,
+          "damageId": "1311230311"
+        },
+        {
+          "count": 2,
+          "damageId": "1311230312"
+        },
+        {
+          "count": 2,
+          "damageId": "1311230313"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "hsin/illuminated_intro_full_unison",
+      "name": "变奏技能·照世相·诸相同奏伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated_full_unison",
+      "sourceFormula": "157.22%*4+15.73%+31.45%*2+39.31%*2",
+      "sourceNode": 6,
+      "sourceParameter": "47",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 7.8613,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "13111202010"
+        },
+        {
+          "count": 6,
+          "damageId": "13111202020"
+        },
+        {
+          "count": 1,
+          "damageId": "13111202030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "hsin/worldly_step",
+      "name": "重击·应世相·步红尘伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "45.65%+11.42%*6+456.45%",
+      "sourceNode": 7,
+      "sourceParameter": "52",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 5.7062,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "13111202110"
+        },
+        {
+          "count": 6,
+          "damageId": "13111202120"
+        },
+        {
+          "count": 1,
+          "damageId": "13111202130"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "hsin/worldly_suppress",
+      "name": "重击·应世相·镇红尘伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "worldly",
+      "sourceFormula": "99.32%+24.83%*6+993.15%",
+      "sourceNode": 7,
+      "sourceParameter": "53",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 12.4145,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "13112205010"
+        },
+        {
+          "count": 1,
+          "damageId": "13112205020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hsin/illuminated_descend",
+      "name": "重击·照世相·临寰宇伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "10.27%*4+369.70%",
+      "sourceNode": 7,
+      "sourceParameter": "54",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 4.1078,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "13112205110"
+        },
+        {
+          "count": 1,
+          "damageId": "13112205120"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "hsin/illuminated_suppress",
+      "name": "重击·照世相·镇寰宇伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "illuminated",
+      "sourceFormula": "27.05%*4+973.49%",
+      "sourceNode": 7,
+      "sourceParameter": "55",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 10.8169,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "hsin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1311220001"
+        },
+        {
+          "count": 1,
+          "damageId": "1311220011"
+        },
+        {
+          "count": 2,
+          "damageId": "1311220012"
+        },
+        {
+          "count": 2,
+          "damageId": "1311220013"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        11,
+        13,
+        15,
+        16,
+        18,
+        20
+      ],
+      "id": "hsin/palaces_formation",
+      "name": "共鸣技能·照世相·万阙连衡伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "palaces",
+      "sourceFormula": "179.43%*4+17.95%+35.89%*2+44.86%*2",
+      "sourceNode": 7,
+      "sourceParameter": "56",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 9,
+      "totalMultiplier": 8.9717,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blooming_jadehaven"
+    }
+  ],
+  "schemaVersion": 1
+}

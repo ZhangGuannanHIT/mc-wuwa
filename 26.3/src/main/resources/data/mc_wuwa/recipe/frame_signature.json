@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " IG",
+    "ICI",
+    "GI "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "G": "minecraft:glass",
+    "C": "mc_wuwa:core"
+  },
+  "result": {
+    "id": "mc_wuwa:frame_signature",
+    "count": 1
+  }
+}

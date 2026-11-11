@@ -1,0 +1,24 @@
+newmtl c5_crystal
+Kd 0.607843 0.901961 1.000000
+Ka 0.65 0.65 0.65
+map_Kd #crystal
+
+newmtl c6_alloy
+Kd 0.909804 0.929412 0.964706
+Ka 0 0 0
+map_Kd #alloy
+
+newmtl c7_gold
+Kd 0.721569 0.607843 0.380392
+Ka 0 0 0
+map_Kd #gold
+
+newmtl c11_gold
+Kd 0.952941 0.862745 0.647059
+Ka 0 0 0
+map_Kd #gold
+
+newmtl c14_alloy
+Kd 0.968627 0.960784 0.925490
+Ka 0 0 0
+map_Kd #alloy

@@ -1,0 +1,1492 @@
+{
+  "schemaVersion": 1,
+  "characterId": "jinhsi",
+  "weaponId": "mc_wuwa:ages_of_harvest",
+  "palette": [
+    241,
+    218,
+    159
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1304",
+    "data-source/nanoka/3.7/zh/character/1304.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:jinhsi/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:jinhsi/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.139286,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 4.4,
+        "endSeconds": 5.0,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 3,
+        "durationTicks": 14,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:jinhsi/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.166667,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 5.0,
+        "endSeconds": 5.5,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 14,
+        "durationTicks": 18,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:jinhsi/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1375,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 6.2,
+        "endSeconds": 6.8,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:jinhsi/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.147727,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 6.8,
+        "endSeconds": 7.2,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:jinhsi/heavy/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.309615,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/full-showcase/part-0.mp4",
+        "startSeconds": 123.0,
+        "endSeconds": 125.5,
+        "scope": "BV1XS411w73D complete213s sampled timeline and labelled attack detail reviewed; MC fit, not original frame-exact timing",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:jinhsi/air/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/full-showcase/part-0.mp4",
+        "startSeconds": 129.75,
+        "endSeconds": 131.75,
+        "scope": "BV1XS411w73D complete213s sampled timeline and labelled attack detail reviewed; MC fit, not original frame-exact timing",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:jinhsi/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "continuationFeedback": {
+        "source": "docs/reference/jinhsi-motion-pilot/full-showcase/source.json",
+        "scope": "Complete film reviewed; plunge and open-hand cuts fitted to MC. No successful-dodge recording identifies the two counter poses.",
+        "originalCounterVisualVerified": false,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:jinhsi/skill/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.230769,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/full-showcase/part-0.mp4",
+        "startSeconds": 140.25,
+        "endSeconds": 141.5,
+        "scope": "BV1XS411w73D complete213s sampled timeline and labelled attack detail reviewed; MC fit, not original frame-exact timing",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:jinhsi/liberation/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.5,
+          "authoritative": false
+        },
+        {
+          "name": "visual_contact",
+          "seconds": 2.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/jinhsi-4.gif",
+        "startSeconds": 0.5,
+        "endSeconds": 5.5,
+        "scope": "Complete original skill card4 active0.5-5.5s: clasp, dragon reveal, first light3s, final flash4.5s, recovery5.5s; sampled MC fit, not frame-exact.",
+        "acceptance": "source-observed authored candidate; native visual review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 50,
+        "lastHitTick": 80,
+        "durationTicks": 100,
+        "scope": "Complete original skill card4 active0.5-5.5s: clasp, dragon reveal, first light3s, final flash4.5s, recovery5.5s; sampled MC fit, not frame-exact."
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:jinhsi/intro/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "continuationFeedback": {
+        "source": "docs/reference/jinhsi-motion-pilot/full-showcase/source.json",
+        "scope": "Complete film reviewed; plunge and open-hand cuts fitted to MC. No successful-dodge recording identifies the two counter poses.",
+        "originalCounterVisualVerified": false,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:jinhsi/outro/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:jinhsi/echo/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_basic_01",
+      "stateVariant": "incarnation_basic_01",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.214286,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 8.2,
+        "endSeconds": 8.8,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 3,
+        "lastHitTick": 3,
+        "durationTicks": 14,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_basic_02",
+      "stateVariant": "incarnation_basic_02",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.255556,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 8.8,
+        "endSeconds": 9.4,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 14,
+        "durationTicks": 18,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_basic_03",
+      "stateVariant": "incarnation_basic_03",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.325,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 9.4,
+        "endSeconds": 9.8,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_basic_04",
+      "stateVariant": "incarnation_basic_04",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329545,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 9.8,
+        "endSeconds": 10.2,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 18,
+        "durationTicks": 22,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_heavy",
+      "stateVariant": "incarnation_heavy",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_heavy/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "continuationFeedback": {
+        "source": "docs/reference/jinhsi-motion-pilot/full-showcase/source.json",
+        "scope": "Complete film reviewed; plunge and open-hand cuts fitted to MC. No successful-dodge recording identifies the two counter poses.",
+        "originalCounterVisualVerified": false,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_dodge",
+      "stateVariant": "incarnation_dodge",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_dodge/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_dodge/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/illuminous_epiphany",
+      "stateVariant": "illuminous_epiphany",
+      "thirdPersonClip": "mc_wuwa:jinhsi/illuminous_epiphany/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/illuminous_epiphany/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/short-showcase/part-0-720p.mp4",
+        "startSeconds": 11.5,
+        "endSeconds": 14.0,
+        "scope": "Public720p full20s reviewed plus32 frames10.5-18.5s: E4 at11.5-14s; R begins14.75s. Corrected prior R/E4 source mix-up; MC pose/time fit.",
+        "acceptance": "authored candidate; native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/overflowing_radiance",
+      "stateVariant": "overflowing_radiance",
+      "thirdPersonClip": "mc_wuwa:jinhsi/overflowing_radiance/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/overflowing_radiance/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 7.2,
+        "endSeconds": 8.2,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/unison",
+      "stateVariant": "unison",
+      "thirdPersonClip": "mc_wuwa:jinhsi/unison/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/unison/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/skill_overflowing",
+      "stateVariant": "skill_overflowing",
+      "thirdPersonClip": "mc_wuwa:jinhsi/skill_overflowing/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/skill_overflowing/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.161538,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "BV1Kah4eREM6",
+        "startSeconds": 7.2,
+        "endSeconds": 8.2,
+        "scope": "complete video plus dense interval reviewed; cut planes/whole body fitted to MC; stage identification inferred without input overlay",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/incarnation_counter",
+      "stateVariant": "incarnation_counter",
+      "thirdPersonClip": "mc_wuwa:jinhsi/incarnation_counter/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/incarnation_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "continuationFeedback": {
+        "source": "docs/reference/jinhsi-motion-pilot/full-showcase/source.json",
+        "scope": "Complete film reviewed; plunge and open-hand cuts fitted to MC. No successful-dodge recording identifies the two counter poses.",
+        "originalCounterVisualVerified": false,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/skill_crescent",
+      "stateVariant": "skill_crescent",
+      "thirdPersonClip": "mc_wuwa:jinhsi/skill_crescent/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/skill_crescent/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "continuationFeedback": {
+        "source": "docs/reference/jinhsi-motion-pilot/full-showcase/source.json",
+        "scope": "Complete film reviewed; plunge and open-hand cuts fitted to MC. No successful-dodge recording identifies the two counter poses.",
+        "originalCounterVisualVerified": false,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/epiphany_rays",
+      "stateVariant": "epiphany_rays",
+      "thirdPersonClip": "mc_wuwa:jinhsi/epiphany_rays/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/epiphany_rays/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/short-showcase/part-0-720p.mp4",
+        "startSeconds": 11.5,
+        "endSeconds": 14.0,
+        "scope": "Public720p full20s reviewed plus32 frames10.5-18.5s: E4 at11.5-14s; R begins14.75s. Corrected prior R/E4 source mix-up; MC pose/time fit.",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 12,
+        "lastHitTick": 32,
+        "durationTicks": 48,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:jinhsi/epiphany_final",
+      "stateVariant": "epiphany_final",
+      "thirdPersonClip": "mc_wuwa:jinhsi/epiphany_final/tp",
+      "firstPersonClip": "mc_wuwa:jinhsi/epiphany_final/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:spectro/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 2.1,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1304",
+        "data-source/nanoka/3.7/zh/character/1304.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/jinhsi-motion-pilot/short-showcase/part-0-720p.mp4",
+        "startSeconds": 11.5,
+        "endSeconds": 14.0,
+        "scope": "Public720p full20s reviewed plus32 frames10.5-18.5s: E4 at11.5-14s; R begins14.75s. Corrected prior R/E4 source mix-up; MC pose/time fit.",
+        "acceptance": "authored candidate; native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 42,
+        "lastHitTick": 42,
+        "durationTicks": 48,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    }
+  ]
+}

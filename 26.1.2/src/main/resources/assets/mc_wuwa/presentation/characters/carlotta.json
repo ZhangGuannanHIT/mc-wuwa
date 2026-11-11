@@ -1,0 +1,1865 @@
+{
+  "schemaVersion": 1,
+  "characterId": "carlotta",
+  "weaponId": "mc_wuwa:the_last_dance",
+  "palette": [
+    215,
+    170,
+    230
+  ],
+  "sourceEvidence": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+    "docs/reference/new-six-20261021/official-skills-manifest.json",
+    "data-source/nanoka/3.7/zh/character/1107.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:carlotta/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:carlotta/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:carlotta/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/necessary_01",
+      "stateVariant": "necessary_01",
+      "thirdPersonClip": "mc_wuwa:carlotta/necessary_01/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/necessary_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/necessary_02",
+      "stateVariant": "necessary_02",
+      "thirdPersonClip": "mc_wuwa:carlotta/necessary_02/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/necessary_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/necessary_03",
+      "stateVariant": "necessary_03",
+      "thirdPersonClip": "mc_wuwa:carlotta/necessary_03/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/necessary_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:carlotta/heavy/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/heavy_restrictive",
+      "stateVariant": "heavy_restrictive",
+      "thirdPersonClip": "mc_wuwa:carlotta/heavy_restrictive/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/heavy_restrictive/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:carlotta/air/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousSupportCastBranches": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Retained reviewed directing/pistol gestures, continuous windup/contact/recovery on actual MC first contact. Release, models and persistent actors unchanged; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/courtesy",
+      "stateVariant": "courtesy",
+      "thirdPersonClip": "mc_wuwa:carlotta/courtesy/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/courtesy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousSupportCastBranches": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Retained reviewed directing/pistol gestures, continuous windup/contact/recovery on actual MC first contact. Release, models and persistent actors unchanged; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:carlotta/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousSupportCastBranches": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Retained reviewed directing/pistol gestures, continuous windup/contact/recovery on actual MC first contact. Release, models and persistent actors unchanged; not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:carlotta/skill/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/skill_show_brilliance",
+      "stateVariant": "skill_show_brilliance",
+      "thirdPersonClip": "mc_wuwa:carlotta/skill_show_brilliance/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/skill_show_brilliance/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/skill_c3",
+      "stateVariant": "skill_c3",
+      "thirdPersonClip": "mc_wuwa:carlotta/skill_c3/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/skill_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/skill_show_brilliance_c3",
+      "stateVariant": "skill_show_brilliance_c3",
+      "thirdPersonClip": "mc_wuwa:carlotta/skill_show_brilliance_c3/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/skill_show_brilliance_c3/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:carlotta/liberation/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "pelvis",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_01",
+      "stateVariant": "death_knell_01",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_01/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_02",
+      "stateVariant": "death_knell_02",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_02/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_03",
+      "stateVariant": "death_knell_03",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_03/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_04",
+      "stateVariant": "death_knell_04",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_04/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_01_c6",
+      "stateVariant": "death_knell_01_c6",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_01_c6/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_01_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_02_c6",
+      "stateVariant": "death_knell_02_c6",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_02_c6/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_02_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_03_c6",
+      "stateVariant": "death_knell_03_c6",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_03_c6/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_03_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/death_knell_04_c6",
+      "stateVariant": "death_knell_04_c6",
+      "thirdPersonClip": "mc_wuwa:carlotta/death_knell_04_c6/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/death_knell_04_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/fatal_finale",
+      "stateVariant": "fatal_finale",
+      "thirdPersonClip": "mc_wuwa:carlotta/fatal_finale/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/fatal_finale/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/fatal_finale_c2",
+      "stateVariant": "fatal_finale_c2",
+      "thirdPersonClip": "mc_wuwa:carlotta/fatal_finale_c2/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/fatal_finale_c2/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "primaryReportClock": {
+        "primaryPoseSeconds": 0.3,
+        "scope": "Retained single rifle recoil aligned to first MC hit. Autonomous crystal hits do not repeat body recoil; not original frame timing.",
+        "source": "tools/art/author_three_prop_performances.py; docs/implementation/20261102-carlotta-primary-report.md"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:carlotta/intro/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "crystalGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/carlotta-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/heavy_end_of_road",
+      "stateVariant": "heavy_end_of_road",
+      "thirdPersonClip": "mc_wuwa:carlotta/heavy_end_of_road/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/heavy_end_of_road/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/heavy_end_of_road_c5",
+      "stateVariant": "heavy_end_of_road_c5",
+      "thirdPersonClip": "mc_wuwa:carlotta/heavy_end_of_road_c5/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/heavy_end_of_road_c5/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "continuousCrystalChain": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json; docs/reference/enhanced-attacks-motion/next-six/crystal-dream-source.json",
+        "scope": "Complete normal and end-of-road publisher panels reviewed: pistol report, guided crystal chain and forward release. Continuous MC pose phases, not measured original input timing. Approved dual pistols and grip unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:carlotta/outro/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/outro_c3_extra",
+      "stateVariant": "outro_c3_extra",
+      "thirdPersonClip": "mc_wuwa:carlotta/outro_c3_extra/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/outro_c3_extra/fp",
+      "modelPresentation": "player",
+      "boneMask": [],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:carlotta/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:carlotta/echo/tp",
+      "firstPersonClip": "mc_wuwa:carlotta/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:glacio/basic",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1845",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1107.json"
+      ]
+    }
+  ]
+}

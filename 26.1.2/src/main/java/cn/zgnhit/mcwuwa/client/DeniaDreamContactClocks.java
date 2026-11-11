@@ -1,0 +1,53 @@
+package cn.zgnhit.mcwuwa.client;
+import java.util.Map;
+/** Generated from retained combat catalogue. */
+final class DeniaDreamContactClocks {
+    record Clock(int duration,int... hits){}
+    static final Map<String,Clock> ALL=Map.ofEntries(
+        Map.entry("denia/heavy",new Clock(26,7,22)),
+        Map.entry("denia/air",new Clock(24,6,20)),
+        Map.entry("denia/dodge_counter",new Clock(20,4,10,16)),
+        Map.entry("denia/disillusion_basic_01",new Clock(14,3)),
+        Map.entry("denia/disillusion_basic_02",new Clock(18,4,6,9,12,14)),
+        Map.entry("denia/disillusion_basic_03",new Clock(22,5)),
+        Map.entry("denia/disillusion_basic_04",new Clock(26,6,22)),
+        Map.entry("denia/disillusion_heavy",new Clock(26,7)),
+        Map.entry("denia/disillusion_air_basic_01",new Clock(14,3)),
+        Map.entry("denia/disillusion_air_basic_02",new Clock(18,4,6,9,12,14)),
+        Map.entry("denia/disillusion_air_basic_03",new Clock(22,5)),
+        Map.entry("denia/disillusion_air_basic_04",new Clock(26,6,22)),
+        Map.entry("denia/disillusion_air",new Clock(24,6,20)),
+        Map.entry("denia/disillusion_counter",new Clock(24,6)),
+        Map.entry("denia/disillusion_basic_01_enhanced",new Clock(14,3)),
+        Map.entry("denia/disillusion_basic_02_enhanced",new Clock(18,4,6,9,12,14)),
+        Map.entry("denia/disillusion_basic_03_enhanced",new Clock(22,5)),
+        Map.entry("denia/disillusion_basic_04_enhanced",new Clock(26,6,22)),
+        Map.entry("denia/disillusion_air_basic_01_enhanced",new Clock(14,3)),
+        Map.entry("denia/disillusion_air_basic_02_enhanced",new Clock(18,4,6,9,12,14)),
+        Map.entry("denia/disillusion_air_basic_03_enhanced",new Clock(22,5)),
+        Map.entry("denia/disillusion_air_basic_04_enhanced",new Clock(26,6,22)),
+        Map.entry("denia/disillusion_heavy_enhanced",new Clock(26,7)),
+        Map.entry("denia/disillusion_air_enhanced",new Clock(24,6,20)),
+        Map.entry("denia/disillusion_counter_enhanced",new Clock(24,6)),
+        Map.entry("denia/skill",new Clock(26,6,11,17,22)),
+        Map.entry("denia/skill_c3_full_core",new Clock(26,6,11,17,22)),
+        Map.entry("denia/skill_call",new Clock(26,6,9,12,16,19,22)),
+        Map.entry("denia/skill_exile_01",new Clock(26,6,14,22)),
+        Map.entry("denia/skill_exile_01_c2",new Clock(26,6,14,22)),
+        Map.entry("denia/skill_exile_02",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_2",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_3",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_4",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_5",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_c2",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_2_c2",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_3_c2",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_4_c2",new Clock(26,6)),
+        Map.entry("denia/skill_exile_02_core_5_c2",new Clock(26,6)),
+        Map.entry("denia/liberation",new Clock(48,12)),
+        Map.entry("denia/liberation_disillusion",new Clock(48,12,23,33,44)),
+        Map.entry("denia/liberation_disillusion_c3",new Clock(48,12,23,33,44)),
+        Map.entry("denia/intro",new Clock(24,5)),
+        Map.entry("denia/intro_disillusion",new Clock(24,5,12,20)));
+    private DeniaDreamContactClocks(){}
+}

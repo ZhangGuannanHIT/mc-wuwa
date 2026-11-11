@@ -1,0 +1,93 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.shorekeeper_dark_butterfly.idle": {
+      "loop": true,
+      "animation_length": 0.25,
+      "bones": {
+        "right_wing": {
+          "rotation": {
+            "0": [
+              0,
+              -24,
+              0
+            ],
+            "0.125": [
+              0,
+              35,
+              0
+            ],
+            "0.25": [
+              0,
+              -24,
+              0
+            ]
+          }
+        },
+        "left_wing": {
+          "rotation": {
+            "0": [
+              0,
+              24,
+              0
+            ],
+            "0.125": [
+              0,
+              -35,
+              0
+            ],
+            "0.25": [
+              0,
+              24,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.shorekeeper_dark_butterfly.attack": {
+      "loop": true,
+      "animation_length": 0.25,
+      "bones": {
+        "right_wing": {
+          "rotation": {
+            "0": [
+              0,
+              -24,
+              0
+            ],
+            "0.125": [
+              0,
+              35,
+              0
+            ],
+            "0.25": [
+              0,
+              -24,
+              0
+            ]
+          }
+        },
+        "left_wing": {
+          "rotation": {
+            "0": [
+              0,
+              24,
+              0
+            ],
+            "0.125": [
+              0,
+              -35,
+              0
+            ],
+            "0.25": [
+              0,
+              24,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

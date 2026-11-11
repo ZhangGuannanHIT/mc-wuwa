@@ -1,0 +1,1571 @@
+{
+  "schemaVersion": 1,
+  "characterId": "changli",
+  "weaponId": "mc_wuwa:blazing_brilliance",
+  "palette": [
+    245,
+    137,
+    112
+  ],
+  "sourceEvidence": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+    "docs/reference/new-six-20261021/official-skills-manifest.json",
+    "data-source/nanoka/3.7/zh/character/1205.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:changli/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:changli/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:changli/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Complete official timeline and combat montage inspected; stage-specific MC adaptation, not all original input branches or frame-exact motion",
+        "nativeReview": "pending"
+      },
+      "groundChainPhases": {
+        "source": "docs/reference/changli-retail-techniques/source.json",
+        "scope": "Labelled A1-A4 at423-428s inspected at8fps: diagonal cut, twin arc, low continuous sweep, feather sweep. Slow playback supplies shape only; retained MC timings, not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:changli/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:changli/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Complete official timeline and combat montage inspected; stage-specific MC adaptation, not all original input branches or frame-exact motion",
+        "nativeReview": "pending"
+      },
+      "groundChainPhases": {
+        "source": "docs/reference/changli-retail-techniques/source.json",
+        "scope": "Labelled A1-A4 at423-428s inspected at8fps: diagonal cut, twin arc, low continuous sweep, feather sweep. Slow playback supplies shape only; retained MC timings, not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:changli/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:changli/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Complete official timeline and combat montage inspected; stage-specific MC adaptation, not all original input branches or frame-exact motion",
+        "nativeReview": "pending"
+      },
+      "groundChainPhases": {
+        "source": "docs/reference/changli-retail-techniques/source.json",
+        "scope": "Labelled A1-A4 at423-428s inspected at8fps: diagonal cut, twin arc, low continuous sweep, feather sweep. Slow playback supplies shape only; retained MC timings, not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:changli/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:changli/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "normalAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Complete official timeline and combat montage inspected; stage-specific MC adaptation, not all original input branches or frame-exact motion",
+        "nativeReview": "pending"
+      },
+      "groundChainPhases": {
+        "source": "docs/reference/changli-retail-techniques/source.json",
+        "scope": "Labelled A1-A4 at423-428s inspected at8fps: diagonal cut, twin arc, low continuous sweep, feather sweep. Slow playback supplies shape only; retained MC timings, not frame-exact.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/air_basic_01",
+      "stateVariant": "air_basic_01",
+      "thirdPersonClip": "mc_wuwa:changli/air_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:changli/air_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "airChainPhases": {
+        "source": "docs/reference/changli-retail-air-chain/source.json",
+        "scope": "All 250 quarter-second samples inspected: alternating horizontal arcs, vertical rising slash and return. MC phase placement on retained hit clocks, not exact frame extraction. Grounded chain unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/air_basic_02",
+      "stateVariant": "air_basic_02",
+      "thirdPersonClip": "mc_wuwa:changli/air_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:changli/air_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "airChainPhases": {
+        "source": "docs/reference/changli-retail-air-chain/source.json",
+        "scope": "All 250 quarter-second samples inspected: alternating horizontal arcs, vertical rising slash and return. MC phase placement on retained hit clocks, not exact frame extraction. Grounded chain unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/air_basic_03",
+      "stateVariant": "air_basic_03",
+      "thirdPersonClip": "mc_wuwa:changli/air_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:changli/air_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "airChainPhases": {
+        "source": "docs/reference/changli-retail-air-chain/source.json",
+        "scope": "All 250 quarter-second samples inspected: alternating horizontal arcs, vertical rising slash and return. MC phase placement on retained hit clocks, not exact frame extraction. Grounded chain unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/air_basic_04",
+      "stateVariant": "air_basic_04",
+      "thirdPersonClip": "mc_wuwa:changli/air_basic_04/tp",
+      "firstPersonClip": "mc_wuwa:changli/air_basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "aerialChainObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-full-timeline.json",
+        "scope": "Inspected source observations adapted to connected joints and per-hit poses; accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "airChainPhases": {
+        "source": "docs/reference/changli-retail-air-chain/source.json",
+        "scope": "All 250 quarter-second samples inspected: alternating horizontal arcs, vertical rising slash and return. MC phase placement on retained hit clocks, not exact frame extraction. Grounded chain unchanged.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:changli/heavy/tp",
+      "firstPersonClip": "mc_wuwa:changli/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:changli/air/tp",
+      "firstPersonClip": "mc_wuwa:changli/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:changli/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:changli/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:changli/skill/tp",
+      "firstPersonClip": "mc_wuwa:changli/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/true_sight_conquest",
+      "stateVariant": "true_sight_conquest",
+      "thirdPersonClip": "mc_wuwa:changli/true_sight_conquest/tp",
+      "firstPersonClip": "mc_wuwa:changli/true_sight_conquest/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/true_sight_charge",
+      "stateVariant": "true_sight_charge",
+      "thirdPersonClip": "mc_wuwa:changli/true_sight_charge/tp",
+      "firstPersonClip": "mc_wuwa:changli/true_sight_charge/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:changli/liberation/tp",
+      "firstPersonClip": "mc_wuwa:changli/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 3.0,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "sourceReviewedClock": {
+        "durationTicks": 90,
+        "hitTimesTicks": [
+          60
+        ],
+        "posePhaseAnchors": [
+          [
+            0,
+            0
+          ],
+          [
+            0.12,
+            0.3333333333333333
+          ],
+          [
+            0.25,
+            0.6666666666666666
+          ],
+          [
+            0.52,
+            0.7933333333333333
+          ],
+          [
+            0.82,
+            0.907
+          ],
+          [
+            1,
+            1
+          ]
+        ],
+        "source": "docs/reference/new-six-20261021/changli-official-3.gif",
+        "observedActiveSeconds": [
+          0.5,
+          5
+        ],
+        "nativeTimingVerified": false,
+        "scope": "Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields."
+      },
+      "pilotObservation": {
+        "video": "docs/reference/new-six-20261021/changli-official-3.gif",
+        "scope": "Complete original GIF, every quarter-second timeline page reviewed; independent FP and connected body fit; no forced camera",
+        "acceptance": "native review pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:changli/intro/tp",
+      "firstPersonClip": "mc_wuwa:changli/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "pelvis",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/heavy_flaming_sacrifice",
+      "stateVariant": "heavy_flaming_sacrifice",
+      "thirdPersonClip": "mc_wuwa:changli/heavy_flaming_sacrifice/tp",
+      "firstPersonClip": "mc_wuwa:changli/heavy_flaming_sacrifice/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/heavy_flaming_sacrifice_c5",
+      "stateVariant": "heavy_flaming_sacrifice_c5",
+      "thirdPersonClip": "mc_wuwa:changli/heavy_flaming_sacrifice_c5/tp",
+      "firstPersonClip": "mc_wuwa:changli/heavy_flaming_sacrifice_c5/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "Film-observed gesture family; branch assignment and timing are MC adaptations, not exhaustive original motion acceptance.",
+        "nativeReview": "pending"
+      },
+      "continuousBladePhases": {
+        "source": "docs/reference/tide-combat-motion/changli-combat-timeline.json",
+        "scope": "All 11 combat pages reviewed: rising blade, forward sweep, aerial turn and descending finish. Continuous body phases adapted to MC branches; montage does not establish exact input-specific frames.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:changli/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:changli/echo/tp",
+      "firstPersonClip": "mc_wuwa:changli/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:changli/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:changli/outro/tp",
+      "firstPersonClip": "mc_wuwa:changli/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/outro",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:changli/echo_riding",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:changli/echo/tp",
+      "firstPersonClip": "mc_wuwa:changli/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "approved_pixel_rider_model_authored_timing",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:changli/echo_rider_finish",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:changli/echo/tp",
+      "firstPersonClip": "mc_wuwa:changli/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "approved_pixel_rider_model_authored_timing",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/1064",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1205.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.aleph_one.idle": {
+      "loop": true,
+      "animation_length": 3,
+      "bones": {
+        "root": {
+          "position": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "1.5": [
+              0,
+              0.7,
+              0
+            ],
+            "3.0": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.aleph_one.attack": {
+      "loop": false,
+      "animation_length": 0.8,
+      "bones": {
+        "iris": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.4": [
+              0,
+              -12,
+              0
+            ],
+            "0.6": [
+              12,
+              18,
+              0
+            ],
+            "0.8": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.aleph_one.hurt": {
+      "loop": false,
+      "animation_length": 0.35,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [
+              0,
+              0,
+              0
+            ],
+            "0.12": [
+              8,
+              0,
+              -5
+            ],
+            "0.35": [
+              0,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    }
+  }
+}

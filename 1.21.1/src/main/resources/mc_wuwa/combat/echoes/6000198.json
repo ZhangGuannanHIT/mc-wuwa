@@ -1,0 +1,203 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "20013401",
+      "kind": "echo",
+      "multiplier": 4.05,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 562,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          22500,
+          27000,
+          31500,
+          36000,
+          40500
+        ],
+        "related_property": "攻击",
+        "tough_lv": 22500,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 3.7859666834931853,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "20013402",
+      "kind": "echo",
+      "multiplier": 0.4933,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 68,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          2741,
+          3289,
+          3837,
+          4385,
+          4933
+        ],
+        "related_property": "攻击",
+        "tough_lv": 2741,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.4612148746424365,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "短按声骸技能，幻形为迷胧幻蛾，对周围敌人造成405.00%的衍射伤害。\n长按声骸技能，持续攻击敌人造成至多十二段49.33%的衍射伤害。\n使用该声骸技能后15秒内，若自身施放延奏技能，使下一个变奏技能登场的角色攻击提升12.00%，持续15秒。\n技能冷却：25秒",
+  "mechanicsFullyImplemented": false,
+  "name": "迷胧幻蛾",
+  "parameters": [
+    "405.00%",
+    "49.33%",
+    "15",
+    "12.00%",
+    "15",
+    "25"
+  ],
+  "raw": {
+    "code": "H57-",
+    "group": {
+      "31": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport1.T_IconElementAttriSupport1",
+        "id": 31,
+        "name": "剪心辑梦之影",
+        "set": {
+          "2": {
+            "desc": "攻击提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【震谐·偏移】或【集谐·偏移】时，队伍中角色谐度破坏增幅提升{0}点，持续{1}秒，同名效果之间不可叠加。",
+            "param": [
+              "20",
+              "30"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_32066_UI.T_IconMonsterHead_32066_UI",
+    "id": 6000198,
+    "intensity": "",
+    "intensity_code": 1,
+    "monster_info": 320000660,
+    "name": "迷胧幻蛾",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "20013401": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 562,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            22500,
+            27000,
+            31500,
+            36000,
+            40500
+          ],
+          "related_property": "攻击",
+          "tough_lv": 22500,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "20013402": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 68,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            2741,
+            3289,
+            3837,
+            4385,
+            4933
+          ],
+          "related_property": "攻击",
+          "tough_lv": 2741,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "短按声骸技能，幻形为迷胧幻蛾，对周围敌人造成{0}的衍射伤害。\n长按声骸技能，持续攻击敌人造成至多十二段{1}的衍射伤害。\n使用该声骸技能后{2}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色攻击提升{3}，持续{4}秒。\n技能冷却：{5}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_32066_UI.T_MstSkil_32066_UI",
+      "param": [
+        [
+          "225.00%",
+          "27.41%",
+          "15",
+          "12.00%",
+          "15",
+          "25"
+        ],
+        [
+          "270.00%",
+          "32.89%",
+          "15",
+          "12.00%",
+          "15",
+          "25"
+        ],
+        [
+          "315.00%",
+          "38.37%",
+          "15",
+          "12.00%",
+          "15",
+          "25"
+        ],
+        [
+          "360.00%",
+          "43.85%",
+          "15",
+          "12.00%",
+          "15",
+          "25"
+        ],
+        [
+          "405.00%",
+          "49.33%",
+          "15",
+          "12.00%",
+          "15",
+          "25"
+        ]
+      ],
+      "simple_desc": "短按声骸技能，幻形为迷胧幻蛾，造成衍射伤害。\n长按声骸技能，持续攻击敌人造成衍射伤害。\n使用该声骸技能后，下一个变奏技能登场的角色攻击提升。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000198
+}

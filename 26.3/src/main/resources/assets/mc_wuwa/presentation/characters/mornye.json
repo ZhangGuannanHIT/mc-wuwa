@@ -1,0 +1,1483 @@
+{
+  "schemaVersion": 1,
+  "characterId": "mornye",
+  "weaponId": "mc_wuwa:starfield_calibrator",
+  "palette": [
+    246,
+    153,
+    85
+  ],
+  "sourceEvidence": [
+    "https://ww.nanoka.cc/character/1209",
+    "data-source/nanoka/3.7/zh/character/1209.json",
+    "plan.md#24"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:mornye/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:mornye/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:mornye/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1625,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-0.gif",
+        "startSeconds": 0,
+        "endSeconds": 0.65,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 12,
+        "durationTicks": 16,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:mornye/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:mornye/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1875,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-0.gif",
+        "startSeconds": 0.65,
+        "endSeconds": 1.56,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 16,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:mornye/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:mornye/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.1375,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-0.gif",
+        "startSeconds": 1.56,
+        "endSeconds": 2.08,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/heavy",
+      "stateVariant": "heavy",
+      "thirdPersonClip": "mc_wuwa:mornye/heavy/tp",
+      "firstPersonClip": "mc_wuwa:mornye/heavy/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.309615,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-0.gif",
+        "startSeconds": 3.3,
+        "endSeconds": 4.5,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:mornye/air/tp",
+      "firstPersonClip": "mc_wuwa:mornye/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_air_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 6,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      },
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/complete-display/part-0.mp4",
+        "startSeconds": 79,
+        "endSeconds": 83.5,
+        "playbackRate": 0.2,
+        "scope": "jump, remote blade overhead-to-forward-down arc, landing recovery; MC timing6/24 retained, original native frame duration unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:mornye/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:mornye/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.16,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 105.25,
+        "endSeconds": 107.25,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 4,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:mornye/skill/tp",
+      "firstPersonClip": "mc_wuwa:mornye/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.230769,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-1.gif",
+        "startSeconds": 0.7,
+        "endSeconds": 3.7,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:mornye/liberation/tp",
+      "firstPersonClip": "mc_wuwa:mornye/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 4.5,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-2.gif",
+        "startSeconds": 0,
+        "endSeconds": 5.5,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 90,
+        "lastHitTick": 90,
+        "durationTicks": 110,
+        "scope": "complete card duration fit; half-second sampled estimate"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:mornye/intro/tp",
+      "firstPersonClip": "mc_wuwa:mornye/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.177083,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-4.gif",
+        "startSeconds": 0.6,
+        "endSeconds": 2.6,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 5,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:mornye/outro/tp",
+      "firstPersonClip": "mc_wuwa:mornye/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/outro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.329,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:mornye/echo/tp",
+      "firstPersonClip": "mc_wuwa:mornye/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/echo",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.564,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/wide_observation",
+      "stateVariant": "wide_observation",
+      "thirdPersonClip": "mc_wuwa:mornye/wide_observation/tp",
+      "firstPersonClip": "mc_wuwa:mornye/wide_observation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_enter",
+      "stateVariant": "observation_enter",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_enter/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_enter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_exit",
+      "stateVariant": "observation_exit",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_exit/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_exit/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.611,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/mass_energy_conversion",
+      "stateVariant": "mass_energy_conversion",
+      "thirdPersonClip": "mc_wuwa:mornye/mass_energy_conversion/tp",
+      "firstPersonClip": "mc_wuwa:mornye/mass_energy_conversion/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6815,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/critical_protocol",
+      "stateVariant": "critical_protocol",
+      "thirdPersonClip": "mc_wuwa:mornye/critical_protocol/tp",
+      "firstPersonClip": "mc_wuwa:mornye/critical_protocol/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/decoupling",
+      "stateVariant": "decoupling",
+      "thirdPersonClip": "mc_wuwa:mornye/decoupling/tp",
+      "firstPersonClip": "mc_wuwa:mornye/decoupling/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/basic_04",
+      "stateVariant": "basic_04",
+      "thirdPersonClip": "mc_wuwa:mornye/basic_04/tp",
+      "firstPersonClip": "mc_wuwa:mornye/basic_04/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.265385,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-0.gif",
+        "startSeconds": 2.08,
+        "endSeconds": 2.86,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 6,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_basic_01",
+      "stateVariant": "observation_basic_01",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.175,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 150,
+        "endSeconds": 153,
+        "scope": "full timeline plus140--164s half-second detail reviewed; panel tap, crossed rays and outward dismissal fitted to MC; edited video is not native timing evidence",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 12,
+        "durationTicks": 16,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_basic_02",
+      "stateVariant": "observation_basic_02",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2125,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 153,
+        "endSeconds": 156,
+        "scope": "full timeline plus140--164s half-second detail reviewed; panel tap, crossed rays and outward dismissal fitted to MC; edited video is not native timing evidence",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 5,
+        "lastHitTick": 16,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_basic_03",
+      "stateVariant": "observation_basic_03",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 156,
+        "endSeconds": 159,
+        "scope": "full timeline plus140--164s half-second detail reviewed; panel tap, crossed rays and outward dismissal fitted to MC; edited video is not native timing evidence",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 20,
+        "durationTicks": 24,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/observation_dodge_counter",
+      "stateVariant": "observation_dodge_counter",
+      "thirdPersonClip": "mc_wuwa:mornye/observation_dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:mornye/observation_dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "gameplay_context_inferred_independent_counter_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/solo-hologram/part-0-720.mp4",
+        "startSeconds": 110.1,
+        "endSeconds": 111.1,
+        "scope": "gold dodge cue followed by leaning floating volley; identity inferred from context, no input overlay; MC20 ticks/4 contacts retained; no A2 clip copy"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 4,
+        "lastHitTick": 16,
+        "durationTicks": 20,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/skill_optimal",
+      "stateVariant": "skill_optimal",
+      "thirdPersonClip": "mc_wuwa:mornye/skill_optimal/tp",
+      "firstPersonClip": "mc_wuwa:mornye/skill_optimal/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.161538,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-1.gif",
+        "startSeconds": 6,
+        "endSeconds": 9.5,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 6,
+        "lastHitTick": 6,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/resonance_field",
+      "stateVariant": "resonance_field",
+      "thirdPersonClip": "mc_wuwa:mornye/resonance_field/tp",
+      "firstPersonClip": "mc_wuwa:mornye/resonance_field/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.5405,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/heavy_potential",
+      "stateVariant": "heavy_potential",
+      "thirdPersonClip": "mc_wuwa:mornye/heavy_potential/tp",
+      "firstPersonClip": "mc_wuwa:mornye/heavy_potential/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.188462,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-3.gif",
+        "startSeconds": 0.3,
+        "endSeconds": 2.1,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 22,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/heavy_inversion",
+      "stateVariant": "heavy_inversion",
+      "thirdPersonClip": "mc_wuwa:mornye/heavy_inversion/tp",
+      "firstPersonClip": "mc_wuwa:mornye/heavy_inversion/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.228846,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/original-skill-gifs/existing-roles/mornye-3.gif",
+        "startSeconds": 5.5,
+        "endSeconds": 8.3,
+        "scope": "full source timeline and selected dense interval reviewed; MC body fit, not original frame timing",
+        "acceptance": "authored candidate, native review pending"
+      },
+      "mcContactAlignment": {
+        "firstHitTick": 7,
+        "lastHitTick": 7,
+        "durationTicks": 26,
+        "scope": "presentation fitted to current MC authority; original frame timing remains unverified"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:mornye/tune_response_particle_jet",
+      "stateVariant": "tune_response_particle_jet",
+      "thirdPersonClip": "mc_wuwa:mornye/tune_response_particle_jet/tp",
+      "firstPersonClip": "mc_wuwa:mornye/tune_response_particle_jet/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.47,
+          "authoritative": false
+        }
+      ],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:mornye/skill_guard",
+      "stateVariant": "skill_guard",
+      "thirdPersonClip": "mc_wuwa:mornye/skill_guard/tp",
+      "firstPersonClip": "mc_wuwa:mornye/skill_guard/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "authored_unverified",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "feedbackOnly": true
+    },
+    {
+      "actionId": "mc_wuwa:mornye/hover_idle",
+      "stateVariant": "hover_idle",
+      "thirdPersonClip": "mc_wuwa:mornye/hover_idle/tp",
+      "firstPersonClip": "mc_wuwa:mornye/hover_idle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:fusion/skill",
+      "requiredMarkers": [],
+      "timingStatus": "visual_authoring_only_not_original_frame_data",
+      "reviewState": "source_observed_pose_candidate",
+      "sourceEvidence": [
+        "https://ww.nanoka.cc/character/1209",
+        "data-source/nanoka/3.7/zh/character/1209.json",
+        "plan.md#24"
+      ],
+      "pilotObservation": {
+        "video": "docs/reference/mornye-motion-pilot/motion-appreciation/part-0.mp4",
+        "startSeconds": 130,
+        "endSeconds": 140,
+        "scope": "persistent observation hover is upright; the seated pose belongs to later attacks at146/164s, not idle",
+        "acceptance": "authored candidate, native upright-hover review pending"
+      }
+    }
+  ]
+}

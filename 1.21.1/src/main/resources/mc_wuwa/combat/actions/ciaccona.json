@@ -1,0 +1,690 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407001010"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "ciaccona/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "57.06%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5706,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407002010"
+        },
+        {
+          "count": 2,
+          "damageId": "1407002020"
+        },
+        {
+          "count": 1,
+          "damageId": "1407002030"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        11,
+        14
+      ],
+      "id": "ciaccona/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "48.91%+24.46%*2+65.21%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.6304,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407003010"
+        },
+        {
+          "count": 1,
+          "damageId": "1407003020"
+        },
+        {
+          "count": 1,
+          "damageId": "1407003030"
+        },
+        {
+          "count": 1,
+          "damageId": "1407003040"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        9,
+        14,
+        18
+      ],
+      "id": "ciaccona/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "33.02%*4",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.3208,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407004010"
+        },
+        {
+          "count": 1,
+          "damageId": "1407004020"
+        },
+        {
+          "count": 1,
+          "damageId": "1407004030"
+        },
+        {
+          "count": 1,
+          "damageId": "1407004040"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        13,
+        18,
+        24
+      ],
+      "id": "ciaccona/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "61.14%*4",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.4456,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407010010"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "ciaccona/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "107.60%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.076,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407100020"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "ciaccona/aim",
+      "name": "瞄准伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "32.61%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3261,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407100010"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "ciaccona/aim_charged",
+      "name": "瞄准完全蓄力伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "73.37%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7337,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407021010"
+        },
+        {
+          "count": 1,
+          "damageId": "1407021020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "ciaccona/air_01",
+      "name": "空中攻击第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "55.43%*2",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1086,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1407022010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "ciaccona/air_02",
+      "name": "空中攻击第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "24.46%*4",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.9784,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407030010"
+        },
+        {
+          "count": 1,
+          "damageId": "1407030011"
+        },
+        {
+          "count": 1,
+          "damageId": "1407030012"
+        },
+        {
+          "count": 1,
+          "damageId": "1407030013"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "ciaccona/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "57.17%*4",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.2868,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1407101010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "ciaccona/skill",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "40.39%*4",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.6156,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 75,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407200070"
+        }
+      ],
+      "hitTimesTicks": [
+        65
+      ],
+      "id": "ciaccona/liberation",
+      "name": "即兴的交响诗伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "1100.42%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "docs/reference/original-skill-gifs/ciaccona-2.gif active=[0.5, 4.25]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 1,
+      "totalMultiplier": 11.0042,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 20,
+          "damageId": "1407200010"
+        }
+      ],
+      "hitTimesTicks": [
+        12,
+        14,
+        15,
+        17,
+        19,
+        20,
+        22,
+        24,
+        25,
+        27,
+        29,
+        31,
+        32,
+        34,
+        36,
+        37,
+        39,
+        41,
+        42,
+        44
+      ],
+      "id": "ciaccona/liberation_note",
+      "name": "交响诗·主音伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "performing",
+      "sourceFormula": "6.12%*20",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 20,
+      "totalMultiplier": 1.224,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1407601001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "ciaccona/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "189.11%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.8911,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "ciaccona",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 14.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 0.6
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "1407103010"
+        },
+        {
+          "count": 1,
+          "damageId": "1407103011"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        8,
+        10,
+        12,
+        13,
+        14,
+        16,
+        18,
+        19,
+        20,
+        22
+      ],
+      "id": "ciaccona/heavy_quartet",
+      "name": "四拍重奏伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "31.41%*10+314.03%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 11,
+      "totalMultiplier": 6.2813,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "woodland_aria"
+    }
+  ],
+  "schemaVersion": 1
+}

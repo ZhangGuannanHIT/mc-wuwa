@@ -1,0 +1,3501 @@
+{
+  "baseStats": {
+    "attack": 412.5,
+    "defense": 1258.8866,
+    "health": 10825.0
+  },
+  "chains": [
+    {
+      "description": "今汐施放普攻凌霄·普攻、共鸣技能逐天取月时，获得一层惊蛰效果，可叠加4层，持续6秒。施放共鸣技能惊龙破空时，消耗惊蛰效果的所有层数，每消耗一层，共鸣技能惊龙破空造成的伤害提升20%。",
+      "name": "沉海洄天溯",
+      "parameters": [
+        "4",
+        "6",
+        "20%"
+      ],
+      "rawDescription": "今汐施放普攻<color=Highlight>凌霄·普攻</color>、共鸣技能<color=Highlight>逐天取月</color>时，获得一层<color=Highlight>惊蛰</color>效果，可叠加{0}层，持续{1}秒。施放共鸣技能<color=Highlight>惊龙破空</color>时，消耗<color=Highlight>惊蛰</color>效果的所有层数，每消耗一层，共鸣技能<color=Highlight>惊龙破空</color>造成的伤害提升{2}。",
+      "tier": 1
+    },
+    {
+      "description": "今汐处于非战斗状态大于4秒时，回复50点【韶光】，每4秒只生效1次。",
+      "name": "绒雪凝屏息",
+      "parameters": [
+        "4",
+        "50",
+        "4",
+        "1"
+      ],
+      "rawDescription": "今汐处于非战斗状态大于{0}秒时，回复{1}点【<te href=850002>韶光</te>】，每{2}秒只生效{3}次。",
+      "tier": 2
+    },
+    {
+      "description": "今汐施放变奏技能蟠龙清辉后，获得一层谪仙效果，每层使攻击提升25%，可叠加2层，效果持续20秒。",
+      "name": "天定神子身",
+      "parameters": [
+        "25%",
+        "2",
+        "20"
+      ],
+      "rawDescription": "今汐施放变奏技能<color=Highlight>蟠龙清辉</color>后，获得一层<color=Highlight>谪仙</color>效果，每层使攻击提升{0}，可叠加{1}层，效果持续{2}秒。",
+      "tier": 3
+    },
+    {
+      "description": "今汐施放共鸣解放移岁诛邪或共鸣技能惊龙破空时，附近队伍中所有角色全属性伤害加成提升20%，持续20秒。",
+      "name": "自甘佑凡尘",
+      "parameters": [
+        "20%",
+        "20"
+      ],
+      "rawDescription": "今汐施放共鸣解放<color=Highlight>移岁诛邪</color>或共鸣技能<color=Highlight>惊龙破空</color>时，附近队伍中所有角色全属性伤害加成提升{0}，持续{1}秒。",
+      "tier": 4
+    },
+    {
+      "description": "共鸣解放移岁诛邪伤害倍率提升120%。",
+      "name": "流光化霜雪",
+      "parameters": [
+        "120%"
+      ],
+      "rawDescription": "共鸣解放<color=Highlight>移岁诛邪</color>伤害倍率提升{0}。",
+      "tier": 5
+    },
+    {
+      "description": "共鸣技能惊龙破空伤害倍率提升45%，消耗【韶光】时带来的倍率增加效果额外提升45%。",
+      "name": "寒尽又逢春",
+      "parameters": [
+        "45%",
+        "45%"
+      ],
+      "rawDescription": "共鸣技能<color=Highlight>惊龙破空</color>伤害倍率提升{0}，消耗【<te href=850002>韶光</te>】时带来的倍率增加效果额外提升{1}。",
+      "tier": 6
+    }
+  ],
+  "characterId": "jinhsi",
+  "echoId": 6000059,
+  "element": "spectro",
+  "id": "ages_of_harvest",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "今汐",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304840004",
+          "kind": "basic",
+          "multiplier": 0.213,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 5,
+            "element_power": 40,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1072,
+              1160,
+              1248,
+              1370,
+              1458,
+              1560,
+              1700,
+              1840,
+              1980,
+              2130,
+              2306,
+              2482,
+              2656,
+              2832,
+              3008,
+              3184,
+              3360,
+              3536,
+              3710,
+              3886
+            ],
+            "related_property": "攻击",
+            "tough_lv": 952,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.160188457008245,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304840005",
+          "kind": "basic",
+          "multiplier": 0.6388,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 5,
+            "element_power": 119,
+            "energy": 60,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3214,
+              3478,
+              3740,
+              4110,
+              4372,
+              4676,
+              5098,
+              5518,
+              5940,
+              6388,
+              6914,
+              7442,
+              7968,
+              8496,
+              9022,
+              9550,
+              10076,
+              10604,
+              11130,
+              11656
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2856,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.48056537102473496,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304840002",
+          "kind": "basic",
+          "multiplier": 3.1544,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 5,
+            "element_power": 589,
+            "energy": 295,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              15868,
+              17170,
+              18470,
+              20290,
+              21594,
+              23088,
+              25170,
+              27250,
+              29334,
+              31544,
+              34146,
+              36750,
+              39350,
+              41954,
+              44554,
+              47156,
+              49760,
+              52360,
+              54964,
+              57564
+            ],
+            "related_property": "攻击",
+            "tough_lv": 14104,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 2.3732121823994614,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304001001",
+          "kind": "basic",
+          "multiplier": 0.6647,
+          "offTuneUnits": 1.0,
+          "raw": {
+            "element": 5,
+            "element_power": 248,
+            "energy": 124,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3343,
+              3618,
+              3892,
+              4275,
+              4550,
+              4865,
+              5303,
+              5742,
+              6181,
+              6647,
+              7195,
+              7743,
+              8291,
+              8840,
+              9388,
+              9936,
+              10484,
+              11033,
+              11581,
+              12129
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5943,
+            "type": 0,
+            "weakness_lvl": 3960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304002001",
+          "kind": "basic",
+          "multiplier": 0.3899,
+          "offTuneUnits": 0.5868686868686869,
+          "raw": {
+            "element": 5,
+            "element_power": 146,
+            "energy": 73,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1961,
+              2122,
+              2283,
+              2508,
+              2669,
+              2854,
+              3111,
+              3368,
+              3626,
+              3899,
+              4220,
+              4542,
+              4864,
+              5185,
+              5507,
+              5828,
+              6150,
+              6472,
+              6793,
+              7115
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3486,
+            "type": 0,
+            "weakness_lvl": 2324
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5865724381625441,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304002002",
+          "kind": "basic",
+          "multiplier": 0.195,
+          "offTuneUnits": 0.29343434343434344,
+          "raw": {
+            "element": 5,
+            "element_power": 73,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              981,
+              1061,
+              1142,
+              1254,
+              1335,
+              1427,
+              1556,
+              1684,
+              1813,
+              1950,
+              2110,
+              2271,
+              2432,
+              2593,
+              2754,
+              2914,
+              3075,
+              3236,
+              3397,
+              3558
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1743,
+            "type": 0,
+            "weakness_lvl": 1162
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.29328621908127206,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304003001",
+          "kind": "basic",
+          "multiplier": 0.1065,
+          "offTuneUnits": 0.16035353535353536,
+          "raw": {
+            "element": 5,
+            "element_power": 40,
+            "energy": 20,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              536,
+              580,
+              624,
+              685,
+              729,
+              780,
+              850,
+              920,
+              990,
+              1065,
+              1153,
+              1241,
+              1328,
+              1416,
+              1504,
+              1592,
+              1680,
+              1768,
+              1855,
+              1943
+            ],
+            "related_property": "攻击",
+            "tough_lv": 952,
+            "type": 0,
+            "weakness_lvl": 635
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.160188457008245,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304003003",
+          "kind": "basic",
+          "multiplier": 0.3194,
+          "offTuneUnits": 0.4808080808080808,
+          "raw": {
+            "element": 5,
+            "element_power": 119,
+            "energy": 60,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1607,
+              1739,
+              1870,
+              2055,
+              2186,
+              2338,
+              2549,
+              2759,
+              2970,
+              3194,
+              3457,
+              3721,
+              3984,
+              4248,
+              4511,
+              4775,
+              5038,
+              5302,
+              5565,
+              5828
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2856,
+            "type": 0,
+            "weakness_lvl": 1904
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.48056537102473496,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304004001",
+          "kind": "basic",
+          "multiplier": 0.6309,
+          "offTuneUnits": 0.9494949494949495,
+          "raw": {
+            "element": 5,
+            "element_power": 236,
+            "energy": 118,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3174,
+              3434,
+              3694,
+              4058,
+              4319,
+              4618,
+              5034,
+              5450,
+              5867,
+              6309,
+              6829,
+              7350,
+              7870,
+              8391,
+              8911,
+              9431,
+              9952,
+              10472,
+              10993,
+              11513
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5642,
+            "type": 0,
+            "weakness_lvl": 3760
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9493521790341578,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304004002",
+          "kind": "basic",
+          "multiplier": 0.9463,
+          "offTuneUnits": 1.4242424242424243,
+          "raw": {
+            "element": 5,
+            "element_power": 353,
+            "energy": 177,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4760,
+              5151,
+              5541,
+              6087,
+              6478,
+              6926,
+              7551,
+              8175,
+              8800,
+              9463,
+              10244,
+              11025,
+              11805,
+              12586,
+              13366,
+              14147,
+              14928,
+              15708,
+              16489,
+              17269
+            ],
+            "related_property": "攻击",
+            "tough_lv": 8462,
+            "type": 0,
+            "weakness_lvl": 5640
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.4238600033653037,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304100001",
+          "kind": "heavy",
+          "multiplier": 0.2386,
+          "offTuneUnits": 0.32323232323232326,
+          "raw": {
+            "element": 5,
+            "element_power": 80,
+            "energy": 40,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1200,
+              1299,
+              1397,
+              1535,
+              1633,
+              1747,
+              1904,
+              2061,
+              2219,
+              2386,
+              2583,
+              2780,
+              2977,
+              3173,
+              3370,
+              3567,
+              3764,
+              3961,
+              4157,
+              4354
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1920,
+            "type": 1,
+            "weakness_lvl": 1280
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.32306915699141847,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304100101",
+          "kind": "heavy",
+          "multiplier": 0.3579,
+          "offTuneUnits": 0.48484848484848486,
+          "raw": {
+            "element": 5,
+            "element_power": 120,
+            "energy": 60,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1800,
+              1948,
+              2096,
+              2302,
+              2450,
+              2620,
+              2856,
+              3092,
+              3328,
+              3579,
+              3874,
+              4169,
+              4465,
+              4760,
+              5055,
+              5350,
+              5645,
+              5941,
+              6236,
+              6531
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2880,
+            "type": 1,
+            "weakness_lvl": 1920
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 0.4846037354871277,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304100102",
+          "kind": "heavy",
+          "multiplier": 0.8351,
+          "offTuneUnits": 1.1313131313131313,
+          "raw": {
+            "element": 5,
+            "element_power": 280,
+            "energy": 140,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4200,
+              4545,
+              4889,
+              5371,
+              5716,
+              6112,
+              6663,
+              7214,
+              7765,
+              8351,
+              9039,
+              9728,
+              10417,
+              11106,
+              11795,
+              12483,
+              13172,
+              13861,
+              14550,
+              15239
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6720,
+            "type": 1,
+            "weakness_lvl": 4480
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 1,
+          "toughnessUnits": 1.1307420494699647,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304006001",
+          "kind": "basic",
+          "multiplier": 0.1233,
+          "offTuneUnits": 0.12525252525252525,
+          "raw": {
+            "element": 5,
+            "element_power": 10,
+            "energy": 6,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              620,
+              671,
+              722,
+              793,
+              844,
+              903,
+              984,
+              1065,
+              1147,
+              1233,
+              1335,
+              1436,
+              1538,
+              1640,
+              1742,
+              1843,
+              1945,
+              2047,
+              2148,
+              2250
+            ],
+            "related_property": "攻击",
+            "tough_lv": 620,
+            "type": 0,
+            "weakness_lvl": 496
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.10432441527847888,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304006002",
+          "kind": "basic",
+          "multiplier": 0.2466,
+          "offTuneUnits": 0.2505050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 20,
+            "energy": 11,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1240,
+              1342,
+              1444,
+              1586,
+              1688,
+              1805,
+              1968,
+              2130,
+              2293,
+              2466,
+              2669,
+              2872,
+              3076,
+              3279,
+              3483,
+              3686,
+              3889,
+              4093,
+              4296,
+              4499
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1240,
+            "type": 0,
+            "weakness_lvl": 992
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.20864883055695777,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304006003",
+          "kind": "basic",
+          "multiplier": 0.8629,
+          "offTuneUnits": 0.8767676767676768,
+          "raw": {
+            "element": 5,
+            "element_power": 70,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4340,
+              4696,
+              5052,
+              5550,
+              5906,
+              6316,
+              6885,
+              7454,
+              8024,
+              8629,
+              9341,
+              10052,
+              10764,
+              11476,
+              12188,
+              12899,
+              13611,
+              14323,
+              15035,
+              15746
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4340,
+            "type": 0,
+            "weakness_lvl": 3472
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7302709069493521,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304600001",
+          "kind": "basic",
+          "multiplier": 0.1468,
+          "offTuneUnits": 0.22095959595959597,
+          "raw": {
+            "element": 5,
+            "element_power": 55,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              738,
+              799,
+              859,
+              944,
+              1005,
+              1074,
+              1171,
+              1268,
+              1365,
+              1468,
+              1589,
+              1710,
+              1831,
+              1952,
+              2073,
+              2194,
+              2315,
+              2436,
+              2557,
+              2678
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1500,
+            "type": 0,
+            "weakness_lvl": 875
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.2523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304600003",
+          "kind": "basic",
+          "multiplier": 0.4402,
+          "offTuneUnits": 0.6626262626262627,
+          "raw": {
+            "element": 5,
+            "element_power": 164,
+            "energy": 82,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2214,
+              2396,
+              2577,
+              2832,
+              3013,
+              3222,
+              3512,
+              3803,
+              4093,
+              4402,
+              4765,
+              5128,
+              5491,
+              5854,
+              6217,
+              6580,
+              6943,
+              7306,
+              7669,
+              8033
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 0,
+            "weakness_lvl": 2624
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "普攻\n进行最多4段的连续攻击，造成衍射伤害。\n \n重击\n消耗耐力攻击目标，造成衍射伤害。\n \n空中攻击\n消耗耐力进行空中下落攻击，造成衍射伤害。\n \n闪避反击\n成功闪避后一定时间内短按普攻，将会攻击目标，造成衍射伤害。",
+      "headings": [
+        "普攻",
+        "重击",
+        "空中攻击",
+        "闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorSword.SP_IconNorSword",
+      "id": "ages_of_harvest/node_1",
+      "name": "浮光霁寒",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "第一段伤害",
+          "values": [
+            "66.47%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "第二段伤害",
+          "values": [
+            "38.99%+19.50%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "第三段伤害",
+          "values": [
+            "10.65%*7+31.94%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "第四段伤害",
+          "values": [
+            "63.09%+94.63%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "重击伤害",
+          "values": [
+            "23.86%*5+35.79%+83.51%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "空中攻击伤害",
+          "values": [
+            "12.33%+24.66%+86.29%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "闪避反击伤害",
+          "values": [
+            "14.68%*7+44.02%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "重击耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "空中攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>普攻</color></size>\n进行最多4段的连续攻击，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>重击</color></size>\n消耗耐力攻击目标，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力进行空中下落攻击，造成<color=Light>衍射伤害</color>。\n<size=10> </size>\n<size=40><color=Title>闪避反击</color></size>\n成功<color=Highlight>闪避</color>后一定时间内短按<color=Highlight>普攻</color>，将会攻击目标，造成<color=Light>衍射伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200001",
+          "kind": "skill",
+          "multiplier": 0.1946,
+          "offTuneUnits": 0.2196969696969697,
+          "raw": {
+            "element": 5,
+            "element_power": 55,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              979,
+              1060,
+              1140,
+              1252,
+              1332,
+              1425,
+              1553,
+              1682,
+              1810,
+              1946,
+              2107,
+              2267,
+              2428,
+              2588,
+              2749,
+              2909,
+              3070,
+              3230,
+              3391,
+              3552
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2500,
+            "type": 4,
+            "weakness_lvl": 870
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.42066296483257615,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200002",
+          "kind": "skill",
+          "multiplier": 0.1946,
+          "offTuneUnits": 0.2196969696969697,
+          "raw": {
+            "element": 5,
+            "element_power": 55,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              979,
+              1060,
+              1140,
+              1252,
+              1332,
+              1425,
+              1553,
+              1682,
+              1810,
+              1946,
+              2107,
+              2267,
+              2428,
+              2588,
+              2749,
+              2909,
+              3070,
+              3230,
+              3391,
+              3552
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2500,
+            "type": 4,
+            "weakness_lvl": 870
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.42066296483257615,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200003",
+          "kind": "skill",
+          "multiplier": 0.1946,
+          "offTuneUnits": 0.2196969696969697,
+          "raw": {
+            "element": 5,
+            "element_power": 55,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              979,
+              1060,
+              1140,
+              1252,
+              1332,
+              1425,
+              1553,
+              1682,
+              1810,
+              1946,
+              2107,
+              2267,
+              2428,
+              2588,
+              2749,
+              2909,
+              3070,
+              3230,
+              3391,
+              3552
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2500,
+            "type": 4,
+            "weakness_lvl": 870
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.42066296483257615,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200004",
+          "kind": "skill",
+          "multiplier": 0.1946,
+          "offTuneUnits": 0.2196969696969697,
+          "raw": {
+            "element": 5,
+            "element_power": 55,
+            "energy": 28,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              979,
+              1060,
+              1140,
+              1252,
+              1332,
+              1425,
+              1553,
+              1682,
+              1810,
+              1946,
+              2107,
+              2267,
+              2428,
+              2588,
+              2749,
+              2909,
+              3070,
+              3230,
+              3391,
+              3552
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2500,
+            "type": 4,
+            "weakness_lvl": 870
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.42066296483257615,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200005",
+          "kind": "skill",
+          "multiplier": 0.7784,
+          "offTuneUnits": 0.8787878787878788,
+          "raw": {
+            "element": 5,
+            "element_power": 218,
+            "energy": 109,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3915,
+              4237,
+              4558,
+              5007,
+              5328,
+              5697,
+              6211,
+              6725,
+              7238,
+              7784,
+              8426,
+              9068,
+              9710,
+              10352,
+              10994,
+              11636,
+              12278,
+              12920,
+              13562,
+              14205
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 4,
+            "weakness_lvl": 3480
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200010",
+          "kind": "skill",
+          "multiplier": 0.0987,
+          "offTuneUnits": 0.05025252525252525,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 7,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              496,
+              537,
+              578,
+              635,
+              675,
+              722,
+              787,
+              852,
+              917,
+              987,
+              1068,
+              1149,
+              1231,
+              1312,
+              1393,
+              1475,
+              1556,
+              1637,
+              1719,
+              1800
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 199
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200011",
+          "kind": "skill",
+          "multiplier": 0.0987,
+          "offTuneUnits": 0.05025252525252525,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 7,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              496,
+              537,
+              578,
+              635,
+              675,
+              722,
+              787,
+              852,
+              917,
+              987,
+              1068,
+              1149,
+              1231,
+              1312,
+              1393,
+              1475,
+              1556,
+              1637,
+              1719,
+              1800
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 199
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200012",
+          "kind": "skill",
+          "multiplier": 0.0987,
+          "offTuneUnits": 0.05025252525252525,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 7,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              496,
+              537,
+              578,
+              635,
+              675,
+              722,
+              787,
+              852,
+              917,
+              987,
+              1068,
+              1149,
+              1231,
+              1312,
+              1393,
+              1475,
+              1556,
+              1637,
+              1719,
+              1800
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 199
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200013",
+          "kind": "skill",
+          "multiplier": 0.0987,
+          "offTuneUnits": 0.05025252525252525,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 7,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              496,
+              537,
+              578,
+              635,
+              675,
+              722,
+              787,
+              852,
+              917,
+              987,
+              1068,
+              1149,
+              1231,
+              1312,
+              1393,
+              1475,
+              1556,
+              1637,
+              1719,
+              1800
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1000,
+            "type": 4,
+            "weakness_lvl": 199
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.16826518593303044,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200014",
+          "kind": "skill",
+          "multiplier": 0.2959,
+          "offTuneUnits": 0.1505050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1488,
+              1611,
+              1733,
+              1903,
+              2025,
+              2166,
+              2361,
+              2556,
+              2751,
+              2959,
+              3203,
+              3447,
+              3691,
+              3935,
+              4179,
+              4423,
+              4667,
+              4911,
+              5155,
+              5399
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 596
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200015",
+          "kind": "skill",
+          "multiplier": 0.2959,
+          "offTuneUnits": 0.1505050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1488,
+              1611,
+              1733,
+              1903,
+              2025,
+              2166,
+              2361,
+              2556,
+              2751,
+              2959,
+              3203,
+              3447,
+              3691,
+              3935,
+              4179,
+              4423,
+              4667,
+              4911,
+              5155,
+              5399
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 596
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200016",
+          "kind": "skill",
+          "multiplier": 0.2959,
+          "offTuneUnits": 0.1505050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1488,
+              1611,
+              1733,
+              1903,
+              2025,
+              2166,
+              2361,
+              2556,
+              2751,
+              2959,
+              3203,
+              3447,
+              3691,
+              3935,
+              4179,
+              4423,
+              4667,
+              4911,
+              5155,
+              5399
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 596
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200017",
+          "kind": "skill",
+          "multiplier": 0.2959,
+          "offTuneUnits": 0.1505050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 19,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1488,
+              1611,
+              1733,
+              1903,
+              2025,
+              2166,
+              2361,
+              2556,
+              2751,
+              2959,
+              3203,
+              3447,
+              3691,
+              3935,
+              4179,
+              4423,
+              4667,
+              4911,
+              5155,
+              5399
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 596
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304200018",
+          "kind": "skill",
+          "multiplier": 0.3945,
+          "offTuneUnits": 0.2005050505050505,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 25,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1984,
+              2147,
+              2310,
+              2538,
+              2700,
+              2887,
+              3148,
+              3408,
+              3668,
+              3945,
+              4270,
+              4596,
+              4921,
+              5246,
+              5572,
+              5897,
+              6223,
+              6548,
+              6873,
+              7199
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 4,
+            "weakness_lvl": 794
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "今汐向前突进，造成多段衍射伤害。\n \n神霓飞芒\n当今汐施放第4段普攻或不处于乘岁凌霄状态施放变奏技能蟠龙清辉时，共鸣技能替换为共鸣技能神霓飞芒，持续5秒。\n施放共鸣技能神霓飞芒时，造成衍射伤害，并使今汐进入乘岁凌霄状态。\n可以在空中施放。",
+      "headings": [
+        "神霓飞芒"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiB1.SP_IconJinxiB1",
+      "id": "ages_of_harvest/node_2",
+      "name": "流光夕影",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "19.46%*4+77.84%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "神霓飞芒伤害",
+          "values": [
+            "9.87%*4+29.59%*4+39.45%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "3",
+          "name": "乘岁凌霄状态持续时间",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "4",
+          "name": "冷却时间",
+          "values": [
+            "3"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "5",
+          "name": "神霓飞芒冷却时间",
+          "values": [
+            "12"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "神霓飞芒回复协奏能量",
+          "values": [
+            "4"
+          ]
+        }
+      ],
+      "rawDescription": "今汐向前突进，造成多段<color=Light>衍射伤害</color>。\n<size=10> </size>\n<color=Title>神霓飞芒</color>\n当今汐施放<color=Highlight>第4段普攻</color>或不处于<color=Highlight>乘岁凌霄</color>状态施放变奏技能<color=Highlight>蟠龙清辉</color>时，共鸣技能替换为共鸣技能<color=Highlight>神霓飞芒</color>，持续{0}秒。\n施放共鸣技能<color=Highlight>神霓飞芒</color>时，造成<color=Light>衍射伤害</color>，并使今汐进入<color=Highlight><te href=850001>乘岁凌霄</te></color>状态。\n可以在空中施放。",
+      "rawParameters": [
+        "5"
+      ],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304300001",
+          "kind": "liberation",
+          "multiplier": 4.9981,
+          "offTuneUnits": 6.363636363636363,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              25140,
+              27202,
+              29263,
+              32150,
+              34211,
+              36582,
+              39880,
+              43178,
+              46477,
+              49981,
+              54104,
+              58227,
+              62350,
+              66473,
+              70596,
+              74719,
+              78842,
+              82965,
+              87088,
+              91211
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 2,
+            "weakness_lvl": 25200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304300002",
+          "kind": "liberation",
+          "multiplier": 10.9958,
+          "offTuneUnits": 6.363636363636363,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              55308,
+              59844,
+              64379,
+              70728,
+              75264,
+              80479,
+              87736,
+              94992,
+              102248,
+              109958,
+              119029,
+              128099,
+              137170,
+              146240,
+              155311,
+              164381,
+              173452,
+              182522,
+              191593,
+              200663
+            ],
+            "related_property": "攻击",
+            "tough_lv": 12000,
+            "type": 2,
+            "weakness_lvl": 25200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.0191822311963654,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304300003",
+          "kind": "liberation",
+          "multiplier": 11.6622,
+          "offTuneUnits": 14.848484848484848,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              58660,
+              63471,
+              68281,
+              75015,
+              79825,
+              85357,
+              93053,
+              100749,
+              108445,
+              116622,
+              126243,
+              135863,
+              145483,
+              155103,
+              164724,
+              174344,
+              183964,
+              193584,
+              203205,
+              212825
+            ],
+            "related_property": "攻击",
+            "tough_lv": 28000,
+            "type": 2,
+            "weakness_lvl": 58800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 4.7114252061248525,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304300004",
+          "kind": "liberation",
+          "multiplier": 25.6569,
+          "offTuneUnits": 14.848484848484848,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              129052,
+              139635,
+              150217,
+              165032,
+              175614,
+              187784,
+              204716,
+              221647,
+              238579,
+              256569,
+              277733,
+              298898,
+              320062,
+              341227,
+              362391,
+              383556,
+              404720,
+              425885,
+              447050,
+              468214
+            ],
+            "related_property": "攻击",
+            "tough_lv": 28000,
+            "type": 2,
+            "weakness_lvl": 58800
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 4.7114252061248525,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "今汐使用祈愿之力，造成衍射伤害。\n可以在空中施放。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiC1.SP_IconJinxiC1",
+      "id": "ages_of_harvest/node_3",
+      "name": "移岁诛邪",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "499.81%+1166.22%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "冷却时间",
+          "values": [
+            "24"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "消耗共鸣能量",
+          "values": [
+            "150"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "今汐使用祈愿之力，造成<color=Light>衍射伤害</color>。\n可以在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "今汐的衍射伤害加成提升20%。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiD1.SP_IconJinxiD1",
+      "id": "ages_of_harvest/node_4",
+      "name": "沐光",
+      "parameters": [],
+      "rawDescription": "今汐的衍射伤害加成提升{0}。",
+      "rawParameters": [
+        "20%"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "变奏技能蟠龙清辉伤害倍率提升50%。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiD2.SP_IconJinxiD2",
+      "id": "ages_of_harvest/node_5",
+      "name": "凝神",
+      "parameters": [],
+      "rawDescription": "变奏技能<color=Highlight>蟠龙清辉</color>伤害倍率提升{0}。",
+      "rawParameters": [
+        "50%"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304402001",
+          "kind": "intro",
+          "multiplier": 1.5905,
+          "offTuneUnits": 2.0202020202020203,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 1000,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8000,
+              8656,
+              9312,
+              10231,
+              10887,
+              11641,
+              12691,
+              13740,
+              14790,
+              15905,
+              17217,
+              18529,
+              19841,
+              21153,
+              22465,
+              23777,
+              25089,
+              26401,
+              27713,
+              29025
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 3,
+            "weakness_lvl": 8000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304402002",
+          "kind": "intro",
+          "multiplier": 2.3858,
+          "offTuneUnits": 2.0202020202020203,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 1000,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              12000,
+              12984,
+              13968,
+              15346,
+              16330,
+              17462,
+              19036,
+              20610,
+              22185,
+              23858,
+              25826,
+              27794,
+              29762,
+              31730,
+              33698,
+              35666,
+              37634,
+              39602,
+              41570,
+              43538
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 3,
+            "weakness_lvl": 8000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "攻击目标，造成衍射伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiQTE.SP_IconJinxiQTE",
+      "id": "ages_of_harvest/node_6",
+      "name": "蟠龙清辉",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "159.05%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "攻击目标，造成<color=Light>衍射伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304101002",
+          "kind": "skill",
+          "multiplier": 0.8862,
+          "offTuneUnits": 1.0,
+          "raw": {
+            "element": 5,
+            "element_power": 124,
+            "energy": 124,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4458,
+              4823,
+              5189,
+              5700,
+              6066,
+              6486,
+              7071,
+              7656,
+              8241,
+              8862,
+              9593,
+              10324,
+              11055,
+              11786,
+              12517,
+              13248,
+              13979,
+              14710,
+              15441,
+              16172
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5943,
+            "type": 4,
+            "weakness_lvl": 3960
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304102001",
+          "kind": "skill",
+          "multiplier": 0.7797,
+          "offTuneUnits": 0.8800505050505051,
+          "raw": {
+            "element": 5,
+            "element_power": 109,
+            "energy": 109,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3922,
+              4244,
+              4565,
+              5016,
+              5337,
+              5707,
+              6222,
+              6736,
+              7251,
+              7797,
+              8440,
+              9084,
+              9727,
+              10370,
+              11013,
+              11656,
+              12300,
+              12943,
+              13586,
+              14229
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5229,
+            "type": 4,
+            "weakness_lvl": 3485
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8798586572438163,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304102002",
+          "kind": "skill",
+          "multiplier": 0.2599,
+          "offTuneUnits": 0.29343434343434344,
+          "raw": {
+            "element": 5,
+            "element_power": 37,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1308,
+              1415,
+              1522,
+              1672,
+              1779,
+              1903,
+              2074,
+              2246,
+              2417,
+              2599,
+              2814,
+              3028,
+              3243,
+              3457,
+              3671,
+              3886,
+              4100,
+              4315,
+              4529,
+              4743
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1743,
+            "type": 4,
+            "weakness_lvl": 1162
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.29328621908127206,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304102003",
+          "kind": "skill",
+          "multiplier": 0.2599,
+          "offTuneUnits": 0.29343434343434344,
+          "raw": {
+            "element": 5,
+            "element_power": 37,
+            "energy": 37,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1308,
+              1415,
+              1522,
+              1672,
+              1779,
+              1903,
+              2074,
+              2246,
+              2417,
+              2599,
+              2814,
+              3028,
+              3243,
+              3457,
+              3671,
+              3886,
+              4100,
+              4315,
+              4529,
+              4743
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1743,
+            "type": 4,
+            "weakness_lvl": 1162
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.29328621908127206,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304103001",
+          "kind": "skill",
+          "multiplier": 0.9944,
+          "offTuneUnits": 1.1224747474747474,
+          "raw": {
+            "element": 5,
+            "element_power": 139,
+            "energy": 139,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5002,
+              5412,
+              5823,
+              6397,
+              6807,
+              7279,
+              7935,
+              8591,
+              9247,
+              9944,
+              10765,
+              11585,
+              12405,
+              13226,
+              14046,
+              14866,
+              15686,
+              16507,
+              17327,
+              18147
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6669,
+            "type": 4,
+            "weakness_lvl": 4445
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.12216052498738,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304103002",
+          "kind": "skill",
+          "multiplier": 0.663,
+          "offTuneUnits": 0.7484848484848485,
+          "raw": {
+            "element": 5,
+            "element_power": 93,
+            "energy": 93,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3335,
+              3608,
+              3882,
+              4265,
+              4538,
+              4853,
+              5290,
+              5728,
+              6165,
+              6630,
+              7177,
+              7724,
+              8270,
+              8817,
+              9364,
+              9911,
+              10458,
+              11005,
+              11552,
+              12098
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4446,
+            "type": 4,
+            "weakness_lvl": 2964
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.7481070166582534,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304104003",
+          "kind": "skill",
+          "multiplier": 0.1867,
+          "offTuneUnits": 0.21085858585858586,
+          "raw": {
+            "element": 5,
+            "element_power": 27,
+            "energy": 27,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              939,
+              1016,
+              1093,
+              1201,
+              1278,
+              1367,
+              1490,
+              1613,
+              1736,
+              1867,
+              2021,
+              2175,
+              2329,
+              2483,
+              2637,
+              2791,
+              2945,
+              3099,
+              3253,
+              3407
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1252,
+            "type": 4,
+            "weakness_lvl": 835
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.21066801278815414,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304104004",
+          "kind": "skill",
+          "multiplier": 0.7467,
+          "offTuneUnits": 0.842929292929293,
+          "raw": {
+            "element": 5,
+            "element_power": 105,
+            "energy": 105,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3756,
+              4064,
+              4372,
+              4803,
+              5111,
+              5465,
+              5958,
+              6451,
+              6944,
+              7467,
+              8083,
+              8699,
+              9315,
+              9931,
+              10547,
+              11163,
+              11779,
+              12395,
+              13011,
+              13627
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5008,
+            "type": 4,
+            "weakness_lvl": 3338
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8426720511526166,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304106001",
+          "kind": "basic",
+          "multiplier": 0.4772,
+          "offTuneUnits": 0.48484848484848486,
+          "raw": {
+            "element": 5,
+            "element_power": 60,
+            "energy": 60,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2400,
+              2597,
+              2794,
+              3070,
+              3266,
+              3493,
+              3808,
+              4122,
+              4437,
+              4772,
+              5166,
+              5559,
+              5953,
+              6346,
+              6740,
+              7134,
+              7527,
+              7921,
+              8314,
+              8708
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2400,
+            "type": 0,
+            "weakness_lvl": 1920
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4038364462392731,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304106002",
+          "kind": "basic",
+          "multiplier": 1.1134,
+          "offTuneUnits": 1.1313131313131313,
+          "raw": {
+            "element": 5,
+            "element_power": 140,
+            "energy": 140,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5600,
+              6060,
+              6519,
+              7162,
+              7621,
+              8149,
+              8884,
+              9618,
+              10353,
+              11134,
+              12052,
+              12971,
+              13889,
+              14807,
+              15726,
+              16644,
+              17563,
+              18481,
+              19399,
+              20318
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5600,
+            "type": 0,
+            "weakness_lvl": 4480
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.9422850412249706,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304110001",
+          "kind": "skill",
+          "multiplier": 1.0076,
+          "offTuneUnits": 0.5121212121212121,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 64,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5068,
+              5484,
+              5900,
+              6481,
+              6897,
+              7375,
+              8040,
+              8705,
+              9370,
+              10076,
+              10907,
+              11738,
+              12570,
+              13401,
+              14232,
+              15063,
+              15894,
+              16725,
+              17557,
+              18388
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4000,
+            "type": 4,
+            "weakness_lvl": 2028
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.6730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304110002",
+          "kind": "skill",
+          "multiplier": 0.7557,
+          "offTuneUnits": 0.3840909090909091,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 48,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3801,
+              4113,
+              4425,
+              4861,
+              5173,
+              5531,
+              6030,
+              6529,
+              7027,
+              7557,
+              8181,
+              8804,
+              9427,
+              10051,
+              10674,
+              11297,
+              11921,
+              12544,
+              13168,
+              13791
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 4,
+            "weakness_lvl": 1521
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304110003",
+          "kind": "skill",
+          "multiplier": 2.519,
+          "offTuneUnits": 1.2797979797979797,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 159,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              12670,
+              13709,
+              14748,
+              16203,
+              17242,
+              18437,
+              20099,
+              21761,
+              23424,
+              25190,
+              27268,
+              29345,
+              31423,
+              33501,
+              35579,
+              37657,
+              39735,
+              41813,
+              43891,
+              45969
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 4,
+            "weakness_lvl": 5068
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304310001",
+          "kind": "skill",
+          "multiplier": 0.1989,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 33,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1000,
+              1082,
+              1164,
+              1279,
+              1361,
+              1456,
+              1587,
+              1718,
+              1849,
+              1989,
+              2153,
+              2317,
+              2481,
+              2645,
+              2809,
+              2973,
+              3137,
+              3301,
+              3465,
+              3629
+            ],
+            "related_property": "攻击",
+            "tough_lv": 852,
+            "type": 4,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.14336193841494194,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304310003",
+          "kind": "skill",
+          "multiplier": 3.4792,
+          "offTuneUnits": 10.606565656565657,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 567,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              17500,
+              18935,
+              20370,
+              22379,
+              23814,
+              25465,
+              27761,
+              30057,
+              32353,
+              34792,
+              37662,
+              40532,
+              43402,
+              46272,
+              49142,
+              52012,
+              54882,
+              57752,
+              60622,
+              63492
+            ],
+            "related_property": "攻击",
+            "tough_lv": 14894,
+            "type": 4,
+            "weakness_lvl": 42002
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.5061416792865554,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304601001",
+          "kind": "basic",
+          "multiplier": 0.4389,
+          "offTuneUnits": 0.4954545454545455,
+          "raw": {
+            "element": 5,
+            "element_power": 62,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2208,
+              2389,
+              2570,
+              2823,
+              3004,
+              3212,
+              3502,
+              3791,
+              4081,
+              4389,
+              4751,
+              5113,
+              5475,
+              5837,
+              6199,
+              6561,
+              6923,
+              7285,
+              7647,
+              8009
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 1962
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304601002",
+          "kind": "basic",
+          "multiplier": 0.3292,
+          "offTuneUnits": 0.3717171717171717,
+          "raw": {
+            "element": 5,
+            "element_power": 46,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1656,
+              1792,
+              1927,
+              2117,
+              2253,
+              2409,
+              2627,
+              2844,
+              3061,
+              3292,
+              3563,
+              3835,
+              4106,
+              4378,
+              4649,
+              4921,
+              5192,
+              5464,
+              5735,
+              6007
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2250,
+            "type": 0,
+            "weakness_lvl": 1472
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.37859666834931854,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304601003",
+          "kind": "basic",
+          "multiplier": 1.0971,
+          "offTuneUnits": 1.2383838383838384,
+          "raw": {
+            "element": 5,
+            "element_power": 154,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5519,
+              5971,
+              6424,
+              7057,
+              7510,
+              8030,
+              8754,
+              9478,
+              10202,
+              10971,
+              11876,
+              12781,
+              13686,
+              14591,
+              15496,
+              16401,
+              17306,
+              18211,
+              19116,
+              20021
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7500,
+            "type": 0,
+            "weakness_lvl": 4904
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 1.2619888944977284,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304310011",
+          "kind": "skill",
+          "multiplier": 0.2883,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 33,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              1450,
+              1569,
+              1688,
+              1855,
+              1974,
+              2110,
+              2301,
+              2491,
+              2681,
+              2883,
+              3121,
+              3359,
+              3597,
+              3834,
+              4072,
+              4310,
+              4548,
+              4786,
+              5023,
+              5261
+            ],
+            "related_property": "攻击",
+            "tough_lv": 852,
+            "type": 4,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.14336193841494194,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "spectro",
+          "id": "1304310013",
+          "kind": "skill",
+          "multiplier": 5.0449,
+          "offTuneUnits": 10.606565656565657,
+          "raw": {
+            "element": 5,
+            "element_power": 0,
+            "energy": 567,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              25375,
+              27456,
+              29537,
+              32450,
+              34531,
+              36924,
+              40253,
+              43582,
+              46911,
+              50449,
+              54610,
+              58772,
+              62933,
+              67095,
+              71256,
+              75418,
+              79579,
+              83741,
+              87902,
+              92064
+            ],
+            "related_property": "攻击",
+            "tough_lv": 14894,
+            "type": 4,
+            "weakness_lvl": 42002
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 2.5061416792865554,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "乘岁凌霄\n乘岁凌霄状态持续期间：\n·普攻替换为普攻凌霄·普攻，进行最多连续4段攻击，造成衍射伤害，此次伤害为共鸣技能伤害，此外，该连击段数不会被重置。\n可以在空中施放。\n·共鸣技能替换为共鸣技能逐天取月，造成衍射伤害。\n可以在空中施放。\n·处于空中时，重击替换为重击凌霄·重击，消耗耐力攻击目标，造成衍射伤害。\n·处于空中时，闪避替换为凌霄·闪避，可以消耗耐力进行多次闪避。\n·闪避反击，替换为闪避反击凌霄·闪避反击，造成衍射伤害。\n可以在空中施放。\n \n共鸣技能·惊龙破空\n施放普攻凌霄·普攻第4段后，将立刻结束乘岁凌霄状态，并获得效果游龙廻光。\n可以在空中施放。\n游龙廻光效果持续期间：\n·处于空中时，普攻替换为重击凌霄·重击，消耗耐力攻击目标，造成衍射伤害。\n·共鸣技能替换为共鸣技能惊龙破空，形成熠日攻击目标，并在短暂时间后引爆炳星。施放时可以消耗今汐至多50点【韶光】，造成衍射伤害，每消耗1点【韶光】，使本次共鸣技能惊龙破空的炳星的伤害倍率增加。\n可以在空中施放。\n·施放共鸣技能惊龙破空后，今汐可获得同奏，每25秒内只能获得一次。\n \n同奏\n今汐拥有同奏时，今汐切换其他角色时，登场角色将施放自身变奏技能，今汐则施放自身延奏技能，并移除今汐身上的同奏效果。今汐协奏能量达到最大值，并且拥有同奏效果时，只消耗同奏效果。\n \n韶光的获取规则\n【韶光】上限50点。\n当今汐处于队伍中时，附近队伍中所有角色获得效果韶华共济。\n韶华共济包含两个独立效果：\n造成属性伤害时，为今汐提供1点【韶光】，同类属性伤害每3秒可触发1次。\n协同攻击造成伤害时，为今汐提供2点【韶光】，同类属性伤害每3秒可触发1次。",
+      "headings": [
+        "乘岁凌霄",
+        "共鸣技能·惊龙破空",
+        "同奏",
+        "韶光的获取规则"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiY.SP_IconJinxiY",
+      "id": "ages_of_harvest/node_7",
+      "name": "万物一心",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "凌霄·普攻第一段伤害",
+          "values": [
+            "88.62%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "凌霄·普攻第二段伤害",
+          "values": [
+            "77.97%+25.99%+25.99%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "凌霄·普攻第三段伤害",
+          "values": [
+            "99.44%+66.30%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "凌霄·普攻第四段伤害",
+          "values": [
+            "18.67%*6+74.67%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "凌霄·重击伤害",
+          "values": [
+            "47.72%+111.34%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "凌霄·闪避反击伤害",
+          "values": [
+            "43.89%+32.92%*2+109.71%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "逐天取月技能伤害",
+          "values": [
+            "100.76%+75.57%*2+251.90%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "惊龙破空·熠日伤害",
+          "values": [
+            "19.89%*6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "惊龙破空·炳星伤害",
+          "values": [
+            "347.92%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "每点【韶光】增加倍率",
+          "values": [
+            "44.54%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "凌霄·重击耐力消耗",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "凌霄·闪避耐力消耗",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "13",
+          "name": "游龙廻光持续时间",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "13_2",
+          "name": "同奏持续时间",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "15",
+          "name": "逐天取月冷却时间",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "16",
+          "name": "逐天取月回复协奏能量",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "format": null,
+          "id": "17",
+          "name": "惊龙破空回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>乘岁凌霄</color></size>\n<color=Highlight>乘岁凌霄</color>状态持续期间：\n·普攻替换为普攻<color=Highlight>凌霄·普攻</color>，进行最多连续4段攻击，造成<color=Light>衍射伤害</color>，此次伤害为共鸣技能伤害，此外，该连击段数不会被重置。\n可以在空中施放。\n·共鸣技能替换为共鸣技能<color=Highlight>逐天取月</color>，造成<color=Light>衍射伤害</color>。\n可以在空中施放。\n·处于空中时，重击替换为重击<color=Highlight>凌霄·重击</color>，消耗耐力攻击目标，造成<color=Light>衍射伤害</color>。\n·处于空中时，闪避替换为<color=Highlight>凌霄·闪避</color>，可以消耗耐力进行多次闪避。\n·闪避反击，替换为闪避反击<color=Highlight>凌霄·闪避反击</color>，造成<color=Light>衍射伤害</color>。\n可以在空中施放。\n<size=10> </size>\n<size=40><color=Title>共鸣技能·惊龙破空</color></size>\n施放普攻<color=Highlight>凌霄·普攻</color>第4段后，将立刻结束<color=Highlight>乘岁凌霄</color>状态，并获得效果<color=Highlight>游龙廻光</color>。\n可以在空中施放。\n<color=Highlight>游龙廻光</color>效果持续期间：\n·处于空中时，普攻替换为重击<color=Highlight>凌霄·重击</color>，消耗耐力攻击目标，造成<color=Light>衍射伤害</color>。\n·共鸣技能替换为共鸣技能<color=Highlight>惊龙破空</color>，形成<color=Highlight>熠日</color>攻击目标，并在短暂时间后引爆<color=Highlight>炳星</color>。施放时可以消耗今汐至多{0}点【韶光】，造成<color=Light>衍射伤害</color>，每消耗1点【韶光】，使本次共鸣技能<color=Highlight>惊龙破空</color>的<color=Highlight>炳星</color>的伤害倍率增加。\n可以在空中施放。\n·施放共鸣技能<color=Highlight>惊龙破空</color>后，今汐可获得<color=Highlight>同奏</color>，每{1}秒内只能获得一次。\n<size=10> </size>\n<size=40><color=Title>同奏</color></size>\n今汐拥有<color=Highlight>同奏</color>时，今汐切换其他角色时，登场角色将施放自身变奏技能，今汐则施放自身延奏技能，并移除今汐身上的<color=Highlight>同奏</color>效果。今汐协奏能量达到最大值，并且拥有<color=Highlight>同奏</color>效果时，只消耗<color=Highlight>同奏</color>效果。\n<size=10> </size>\n<size=40><color=Title>韶光的获取规则</color></size>\n【韶光】上限{2}点。\n当今汐处于队伍中时，附近队伍中所有角色获得效果<color=Highlight>韶华共济</color>。\n<color=Highlight>韶华共济</color>包含两个独立效果：\n造成属性伤害时，为今汐提供{3}点【韶光】，同类属性伤害每{4}秒可触发{5}次。\n协同攻击造成伤害时，为今汐提供{6}点【韶光】，同类属性伤害每{7}秒可触发{8}次。",
+      "rawParameters": [
+        "50",
+        "25",
+        "50",
+        "1",
+        "3",
+        "1",
+        "2",
+        "3",
+        "1"
+      ],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "今汐使用与岁主同频的力量，韶华共济提供【韶光】的触发间隔缩短为同类属性伤害每1秒可触发1次，该效果持续20秒。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconJinxi/SP_IconJinxiT.SP_IconJinxiT",
+      "id": "ages_of_harvest/node_8",
+      "name": "驭时",
+      "parameters": [],
+      "rawDescription": "今汐使用与岁主同频的力量，<color=Highlight>韶华共济</color>提供【<te href=850002>韶光</te>】的触发间隔缩短为同类属性伤害每{0}秒可触发{1}次，该效果持续{2}秒。",
+      "rawParameters": [
+        "1",
+        "1",
+        "20"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "ages_of_harvest/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "ages_of_harvest/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "ages_of_harvest/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "ages_of_harvest/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "ages_of_harvest/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "ages_of_harvest/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "ages_of_harvest/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "ages_of_harvest/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakSword.SP_IconWeakPointBreakSword",
+      "id": "ages_of_harvest/node_17",
+      "name": "谐度破坏·长刃",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    5,
+    5,
+    5,
+    5,
+    5
+  ],
+  "sourceId": 1304,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1304.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "承天之祐",
+    "name": "时和岁稔",
+    "refinements": [
+      {
+        "description": "全属性伤害加成提升12%。施放变奏技能时，自身获得【岁蕴】，使共鸣技能伤害加成提升24%，持续12秒。施放共鸣技能时，自身获得【福泽】，使共鸣技能伤害加成提升24%，持续12秒。",
+        "parameters": [
+          "12%",
+          "24%",
+          "12",
+          "24%",
+          "12"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "全属性伤害加成提升15%。施放变奏技能时，自身获得【岁蕴】，使共鸣技能伤害加成提升30%，持续12秒。施放共鸣技能时，自身获得【福泽】，使共鸣技能伤害加成提升30%，持续12秒。",
+        "parameters": [
+          "15%",
+          "30%",
+          "12",
+          "30%",
+          "12"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "全属性伤害加成提升18%。施放变奏技能时，自身获得【岁蕴】，使共鸣技能伤害加成提升36%，持续12秒。施放共鸣技能时，自身获得【福泽】，使共鸣技能伤害加成提升36%，持续12秒。",
+        "parameters": [
+          "18%",
+          "36%",
+          "12",
+          "36%",
+          "12"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "全属性伤害加成提升21%。施放变奏技能时，自身获得【岁蕴】，使共鸣技能伤害加成提升42%，持续12秒。施放共鸣技能时，自身获得【福泽】，使共鸣技能伤害加成提升42%，持续12秒。",
+        "parameters": [
+          "21%",
+          "42%",
+          "12",
+          "42%",
+          "12"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "全属性伤害加成提升24%。施放变奏技能时，自身获得【岁蕴】，使共鸣技能伤害加成提升48%，持续12秒。施放共鸣技能时，自身获得【福泽】，使共鸣技能伤害加成提升48%，持续12秒。",
+        "parameters": [
+          "24%",
+          "48%",
+          "12",
+          "48%",
+          "12"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21010026,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 587.5,
+        "value": 587.5
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击",
+        "rawValue": 2430.0,
+        "value": 0.243
+      }
+    ]
+  },
+  "weaponType": 1
+}

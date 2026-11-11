@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["AFA", "ICI", " G "],
+  "key": {"A": "minecraft:amethyst_shard", "F": "minecraft:feather", "I": "minecraft:iron_ingot", "C": "mc_wuwa:core", "G": "minecraft:gold_ingot"},
+  "result": {"id": "mc_wuwa:solsworn_ciphers", "count": 1}
+}

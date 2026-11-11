@@ -1,0 +1,912 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "cantarella/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "79.53%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7953,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607002001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607002002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607002003"
+        },
+        {
+          "count": 1,
+          "damageId": "1607002004"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        11,
+        14
+      ],
+      "id": "cantarella/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "36.44%*4",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.4576,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607003001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607003002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "cantarella/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "72.57%*2",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.4514,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607100001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607100002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "cantarella/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "57.18%*2",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.1436,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 30,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607101001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607101002"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "cantarella/heavy_mirage",
+      "name": "浮潜幻海伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "53.05%*2",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Existing 30-tick MC surf window; damage contacts retained, recovery extended. Not native timing.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.061,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607102001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607102002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "cantarella/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.99%+62.99%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0498,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607112001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607112002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607112003"
+        },
+        {
+          "count": 1,
+          "damageId": "1607112004"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12,
+        16
+      ],
+      "id": "cantarella/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "53.01%*4",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.1204,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607201001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607201002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "cantarella/skill",
+      "name": "翩跹伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "73.60%*2",
+      "sourceNode": 2,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.472,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607210011"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cantarella/skill_dream",
+      "name": "斑驳幻梦伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "196.23%",
+      "sourceNode": 2,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.9623,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607210002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cantarella/awaken",
+      "name": "惊醒伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "198.81%",
+      "sourceNode": 2,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.9881,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 90,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607301001"
+        }
+      ],
+      "hitTimesTicks": [
+        65
+      ],
+      "id": "cantarella/liberation",
+      "name": "陷溺伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "376.00%",
+      "sourceNode": 3,
+      "sourceParameter": "31",
+      "timingEvidence": "docs/reference/original-skill-gifs/tide-roles/cantarella-3.gif active=[0, 4.5]; Full archived original liberation GIF quarter-second timeline reviewed; Minecraft sampled timing fit; preserve original damage groups, counts and persistent modes/fields.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.76,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607301005"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "cantarella/jellyfish",
+      "name": "弥漫·单只织梦水母",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "14.54%",
+      "sourceNode": 3,
+      "sourceParameter": "one_jellyfish",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.1454,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607401001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401003"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401004"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        10,
+        15,
+        20
+      ],
+      "id": "cantarella/intro",
+      "name": "点水伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "42.25%*4",
+      "sourceNode": 6,
+      "sourceParameter": "36",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.69,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607401011"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401012"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401013"
+        },
+        {
+          "count": 1,
+          "damageId": "1607401015"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "cantarella/mirage_intro",
+      "name": "逐浪伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "16.90%*3+118.30%",
+      "sourceNode": 6,
+      "sourceParameter": "37",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.69,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607011001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607011002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607011003"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        10
+      ],
+      "id": "cantarella/mirage_basic_01",
+      "name": "蛰幻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "35.33%*3",
+      "sourceNode": 7,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.0599,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607012002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607012003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        14
+      ],
+      "id": "cantarella/mirage_basic_02",
+      "name": "蛰幻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "62.93%*2",
+      "sourceNode": 7,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.2586,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1607013008"
+        },
+        {
+          "count": 1,
+          "damageId": "1607013001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "cantarella/mirage_basic_03",
+      "name": "蛰幻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "64.62%*4",
+      "sourceNode": 7,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.5848,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607102101"
+        },
+        {
+          "count": 1,
+          "damageId": "1607102102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "cantarella/mirage_air",
+      "name": "暗涌漩涡伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "41.99%+62.99%",
+      "sourceNode": 7,
+      "sourceParameter": "21",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.0498,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607014001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607014002"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        22
+      ],
+      "id": "cantarella/skill_drain",
+      "name": "感知汲取伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "667.99%*2",
+      "sourceNode": 7,
+      "sourceParameter": "22",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 13.3598,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "cantarella",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 12.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1607113001"
+        },
+        {
+          "count": 1,
+          "damageId": "1607113002"
+        },
+        {
+          "count": 1,
+          "damageId": "1607113003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "cantarella/mirage_counter",
+      "name": "掠影伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mirage",
+      "sourceFormula": "75.09%*3",
+      "sourceNode": 7,
+      "sourceParameter": "23",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.2527,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "whispers_of_sirens"
+    }
+  ],
+  "schemaVersion": 1
+}

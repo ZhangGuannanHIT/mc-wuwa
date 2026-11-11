@@ -1,0 +1,1791 @@
+{
+  "schemaVersion": 1,
+  "characterId": "iuno",
+  "weaponId": "mc_wuwa:moongazers_sigil",
+  "palette": [
+    132,
+    198,
+    247
+  ],
+  "sourceEvidence": [
+    "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+    "docs/reference/new-six-20261021/official-skills-manifest.json",
+    "data-source/nanoka/3.7/zh/character/1410.json"
+  ],
+  "actions": [
+    {
+      "actionId": "mc_wuwa:iuno/basic_01",
+      "stateVariant": "basic_01",
+      "thirdPersonClip": "mc_wuwa:iuno/basic_01/tp",
+      "firstPersonClip": "mc_wuwa:iuno/basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingNormals": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/basic_02",
+      "stateVariant": "basic_02",
+      "thirdPersonClip": "mc_wuwa:iuno/basic_02/tp",
+      "firstPersonClip": "mc_wuwa:iuno/basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingNormals": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/basic_03",
+      "stateVariant": "basic_03",
+      "thirdPersonClip": "mc_wuwa:iuno/basic_03/tp",
+      "firstPersonClip": "mc_wuwa:iuno/basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "normalAttackObservation": {
+        "source": "docs/reference/base-combat-motion/next-six/source.json",
+        "scope": "Complete corresponding normal panel reviewed; stage-specific connected joints and per-hit poses, accepted MC clocks retained; not frame-exact",
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingNormals": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and detailed combat sheets inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/air",
+      "stateVariant": "air",
+      "thirdPersonClip": "mc_wuwa:iuno/air/tp",
+      "firstPersonClip": "mc_wuwa:iuno/air/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/air",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/dodge_counter",
+      "stateVariant": "dodge_counter",
+      "thirdPersonClip": "mc_wuwa:iuno/dodge_counter/tp",
+      "firstPersonClip": "mc_wuwa:iuno/dodge_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_01",
+      "stateVariant": "bow_basic_01",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_01/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_01/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_02",
+      "stateVariant": "bow_basic_02",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_02/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_02/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_03",
+      "stateVariant": "bow_basic_03",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_03/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_03/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_counter",
+      "stateVariant": "bow_counter",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_counter/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_counter/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/skill",
+      "stateVariant": "skill",
+      "thirdPersonClip": "mc_wuwa:iuno/skill/tp",
+      "firstPersonClip": "mc_wuwa:iuno/skill/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/skill_ending",
+      "stateVariant": "skill_ending",
+      "thirdPersonClip": "mc_wuwa:iuno/skill_ending/tp",
+      "firstPersonClip": "mc_wuwa:iuno/skill_ending/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/skill_unending",
+      "stateVariant": "skill_unending",
+      "thirdPersonClip": "mc_wuwa:iuno/skill_unending/tp",
+      "firstPersonClip": "mc_wuwa:iuno/skill_unending/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/skill_beyond",
+      "stateVariant": "skill_beyond",
+      "thirdPersonClip": "mc_wuwa:iuno/skill_beyond/tp",
+      "firstPersonClip": "mc_wuwa:iuno/skill_beyond/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/liberation",
+      "stateVariant": "liberation",
+      "thirdPersonClip": "mc_wuwa:iuno/liberation/tp",
+      "firstPersonClip": "mc_wuwa:iuno/liberation/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "pelvis",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/liberation",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.6,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/intro",
+      "stateVariant": "intro",
+      "thirdPersonClip": "mc_wuwa:iuno/intro/tp",
+      "firstPersonClip": "mc_wuwa:iuno/intro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/intro",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.25,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "pelvis",
+        "torso",
+        "head",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "moonRingGestureObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-full-timeline.json",
+        "scope": "Complete official timeline and quarter-second combat detail inspected; connected-joint adaptation on retained MC hit clocks, not frame-exact",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      },
+      "continuousMoonRingSkills": {
+        "source": "docs/reference/tide-combat-motion/iuno-combat-detail-timeline.json",
+        "scope": "All nine 31-84s sampled panels reviewed; continuous Minecraft adaptation, not frame-exact verification.",
+        "approvedWeaponGeometryUnchanged": true,
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/heavy_bow",
+      "stateVariant": "heavy_bow",
+      "thirdPersonClip": "mc_wuwa:iuno/heavy_bow/tp",
+      "firstPersonClip": "mc_wuwa:iuno/heavy_bow/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/heavy_ring",
+      "stateVariant": "heavy_ring",
+      "thirdPersonClip": "mc_wuwa:iuno/heavy_ring/tp",
+      "firstPersonClip": "mc_wuwa:iuno/heavy_ring/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_01_enhanced",
+      "stateVariant": "bow_basic_01_enhanced",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_01_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_01_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.15,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_02_enhanced",
+      "stateVariant": "bow_basic_02_enhanced",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_02_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_02_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.2,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_basic_03_enhanced",
+      "stateVariant": "bow_basic_03_enhanced",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_basic_03_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_basic_03_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "body",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/bow_counter_enhanced",
+      "stateVariant": "bow_counter_enhanced",
+      "thirdPersonClip": "mc_wuwa:iuno/bow_counter_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:iuno/bow_counter_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/dodge_counter",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/skill_beyond_enhanced",
+      "stateVariant": "skill_beyond_enhanced",
+      "thirdPersonClip": "mc_wuwa:iuno/skill_beyond_enhanced/tp",
+      "firstPersonClip": "mc_wuwa:iuno/skill_beyond_enhanced/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "body",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.3,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/heavy_perfection",
+      "stateVariant": "heavy_perfection",
+      "thirdPersonClip": "mc_wuwa:iuno/heavy_perfection/tp",
+      "firstPersonClip": "mc_wuwa:iuno/heavy_perfection/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/heavy_perfection_c6",
+      "stateVariant": "heavy_perfection_c6",
+      "thirdPersonClip": "mc_wuwa:iuno/heavy_perfection_c6/tp",
+      "firstPersonClip": "mc_wuwa:iuno/heavy_perfection_c6/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin",
+        "head"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/heavy",
+      "requiredMarkers": [
+        {
+          "name": "visual_contact",
+          "seconds": 0.35,
+          "authoritative": false
+        }
+      ],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "enhancedAttackObservation": {
+        "source": "docs/reference/enhanced-attacks-motion/next-six/enhanced-source.json",
+        "scope": "Entire corresponding panel timeline viewed; independent body and silhouette; accepted MC clock retained",
+        "nativeReview": "pending"
+      }
+    },
+    {
+      "actionId": "mc_wuwa:iuno/echo",
+      "stateVariant": "echo",
+      "thirdPersonClip": "mc_wuwa:iuno/echo/tp",
+      "firstPersonClip": "mc_wuwa:iuno/echo/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/skill",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/outro",
+      "stateVariant": "outro",
+      "thirdPersonClip": "mc_wuwa:iuno/outro/tp",
+      "firstPersonClip": "mc_wuwa:iuno/outro/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "torso",
+        "right_forearm",
+        "left_forearm",
+        "right_leg",
+        "left_leg",
+        "right_shin",
+        "left_shin"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/outro",
+      "requiredMarkers": [],
+      "feedbackOnly": true,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ]
+    },
+    {
+      "actionId": "mc_wuwa:iuno/new_moon_idle",
+      "stateVariant": "new_moon_idle",
+      "thirdPersonClip": "mc_wuwa:iuno/new_moon_idle/tp",
+      "firstPersonClip": "mc_wuwa:iuno/new_moon_idle/fp",
+      "modelPresentation": "player",
+      "boneMask": [
+        "right_arm",
+        "left_arm",
+        "right_forearm",
+        "left_forearm",
+        "torso",
+        "head",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin",
+        "body"
+      ],
+      "weaponSockets": {
+        "primary": "right_item",
+        "leftHandedPrimary": "left_item"
+      },
+      "visibilityPolicy": {
+        "hideArmor": true,
+        "hideVanillaBody": false,
+        "hideVanillaHeldItem": false
+      },
+      "vfxProfile": "mc_wuwa:aero/basic",
+      "requiredMarkers": [],
+      "feedbackOnly": false,
+      "timingStatus": "minecraft_action_timeline_not_claimed_original_frames",
+      "reviewState": "authored_segmented_rig_official_general_motion_reviewed",
+      "sourceEvidence": [
+        "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/3236",
+        "docs/reference/new-six-20261021/official-skills-manifest.json",
+        "data-source/nanoka/3.7/zh/character/1410.json"
+      ],
+      "moonPlatformObservation": {
+        "source": "docs/reference/tide-combat-motion/iuno-bow-detail-timeline.json",
+        "scope": "New-moon attacks use a low seated/kneeling pose on the lunar ring, hand-guided light shots; MC skeleton adaptation, not frame exact"
+      },
+      "firstPersonMask": [
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm"
+      ],
+      "thirdPersonMask": [
+        "body",
+        "torso",
+        "head",
+        "right_arm",
+        "right_forearm",
+        "left_arm",
+        "left_forearm",
+        "right_leg",
+        "right_shin",
+        "left_leg",
+        "left_shin"
+      ]
+    }
+  ]
+}

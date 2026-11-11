@@ -1,0 +1,586 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1302001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "yinlin/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "28.81%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.2881,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1302002001"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "yinlin/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "33.82%*2",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.6764,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1302003001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        9,
+        11,
+        14,
+        17,
+        19,
+        22
+      ],
+      "id": "yinlin/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "13.99%*7",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 0.9793,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1302004001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "yinlin/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "75.16%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7516,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1302010001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "yinlin/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "29.83%*2",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.5966,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1302060001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yinlin/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "123.27%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.2327,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1302070001"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16
+      ],
+      "id": "yinlin/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "24.22%*7",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 7,
+      "totalMultiplier": 1.6954,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1302020001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "yinlin/skill",
+      "name": "磁殛咆哮伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "59.65%*3",
+      "sourceNode": 2,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.7895,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1302021001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "yinlin/skill_blast",
+      "name": "召雷磁爆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "magnetic",
+      "sourceFormula": "89.47%*4",
+      "sourceNode": 2,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 3.5788,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1302020030"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yinlin/magnetic_blast",
+      "name": "磁殛爆发伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "magnetic",
+      "sourceFormula": "19.89%",
+      "sourceNode": 2,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.1989,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 80,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 7,
+          "damageId": "1302040002"
+        }
+      ],
+      "hitTimesTicks": [
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        65
+      ],
+      "id": "yinlin/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "116.56%*7",
+      "sourceNode": 3,
+      "sourceParameter": "15",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/yinlin-3.gif active=[0.5, 4.5]; Full archived quarter-second timeline reviewed; sampled Minecraft timing fit, not frame-exact original measurement; damage coefficients and hit count unchanged.",
+      "totalHitCount": 7,
+      "totalMultiplier": 8.1592,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "1302050010"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        8,
+        10,
+        12,
+        13,
+        15,
+        17,
+        18,
+        20
+      ],
+      "id": "yinlin/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "14.32%*10",
+      "sourceNode": 6,
+      "sourceParameter": "19",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 1.432,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "projectile",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1302013010"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "yinlin/chameleon",
+      "name": "千面魅影伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "full_judgment",
+      "sourceFormula": "178.93%*2",
+      "sourceNode": 7,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.5786,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "yinlin",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 10.0,
+        "requiresLineOfSight": true,
+        "shape": "ray",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 1.0
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1302020041"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "yinlin/judgment_thunder",
+      "name": "审判之雷伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "punishment_mark",
+      "sourceFormula": "78.64%",
+      "sourceNode": 7,
+      "sourceParameter": "20",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7864,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "stringmaster"
+    }
+  ],
+  "schemaVersion": 1
+}

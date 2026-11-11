@@ -1,0 +1,23 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/lux_and_umbra_3d"
+  },
+  "perspectives": {
+    "firstperson_lefthand": {
+      "parent": "mc_wuwa:item/lux_and_umbra_left_3d"
+    },
+    "thirdperson_lefthand": {
+      "parent": "mc_wuwa:item/lux_and_umbra_left_3d"
+    },
+    "gui": {
+      "parent": "mc_wuwa:item/lux_and_umbra_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/lux_and_umbra_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/lux_and_umbra_display"
+    }
+  }
+}

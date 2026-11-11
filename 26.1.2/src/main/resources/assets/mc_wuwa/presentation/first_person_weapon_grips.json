@@ -1,0 +1,923 @@
+{
+  "schemaVersion": 1,
+  "weapons": [
+    {
+      "weapon": "kumokiri",
+      "model": "mc_wuwa:item/kumokiri_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.154,
+        6.011735,
+        7.639315
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "starfield_calibrator",
+      "model": "mc_wuwa:item/starfield_calibrator_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.8,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "ages_of_harvest",
+      "model": "mc_wuwa:item/ages_of_harvest_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.4,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "defiers_thorn",
+      "model": "mc_wuwa:item/defiers_thorn_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.1,
+        8.0
+      ],
+      "excludedActions": [
+        "cartethyia/fleurdelys_basic_05",
+        "cartethyia/fleurdelys_skill_followup"
+      ],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "red_spring",
+      "model": "mc_wuwa:item/red_spring_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.4,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "azure_oath",
+      "model": "mc_wuwa:item/azure_oath_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "bloodpacts_pledge",
+      "model": "mc_wuwa:item/bloodpacts_pledge_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.0,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "everbright_polestar",
+      "model": "mc_wuwa:item/everbright_polestar_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.35125,
+        5.31413,
+        8.0
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "frostburn",
+      "model": "mc_wuwa:item/frostburn_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        5.2,
+        8.0
+      ],
+      "excludedActions": [
+        "hiyuki/liberation"
+      ],
+      "stagedActions": [
+        {
+          "action": "hiyuki/liberation_return",
+          "nativeUntil": 0.7,
+          "correctedFrom": 0.84
+        }
+      ],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "emerald_sentence",
+      "model": "mc_wuwa:item/emerald_sentence_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8.0,
+        8.287,
+        7.8483
+      ],
+      "excludedActions": [],
+      "stagedActions": [
+        {
+          "action": "qiuyuan/liberation",
+          "nativeUntil": 0.2777777777777778,
+          "correctedFrom": 0.5555555555555556
+        },
+        {
+          "action": "qiuyuan/liberation_c3",
+          "nativeUntil": 0.2777777777777778,
+          "correctedFrom": 0.5555555555555556
+        }
+      ],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "blazing_brilliance",
+      "model": "mc_wuwa:item/blazing_brilliance_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8,
+        8,
+        8
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "wildfire_mark",
+      "model": "mc_wuwa:item/wildfire_mark_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8,
+        8,
+        8
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "glint_of_clouds",
+      "model": "mc_wuwa:item/glint_of_clouds_3d",
+      "bladeAxis": "+Y",
+      "gripPixels": [
+        8,
+        8,
+        8
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          -90,
+          18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          -18
+        ],
+        "translation": [
+          1.2,
+          2,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "unspoken_rue",
+      "model": "mc_wuwa:item/unspoken_rue_3d",
+      "bladeAxis": "-Y",
+      "gripPixels": [
+        8,
+        16.2,
+        8
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          90,
+          180
+        ],
+        "translation": [
+          0,
+          3.116,
+          1.2
+        ],
+        "scale": [
+          0.38,
+          0.38,
+          0.38
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          90,
+          180
+        ],
+        "translation": [
+          0,
+          3.116,
+          1.2
+        ],
+        "scale": [
+          0.38,
+          0.38,
+          0.38
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "thunderflare_dominion",
+      "model": "mc_wuwa:item/thunderflare_dominion_3d",
+      "bladeAxis": "-Y",
+      "gripPixels": [
+        8,
+        15.38,
+        8
+      ],
+      "excludedActions": [],
+      "stagedActions": [],
+      "rightDisplay": {
+        "rotation": [
+          0,
+          270,
+          180
+        ],
+        "translation": [
+          0,
+          3.2472,
+          1.2
+        ],
+        "scale": [
+          0.44,
+          0.44,
+          0.44
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          270,
+          180
+        ],
+        "translation": [
+          0,
+          3.2472,
+          1.2
+        ],
+        "scale": [
+          0.44,
+          0.44,
+          0.44
+        ]
+      },
+      "scope": "custom FP: rotate about longitudinal grip axis; preserve blade up direction and turn cutting edge outward",
+      "flipAxis": "y"
+    },
+    {
+      "weapon": "spectrum_blaster",
+      "gripPixels": [
+        5.1,
+        9.15,
+        8
+      ],
+      "flipAxis": "y",
+      "rightDisplay": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          1.2,
+          2.0,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          1.2,
+          2.0,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "reason": "Native idle muzzle faces camera -Z; custom action arms preserve reviewed shooting direction about the same grip."
+    },
+    {
+      "weapon": "woodland_aria",
+      "gripPixels": [
+        4.966,
+        6.36,
+        8
+      ],
+      "flipAxis": "y",
+      "rightDisplay": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          1.2,
+          2.0,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          -90,
+          0
+        ],
+        "translation": [
+          1.2,
+          2.0,
+          -0.6
+        ],
+        "scale": [
+          0.66,
+          0.66,
+          0.66
+        ]
+      },
+      "reason": "Native idle muzzle faces camera -Z; custom action arms preserve reviewed shooting direction about the same grip."
+    },
+    {
+      "weapon": "lux_and_umbra",
+      "gripPixels": [
+        1.44,
+        8,
+        8
+      ],
+      "flipAxis": "y",
+      "rightDisplay": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          -4.0672
+        ],
+        "scale": [
+          0.62,
+          0.62,
+          0.62
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          270,
+          0
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          -4.0672
+        ],
+        "scale": [
+          0.62,
+          0.62,
+          0.62
+        ]
+      },
+      "reason": "Native idle muzzle faces camera -Z; custom action arms preserve reviewed shooting direction about the same grip."
+    },
+    {
+      "weapon": "the_last_dance",
+      "gripPixels": [
+        1.44,
+        8,
+        8
+      ],
+      "flipAxis": "y",
+      "rightDisplay": {
+        "rotation": [
+          0,
+          90,
+          0
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          -4.0672
+        ],
+        "scale": [
+          0.62,
+          0.62,
+          0.62
+        ]
+      },
+      "leftDisplay": {
+        "rotation": [
+          0,
+          270,
+          0
+        ],
+        "translation": [
+          0.0,
+          0.0,
+          -4.0672
+        ],
+        "scale": [
+          0.62,
+          0.62,
+          0.62
+        ]
+      },
+      "reason": "Native idle muzzle faces camera -Z; custom action arms preserve reviewed shooting direction about the same grip."
+    }
+  ]
+}

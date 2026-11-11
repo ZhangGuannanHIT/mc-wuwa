@@ -1,0 +1,680 @@
+[
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "熔山裂谷",
+    "sets": [
+      {
+        "description": "热熔伤害提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用共鸣技能时，热熔伤害提升30%，持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "30%"
+        ]
+      }
+    ],
+    "sourceId": 2
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "彻空冥雷",
+    "sets": [
+      {
+        "description": "导电伤害提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用重击或共鸣技能时，各获得一层导电伤害提升15%的效果，该效果可叠加两层，每层各持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 3
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "啸谷长风",
+    "sets": [
+      {
+        "description": "气动伤害提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用变奏技能登场时，气动伤害提升30%，持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "30%"
+        ]
+      }
+    ],
+    "sourceId": 4
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "浮星祛暗",
+    "sets": [
+      {
+        "description": "衍射伤害提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用变奏技能登场时，衍射伤害提升30%，持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "30%"
+        ]
+      }
+    ],
+    "sourceId": 5
+  },
+  {
+    "conflictNote": "Five-piece text says 7.5% x 4; parameter array says 6% x 5; not resolved by importer.",
+    "dataConflict": true,
+    "name": "沉日劫明",
+    "sets": [
+      {
+        "description": "湮灭伤害提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用普攻或重击时，湮灭伤害提升7.5%，该效果可叠加四层，持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "6%",
+          "5",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 6
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "隐世回光",
+    "sets": [
+      {
+        "description": "治疗效果提升10%",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "自身为友方提供治疗时，全队共鸣者攻击提升15%，持续30秒",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "30"
+        ]
+      }
+    ],
+    "sourceId": 7
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "轻云出月",
+    "sets": [
+      {
+        "description": "共鸣效率提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "使用延奏技能后，下一个登场的共鸣者攻击提升22.5%，持续15秒",
+        "pieces": 5,
+        "rawParameters": [
+          "22.5%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 8
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "凌冽决断之心",
+    "sets": [
+      {
+        "description": "共鸣技能伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "12%"
+        ]
+      },
+      {
+        "description": "施放共鸣技能时，自身冷凝伤害提升{0}，持续{1}秒；施放共鸣解放时，自身共鸣技能伤害提升{2}，持续{3}秒，可叠加{4}层。",
+        "pieces": 5,
+        "rawParameters": [
+          "22.5%",
+          "15",
+          "18%",
+          "5",
+          "2"
+        ]
+      }
+    ],
+    "sourceId": 10
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "此间永驻之光",
+    "sets": [
+      {
+        "description": "衍射伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【光噪效应】时，自身暴击提升{0}，持续{1}秒；攻击存在{2}层【光噪效应】的敌人时，自身衍射伤害加成提升{3}，持续{4}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "20%",
+          "15",
+          "10",
+          "15%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 11
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "幽夜隐匿之帷",
+    "sets": [
+      {
+        "description": "湮灭属性伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色触发延奏技能离场时，额外对周围敌人造成{0}的湮灭伤害，该伤害为延奏技能伤害，并使下一个登场角色湮灭属性伤害加成提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "480%",
+          "15%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 12
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "流云逝尽之空",
+    "sets": [
+      {
+        "description": "气动伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【风蚀效应】时，队伍中角色气动伤害提升{0}，自身气动伤害额外提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "15%",
+          "20"
+        ]
+      }
+    ],
+    "sourceId": 16
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "愿戴荣光之旅",
+    "sets": [
+      {
+        "description": "气动伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "攻击命中存在【风蚀效应】的敌人时，自身暴击提升{0}，气动伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "10%",
+          "30%",
+          "10"
+        ]
+      }
+    ],
+    "sourceId": 17
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "奔狼燎原之焰",
+    "sets": [
+      {
+        "description": "热熔伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "施放共鸣解放时，队伍中角色热熔伤害提升{0}，自身共鸣解放伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "20%",
+          "35"
+        ]
+      }
+    ],
+    "sourceId": 18
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "失序彼岸之梦",
+    "sets": [
+      {
+        "description": "角色共鸣能量为{0}时，自身暴击率提升{1}，声骸技能伤害加成提升{2}。",
+        "pieces": 3,
+        "rawParameters": [
+          "0",
+          "20%",
+          "35%"
+        ]
+      }
+    ],
+    "sourceId": 19
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "荣斗铸锋之冠",
+    "sets": [
+      {
+        "description": "角色获得护盾时，自身攻击提升{0}，暴击伤害提升{1}，该效果可叠加{2}层，持续{3}秒，每{4}秒可触发一次。",
+        "pieces": 3,
+        "rawParameters": [
+          "6%",
+          "4%",
+          "5",
+          "4",
+          "0.5"
+        ]
+      }
+    ],
+    "sourceId": 20
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "息界同调之律",
+    "sets": [
+      {
+        "description": "角色施放声骸技能时，自身重击伤害加成提升{0}，持续{1}秒；队伍中角色声骸技能伤害加成提升{2}，该效果可叠加{3}层，持续{4}秒，同名声骸仅可触发1次该效果，效果消失时重置同名声骸记录，{3}层时施放声骸技能可刷新持续时间。",
+        "pieces": 3,
+        "rawParameters": [
+          "30%",
+          "4",
+          "4%",
+          "4",
+          "30"
+        ]
+      }
+    ],
+    "sourceId": 21
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "焚羽猎魔之影",
+    "sets": [
+      {
+        "description": "角色造成声骸技能伤害时，重击伤害的暴击提升{0}，持续{1}秒；造成重击伤害时，声骸技能伤害的暴击提升{2}，持续{3}秒。同时拥有两种效果时，自身热熔伤害提升{4}。",
+        "pieces": 3,
+        "rawParameters": [
+          "20%",
+          "6",
+          "20%",
+          "6",
+          "16%"
+        ]
+      }
+    ],
+    "sourceId": 22
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "命理崩毁之弦",
+    "sets": [
+      {
+        "description": "角色为敌人添加【虚湮效应】时，自身攻击提升{0}，共鸣解放伤害加成提升{1}，持续{2}秒。",
+        "pieces": 3,
+        "rawParameters": [
+          "20%",
+          "30%",
+          "5"
+        ]
+      }
+    ],
+    "sourceId": 23
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "逆光跃彩之约",
+    "sets": [
+      {
+        "description": "衍射伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "0.3%",
+          "15%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 24
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "星构寻辉之环",
+    "sets": [
+      {
+        "description": "治疗效果提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "为队伍中角色提供治疗时，自身每{0}的偏谐值累积效率使队伍中角色攻击提升{1}，上限{2}，持续{3}秒，同名效果之间不可叠加。",
+        "pieces": 5,
+        "rawParameters": [
+          "1%",
+          "0.2%",
+          "25%",
+          "4"
+        ]
+      }
+    ],
+    "sourceId": 25
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "长路启航之星",
+    "sets": [
+      {
+        "description": "热熔伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【聚爆效应】或【震谐·偏移】时，自身暴击提升{0}，热熔伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "20%",
+          "20%",
+          "8"
+        ]
+      }
+    ],
+    "sourceId": 27
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "斑驳粉饰之沫",
+    "sets": [
+      {
+        "description": "热熔伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【聚爆效应】时，自身获得下述效果：热熔伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色热熔伤害提升{2}，持续{3}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "10%",
+          "15",
+          "25%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 28
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "听唤语义之愿",
+    "sets": [
+      {
+        "description": "气动伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色造成声骸技能伤害时，声骸技能伤害的暴击提升{0}，自身气动伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "20%",
+          "15%",
+          "5"
+        ]
+      }
+    ],
+    "sourceId": 29
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "雪落无声之愿",
+    "sets": [
+      {
+        "description": "冷凝伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【霜渐效应】时，冷凝伤害提升{0}，持续{1}秒。自身获得【落雪】效果，持续{11}秒，该效果每{2}秒可触发1次。拥有【落雪】效果时：\n·角色造成共鸣解放伤害时，将清除【落雪】效果，使自身暴击提升{4}，持续{5}秒。该效果持续期间角色造成共鸣解放伤害时，将延长{8}秒的持续时间，每{9}秒可触发1次，每次清除【落雪】后该效果至多触发{10}次。\n·角色施放延奏技能时，将清除【落雪】效果，使下一个变奏技能登场的角色冷凝伤害提升{6}，持续{7}秒。\n每次清除【落雪】效果时，上述效果仅能同时触发一个。",
+        "pieces": 5,
+        "rawParameters": [
+          "10%",
+          "15",
+          "25",
+          "1",
+          "25%",
+          "6",
+          "25%",
+          "15",
+          "4",
+          "0.5",
+          "6",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 30
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "剪心辑梦之影",
+    "sets": [
+      {
+        "description": "攻击提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【震谐·偏移】或【集谐·偏移】时，队伍中角色谐度破坏增幅提升{0}点，持续{1}秒，同名效果之间不可叠加。",
+        "pieces": 5,
+        "rawParameters": [
+          "20",
+          "30"
+        ]
+      }
+    ],
+    "sourceId": 31
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "羽落空尘之歌",
+    "sets": [
+      {
+        "description": "共鸣效率提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【虚湮效应】时，获得【玄翎之羽】：自身暴击提升{0}，重击伤害加成提升{1}，持续{2}秒。\n角色为敌人添加【霜渐效应】时，获得【重明之羽】：自身每{3}的共鸣效率使队伍中角色攻击提升{4}，上限{5}，持续{6}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "20%",
+          "35%",
+          "15",
+          "1%",
+          "0.1%",
+          "25%",
+          "10"
+        ]
+      }
+    ],
+    "sourceId": 33
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "清邪荡煞之心",
+    "sets": [
+      {
+        "description": "气动伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【集谐·偏移】时，自身暴击伤害提升{0}，气动伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "20%",
+          "30%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 34
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "衔梦照世之心",
+    "sets": [
+      {
+        "description": "导电伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【电磁效应】时，或自身获得同奏、响应同奏时，自身暴击提升{0}，导电伤害提升{1}，持续{2}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "15%",
+          "22.5%",
+          "30"
+        ]
+      }
+    ],
+    "sourceId": 36
+  },
+  {
+    "conflictNote": "",
+    "dataConflict": false,
+    "name": "镜影流电之瞬",
+    "sets": [
+      {
+        "description": "导电伤害提升{0}",
+        "pieces": 2,
+        "rawParameters": [
+          "10%"
+        ]
+      },
+      {
+        "description": "角色为敌人添加【电磁效应】时，自身获得下述效果：导电伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色导电伤害提升{2}，持续{3}秒。",
+        "pieces": 5,
+        "rawParameters": [
+          "10%",
+          "15",
+          "25%",
+          "15"
+        ]
+      }
+    ],
+    "sourceId": 37
+  }
+]

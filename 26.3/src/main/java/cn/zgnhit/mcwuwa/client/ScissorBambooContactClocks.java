@@ -1,0 +1,53 @@
+package cn.zgnhit.mcwuwa.client;
+import java.util.Map;
+/** Retained combat clocks. */
+final class ScissorBambooContactClocks {
+    record Clock(int duration,int... hits){}
+    static final Map<String,Clock> ALL=Map.ofEntries(
+        Map.entry("chisa/severing_pincers",new Clock(24,6,13,20)),
+        Map.entry("chisa/severing_extra",new Clock(24,6)),
+        Map.entry("chisa/retract",new Clock(24,6,13,20)),
+        Map.entry("chisa/pierce",new Clock(24,6,10,13,16,20)),
+        Map.entry("chisa/heavy",new Clock(26,7,22)),
+        Map.entry("chisa/air",new Clock(24,6)),
+        Map.entry("chisa/shattered_plane",new Clock(24,6,20)),
+        Map.entry("chisa/falling_finale",new Clock(24,6,11,15,20)),
+        Map.entry("chisa/dodge_counter",new Clock(20,4,10,16)),
+        Map.entry("chisa/reel_counter",new Clock(24,6)),
+        Map.entry("chisa/skill",new Clock(26,6)),
+        Map.entry("chisa/skill_saw_cycle",new Clock(26,6,8,11,13,15,17,20,22)),
+        Map.entry("chisa/skill_saw_hold",new Clock(26,6,7,8,9,10,11,12,13,15,16,17,18,19,20,21,22)),
+        Map.entry("chisa/liberation",new Clock(85,55)),
+        Map.entry("chisa/intro",new Clock(24,5)),
+        Map.entry("chisa/saw_basic_01",new Clock(14,3,4,6,7,9,10)),
+        Map.entry("chisa/saw_basic_02",new Clock(18,4,5,7,8,10,11,13,14)),
+        Map.entry("chisa/saw_basic_02_hold",new Clock(18,4,5,6,7,8,10,11,12,13,14)),
+        Map.entry("chisa/saw_resonance_02",new Clock(24,6,13,20)),
+        Map.entry("chisa/saw_basic_03",new Clock(22,5,7,9,11,12,14,16,18)),
+        Map.entry("chisa/saw_basic_03_hold",new Clock(22,5,8,10,13,15,18)),
+        Map.entry("chisa/saw_resonance_03",new Clock(24,6,13,20)),
+        Map.entry("chisa/saw_counter",new Clock(24,6,8,10,12,14,16,18,20)),
+        Map.entry("chisa/saw_counter_hold",new Clock(24,6,8,9,11,12,14,15,17,18,20)),
+        Map.entry("chisa/saw_finale",new Clock(24,6,20)),
+        Map.entry("qiuyuan/air",new Clock(24,6)),
+        Map.entry("qiuyuan/heavy",new Clock(26,7)),
+        Map.entry("qiuyuan/dodge_counter",new Clock(20,4,8,12,16)),
+        Map.entry("qiuyuan/skill",new Clock(26,6,14,22)),
+        Map.entry("qiuyuan/skill_dash",new Clock(26,6,10,14,18,22)),
+        Map.entry("qiuyuan/liberation",new Clock(90,50)),
+        Map.entry("qiuyuan/intro",new Clock(24,5,8,10,12,15,18,20)),
+        Map.entry("qiuyuan/answer_basic_01",new Clock(14,3,10)),
+        Map.entry("qiuyuan/answer_basic_02",new Clock(18,4,9,14)),
+        Map.entry("qiuyuan/answer_basic_03",new Clock(26,6,9,12,16,19,22)),
+        Map.entry("qiuyuan/answer_basic_04",new Clock(22,5)),
+        Map.entry("qiuyuan/ink_heavy_01",new Clock(26,7,11,14,18,22)),
+        Map.entry("qiuyuan/ink_heavy_02",new Clock(26,7,10,13,16,19,22)),
+        Map.entry("qiuyuan/ink_heavy_03",new Clock(26,7)),
+        Map.entry("qiuyuan/skill_canopy",new Clock(26,6,10,14,18,22)),
+        Map.entry("qiuyuan/liberation_c3",new Clock(90,50)),
+        Map.entry("qiuyuan/ink_heavy_01_c3",new Clock(26,7,11,14,18,22)),
+        Map.entry("qiuyuan/ink_heavy_02_c3",new Clock(26,7,10,13,16,19,22)),
+        Map.entry("qiuyuan/ink_heavy_03_c3",new Clock(26,7)),
+        Map.entry("qiuyuan/drunken_exit",new Clock(24,6)));
+    private ScissorBambooContactClocks(){}
+}

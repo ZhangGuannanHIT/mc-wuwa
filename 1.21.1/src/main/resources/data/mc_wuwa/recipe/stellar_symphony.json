@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " A ",
+    "ICI",
+    " P "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "mc_wuwa:core"
+    },
+    "P": {
+      "item": "minecraft:glass"
+    }
+  },
+  "result": {
+    "id": "mc_wuwa:stellar_symphony",
+    "count": 1
+  }
+}

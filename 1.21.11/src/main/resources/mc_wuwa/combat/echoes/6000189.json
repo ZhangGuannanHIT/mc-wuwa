@@ -1,0 +1,173 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "28003601",
+      "kind": "echo",
+      "multiplier": 0.2736,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 3,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          1520,
+          1824,
+          2128,
+          2432,
+          2736
+        ],
+        "related_property": "攻击",
+        "tough_lv": 1520,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.2557630826182063,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤海维夏，在空中发射激光对敌人造成十段27.36%的衍射伤害。\n在此后15秒内，若自身施放延奏技能，使下一个变奏技能登场的角色全属性伤害加成提升10.00%，持续15秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "海维夏",
+  "parameters": [
+    "27.36%",
+    "15",
+    "10.00%",
+    "15",
+    "20"
+  ],
+  "raw": {
+    "code": "R65-",
+    "group": {
+      "24": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLightWeakness.T_IconElementAttriLightWeakness",
+        "id": 24,
+        "name": "逆光跃彩之约",
+        "set": {
+          "2": {
+            "desc": "衍射伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色施放延奏技能后，下一个变奏技能登场的角色攻击提升{0}，其每点谐度破坏增幅还会使攻击额外提升{1}，上限{2}，持续{3}秒，若切换至其他角色则该效果提前结束。",
+            "param": [
+              "15%",
+              "0.3%",
+              "15%",
+              "15"
+            ]
+          }
+        }
+      },
+      "26": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriAttackWeakness.T_IconElementAttriAttackWeakness",
+        "id": 26,
+        "name": "流金溯真之式",
+        "set": {
+          "2": {
+            "desc": "衍射伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色造成普攻伤害时，自身衍射伤害提升{0}，该效果可叠加{1}层，持续{2}秒。叠至{1}层时，施放共鸣解放时，普攻伤害加成提升{3}。",
+            "param": [
+              "10%",
+              "3",
+              "5",
+              "40%"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34021_UI.T_IconMonsterHead_34021_UI",
+    "id": 6000189,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 340000210,
+    "name": "海维夏",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28003601": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 3,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            1520,
+            1824,
+            2128,
+            2432,
+            2736
+          ],
+          "related_property": "攻击",
+          "tough_lv": 1520,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤海维夏，在空中发射激光对敌人造成十段{0}的衍射伤害。\n在此后{1}秒内，若自身施放延奏技能，使下一个变奏技能登场的角色全属性伤害加成提升{2}，持续{3}秒。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34021_UI.T_MstSkil_34021_UI",
+      "param": [
+        [
+          "15.20%",
+          "15",
+          "10.00%",
+          "15",
+          "20"
+        ],
+        [
+          "18.24%",
+          "15",
+          "10.00%",
+          "15",
+          "20"
+        ],
+        [
+          "21.28%",
+          "15",
+          "10.00%",
+          "15",
+          "20"
+        ],
+        [
+          "24.32%",
+          "15",
+          "10.00%",
+          "15",
+          "20"
+        ],
+        [
+          "27.36%",
+          "15",
+          "10.00%",
+          "15",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤海维夏，对敌人造成衍射伤害，并使下一个变奏技能登场的角色全属性伤害提升。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000189
+}

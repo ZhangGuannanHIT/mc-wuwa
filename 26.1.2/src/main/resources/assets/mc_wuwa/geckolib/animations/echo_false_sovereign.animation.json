@@ -1,0 +1,169 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.echo_false_sovereign.attack": {
+      "loop": false,
+      "animation_length": 1.2,
+      "bones": {
+        "arm_right": {
+          "rotation": {
+            "0": [
+              12,
+              0,
+              -14
+            ],
+            ".2": [
+              55,
+              0,
+              -72
+            ],
+            ".8": [
+              55,
+              0,
+              -72
+            ],
+            "1.2": [
+              12,
+              0,
+              -14
+            ]
+          }
+        },
+        "arm_left": {
+          "rotation": {
+            "0": [
+              12,
+              0,
+              14
+            ],
+            ".2": [
+              55,
+              0,
+              72
+            ],
+            ".8": [
+              55,
+              0,
+              72
+            ],
+            "1.2": [
+              12,
+              0,
+              14
+            ]
+          }
+        },
+        "forearm_right": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "forearm_left": {
+          "rotation": [
+            75,
+            0,
+            0
+          ]
+        },
+        "thigh_right": {
+          "rotation": [
+            0,
+            0,
+            -7
+          ]
+        },
+        "thigh_left": {
+          "rotation": [
+            -5,
+            0,
+            7
+          ]
+        },
+        "root": {
+          "rotation": {
+            "0": [
+              0,
+              0,
+              0
+            ],
+            ".2": [
+              0,
+              180,
+              0
+            ],
+            ".4": [
+              0,
+              360,
+              0
+            ],
+            ".6": [
+              0,
+              540,
+              0
+            ],
+            ".8": [
+              0,
+              720,
+              0
+            ],
+            "1.2": [
+              0,
+              720,
+              0
+            ]
+          }
+        }
+      }
+    },
+    "animation.echo_false_sovereign.idle": {
+      "loop": true,
+      "animation_length": 1.2,
+      "bones": {
+        "arm_right": {
+          "rotation": [
+            12,
+            0,
+            -14
+          ]
+        },
+        "arm_left": {
+          "rotation": [
+            28,
+            0,
+            16
+          ]
+        },
+        "forearm_right": {
+          "rotation": [
+            15,
+            0,
+            0
+          ]
+        },
+        "forearm_left": {
+          "rotation": [
+            75,
+            0,
+            0
+          ]
+        },
+        "thigh_right": {
+          "rotation": [
+            0,
+            0,
+            -7
+          ]
+        },
+        "thigh_left": {
+          "rotation": [
+            -5,
+            0,
+            7
+          ]
+        }
+      }
+    }
+  }
+}

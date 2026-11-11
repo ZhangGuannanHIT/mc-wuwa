@@ -1,0 +1,236 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28004301",
+      "kind": "echo",
+      "multiplier": 0.4104,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 57,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          2280,
+          2736,
+          3192,
+          3648,
+          4104
+        ],
+        "related_property": "攻击",
+        "tough_lv": 2280,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.3836446239273094,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "havoc",
+      "id": "28004303",
+      "kind": "echo",
+      "multiplier": 1.0944,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 6,
+        "element_power": 0,
+        "energy": 152,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          6080,
+          7296,
+          8512,
+          9728,
+          10944
+        ],
+        "related_property": "攻击",
+        "tough_lv": 6080,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.0230523304728252,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，对周围敌人造成109.44%的湮灭伤害，并召唤四把【千忆剑声】，持续15秒。\n【千忆剑声】存在期间，自身为目标附加「虚湮效应」时，将消耗一把【千忆剑声】对目标造成一次41.04%的湮灭伤害，每1秒可触发一次。\n在首位装配该声骸技能时，自身湮灭伤害加成提升12.00%，重击伤害加成提升12.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "千傀重楼",
+  "parameters": [
+    "41.04%",
+    "109.44%",
+    "12.00%",
+    "12.00%",
+    "20",
+    "15",
+    "1"
+  ],
+  "raw": {
+    "code": "N91-",
+    "group": {
+      "33": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriYangyang.T_IconElementAttriYangyang",
+        "id": 33,
+        "name": "羽落空尘之歌",
+        "set": {
+          "2": {
+            "desc": "共鸣效率提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【虚湮效应】时，获得【玄翎之羽】：自身暴击提升{0}，重击伤害加成提升{1}，持续{2}秒。\n角色为敌人添加【霜渐效应】时，获得【重明之羽】：自身每{3}的共鸣效率使队伍中角色攻击提升{4}，上限{5}，持续{6}秒。",
+            "param": [
+              "20%",
+              "35%",
+              "15",
+              "1%",
+              "0.1%",
+              "25%",
+              "10"
+            ]
+          }
+        }
+      },
+      "38": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriCureA.T_IconElementAttriCureA",
+        "id": 38,
+        "name": "茜染怀想之花",
+        "set": {
+          "2": {
+            "desc": "治疗效果提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "为队伍中角色提供治疗时，队伍中角色攻击提升{0}，持续{1}秒，同名效果之间不可叠加。上述效果持续期间，若角色获得同奏、响应同奏，攻击额外提升{2}。",
+            "param": [
+              "10%",
+              "30",
+              "15%"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34031_UI.T_IconMonsterHead_34031_UI",
+    "id": 6000218,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000310,
+    "name": "千傀重楼",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28004301": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 57,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            2280,
+            2736,
+            3192,
+            3648,
+            4104
+          ],
+          "related_property": "攻击",
+          "tough_lv": 2280,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28004303": {
+          "element": 6,
+          "element_power": 0,
+          "energy": 152,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            6080,
+            7296,
+            8512,
+            9728,
+            10944
+          ],
+          "related_property": "攻击",
+          "tough_lv": 6080,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，对周围敌人造成{1}的湮灭伤害，并召唤四把【千忆剑声】，持续{5}秒。\n【千忆剑声】存在期间，自身为目标附加「虚湮效应」时，将消耗一把【千忆剑声】对目标造成一次{0}的湮灭伤害，每{6}秒可触发一次。\n在首位装配该声骸技能时，自身湮灭伤害加成提升{2}，重击伤害加成提升{3}。\n技能冷却：{4}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34031_UI.T_MstSkil_34031_UI",
+      "param": [
+        [
+          "22.80%",
+          "60.80%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "27.36%",
+          "72.96%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "31.92%",
+          "85.12%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "36.48%",
+          "97.28%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ],
+        [
+          "41.04%",
+          "109.44%",
+          "12.00%",
+          "12.00%",
+          "20",
+          "15",
+          "1"
+        ]
+      ],
+      "simple_desc": "对周围敌人造成湮灭伤害并召唤【千忆剑声】，自身附加「虚湮效应」时将消耗【千忆剑声】对目标额外造成湮灭伤害。\n在首位装配时，提高自身湮灭和重击伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000218
+}

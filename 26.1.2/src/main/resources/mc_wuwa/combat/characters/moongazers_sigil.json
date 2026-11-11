@@ -1,0 +1,3072 @@
+{
+  "baseStats": {
+    "attack": 450.0,
+    "defense": 1124.4424,
+    "health": 10525.0
+  },
+  "chains": [
+    {
+      "description": "尤诺处于月相流转状态时，攻击提升40%。\n尤诺处于满月领域中时，自身每秒额外回复1点共鸣能量。\n共鸣技能·越限的弦引和重击·至臻的完满免疫打断。",
+      "name": "圆与缺，皆替金枝镀色",
+      "parameters": [
+        "40%",
+        "1"
+      ],
+      "rawDescription": "尤诺处于<color=Highlight><te href=141001>月相流转</te></color>状态时，攻击提升{0}。\n尤诺处于<color=Highlight>满月领域</color>中时，自身每秒额外回复{1}点共鸣能量。\n<color=Highlight>共鸣技能·越限的弦引</color>和<color=Highlight>重击·至臻的完满</color>免疫打断。",
+      "tier": 1
+    },
+    {
+      "description": "队伍中的角色的苍白死光的祝颂叠加至10层时，其额外获得40%全伤害加深。",
+      "name": "昼或夜，且以它为永恒",
+      "parameters": [
+        "10",
+        "40%"
+      ],
+      "rawDescription": "队伍中的角色的<color=Highlight><te href=141002>苍白死光的祝颂</te></color>叠加至{0}层时，其额外获得{1}全伤害加深。",
+      "tier": 2
+    },
+    {
+      "description": "尤诺处于月相流转状态时，月弓·普攻、共鸣技能·越限的弦引、月弓·闪避反击造成的伤害加深65%。\n施放月弓·普攻或月弓·闪避反击后一定时间内，施放共鸣技能·越限的弦引将不会重置月弓·普攻的连段。",
+      "name": "我痛饮他者的遗忘",
+      "parameters": [
+        "65%"
+      ],
+      "rawDescription": "尤诺处于<color=Highlight><te href=141001>月相流转</te></color>状态时，<color=Highlight>月弓·普攻</color>、<color=Highlight>共鸣技能·越限的弦引</color>、<color=Highlight>月弓·闪避反击</color>造成的伤害加深{0}。\n施放<color=Highlight>月弓·普攻</color>或<color=Highlight>月弓·闪避反击</color>后一定时间内，施放<color=Highlight>共鸣技能·越限的弦引</color>将不会重置<color=Highlight>月弓·普攻</color>的连段。",
+      "tier": 3
+    },
+    {
+      "description": "施放重击·至臻的完满时，队伍中的角色获得一个基于尤诺攻击160%的护盾，持续时间30秒，切换至其他角色不会继承该护盾。",
+      "name": "任雨季栖息于眼眸",
+      "parameters": [
+        "160%",
+        "30"
+      ],
+      "rawDescription": "施放<color=Highlight>重击·至臻的完满</color>时，队伍中的角色获得一个基于尤诺攻击{0}的护盾，持续时间{1}秒，切换至其他角色不会继承该护盾。",
+      "tier": 4
+    },
+    {
+      "description": "共鸣解放伤害加成提升20%。",
+      "name": "万千次虚掷的注视",
+      "parameters": [
+        "20%"
+      ],
+      "rawDescription": "共鸣解放伤害加成提升{0}。",
+      "tier": 5
+    },
+    {
+      "description": "重击·至臻的完满伤害倍率增加1600%。\n尤诺施放重击·至臻的完满时，会再次进入月相流转·新月状态，获得100点【灵性】并重置共鸣技能·越限的弦引的全部冷却。",
+      "name": "我所在，即为不变的独一",
+      "parameters": [
+        "1600%",
+        "100"
+      ],
+      "rawDescription": "<color=Highlight>重击·至臻的完满</color>伤害倍率增加{0}。\n尤诺施放<color=Highlight>重击·至臻的完满</color>时，会再次进入<color=Highlight><te href=141001>月相流转</te>·新月</color>状态，获得{1}点<color=Highlight>【<te href=141003>灵性</te>】</color>并重置<color=Highlight>共鸣技能·越限的弦引</color>的全部冷却。",
+      "tier": 6
+    }
+  ],
+  "characterId": "iuno",
+  "echoId": 6000160,
+  "element": "aero",
+  "id": "moongazers_sigil",
+  "mechanicsFullyImplemented": false,
+  "modes": [],
+  "name": "尤诺",
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "category": "normal_attack",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410001001",
+          "kind": "basic",
+          "multiplier": 0.8768,
+          "offTuneUnits": 0.98989898989899,
+          "raw": {
+            "element": 4,
+            "element_power": 123,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4410,
+              4772,
+              5134,
+              5640,
+              6002,
+              6417,
+              6996,
+              7575,
+              8153,
+              8768,
+              9491,
+              10215,
+              10938,
+              11661,
+              12384,
+              13107,
+              13831,
+              14554,
+              15277,
+              16000
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4900,
+            "type": 0,
+            "weakness_lvl": 3920
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8244994110718492,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410002001",
+          "kind": "basic",
+          "multiplier": 0.4606,
+          "offTuneUnits": 0.5202020202020202,
+          "raw": {
+            "element": 4,
+            "element_power": 65,
+            "energy": 65,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2317,
+              2507,
+              2697,
+              2963,
+              3153,
+              3371,
+              3675,
+              3979,
+              4283,
+              4606,
+              4986,
+              5366,
+              5746,
+              6126,
+              6506,
+              6886,
+              7266,
+              7646,
+              8025,
+              8405
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2574,
+            "type": 0,
+            "weakness_lvl": 2060
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4331145885916204,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410002002",
+          "kind": "basic",
+          "multiplier": 0.4606,
+          "offTuneUnits": 0.5202020202020202,
+          "raw": {
+            "element": 4,
+            "element_power": 65,
+            "energy": 65,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2317,
+              2507,
+              2697,
+              2963,
+              3153,
+              3371,
+              3675,
+              3979,
+              4283,
+              4606,
+              4986,
+              5366,
+              5746,
+              6126,
+              6506,
+              6886,
+              7266,
+              7646,
+              8025,
+              8405
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2574,
+            "type": 0,
+            "weakness_lvl": 2060
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.4331145885916204,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410002003",
+          "kind": "basic",
+          "multiplier": 0.4746,
+          "offTuneUnits": 0.5358585858585858,
+          "raw": {
+            "element": 4,
+            "element_power": 67,
+            "energy": 67,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2387,
+              2583,
+              2779,
+              3053,
+              3248,
+              3474,
+              3787,
+              4100,
+              4413,
+              4746,
+              5137,
+              5529,
+              5920,
+              6311,
+              6703,
+              7094,
+              7486,
+              7877,
+              8269,
+              8660
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2652,
+            "type": 0,
+            "weakness_lvl": 2122
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.44623927309439676,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410003001",
+          "kind": "basic",
+          "multiplier": 0.8798,
+          "offTuneUnits": 0.9934343434343434,
+          "raw": {
+            "element": 4,
+            "element_power": 123,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4426,
+              4789,
+              5152,
+              5660,
+              6022,
+              6440,
+              7020,
+              7601,
+              8182,
+              8798,
+              9524,
+              10250,
+              10976,
+              11701,
+              12427,
+              13153,
+              13879,
+              14604,
+              15330,
+              16056
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4917,
+            "type": 0,
+            "weakness_lvl": 3934
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8273599192327108,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410003003",
+          "kind": "basic",
+          "multiplier": 0.8798,
+          "offTuneUnits": 0.9934343434343434,
+          "raw": {
+            "element": 4,
+            "element_power": 123,
+            "energy": 123,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4426,
+              4789,
+              5152,
+              5660,
+              6022,
+              6440,
+              7020,
+              7601,
+              8182,
+              8798,
+              9524,
+              10250,
+              10976,
+              11701,
+              12427,
+              13153,
+              13879,
+              14604,
+              15330,
+              16056
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4917,
+            "type": 0,
+            "weakness_lvl": 3934
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8273599192327108,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410003004",
+          "kind": "basic",
+          "multiplier": 0.9065,
+          "offTuneUnits": 1.0234848484848484,
+          "raw": {
+            "element": 4,
+            "element_power": 127,
+            "energy": 127,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4560,
+              4934,
+              5308,
+              5831,
+              6205,
+              6635,
+              7233,
+              7831,
+              8429,
+              9065,
+              9813,
+              10561,
+              11308,
+              12056,
+              12804,
+              13551,
+              14299,
+              15047,
+              15795,
+              16542
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5066,
+            "type": 0,
+            "weakness_lvl": 4053
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8524314319367323,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410100001",
+          "kind": "basic",
+          "multiplier": 0.5368,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2700,
+              2922,
+              3143,
+              3453,
+              3675,
+              3929,
+              4284,
+              4638,
+              4992,
+              5368,
+              5811,
+              6254,
+              6697,
+              7140,
+              7582,
+              8025,
+              8468,
+              8911,
+              9354,
+              9796
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410100002",
+          "kind": "basic",
+          "multiplier": 0.5368,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 150,
+            "energy": 75,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2700,
+              2922,
+              3143,
+              3453,
+              3675,
+              3929,
+              4284,
+              4638,
+              4992,
+              5368,
+              5811,
+              6254,
+              6697,
+              7140,
+              7582,
+              8025,
+              8468,
+              8911,
+              9354,
+              9796
+            ],
+            "related_property": "攻击",
+            "tough_lv": 3000,
+            "type": 0,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.5047955577990914,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410500001",
+          "kind": "basic",
+          "multiplier": 0.8208,
+          "offTuneUnits": 0.5267676767676768,
+          "raw": {
+            "element": 4,
+            "element_power": 131,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4129,
+              4467,
+              4806,
+              5280,
+              5618,
+              6008,
+              6549,
+              7091,
+              7632,
+              8208,
+              8885,
+              9562,
+              10239,
+              10916,
+              11593,
+              12270,
+              12947,
+              13624,
+              14301,
+              14978
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4950,
+            "type": 0,
+            "weakness_lvl": 2086
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8329126703685008,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410500002",
+          "kind": "basic",
+          "multiplier": 0.8208,
+          "offTuneUnits": 0.5267676767676768,
+          "raw": {
+            "element": 4,
+            "element_power": 131,
+            "energy": 66,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4129,
+              4467,
+              4806,
+              5280,
+              5618,
+              6008,
+              6549,
+              7091,
+              7632,
+              8208,
+              8885,
+              9562,
+              10239,
+              10916,
+              11593,
+              12270,
+              12947,
+              13624,
+              14301,
+              14978
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4950,
+            "type": 0,
+            "weakness_lvl": 2086
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8329126703685008,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410500003",
+          "kind": "basic",
+          "multiplier": 0.8457,
+          "offTuneUnits": 0.5426767676767676,
+          "raw": {
+            "element": 4,
+            "element_power": 135,
+            "energy": 68,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4254,
+              4603,
+              4951,
+              5440,
+              5789,
+              6190,
+              6748,
+              7306,
+              7864,
+              8457,
+              9154,
+              9852,
+              10549,
+              11247,
+              11944,
+              12642,
+              13340,
+              14037,
+              14735,
+              15432
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5100,
+            "type": 0,
+            "weakness_lvl": 2149
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.8581524482584554,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410510021",
+          "kind": "liberation",
+          "multiplier": 1.0339,
+          "offTuneUnits": 0.4714646464646465,
+          "raw": {
+            "element": 4,
+            "element_power": 117,
+            "energy": 59,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              5200,
+              5627,
+              6053,
+              6650,
+              7077,
+              7567,
+              8249,
+              8931,
+              9614,
+              10339,
+              11191,
+              12044,
+              12897,
+              13750,
+              14603,
+              15455,
+              16308,
+              17161,
+              18014,
+              18867
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 2,
+            "weakness_lvl": 1867
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410101021",
+          "kind": "liberation",
+          "multiplier": 1.2645,
+          "offTuneUnits": 1.0707070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 265,
+            "energy": 233,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6360,
+              6882,
+              7404,
+              8134,
+              8655,
+              9255,
+              10089,
+              10924,
+              11758,
+              12645,
+              13688,
+              14731,
+              15774,
+              16817,
+              17860,
+              18903,
+              19946,
+              20989,
+              22032,
+              23075
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5300,
+            "type": 2,
+            "weakness_lvl": 4240
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.8918054854450614,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410102021",
+          "kind": "liberation",
+          "multiplier": 0.5567,
+          "offTuneUnits": 0.4714646464646465,
+          "raw": {
+            "element": 4,
+            "element_power": 117,
+            "energy": 109,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2800,
+              3030,
+              3260,
+              3581,
+              3811,
+              4075,
+              4442,
+              4809,
+              5177,
+              5567,
+              6026,
+              6486,
+              6945,
+              7404,
+              7863,
+              8322,
+              8782,
+              9241,
+              9700,
+              10159
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2334,
+            "type": 2,
+            "weakness_lvl": 1867
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.3927309439676931,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410103021",
+          "kind": "liberation",
+          "multiplier": 1.6701,
+          "offTuneUnits": 1.4141414141414141,
+          "raw": {
+            "element": 4,
+            "element_power": 350,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8400,
+              9089,
+              9778,
+              10742,
+              11431,
+              12223,
+              13325,
+              14427,
+              15530,
+              16701,
+              18078,
+              19456,
+              20833,
+              22211,
+              23589,
+              24966,
+              26344,
+              27721,
+              29099,
+              30477
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7000,
+            "type": 2,
+            "weakness_lvl": 5600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.1778563015312131,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410103022",
+          "kind": "liberation",
+          "multiplier": 1.6701,
+          "offTuneUnits": 1.4141414141414141,
+          "raw": {
+            "element": 4,
+            "element_power": 350,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8400,
+              9089,
+              9778,
+              10742,
+              11431,
+              12223,
+              13325,
+              14427,
+              15530,
+              16701,
+              18078,
+              19456,
+              20833,
+              22211,
+              23589,
+              24966,
+              26344,
+              27721,
+              29099,
+              30477
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7000,
+            "type": 2,
+            "weakness_lvl": 5600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.1778563015312131,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "月环·普攻\n使用月环进行最多3段的连续攻击，造成气动伤害。\n\n空中攻击\n消耗耐力进行空中下落攻击，造成气动伤害。\n\n月环·闪避反击\n成功闪避后一定时间内短按普攻，将会使用月环攻击目标，造成气动伤害。施放该技能后一定时间内短按普攻，将会施放月环·普攻第三段。\n\n月弓·普攻\n尤诺可施放重击·流变·月环，进入月相流转·新月状态，在此状态下尤诺将使用月弓进行攻击。\n使用月弓进行最多3段的连续攻击，造成气动伤害，此次伤害为共鸣解放伤害。\n可在空中施放。\n\n月弓·闪避反击\n月相流转·新月状态下，成功闪避后一定时间内短按普攻，将会使用月弓攻击目标，造成气动伤害，此次伤害为共鸣解放伤害。\n月相流转·新月状态下，施放该技能后一定时间内短按普攻，将会施放月弓·普攻第三段。\n可在空中施放。",
+      "headings": [
+        "月环·普攻",
+        "空中攻击",
+        "月环·闪避反击",
+        "月弓·普攻",
+        "月弓·闪避反击"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconNorFist.SP_IconNorFist",
+      "id": "moongazers_sigil/node_1",
+      "name": "祭者独步",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "月环·普攻第一段伤害",
+          "values": [
+            "87.68%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "月环·普攻第二段伤害",
+          "values": [
+            "46.06%*2+47.46%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "月环·普攻第三段伤害",
+          "values": [
+            "87.98%*2+90.65%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "空中攻击",
+          "values": [
+            "53.68%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "月环·闪避反击",
+          "values": [
+            "82.08%*2+84.57%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "月弓·普攻第一段伤害",
+          "values": [
+            "126.45%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "月弓·普攻第二段伤害",
+          "values": [
+            "55.67%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "月弓·普攻第三段伤害",
+          "values": [
+            "167.01%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "月弓·闪避反击伤害",
+          "values": [
+            "103.39%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "空中攻击耐力消耗",
+          "values": [
+            "30"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>月环·普攻</color></size>\n使用<color=Highlight>月环</color>进行最多3段的连续攻击，造成<color=Wind>气动伤害</color>。\n<size=10></size>\n<size=40><color=Title>空中攻击</color></size>\n消耗耐力进行空中下落攻击，造成<color=Wind>气动伤害</color>。\n<size=10></size>\n<size=40><color=Title>月环·闪避反击</color></size>\n成功闪避后一定时间内短按普攻，将会使用<color=Highlight>月环</color>攻击目标，造成<color=Wind>气动伤害</color>。施放该技能后一定时间内短按普攻，将会施放月环·普攻第三段。\n\n<size=40><color=Title>月弓·普攻</color></size>\n尤诺可施放<color=Highlight>重击·流变·月环</color>，进入<color=Highlight><te href=141001>月相流转</te>·新月</color>状态，在此状态下尤诺将使用<color=Highlight>月弓</color>进行攻击。\n使用<color=Highlight>月弓</color>进行最多3段的连续攻击，造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害。\n可在空中施放。\n\n<size=40><color=Title>月弓·闪避反击</color></size>\n<color=Highlight>月相流转·新月</color>状态下，成功闪避后一定时间内短按普攻，将会使用<color=Highlight>月弓</color>攻击目标，造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害。\n<color=Highlight>月相流转·新月</color>状态下，施放该技能后一定时间内短按普攻，将会施放月弓·普攻第三段。\n可在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 1,
+      "sourceTypeLabel": "常态攻击"
+    },
+    {
+      "category": "resonance_skill",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410201001",
+          "kind": "skill",
+          "multiplier": 0.1865,
+          "offTuneUnits": 0.14595959595959596,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 33,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              938,
+              1015,
+              1092,
+              1200,
+              1277,
+              1365,
+              1488,
+              1611,
+              1734,
+              1865,
+              2019,
+              2173,
+              2326,
+              2480,
+              2634,
+              2788,
+              2942,
+              3096,
+              3249,
+              3403
+            ],
+            "related_property": "攻击",
+            "tough_lv": 715,
+            "type": 4,
+            "weakness_lvl": 578
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.12030960794211677,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410201003",
+          "kind": "skill",
+          "multiplier": 1.3052,
+          "offTuneUnits": 1.02020202020202,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 227,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              6565,
+              7104,
+              7642,
+              8396,
+              8934,
+              9553,
+              10415,
+              11276,
+              12137,
+              13052,
+              14129,
+              15206,
+              16282,
+              17359,
+              18436,
+              19512,
+              20589,
+              21666,
+              22742,
+              23819
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 4,
+            "weakness_lvl": 4040
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410202001",
+          "kind": "skill",
+          "multiplier": 1.4073,
+          "offTuneUnits": 1.1,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 269,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7079,
+              7659,
+              8240,
+              9052,
+              9633,
+              10300,
+              11229,
+              12158,
+              13087,
+              14073,
+              15234,
+              16395,
+              17556,
+              18717,
+              19878,
+              21039,
+              22199,
+              23360,
+              24521,
+              25682
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6600,
+            "type": 4,
+            "weakness_lvl": 4356
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.110550227158001,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410202003",
+          "kind": "skill",
+          "multiplier": 1.4073,
+          "offTuneUnits": 1.1,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 269,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7079,
+              7659,
+              8240,
+              9052,
+              9633,
+              10300,
+              11229,
+              12158,
+              13087,
+              14073,
+              15234,
+              16395,
+              17556,
+              18717,
+              19878,
+              21039,
+              22199,
+              23360,
+              24521,
+              25682
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6600,
+            "type": 4,
+            "weakness_lvl": 4356
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.110550227158001,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410202004",
+          "kind": "skill",
+          "multiplier": 1.45,
+          "offTuneUnits": 1.1333333333333333,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 277,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7293,
+              7892,
+              8490,
+              9327,
+              9925,
+              10613,
+              11569,
+              12526,
+              13483,
+              14500,
+              15696,
+              16892,
+              18088,
+              19284,
+              20480,
+              21676,
+              22872,
+              24068,
+              25264,
+              26460
+            ],
+            "related_property": "攻击",
+            "tough_lv": 6800,
+            "type": 4,
+            "weakness_lvl": 4488
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 4,
+          "toughnessUnits": 1.1442032643446072,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410204021",
+          "kind": "liberation",
+          "multiplier": 2.1979,
+          "offTuneUnits": 1.3535353535353536,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 468,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              11055,
+              11962,
+              12869,
+              14138,
+              15044,
+              16087,
+              17537,
+              18987,
+              20438,
+              21979,
+              23792,
+              25605,
+              27418,
+              29231,
+              31044,
+              32857,
+              34670,
+              36483,
+              38296,
+              40109
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 2,
+            "weakness_lvl": 5360
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410204022",
+          "kind": "liberation",
+          "multiplier": 2.1979,
+          "offTuneUnits": 1.3535353535353536,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 468,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              11055,
+              11962,
+              12869,
+              14138,
+              15044,
+              16087,
+              17537,
+              18987,
+              20438,
+              21979,
+              23792,
+              25605,
+              27418,
+              29231,
+              31044,
+              32857,
+              34670,
+              36483,
+              38296,
+              40109
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 2,
+            "weakness_lvl": 5360
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "原初的律动\n尤诺向前突进，造成气动伤害。\n\n告终的喧响\n尤诺不处于月相流转状态时，施放月环·普攻第3段、变奏技能或原初的律动时，共鸣技能替换为告终的喧响，持续5秒。\n施放告终的喧响时，造成多段气动伤害，并进入月相流转状态。 \n\n未终的喧响\n尤诺处于月相流转·弦月状态时，共鸣技能替换为未终的喧响。\n施放未终的喧响时，造成多段气动伤害。\n告终的喧响与未终的喧响共用同一个冷却时间。\n\n越限的弦引\n尤诺处于月相流转·新月状态时，共鸣技能替换为越限的弦引，初始拥有2次可施放次数。\n施放越限的弦引时，尤诺进行一次位移，并造成气动伤害，此次伤害为共鸣解放伤害。\n-技能位移期间可通过移动输入延长位移距离。当尤诺处于受击或被击飞状态中，施放越限的弦引将脱离受击状态或被击飞状态。\n可在空中施放。",
+      "headings": [
+        "原初的律动",
+        "告终的喧响",
+        "未终的喧响",
+        "越限的弦引"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoB1.SP_IconYounuoB1",
+      "id": "moongazers_sigil/node_2",
+      "name": "先觉赋格",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "原初的律动伤害",
+          "values": [
+            "18.65%*7+130.52%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "原初的律动冷却时间",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "原初的律动回复协奏能量",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "告终的喧响伤害",
+          "values": [
+            "140.73%*2+145.00%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "告终的喧响回复协奏能量",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "未终的喧响伤害",
+          "values": [
+            "140.73%*2+145.00%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "7",
+          "name": "告终与未终的喧响冷却时间",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "未终的喧响回复协奏能量",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "越限的弦引伤害",
+          "values": [
+            "219.79%*2"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "10",
+          "name": "越限的弦引冷却时间",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "越限的弦引回复协奏能量",
+          "values": [
+            "8"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>原初的律动</color></size>\n尤诺向前突进，造成<color=Wind>气动伤害</color>。\n\n<size=40><color=Title>告终的喧响</color></size>\n尤诺不处于<color=Highlight><te href=141001>月相流转</te></color>状态时，施放<color=Highlight>月环·普攻第3段</color>、<color=Highlight>变奏技能</color>或<color=Highlight>原初的律动</color>时，共鸣技能替换为<color=Highlight>告终的喧响</color>，持续5秒。\n施放告终的喧响时，造成多段<color=Wind>气动伤害</color>，并进入<color=Highlight>月相流转</color>状态。 \n\n<size=40><color=Title>未终的喧响</color></size>\n尤诺处于<color=Highlight>月相流转·弦月</color>状态时，共鸣技能替换为<color=Highlight>未终的喧响</color>。\n施放未终的喧响时，造成多段<color=Wind>气动伤害</color>。\n告终的喧响与未终的喧响共用同一个冷却时间。\n\n<size=40><color=Title>越限的弦引</color></size>\n尤诺处于<color=Highlight>月相流转·新月</color>状态时，共鸣技能替换为<color=Highlight>越限的弦引</color>，初始拥有2次可施放次数。\n施放越限的弦引时，尤诺进行一次位移，并造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害。\n-技能位移期间可通过移动输入延长位移距离。当尤诺处于受击或被击飞状态中，施放<color=Highlight>越限的弦引</color>将脱离受击状态或被击飞状态。\n可在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 2,
+      "sourceTypeLabel": "共鸣技能"
+    },
+    {
+      "category": "resonance_liberation",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410300001",
+          "kind": "liberation",
+          "multiplier": 10.9346,
+          "offTuneUnits": 24.242424242424242,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              55000,
+              59510,
+              64020,
+              70334,
+              74844,
+              80031,
+              87247,
+              94463,
+              101679,
+              109346,
+              118366,
+              127386,
+              136406,
+              145426,
+              154446,
+              163466,
+              172486,
+              181506,
+              190526,
+              199546
+            ],
+            "related_property": "攻击",
+            "tough_lv": 40000,
+            "type": 2,
+            "weakness_lvl": 96000
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 6.730607437321218,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "造成气动伤害，并进入月相流转状态。\n可在空中施放。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoC1.SP_IconYounuoC1",
+      "id": "moongazers_sigil/node_3",
+      "name": "溺失月海",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "1093.46%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "2",
+          "name": "冷却时间",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "消耗共鸣能量",
+          "values": [
+            "125"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "回复协奏能量",
+          "values": [
+            "20"
+          ]
+        }
+      ],
+      "rawDescription": "造成<color=Wind>气动伤害</color>，并进入<color=Highlight><te href=141001>月相流转</te></color>状态。\n可在空中施放。",
+      "rawParameters": [],
+      "sourceNode": 3,
+      "sourceTypeLabel": "共鸣解放"
+    },
+    {
+      "category": "inherent_1",
+      "damages": [],
+      "description": "尤诺每次施放普攻、重击、闪避反击、共鸣技能、共鸣解放、变奏技能时，可获得1个基于自身攻击32%的护盾，持续15秒。该护盾在切换至其他角色时不会继承。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoD1.SP_IconYounuoD1",
+      "id": "moongazers_sigil/node_4",
+      "name": "盈昇",
+      "parameters": [],
+      "rawDescription": "尤诺每次施放普攻、重击、闪避反击、共鸣技能、共鸣解放、变奏技能时，可获得{0}个基于自身攻击{1}的护盾，持续{2}秒。该护盾在切换至其他角色时不会继承。",
+      "rawParameters": [
+        "1",
+        "32%",
+        "15"
+      ],
+      "sourceNode": 4,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "inherent_2",
+      "damages": [],
+      "description": "尤诺施放变奏技能或共鸣解放时，自身可直接获得5层苍白死光的祝颂。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoD2.SP_IconYounuoD2",
+      "id": "moongazers_sigil/node_5",
+      "name": "新衍",
+      "parameters": [],
+      "rawDescription": "尤诺施放变奏技能或共鸣解放时，自身可直接获得{0}层<color=Highlight><te href=141002>苍白死光的祝颂</te></color>。",
+      "rawParameters": [
+        "5"
+      ],
+      "sourceNode": 5,
+      "sourceTypeLabel": "固有技能"
+    },
+    {
+      "category": "intro",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410600001",
+          "kind": "intro",
+          "multiplier": 0.1591,
+          "offTuneUnits": 0.26262626262626265,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 100,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              800,
+              866,
+              932,
+              1024,
+              1089,
+              1165,
+              1270,
+              1374,
+              1479,
+              1591,
+              1722,
+              1853,
+              1985,
+              2116,
+              2247,
+              2378,
+              2509,
+              2641,
+              2772,
+              2903
+            ],
+            "related_property": "攻击",
+            "tough_lv": 1500,
+            "type": 3,
+            "weakness_lvl": 1040
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.2523977788995457,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410600003",
+          "kind": "intro",
+          "multiplier": 0.4772,
+          "offTuneUnits": 0.7878787878787878,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              2400,
+              2597,
+              2794,
+              3070,
+              3266,
+              3493,
+              3808,
+              4122,
+              4437,
+              4772,
+              5166,
+              5559,
+              5953,
+              6346,
+              6740,
+              7134,
+              7527,
+              7921,
+              8314,
+              8708
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4500,
+            "type": 3,
+            "weakness_lvl": 3120
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 3,
+          "toughnessUnits": 0.7571933366986371,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "造成气动伤害。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoQTE.SP_IconYounuoQTE",
+      "id": "moongazers_sigil/node_6",
+      "name": "照我以显",
+      "parameters": [
+        {
+          "format": null,
+          "id": "1",
+          "name": "技能伤害",
+          "values": [
+            "15.91%*7+47.72%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "回复协奏能量",
+          "values": [
+            "10"
+          ]
+        }
+      ],
+      "rawDescription": "造成<color=Wind>气动伤害</color>。",
+      "rawParameters": [],
+      "sourceNode": 6,
+      "sourceTypeLabel": "变奏技能"
+    },
+    {
+      "category": "forte",
+      "damages": [
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410101011",
+          "kind": "liberation",
+          "multiplier": 2.0597,
+          "offTuneUnits": 1.0707070707070707,
+          "raw": {
+            "element": 4,
+            "element_power": 265,
+            "energy": 233,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              10360,
+              11210,
+              12060,
+              13249,
+              14098,
+              15075,
+              16435,
+              17794,
+              19153,
+              20597,
+              22296,
+              23995,
+              25694,
+              27393,
+              29092,
+              30791,
+              32490,
+              34190,
+              35889,
+              37588
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5300,
+            "type": 2,
+            "weakness_lvl": 4240
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.8918054854450614,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410102011",
+          "kind": "liberation",
+          "multiplier": 0.9543,
+          "offTuneUnits": 0.4714646464646465,
+          "raw": {
+            "element": 4,
+            "element_power": 117,
+            "energy": 109,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              4800,
+              5194,
+              5588,
+              6139,
+              6532,
+              6985,
+              7615,
+              8244,
+              8874,
+              9543,
+              10331,
+              11118,
+              11905,
+              12692,
+              13479,
+              14267,
+              15054,
+              15841,
+              16628,
+              17415
+            ],
+            "related_property": "攻击",
+            "tough_lv": 2334,
+            "type": 2,
+            "weakness_lvl": 1867
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.3927309439676931,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410103011",
+          "kind": "liberation",
+          "multiplier": 2.6641,
+          "offTuneUnits": 1.4141414141414141,
+          "raw": {
+            "element": 4,
+            "element_power": 350,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              13400,
+              14499,
+              15598,
+              17136,
+              18235,
+              19499,
+              21257,
+              23015,
+              24773,
+              26641,
+              28839,
+              31036,
+              33234,
+              35431,
+              37629,
+              39827,
+              42024,
+              44222,
+              46419,
+              48617
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7000,
+            "type": 2,
+            "weakness_lvl": 5600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.1778563015312131,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410103012",
+          "kind": "liberation",
+          "multiplier": 2.6641,
+          "offTuneUnits": 1.4141414141414141,
+          "raw": {
+            "element": 4,
+            "element_power": 350,
+            "energy": 300,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              13400,
+              14499,
+              15598,
+              17136,
+              18235,
+              19499,
+              21257,
+              23015,
+              24773,
+              26641,
+              28839,
+              31036,
+              33234,
+              35431,
+              37629,
+              39827,
+              42024,
+              44222,
+              46419,
+              48617
+            ],
+            "related_property": "攻击",
+            "tough_lv": 7000,
+            "type": 2,
+            "weakness_lvl": 5600
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.1778563015312131,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410204011",
+          "kind": "liberation",
+          "multiplier": 3.1919,
+          "offTuneUnits": 1.3535353535353536,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 468,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              16055,
+              17372,
+              18689,
+              20532,
+              21848,
+              23362,
+              25469,
+              27575,
+              29681,
+              31919,
+              34552,
+              37185,
+              39819,
+              42452,
+              45085,
+              47718,
+              50351,
+              52984,
+              55617,
+              58250
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 2,
+            "weakness_lvl": 5360
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410204012",
+          "kind": "liberation",
+          "multiplier": 3.1919,
+          "offTuneUnits": 1.3535353535353536,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 468,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              16055,
+              17372,
+              18689,
+              20532,
+              21848,
+              23362,
+              25469,
+              27575,
+              29681,
+              31919,
+              34552,
+              37185,
+              39819,
+              42452,
+              45085,
+              47718,
+              50351,
+              52984,
+              55617,
+              58250
+            ],
+            "related_property": "攻击",
+            "tough_lv": 10000,
+            "type": 2,
+            "weakness_lvl": 5360
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 1.6826518593303046,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410510011",
+          "kind": "liberation",
+          "multiplier": 1.564,
+          "offTuneUnits": 0.4714646464646465,
+          "raw": {
+            "element": 4,
+            "element_power": 117,
+            "energy": 59,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              7867,
+              8512,
+              9157,
+              10060,
+              10705,
+              11447,
+              12479,
+              13511,
+              14544,
+              15640,
+              16930,
+              18220,
+              19511,
+              20801,
+              22091,
+              23381,
+              24671,
+              25961,
+              27251,
+              28542
+            ],
+            "related_property": "攻击",
+            "tough_lv": 5000,
+            "type": 2,
+            "weakness_lvl": 1867
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.8413259296651523,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1410300011",
+          "kind": "basic",
+          "multiplier": 0.2591,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              1303,
+              1410,
+              1517,
+              1667,
+              1773,
+              1896,
+              2067,
+              2238,
+              2409,
+              2591,
+              2804,
+              3018,
+              3232,
+              3445,
+              3659,
+              3873,
+              4086,
+              4300,
+              4514,
+              4727
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1410300012",
+          "kind": "basic",
+          "multiplier": 0.4857,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              2443,
+              2644,
+              2844,
+              3124,
+              3325,
+              3555,
+              3875,
+              4196,
+              4516,
+              4857,
+              5258,
+              5658,
+              6059,
+              6459,
+              6860,
+              7261,
+              7661,
+              8062,
+              8462,
+              8863
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1410300013",
+          "kind": "basic",
+          "multiplier": 1.9426,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              9771,
+              10573,
+              11374,
+              12496,
+              13297,
+              14218,
+              15500,
+              16782,
+              18064,
+              19426,
+              21029,
+              22631,
+              24233,
+              25836,
+              27438,
+              29041,
+              30643,
+              32246,
+              33848,
+              35451
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1410300014",
+          "kind": "basic",
+          "multiplier": 0.3238,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              1629,
+              1763,
+              1896,
+              2083,
+              2217,
+              2370,
+              2584,
+              2797,
+              3011,
+              3238,
+              3505,
+              3772,
+              4039,
+              4306,
+              4573,
+              4841,
+              5108,
+              5375,
+              5642,
+              5909
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "unverified_0",
+          "id": "1410300015",
+          "kind": "basic",
+          "multiplier": 0.3238,
+          "offTuneUnits": 0.0,
+          "raw": {
+            "element": 0,
+            "element_power": 0,
+            "energy": 0,
+            "hardness_lv": 0,
+            "rate_lv": [
+              1629,
+              1763,
+              1896,
+              2083,
+              2217,
+              2370,
+              2584,
+              2797,
+              3011,
+              3238,
+              3505,
+              3772,
+              4039,
+              4306,
+              4573,
+              4841,
+              5108,
+              5375,
+              5642,
+              5909
+            ],
+            "related_property": "攻击",
+            "tough_lv": 0,
+            "type": 0,
+            "weakness_lvl": 0
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 0,
+          "toughnessUnits": 0.0,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410205002",
+          "kind": "liberation",
+          "multiplier": 1.5905,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              8000,
+              8656,
+              9312,
+              10231,
+              10887,
+              11641,
+              12691,
+              13740,
+              14790,
+              15905,
+              17217,
+              18529,
+              19841,
+              21153,
+              22465,
+              23777,
+              25089,
+              26401,
+              27713,
+              29025
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 2,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410205003",
+          "kind": "liberation",
+          "multiplier": 17.5905,
+          "offTuneUnits": 0.6060606060606061,
+          "raw": {
+            "element": 4,
+            "element_power": 0,
+            "energy": 500,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              168000,
+              168656,
+              169312,
+              170231,
+              170887,
+              171641,
+              172691,
+              173740,
+              174790,
+              175905,
+              177217,
+              178529,
+              179841,
+              181153,
+              182465,
+              183777,
+              185089,
+              186401,
+              187713,
+              189025
+            ],
+            "related_property": "攻击",
+            "tough_lv": 20000,
+            "type": 2,
+            "weakness_lvl": 2400
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 3.365303718660609,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410004001",
+          "kind": "liberation",
+          "multiplier": 2.5051,
+          "offTuneUnits": 2.8282828282828283,
+          "raw": {
+            "element": 4,
+            "element_power": 700,
+            "energy": 350,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              12600,
+              13634,
+              14667,
+              16113,
+              17147,
+              18335,
+              19988,
+              21641,
+              23294,
+              25051,
+              27117,
+              29183,
+              31250,
+              33316,
+              35383,
+              37449,
+              39515,
+              41582,
+              43648,
+              45715
+            ],
+            "related_property": "攻击",
+            "tough_lv": 14000,
+            "type": 2,
+            "weakness_lvl": 11200
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 2.3557126030624262,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410005001",
+          "kind": "liberation",
+          "multiplier": 0.7918,
+          "offTuneUnits": 0.8939393939393939,
+          "raw": {
+            "element": 4,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4425,
+            "type": 2,
+            "weakness_lvl": 3540
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.7445734477536597,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410005002",
+          "kind": "liberation",
+          "multiplier": 0.7918,
+          "offTuneUnits": 0.8939393939393939,
+          "raw": {
+            "element": 4,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4425,
+            "type": 2,
+            "weakness_lvl": 3540
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.7445734477536597,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410005003",
+          "kind": "liberation",
+          "multiplier": 0.7918,
+          "offTuneUnits": 0.8939393939393939,
+          "raw": {
+            "element": 4,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4425,
+            "type": 2,
+            "weakness_lvl": 3540
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.7445734477536597,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        },
+        {
+          "actionMappingVerified": false,
+          "element": "aero",
+          "id": "1410005004",
+          "kind": "liberation",
+          "multiplier": 0.7918,
+          "offTuneUnits": 0.8939393939393939,
+          "raw": {
+            "element": 4,
+            "element_power": 222,
+            "energy": 111,
+            "hardness_lv": 10000,
+            "rate_lv": [
+              3983,
+              4310,
+              4636,
+              5093,
+              5420,
+              5795,
+              6318,
+              6840,
+              7363,
+              7918,
+              8571,
+              9224,
+              9877,
+              10531,
+              11184,
+              11837,
+              12490,
+              13143,
+              13796,
+              14449
+            ],
+            "related_property": "攻击",
+            "tough_lv": 4425,
+            "type": 2,
+            "weakness_lvl": 3540
+          },
+          "scalingProperty": "attack",
+          "skillLevel": 10,
+          "sourceType": 2,
+          "toughnessUnits": 0.7445734477536597,
+          "unresolved": [
+            "hit timing, geometry and condition-to-damage-ID mapping"
+          ]
+        }
+      ],
+      "description": "月相流转\n尤诺可以通过施放共鸣技能·告终的喧响或共鸣解放进入月相流转状态。\n月相流转分为弦月和新月两种状态，初始默认进入弦月状态，尤诺可以通过施放重击·流变进行两种状态间的切换。\n处于月相流转状态下：尤诺的跳跃替换为重击·流变；尤诺在空中时无法进行耐力回复；\n移动时，尤诺会进入漫溯巡游状态，以特殊表现进行移动，在空中时会持续消耗耐力。\n当触发特定场景交互、探索工具或长按跳跃键时，将退出月相流转状态。\n\n月相流转·弦月\n尤诺使用月环攻击，命中目标时可恢复【灵性】。\n尤诺可施放重击·流变·月弓，造成气动伤害，此次伤害为共鸣解放伤害，进入月相流转·新月状态。\n重击·流变·月弓可在空中施放。\n\n月相流转·新月\n尤诺使用月弓攻击，施放月弓·普攻、共鸣技能·越限的弦引、月弓·闪避反击时可消耗【灵性】，提升该次技能的伤害倍率，回复额外的协奏能量，并为附近队伍中的角色回复生命值。\n尤诺可施放重击·流变·月环，造成气动伤害，此次伤害为共鸣解放伤害，进入月相流转·弦月状态。\n重击·流变·月环可在空中施放。\n\n重击·至臻的完满\n尤诺协奏能量充满时，重击替换为至臻的完满。\n施放至臻的完满时，尤诺结束自身的月相流转状态，为附近队伍中的角色回复生命值；\n对周围目标造成气动伤害，此次伤害为共鸣解放伤害；\n以自身为中心展开满月领域，该效果25秒最多可触发一次。\n可在空中施放。\n\n满月领域\n处于领域中的角色，周期性获得治疗和耐力回复。\n处于领域中的登场角色获得护盾时，可获得一层苍白死光的祝颂，该效果每0.5秒可触发一次。\n\n苍白死光的祝颂\n角色全伤害加深4%，持续10秒，可叠加10层，重复添加时刷新持续时间。若切换至其他角色则该效果提前结束。\n\n灵性\n灵性上限100点。\n尤诺施放变奏技能时，可获得40点【灵性】。\n尤诺施放共鸣解放时，可获得60点【灵性】。\n尤诺施放告终的喧响或未终的喧响时，可获得25点【灵性】。\n尤诺处于月相流转状态时，月环·普攻、月环·闪避反击、空中攻击命中目标时，可获得【灵性】。",
+      "headings": [
+        "月相流转",
+        "月相流转·弦月",
+        "月相流转·新月",
+        "重击·至臻的完满",
+        "满月领域",
+        "苍白死光的祝颂",
+        "灵性"
+      ],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoY.SP_IconYounuoY",
+      "id": "moongazers_sigil/node_7",
+      "name": "于盈亏间涨落",
+      "parameters": [
+        {
+          "format": "{0}秒",
+          "id": "1",
+          "name": "月相流转持续时间",
+          "values": [
+            "15"
+          ]
+        },
+        {
+          "format": null,
+          "id": "2",
+          "name": "流变·月弓伤害",
+          "values": [
+            "250.51%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "3",
+          "name": "流变·月环伤害",
+          "values": [
+            "79.18%*4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "4",
+          "name": "月弓·普攻第一段强化伤害",
+          "values": [
+            "205.97%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "5",
+          "name": "月弓·普攻第二段强化伤害",
+          "values": [
+            "95.43%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "6",
+          "name": "月弓·普攻第三段强化伤害",
+          "values": [
+            "266.41%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "7",
+          "name": "月弓·闪避反击强化伤害",
+          "values": [
+            "156.40%*3"
+          ]
+        },
+        {
+          "format": null,
+          "id": "8",
+          "name": "越限的弦引强化伤害",
+          "values": [
+            "319.19%*2"
+          ]
+        },
+        {
+          "format": null,
+          "id": "9",
+          "name": "月弓·普攻第一段额外回复协奏能量",
+          "values": [
+            "4"
+          ]
+        },
+        {
+          "format": null,
+          "id": "10",
+          "name": "月弓·普攻第二段额外回复协奏能量",
+          "values": [
+            "6"
+          ]
+        },
+        {
+          "format": null,
+          "id": "11",
+          "name": "月弓·普攻第三段额外回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "12",
+          "name": "月弓·闪避反击额外回复协奏能量",
+          "values": [
+            "8"
+          ]
+        },
+        {
+          "format": null,
+          "id": "13",
+          "name": "越限的弦引额外回复协奏能量",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "14",
+          "name": "月弓·普攻第一段治疗量",
+          "values": [
+            "25.91%"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "15",
+          "name": "月弓·普攻第二段治疗量",
+          "values": [
+            "25.91%"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "16",
+          "name": "月弓·普攻第三段治疗量",
+          "values": [
+            "48.57%"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "17",
+          "name": "月弓·闪避反击治疗量",
+          "values": [
+            "32.38%"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "18",
+          "name": "越限的弦引治疗量",
+          "values": [
+            "48.57%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "19",
+          "name": "至臻的完满伤害",
+          "values": [
+            "159.05%"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "20",
+          "name": "至臻的完满治疗量",
+          "values": [
+            "194.26%"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "21",
+          "name": "满月领域持续时间",
+          "values": [
+            "30"
+          ]
+        },
+        {
+          "format": "{0}秒",
+          "id": "22",
+          "name": "满月领域周期间隔",
+          "values": [
+            "5"
+          ]
+        },
+        {
+          "format": "{0}攻击",
+          "id": "23",
+          "name": "满月领域周期治疗量",
+          "values": [
+            "32.38%"
+          ]
+        },
+        {
+          "format": null,
+          "id": "24",
+          "name": "满月领域周期耐力回复",
+          "values": [
+            "20"
+          ]
+        },
+        {
+          "format": null,
+          "id": "25",
+          "name": "漫溯巡游每秒耐力消耗",
+          "values": [
+            "10"
+          ]
+        },
+        {
+          "format": null,
+          "id": "26",
+          "name": "重击·流变耐力消耗",
+          "values": [
+            "25"
+          ]
+        },
+        {
+          "derivedFromDescription": "独立C链原始替换行；不得再次乘同一C链倍率",
+          "id": "perfection_c6",
+          "name": "至臻的完满·六链固定追加1600%",
+          "values": [
+            "1759.05%"
+          ]
+        }
+      ],
+      "rawDescription": "<size=40><color=Title>月相流转</color></size>\n尤诺可以通过施放<color=Highlight>共鸣技能·告终的喧响</color>或<color=Highlight>共鸣解放</color>进入月相流转状态。\n月相流转分为<color=Highlight>弦月</color>和<color=Highlight>新月</color>两种状态，初始默认进入<color=Highlight>弦月</color>状态，尤诺可以通过施放<color=Highlight>重击·流变</color>进行两种状态间的切换。\n处于月相流转状态下：尤诺的跳跃替换为<color=Highlight>重击·流变</color>；尤诺在空中时无法进行耐力回复；\n移动时，尤诺会进入<color=Highlight>漫溯巡游</color>状态，以特殊表现进行移动，在空中时会持续消耗耐力。\n当触发特定场景交互、探索工具或长按跳跃键时，将退出<color=Highlight>月相流转</color>状态。\n\n<size=40><color=Title>月相流转·弦月</color></size>\n尤诺使用月环攻击，命中目标时可恢复<color=Highlight>【<te href=141003>灵性</te>】</color>。\n尤诺可施放<color=Highlight>重击·流变·月弓</color>，造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害，进入<color=Highlight>月相流转·新月</color>状态。\n<color=Highlight>重击·流变·月弓</color>可在空中施放。\n\n<size=40><color=Title>月相流转·新月</color></size>\n尤诺使用月弓攻击，施放<color=Highlight>月弓·普攻</color>、<color=Highlight>共鸣技能·越限的弦引</color>、<color=Highlight>月弓·闪避反击</color>时可消耗<color=Highlight>【灵性】</color>，提升该次技能的伤害倍率，回复额外的协奏能量，并为附近队伍中的角色回复生命值。\n尤诺可施放<color=Highlight>重击·流变·月环</color>，造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害，进入<color=Highlight>月相流转·弦月</color>状态。\n<color=Highlight>重击·流变·月环</color>可在空中施放。\n\n<size=40><color=Title>重击·至臻的完满</color></size>\n尤诺协奏能量充满时，重击替换为<color=Highlight>至臻的完满</color>。\n施放至臻的完满时，尤诺结束自身的<color=Highlight>月相流转</color>状态，为附近队伍中的角色回复生命值；\n对周围目标造成<color=Wind>气动伤害</color>，此次伤害为共鸣解放伤害；\n以自身为中心展开<color=Highlight>满月</color>领域，该效果25秒最多可触发一次。\n可在空中施放。\n\n<size=40><color=Title>满月领域</color></size>\n处于领域中的角色，周期性获得治疗和耐力回复。\n处于领域中的登场角色获得护盾时，可获得一层<color=Highlight>苍白死光的祝颂</color>，该效果每0.5秒可触发一次。\n\n<size=40><color=Title>苍白死光的祝颂</color></size>\n角色全伤害加深4%，持续10秒，可叠加10层，重复添加时刷新持续时间。若切换至其他角色则该效果提前结束。\n\n<size=40><color=Title>灵性</color></size>\n灵性上限100点。\n尤诺施放变奏技能时，可获得40点<color=Highlight>【灵性】</color>。\n尤诺施放共鸣解放时，可获得60点<color=Highlight>【灵性】</color>。\n尤诺施放<color=Highlight>告终的喧响</color>或<color=Highlight>未终的喧响</color>时，可获得25点<color=Highlight>【灵性】</color>。\n尤诺处于<color=Highlight>月相流转</color>状态时，月环·普攻、月环·闪避反击、空中攻击命中目标时，可获得<color=Highlight>【灵性】</color>。",
+      "rawParameters": [],
+      "sourceNode": 7,
+      "sourceTypeLabel": "共鸣回路"
+    },
+    {
+      "category": "outro",
+      "damages": [],
+      "description": "攻击目标造成100%的气动伤害，下一个登场角色重击伤害加深50%，持续14秒，若切换至其他角色则该效果提前结束。\n-在施放重击·至臻的完满的过程中施放延奏技能时，不会中断重击·至臻的完满的施放，且延奏技能效果仍然生效。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconYounuo/SP_IconYounuoT.SP_IconYounuoT",
+      "id": "moongazers_sigil/node_8",
+      "name": "晦渡为明",
+      "parameters": [],
+      "rawDescription": "攻击目标造成{0}的<color=Wind>气动伤害</color>，下一个登场角色重击伤害加深{1}，持续{2}秒，若切换至其他角色则该效果提前结束。\n-在施放<color=Highlight>重击·至臻的完满</color>的过程中施放延奏技能时，不会中断<color=Highlight>重击·至臻的完满</color>的施放，且延奏技能效果仍然生效。",
+      "rawParameters": [
+        "100%",
+        "50%",
+        "14"
+      ],
+      "sourceNode": 8,
+      "sourceTypeLabel": "延奏技能"
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "moongazers_sigil/node_9",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 9,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "moongazers_sigil/node_10",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 10,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升1.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "moongazers_sigil/node_11",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "1.80%"
+      ],
+      "sourceNode": 11,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升1.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "moongazers_sigil/node_12",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "1.20%"
+      ],
+      "sourceNode": 12,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "moongazers_sigil/node_13",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 13,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "moongazers_sigil/node_14",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 14,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "攻击提升4.20%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredattack_UI.T_Iconpropertyredattack_UI",
+      "id": "moongazers_sigil/node_15",
+      "name": "攻击提升",
+      "parameters": [],
+      "rawDescription": "攻击提升{0}",
+      "rawParameters": [
+        "4.20%"
+      ],
+      "sourceNode": 15,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "minor_stat",
+      "damages": [],
+      "description": "暴击提升2.80%",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Image/IconAttribute/T_Iconpropertyredbaoji_UI.T_Iconpropertyredbaoji_UI",
+      "id": "moongazers_sigil/node_16",
+      "name": "暴击提升",
+      "parameters": [],
+      "rawDescription": "暴击提升{0}",
+      "rawParameters": [
+        "2.80%"
+      ],
+      "sourceNode": 16,
+      "sourceTypeLabel": ""
+    },
+    {
+      "category": "tune_break",
+      "damages": [],
+      "description": "目标【偏谐值】满时，可对其施放【谐度破坏】。",
+      "headings": [],
+      "iconSource": "/Game/Aki/UI/UIResources/Common/Atlas/SkillIcon/SkillIconNor/SP_IconWeakPointBreakFist.SP_IconWeakPointBreakFist",
+      "id": "moongazers_sigil/node_17",
+      "name": "谐度破坏·臂铠",
+      "parameters": [],
+      "rawDescription": "目标<color=Highlight>【偏谐值】</color>满时，可对其施放<color=Highlight><te href=100001>【谐度破坏】</te></color>。",
+      "rawParameters": [],
+      "sourceNode": 17,
+      "sourceTypeLabel": "谐度破坏"
+    }
+  ],
+  "sonataSlots": [
+    20,
+    20,
+    20,
+    4,
+    4
+  ],
+  "sourceId": 1410,
+  "sourceUrl": "https://static.nanoka.cc/ww/3.7/zh/character/1410.json",
+  "tuneMasteryRaw": 0,
+  "unresolved": [
+    "Server action timelines and branches require separate executable strategies; catalog text is not implementation.",
+    "Skill hitbox geometry, movement curves and cancel windows are not provided by these JSON files."
+  ],
+  "weapon": {
+    "effectName": "昼月缀界",
+    "name": "万物持存的注释",
+    "refinements": [
+      {
+        "description": "攻击提升12%。 施放变奏技能或共鸣解放时，共鸣解放伤害提升20%，持续15秒。 自身获得护盾时：共鸣解放伤害无视目标7.2%防御，每0.5秒可生效1次，可叠加5层，持续7秒；施放变奏技能时，无视目标防御的效果视为满层，持续3秒。",
+        "parameters": [
+          "12%",
+          "20%",
+          "15",
+          "7.2%",
+          "0.5",
+          "5",
+          "7",
+          "3"
+        ],
+        "tier": 1
+      },
+      {
+        "description": "攻击提升15%。 施放变奏技能或共鸣解放时，共鸣解放伤害提升25%，持续15秒。 自身获得护盾时：共鸣解放伤害无视目标8.4%防御，每0.5秒可生效1次，可叠加5层，持续7秒；施放变奏技能时，无视目标防御的效果视为满层，持续3秒。",
+        "parameters": [
+          "15%",
+          "25%",
+          "15",
+          "8.4%",
+          "0.5",
+          "5",
+          "7",
+          "3"
+        ],
+        "tier": 2
+      },
+      {
+        "description": "攻击提升18%。 施放变奏技能或共鸣解放时，共鸣解放伤害提升30%，持续15秒。 自身获得护盾时：共鸣解放伤害无视目标9.6%防御，每0.5秒可生效1次，可叠加5层，持续7秒；施放变奏技能时，无视目标防御的效果视为满层，持续3秒。",
+        "parameters": [
+          "18%",
+          "30%",
+          "15",
+          "9.6%",
+          "0.5",
+          "5",
+          "7",
+          "3"
+        ],
+        "tier": 3
+      },
+      {
+        "description": "攻击提升21%。 施放变奏技能或共鸣解放时，共鸣解放伤害提升35%，持续15秒。 自身获得护盾时：共鸣解放伤害无视目标10.8%防御，每0.5秒可生效1次，可叠加5层，持续7秒；施放变奏技能时，无视目标防御的效果视为满层，持续3秒。",
+        "parameters": [
+          "21%",
+          "35%",
+          "15",
+          "10.8%",
+          "0.5",
+          "5",
+          "7",
+          "3"
+        ],
+        "tier": 4
+      },
+      {
+        "description": "攻击提升24%。 施放变奏技能或共鸣解放时，共鸣解放伤害提升40%，持续15秒。 自身获得护盾时：共鸣解放伤害无视目标12.0%防御，每0.5秒可生效1次，可叠加5层，持续7秒；施放变奏技能时，无视目标防御的效果视为满层，持续3秒。",
+        "parameters": [
+          "24%",
+          "40%",
+          "15",
+          "12.0%",
+          "0.5",
+          "5",
+          "7",
+          "3"
+        ],
+        "tier": 5
+      }
+    ],
+    "sourceId": 21040046,
+    "stats": [
+      {
+        "isPercent": false,
+        "isRatio": false,
+        "name": "攻击",
+        "rawValue": 500.0,
+        "value": 500.0
+      },
+      {
+        "isPercent": true,
+        "isRatio": false,
+        "name": "暴击",
+        "rawValue": 3600.0,
+        "value": 0.36
+      }
+    ]
+  },
+  "weaponType": 4
+}

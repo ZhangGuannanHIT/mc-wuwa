@@ -1,0 +1,1196 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1508001001"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        10
+      ],
+      "id": "chisa/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "16.71%*2",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.3342,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508000001"
+        },
+        {
+          "count": 1,
+          "damageId": "1508000002"
+        },
+        {
+          "count": 1,
+          "damageId": "1508000003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        9,
+        14
+      ],
+      "id": "chisa/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "9.55%+19.09%+66.81%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.9545,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508006001"
+        },
+        {
+          "count": 1,
+          "damageId": "1508006011"
+        },
+        {
+          "count": 1,
+          "damageId": "1508006111"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "chisa/severing_pincers",
+      "name": "断命之铗伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "29.81%+14.91%+104.34%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.4906,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508006002"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "chisa/severing_extra",
+      "name": "断命之铗额外伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "47.78%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4778,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1508005001"
+        },
+        {
+          "count": 1,
+          "damageId": "1508005011"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "chisa/retract",
+      "name": "撤弦伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "10.15%*2+47.35%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.6765,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1508007001"
+        },
+        {
+          "count": 1,
+          "damageId": "1508007005"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        10,
+        13,
+        16,
+        20
+      ],
+      "id": "chisa/pierce",
+      "name": "纷裂贯穿伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "15.11%*4+90.66%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 1.511,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1508002001"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "chisa/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "35.79%*2",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.7158,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508008003"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "chisa/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "73.96%",
+      "sourceNode": 1,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7396,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1508016000"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "chisa/shattered_plane",
+      "name": "碎响切面伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "44.74%*2",
+      "sourceNode": 1,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.8948,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508003001"
+        },
+        {
+          "count": 2,
+          "damageId": "1508003002"
+        },
+        {
+          "count": 1,
+          "damageId": "1508003003"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "chisa/falling_finale",
+      "name": "垂落终焉伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "special",
+      "sourceFormula": "11.93%+23.86%*2+59.65%",
+      "sourceNode": 1,
+      "sourceParameter": "11",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.193,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508011001"
+        },
+        {
+          "count": 1,
+          "damageId": "1508011002"
+        },
+        {
+          "count": 1,
+          "damageId": "1508011003"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "chisa/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "23.86%+47.72%+167.01%",
+      "sourceNode": 1,
+      "sourceParameter": "12",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.3859,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508200011"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "chisa/reel_counter",
+      "name": "解弦之眼·收弦伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "eye",
+      "sourceFormula": "178.93%",
+      "sourceNode": 1,
+      "sourceParameter": "13",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.7893,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508200001"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "chisa/skill",
+      "name": "解弦之眼伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "35.79%",
+      "sourceNode": 2,
+      "sourceParameter": "17",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.3579,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "1508300001"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        11,
+        13,
+        15,
+        17,
+        20,
+        22
+      ],
+      "id": "chisa/skill_saw_cycle",
+      "name": "齿轨轮回伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "chainsaw",
+      "sourceFormula": "17.45%*8",
+      "sourceNode": 2,
+      "sourceParameter": "18",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.396,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 16,
+          "damageId": "1508300014"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "id": "chisa/skill_saw_hold",
+      "name": "齿轨轮回长按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "chainsaw",
+      "sourceFormula": "7.46%*16",
+      "sourceNode": 2,
+      "sourceParameter": "18_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 16,
+      "totalMultiplier": 1.1936,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 85,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508500001"
+        }
+      ],
+      "hitTimesTicks": [
+        55
+      ],
+      "id": "chisa/liberation",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "954.29%",
+      "sourceNode": 3,
+      "sourceParameter": "20",
+      "timingEvidence": "docs/reference/original-skill-gifs/existing-roles/chisa-2.gif active=[0.5, 4.75]; Full archived quarter-second timeline reviewed; sampled Minecraft opening timing fit, not frame-exact; preserve damage counts/rates and persistent field/song lifetimes.",
+      "totalHitCount": 1,
+      "totalMultiplier": 9.5429,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1508008001"
+        }
+      ],
+      "hitTimesTicks": [
+        5
+      ],
+      "id": "chisa/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "95.43%",
+      "sourceNode": 6,
+      "sourceParameter": "25",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9543,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "15084011000"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        4,
+        6,
+        7,
+        9,
+        10
+      ],
+      "id": "chisa/saw_basic_01",
+      "name": "锯环·疾攻第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "11.49%*6",
+      "sourceNode": 7,
+      "sourceParameter": "27",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 0.6894,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "15084020000"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        5,
+        7,
+        8,
+        10,
+        11,
+        13,
+        14
+      ],
+      "id": "chisa/saw_basic_02",
+      "name": "锯环·疾攻第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "10.64%*8",
+      "sourceNode": 7,
+      "sourceParameter": "28",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 0.8512,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "15084020000"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "id": "chisa/saw_basic_02_hold",
+      "name": "锯环·疾攻第二段长按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "10.64%*10",
+      "sourceNode": 7,
+      "sourceParameter": "28_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 1.064,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "15084020030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "chisa/saw_resonance_02",
+      "name": "锯环·疾攻第二段·折鸣伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "3.58%*3",
+      "sourceNode": 7,
+      "sourceParameter": "28_3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.1074,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "15084030010"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        9,
+        11,
+        12,
+        14,
+        16,
+        18
+      ],
+      "id": "chisa/saw_basic_03",
+      "name": "锯环·疾攻第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "15.98%*8",
+      "sourceNode": 7,
+      "sourceParameter": "29",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.2784,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "15084030010"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        10,
+        13,
+        15,
+        18
+      ],
+      "id": "chisa/saw_basic_03_hold",
+      "name": "锯环·疾攻第三段长按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "15.98%*6",
+      "sourceNode": 7,
+      "sourceParameter": "29_2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 0.9588,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "15084030030"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "chisa/saw_resonance_03",
+      "name": "锯环·疾攻第三段·坠响伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "3.58%*3",
+      "sourceNode": 7,
+      "sourceParameter": "29_3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.1074,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 8,
+          "damageId": "15084020000"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "chisa/saw_counter",
+      "name": "电锯模式·闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "10.64%*8",
+      "sourceNode": 7,
+      "sourceParameter": "29_4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 0.8512,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 10,
+          "damageId": "15084020000"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        9,
+        11,
+        12,
+        14,
+        15,
+        17,
+        18,
+        20
+      ],
+      "id": "chisa/saw_counter_hold",
+      "name": "电锯模式·闪避反击长按伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "10.64%*10",
+      "sourceNode": 7,
+      "sourceParameter": "29_5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 10,
+      "totalMultiplier": 1.064,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "chisa",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "15084040010"
+        },
+        {
+          "count": 1,
+          "damageId": "15084040020"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "chisa/saw_finale",
+      "name": "锯环·终结伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "saw",
+      "sourceFormula": "51.54%+206.13%",
+      "sourceNode": 7,
+      "sourceParameter": "30",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 2.5767,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "kumokiri"
+    }
+  ],
+  "schemaVersion": 1
+}

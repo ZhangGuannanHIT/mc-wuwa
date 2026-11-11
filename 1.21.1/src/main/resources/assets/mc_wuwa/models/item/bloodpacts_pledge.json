@@ -1,0 +1,17 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/bloodpacts_pledge_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/bloodpacts_pledge_icon"
+    },
+    "fixed": {
+      "parent": "mc_wuwa:item/bloodpacts_pledge_display"
+    },
+    "ground": {
+      "parent": "mc_wuwa:item/bloodpacts_pledge_display"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "mc_wuwa:item/blooming_jadehaven_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "mc_wuwa:item/blooming_jadehaven_icon"
+    }
+  }
+}

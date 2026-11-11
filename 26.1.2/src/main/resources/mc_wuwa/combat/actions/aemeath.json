@@ -1,0 +1,1198 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210100101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "aemeath/basic_01",
+      "name": "普攻·爱弥斯第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "46.35%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.4635,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210100201"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100202"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100203"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        8,
+        12
+      ],
+      "id": "aemeath/basic_02",
+      "name": "普攻·爱弥斯第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "13.89%+20.84%+34.73%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.6946,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1210100301"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100304"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100305"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        12,
+        15,
+        18
+      ],
+      "id": "aemeath/basic_03",
+      "name": "普攻·爱弥斯第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "9.32%*3+18.63%+46.56%",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 0.9315,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 5,
+          "damageId": "1210100401"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100403"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        10,
+        14,
+        17,
+        21,
+        24
+      ],
+      "id": "aemeath/basic_04",
+      "name": "普攻·爱弥斯第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "6.73%*5+100.94%",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 1.3459,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210100501"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100502"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "aemeath/heavy",
+      "name": "重击·爱弥斯·一段蓄力伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath_charge_1",
+      "sourceFormula": "18.57%+74.26%",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.9283,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 36,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "1210100503"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100505"
+        }
+      ],
+      "hitTimesTicks": [
+        10,
+        16,
+        21,
+        26,
+        32
+      ],
+      "id": "aemeath/heavy_charge_2",
+      "name": "重击·爱弥斯·二段蓄力伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath_charge_2",
+      "sourceFormula": "11.60%*4+185.60%",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.32,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210100701"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aemeath/air",
+      "name": "空中攻击·爱弥斯伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "86.29%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.8629,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1210100601"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100604"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100605"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        7,
+        10,
+        13,
+        16
+      ],
+      "id": "aemeath/dodge_counter",
+      "name": "闪避反击·爱弥斯伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "aemeath",
+      "sourceFormula": "26.02%*3+52.03%+130.06%",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 5,
+      "totalMultiplier": 2.6015,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210210401"
+        },
+        {
+          "count": 1,
+          "damageId": "1210210402"
+        },
+        {
+          "count": 1,
+          "damageId": "1210210403"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        14,
+        22
+      ],
+      "id": "aemeath/skill",
+      "name": "合击·突刺·兵装融合伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "armament_fusion",
+      "sourceFormula": "26.92%+40.38%+67.29%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3459,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1210110401"
+        },
+        {
+          "count": 1,
+          "damageId": "1210110404"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "aemeath/skill_dawn",
+      "name": "合击·突刺·启明之音伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "dawn_sound",
+      "sourceFormula": "16.33%*3+114.28%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.6327,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 12,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 3,
+          "damageId": "1210200101"
+        }
+      ],
+      "hitTimesTicks": [
+        3,
+        6,
+        8
+      ],
+      "id": "aemeath/mech_basic_01",
+      "name": "普攻·机兵第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "23.20%*3",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 0.696,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 16,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210200201"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200202"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        12
+      ],
+      "id": "aemeath/mech_basic_02",
+      "name": "普攻·机兵第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "18.57%+74.26%",
+      "sourceNode": 2,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 0.9283,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1210200301"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200304"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200305"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        7,
+        9,
+        11,
+        12,
+        14,
+        16,
+        18
+      ],
+      "id": "aemeath/mech_basic_03",
+      "name": "普攻·机兵第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "3.89%*6+81.54%+11.65%",
+      "sourceNode": 2,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.1653,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 28,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210200401"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200402"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        24
+      ],
+      "id": "aemeath/mech_basic_04",
+      "name": "普攻·机兵第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "40.38%+94.21%",
+      "sourceNode": 2,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.3459,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210200601"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "aemeath/mech_heavy",
+      "name": "重击·机兵·一段蓄力伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech_charge_1",
+      "sourceFormula": "92.83%",
+      "sourceNode": 2,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.9283,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 36,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210200602"
+        }
+      ],
+      "hitTimesTicks": [
+        10
+      ],
+      "id": "aemeath/mech_heavy_charge_2",
+      "name": "重击·机兵·二段蓄力伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech_charge_2",
+      "sourceFormula": "232.00%",
+      "sourceNode": 2,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.32,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210200801"
+        },
+        {
+          "count": 3,
+          "damageId": "1210200802"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        15,
+        20
+      ],
+      "id": "aemeath/mech_air",
+      "name": "空中攻击·机兵伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "73.35%+4.32%*3",
+      "sourceNode": 2,
+      "sourceParameter": "9",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 0.8631,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 6,
+          "damageId": "1210200501"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200504"
+        },
+        {
+          "count": 1,
+          "damageId": "1210200505"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        6,
+        7,
+        9,
+        11,
+        13,
+        14,
+        16
+      ],
+      "id": "aemeath/mech_dodge_counter",
+      "name": "闪避反击·机兵伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "mech",
+      "sourceFormula": "9.45%*6+198.44%+28.35%",
+      "sourceNode": 2,
+      "sourceParameter": "10",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 2.8349,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 110,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12101201010"
+        },
+        {
+          "count": 3,
+          "damageId": "12101201020"
+        }
+      ],
+      "hitTimesTicks": [
+        60,
+        70,
+        80,
+        90
+      ],
+      "id": "aemeath/liberation",
+      "name": "星辉破界而来·过载伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "overload_c0",
+      "sourceFormula": "200.80%+267.74%*3",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Complete official skill-card2: human reach/turn0-2s, mech reveal2-3s, attack3-4.5s, recovery5.5s; sampled MC timing fit, not frame-exact.",
+      "totalHitCount": 4,
+      "totalMultiplier": 10.0402,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 110,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12101202010"
+        }
+      ],
+      "hitTimesTicks": [
+        70
+      ],
+      "id": "aemeath/liberation_finale",
+      "name": "星辉破界而来·终结伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "finale_c0",
+      "sourceFormula": "1789.29%",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Official card2 active9.5-15s: human gesture, mech descent, burst at13s, recovery15s; half-second sampled MC fit, not frame-exact.",
+      "totalHitCount": 1,
+      "totalMultiplier": 17.8929,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 2,
+          "damageId": "1210100801"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100803"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        20
+      ],
+      "id": "aemeath/intro",
+      "name": "以旋律穿越长空伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "melody",
+      "sourceFormula": "13.46%*2+107.66%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.3458,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210100804"
+        },
+        {
+          "count": 1,
+          "damageId": "1210100805"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        20
+      ],
+      "id": "aemeath/intro_starlight",
+      "name": "携星辉降临于此伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "starlight",
+      "sourceFormula": "65.30%+97.95%",
+      "sourceNode": 6,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.6325,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 42,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 7.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 4,
+          "damageId": "12101105010"
+        },
+        {
+          "count": 3,
+          "damageId": "12101105030"
+        },
+        {
+          "count": 1,
+          "damageId": "12101105040"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        12,
+        17,
+        21,
+        25,
+        29,
+        34,
+        38
+      ],
+      "id": "aemeath/wing_ensemble_stage",
+      "name": "光翼共奏·登台伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "stage_c0",
+      "sourceFormula": "17.90%*4+35.79%*3+178.93%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 3.579,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 42,
+      "executable": true,
+      "geometry": {
+        "delivery": "direct_area",
+        "rangeBlocks": 7.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "12102105010"
+        },
+        {
+          "count": 6,
+          "damageId": "12102105020"
+        },
+        {
+          "count": 3,
+          "damageId": "12102105030"
+        },
+        {
+          "count": 3,
+          "damageId": "12102105040"
+        }
+      ],
+      "hitTimesTicks": [
+        8,
+        10,
+        13,
+        16,
+        18,
+        20,
+        23,
+        26,
+        28,
+        30,
+        33,
+        36,
+        38
+      ],
+      "id": "aemeath/wing_ensemble_descend",
+      "name": "光翼共奏·降临伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "descend_c0",
+      "sourceFormula": "17.90%+14.92%*6+23.86%*3+59.65%*3",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 13,
+      "totalMultiplier": 3.5795,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "121099004"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aemeath/tune_response_starburst",
+      "name": "震谐响应·星爆伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "tune_mode",
+      "sourceFormula": "596.43%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 5.9643,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "aemeath",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "autonomous",
+        "rangeBlocks": 4.0,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.2
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "1210110507"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "aemeath/wing_extra_hit",
+      "name": "光翼共奏追加伤害（每次）",
+      "nativeTimingVerified": false,
+      "requiredForm": "extra_damage_trigger",
+      "sourceFormula": "109.35%",
+      "sourceNode": 7,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0935,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "everbright_polestar"
+    }
+  ],
+  "schemaVersion": 1
+}

@@ -1,0 +1,164 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "aero",
+      "id": "28003801",
+      "kind": "echo",
+      "multiplier": 2.736,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 4,
+        "element_power": 0,
+        "energy": 380,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          15200,
+          18240,
+          21280,
+          24320,
+          27360
+        ],
+        "related_property": "攻击",
+        "tough_lv": 15200,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.557630826182063,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤无铭探索者，攻击贯穿路径上的敌人造成273.60%的气动伤害。\n在首位装配该声骸技能时，自身气动伤害加成提升12.00%，声骸技能伤害加成提升20.00%。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "无铭探索者",
+  "parameters": [
+    "273.60%",
+    "12.00%",
+    "20.00%",
+    "20"
+  ],
+  "raw": {
+    "code": "W89-",
+    "group": {
+      "29": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriWindVision.T_IconElementAttriWindVision",
+        "id": 29,
+        "name": "听唤语义之愿",
+        "set": {
+          "2": {
+            "desc": "气动伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色造成声骸技能伤害时，声骸技能伤害的暴击提升{0}，自身气动伤害提升{1}，持续{2}秒。",
+            "param": [
+              "20%",
+              "15%",
+              "5"
+            ]
+          }
+        }
+      },
+      "31": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriSupport1.T_IconElementAttriSupport1",
+        "id": 31,
+        "name": "剪心辑梦之影",
+        "set": {
+          "2": {
+            "desc": "攻击提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【震谐·偏移】或【集谐·偏移】时，队伍中角色谐度破坏增幅提升{0}点，持续{1}秒，同名效果之间不可叠加。",
+            "param": [
+              "20",
+              "30"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34026_UI.T_IconMonsterHead_34026_UI",
+    "id": 6000192,
+    "intensity": "",
+    "intensity_code": 2,
+    "monster_info": 340000260,
+    "name": "无铭探索者",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "28003801": {
+          "element": 4,
+          "element_power": 0,
+          "energy": 380,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            15200,
+            18240,
+            21280,
+            24320,
+            27360
+          ],
+          "related_property": "攻击",
+          "tough_lv": 15200,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤无铭探索者，攻击贯穿路径上的敌人造成{0}的气动伤害。\n在首位装配该声骸技能时，自身气动伤害加成提升{1}，声骸技能伤害加成提升{2}。\n技能冷却：{3}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34026_UI.T_MstSkil_34026_UI",
+      "param": [
+        [
+          "152.00%",
+          "12.00%",
+          "20.00%",
+          "20"
+        ],
+        [
+          "182.40%",
+          "12.00%",
+          "20.00%",
+          "20"
+        ],
+        [
+          "212.80%",
+          "12.00%",
+          "20.00%",
+          "20"
+        ],
+        [
+          "243.20%",
+          "12.00%",
+          "20.00%",
+          "20"
+        ],
+        [
+          "273.60%",
+          "12.00%",
+          "20.00%",
+          "20"
+        ]
+      ],
+      "simple_desc": "召唤无铭探索者，对敌人造成气动伤害。\n在首位装配该声骸技能时，提高自身气动和声骸技能伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000192
+}

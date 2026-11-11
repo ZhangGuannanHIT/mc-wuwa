@@ -1,0 +1,900 @@
+{
+  "actions": [
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 14,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150700101"
+        }
+      ],
+      "hitTimesTicks": [
+        3
+      ],
+      "id": "zani/basic_01",
+      "name": "第一段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "58.85%",
+      "sourceNode": 1,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.5885,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 18,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150700201"
+        }
+      ],
+      "hitTimesTicks": [
+        4
+      ],
+      "id": "zani/basic_02",
+      "name": "第二段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "79.53%",
+      "sourceNode": 1,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.7953,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 22,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150700301"
+        },
+        {
+          "count": 1,
+          "damageId": "150700302"
+        },
+        {
+          "count": 1,
+          "damageId": "150700303"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        12,
+        18
+      ],
+      "id": "zani/basic_03",
+      "name": "第三段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "42.42%*3",
+      "sourceNode": 1,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 1.2726,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150700401"
+        },
+        {
+          "count": 1,
+          "damageId": "150700402"
+        },
+        {
+          "count": 1,
+          "damageId": "150700403"
+        },
+        {
+          "count": 1,
+          "damageId": "150700404"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        11,
+        17,
+        22
+      ],
+      "id": "zani/basic_04",
+      "name": "第四段伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "67.60%*4",
+      "sourceNode": 1,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 2.704,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150710101"
+        },
+        {
+          "count": 7,
+          "damageId": "150710102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20
+      ],
+      "id": "zani/breakthrough",
+      "name": "突破性进展伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "61.50%+17.58%*7",
+      "sourceNode": 1,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 8,
+      "totalMultiplier": 1.8456,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150720101"
+        },
+        {
+          "count": 2,
+          "damageId": "150720102"
+        },
+        {
+          "count": 1,
+          "damageId": "150720105"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        12,
+        17,
+        22
+      ],
+      "id": "zani/heavy",
+      "name": "重击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "41.08%*4",
+      "sourceNode": 1,
+      "sourceParameter": "6",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 4,
+      "totalMultiplier": 1.6432,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150760101"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "zani/air",
+      "name": "空中攻击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "104.98%",
+      "sourceNode": 1,
+      "sourceParameter": "7",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.0498,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 20,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150700501"
+        },
+        {
+          "count": 1,
+          "damageId": "150700502"
+        },
+        {
+          "count": 1,
+          "damageId": "150700503"
+        }
+      ],
+      "hitTimesTicks": [
+        4,
+        10,
+        16
+      ],
+      "id": "zani/dodge_counter",
+      "name": "闪避反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "74.23%*3",
+      "sourceNode": 1,
+      "sourceParameter": "8",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.2269,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150770102"
+        }
+      ],
+      "hitTimesTicks": [
+        6
+      ],
+      "id": "zani/skill",
+      "name": "标准防卫预案伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "63.94%",
+      "sourceNode": 2,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 0.6394,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150770201"
+        },
+        {
+          "count": 1,
+          "damageId": "150770202"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "zani/precise_counter",
+      "name": "精准反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "61.00%+121.99%",
+      "sourceNode": 2,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 1.8299,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150730101"
+        },
+        {
+          "count": 1,
+          "damageId": "150730103"
+        },
+        {
+          "count": 1,
+          "damageId": "150730102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "zani/suppression",
+      "name": "集中压制伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.19%+28.73%+172.37%",
+      "sourceNode": 2,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.8729,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150730101"
+        },
+        {
+          "count": 1,
+          "damageId": "150730103"
+        },
+        {
+          "count": 1,
+          "damageId": "150730102"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        13,
+        20
+      ],
+      "id": "zani/breach_counter",
+      "name": "破袭反击伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "86.19%+28.73%+172.37%",
+      "sourceNode": 2,
+      "sourceParameter": "4",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 3,
+      "totalMultiplier": 2.8729,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 48,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 8.0,
+        "requiresLineOfSight": true,
+        "shape": "sphere",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150750104"
+        }
+      ],
+      "hitTimesTicks": [
+        12
+      ],
+      "id": "zani/liberation",
+      "name": "重燃伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "normal",
+      "sourceFormula": "318.52%",
+      "sourceNode": 3,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 3.1852,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150750102"
+        },
+        {
+          "count": 1,
+          "damageId": "150750103"
+        }
+      ],
+      "hitTimesTicks": [
+        6,
+        20
+      ],
+      "id": "zani/finale",
+      "name": "终绝将至之刻伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "191.12%+1082.96%",
+      "sourceNode": 3,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 12.7408,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "durationTicks": 24,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "150710201"
+        },
+        {
+          "count": 4,
+          "damageId": "150710202"
+        },
+        {
+          "count": 1,
+          "damageId": "150710203"
+        }
+      ],
+      "hitTimesTicks": [
+        5,
+        8,
+        11,
+        14,
+        17,
+        20
+      ],
+      "id": "zani/intro",
+      "name": "技能伤害",
+      "nativeTimingVerified": false,
+      "requiredForm": "any",
+      "sourceFormula": "24.24%*5+80.80%",
+      "sourceNode": 6,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 6,
+      "totalMultiplier": 2.02,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "Published level10 stage formula with synthetic MC packets; original damage-ID dispatch unverified",
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_dawn_1"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "zani/heavy_dawn",
+      "name": "重斩·破晓伤害",
+      "nativeTimingVerified": false,
+      "originalDispatchVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "198.81%",
+      "sourceNode": 7,
+      "sourceParameter": "1",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 1.9881,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "Published level10 stage formula with synthetic MC packets; original damage-ID dispatch unverified",
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_day_1"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "zani/heavy_day",
+      "name": "重斩·将明伤害",
+      "nativeTimingVerified": false,
+      "originalDispatchVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "424.07%",
+      "sourceNode": 7,
+      "sourceParameter": "2",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.2407,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "Published level10 stage formula with synthetic MC packets; original damage-ID dispatch unverified",
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_night_1"
+        },
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_night_2"
+        }
+      ],
+      "hitTimesTicks": [
+        7,
+        22
+      ],
+      "id": "zani/heavy_night",
+      "name": "重斩·终夜伤害",
+      "nativeTimingVerified": false,
+      "originalDispatchVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "135.20%+262.43%",
+      "sourceNode": 7,
+      "sourceParameter": "3",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 2,
+      "totalMultiplier": 3.9762999999999997,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "Published level10 stage formula with synthetic MC packets; original damage-ID dispatch unverified",
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_flash_1"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "zani/heavy_flash",
+      "name": "重斩·闪裂伤害",
+      "nativeTimingVerified": false,
+      "originalDispatchVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "424.07%",
+      "sourceNode": 7,
+      "sourceParameter": "5",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 4.2407,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    },
+    {
+      "authoredApproximation": true,
+      "characterId": "zani",
+      "damageGroupingVerified": true,
+      "dispatchBasis": "Published level10 stage formula with synthetic MC packets; original damage-ID dispatch unverified",
+      "durationTicks": 26,
+      "executable": true,
+      "geometry": {
+        "delivery": "melee",
+        "rangeBlocks": 4.5,
+        "requiresLineOfSight": true,
+        "shape": "cone",
+        "source": "minecraft_authored_approximation",
+        "widthBlocks": 2.4
+      },
+      "hitGroups": [
+        {
+          "count": 1,
+          "damageId": "mc_zani_heavy_night_2"
+        }
+      ],
+      "hitTimesTicks": [
+        7
+      ],
+      "id": "zani/heavy_night_last",
+      "name": "重斩·终夜第二段",
+      "nativeTimingVerified": false,
+      "originalDispatchVerified": false,
+      "requiredForm": "blazing",
+      "sourceFormula": "262.43%",
+      "sourceNode": 7,
+      "sourceParameter": "night_last",
+      "timingEvidence": "Minecraft authoring profile; missing original timing is not claimed verified.",
+      "totalHitCount": 1,
+      "totalMultiplier": 2.6243,
+      "unresolved": [
+        "Original timing and geometry not measured; authored Minecraft approximations supplied.",
+        "Character strategy must independently validate form, resources, chain and cancellation."
+      ],
+      "weaponId": "blazing_justice"
+    }
+  ],
+  "schemaVersion": 1
+}

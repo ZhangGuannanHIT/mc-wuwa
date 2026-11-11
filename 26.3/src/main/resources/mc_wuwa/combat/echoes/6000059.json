@@ -1,0 +1,361 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "28001201",
+      "kind": "skill",
+      "multiplier": 0.64,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 0,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          4000,
+          4600,
+          5200,
+          5800,
+          6400
+        ],
+        "related_property": "攻击",
+        "tough_lv": 4000,
+        "type": 4,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 4,
+      "toughnessUnits": 0.6730607437321218,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "28001202",
+      "kind": "skill",
+      "multiplier": 0.16,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 0,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          1000,
+          1150,
+          1300,
+          1450,
+          1600
+        ],
+        "related_property": "攻击",
+        "tough_lv": 800,
+        "type": 4,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 4,
+      "toughnessUnits": 0.13461214874642435,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "280012002",
+      "kind": "echo",
+      "multiplier": 0.4864,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 76,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3040,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.5115261652364126,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "280012003",
+      "kind": "echo",
+      "multiplier": 0.1945,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 30,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          1216,
+          1398,
+          1580,
+          1763,
+          1945
+        ],
+        "related_property": "攻击",
+        "tough_lv": 1216,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.20461046609456504,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "spectro",
+      "id": "280012004",
+      "kind": "echo",
+      "multiplier": 0.4864,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 5,
+        "element_power": 0,
+        "energy": 76,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          3040,
+          3496,
+          3952,
+          4408,
+          4864
+        ],
+        "related_property": "攻击",
+        "tough_lv": 3040,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.5115261652364126,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，召唤「角」腾跃而起，对目标造成48.64%的衍射伤害并降下光雷，光雷对周围目标造成最多五段，每段19.46%的衍射伤害。随后「角」向下盘旋攻击周围敌人，连续两次造成48.64%的衍射伤害。\n施放声骸技能时，获得「光阴之祝」，持续15秒。\n「光阴之祝」持续期间：\n·自身的共鸣技能伤害加成提升16.00%；\n·自身的共鸣技能命中目标后，目标每秒受到1次16.00%衍射伤害，此次伤害为角色的共鸣技能伤害，持续15秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "角",
+  "parameters": [
+    "48.64%",
+    "19.46%",
+    "48.64%",
+    "15",
+    "16.00%",
+    "16.00%",
+    "15",
+    "20"
+  ],
+  "raw": {
+    "code": "Z01-",
+    "group": {
+      "5": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriLight.T_IconElementAttriLight",
+        "id": 5,
+        "name": "浮星祛暗",
+        "set": {
+          "2": {
+            "desc": "衍射伤害提升10%",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "使用变奏技能登场时，衍射伤害提升30%，持续15秒",
+            "param": [
+              "30%"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_327_UI.T_IconMonsterHead_327_UI",
+    "id": 6000059,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000090,
+    "name": "角",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "280012002": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 76,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3040,
+            3496,
+            3952,
+            4408,
+            4864
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3040,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "280012003": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 30,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            1216,
+            1398,
+            1580,
+            1763,
+            1945
+          ],
+          "related_property": "攻击",
+          "tough_lv": 1216,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "280012004": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 76,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            3040,
+            3496,
+            3952,
+            4408,
+            4864
+          ],
+          "related_property": "攻击",
+          "tough_lv": 3040,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "28001201": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 0,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            4000,
+            4600,
+            5200,
+            5800,
+            6400
+          ],
+          "related_property": "攻击",
+          "tough_lv": 4000,
+          "type": 4,
+          "weakness_lvl": 0
+        },
+        "28001202": {
+          "element": 5,
+          "element_power": 0,
+          "energy": 0,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            1000,
+            1150,
+            1300,
+            1450,
+            1600
+          ],
+          "related_property": "攻击",
+          "tough_lv": 800,
+          "type": 4,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，召唤「角」腾跃而起，对目标造成{0}的衍射伤害并降下光雷，光雷对周围目标造成最多五段，每段{1}的衍射伤害。随后「角」向下盘旋攻击周围敌人，连续两次造成{2}的衍射伤害。\n施放声骸技能时，获得「光阴之祝」，持续{3}秒。\n「光阴之祝」持续期间：\n·自身的共鸣技能伤害加成提升{4}；\n·自身的共鸣技能命中目标后，目标每秒受到1次{5}衍射伤害，此次伤害为角色的共鸣技能伤害，持续{6}秒。\n技能冷却：{7}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_328_UI.T_MstSkil_328_UI",
+      "param": [
+        [
+          "30.40%",
+          "12.16%",
+          "30.40%",
+          "15",
+          "16.00%",
+          "10.00%",
+          "15",
+          "20"
+        ],
+        [
+          "34.96%",
+          "13.98%",
+          "34.96%",
+          "15",
+          "16.00%",
+          "11.50%",
+          "15",
+          "20"
+        ],
+        [
+          "39.52%",
+          "15.81%",
+          "39.52%",
+          "15",
+          "16.00%",
+          "13.00%",
+          "15",
+          "20"
+        ],
+        [
+          "44.08%",
+          "17.63%",
+          "44.08%",
+          "15",
+          "16.00%",
+          "14.50%",
+          "15",
+          "20"
+        ],
+        [
+          "48.64%",
+          "19.46%",
+          "48.64%",
+          "15",
+          "16.00%",
+          "16.00%",
+          "15",
+          "20"
+        ]
+      ],
+      "simple_desc": "短暂地召唤「角」攻击敌人，造成衍射伤害。施放声骸技能后，角色的共鸣技能可令敌人受到持续的衍射伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000059
+}

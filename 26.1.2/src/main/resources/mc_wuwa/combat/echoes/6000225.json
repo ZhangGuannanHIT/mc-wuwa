@@ -1,0 +1,337 @@
+{
+  "damages": [
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "280045010",
+      "kind": "echo",
+      "multiplier": 0.082,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 11,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          456,
+          547,
+          638,
+          729,
+          820
+        ],
+        "related_property": "攻击",
+        "tough_lv": 456,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.0767289247854619,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "280045011",
+      "kind": "echo",
+      "multiplier": 2.3256,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 323,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          12920,
+          15504,
+          18088,
+          20672,
+          23256
+        ],
+        "related_property": "攻击",
+        "tough_lv": 12920,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 2.1739862022547536,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "280045012",
+      "kind": "echo",
+      "multiplier": 0.2736,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 38,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          1520,
+          1824,
+          2128,
+          2432,
+          2736
+        ],
+        "related_property": "攻击",
+        "tough_lv": 1520,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 0.2557630826182063,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    },
+    {
+      "actionMappingVerified": false,
+      "element": "electro",
+      "id": "280045013",
+      "kind": "echo",
+      "multiplier": 1.6416,
+      "offTuneUnits": 0.0,
+      "raw": {
+        "element": 3,
+        "element_power": 0,
+        "energy": 228,
+        "hardness_lv": 10000,
+        "rate_lv": [
+          9120,
+          10944,
+          12768,
+          14592,
+          16416
+        ],
+        "related_property": "攻击",
+        "tough_lv": 9120,
+        "type": 5,
+        "weakness_lvl": 0
+      },
+      "scalingProperty": "attack",
+      "skillLevel": 5,
+      "sourceType": 5,
+      "toughnessUnits": 1.5345784957092377,
+      "unresolved": [
+        "hit timing, geometry and condition-to-damage-ID mapping"
+      ]
+    }
+  ],
+  "description": "使用声骸技能，对敌人造成四段27.36%和一段164.16%的导电伤害。\n若装配角色为心，则声骸技能将变为对更大范围内的敌人造成至多五段8.20%和一段232.56%的导电伤害。\n在首位装配该声骸技能时，自身导电伤害加成提升10.00%；自身为目标附加【电磁效应】后，或自身获得同奏、响应同奏时，自身导电伤害加成额外提升10.00%，持续30秒。\n技能冷却：20秒",
+  "mechanicsFullyImplemented": false,
+  "name": "共鸣回响·天演溯心",
+  "parameters": [
+    "27.36%",
+    "164.16%",
+    "8.20%",
+    "232.56%",
+    "10.00%",
+    "10.00%",
+    "30",
+    "20"
+  ],
+  "raw": {
+    "code": "Z07-",
+    "group": {
+      "36": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriXin.T_IconElementAttriXin",
+        "id": 36,
+        "name": "衔梦照世之心",
+        "set": {
+          "2": {
+            "desc": "导电伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【电磁效应】时，或自身获得同奏、响应同奏时，自身暴击提升{0}，导电伤害提升{1}，持续{2}秒。",
+            "param": [
+              "15%",
+              "22.5%",
+              "30"
+            ]
+          }
+        }
+      },
+      "37": {
+        "color": "FFFFFF00",
+        "icon": "/Game/Aki/UI/UIResources/Common/Image/IconElementAttri/T_IconElementAttriThunderError.T_IconElementAttriThunderError",
+        "id": 37,
+        "name": "镜影流电之瞬",
+        "set": {
+          "2": {
+            "desc": "导电伤害提升{0}",
+            "param": [
+              "10%"
+            ]
+          },
+          "5": {
+            "desc": "角色为敌人添加【电磁效应】时，自身获得下述效果：导电伤害提升{0}，持续{1}秒。持续期间内施放延奏技能后，下一个变奏技能登场的角色导电伤害提升{2}，持续{3}秒。",
+            "param": [
+              "10%",
+              "15",
+              "25%",
+              "15"
+            ]
+          }
+        }
+      }
+    },
+    "icon": "/Game/Aki/UI/UIResources/Common/Image/IconMonsterHead/T_IconMonsterHead_34033_2_UI.T_IconMonsterHead_34033_2_UI",
+    "id": 6000225,
+    "intensity": "",
+    "intensity_code": 3,
+    "monster_info": 340000332,
+    "name": "共鸣回响·天演溯心",
+    "place": "",
+    "rarity": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "skill": {
+      "damage": {
+        "280045010": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 11,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            456,
+            547,
+            638,
+            729,
+            820
+          ],
+          "related_property": "攻击",
+          "tough_lv": 456,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "280045011": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 323,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            12920,
+            15504,
+            18088,
+            20672,
+            23256
+          ],
+          "related_property": "攻击",
+          "tough_lv": 12920,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "280045012": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 38,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            1520,
+            1824,
+            2128,
+            2432,
+            2736
+          ],
+          "related_property": "攻击",
+          "tough_lv": 1520,
+          "type": 5,
+          "weakness_lvl": 0
+        },
+        "280045013": {
+          "element": 3,
+          "element_power": 0,
+          "energy": 228,
+          "hardness_lv": 10000,
+          "rate_lv": [
+            9120,
+            10944,
+            12768,
+            14592,
+            16416
+          ],
+          "related_property": "攻击",
+          "tough_lv": 9120,
+          "type": 5,
+          "weakness_lvl": 0
+        }
+      },
+      "desc": "使用声骸技能，对敌人造成四段{0}和一段{1}的导电伤害。\n若装配角色为心，则声骸技能将变为对更大范围内的敌人造成至多五段{2}和一段{3}的导电伤害。\n在首位装配该声骸技能时，自身导电伤害加成提升{4}；自身为目标附加【电磁效应】后，或自身获得同奏、响应同奏时，自身导电伤害加成额外提升{5}，持续{6}秒。\n技能冷却：{7}秒",
+      "icon": "/Game/Aki/UI/UIResources/Common/Image/MstSkill/T_MstSkil_34033_UI.T_MstSkil_34033_UI",
+      "param": [
+        [
+          "15.20%",
+          "91.20%",
+          "4.56%",
+          "129.20%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "18.24%",
+          "109.44%",
+          "5.47%",
+          "155.04%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "21.28%",
+          "127.68%",
+          "6.38%",
+          "180.88%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "24.32%",
+          "145.92%",
+          "7.29%",
+          "206.72%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ],
+        [
+          "27.36%",
+          "164.16%",
+          "8.20%",
+          "232.56%",
+          "10.00%",
+          "10.00%",
+          "30",
+          "20"
+        ]
+      ],
+      "simple_desc": "使用声骸技能，对敌人造成导电伤害。\n在首位装配时，提高自身导电伤害；自身为目标附加【电磁效应】后，或自身获得同奏、响应同奏时，额外提高自身导电伤害。"
+    },
+    "type": ""
+  },
+  "sourceId": 6000225
+}
